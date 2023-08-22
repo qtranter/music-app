@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.audiomack.views.AMProgressBar
+        android:id="@+id/playerActionBtnProgress"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/playerActionBtnContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        
+        <FrameLayout
+            android:id="@+id/playerActionBtnContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/playerActionBtnContentImage"
+                android:layout_width="36dp"
+                android:layout_height="32dp"
+                android:scaleType="centerInside"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/ic_downloaded" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/playerActionBtnBadge"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="end|top"
+                android:background="@drawable/count_yellow"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textColor="#ffffff"
+                android:textSize="9sp"
+                android:visibility="gone"
+                tools:ignore="SmallSp"
+                tools:text="12"
+                tools:visibility="visible" />
+        </FrameLayout>
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/playerActionBtnContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-4dp"
+            android:ellipsize="middle"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lineSpacingMultiplier="0.8"
+            android:singleLine="true"
+            android:textColor="#FF999999"
+            android:textSize="11sp"
+            app:customletterspacing="-0.42"
+            tools:ignore="SmallSp"
+            tools:maxWidth="64dp"
+            tools:text="@string/options_favorite" />
+
+    </LinearLayout>
+
+</merge>

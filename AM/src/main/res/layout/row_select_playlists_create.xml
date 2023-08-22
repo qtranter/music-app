@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/opensans_extrabold"
+        android:text="@string/addtoplaylist_create"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        app:customletterspacing="-0.6" />
+
+    <LinearLayout
+        android:id="@+id/layoutCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonActions"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/playlist_add_placeholder" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_bold"
+            android:singleLine="true"
+            android:text="@string/addtoplaylist_create_hint"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            app:customletterspacing="-0.54" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="#292929" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/opensans_extrabold"
+        android:text="@string/addtoplaylist_addtoexisting"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        app:customletterspacing="-0.6" />
+
+</LinearLayout>

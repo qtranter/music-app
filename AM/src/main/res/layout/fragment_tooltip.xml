@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tooltipContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#000000">
+
+    <View
+        android:id="@+id/viewCircle"
+        android:layout_width="480dp"
+        android:layout_height="480dp"
+        android:layout_gravity="top|end"
+        android:layout_marginStart="-240dp"
+        android:layout_marginTop="-240dp"
+        android:layout_marginEnd="-240dp"
+        android:layout_marginBottom="-240dp"
+        android:background="@drawable/tooltip_circle" />
+
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="44dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            tools:src="@drawable/tooltip_playlists" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            app:customletterspacing="-0.47"
+            tools:text="@string/tooltip_playlists" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_gravity="top|end"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="170dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_close"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white" />
+
+</FrameLayout>

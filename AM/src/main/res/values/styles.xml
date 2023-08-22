@@ -1,0 +1,458 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background_color</item>
+
+        <!-- Switch active thumb color and active track color -->
+        <item name="colorControlActivated">@color/orange</item>
+        <!-- Switch inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#ffffff</item>
+        <!-- Switch inactive track color -->
+        <item name="android:colorForeground">#555555</item>
+
+        <item name="android:statusBarColor">@color/background_color</item>
+
+        <!-- Chromecast theme -->
+        <item name="mediaRouteTheme">@style/MediaRouterTheme</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:textColor">@color/white</item>
+
+        <!-- Switch active thumb color and active track color -->
+        <item name="colorControlActivated">@color/orange</item>
+        <!-- Switch inactive thumb color -->
+        <item name="colorSwitchThumbNormal">#ffffff</item>
+        <!-- Switch inactive track color -->
+        <item name="android:colorForeground">#555555</item>
+
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="materialCalendarTheme">@style/MaterialDatePickerDialog</item>
+    </style>
+
+    <style name="LoginSignupEditText" parent="android:Widget.EditText">
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">@color/login_text_color</item>
+        <item name="android:textColorHint">@color/login_hint_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textCursorDrawable">@drawable/login_edittext_cursor</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="FullScreenDialogOverlay">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="AudiomackDialogFragment" parent="Theme.AppCompat.Dialog.MinWidth">
+        <item name="android:windowMinWidthMajor">300dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+    </style>
+
+    <style name="AudiomackAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="EditAccountView">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="AccountDetailsView">
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance">
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="TabLayoutDarkTextAppearance">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="now_playing_tab">
+        <item name="android:button">@null</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="customletterspacing">-0.6</item>
+    </style>
+
+    <style name="ZendeskDarkTheme" parent="ZendeskSdkTheme.Light.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="SlideUpMenuInlineButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@null</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawablePadding">14dp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/slideup_menu_row_height</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="customletterspacing">-0.44</item>
+    </style>
+
+    <style name="SlideUpMenuShareButton" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@null</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ScreenshotActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="TextInputEditTextError" parent="android:style/TextAppearance">
+        <item name="android:background">@null</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:textColor">@color/red_error</item>
+        <item name="android:textSize">10dp</item>
+    </style>
+
+    <style name="FilterGenreTextView" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="customletterspacing">-0.44</item>
+        <item name="drawableStartCompat">@drawable/ic_check_off</item>
+    </style>
+
+    <style name="DefaultGenreTextView" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="customletterspacing">-0.44</item>
+        <item name="drawableStartCompat">@drawable/ic_check_off</item>
+    </style>
+
+    <style name="ContactSupportTitleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="customletterspacing">-0.65</item>
+    </style>
+
+    <style name="ContactSupportInputTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:drawableEnd">@drawable/ic_arrow_down_white</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="customletterspacing">-0.54</item>
+    </style>
+
+    <style name="ContactSupportBorderView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:alpha">0.3</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="MediaRouterTheme" parent="Theme.MediaRouter">
+        <item name="mediaRouteButtonStyle">@style/MediaRouteButtonStyle</item>
+    </style>
+
+    <style name="MediaRouteButtonStyle" parent="Widget.MediaRouter.MediaRouteButton">
+        <item name="externalRouteEnabledDrawable">@drawable/cast_button</item>
+        <item name="externalRouteEnabledDrawableStatic">@drawable/cast_button_static</item>
+    </style>
+
+    <style name="WebViewDialog" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="ProgressLogoView">
+        <item name="android:layout_width">230dp</item>
+        <item name="android:layout_height">117dp</item>
+        <item name="lottie_rawRes">@raw/splash_loader</item>
+        <item name="lottie_loop">true</item>
+        <item name="lottie_repeatMode">reverse</item>
+        <item name="lottie_autoPlay">true</item>
+        <item name="lottie_speed">1.5</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Material date picker -->
+    <style name="MaterialDatePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorError">@color/red_error</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+
+        <!-- Header Styles -->
+        <item name="materialCalendarHeaderLayout">@style/MaterialCalendar.HeaderLayout</item>
+
+        <!-- Body Styles -->
+        <item name="materialCalendarStyle">@style/MaterialCalendar.Style</item>
+
+        <!-- Action Styles -->
+        <item name="buttonBarPositiveButtonStyle">@style/MaterialCalendar.ButtonOk</item>
+        <item name="buttonBarNegativeButtonStyle">@style/MaterialCalendar.ButtonCancel</item>
+    </style>
+
+    <style name="MaterialCalendar.Style" parent="Widget.MaterialComponents.MaterialCalendar">
+        <item name="daySelectedStyle">@style/MaterialCalendar.daySelectedStyle</item>
+        <item name="yearSelectedStyle">@style/MaterialCalendar.yearSelectedStyle</item>
+    </style>
+
+    <style name="MaterialCalendar.daySelectedStyle" parent="Widget.MaterialComponents.MaterialCalendar.Day.Selected">
+        <item name="itemFillColor">@color/orange</item>
+    </style>
+
+    <style name="MaterialCalendar.yearSelectedStyle" parent="Widget.MaterialComponents.MaterialCalendar.Year.Selected">
+        <item name="itemFillColor">@color/orange</item>
+    </style>
+
+
+    <style name="MaterialCalendar.ButtonCancel" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="MaterialCalendar.ButtonOk" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="MaterialCalendar.HeaderLayout" parent="android:Widget">
+        <item name="android:background">@color/orange</item>
+    </style>
+    <!-- Material date picker -->
+
+    <style name="item_spinner_auth">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:gravity">bottom|start</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="OpenSourceTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="ReportContentSelection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="customletterspacing">-0.44</item>
+        <item name="drawableStartCompat">@drawable/ic_check_off</item>
+    </style>
+
+    <style name="PillFilter">
+        <item name="android:textColor">#ffffff</item>
+        <item name="fontFamily">@font/opensans_extrabold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="customletterspacing">-0.67</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/pill_background</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:maxWidth">140dp</item>
+	</style>
+
+    <style name="HeaderDownloadTabButton">
+        <item name="android:button">@null</item>
+        <item name="android:fontFamily">@font/opensans_extrabold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="customletterspacing">-0.6</item>
+    </style>
+
+    <style name="PremiumDownloadBullet">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="customletterspacing">-0.4</item>
+        <item name="drawableStartCompat">@drawable/download_premium_bullet</item>
+    </style>
+
+    <style name="NotificationsManagerCategory">
+        <item name="android:textSize">13sp</item>
+        <item name="customletterspacing">-0.6</item>
+        <item name="android:fontFamily">@font/opensans_extrabold</item>
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_marginTop">26dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_gravity">center_vertical|end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="switchPadding">14dp</item>
+    </style>
+
+    <style name="NotificationsManagerEntry">
+        <item name="android:textSize">16sp</item>
+        <item name="customletterspacing">-0.43</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_gravity">center_vertical|end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="switchPadding">14dp</item>
+    </style>
+
+    <style name="SettingsListButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawableEnd">@drawable/settings_chevron</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16dp</item>
+        <item name="customletterspacing">-0.43</item>
+    </style>
+
+    <style name="SettingsListSwitch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">61dp</item>
+        <item name="android:layout_gravity">center_vertical|end</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16sp</item>
+        <item name="customletterspacing">-0.43</item>
+        <item name="switchPadding">14dp</item>
+    </style>
+
+    <style name="InAppPurchaseListTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="customletterspacing">-0.43</item>
+    </style>
+
+    <style name="InAppPurchaseListSubtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">50dp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="customletterspacing">-0.5</item>
+    </style>
+
+    <style name="SleepTimerNumberPickerStyle">
+        <item name="npv_DividerColor">#333333</item>
+        <item name="npv_DividerHeight">1dp</item>
+        <item name="npv_ItemPaddingVertical">20dp</item>
+        <item name="npv_TextColorNormal">#CACACA</item>
+        <item name="npv_TextColorSelected">@color/white</item>
+        <item name="npv_TextSizeSelected">16sp</item>
+        <item name="npv_TextSizeNormal">16sp</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/opensans_extrabold</item>
+    </style>
+
+    <style name="Widget.Audiomack.TextView.Label" parent="@style/Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/opensans_extrabold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor" tools:ignore="PrivateResource">@color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="customletterspacing">-0.6</item>
+    </style>
+
+    <style name="Widget.Audiomack.TextView.MenuItem" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">14dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="customletterspacing">-0.4</item>
+    </style>
+
+</resources>

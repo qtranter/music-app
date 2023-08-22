@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/header_download_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.audiomack.ui.mylibrary.OfflineHeader
+        android:id="@+id/layoutFilters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layoutRemovedContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="6dp">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvRemovedContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/opensans_bold"
+            android:paddingStart="10dp"
+            android:paddingEnd="2dp"
+            android:text="@string/removedcontent_header"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            app:customletterspacing="-0.5" />
+
+        <ImageButton
+            android:id="@+id/buttonRemovedContent"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:background="@null"
+            android:contentDescription="@string/accessibility_close"
+            android:scaleType="centerInside"
+            android:src="@drawable/highlighted_close" />
+
+    </LinearLayout>
+
+</LinearLayout>

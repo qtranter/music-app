@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    tools:ignore="SpUsage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvFeatured"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_extrabold"
+                android:maxLines="1"
+                android:textColor="@color/orange"
+                android:textSize="10dp"
+                app:customletterspacing="-0.46"
+                tools:text="FEATURED XXX" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:maxLines="2"
+                android:textColor="#ffffff"
+                android:textSize="16dp"
+                app:customletterspacing="-0.62"
+                tools:text="DJBooth" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_regular"
+                android:singleLine="true"
+                android:textColor="#CACACA"
+                android:textSize="12dp"
+                tools:text="2095 Followers" />
+
+        </LinearLayout>
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonFollow"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/profile_header_follow_bg"
+            android:contentDescription="@string/accessibility_toggle_follow"
+            android:fontFamily="@font/opensans_bold"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            app:customletterspacing="-0.67"
+            tools:text="@string/artistinfo_follow" />
+
+        <ImageView
+            android:id="@+id/imageViewChevron"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/accessibility_artist_info"
+            android:scaleType="centerInside"
+            android:src="@drawable/settings_chevron" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#202020" />
+
+</LinearLayout>

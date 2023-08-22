@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutToast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/dark_grey_toast_background"
+    android:clickable="true"
+    android:elevation="5dp"
+    android:focusable="true"
+    android:minHeight="55dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/accessibility_toast_image"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        tools:srcCompat="@drawable/ic_snackbar_error"
+        tools:visibility="visible" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivPhoto"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="5dp"
+        android:contentDescription="@string/accessibility_toast_image"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        tools:srcCompat="@drawable/ic_snackbar_error"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="start"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            app:customletterspacing="-0.46"
+            tools:text="Download Started" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="start"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp"
+            app:customletterspacing="-0.43"
+            tools:text="Click the tab on the bottom right" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSecondary"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/accessibility_toast_image"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        tools:srcCompat="@drawable/ic_snackbar_playlist_grey"
+        tools:visibility="visible" />
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:scrollbars="none">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_border_gray_dark"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <com.audiomack.views.AMCustomFontRadioButton
+            android:id="@+id/radioAll"
+            style="@style/PillFilter"
+            android:text="@string/favorites_filter_allmusic"
+            tools:checked="true" />
+
+        <com.audiomack.views.AMCustomFontRadioButton
+            android:id="@+id/radioSongs"
+            style="@style/PillFilter"
+            android:text="@string/favorites_filter_songs" />
+
+        <com.audiomack.views.AMCustomFontRadioButton
+            android:id="@+id/radioAlbums"
+            style="@style/PillFilter"
+            android:text="@string/favorites_filter_albums" />
+
+        <com.audiomack.views.AMCustomFontRadioButton
+            android:id="@+id/radioPlaylist"
+            style="@style/PillFilter"
+            android:text="@string/favorites_filter_playlists" />
+
+    </RadioGroup>
+
+</HorizontalScrollView>

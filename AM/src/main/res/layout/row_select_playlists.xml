@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingStart="20dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="8dp"
+    tools:ignore="SmallSp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|start"
+        android:contentDescription="@string/accessibility_song_image"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="vertical">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_bold"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            app:customletterspacing="-0.5"
+            tools:text="R&amp;B Hits" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvSongs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_semibold"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="11sp"
+            app:customletterspacing="-0.5"
+            tools:text="24 Songs" />
+
+    </LinearLayout>
+
+    <com.audiomack.views.AMAddToPlaylistButton
+        android:id="@+id/musicButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center_vertical|end"
+        android:background="@null"
+        android:clickable="false"
+        android:scaleType="centerInside"
+        tools:src="@drawable/account_follow" />
+
+</FrameLayout>

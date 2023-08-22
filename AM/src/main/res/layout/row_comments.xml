@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            tools:src="@color/orange" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                app:customletterspacing="-0.56"
+                tools:text="This is the comment" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvExpand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/orange"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:customletterspacing="-0.56"
+                tools:text="@string/comments_expand" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="horizontal">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:maxWidth="140dp"
+                    android:singleLine="true"
+                    android:textColor="@color/orange"
+                    android:textSize="12sp"
+                    app:customletterspacing="-0.56"
+                    tools:text="matteinn" />
+
+                <ImageView
+                    android:id="@+id/imageViewVerified"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitCenter"
+                    tools:srcCompat="@drawable/ic_verified" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvMinAgo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:ellipsize="none"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:singleLine="true"
+                    android:textColor="@color/tablayout_unselected_textcolor"
+                    android:textSize="12sp"
+                    app:customletterspacing="-0.56"
+                    tools:text="7 mins ago" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linCommentDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvUpVote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    app:customletterspacing="-0.56"
+                    tools:text="5" />
+
+                <com.audiomack.views.AMImageButton
+                    android:id="@+id/buttonUpVote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/up_vote_icon" />
+
+                <com.audiomack.views.AMImageButton
+                    android:id="@+id/buttonDownVote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/down_vote_icon" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvReply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginLeft="90dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_bold"
+                    android:singleLine="true"
+                    android:text="@string/comments_reply"
+                    android:textColor="@color/orange"
+                    android:textSize="13sp"
+                    app:customletterspacing="-0.56" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.audiomack.views.AMImageButton
+            android:id="@+id/buttonActions"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="25dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:contentDescription="@string/accessibility_actions"
+            android:padding="6dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/miniplayer_twodots" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#202020" />
+
+</LinearLayout>

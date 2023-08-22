@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0d0d">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTopTitle"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:background="#1C1C1C"
+        android:contentDescription="@string/settings_title"
+        android:fontFamily="@font/opensans_extrabold"
+        android:gravity="center"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp"
+        android:text="@string/help_title"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:customletterspacing="-0.89"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="40dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_back"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_button" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/help_message"
+        android:fontFamily="@font/opensans_regular"
+        android:gravity="center"
+        android:text="@string/help_message"
+        android:textColor="#CACACA"
+        android:textSize="16sp"
+        app:customletterspacing="-0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTopTitle" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonKnowledgeBase"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/popup_rounded_button"
+        android:contentDescription="@string/help_knowledgebase"
+        android:fontFamily="@font/opensans_bold"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:text="@string/help_knowledgebase"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        app:customletterspacing="-0.72"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMessage" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonTickets"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/popup_rounded_button"
+        android:contentDescription="@string/help_tickets_none"
+        android:fontFamily="@font/opensans_bold"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:text="@string/help_tickets_none"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        app:customletterspacing="-0.72"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonKnowledgeBase" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

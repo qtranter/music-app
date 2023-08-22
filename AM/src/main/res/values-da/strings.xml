@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">Prøv igen</string>
+
+    <string name="splash_offline">Du er ikke tilsluttet internettet og kan kun afspille musik du har downloadet.</string>
+
+    <string name="splash_gotodownloads">GÅ TIL OFFLINEMUSIK</string>
+
+    <string name="splash_message">For at du kan få en bedre oplevelse beder vi dig om at aktivere følgende tilladelser:</string>
+
+    <string name="splash_storage">Filadgang</string>
+
+    <string name="splash_storage_message">Du kan downloade sange og albums</string>
+
+    <string name="splash_location">Beliggenhed</string>
+
+    <string name="splash_location_message">Gør det muligt for Audiomack at vise populær musik i dit område</string>
+
+    <string name="splash_notifications">Tryk på beskeder</string>
+
+    <string name="splash_notifications_message">Vi kan give dig besked, når der udsendes ny hot musik</string>
+
+    <string name="splash_ok">OK, FORSTÅET!</string>
+
+    <string name="splash_later">Måske senere?</string>
+
+    <string name="splash_privacy_policy">Privatlivspolitik</string>
+
+    <string name="splash_autologin_timeout_error_message">Vi har problemer med at oprette forbindelse. Kontroller din internetforbindelse</string>
+
+    <string name="splash_autologin_timeout_error_ok">Okay</string>
+
+    <string name="splash_autologin_fail_message">Kunne ikke logge ind</string>
+
+    <string name="splash_autologin_facebook_error_message">Opdatering af Facebook-token mislykkedes</string>
+
+    <string name="home_tab_feed">Feed</string>
+
+    <string name="home_tab_playlists">Playlists</string>
+
+    <string name="home_tab_search">Søg</string>
+
+    <string name="home_tab_library">Mit bibliotek</string>
+
+    <string name="signup_tos">Ved at tilmelde dig accepterer du vores Servicevilkår og Privatlivspolitik</string>
+
+    <string name="signup_tos_highlighted_tos">Servicevilkår</string>
+
+    <string name="signup_tos_highlighted_privacy">Privatlivspolitik</string>
+
+    <string name="signup_username">Indtast et brugernavn</string>
+
+    <string name="signup_email">Indtast din e-mail</string>
+
+    <string name="signup_password">Opret et kodeord</string>
+
+    <string name="signup_password_confirm">Bekræft dit kodeord</string>
+
+    <string name="signup_create">OPRET DIN KONTO</string>
+
+    <string name="signup_facebook">Tilmeld dig med Facebook</string>
+
+    <string name="signup_go_to_login">HAR DU ALLEREDE EN KONTO?</string>
+
+    <string name="signup_header">OPRET EN GRATIS KONTO</string>
+
+    <string name="signup_birthday_label">Hvornår har du fødselsdag?</string>
+
+    <string name="signup_gender_label">Hvad er dit køn?</string>
+
+    <string name="signup_gender_male">Mand</string>
+
+    <string name="signup_gender_female">Kvinde</string>
+
+    <string name="signup_gender_other">Ikke-binær</string>
+
+    <string name="signup_disclaimer">Audiomack bruger disse data til at personliggøre din oplevelse, hjælpe kunstnere med at forstå deres lyttere og mere. Dine personlige data vil altid være anonyme.</string>
+
+    <string name="signup_finish">Afslut</string>
+
+    <string name="signup_error_birthday">Indtast en gyldig fødselsdag</string>
+
+    <string name="signup_error_gender">Vælg et køn</string>
+
+    <string name="login_show_password">Vis adgangskode</string>
+
+    <string name="login_error_timestamp">Tidsstempel udløbet. Dette kan betyde, at uret på din enhed viser forkert tid. Kontroller tid og dato, og hvis du stadig har problemer, send en e-mail til support\@audiomack.com.</string>
+
+    <string name="login_error_1037">De nødvendige detaljer kan ikke hentes. Sørg for, at du har angivet en e-mail-adresse på din konto, og prøv igen.</string>
+
+    <string name="login_header">LOG IND PÅ DIN KONTO</string>
+
+    <string name="login_email">E-mail</string>
+
+    <string name="login_password">Adgangskode</string>
+
+    <string name="login_forgot_password">Glemt kodeord</string>
+
+    <string name="login_cta">LOG IND</string>
+
+    <string name="login_facebook">Log ind med Facebook</string>
+
+    <string name="login_go_to_signup_hint">Har du ikke en konto?</string>
+
+    <string name="login_go_to_signup">OPRET EN GRATIS KONTO</string>
+
+    <string name="login_facebook_error_message">Login med Facebook mislykkedes</string>
+
+    <string name="login_facebook_error_button">Okay</string>
+
+    <string name="login_error_title">Login fejl</string>
+
+    <string name="login_error_message_facebook">Facebook-fejl</string>
+
+    <string name="login_tos">Ved at logge ind på Audiomack accepterer du vores Servicevilkår og Privatlivspolitik.</string>
+
+    <string name="login_tos_highlighted_tos">Servicevilkår</string>
+
+    <string name="login_tos_highlighted_privacy">Privatlivspolitik</string>
+
+    <string name="signup_error_title">Fejl ved tilmelding</string>
+
+    <string name="authentication_validation_username_empty">Brugernavn er tomt</string>
+
+    <string name="authentication_validation_email_empty">E-mail er tom</string>
+
+    <string name="authentication_validation_password_empty">Adgangskode er tom</string>
+
+    <string name="authentication_validation_password_mismatch">Adgangskoder stemmer ikke overens</string>
+
+    <string name="logout_alert_title">Log ud</string>
+
+    <string name="logout_alert_message">Log ud af Audiomack?</string>
+
+    <string name="logout_alert_no">Afbestil</string>
+
+    <string name="logout_alert_yes">Okay</string>
+
+    <string name="forgot_password_alert_title">Glemt kodeord</string>
+
+    <string name="forgot_password_alert_message">Indtast din e-mail, så viser vi dig, hvordan du kan nulstille din adgangskode</string>
+
+    <string name="forgot_password_alert_no">Afbestil</string>
+
+    <string name="forgot_password_alert_yes">Indsend</string>
+
+    <string name="forgot_password_alert_hint">Email adresse</string>
+
+    <string name="forgot_password_success">Tak skal du have. Kontroller din e-mail for instruktioner til at nulstille din adgangskode. Den kan være i din spam-mappe.</string>
+
+    <string name="forgot_password_failure_template">%s Hvis du har problemer, så send os en mail til support\@audiomack.com</string>
+
+    <string name="premium_start_trial">START DIN GRATIS 7 DAGES PRØVEPERIODE</string>
+
+    <string name="premium_price_template">%s pr. Måned efter prøveperioden</string>
+
+    <string name="premium_toc">Audiomack Premium-abonnementsbetingelser</string>
+
+    <string name="premium_desc_template">Audiomack Premium er et tilbagevendende abonnement.  Du bliver automatisk faktureret %s pr. måned via din Google Play-konto ved afslutningen af din 7-dages prøveperiode.  Dit abonnement fornyes automatisk, medmindre du annullerer eller deaktiverer automatisk fornyelse mindst 24 timer før faktureringsperioden udløber.  Du kan administrere dit abonnement i Google Play Butikken.</string>
+
+    <string name="premium_desc_template_ios">Hvis du køber et abonnement på Audiomack (%s pr. måned), debiteres betalingen på din iTunes-konto, og din konto bliver debiteret for fornyelse inden for 24 timer inden udgangen af den aktuelle abonnementsperiode. Hvis du ikke længere ønsker at blive faktureret for Audiomack Gold/Platinum og vil annullere dit premiummedlemskab, skal du sørge for at gøre det, før den 24 timers afbrydelse er gået. Auto-fornyelse kan til enhver tid slukkes ved at gå til dine indstillinger i iTunes Butik efter køb. Alle priser, der er nævnt her og i appen for Guld/Platinabonnement, er i amerikanske dollars, kan variere i andre lande rundt om i verden og kan blive ændret i fremtiden. Der er ikke tilladt annullere det aktuelle abonnement i løbet af din aktive abonnementsperiode. Audiomack er altid gratis at bruge uden et abonnement, og du kan fortsat bruge Audiomack med annoncer når som helst, når dit abonnement er afsluttet.</string>
+
+    <string name="premium_no_active_subscriptions">Du har ikke et aktivt abonnement.</string>
+
+    <string name="premium_unable_restore">Kan ikke gendanne det forrige køb</string>
+
+    <string name="premium_restore">Gendan forrige køb</string>
+
+    <string name="premium_and">og</string>
+
+    <string name="premium_terms_of_service">Servicevilkår</string>
+
+    <string name="premium_privacy_policy">Privatlivspolitik</string>
+
+    <string name="premium_subscribing">Ved at abonnere får du adgang til Audiomacks</string>
+
+    <string name="premium_2019_title">Opgrader til Audiomack Premium</string>
+
+    <string name="premium_2019_subtitle">Start din 7-dages gratis prøveperiode og få:</string>
+
+    <string name="premium_2019_adfree">En annoncefri oplevelse</string>
+
+    <string name="premium_2019_adfree_desc">Ubegrænset afspilning uden annonceforstyrrelser eller bannere</string>
+
+    <string name="premium_2019_playlist">Download hele playlists</string>
+
+    <string name="premium_2019_playlist_desc">Gem alle sange på en hvilken som helst playlists på din enhed med et enkelt tryk</string>
+
+    <string name="premium_2019_hifi">Streaming i høj kvalitet</string>
+
+    <string name="premium_2019_hifi_desc">Sørg for at høre hver sang i den højeste tilgængelige kvalitet</string>
+
+    <string name="premium_2019_airplay">Airplay til musikenheder</string>
+
+    <string name="premium_2019_airplay_desc">Vil du spille på Airplay-aktiverede enheder? Cast lige fra afspilleren</string>
+
+    <string name="premium_2019_equalizer">Udligningskontroller</string>
+
+    <string name="premium_2019_equalizer_desc">Få din musik til at lyde, som du kan lide det med tilpasning af bas og diskant</string>
+
+    <string name="premium_2019_trial">Gratis 7-dages prøveperiode</string>
+
+    <string name="premium_2019_trial_desc">Prøv, før du køber - Få alt det ovennævnte gratis i den uge, du starter</string>
+
+    <string name="defaultgenre_title">INDSTIL STANDARD GENRE</string>
+
+    <string name="notifications_title">BESKEDER</string>
+
+    <string name="notifications_verb_favorite">føjet til favoritter</string>
+
+    <string name="notifications_verb_repost">re-up</string>
+
+    <string name="notifications_verb_follow">fulgte dig</string>
+
+    <string name="notifications_verb_playlist">sat i playlist</string>
+
+    <string name="notifications_verb_added">tilsat</string>
+
+    <string name="notifications_verb_added_to_playlist">til playlist</string>
+
+    <string name="notifications_verb_comment">kommenterede</string>
+
+    <string name="notifications_verb_comment_reply">svarede på din kommentar</string>
+
+    <string name="removedcontent_title">FJERNET INDHOLD</string>
+
+    <string name="removedcontent_message">Følgende musik er blevet fjernet fra Audiomack af kunstneren, etiketten eller rettighedsindehaveren. Vi arbejder for at få det gendannet i fremtiden. Tak skal du have</string>
+
+    <string name="removedcontent_ok">Okay</string>
+
+    <string name="removedcontent_header">Noget offline musik er blevet fjernet. Lær mere</string>
+
+    <string name="removedcontent_header_highlighted">Noget offline musik er blevet fjernet. Lær mere</string>
+
+    <string name="excludereups">Ekskluder re-ups</string>
+
+    <string name="restoredownloads_title">GENDAN DOWNLOAD</string>
+
+    <string name="restoredownloads_footer">Gendan dine tidligere download</string>
+
+    <string name="playlist_info_failed">Kan ikke hente playlists detaljer. Prøv igen senere.</string>
+
+    <string name="artist_info_failed">Kunne ikke hente artistdata. Prøv igen senere.</string>
+
+    <string name="song_info_failed">Kan ikke hente sangdata.</string>
+
+    <string name="album_info_failed">Kan ikke hente albumdata.</string>
+
+    <string name="download_results_no_connection">Du er ikke tilsluttet internettet</string>
+
+    <string name="download_failed_song">Kan ikke downloade sangen</string>
+
+    <string name="download_failed_abum">Albummet kunne ikke downloades</string>
+
+    <string name="download_delete_list_failed">Kan ikke slette fra downloadlisten</string>
+
+    <string name="download_playlist_succeeded">Playlist tilføjet til offline</string>
+
+    <string name="download_succeeded">Download succesfuld</string>
+
+    <string name="login_needed_message">Log ind for at bruge denne funktion</string>
+
+    <string name="login_needed_no">Afbestil</string>
+
+    <string name="login_needed_yes">LOG PÅ</string>
+
+    <string name="playlist_song_singular">Sang</string>
+
+    <string name="playlist_song_plural">Sange</string>
+
+    <string name="playlist_sync">TILFØJ NYE SANGE TIL OFFLINE</string>
+
+    <string name="playlistreorder_title">OMARRANGER / FJERN</string>
+
+    <string name="playlistreorder_save">GEM</string>
+
+    <string name="addtoplaylist_title">TILFØJ TIL PLAYLISTS</string>
+
+    <string name="addtoplaylist_create">OPRET NY PLAYLIST</string>
+
+    <string name="addtoplaylist_create_hint">Tryk for at oprette en ny playlist</string>
+
+    <string name="addtoplaylist_addtoexisting">TILFØJ TIL EKSISTERENDE PLAYLIST</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">Denne playlist kan ikke redigeres</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">Denne sang kan ikke føjes til en playlist</string>
+
+    <string name="addtoplaylist_song_added">Føjet til playlist</string>
+
+    <string name="addtoplaylist_song_added_failed">Kan ikke føjes til playlist</string>
+
+    <string name="addtoplaylist_song_removed">Fjernet fra playlist</string>
+
+    <string name="addtoplaylist_song_removed_failed">Kan ikke fjerne fra playlist</string>
+
+    <string name="editplaylist_title">REDIGER PLAYLISTDETALJER</string>
+
+    <string name="editplaylist_create_title">OPRET NY PLAYLIST</string>
+
+    <string name="editplaylist_hint">Tryk på felterne for at redigere</string>
+
+    <string name="editplaylist_name">Navn:</string>
+
+    <string name="editplaylist_name_hint">Indtast playlistnavn</string>
+
+    <string name="editplaylist_genre">Genre:</string>
+
+    <string name="editplaylist_permissions">Tilladelser:</string>
+
+    <string name="editplaylist_description">Beskrivelse:</string>
+
+    <string name="editplaylist_description_hint">Angiv en beskrivelse til playlist</string>
+
+    <string name="editplaylist_delete">Slet playlist</string>
+
+    <string name="editplaylist_save">Gem</string>
+
+    <string name="editplaylist_cancel">Afbestil</string>
+
+    <string name="playlist_delete_failed">Sletning af playlist mislykkedes</string>
+
+    <string name="playlist_delete_succeeded_template">Playlist \'%s\' blev slettet</string>
+
+    <string name="playlist_takendown_title">Oprettelsen har fjernet denne playlist.</string>
+
+    <string name="playlist_takendown_message">Vil du kopiere den til din konto?</string>
+
+    <string name="playlist_takendown_yes">Ja, kopier playlist</string>
+
+    <string name="playlist_takendown_no">Nej, fjern</string>
+
+    <string name="musicinfo_stats_today">I DAG</string>
+
+    <string name="musicinfo_stats_week">DENNE UGE</string>
+
+    <string name="musicinfo_stats_month">DENNE MÅNED</string>
+
+    <string name="musicinfo_stats_alltime">ALTID</string>
+
+    <string name="musicinfo_lastupdated">Sidst opdateret:</string>
+
+    <string name="musicinfo_numberofsongs">Antal sange:</string>
+
+    <string name="musicinfo_playlistcreator">Oprettelse af playlist:</string>
+
+    <string name="musicinfo_album">Album:</string>
+
+    <string name="musicinfo_producer">Producent:</string>
+
+    <string name="musicinfo_addedon">Udgivelsesdato:</string>
+
+    <string name="musicinfo_genre">Genre:</string>
+
+    <string name="musicinfo_description">Beskrivelse:</string>
+
+    <string name="musicinfo_description_read_more">Læs mere</string>
+
+    <string name="musicinfo_total_plays">Antal afspilninger:</string>
+
+    <string name="musicinfo_tags">Tags</string>
+
+    <string name="artist_followers">Followers</string>
+
+    <string name="artist_following">Følger</string>
+
+    <string name="artist_plays">Samlet antal spil</string>
+
+    <string name="queue_added">Føjet til køen</string>
+
+    <string name="queue_unable_to_add_playlist">Kan ikke tilføje playlist til køen</string>
+
+    <string name="share_twitter">Del på Twitter</string>
+
+    <string name="share_contacts">Del med kontakter</string>
+
+    <string name="share_app">Del via en app</string>
+
+    <string name="share_copy_link">Kopier link</string>
+
+    <string name="share_link_copied">Link kopieret til din udklipsholder</string>
+
+    <string name="favorites_filter_allmusic">Alle</string>
+
+    <string name="favorites_filter_songs">Sange</string>
+
+    <string name="favorites_filter_albums">Albummer</string>
+
+    <string name="favorites_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_allmusic">Alle</string>
+
+    <string name="offline_filter_songs">Sange</string>
+
+    <string name="offline_filter_albums">Albummer</string>
+
+    <string name="offline_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_notondevice">Ikke på enheden</string>
+
+    <string name="offline_sort_newest">Nyeste</string>
+
+    <string name="offline_sort_oldest">Ældste</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">LOG PÅ / TILMELD</string>
+
+    <string name="search_hint">Søg</string>
+
+    <string name="search_cancel">Afbestil</string>
+
+    <string name="search_global_placeholder">Søg efter kunstnere, sange og albummer.</string>
+
+    <string name="search_trending">POPULÆRE SØGNINGER</string>
+
+    <string name="search_recent">NYE SØGNINGER</string>
+
+    <string name="library_search_hint">Søg</string>
+
+    <string name="library_search_cancel">Afbestil</string>
+
+    <string name="player_playingfrom">SPILLER FRA</string>
+
+    <string name="player_goadfree">Fjern annoncer - Start en 7- dage gratis prøveperiode</string>
+
+    <string name="player_closead">Luk annonce</string>
+
+    <string name="player_shuffle_on">Bland på</string>
+
+    <string name="player_repeat_all">Gentag alle</string>
+
+    <string name="player_repeat_one">Gentag en</string>
+
+    <string name="player_file_error">Fejl under indlæsning af sang</string>
+
+    <string name="player_storage_error">Kan ikke afspille den downloadede fil</string>
+
+    <string name="player_playback_error">Kan ikke afspille sang</string>
+
+    <string name="player_queue_error">Fejl under opdatering af køen</string>
+
+    <string name="player_file_error_download_again">Denne fil skal downloades igen. Tjek din forbindelse</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">Tidligere</string>
+
+    <string name="player_pause">Pause</string>
+
+    <string name="player_play">Afspil</string>
+
+    <string name="player_next">Næste</string>
+
+    <string name="player_close">Luk</string>
+
+    <string name="player_fav">Favorit</string>
+
+    <string name="player_unfav">Fjern fra</string>
+
+    <string name="player_skip_forward">Spring fremad 30 sekunder</string>
+
+    <string name="player_skip_back">Spring tilbage 15 sekunder</string>
+
+    <string name="editaccount_title">REDIGER KONTO</string>
+
+    <string name="editaccount_banner">Rediger dit bannerbillede</string>
+
+    <string name="editaccount_hint">Tryk på felterne for at redigere</string>
+
+    <string name="editaccount_name">Kunstnernavn:</string>
+
+    <string name="editaccount_label">Etiket:</string>
+
+    <string name="editaccount_hometown">Hjemby:</string>
+
+    <string name="editaccount_website">Webside:</string>
+
+    <string name="editaccount_bio">Bio:</string>
+
+    <string name="editaccount_bio_counter_template">%s tegn tilbage</string>
+
+    <string name="editaccount_twitter">Twitter:</string>
+
+    <string name="editaccount_instagram">Instagram:</string>
+
+    <string name="editaccount_facebook">Facebook:</string>
+
+    <string name="editaccount_youtube">Youtube:</string>
+
+    <string name="editaccount_error_banner">Der opstod en fejl under lagring af banneret</string>
+
+    <string name="editaccount_save">Gem</string>
+
+    <string name="editaccount_cancel">Afbestil</string>
+
+    <string name="editaccount_slug">Brugerhåndtag:</string>
+
+    <string name="artistinfo_follow">FØLG</string>
+
+    <string name="artistinfo_unfollow">FØLGER</string>
+
+    <string name="artistinfo_website">Webside:</string>
+
+    <string name="artistinfo_genre">Genre:</string>
+
+    <string name="artistinfo_label">Etiket:</string>
+
+    <string name="artistinfo_hometown">Hjemby:</string>
+
+    <string name="artistinfo_membersince">Medlem siden:</string>
+
+    <string name="artistinfo_bio">Bio:</string>
+
+    <string name="miniplayer_prev_song">Forrige spor</string>
+
+    <string name="miniplayer_next_song">Næste spor</string>
+
+    <string name="queue_title">DIN KØ</string>
+
+    <string name="add_to_playlist_permissions_public">Offentlig - Alle kan se</string>
+
+    <string name="add_to_playlist_permissions_private">Privat - Kun du kan se</string>
+
+    <string name="add_to_playlist_error_no_name">Indtast et navn til din playlist</string>
+
+    <string name="add_to_playlist_error">Oprettelse af playlist mislykkedes</string>
+
+    <string name="add_to_playlist_success_generic">Playlist oprettet med succes</string>
+
+    <string name="add_to_playlist_success">\'%s\' blev føjet til din playlist</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">Du kan ikke slette det sidste spor i en playlist</string>
+
+    <string name="edit_playlist_success">Playlist \'%s\' blev redigeret</string>
+
+    <string name="edit_playlist_error">Redigering af playlist mislykkedes</string>
+
+    <string name="edit_playlist_banner_error">Kan ikke gemme bannerbillede</string>
+
+    <string name="select_playlist_error">Kan ikke hente dine playlist</string>
+
+    <string name="select_playlist_nothing_selected">Vælg en playlist</string>
+
+    <string name="select_playlist_success">Sangen \'%s\' blev føjet til din playlist(r)</string>
+
+    <string name="select_playlist_failure">Kan ikke tilføje sang</string>
+
+    <string name="player_account_followed">Følger nu %s</string>
+
+    <string name="player_account_unfollowed">Følger ikke %s</string>
+
+    <string name="feature_not_available_offline_alert_message">Vi har problemer med at oprette forbindelse. Kontroller din forbindelse, og prøv igen.</string>
+
+    <string name="feature_not_available_offline_alert_button">Okay</string>
+
+    <string name="toast_favorited_song">Sang føjet til Favorit</string>
+
+    <string name="toast_favorited_song_error">Kan ikke føje sang til Favorit</string>
+
+    <string name="toast_favorited_album">Album føjet til Favorit</string>
+
+    <string name="toast_favorited_album_error">Kan ikke føje album til Favorit</string>
+
+    <string name="toast_favorited_playlist">Playlist føjet til Favorit</string>
+
+    <string name="toast_favorited_playlist_error">Kan ikke føje playlist til Favorit</string>
+
+    <string name="toast_unfavorited_song">Sang fjernet fra Favorit</string>
+
+    <string name="toast_unfavorited_song_error">Kan ikke fjerne sang fra Favorit</string>
+
+    <string name="toast_unfavorited_album">Album fjernet fra Favorit</string>
+
+    <string name="toast_unfavorited_album_error">Kan ikke fjerne album fra Favorit</string>
+
+    <string name="toast_unfavorited_playlist">Playlist fjernet fra Favorit</string>
+
+    <string name="toast_unfavorited_playlist_error">Kan ikke fjerne playlist fra Favorit</string>
+
+    <string name="toast_reposted_song">Sang re-up</string>
+
+    <string name="toast_reposted_song_error">Kan ikke re-up sangen</string>
+
+    <string name="toast_reposted_album">Album re-up</string>
+
+    <string name="toast_reposted_album_error">Kunne ikke re-up album</string>
+
+    <string name="permissions_rationale_alert_camera_message">Denne funktion kræver adgang til kameraet. Aktivér denne tilladelse i indstillingerne for at bruge denne funktion.</string>
+
+    <string name="permissions_rationale_alert_storage_message">Denne funktion kræver adgang til dit lager. Aktivér denne tilladelse i indstillingerne for at bruge denne funktion.</string>
+
+    <string name="permissions_rationale_alert_cancel">Afbestil</string>
+
+    <string name="permissions_rationale_alert_settings">Åbn indstillinger</string>
+
+    <string name="permissions_location_ios">Gør det muligt for Audiomack at vise populær musik i dit område.</string>
+
+    <string name="shortcuts_offline_short">Offline</string>
+
+    <string name="shortcuts_offline_long">Offline</string>
+
+    <string name="shortcuts_offline_disabled">Offline</string>
+
+    <string name="shortcuts_topsongs_short">Topsange</string>
+
+    <string name="shortcuts_topsongs_long">Topsange</string>
+
+    <string name="shortcuts_topsongs_disabled">Topsange</string>
+
+    <string name="shortcuts_favorites_short">Favoritter</string>
+
+    <string name="shortcuts_favorites_long">Favoritter</string>
+
+    <string name="shortcuts_favorites_disabled">Favoritter</string>
+
+    <string name="shortcuts_playlists_short">Playlists</string>
+
+    <string name="shortcuts_playlists_long">Playlists</string>
+
+    <string name="shortcuts_playlists_disabled">Playlists</string>
+
+    <string name="downloadmessage_title">Download startet!</string>
+
+    <string name="downloadmessage_message">Du kan nu afspille denne upload data-fri i appen i offline-sektionen i Mit bibliotek.</string>
+
+    <string name="downloadmessage_button">GÅ TIL OFFLINEMUSIK</string>
+
+    <string name="download_completed_notification_title">Download aflsuttet</string>
+
+    <string name="download_completed_notification_message">Tryk for at se din offline musik</string>
+
+    <string name="playlist_delete_download_title">Dette fjerner denne playlist fra dit offline bibliotek.</string>
+
+    <string name="playlist_delete_download_title_highlighted">Fjern denne playlist</string>
+
+    <string name="playlist_delete_download_message">Bare rolig, det fjerner ingen sange fra dit offline bibliotek.</string>
+
+    <string name="playlist_delete_download_yes">Okay</string>
+
+    <string name="playlist_delete_download_cancel">Afbestil</string>
+
+    <string name="playlist_download_sync_title">Dette tilføjer %s sange til denne playlist i dit offline bibliotek.</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s sange</string>
+
+    <string name="playlist_download_sync_message">Det kan være nødvendigt at tjekke, om du er på WiFi, før du downloader det.</string>
+
+    <string name="playlist_download_sync_yes">Okay</string>
+
+    <string name="playlist_download_sync_cancel">Afbestil</string>
+
+    <string name="playlist_download_error">Kan ikke downloade playlist</string>
+
+    <string name="unsupported_crop_error">Din enhed understøtter ikke beskæring</string>
+
+    <string name="library_search_favorites_placeholder">Søg i dine favoritter ...</string>
+
+    <string name="library_search_downloads_placeholder">Søg i dit offline indhold ...</string>
+
+    <string name="library_search_playlists_placeholder">Søg i dine playlist ...</string>
+
+    <string name="library_search_uploads_placeholder">Søg i dine upload ...</string>
+
+    <string name="library_search_noresults_placeholder">Der blev ikke fundet nogen resultater i dit bibliotek.</string>
+
+    <string name="library_search_noresults_cta">SØG OVER ALT I AUDIOMACK</string>
+
+    <string name="search_noresults_placeholder">Ingen resultater fundet.\nPrøv en anden søgning</string>
+
+    <string name="playlists_noresults_placeholder">Der er endnu ingen playlist.</string>
+
+    <string name="followers_my_noresults_placeholder">Du har ingen follower.</string>
+
+    <string name="followers_other_noresults_placeholder">%s har ingen follower</string>
+
+    <string name="favorites_my_noresults_placeholder">Du har ingen favoritter.</string>
+
+    <string name="downloads_noresults_placeholder">Du har ingen download.</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">GENDAN DINE DOWNLOAD</string>
+
+    <string name="downloads_loggedout_placeholder">Login for at gendanne dine tidligere download</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">OPRET EN KONTO</string>
+
+    <string name="favorites_my_loggedout_placeholder">Du har ingen favoritter.</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">OPRET EN KONTO</string>
+
+    <string name="favorites_other_noresults_placeholder">%s har ingen favoritter</string>
+
+    <string name="following_my_noresults_placeholder">Du følger ikke nogen.\nSe de foreslåede konti du kan følge.</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">FØLGEFORSLAG</string>
+
+    <string name="following_other_noresults_placeholder">%s følger ikke nogen</string>
+
+    <string name="uploads_my_noresults_placeholder">Du har ingen upload.\nBesøg audiomack.com for at tilføje musik til din konto.</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">BESØG AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">%s har ingen upload</string>
+
+    <string name="playlists_my_noresults_placeholder">Du har ikke oprettet nogen playlist endnu.</string>
+
+    <string name="playlists_my_loggedout_placeholder">Du har ikke oprettet nogen playlist endnu.\nOpret en konto, og start med at oprette playlist.</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">OPRET EN KONTO</string>
+
+    <string name="playlists_other_noresults_placeholder">%s har ikke oprettet nogen playlist endnu.</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">Du har ingen favorit playlist.</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">Du har ingen favorit playlist.\nOpret en konto, og start med at oprette playlist.</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">OPRET EN KONTO</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s har ingen favorit playlist</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">Du har ingen offline playlist.</string>
+
+    <string name="timeline_noresults_placeholder">Følg konti for at se deres nye upload vises her</string>
+
+    <string name="timeline_loggedout_placeholder">Dit feed er tomt.\nOpret en konto for at begynde at følge mennesker.</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">OPRET EN KONTO</string>
+
+    <string name="restoredownlods_noresults_placeholder">Du har ingen gemte download, der ikke findes på din enhed</string>
+
+    <string name="notifications_noresults_placeholder">Du har ingen beskeder</string>
+
+    <string name="noconnection_placeholder">Har problemer med at oprette forbindelse</string>
+
+    <string name="noconnection_highlighted_placeholder">PRØV IGEN</string>
+
+    <string name="user_name_placeholder">Bruger</string>
+
+    <string name="playlist_desc_more">MERE</string>
+
+    <string name="tooltip_toast">Stryg til venstre eller højre for at se mere musik, eller tryk på rullemenuen for at ændre genrer</string>
+
+    <string name="tooltip_play">Stryg mod venstre for at afspille den næste sang. Tryk for at åbne afspiller på fuld skærm.</string>
+
+    <string name="tooltip_playlists">Opret en brugerdefineret playlist</string>
+
+    <string name="tooltip_player_queue">Tryk her for at se sange i din musikkø.</string>
+
+    <string name="tooltip_queue_add">Tryk her for at føje sange i din kø til en playlist.</string>
+
+    <string name="tooltip_albums">Gå offline til datafri lytning</string>
+
+    <string name="tooltip_suggested_followers">Følg dine yndlingsartister / trendsættere, og når de uploader ny musik, vises den i dit feed</string>
+
+    <string name="tooltip_playlists_offline">Føj sange i denne playlist til offline</string>
+
+    <string name="tooltip_playlists_favorite">Føj denne playlist til Favoritter</string>
+
+    <string name="tooltip_player_scroll">Rul ned for at blande og se kommentarer, sanginfo og mere musik fra denne kunstner.</string>
+
+    <string name="tooltip_player_equalizer">Brug equalizeren til at tilpasse, hvordan din musik lyder</string>
+
+    <string name="settings_title">INDSTILLINGER</string>
+
+    <string name="settings_go_premium">Fjern annoncer - Gå Premium</string>
+
+    <string name="settings_cancel_subscription">Annuller abonnement</string>
+
+    <string name="settings_edit_account">Rediger konto</string>
+
+    <string name="settings_view_your_profile">Se din profil</string>
+
+    <string name="settings_share_profile">Del profil</string>
+
+    <string name="settings_default_genre">Indstil standardgenre</string>
+
+    <string name="settings_permissions">Tilladelser</string>
+
+    <string name="settings_support">Support</string>
+
+    <string name="settings_debug_info">Send debug info</string>
+
+    <string name="settings_share_app">Del denne app</string>
+
+    <string name="settings_rate_app">Bedøm denne app</string>
+
+    <string name="settings_privacy_policy">Privatlivspolitik</string>
+
+    <string name="settings_dev_environment">Brug Integreret udviklingsmiljø *</string>
+
+    <string name="settings_track_ads">Spor annoncer</string>
+
+    <string name="settings_grant_premium">Bevilg Premium</string>
+
+    <string name="settings_log_viewer">Log Fremviseren</string>
+
+    <string name="settings_logout">LOG UD</string>
+
+    <string name="settings_version_template">Version %s (%s)</string>
+
+    <string name="settings_opensource">Åben Source-biblioteker</string>
+
+    <string name="settings_equalizer">Equalizer</string>
+
+    <string name="settings_upgrade_title">Opgrader til Audiomack Premium</string>
+
+    <string name="settings_upgrade_subtitle">Start din 7-dages gratis prøveperiode for at fjerne ALLE annoncer og mere</string>
+
+    <string name="settings_upgrade_cta">Hvorfor opgradere?</string>
+
+    <string name="equalizer_title">EQUALIZER</string>
+
+    <string name="equalizer_enable">EQUALIZER</string>
+
+    <string name="equalizer_custom">BRUG TILPASNINGSPRESETS</string>
+
+    <string name="equalizer_acoustic">Akustisk</string>
+
+    <string name="equalizer_dance">Dance</string>
+
+    <string name="equalizer_electronic">Elektronisk</string>
+
+    <string name="equalizer_flat">Flat</string>
+
+    <string name="equalizer_hiphop">Hip-Hop</string>
+
+    <string name="equalizer_loudness">Loudness</string>
+
+    <string name="equalizer_pop">Pop</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">Rock</string>
+
+    <string name="equalizer_vocal_booster">Vokal Booster</string>
+
+    <string name="equalizer_save">GEM</string>
+
+    <string name="help_title">HJÆLP</string>
+
+    <string name="help_message">Se vores Hjælpecenter, opret en billet eller administrer dine eksisterende billetter.</string>
+
+    <string name="help_knowledgebase">VIDENSBASE</string>
+
+    <string name="help_contact">KONTAKT OS</string>
+
+    <string name="help_tickets_none">MINE BILLETTER</string>
+
+    <string name="help_tickets_template">MINE BILLETTER (%s IKKE LÆST)</string>
+
+    <string name="help_alert_title">Vores supportteam har svaret på din seneste anmodning</string>
+
+    <string name="help_alert_yes">SE</string>
+
+    <string name="help_alert_no">Afbestil</string>
+
+    <string name="artist_tab_uploads">UPLOAD</string>
+
+    <string name="artist_tab_favorites">FAVORITTER</string>
+
+    <string name="artist_tab_playlists">PLAYLISTS</string>
+
+    <string name="artist_tab_followers">FOLLOWERS</string>
+
+    <string name="artist_tab_following">FØLGER</string>
+
+    <string name="library_tab_favorites">FAVORITTER</string>
+
+    <string name="library_tab_offline">OFFLINE</string>
+
+    <string name="library_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_tab_followers">FOLLOWERS</string>
+
+    <string name="library_tab_following">FØLGER</string>
+
+    <string name="library_tab_uploads">UPLOAD</string>
+
+    <string name="feed_tab_timeline">TIMELINE</string>
+
+    <string name="feed_tab_suggestedfollows">FØLGEFORSLAG</string>
+
+    <string name="feed_tab_following">FØLGER</string>
+
+    <string name="browse_tab_trending">TENDENSER</string>
+
+    <string name="browse_tab_topsongs">TOP SANGE</string>
+
+    <string name="browse_tab_topalbums">TOP ALBUMMER</string>
+
+    <string name="browse_tab_recentlyadded">NYLIG TILFØJET</string>
+
+    <string name="browse_filter_allgenres">Alle</string>
+
+    <string name="search_tab_allmusic">Alle</string>
+
+    <string name="search_tab_playlists">PLAYLISTS</string>
+
+    <string name="search_tab_songs">SANGE</string>
+
+    <string name="search_tab_albums">ALBUMMER</string>
+
+    <string name="search_tab_accounts">KONTOER</string>
+
+    <string name="library_search_tab_favorites">FAVORITTER</string>
+
+    <string name="library_search_tab_offline">OFFLINE</string>
+
+    <string name="library_search_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_search_tab_uploads">UPLOAD</string>
+
+    <string name="cannot_refresh_token">Vi har ikke længere adgang til din konto</string>
+
+    <string name="failed_refresh_token_title">Kan ikke oprette forbindelse til Audiomack</string>
+
+    <string name="failed_refresh_token_message">Kan ikke oprette forbindelse til Audiomack. Prøv igen senere.</string>
+
+    <string name="failed_refresh_token_button">Okay</string>
+
+    <string name="generic_api_error">Der opstod en fejl. Prøv igen senere</string>
+
+    <string name="generic_error_occurred">Der opstod en fejl.</string>
+
+    <string name="feat">Bedrift.</string>
+
+    <string name="feat_inline">bedrift.</string>
+
+    <string name="by">By</string>
+
+    <string name="ok">Okay</string>
+
+    <string name="imagepicker_message">Vælg billede fra</string>
+
+    <string name="imagepicker_camera">Kamera</string>
+
+    <string name="imagepicker_gallery">Galleri</string>
+
+    <string name="imagepicker_gallery_cancel">Afbestil</string>
+
+    <string name="options_play">Afspil</string>
+
+    <string name="options_download">Hent</string>
+
+    <string name="options_favorite">Favorit</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Re-up</string>
+
+    <string name="options_share">Del</string>
+
+    <string name="options_copy_link">Kopier link</string>
+
+    <string name="options_song_details">Sangdetaljer</string>
+
+    <string name="options_album_details">Albumdetaljer</string>
+
+    <string name="options_follow">Følg</string>
+
+    <string name="options_unfollow">Følg ikke længere</string>
+
+    <string name="options_artist_more">Mere fra</string>
+
+    <string name="options_remove_from_queue">Fjern fra køen</string>
+
+    <string name="options_delete_download">Slet download</string>
+
+    <string name="options_retry_download">Prøv at downloade igen</string>
+
+    <string name="options_play_next">Spil næste</string>
+
+    <string name="options_add_to_queue">Føj til kø</string>
+
+    <string name="options_music_more_info">Mere info</string>
+
+    <string name="options_delete_download_list">Slet fra downloadlisten</string>
+
+    <string name="options_reorder_remove_tracks">Omarranger / fjern spor</string>
+
+    <string name="options_edit_playlist_details">Rediger playlistdetaljer</string>
+
+    <string name="options_delete_playlist">Slet playlist</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">Kommentarer</string>
+
+    <string name="options_edit">Rediger</string>
+
+    <string name="options_cancel">Afbestil</string>
+
+    <string name="ad_ad">Tilføj</string>
+
+    <string name="premium_cannot_find_product">Kan ikke finde det ønskede produkt</string>
+
+    <string name="premium_device_not_allowed">Denne enhed har ikke tilladelse til at foretage betalinger</string>
+
+    <string name="database_error_recreated">Vi beklager, men din database har et problem. Vi genskaber databasen nu, men din offline musik skal downloades igen.</string>
+
+    <string name="database_error_lowstorage">Beklager, det ser ud til, at din enhed ikke har mere hukommelsesplads. Frigør plads og prøv igen.</string>
+
+    <string name="accessibility_playlists_all_categories">Alle kategorier</string>
+
+    <string name="accessibility_remove_ad">Fjern annonce</string>
+
+    <string name="accessibility_song_info">Musikinfo</string>
+
+    <string name="accessibility_queue">Kø</string>
+
+    <string name="accessibility_miniplayer_pager">Mini-afspiller rulle</string>
+
+    <string name="accessibility_download">Hent</string>
+
+    <string name="accessibility_choose_genre">Filter</string>
+
+    <string name="accessibility_choose_period">Vælg periode</string>
+
+    <string name="accessibility_settings">Indstillinger</string>
+
+    <string name="accessibility_show_hide_password">Vis/skjul adgangskode</string>
+
+    <string name="accessibility_close">Luk</string>
+
+    <string name="accessibility_back">Luk</string>
+
+    <string name="accessibility_actions">Handlinger</string>
+
+    <string name="accessibility_toggle_follow">Følg/Følg ikke længere</string>
+
+    <string name="accessibility_add_to_playlist">Føj sang til playlist</string>
+
+    <string name="accessibility_share">Del</string>
+
+    <string name="accessibility_player_seek">Scrubber</string>
+
+    <string name="accessibility_player_prev">Forrige sang</string>
+
+    <string name="accessibility_player_next">Næste sang</string>
+
+    <string name="accessibility_player_play_pause">Afspil/Pause</string>
+
+    <string name="accessibility_player_repeat">Skift gentagelsestilstand</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">Minimer afspiller</string>
+
+    <string name="accessibility_player_shuffle">Skift blanding</string>
+
+    <string name="accessibility_artist_info">Kunstnerinfo</string>
+
+    <string name="accessibility_twitter">Twitter</string>
+
+    <string name="accessibility_facebook">Facebook</string>
+
+    <string name="accessibility_instagram">Instagram</string>
+
+    <string name="accessibility_youtube">Youtube</string>
+
+    <string name="accessibility_queue_create_playlist">Opret playlist fra køen</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">Rul til toppen</string>
+
+    <string name="accessibility_song_image">Sangkunst</string>
+
+    <string name="accessibility_favorite">Favorit</string>
+
+    <string name="accessibility_repost">Re-up</string>
+
+    <string name="accessibility_edit">Rediger</string>
+
+    <string name="accessibility_ad">Tilføj</string>
+
+    <string name="accessibility_toast_image">Toast billede</string>
+
+    <string name="NSAppleMusicUsageDescription">Denne funktion kræver brug af mediebiblioteket.</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">Audiomack vil gerne gøre data tilgængelige for Bluetooth-enheder i nærheden, selv når du ikke bruger appen.</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">Audiomack vil gerne gøre data tilgængelige for Bluetooth-enheder i nærheden, selv når du ikke bruger appen.</string>
+
+    <string name="NSCalendarsUsageDescription">Denne interaktion kræver adgang til kalender.</string>
+
+    <string name="NSContactsUsageDescription">Denne funktion kræver brug af kontakter.</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Gør det muligt for Audiomack at vise populær musik i dit område.</string>
+
+    <string name="NSLocationAlwaysUsageDescription">Gør det muligt for Audiomack at vise populær musik i dit område.</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">Gør det muligt for Audiomack at vise populær musik i dit område.</string>
+
+    <string name="NSMicrophoneUsageDescription">Denne funktion kræver brug af mikrofonen.</string>
+
+    <string name="NSMotionUsageDescription">Denne funktion kræver brug af bevægelse.</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">Denne funktion kræver, at du gemmer i fotobiblioteket.</string>
+
+    <string name="NSRemindersUsageDescription">Denne interaktion tilføjer en påmindelse.</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">Denne funktion kræver brug af talegenkendelse.</string>
+
+    <string name="positive_upsell_message">OPGRADER TIL AUDIOMACK PREMIUM FOR AT FJERNE ANNONCER</string>
+
+    <string name="highlights_add">Fremhæv</string>
+
+    <string name="highlights_remove">Fjern fra højdepunkter</string>
+
+    <string name="highlights_reached_limit_message">Du skal fjerne en fremhævning for at tilføje en anden</string>
+
+    <string name="highlights_reached_limit_edit">REDIGER HØJDEPUNKTER</string>
+
+    <string name="highlights_reached_limit_cancel">Afbestil</string>
+
+    <string name="highlights_edit_title">REDIGER HØJDEPUNKTER</string>
+
+    <string name="highlights_edit_subtitle">Du kan fremhæve op til fire (4) spor, albummer eller playlist på din profil.</string>
+
+    <string name="highlights_edit_save">GEM</string>
+
+    <string name="uploads_header_highlighted">FREMHÆVET</string>
+
+    <string name="uploads_header_recent">NYE UPLOAD</string>
+
+    <string name="uploads_highlighted_message">Tryk på de tre prikker ved siden af en sang, et album eller en playlist, og vælg \'fremhæv\' for at fastgøre det øverst på din profil</string>
+
+    <string name="toast_highlight_error">Kan ikke fremhæve dette indhold</string>
+
+    <string name="highlight_confirmation_title_template">%s er nu fremhævet på din profil</string>
+
+    <string name="highlight_confirmation_message">Du kan fremhæve op til 4 af dine yndlingssange, albummer eller playlist på din profil, så andre lyttere kan se.</string>
+
+    <string name="highlight_confirmation_view">SE DIN PROFIL</string>
+
+    <string name="highlight_confirmation_close">Fortsæt</string>
+
+    <string name="song">Sang</string>
+
+    <string name="album">Album</string>
+
+    <string name="artist">Kunstner</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">Podcast</string>
+
+    <string name="editplaylist_create_banner">Tilføj et bannerbillede</string>
+
+    <string name="download_delete_confirmation_title">Er du sikker på, at du vil slette %s fra dine download?</string>
+
+    <string name="download_delete_confirmation_yes">SLET</string>
+
+    <string name="download_delete_confirmation_no">Afbestil</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">TILMELD</string>
+
+    <string name="signup_cant_login">Har du problemer med at logge ind? Kontakt os</string>
+
+    <string name="signup_cant_login_highlighted">Kontakt os</string>
+
+    <string name="signup_privacy_policy">Privatlivspolitik</string>
+
+    <string name="signup_create_account_prompt">Vi har ikke en konto, der matcher denne e-mail. Opret en ny konto gratis.</string>
+
+    <string name="signup_create_account_prompt_highlighted">Opret en ny konto gratis.</string>
+
+    <string name="signup_audiomack_header">LOG IND PÅ AUDIOMACK</string>
+
+    <string name="signup_continue">FORTSÆT</string>
+
+    <string name="signup_with_email_prompt">ELLER TILMELD DIG/ LOG IND MED DIN E-MAIL</string>
+
+    <string name="signup_troubles_alert_message">Indtast din e-mail for at nulstille din adgangskode:</string>
+
+    <string name="signup_troubles_alert_footer">Kan du stadig ikke logge ind? Kontakt os</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">Kontakt os</string>
+
+    <string name="login_twitter_error_message">Log ind med Twitter mislykkedes</string>
+
+    <string name="login_google_error_message">Log ind med Google mislykkedes</string>
+
+    <string name="disconnect_social_alert_title">Er du sikker på, at du vil afbryde denne sociale konto?</string>
+
+    <string name="disconnect_social_alert_yes">KOBLE FRA</string>
+
+    <string name="disconnect_social_alert_no">Afbestil</string>
+
+    <string name="connect_social_twitter">Tilslut din twitter-konto</string>
+
+    <string name="connect_social_facebook">Tilslut din facebook-konto</string>
+
+    <string name="connect_social_instagram">Tilslut din instagram-konto</string>
+
+    <string name="connect_social_youtube">Tilslut din YouTube-konto</string>
+
+    <string name="connect_social_popup_title_twitter">Vis din Twitter</string>
+
+    <string name="connect_social_popup_title_instagram">Vis din Instagram</string>
+
+    <string name="connect_social_popup_title_facebook">Vis din Facebook</string>
+
+    <string name="connect_social_popup_title_youtube">Vis din YouTube</string>
+
+    <string name="connect_social_popup_placeholder_twitter">brugernavn</string>
+
+    <string name="connect_social_popup_placeholder_instagram">brugernavn</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">TILFØJ</string>
+
+    <string name="connect_social_popup_clear">RYD</string>
+
+    <string name="connect_social_popup_cancel">Afbestil</string>
+
+    <string name="playlist_delete_title_template">Slet playlist %s</string>
+
+    <string name="playlist_delete_no">Afbestil</string>
+
+    <string name="playlist_delete_yes">SLET</string>
+
+    <string name="playlist_delete_message">Er du sikker? Dette kan ikke fortrydes</string>
+
+    <string name="search_related_title">Vi har ikke musik, der matcher %s</string>
+
+    <string name="search_related_subtitle">Her er nogle lignende kunstnere, du måske kan lide.</string>
+
+    <string name="search_filter">FILTERRESULTATER</string>
+
+    <string name="search_filter_sort">SORTER EFTER</string>
+
+    <string name="search_filter_popular">Mest populære</string>
+
+    <string name="search_filter_recent">Seneste</string>
+
+    <string name="search_filter_relevant">Mest relevante</string>
+
+    <string name="search_filter_verified_only">Kun bekræftet</string>
+
+    <string name="search_filter_genres">GENRER</string>
+
+    <string name="search_filter_refine">FORFINE SØGNING</string>
+
+    <string name="inapprating_alert_title">Bedøm Audiomack</string>
+
+    <string name="inapprating_alert_message">Tror du, Audiomack er en 5-stjernet app?</string>
+
+    <string name="inapprating_alert_positive">JA</string>
+
+    <string name="inapprating_alert_negative">Nej</string>
+
+    <string name="inapprating_alert_followup_title">Audiomack Support</string>
+
+    <string name="inapprating_alert_followup_message">Beklager, at du ikke synes om appen. Vil du kontakte support, så vi kan hjælpe?</string>
+
+    <string name="inapprating_alert_followup_positive">JA</string>
+
+    <string name="inapprating_alert_followup_negative">Måske senere</string>
+
+    <string name="search_verified_account">BEKRÆFTET KONTO</string>
+
+    <string name="search_verified_playlist">BEKRÆFTET PLAYLIST</string>
+
+    <string name="slideupmenu_music_added_by_template">Tilføjet af %s</string>
+
+    <string name="slideupmenu_music_share_copylink">Kopier link</string>
+
+    <string name="slideupmenu_music_share_twitter">Twitter</string>
+
+    <string name="slideupmenu_music_share_facebook">Facebook</string>
+
+    <string name="slideupmenu_music_share_text">Via Tekst</string>
+
+    <string name="slideupmenu_music_share_more">Mere</string>
+
+    <string name="slideupmenu_music_cancel">Afbestil</string>
+
+    <string name="slideupmenu_music_add_to_downloads">Føj til download</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">Fjern fra download</string>
+
+    <string name="opensource_title">ÅBEN KILDEBIBLIOTEKER</string>
+
+    <string name="opensource_subtitle">Biblioteker brugt i denne app</string>
+
+    <string name="opensource_subsubtitle">Denne side viser attributningsmeddelelser for tredjepartssoftware, der kan bruges i audiomack-appen. Tak skal du have!</string>
+
+    <string name="accessibility_comment">Kommentar</string>
+
+    <string name="accessibility_sort">Sorter</string>
+
+    <string name="comments_write_prompt">Skriv en offentlig kommentar ...</string>
+
+    <string name="comments_removed_comment">Denne kommentar er blevet fjernet</string>
+
+    <string name="comments_comment_title">KOMMENTAR</string>
+
+    <string name="comments_header_title">KOMMENTARER</string>
+
+    <string name="comments_reply">SVAR</string>
+
+    <string name="comments_filter_top">Top kommentarer</string>
+
+    <string name="comments_filter_newest">Nyeste først</string>
+
+    <string name="comments_filter_oldest">Ældste først</string>
+
+    <string name="comments_delete_comment">Slet kommentar</string>
+
+    <string name="comments_flag_comment">Marker kommentar</string>
+
+    <string name="comments_share_comment">Del kommentar</string>
+
+    <string name="comments_delete_alert_title">Er du sikker på, at du vil slette denne kommentar?</string>
+
+    <string name="comments_delete_alert_confirm">SLET KOMMENTAR</string>
+
+    <string name="comments_flag_alert_title">Er du sikker?</string>
+
+    <string name="comments_flag_alert_subtitle">Rapporter kun uanstændigt eller spam-indhold.</string>
+
+    <string name="comments_flag_alert_confirm">RAPPORT</string>
+
+    <string name="comments_alert_cancel">Afbestil</string>
+
+    <string name="comments_be_nice_title">Vær sød.</string>
+
+    <string name="comments_be_nice_subtitle">Dette er dit samfund. Vær en del af det.</string>
+
+    <string name="comments_be_nice_bullet_1">Ingen spam. Links fungerer ikke her.</string>
+
+    <string name="comments_be_nice_bullet_2">Kommentarer er ikke for kritisere din musik.</string>
+
+    <string name="comments_be_nice_bullet_3">Hvis du er racistisk, misogynistic, stødende eller en nar, mister du kommentarrettigheder.</string>
+
+    <string name="comments_be_nice_continue">FORTSÆT</string>
+
+    <string name="comments_view_more_replies">VIS %s FLERE SVAR</string>
+
+    <string name="comments_view_more_reply">VIS 1 SVAR MERE</string>
+
+    <string name="comments_expand">UDVID</string>
+
+    <string name="comments_minimize">MINIMER</string>
+
+    <string name="comments_commenting_on">Kommentarer %s</string>
+
+    <string name="comments_placeholder_cta">VÆR DEN FØRSTE TIL AT KOMMENTERE</string>
+
+    <string name="artists_onboarding_title">Audiomack er til at opdage ny musik.</string>
+
+    <string name="artists_onboarding_message">Hvilken af kunstnerne nedenfor er du i humør til at lytte til?</string>
+
+    <string name="artists_onboarding_message_highlighted">kunstnere nedenfor</string>
+
+    <string name="artists_onboarding_button">LYT NU</string>
+
+    <string name="artists_onboarding_footer">Bare vis mig de mest populære sange</string>
+
+    <string name="artists_onboarding_playlist_play_all">Afspil alt</string>
+
+    <string name="artists_onboarding_playlist_pause">Pause</string>
+
+    <string name="artists_onboarding_playlist_shuffle">Bland</string>
+
+    <string name="artists_onboarding_select">VÆLG EN KUNSTNER</string>
+
+    <string name="social_login_missing_email_title">Angiv en gyldig e-mail for at fuldføre oprettelsen af kontoen.</string>
+
+    <string name="social_login_missing_email_placeholder">Email adresse</string>
+
+    <string name="social_login_missing_email_cta">Indsend</string>
+
+    <string name="social_login_missing_email_cancel">Afbestil</string>
+
+    <string name="download_notification_title">Download i gang</string>
+
+    <string name="download_notification_message_template">og %s andre</string>
+
+    <string name="player_extra_comments">Kommentarer</string>
+
+    <string name="player_extra_info">Info</string>
+
+    <string name="player_extra_more_from_artist">Mere om Artisten</string>
+
+    <string name="player_extra_comments_count_plural">%s Kommentarer</string>
+
+    <string name="player_extra_comments_count_singular">%s Kommentar</string>
+
+    <string name="player_extra_rankings">Placering</string>
+
+    <string name="player_extra_rankings_daily">I dag</string>
+
+    <string name="player_extra_rankings_weekly">Denne uge</string>
+
+    <string name="player_extra_rankings_monthly">Denne måned</string>
+
+    <string name="player_extra_rankings_all">Altid</string>
+
+    <string name="player_extra_more_from_artist_template">Mere fra %s</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">BESØG PROFIL</string>
+
+    <string name="player_extra_artist_followers_plural">%s Følgere</string>
+
+    <string name="player_extra_artist_followers_singular">%s Følger</string>
+
+    <string name="player_extra_offline_placeholder_title">Du er offline</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">Kontroller din internetstatus, eller prøv igen nedenfor</string>
+
+    <string name="player_extra_offline_placeholder_cta">Prøv igen</string>
+
+    <string name="filters_title_chart">FILTER SKEMAER</string>
+
+    <string name="filters_section_genre">FILTER EFTER GENRE:</string>
+
+    <string name="filters_section_timeframe">FILTER EFTER TIDSRAMME:</string>
+
+    <string name="filters_section_timeframe_today">I dag</string>
+
+    <string name="filters_section_timeframe_week">Denne uge</string>
+
+    <string name="filters_section_timeframe_month">Denne måned</string>
+
+    <string name="filters_section_timeframe_year">Dette år</string>
+
+    <string name="filters_section_timeframe_alltime">Altid</string>
+
+    <string name="filters_section_view">VIS EFTER:</string>
+
+    <string name="filters_section_view_list">Listevisning</string>
+
+    <string name="filters_section_view_tile">Flisevisning</string>
+
+    <string name="filters_cta">FILTER</string>
+
+    <string name="chromecast_device_default_name">Ukendt chromecast-enhed</string>
+
+    <string name="airplay_devices">Airplay-enheder</string>
+
+    <string name="cast_menu_disconnect">Frakobl %s</string>
+
+    <string name="cast_unavailable">Chromecast kunne ikke bruges</string>
+
+    <string name="notif_login_required">Log ind kræves</string>
+
+    <string name="notif_login_favorite">Kan ikke tilføje sang til dine favoritter</string>
+
+    <string name="notif_login_repost">Kan ikke re-up sangen</string>
+
+    <string name="feat_x">%1$s bedrift. %2$s</string>
+
+    <string name="contact_title_text">Kan du ikke logge ind?</string>
+
+    <string name="contact_subtitle_text">Fortæl os mere om problemet, og vi vil svare dig så hurtigt som muligt.</string>
+
+    <string name="contact_what_title_text">Forsøgte du at logge ind eller tilmelde dig?</string>
+
+    <string name="contact_how_title_text">Hvordan prøvede du at logge ind / tilmelde dig?</string>
+
+    <string name="contact_when_title_text">Hvornår loggede du sidst ind?</string>
+
+    <string name="contact_email_title_text">Hvilken e-mail, vil du gerne have, at vi bruger til at kontakter dig?</string>
+
+    <string name="contact_can_title_text">Kan du fortælle os noget andet, der skete, da du forsøgte at logge ind eller tilmelde dig?</string>
+
+    <string name="contact_selection_what_login">Log ind</string>
+
+    <string name="contact_selection_what_signup">Tilmeld dig</string>
+
+    <string name="contact_selection_how_google">Google</string>
+
+    <string name="contact_selection_how_twitter">Twitter</string>
+
+    <string name="contact_selection_how_facebook">Facebook</string>
+
+    <string name="contact_selection_how_email">E-mail</string>
+
+    <string name="contact_selection_when_today">I dag</string>
+
+    <string name="contact_selection_when_last_week">I den sidste uge</string>
+
+    <string name="contact_selection_when_last_month">I den sidste måned</string>
+
+    <string name="contact_selection_when_dont_remember">Jeg kan ikke huske det</string>
+
+    <string name="contact_selection_required">*Påkrævet</string>
+
+    <string name="contact_selection_select">Vælg venligst</string>
+
+    <string name="contact_selection_enter">Indtast tekst her</string>
+
+    <string name="contact_selection_send">SEND</string>
+
+    <string name="contact_time_limit_error">Din supportbillet er arkiveret. Vent til vores supportteam svarer, inden du indsender en ny billet.</string>
+
+    <string name="contact_send_success">Din supportbillet er arkiveret. Vent til vores supportteam svarer.</string>
+
+    <string name="album_play">Afspil album</string>
+
+    <string name="album_pause">Pause album</string>
+
+    <string name="playlist_play">Afspil playlist</string>
+
+    <string name="playlist_pause">Pause playlist</string>
+
+    <string name="slideupmenu_music_trophies">Trofæer</string>
+
+    <string name="screenshot_now_playing">#SPILLER NU</string>
+
+    <string name="screenshot_toast_title">Tag et skærmprint af denne side og del.</string>
+
+    <string name="screenshot_toast_subtitle">Stryg ned for at lukke.</string>
+
+    <string name="highlights_highlighted">Fremhævet</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">Rettighedshaveren har ikke gjort dette tilgængeligt i din region.</string>
+
+    <string name="georestriction_alert_delete">Slet</string>
+
+    <string name="settings_notifications">Beskeder</string>
+
+    <string name="notifications_manager_new_song_album">Ny besked om sang/album</string>
+
+    <string name="notifications_manager_weekly_artist_reports">Ugentlig rapporter om kunstner</string>
+
+    <string name="notifications_manager_song_album_benchmarks">Benchmarks for sang/album</string>
+
+    <string name="notifications_manager_everyone">ALLE</string>
+
+    <string name="notifications_manager_artists">KUNSTNERE</string>
+
+    <string name="notifications_manager_title">BESKEDER</string>
+
+    <string name="billing_issue_subscribed">PROBLEM MED FAKTURERING: OPDATER DIN BETALINGSINFORMATION FOR AT BEHOLDE PREMIUM</string>
+
+    <string name="billing_issue_unsubscribed">PROBLEM MED FAKTURERING: OPDATER DIN BETALINGSINFORMATION FOR AT GENDANNE PREMIUM</string>
+
+    <string name="comments_count_template">%s Kommentarer</string>
+
+    <string name="permissions_rationale_alert_instagram_message">Denne funktion kræver, at Instagram har alle nødvendige tilladelser. Aktivér disse tilladelser.</string>
+
+    <string name="premium_start_trial_ios">Start en gratis 7-dages prøveperiode</string>
+
+    <string name="premium_price_template_ios">%s pr. måned</string>
+
+    <string name="comments_try_add_later">Prøv at tilføje din kommentar igen senere</string>
+
+    <string name="comments_try_load_later">Prøv at indlæse kommentarer igen senere</string>
+
+    <string name="comments_try_later_connection">Prøv igen senere, når du har en bedre forbindelse</string>
+
+    <string name="please_try_again_later">Prøv igen senere</string>
+
+    <string name="please_check_connection_try_again">Kontroller din forbindelse, og prøv igen</string>
+
+    <string name="please_try_request_later">Prøv at sende din anmodning igen senere</string>
+
+    <string name="please_login_again">Log ind  igen</string>
+
+    <string name="please_restart_app">Prøv at genstarte appen</string>
+
+    <string name="player_file_no_connection">Du har ikke internetadgang</string>
+
+    <string name="please_check_connection_try_download_again">Kontroller din forbindelse, og prøv denne download igen</string>
+
+    <string name="home_tab_browse_experiment">Opdag</string>
+
+    <string name="no_browser_installed">Denne handling kan ikke udføres. Sørg for, at du har en browser installeret på din enhed</string>
+
+    <string name="billing_issue_avoid_losing_premium">Opdater dine faktureringsoplysninger for at undgå at miste premium</string>
+
+    <string name="billing_issue_restore_premium">Dine premiumfordele udløb. Opdater dine faktureringsoplysninger for at gendanne dem.</string>
+
+    <string name="billing_issue_alert_header">Det ser ud til, at der er et problem med din betalingsmetode</string>
+
+    <string name="billing_issue_no_thanks">Nej tak</string>
+
+    <string name="billing_issue_update_info">Opdater oplysninger</string>
+
+    <string name="social_link_error_already_linked_title">Denne konto er allerede knyttet til en bruger på Audiomack</string>
+
+    <string name="social_link_error_already_linked_message_instagram">Prøv at linke en anden Instagram-konto.</string>
+
+    <string name="social_link_error_already_linked_message_twitter">Prøv at linke en anden Twitter-konto.</string>
+
+    <string name="trending_search_song">SANG</string>
+
+    <string name="trending_search_album">ALBUM</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">KONTO</string>
+
+    <string name="login_apple_error_message">Log ind med Apple mislykkedes</string>
+
+    <string name="benchmark_image_description">Benchmark-billede</string>
+
+    <string name="benchmark_trophies_title">Trofæer</string>
+
+    <string name="benchmark_hide">SKJUL</string>
+
+    <string name="benchmark_now">NU</string>
+
+    <string name="benchmark_playing">AFSPILLER</string>
+
+    <string name="benchmark_million">%d MILLION</string>
+
+    <string name="benchmark_billion">%d MILLIARD</string>
+
+    <string name="benchmark_play">AFSPILNINGER</string>
+
+    <string name="benchmark_favorite">FAVORITTER</string>
+
+    <string name="benchmark_playlist">PLAYLIST ANNONCER</string>
+
+    <string name="benchmark_repost">RE-UPS</string>
+
+    <string name="benchmark_verified">BEKRÆFTET</string>
+
+    <string name="benchmark_artist">KUNSTNER</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Messenger</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">Denne funktion kræver, at du er logget ind på Messenger</string>
+
+    <string name="notifications_verb_benchmark">lige nu</string>
+
+    <string name="notifications_verb_benchmark_your_song">Din sang</string>
+
+    <string name="notifications_verb_benchmark_your_album">Dit album</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">Din playlist</string>
+
+    <string name="premium_download_toast">Aktivér premium for at blande låste sange.</string>
+
+    <string name="premium_download_downloaded">Hentede</string>
+
+    <string name="premium_download_standard_message">resterende gratis premium-download</string>
+
+    <string name="premium_download_upgrade">OPGRADER</string>
+
+    <string name="premium_download_reached_limit">Du har nået din gratis premium-downloadgrænse.</string>
+
+    <string name="premium_download_large_header">Du downloader premiumindhold</string>
+
+    <string name="premium_download_large_subheader">Din gratis konto kommer med %d Premium-download.</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d gratis premium</string>
+
+    <string name="premium_download_plain_remaining">resterende download.</string>
+
+    <string name="premium_download_upgrade_header">Opgrader nu til premium og få:</string>
+
+    <string name="premium_download_upgrade_first_point">Ubegrænset premium-download</string>
+
+    <string name="premium_download_upgrade_second_point">En annoncefri oplevelse</string>
+
+    <string name="premium_download_upgrade_third_point">Streaming i høj kvalitet</string>
+
+    <string name="premium_download_upgrade_fourth_point">Udligningskontroller</string>
+
+    <string name="premium_download_upgrade_fifth_point">og mere!</string>
+
+    <string name="premium_download_upgrade_button">Opgrader nu</string>
+
+    <string name="premium_download_learn_more_left">Lær mere om</string>
+
+    <string name="premium_download_learn_more_right">premium indhold.</string>
+
+    <string name="premium_download_large_header_second">Lær mere om premium-download</string>
+
+    <string name="premium_download_replace_header">UDSKIFT DOWNLOAD</string>
+
+    <string name="premium_download_replace_single_subheader">Vælg en sang, der skal erstattes.</string>
+
+    <string name="premium_download_replace_multiple_subheader">Vælg %d sange, der skal erstattes.</string>
+
+    <string name="premium_download_replace_button">VÆLG %s (%d)</string>
+
+    <string name="premium_download_replace_button_selected">FJERN (%d) OG DOWNLOAD</string>
+
+    <string name="premium_download_replace_button_text_one">EN</string>
+
+    <string name="premium_download_replace_button_text_two">TO</string>
+
+    <string name="premium_download_replace_button_text_three">TRE</string>
+
+    <string name="premium_download_replace_button_text_four">FIRE</string>
+
+    <string name="premium_download_replace_button_text_five">FEM</string>
+
+    <string name="premium_download_replace_button_text_six">SEKS</string>
+
+    <string name="premium_download_replace_button_text_seven">SYV</string>
+
+    <string name="premium_download_replace_button_text_eight">OTTE</string>
+
+    <string name="premium_download_replace_button_text_nine">NI</string>
+
+    <string name="premium_download_replace_button_text_ten">TI</string>
+
+    <string name="premium_download_replace_button_text_eleven">ELLEVE</string>
+
+    <string name="premium_download_replace_button_text_twelve">TOLV</string>
+
+    <string name="premium_download_replace_button_text_thirteen">TRETTEN</string>
+
+    <string name="premium_download_replace_button_text_fourteen">FJORTEN</string>
+
+    <string name="premium_download_replace_button_text_fifteen">FEMTEN</string>
+
+    <string name="premium_download_replace_button_text_sixteen">SEKSTEN</string>
+
+    <string name="premium_download_replace_button_text_seventeen">SYTTEN</string>
+
+    <string name="premium_download_replace_button_text_eighteen">ATTEN</string>
+
+    <string name="premium_download_replace_button_text_nineteen">NITTEN</string>
+
+    <string name="premium_download_replace_button_text_twenty">TYVE</string>
+
+    <string name="premium_download_replace_full_album_button">VÆLG (%d) FOR AT DOWNLOADE</string>
+
+    <string name="premium_download_alert_exceed_limit_title">Hele albummet kan kun downloades fuldt ud af Premium-brugere.</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">Du kan stadig downloade individuelle spor.</string>
+
+    <string name="premium_download_alert_upgrade">Opgrader til Premium</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">Afbestil</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">Indholdet er over din premium-downloadgrænse.</string>
+
+    <string name="offline_filter_button">FILTER</string>
+
+    <string name="offline_filter_files_description">Da disse sange er bundet til din enhed, kan de ikke føjes til favorit, re-up, fremhæves, afspilles eller deles.</string>
+
+    <string name="offline_filter_files_scan">Lyt til alle sange, der er gemt lokalt på din enhed i appen</string>
+
+    <string name="offline_filter_files_switch">Medtag lokale filer</string>
+
+    <string name="offline_filter_previous_downloads">VIS TIDLIGERE DOWNLOAD</string>
+
+    <string name="offline_filter_section_type">FILTER EFTER TYPE:</string>
+
+    <string name="offline_filter_section_order">FILTER EFTER BESTILLING:</string>
+
+    <string name="offline_filter_section_files">LOKALE FILER:</string>
+
+    <string name="offline_filter_title">FILTER OFFLINE</string>
+
+    <string name="signup_error_min_age">Du skal være mindst 13 år for at bruge denne app</string>
+
+    <string name="report_content">Rapporter indhold</string>
+
+    <string name="report_content_done">Indholdet er rapporteret</string>
+
+    <string name="block_user">Bloker bruger</string>
+
+    <string name="block_user_done">Rapport/blokanmodning indsendt</string>
+
+    <string name="confirm_report_done">Din anmodning om rapport/blokering håndhæves inden for de næste 24 timer</string>
+
+    <string name="confirm_report_alert_title">Beskriv venligst problemet</string>
+
+    <string name="confirm_report_report_alert_message">Vælg den bedste beskrivelse af årsagen til denne rapport/blok</string>
+
+    <string name="confirm_report_alert_submit">Indsend</string>
+
+    <string name="confirm_report_alert_option_violent">Dette er voldeligt / pornografisk eller indeholder lyd</string>
+
+    <string name="confirm_report_alert_option_broken">Dette indhold streames eller downloades ikke</string>
+
+    <string name="confirm_report_alert_option_misleading">Dette indhold er vildledende eller mærket forkert</string>
+
+    <string name="confirm_report_alert_option_spam">Denne konto indgår i spam eller chikane</string>
+
+    <string name="confirm_report_alert_option_infringement">Jeg mener, at dette er krænkelse af ophavsretten</string>
+
+    <string name="confirm_bis_report_alert_title">Er du sikker på, at du vil indsende denne meddelelse om blokering/rapport?</string>
+
+    <string name="confirm_bis_report_alert_yes">JA</string>
+
+    <string name="confirm_bis_report_alert_cancel">NEJ, JEG VIL IKKE</string>
+
+    <string name="benchmark_tastemaker">SMAGER</string>
+
+    <string name="benchmark_authenticated">AUTHED</string>
+
+    <string name="download_restore_backup_fail">Kunne ikke gendanne downloads fra tidligere enhed</string>
+
+    <string name="download_restore_backup_success">Gendannede downloads fra tidligere enhed med succes</string>
+
+    <string name="download_restore_prompt">Vil du gendanne %d downloads fra din tidligere enhed?</string>
+
+    <string name="download_restore_prompt_yes">JA</string>
+
+    <string name="download_restore_prompt_no">NEJ</string>
+
+    <string name="download_restore_no_wifi_prompt">Overførsler starter, når du er tilsluttet WiFi</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">Okay</string>
+
+    <string name="in_app_update_ios_title">Opdatering tilgængelig</string>
+
+    <string name="in_app_update_ios_message">En ny version af Audiomack er tilgængelig. Opdater venligst nu.</string>
+
+    <string name="in_app_update_ios_option_update">Opdater</string>
+
+    <string name="in_app_update_ios_option_next_time">Næste gang</string>
+
+    <string name="in_app_update_downloaded_title">En opdatering til denne app er lige blevet downloadet</string>
+
+    <string name="in_app_update_downloaded_restart">GENSTART</string>
+
+    <string name="in_app_update_downloaded_cancel">Afbestil</string>
+
+    <string name="in_app_update_download_started">Download af app-opdatering er startet</string>
+
+    <string name="comments_view_all">Se alle kommentarer</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">Vælg et trofæ, og tag et skærmbillede for at dele</string>
+
+    <string name="search_authenticated_account">AUTORISERET KONTO</string>
+
+    <string name="search_tastemaker_account">TASTEMAKER-KONTO</string>
+
+    <string name="playlists_filter_pill_favorited">FØJET TIL FAVORITTER</string>
+
+    <string name="offline_remove_title">VÆLG FLERE FJERN FRA OFFLINE</string>
+
+    <string name="offline_remove_button">FJERN FRA OFFLINE</string>
+
+    <string name="download_delete_slide">Slet</string>
+
+    <string name="options_play_next_list">Spil næste</string>
+
+    <string name="slideupmenu_music_share_instagram">Instagram-historier</string>
+
+    <string name="notifications_playlists_bundle_verb">blev føjet til</string>
+
+    <string name="notifications_playlists_bundle_suffix">du følger</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs">%d nye sange</string>
+
+    <string name="audio_ad_now_playing_info_title">Lydannonce</string>
+
+    <string name="audio_ad_advertisement">REKLAME:</string>
+
+    <string name="audio_ad_support_artists">Annoncer understøtter kunstnere og skabere på Audiomack.</string>
+
+    <string name="audio_ad_upgrade_premium">Opgrader til premium for at fjerne alle annoncer</string>
+
+    <string name="audio_ad_now_playing_info_artist">Dit indhold begynder om %d sekunder...</string>
+
+    <string name="downloadmessage_button_premium_downloads">GÅ TIL OFFLINEMUSIK</string>
+
+    <string name="benchmark_next_milestone">Næste: %s</string>
+
+    <string name="benchmark_on_audiomack">PÅ AUDIOMACK</string>
+
+    <string name="settings_sleep_timer">Sove timer</string>
+
+    <string name="sleep_timer_alert_title">Hvor længe vil du have musikken til at spille?</string>
+
+    <string name="sleep_timer_alert_button">INDSTIL TIMER</string>
+
+    <string name="sleep_timer_alert_hours">timer</string>
+
+    <string name="sleep_timer_alert_hour">time</string>
+
+    <string name="sleep_timer_alert_minutes">min</string>
+
+    <string name="browse_tab_world">VERDEN</string>
+
+    <string name="premium_2019_sleep_timer">Sove timer</string>
+
+    <string name="premium_2019_sleep_timer_desc">Indstil en timer til at stoppe din lyd, så du kan sove uden at køre appen hele natten</string>
+
+    <string name="signup_gender_birthday_information_header">Fuldfør din profil</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">For mere information, se venligst vores Servicevilkår og Beskyttelse af personlige oplysninger</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">Din kommentar til</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">fik det</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">%d opstemning.</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">%d opstemning.</string>
+
+    <string name="premium_download_large_subheader_second_song">Opgrader eller fjern en premium-download for at downloade denne sang</string>
+
+    <string name="notifications_playlists_bundle_verb_single">blev føjet til</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d sang</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_single">%d ny sang</string>
+
+    <string name="audio_ad_notif_title">Annonce</string>
+
+    <string name="playlists_filter_my">MINE PLAYLISTS</string>
+
+    <string name="playlists_filter_favorited">FØJET TIL FAVORITTER</string>
+
+    <string name="playlists_filter_offline">KUN OFFLINE</string>
+
+    <string name="filters_section_type">FILTER EFTER TYPE:</string>
+
+    <string name="musicinfo_runtime_title">Afspilningstid:</string>
+
+    <string name="musicinfo_runtime_value">%s minutter, %d spor</string>
+
+    <string name="premium_2019_advanced">Avancerede egenskaber</string>
+
+    <string name="premium_2019_start_trial">Start din 7-dages gratis prøveperiode</string>
+
+    <string name="favorites_filter_title">FILTER FAVORITTER</string>
+
+    <string name="accessibility_multiselect">Vælg flere</string>
+
+    <string name="accessibility_premium_download">Premium download</string>
+
+    <string name="search_playlist_total_songs">Alle sange:</string>
+
+    <string name="restore_downloads_prompt_title_plural">Vil du gendanne %d downloads fra din tidligere enhed?</string>
+
+    <string name="restore_downloads_prompt_title_singular">Vil du gendanne %d download fra din tidligere enhed?</string>
+
+    <string name="restore_downloads_dialog_positive">GENDAN ELLER DOWNLOAD</string>
+
+    <string name="restore_downloads_dialog_negative">Vælg downloads for at gendanne</string>
+
+    <string name="restore_downloads_error">Kunne ikke gendanne downloads</string>
+
+    <string name="restore_downloads_started">Gendanner downloads</string>
+
+    <string name="restore_downloads_queued">Overførsler starter, når du er tilsluttet WiFi</string>
+
+    <string name="premium_2019_premiumdownloads">Ubegrænset downloads</string>
+
+    <string name="premium_2019_premiumdownloads_desc">Ubegrænset downloads af alt på audiomack</string>
+
+    <string name="premium_only_downloads_alert_title">Denne download er premium.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">Der er millioner af gratis downloads på audiomack, men kunstneren har kun gjort denne download tilgængelig for premiumabonnenter.</string>
+
+    <string name="premium_only_downloads_alert_yes">OPGRADER</string>
+
+    <string name="premium_only_downloads_alert_no">Afbestil</string>
+
+    <string name="notifications_manager_play_milestones">Spil milepæle</string>
+
+    <string name="notifications_manager_upvote_milestones">Gennemgå milepæle</string>
+
+    <string name="notifications_manager_comment_replies">Svar på kommentar</string>
+
+    <string name="local_player_granted_alert_title">Afspil lokale filer</string>
+
+    <string name="local_player_granted_alert_message">Du har %d musikfiler gemt lokalt på din enhed. Vil du have adgang til disse sange fra Audiomack?\n\nBemærk: Da lokale filer kun findes på din enhed, kan de ikke deles, re-upped, føjes til favoritter, fremhæves eller føjes til afspilningslister.</string>
+
+    <string name="local_player_granted_alert_positive">TILFØJ</string>
+
+    <string name="local_player_granted_alert_negative">Afbestil</string>
+
+    <string name="local_player_ungranted_alert_title">Afspil lokale filer</string>
+
+    <string name="local_player_ungranted_alert_message">Har du gemt musikfiler på din telefon? Nu kan du lytte til dem på Audiomack ligesom din streaming musik. Tryk på \"Tilføj\" nedenfor for at komme i gang!\n\nBemærk: Da lokale filer kun findes på din enhed, kan de ikke deles, re-upped, føjes til favoritter, fremhæves eller føjes til afspilningslister.</string>
+
+    <string name="local_player_declined_alert_title">Tilføj lokale filer</string>
+
+    <string name="local_player_declined_alert_message">Lyt til alle lydfiler, der er gemt på din enhed i Audiomack</string>
+
+    <string name="local_player_declined_alert_positive">TILFØJ</string>
+
+    <string name="queue_clear_all">Slet alt</string>
+
+    <string name="queue_clear_upcoming">Ryd kommende</string>
+
+    <string name="queue_save_playlist">Gem til Playlist</string>
+
+    <string name="premium_only_downloads_stream_alert_title">Dette er en premium-download</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">Opgrader din konto for at alt indhold i appen er tilgængeligt til offline lytning.</string>
+
+    <string name="articles_noresults_placeholder">Ingen artikler fundet.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s minutter, %d sange</string>
+
+    <string name="premium_limited_reached_limit_alert_title">Du har ikke nok premium downloads tilgængelige</string>
+
+    <string name="premium_limited_reached_limit_alert_message">Opgrader til premium for ubegrænset download eller udskift gamle downloads for at gøre plads.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">START EN GRATIS PRØVE MED PREMIUM</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">Udskift og download</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">Lær mere om premium-indhold.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">premiumindhold.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">Du er løbet tør for premium downloads.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">For at spille skal du enten opgradere til premium eller erstatte %d af dine premium-downloads.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">Opgrader til Premium</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">UDSKIFT OG LÅS OP</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">Jeg vil gerne streame det i stedet.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">stream det i stedet.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">Slet fra offline</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">Du er løbet tør for premium downloads.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">For at downloade skal du enten opgradere til premium eller erstatte %d af dine premium-downloads.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">Opgrader til Premium</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">UDSKIFT OG LÅS OP</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">Jeg vil gerne streame det i stedet.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">stream det i stedet.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">Slet fra offline</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">Lås op for denne download?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">Du kan bruge %d af dine resterende premium downloads til at låse den op.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">Opgrader til Premium</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">LÅS OP</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">Jeg vil gerne streame det i stedet.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">stream det i stedet.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">Slet fra offline</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">Abonner på Lås op.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">Der er millioner af gratis downloads på audiomack, men denne download er kun til premium-brugere.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">Opgrader til Premium</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">Jeg vil gerne streame det i stedet.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">stream det i stedet.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">Slet fra offline</string>
+
+    <string name="restore_downloads_dialog_select">Vælg downloads for at gendanne</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">gendanne</string>
+
+    <string name="search_recommendations">ANBEFALET TIL DIG</string>
+
+    <string name="settings_premium_status">Premium-status</string>
+
+    <string name="settings_premium_status_no_override">Ingen tilsidesættelse</string>
+
+    <string name="settings_premium_status_free">Gratis</string>
+
+    <string name="settings_premium_status_premium">Premium</string>
+
+    <string name="settings_premium_status_free_billing_issue">Gratis med faktureringsproblem</string>
+
+    <string name="settings_premium_status_premium_billing_issue">Premium med faktureringsproblem</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d ny sang</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">blev føjet til</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d sange</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d playlist</string>
+
+    <string name="premium_limited_download_unlock_toast">%s Låst op</string>
+
+    <string name="notifications_follow_alert_title">Vil du underrettes, når denne kunstner udsender ny musik?</string>
+
+    <string name="notifications_follow_alert_positive">GIV PUSH TILLADELSER</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">Slet fra offline</string>
+
+    <string name="email_verification_toast_success">Tak for din bekræftelse af din e-mail!</string>
+
+    <string name="email_verification_toast_failure">E-mail-bekræftelse mislykkedes</string>
+
+    <string name="sleep_timer_stop_today">Afspilning stopper kl. %s</string>
+
+    <string name="sleep_timer_stop_tomorrow">Afspilningen stopper i morgen kl. %s</string>
+
+    <string name="sleep_timer_triggered">Sove timer er færdig</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">Vil du underrettes, når denne kunstner udsender ny musik?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">GIV PUSH TILLADELSER</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">Afbestil</string>
+
+    <string name="notifications_manager_push_off_title">Push-underretninger er deaktiveret.</string>
+
+    <string name="notifications_manager_push_off_message_ios">For at aktivere skal du gå til: iPhone-indstillinger &gt; Meddelelser &gt; Audiomack</string>
+
+    <string name="notifications_manager_push_off_message_android">For at aktivere skal du gå til: Enhedsindstillinger&gt; Apps og meddelelser&gt; Audiomack&gt; Meddelelser</string>
+
+    <string name="sleep_timer_notification_button">GÅ</string>
+
+    <string name="sleep_timer_notification_title">Lås op for Premium Sove timer</string>
+
+    <string name="sleep_timer_notification_subtitle">Indstil i indstillinger, så du kan slukke uden at køre appen hele natten</string>
+
+    <string name="sleep_timer_notification_premium_title">Du låste op for sove timeren</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">Indstil lydstop i indstillinger, når du er faldet i søvn</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack bruger det lokale netværk til at finde Cast-aktiverede enheder på dit WiFi-netværk.</string>
+
+    <string name="notifications_manager_verified_playlist">Bekræftet playliste tilføjes</string>
+
+    <string name="world_articles_not_found">Ingen artikler fundet.</string>
+
+    <string name="world_article_detail_not_found">Ingen artikel fundet.</string>
+
+    <string name="accessibility_world_logo">Verdenslogo</string>
+
+    <string name="splash_message_single">For en bedre oplevelse beder vi dig om at aktivere følgende tilladelser:</string>
+
+    <string name="splash_location_message_new">Vis populær musik i dit område, populære diagrammer og lokale søgninger</string>
+
+    <string name="accessibility_logo">Audiomack-ikon</string>
+
+    <string name="widget_gallery_title">Tryk afspil</string>
+
+    <string name="widget_gallery_subtitle">Lyt til dine seneste foretrukne gemte spor</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">Dette nummer er kun for premium</string>
+
+    <string name="premium_only_streaming_alert_message">Få Audiomack premium og du kan streame ethvert spor på platformen plus du får ubegrænsede download og meget mere!</string>
+
+    <string name="premium_only_streaming_alert_premium">Få premium</string>
+
+    <string name="premium_only_streaming_alert_cancel">Afbestil</string>
+
+    <string name="toast_play_album_deleted_tracks_header">Ikke alle disse sange downloades</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">For at gemme data, vil kun offline spor være i kø</string>
+
+    <string name="feed_suggested_accounts">Foreslåede konti</string>
+
+    <string name="feed_suggested_accounts_view_all">Se alt</string>
+
+    <string name="feed_new_music_description">Ny musik fra folk, du følger, vises her.</string>
+
+    <string name="feed_follow_suggested_description">Du kan starte med at følge nogle af de foreslåede kunstnere ovenfor.</string>
+
+    <string name="feed_social_feed">Social feed</string>
+
+    <string name="NSPhotoLibraryUsageDescription">Vi kræver adgang til dit fotobibliotek for at vælge et billede, der skal bruges på din profil.</string>
+
+    <string name="NSCameraUsageDescription">Vi kræver adgang til kameraet for at tage et billede, der skal bruges på din profil.</string>
+
+    <string name="settings_change_password">Skift kodeord</string>
+
+    <string name="update_password_success">Adgangskoden blev opdateret med succes!</string>
+
+    <string name="update_password_title">OPDATER KODEORD</string>
+
+    <string name="update_password_current">Nuværende kodeord</string>
+
+    <string name="update_password_new">Nyt kodeord</string>
+
+    <string name="update_password_confirm">Bekræft kodeord</string>
+
+    <string name="update_password_forgot">Glemt dit kodeord?</string>
+
+    <string name="update_password_save">OPDATER KODEORD</string>
+
+    <string name="reset_password_invalid_token_title">Linkfejl ved nulstilling af adgangskode</string>
+
+    <string name="reset_password_invalid_token_message">Der opstod en fejl under validering af linket til nulstilling af adgangskode. Dette skete sandsynligvis, fordi linket er udløbet. Prøv at bruge den glemte adgangskodeformular igen for at generere et nyt link.</string>
+
+    <string name="reset_password_title">NULSTILLE KODEORD</string>
+
+    <string name="reset_password_subtitle">INDTAST ET NYT KODEORD</string>
+
+    <string name="reset_password_new">Nyt kodeord</string>
+
+    <string name="reset_password_confirm">Bekræft kodeord</string>
+
+    <string name="reset_password_reset">NULSTILLE KODEORD</string>
+
+    <string name="reset_password_success">Adgangskode nulstillet med succes!</string>
+
+    <string name="word_article_webview_updating_error">Nogle tjenester opdateres. Prøv igen</string>
+
+    <string name="local_file">Lokal fil</string>
+
+    <string name="local_file_selection_apply">Gem ændringer</string>
+
+    <string name="local_file_selection_applied">Filvalg gemt</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack har brug for lagringstilladelser for at få adgang til dine lokale medier</string>
+
+    <string name="local_file_selection_empty">Ingen lokale medier fundet</string>
+
+    <string name="offline_filter_files_select">Vælg filer</string>
+
+    <string name="options_hide_track">Skjul spor</string>
+
+    <string name="options_hide_album">Skjul album</string>
+
+    <string name="uploads_filter_popular">MEST POPULÆRE</string>
+
+    <string name="uploads_filter_recent">SENESTE</string>
+
+</resources>

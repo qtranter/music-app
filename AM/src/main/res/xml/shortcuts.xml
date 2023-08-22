@@ -1,0 +1,69 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute">
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/quick_action_offline"
+        android:shortcutDisabledMessage="@string/shortcuts_offline_disabled"
+        android:shortcutId="offline"
+        android:shortcutLongLabel="@string/shortcuts_offline_long"
+        android:shortcutShortLabel="@string/shortcuts_offline_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.audiomack.ui.home.HomeActivity"
+            android:targetPackage="com.audiomack">
+            <extra android:name="shortcut" android:value="offline"/>
+        </intent>
+        <categories android:name="android.shortcut.offline" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/quick_action_topsongs"
+        android:shortcutDisabledMessage="@string/shortcuts_topsongs_disabled"
+        android:shortcutId="topSongs"
+        android:shortcutLongLabel="@string/shortcuts_topsongs_long"
+        android:shortcutShortLabel="@string/shortcuts_topsongs_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.audiomack.ui.home.HomeActivity"
+            android:targetPackage="com.audiomack">
+            <extra android:name="shortcut" android:value="topSongs"/>
+        </intent>
+        <categories android:name="android.shortcut.topSongs" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/quick_action_favorites"
+        android:shortcutDisabledMessage="@string/shortcuts_favorites_disabled"
+        android:shortcutId="favorites"
+        android:shortcutLongLabel="@string/shortcuts_favorites_long"
+        android:shortcutShortLabel="@string/shortcuts_favorites_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.audiomack.ui.home.HomeActivity"
+            android:targetPackage="com.audiomack">
+            <extra android:name="shortcut" android:value="favorites"/>
+        </intent>
+        <categories android:name="android.shortcut.favorites" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/quick_action_playlists"
+        android:shortcutDisabledMessage="@string/shortcuts_playlists_disabled"
+        android:shortcutId="playlists"
+        android:shortcutLongLabel="@string/shortcuts_playlists_long"
+        android:shortcutShortLabel="@string/shortcuts_playlists_short">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.audiomack.ui.home.HomeActivity"
+            android:targetPackage="com.audiomack">
+            <extra android:name="shortcut" android:value="playlists"/>
+        </intent>
+        <categories android:name="android.shortcut.playlists" />
+    </shortcut>
+
+</shortcuts>

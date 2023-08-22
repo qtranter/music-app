@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="background_color">#0D0D0D</color>
+
+    <color name="login_hint_color">#666666</color>
+    <color name="login_text_color">#CACACA</color>
+
+    <color name="orange">#ffa200</color>
+    <color name="gray_text">#CACACA</color>
+    <color name="gray_btn">#FF888888</color>
+
+    <color name="black">#000000</color>
+    <color name="white" tools:override="true">#FFFFFF</color>
+    <color name="white_alpha10">#1AFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="audiowave_grey">#C7C7C7</color>
+    <color name="audiowave_grey_alpha20">#33C7C7C7</color>
+
+    <color name="black_alpha30">#4D000000</color>
+    <color name="black_alpha50">#80000000</color>
+    <color name="black_alpha60">#99000000</color>
+    <color name="black_alpha80">#CC000000</color>
+    <color name="black_alpha90">#E6000000</color>
+
+    <color name="featured_music_highlight">#1C1C1C</color>
+
+    <color name="permissions_darkgrey">#3F3F3F</color>
+
+    <color name="tablayout_unselected_textcolor">#999999</color>
+    <color name="tablayout_selected_textcolor">#000000</color>
+
+    <color name="tablayout_dark_unselected_textcolor">#999999</color>
+    <color name="tablayout_dark_selected_textcolor">#ffffff</color>
+
+    <color name="profile_bg">#1C1C1C</color>
+
+    <color name="ad_bg">#1C1C1C</color>
+
+    <color name="placeholder_gray">#CACACA</color>
+
+    <color name="queue_reorder_normal">#0d0d0d</color>
+    <color name="queue_reorder_highlighted">#1C1C1C</color>
+
+    <color name="red_error">#FF2A2A</color>
+
+    <color name="action_button_selected">@color/white</color>
+    <color name="action_button_deselected">#999999</color>
+
+    <color name="benchmark_yellow">#FFBE00</color>
+    <color name="benchmark_orange">#E85E0A</color>
+    <color name="benchmark_dark_gray">#222222</color>
+
+    <color name="autocomplete_text">#CACACA</color>
+    <color name="autocomplete_hint">#585858</color>
+
+    <color name="alert_bg">#1C1C1C</color>
+    <color name="toolbar_bg">#1C1C1C</color>
+</resources>

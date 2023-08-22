@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_alpha80"
+    android:clickable="true"
+    android:focusable="true"
+    tools:ignore="SpUsage">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#222222"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        tools:visibility="visible">
+
+        <ScrollView
+            android:id="@+id/scrollViewButtons"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scrollbars="none">
+
+            <FrameLayout
+                android:id="@+id/scrollContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/listLayoutButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/slideup_menu_divider"
+                    android:orientation="vertical"
+                    android:showDividers="middle"
+                    tools:visibility="visible">
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonTrophies"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/slideupmenu_music_trophies"
+                        app:drawableStartCompat="@drawable/ic_music_menu_trophies" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonHighlight"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/highlights_add"
+                        app:drawableStartCompat="@drawable/ic_music_menu_highlight" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonCopyLink"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/slideupmenu_music_share_copylink"
+                        app:drawableStartCompat="@drawable/ic_music_menu_copy_link" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonInstagram"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/slideupmenu_music_share_instagram"
+                        app:drawableStartCompat="@drawable/ic_music_menu_instagram" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonSnapchat"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/slideupmenu_music_share_snapchat"
+                        app:drawableStartCompat="@drawable/ic_music_menu_snapchat" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonTwitter"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/slideupmenu_music_share_twitter"
+                        app:drawableStartCompat="@drawable/ic_music_menu_twitter" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonFacebook"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:drawablePadding="24dp"
+                        android:text="@string/slideupmenu_music_share_facebook"
+                        app:drawableStartCompat="@drawable/ic_music_menu_facebook" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonSms"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:drawablePadding="18dp"
+                        android:text="@string/slideupmenu_music_share_text"
+                        app:drawableStartCompat="@drawable/ic_music_menu_text" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonWhatsapp"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/share_whatsapp"
+                        app:drawableStartCompat="@drawable/ic_music_menu_whatsapp" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonMessenger"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:drawablePadding="10dp"
+                        android:text="@string/share_messenger"
+                        app:drawableStartCompat="@drawable/ic_music_menu_messenger" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonWeChat"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:drawablePadding="10dp"
+                        android:text="@string/share_wechat"
+                        app:drawableStartCompat="@drawable/ic_music_menu_wechat" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/listButtonMore"
+                        style="@style/SlideUpMenuInlineButton"
+                        android:text="@string/slideupmenu_music_share_more"
+                        app:drawableStartCompat="@drawable/ic_music_menu_more" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gridLayoutButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="30dp"
+                    tools:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/layoutRowOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp">
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/shareImageView"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:contentDescription="@string/slideupmenu_music_trophies"
+                                android:scaleType="centerCrop"
+                                tools:src="@color/transparent" />
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/shareImageViewOverlay"
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:scaleType="centerCrop"
+                                android:src="@color/black_alpha30"
+                                app:civ_circle_background_color="@color/black_alpha30" />
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="80dp"
+                                android:contentDescription="@string/slideupmenu_music_trophies"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/ic_trophy" />
+
+                            <com.audiomack.views.AMCustomFontButton
+                                android:id="@+id/buttonShareImage"
+                                style="@style/SlideUpMenuShareButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:paddingTop="86dp"
+                                android:text="@string/slideupmenu_music_trophies" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:id="@+id/layoutHighlight"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <com.audiomack.views.AMCustomFontButton
+                                android:id="@+id/buttonHighlight"
+                                style="@style/SlideUpMenuShareButton"
+                                android:layout_width="match_parent"
+                                android:text="@string/highlights_add"
+                                app:drawableTopCompat="@drawable/ic_music_menu_highlight_80" />
+
+                            <ImageView
+                                android:id="@+id/highlightPinImageView"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:layout_gravity="center|bottom"
+                                android:layout_marginStart="28dp"
+                                android:layout_marginBottom="54dp"
+                                android:contentDescription="@string/highlights_add"
+                                android:scaleType="centerInside"
+                                app:srcCompat="@drawable/ic_music_menu_highlight_check" />
+
+                        </FrameLayout>
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonCopyLink"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/slideupmenu_music_share_copylink"
+                            app:drawableTopCompat="@drawable/ic_music_menu_copy_link_80" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutRowTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp">
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonInstagram"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/accessibility_instagram"
+                            app:drawableTopCompat="@drawable/ic_music_menu_instagram_80" />
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonSnapchat"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/slideupmenu_music_share_snapchat"
+                            app:drawableTopCompat="@drawable/ic_music_menu_snapchat_80" />
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonTwitter"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/slideupmenu_music_share_twitter"
+                            app:drawableTopCompat="@drawable/ic_music_menu_twitter_80" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutRowThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp">
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonFacebook"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/slideupmenu_music_share_facebook"
+                            app:drawableTopCompat="@drawable/ic_music_menu_facebook_80" />
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonSms"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/slideupmenu_music_share_text"
+                            app:drawableTopCompat="@drawable/ic_music_menu_text_80" />
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonWhatsApp"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/share_whatsapp"
+                            app:drawableTopCompat="@drawable/ic_music_menu_whatsapp_80" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutRowFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="15dp"
+                        android:paddingEnd="15dp">
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonMessenger"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/share_messenger"
+                            app:drawableTopCompat="@drawable/ic_music_menu_messenger_80" />
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonWeChat"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/share_wechat"
+                            app:drawableTopCompat="@drawable/ic_music_menu_wechat_80" />
+
+                        <com.audiomack.views.AMCustomFontButton
+                            android:id="@+id/buttonMore"
+                            style="@style/SlideUpMenuShareButton"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:text="@string/slideupmenu_music_share_more"
+                            app:drawableTopCompat="@drawable/ic_music_menu_more_80" />
+
+                        <View
+                            android:id="@+id/viewBuffer"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:visibility="gone" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#333333" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonCancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#222222"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/options_cancel"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:customletterspacing="-0.5" />
+
+    </LinearLayout>
+
+</FrameLayout>

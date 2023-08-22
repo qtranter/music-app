@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">दोबारा कोशिश करें</string>
+
+    <string name="splash_offline">आप इंटरनेट से कनेक्ट नहीं हैं और केवल डाउनलोड किए गए म्यूजिक को प्ले कर सकते हैं।</string>
+
+    <string name="splash_gotodownloads">ऑफ़लाइन म्यूजिक पर जाएँ</string>
+
+    <string name="splash_message">सर्वश्रेष्ठ अनुभव प्रदान करने के लिए हम आपसे निम्नलिखित अनुमतियों को इनेबल करने के लिए पूछते  हैं:</string>
+
+    <string name="splash_storage">फाइल का एक्सेस</string>
+
+    <string name="splash_storage_message">आपको गाने और एल्बमों को डाउनलोड करने की अनुमति प्रदान करता है</string>
+
+    <string name="splash_location">लोकेशन</string>
+
+    <string name="splash_location_message">आपके क्षेत्र में लोकप्रिय म्यूजिक को प्रदर्शित करने के लिए Audiomack को इनेबल करता है</string>
+
+    <string name="splash_notifications">पुश नोटिफिकेशन</string>
+
+    <string name="splash_notifications_message">जब कोई नया लोकप्रिय म्यूजिक रिलीज़ होता है, तो हमें आपको सूचित करने की अनुमति प्रदान करता है</string>
+
+    <string name="splash_ok">ठीक है, समझ गया!</string>
+
+    <string name="splash_later">शायद बाद में?</string>
+
+    <string name="splash_privacy_policy">गोपनीयता नीति</string>
+
+    <string name="splash_autologin_timeout_error_message">हमें कनेक्ट करने में समस्या आ रही है। कृपया अपने इंटरनेट कनेक्शन की जाँच करें</string>
+
+    <string name="splash_autologin_timeout_error_ok">ठीक है</string>
+
+    <string name="splash_autologin_fail_message">लॉग-इन करने में विफल रहा</string>
+
+    <string name="splash_autologin_facebook_error_message">फेसबुक टोकन रिफ्रेश विफल रहा</string>
+
+    <string name="home_tab_feed">फीड</string>
+
+    <string name="home_tab_playlists">प्लेलिस्ट</string>
+
+    <string name="home_tab_search">खोजें</string>
+
+    <string name="home_tab_library">मेरी लाइब्रेरी</string>
+
+    <string name="signup_tos">साइन-अप करके आप हमारी सेवा की शर्तों और गोपनीयता नीति से सहमत होते हैं</string>
+
+    <string name="signup_tos_highlighted_tos">सेवा की शर्तें</string>
+
+    <string name="signup_tos_highlighted_privacy">गोपनीयता नीति</string>
+
+    <string name="signup_username">प्रयोक्ता का नाम दर्ज करें</string>
+
+    <string name="signup_email">अपना ईमेल दर्ज करें</string>
+
+    <string name="signup_password">पासवर्ड सृजित करें</string>
+
+    <string name="signup_password_confirm">अपने पासवर्ड की पुष्टि करें</string>
+
+    <string name="signup_create">अपना खाता बनाएँ</string>
+
+    <string name="signup_facebook">फेसबुक के साथ साइन-अप करें</string>
+
+    <string name="signup_go_to_login">क्या आपके पास पहले से एक खाता मौजूद है?</string>
+
+    <string name="signup_header">नि: शुल्क खाता बनाएँ</string>
+
+    <string name="signup_birthday_label">आपका जन्मदिन कब है?</string>
+
+    <string name="signup_gender_label">आपका जेंडर क्या है?</string>
+
+    <string name="signup_gender_male">पुरुष</string>
+
+    <string name="signup_gender_female">महिला</string>
+
+    <string name="signup_gender_other">नॉन-बाइनरी</string>
+
+    <string name="signup_disclaimer">आपके अनुभव को निजीकृत करने के लिए Audiomack इस डेटा का उपयोग करता है जिससे आर्टिस्टों को उनके श्रोताओं को समझने इत्यादि में सहायता मिलती है। हम आपके व्यक्तिगत डेटा को हमेशा गुमनाम रखेंगे।</string>
+
+    <string name="signup_finish">समाप्त करें</string>
+
+    <string name="signup_error_birthday">कृपया एक मान्य जन्मदिन दर्ज करें</string>
+
+    <string name="signup_error_gender">कृपया एक जेंडर का चयन करें</string>
+
+    <string name="login_show_password">पासवर्ड दिखाएँ</string>
+
+    <string name="login_error_timestamp">टाइमस्टैम्प की अवधि समाप्त हो गई। इसका अर्थ यह हो सकता है कि आपके डिवाइस की घड़ी गलत है। कृपया समय और तिथि की जाँच करें और यदि आपको अभी भी समस्या आ रही है, तो support\@audiomack.com पर ईमेल करें।</string>
+
+    <string name="login_error_1037">आवश्यक विवरण वापिस प्राप्त नहीं कर सकते। कृपया सुनिश्चित करें कि आपके पास अपने खाते में एक ईमेल पता निर्धारित है और दोबारा कोशिश करें।</string>
+
+    <string name="login_header">अपने खाते में साइन-इन करें</string>
+
+    <string name="login_email">ईमेल</string>
+
+    <string name="login_password">पासवर्ड</string>
+
+    <string name="login_forgot_password">पासवर्ड भूल गए हैं</string>
+
+    <string name="login_cta">साइन-इन करें </string>
+
+    <string name="login_facebook">फेसबुक के साथ साइन-इन करें</string>
+
+    <string name="login_go_to_signup_hint">खाता नहीं है?</string>
+
+    <string name="login_go_to_signup">नि: शुल्क खाता बनाएँ</string>
+
+    <string name="login_facebook_error_message">फेसबुक के साथ लॉग-इन विफल रहा</string>
+
+    <string name="login_facebook_error_button">ठीक है</string>
+
+    <string name="login_error_title">लॉग-इन त्रुटि</string>
+
+    <string name="login_error_message_facebook">फेसबुक त्रुटि</string>
+
+    <string name="login_tos">audiomack में साइन-इन करके आप हमारी सेवा की शर्तों और गोपनीयता नीति से सहमत होते हैं</string>
+
+    <string name="login_tos_highlighted_tos">सेवा की शर्तें</string>
+
+    <string name="login_tos_highlighted_privacy">गोपनीयता नीति</string>
+
+    <string name="signup_error_title">साइन-अप त्रुटि</string>
+
+    <string name="authentication_validation_username_empty">प्रयोक्ता का नाम रिक्त है</string>
+
+    <string name="authentication_validation_email_empty">ईमेल रिक्त है</string>
+
+    <string name="authentication_validation_password_empty">पासवर्ड रिक्त है</string>
+
+    <string name="authentication_validation_password_mismatch">पासवर्ड मेल नहीं खाते हैं</string>
+
+    <string name="logout_alert_title">लॉगआउट करें</string>
+
+    <string name="logout_alert_message">Audiomack से लॉगआउट करें?</string>
+
+    <string name="logout_alert_no">रद्द करें</string>
+
+    <string name="logout_alert_yes">ठीक है</string>
+
+    <string name="forgot_password_alert_title">पासवर्ड भूल गए हैं</string>
+
+    <string name="forgot_password_alert_message">अपना ईमेल दर्ज करें और हम आपको अपना पासवर्ड रीसेट करने के लिए चरण प्रेषित करेंगे</string>
+
+    <string name="forgot_password_alert_no">रद्द करें</string>
+
+    <string name="forgot_password_alert_yes">प्रस्तुत करें</string>
+
+    <string name="forgot_password_alert_hint">ईमेल पता</string>
+
+    <string name="forgot_password_success">धन्यवाद। अपना पासवर्ड रीसेट करने हेतु निर्देशों के लिए कृपया अपने ईमेल की जाँच करें। यह आपके स्पैम फोल्डर में हो सकता है।</string>
+
+    <string name="forgot_password_failure_template">%s यदि आपको समस्या आ रही है तो कृपया हमें support\@audiomack.com पर ईमेल करें</string>
+
+    <string name="premium_start_trial">अपना 7-दिवसीय नि: शुल्क परीक्षण शुरू करें</string>
+
+    <string name="premium_price_template">परीक्षण के बाद %s प्रति माह</string>
+
+    <string name="premium_toc">Audiomack प्रीमियम सदस्यता\nनियम और शर्तें</string>
+
+    <string name="premium_desc_template">Audiomack प्रीमियम एक आवर्ती सदस्यता है।  आपके 7-दिवसीय परीक्षण की समाप्ति पर आपके Google Play खाते के माध्यम से आपको प्रति माह %s का बिल दिया जाएगा।  जब तक आप बिलिंग अवधि समाप्त होने से कम से कम 24 घंटे पहले ऑटो-नवीनीकरण रद्द या बंद नहीं करते तब तक आपकी सदस्यता स्वतः नवीनीकृत हो जाएगी।  आप Google Play Store में अपनी सदस्यता का प्रबंधन कर सकते हैं।</string>
+
+    <string name="premium_desc_template_ios">यदि आप Audiomack सब्सक्रिप्शन (%s प्रति माह) खरीदते हैं, तो भुगतान आपके iTunes खाते से प्रभारित किया जाएगा, और मौजूदा सदस्यता अवधि की समाप्ति से पहले 24 घंटों के भीतर नवीनीकरण के लिए आपके खाते को प्रभारित किया जाएगा। यदि आप चाहते हैं कि अब Audiomack गोल्ड/प्लेटिनम के लिए बिल न दिया जाए और अपनी प्रीमियम सदस्यता को रद्द करना चाहते हैं, तो कृपया 24 घंटे के कटऑफ के गुजरने से पहले ऐसा करना सुनिश्चित करें। खरीदारी के बाद iTunes स्टोर में अपनी सेटिंग्स में जाकर ऑटो-नवीनीकरण को किसी भी समय बंद किया जा सकता है। गोल्ड/प्लेटिनम सदस्यता स्तर के लिए यहाँ और ऐप में उल्लिखित सभी कीमतें अमेरिकी डॉलर में हैं, जो दुनिया के अन्य देशों में भिन्न हो सकती हैं और भविष्य में इनमें परिवर्तन हो सकता है। आपकी सक्रिय सदस्यता अवधि के दौरान मौजूदा सदस्यता को रद्द करने की अनुमति नहीं है। Audiomack सदस्यता के बिना, उपयोग करने के लिए हमेशा निःशुल्क है, और आप अपनी सदस्यता समाप्त होने के बाद आप किसी भी समय विज्ञापनों के साथ Audiomack का उपयोग दोबारा शुरू कर सकते हैं।</string>
+
+    <string name="premium_no_active_subscriptions">आपके पास एक सक्रिय सदस्यता नहीं है।</string>
+
+    <string name="premium_unable_restore">पिछली खरीद को रिस्टोर करने में असमर्थ</string>
+
+    <string name="premium_restore">पिछली खरीद को रिस्टोर करें</string>
+
+    <string name="premium_and">और</string>
+
+    <string name="premium_terms_of_service">सेवा की शर्तें</string>
+
+    <string name="premium_privacy_policy">गोपनीयता नीति</string>
+
+    <string name="premium_subscribing">सदस्यता लेने से आप Audiomack\'s तक एक्सेस सकते हैं</string>
+
+    <string name="premium_2019_title">Audiomack प्रीमियम में\nअपग्रेड करें</string>
+
+    <string name="premium_2019_subtitle">अपना 7-दिवसीय नि: शुल्क परीक्षण शुरू करें और पाएँ:</string>
+
+    <string name="premium_2019_adfree">एक विज्ञापन-रहित अनुभव</string>
+
+    <string name="premium_2019_adfree_desc">बिना किसी विज्ञापन-रुकावट या बैनर के असीमित प्लेबैक</string>
+
+    <string name="premium_2019_playlist">पूरी की पूरी playlists को डाउनलोड करें</string>
+
+    <string name="premium_2019_playlist_desc">एक ही टैप में किसी भी Playlist में मौजूद सभी गानों को अपने डिवाइस में  सहेजें</string>
+
+    <string name="premium_2019_hifi">उच्च गुणवत्ता वाली स्ट्रीमिंग</string>
+
+    <string name="premium_2019_hifi_desc">सुनिश्चित करें कि आप उच्चतम गुणवत्ता पर उपलब्ध हर गाने को सुनते हैं</string>
+
+    <string name="premium_2019_airplay">म्यूजिक डिवाइसों के लिए एयरप्ले</string>
+
+    <string name="premium_2019_airplay_desc">एयरप्ले-सक्षम डिवाइसों पर प्ले करना चाहते हैं? प्लेयर से ही कास्ट करें</string>
+
+    <string name="premium_2019_equalizer">इक्विलाइज़र नियंत्रण</string>
+
+    <string name="premium_2019_equalizer_desc">अपने म्यूजिक के साउंड को अपने पसंद के बास और ट्रेबल कस्टमाइज़ेशन के अनुसार निर्मित करें</string>
+
+    <string name="premium_2019_trial">7-दिवसीय नि: शुल्क परीक्षण</string>
+
+    <string name="premium_2019_trial_desc">खरीदने से पहले आजमाएं - शुरू करने के बाद एक सप्ताह तक उपर्युक्त सभी निःशुल्क को प्राप्त करें</string>
+
+    <string name="defaultgenre_title">डिफ़ॉल्ट ज़ॉन्रअ सेट करें</string>
+
+    <string name="notifications_title">नोटिफिकेशन</string>
+
+    <string name="notifications_verb_favorite">पसंदीदा</string>
+
+    <string name="notifications_verb_repost">Re-up किया गया</string>
+
+    <string name="notifications_verb_follow">आपको फॉलो किया</string>
+
+    <string name="notifications_verb_playlist">playlist किया गया</string>
+
+    <string name="notifications_verb_added">जोड़ा गया</string>
+
+    <string name="notifications_verb_added_to_playlist">playlist में</string>
+
+    <string name="notifications_verb_comment">पर टिप्पणी की</string>
+
+    <string name="notifications_verb_comment_reply">आपकी टिप्पणी का उत्तर दिया</string>
+
+    <string name="removedcontent_title">हटाई गई सामग्री</string>
+
+    <string name="removedcontent_message">आर्टिस्ट, लेबल या अधिकार-धारक द्वारा Audiomack से निम्नलिखित म्यूजिक को हटा दिया गया है। हम भविष्य में इसे रिस्टोर करने के लिए काम कर रहे हैं। धन्यवाद</string>
+
+    <string name="removedcontent_ok">ठीक है</string>
+
+    <string name="removedcontent_header">किन्हीं ऑफ़लाइन म्यूजिक को हटा दिया गया है। और अधिक जानें</string>
+
+    <string name="removedcontent_header_highlighted">किन्हीं ऑफ़लाइन म्यूजिक को हटा दिया गया है। और अधिक जानें</string>
+
+    <string name="excludereups">Re-Ups को निकाल दें</string>
+
+    <string name="restoredownloads_title">डाउनलोडों को रिस्टोर करें</string>
+
+    <string name="restoredownloads_footer">अपने पिछले डाउनलोडों को रिस्टोर करें</string>
+
+    <string name="playlist_info_failed">Playlist विवरणों को प्राप्त करने में असमर्थ। कृपया बाद में दोबारा कोशिश करें।</string>
+
+    <string name="artist_info_failed">आर्टिस्ट डेटा प्राप्त करने में असमर्थ। कृपया बाद में दोबारा कोशिश करें।</string>
+
+    <string name="song_info_failed">गाने का डेटा प्राप्त करने में असमर्थ।</string>
+
+    <string name="album_info_failed">एल्बम का डेटा प्राप्त करने में असमर्थ।</string>
+
+    <string name="download_results_no_connection">आप इंटरनेट से कनेक्ट नहीं हैं</string>
+
+    <string name="download_failed_song">गाने को डाउनलोड करने में असमर्थ</string>
+
+    <string name="download_failed_abum">एल्बम को डाउनलोड करने में असमर्थ</string>
+
+    <string name="download_delete_list_failed">डाउनलोड सूची से हटाने में असमर्थ</string>
+
+    <string name="download_playlist_succeeded">playlist को ऑफ़लाइन में जोड़ा गया</string>
+
+    <string name="download_succeeded">सफलतापूर्वक डाउनलोड किया गया</string>
+
+    <string name="login_needed_message">इस फीचर का प्रयोग करने के लिए लॉग-इन करें</string>
+
+    <string name="login_needed_no">रद्द करें</string>
+
+    <string name="login_needed_yes">लॉग-इन करें</string>
+
+    <string name="playlist_song_singular">गाना</string>
+
+    <string name="playlist_song_plural">गाने</string>
+
+    <string name="playlist_sync">नए गीतों को ऑफ़लाइन में जोड़ें</string>
+
+    <string name="playlistreorder_title">पुन: व्यवस्थित करें / निकालें</string>
+
+    <string name="playlistreorder_save">सहेजें</string>
+
+    <string name="addtoplaylist_title">Playlists में जोड़ें</string>
+
+    <string name="addtoplaylist_create">नई Playlist का सृजन करें</string>
+
+    <string name="addtoplaylist_create_hint">एक नई Playlist का सृजन करने के लिए टैप करें</string>
+
+    <string name="addtoplaylist_addtoexisting">मौजूदा Playlist में जोड़ें</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">इस Playlist को एडिट नहीं किया जा सकता है</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">इस गाने को किसी Playlist में जोड़ा नहीं जा सकता है</string>
+
+    <string name="addtoplaylist_song_added">Playlist में सफलतापूर्वक जोड़ा गया</string>
+
+    <string name="addtoplaylist_song_added_failed">Playlist में नहीं जोड़ा जा सकता</string>
+
+    <string name="addtoplaylist_song_removed">Playlist से सफलतापूर्वक निकाल दिया गया</string>
+
+    <string name="addtoplaylist_song_removed_failed">Playlist से नहीं निकाला जा सकता</string>
+
+    <string name="editplaylist_title">Playlist विवरणों को एडिट करें</string>
+
+    <string name="editplaylist_create_title">नई Playlist का सृजन करें</string>
+
+    <string name="editplaylist_hint">एडिट करने के लिए फ़ील्ड पर टैप करें</string>
+
+    <string name="editplaylist_name">नाम:</string>
+
+    <string name="editplaylist_name_hint">Playlist का नाम दर्ज करें</string>
+
+    <string name="editplaylist_genre">ज़ॉन्रअ:</string>
+
+    <string name="editplaylist_permissions">अनुमतियां:</string>
+
+    <string name="editplaylist_description">विवरण:</string>
+
+    <string name="editplaylist_description_hint">playlist  का विवरण दर्ज करें</string>
+
+    <string name="editplaylist_delete">Playlist को हटाएँ</string>
+
+    <string name="editplaylist_save">सहेजें</string>
+
+    <string name="editplaylist_cancel">रद्द करें</string>
+
+    <string name="playlist_delete_failed">Playlist को हटाना विफल रहा</string>
+
+    <string name="playlist_delete_succeeded_template">Playlist \'%s\' को हटा दिया गया</string>
+
+    <string name="playlist_takendown_title">सर्जक ने इस Playlist को निकाल दिया है।</string>
+
+    <string name="playlist_takendown_message">क्या आप इसे अपने खाते में कॉपी करना चाहेंगे?</string>
+
+    <string name="playlist_takendown_yes">जी हाँ, Playlist को कॉपी करें</string>
+
+    <string name="playlist_takendown_no">जी नहीं, निकाल दें</string>
+
+    <string name="musicinfo_stats_today">आज</string>
+
+    <string name="musicinfo_stats_week">इस सप्ताह</string>
+
+    <string name="musicinfo_stats_month">इस महीने</string>
+
+    <string name="musicinfo_stats_alltime">पूरा समय</string>
+
+    <string name="musicinfo_lastupdated">अंतिम अपडेट:</string>
+
+    <string name="musicinfo_numberofsongs">गानों की संख्या:</string>
+
+    <string name="musicinfo_playlistcreator">playlist का सर्जक:</string>
+
+    <string name="musicinfo_album">एल्बम:</string>
+
+    <string name="musicinfo_producer">निर्माता:</string>
+
+    <string name="musicinfo_addedon">रिलीज़ की तिथि:</string>
+
+    <string name="musicinfo_genre">ज़ॉन्रअ:</string>
+
+    <string name="musicinfo_description">विवरण:</string>
+
+    <string name="musicinfo_description_read_more">और अधिक पढ़ें</string>
+
+    <string name="musicinfo_total_plays">कुल प्लेज़:</string>
+
+    <string name="musicinfo_tags">टैग्स</string>
+
+    <string name="artist_followers">फॉलोवर्स</string>
+
+    <string name="artist_following">फॉलोविंग</string>
+
+    <string name="artist_plays">कुल प्लेज़</string>
+
+    <string name="queue_added">क्यू में जोड़ा गया</string>
+
+    <string name="queue_unable_to_add_playlist">क्यू में playlist को जोड़ने में असमर्थ</string>
+
+    <string name="share_twitter">ट्विटर पर साझा करें</string>
+
+    <string name="share_contacts">जानकारों के साथ साझा करें</string>
+
+    <string name="share_app">किसी ऐप के माध्यम से साझा करें</string>
+
+    <string name="share_copy_link">लिंक को कॉपी करें</string>
+
+    <string name="share_link_copied">लिंक को आपके क्लिपबोर्ड पर कॉपी किया गया</string>
+
+    <string name="favorites_filter_allmusic">सभी</string>
+
+    <string name="favorites_filter_songs">गाने</string>
+
+    <string name="favorites_filter_albums">एल्बम</string>
+
+    <string name="favorites_filter_playlists">प्लेलिस्ट</string>
+
+    <string name="offline_filter_allmusic">सभी</string>
+
+    <string name="offline_filter_songs">गाने</string>
+
+    <string name="offline_filter_albums">एल्बम</string>
+
+    <string name="offline_filter_playlists">प्लेलिस्ट</string>
+
+    <string name="offline_filter_notondevice">डिवाइस पर नहीं</string>
+
+    <string name="offline_sort_newest">सबसे नया</string>
+
+    <string name="offline_sort_oldest">सबसे पुराना</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">लॉग-इन करें / साइन-अप करें</string>
+
+    <string name="search_hint">खोजें</string>
+
+    <string name="search_cancel">रद्द करें</string>
+
+    <string name="search_global_placeholder">आर्टिस्ट, \nगाने और एल्बम की खोज करें।</string>
+
+    <string name="search_trending">प्रचलित खोजें</string>
+
+    <string name="search_recent">नवीनतम खोजें</string>
+
+    <string name="library_search_hint">खोजें</string>
+
+    <string name="library_search_cancel">रद्द करें</string>
+
+    <string name="player_playingfrom">से प्ले कर रहा है</string>
+
+    <string name="player_goadfree">विज्ञापन निकालें - 7-दिवसीय नि:शुल्क परीक्षण शुरू करें</string>
+
+    <string name="player_closead">विज्ञापन को बंद करें</string>
+
+    <string name="player_shuffle_on">शफल को ऑन करें</string>
+
+    <string name="player_repeat_all">सभी को दोहराएं</string>
+
+    <string name="player_repeat_one">एक को दोहराएं</string>
+
+    <string name="player_file_error">गाने को लोड करते समय त्रुटि हुई</string>
+
+    <string name="player_storage_error">डाउनलोड की गई फ़ाइल को प्ले करने में असमर्थ</string>
+
+    <string name="player_playback_error">गाने को प्ले करने में असमर्थ</string>
+
+    <string name="player_queue_error">क्यू को अपडेट करते समय त्रुटि हुई</string>
+
+    <string name="player_file_error_download_again">इस फ़ाइल को फिर से डाउनलोड करना होगा, कृपया अपनी कनेक्टिविटी की जाँच करें</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">पिछला</string>
+
+    <string name="player_pause">पॉज करें</string>
+
+    <string name="player_play">प्ले करें</string>
+
+    <string name="player_next">अगला</string>
+
+    <string name="player_close">बंद करें</string>
+
+    <string name="player_fav">पसंदीदा</string>
+
+    <string name="player_unfav">नापसंद/पसंदीदा से हटाएँ</string>
+
+    <string name="player_skip_forward">30 सेकंड आगे छोड़ें</string>
+
+    <string name="player_skip_back">15 सेकंड पीछे छोड़ें</string>
+
+    <string name="editaccount_title">खाते को एडिट करें</string>
+
+    <string name="editaccount_banner">अपनी बैनर छवि को एडिट करें</string>
+
+    <string name="editaccount_hint">एडिट करने के लिए फ़ील्ड पर टैप करें</string>
+
+    <string name="editaccount_name">आर्टिस्ट का नाम:</string>
+
+    <string name="editaccount_label">लेबल:</string>
+
+    <string name="editaccount_hometown">होमटाउन:</string>
+
+    <string name="editaccount_website">वेबसाइट:</string>
+
+    <string name="editaccount_bio">बायो:</string>
+
+    <string name="editaccount_bio_counter_template">%s कैरेक्टर शेष हैं</string>
+
+    <string name="editaccount_twitter">ट्विटर:</string>
+
+    <string name="editaccount_instagram">इंस्टाग्राम:</string>
+
+    <string name="editaccount_facebook">फेसबुक:</string>
+
+    <string name="editaccount_youtube">यूट्यूब:</string>
+
+    <string name="editaccount_error_banner">बैनर को सहेजने के दौरान एक त्रुटि हुई</string>
+
+    <string name="editaccount_save">सहेजें</string>
+
+    <string name="editaccount_cancel">रद्द करें</string>
+
+    <string name="editaccount_slug">प्रयोक्ता हैंडल:</string>
+
+    <string name="artistinfo_follow">फॉलो करें</string>
+
+    <string name="artistinfo_unfollow">फॉलोविंग</string>
+
+    <string name="artistinfo_website">वेबसाइट:</string>
+
+    <string name="artistinfo_genre">ज़ॉन्रअ:</string>
+
+    <string name="artistinfo_label">लेबल:</string>
+
+    <string name="artistinfo_hometown">होमटाउन:</string>
+
+    <string name="artistinfo_membersince">से सदस्य:</string>
+
+    <string name="artistinfo_bio">बायो:</string>
+
+    <string name="miniplayer_prev_song">पिछला ट्रैक</string>
+
+    <string name="miniplayer_next_song">अगला ट्रैक</string>
+
+    <string name="queue_title">आपकी क्यू</string>
+
+    <string name="add_to_playlist_permissions_public">सार्वजनिक - कोई भी देख सकता है</string>
+
+    <string name="add_to_playlist_permissions_private">निजी - केवल आप देख सकते हैं</string>
+
+    <string name="add_to_playlist_error_no_name">कृपया अपनी Playlist के लिए एक नाम दर्ज करें</string>
+
+    <string name="add_to_playlist_error">Playlist का सृजन करना विफल रहा</string>
+
+    <string name="add_to_playlist_success_generic">Playlist सफलतापूर्वक सृजित की गई</string>
+
+    <string name="add_to_playlist_success">\'%s\' को आपकी Playlist में जोड़ा गया था</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">आप किसी Playlist के अंतिम ट्रैक को नहीं हटा सकते हैं</string>
+
+    <string name="edit_playlist_success">\'%s\' Playlist को एडिट किया गया था</string>
+
+    <string name="edit_playlist_error">Playlist को एडिट करना विफल रहा</string>
+
+    <string name="edit_playlist_banner_error">बैनर छवि को सहेजने में असमर्थ</string>
+
+    <string name="select_playlist_error">आपकी Playlists को प्राप्त करने में असमर्थ</string>
+
+    <string name="select_playlist_nothing_selected">कृपया एक Playlist का चयन करें</string>
+
+    <string name="select_playlist_success">\'%s\' गाने को आपकी Playlist (Playlists) में जोड़ा गया था</string>
+
+    <string name="select_playlist_failure">गाने को जोड़ने में असमर्थ</string>
+
+    <string name="player_account_followed">अब %s को फ़ॉलो कर रहा है</string>
+
+    <string name="player_account_unfollowed">%s को अनफॉलो किया गया</string>
+
+    <string name="feature_not_available_offline_alert_message">हमें कनेक्ट करने में समस्या आ रही है। कृपया अपने कनेक्शन की जाँच करें और दोबारा कोशिश करें।</string>
+
+    <string name="feature_not_available_offline_alert_button">ठीक है</string>
+
+    <string name="toast_favorited_song">गाने को पसंदीदा किया गया</string>
+
+    <string name="toast_favorited_song_error">गाने को पसंदीदा करने में असमर्थ</string>
+
+    <string name="toast_favorited_album">एल्बम को पसंदीदा किया गया</string>
+
+    <string name="toast_favorited_album_error">एल्बम को पसंदीदा करने में असमर्थ</string>
+
+    <string name="toast_favorited_playlist">playlist को पसंदीदा किया गया</string>
+
+    <string name="toast_favorited_playlist_error">playlist को पसंदीदा करने में असमर्थ</string>
+
+    <string name="toast_unfavorited_song">गाने को नापसंद किया गया</string>
+
+    <string name="toast_unfavorited_song_error">गाने को नापसंद करने में असमर्थ</string>
+
+    <string name="toast_unfavorited_album">एल्बम को नापसंद किया गया</string>
+
+    <string name="toast_unfavorited_album_error">एल्बम को नापसंद करने में असमर्थ</string>
+
+    <string name="toast_unfavorited_playlist">Playlist को नापसंद किया गया</string>
+
+    <string name="toast_unfavorited_playlist_error">Playlist को नापसंद करने में असमर्थ</string>
+
+    <string name="toast_reposted_song">गाने को Re-up किया गया</string>
+
+    <string name="toast_reposted_song_error">गाने को Re-up करने में असमर्थ</string>
+
+    <string name="toast_reposted_album">एल्बम को Re-up किया गया</string>
+
+    <string name="toast_reposted_album_error">एल्बम को Re-up करने में असमर्थ</string>
+
+    <string name="permissions_rationale_alert_camera_message">इस फीचर के लिए कैमरे तक एक्सेस की आवश्यकता होती है। कृपया इस फीचर का उपयोग करने के लिए सेटिंग्स में इस अनुमति को इनेबल करें।</string>
+
+    <string name="permissions_rationale_alert_storage_message">इस फीचर के लिए आपके स्टोरेज तक एक्सेस की आवश्यकता होती है। कृपया इस फीचर का उपयोग करने के लिए सेटिंग्स में इस अनुमति को इनेबल करें।</string>
+
+    <string name="permissions_rationale_alert_cancel">रद्द करें</string>
+
+    <string name="permissions_rationale_alert_settings">सेटिंग्स को खोलें</string>
+
+    <string name="permissions_location_ios">आपके क्षेत्र में लोकप्रिय म्यूजिक को दिखाने के लिए Audiomack को इनेबल करता है।</string>
+
+    <string name="shortcuts_offline_short">ऑफलाइन</string>
+
+    <string name="shortcuts_offline_long">ऑफलाइन</string>
+
+    <string name="shortcuts_offline_disabled">ऑफलाइन</string>
+
+    <string name="shortcuts_topsongs_short">शीर्ष गाने</string>
+
+    <string name="shortcuts_topsongs_long">शीर्ष गाने</string>
+
+    <string name="shortcuts_topsongs_disabled">शीर्ष गाने</string>
+
+    <string name="shortcuts_favorites_short">पसंदीदा</string>
+
+    <string name="shortcuts_favorites_long">पसंदीदा</string>
+
+    <string name="shortcuts_favorites_disabled">पसंदीदा</string>
+
+    <string name="shortcuts_playlists_short">प्लेलिस्ट</string>
+
+    <string name="shortcuts_playlists_long">प्लेलिस्ट</string>
+
+    <string name="shortcuts_playlists_disabled">प्लेलिस्ट</string>
+
+    <string name="downloadmessage_title">डाउनलोड शुरू हो गया!</string>
+
+    <string name="downloadmessage_message">अब आप मेरी लाइब्रेरी के ऑफ़लाइन खंड में ऐप में इस अपलोड डेटा-फ्री को प्ले कर सकते हैं</string>
+
+    <string name="downloadmessage_button">ऑफ़लाइन म्यूजिक पर जाएँ</string>
+
+    <string name="download_completed_notification_title">डाउनलोड पूर्ण हुआ</string>
+
+    <string name="download_completed_notification_message">अपने ऑफ़लाइन म्यूजिक को देखने के लिए टैप करें</string>
+
+    <string name="playlist_delete_download_title">यह आपकी ऑफ़लाइन लाइब्रेरी से इस प्लेलिस्ट को निकाल देगा।</string>
+
+    <string name="playlist_delete_download_title_highlighted">इस प्लेलिस्ट को निकाल दें</string>
+
+    <string name="playlist_delete_download_message">फ़िक्र न करें, यह आपकी ऑफ़लाइन लाइब्रेरी के किसी भी गाने को नहीं निकलेगा।</string>
+
+    <string name="playlist_delete_download_yes">ठीक है</string>
+
+    <string name="playlist_delete_download_cancel">रद्द करें</string>
+
+    <string name="playlist_download_sync_title">यह आपकी ऑफ़लाइन लाइब्रेरी में इस प्लेलिस्ट में %sगाने को जोड़ेगा।</string>
+
+    <string name="playlist_download_sync_title_highlighted">%sगाने</string>
+
+    <string name="playlist_download_sync_message">आप डाउनलोड करने से पहले आप जाँच करना चाहेंगे हैं कि आप WiFi पर हैं।</string>
+
+    <string name="playlist_download_sync_yes">ठीक है</string>
+
+    <string name="playlist_download_sync_cancel">रद्द करें</string>
+
+    <string name="playlist_download_error">playlist को डाउनलोड करने में असमर्थ</string>
+
+    <string name="unsupported_crop_error">आपका डिवाइस क्रॉपिंग को सपोर्ट नहीं करता है</string>
+
+    <string name="library_search_favorites_placeholder">अपने पसंदीदा की खोज करें...</string>
+
+    <string name="library_search_downloads_placeholder">अपनी ऑफ़लाइन सामग्री की खोज करें...</string>
+
+    <string name="library_search_playlists_placeholder">अपनी playlists की खोज करें...</string>
+
+    <string name="library_search_uploads_placeholder">अपने अपलोड की खोज करें...</string>
+
+    <string name="library_search_noresults_placeholder">आपकी लाइब्रेरी में कोई परिणाम नहीं मिले।</string>
+
+    <string name="library_search_noresults_cta">पूरे AUDIOMACK को खोजें</string>
+
+    <string name="search_noresults_placeholder">कोई परिणाम नहीं मिला।\nकिसी अन्य खोज की कोशिश करें</string>
+
+    <string name="playlists_noresults_placeholder">अभी तक कोई playlists मौजूद नहीं हैं।</string>
+
+    <string name="followers_my_noresults_placeholder">आपके कोई फॉलोवर्स नहीं है।</string>
+
+    <string name="followers_other_noresults_placeholder">%s का कोई फॉलोवर्स नहीं है</string>
+
+    <string name="favorites_my_noresults_placeholder">आपका कोई पसंदीदा नहीं है।</string>
+
+    <string name="downloads_noresults_placeholder">आपका कोई डाउनलोड नहीं है।</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">अपने डाउनलोडों को रिस्टोर करें</string>
+
+    <string name="downloads_loggedout_placeholder">अपने पिछले डाउनलोडों को रिस्टोर करने के लिए लॉग-इन करें</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">एक खाता बनाएँ</string>
+
+    <string name="favorites_my_loggedout_placeholder">आपका कोई पसंदीदा नहीं है।</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">एक खाता बनाएँ</string>
+
+    <string name="favorites_other_noresults_placeholder">%s का कोई पसंदीदा नहीं है</string>
+
+    <string name="following_my_noresults_placeholder">आप किसी को फॉलो नहीं कर रहे हैं।\nफॉलो करने के लिए सुझाए गए खातों को देखें।</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">सुझाए गए फ़ॉलोस</string>
+
+    <string name="following_other_noresults_placeholder">%s किसी को फॉलो नहीं कर रहा है</string>
+
+    <string name="uploads_my_noresults_placeholder">आपके पास कोई अपलोड नहीं है।\nअपने खाते में म्यूजिक को जोड़ने के लिए\naudiomack.com पर जाएँ।</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">AUDIOMACK.COM पर जाएँ।</string>
+
+    <string name="uploads_other_noresults_placeholder">%s के पास कोई अपलोड नहीं है</string>
+
+    <string name="playlists_my_noresults_placeholder">आपने अभी तक किसी Playlists का सृजन नहीं किया है।</string>
+
+    <string name="playlists_my_loggedout_placeholder">आपने अभी तक किसी Playlists का सृजन नहीं किया है।\nएक खाता बनाएँ और कुछ\nPlaylists का निर्माण शुरू करें।</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">एक खाता बनाएँ</string>
+
+    <string name="playlists_other_noresults_placeholder">%s ने अभी तक किसी Playlists का सृजन नहीं किया है।</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">आपकी कोई पसंदीदा Playlists नहीं है।</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">आपकी कोई पसंदीदा Playlists नहीं है।\nएक खाता बनाएँ और कुछ\nPlaylists का निर्माण शुरू करें।</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">एक खाता बनाएँ</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s की कोई Playlists नहीं है</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">आपके कोई ऑफ़लाइन Playlists नहीं है।</string>
+
+    <string name="timeline_noresults_placeholder">उनके नए अपलोडों को यहां प्रदर्शित करने के लिए देखने के लिए खातों को फॉलो करें</string>
+
+    <string name="timeline_loggedout_placeholder">आपका फीड रिक्त है।\nलोगों को फॉलो करना शुरू करने के लिए एक खाता बनाएँ।</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">एक खाता बनाएँ</string>
+
+    <string name="restoredownlods_noresults_placeholder">आपके पास  रिस्टोर किए गए कोई डाउनलोड नहीं हैं जो आपके डिवाइस पर मौजूद नहीं हैं</string>
+
+    <string name="notifications_noresults_placeholder">आपके पास कोई नोटिफिकेशन नहीं है</string>
+
+    <string name="noconnection_placeholder">कनेक्ट करने में समस्या आ रही है</string>
+
+    <string name="noconnection_highlighted_placeholder">दोबारा कोशिश करें</string>
+
+    <string name="user_name_placeholder">प्रयोक्ता</string>
+
+    <string name="playlist_desc_more">अधिक</string>
+
+    <string name="tooltip_toast">और अधिक म्यूजिक को देखने के लिए\nबाईं ओर या दाईं ओर स्वाइप करें\nया ज़ॉन्रअ को बदलने \nके लिए ड्रॉपडाउन पर टैप करें</string>
+
+    <string name="tooltip_play">अगला गाना बजाने के लिए बाईं ओर स्वाइप करें। पूर्ण स्क्रीन प्लेयर को खोलने के लिए टैप करें।</string>
+
+    <string name="tooltip_playlists">एक कस्टम\nplaylist का सृजन करें</string>
+
+    <string name="tooltip_player_queue">आपके म्यूजिक क्यू में गानों को देखने के लिए यहां टैप करें।</string>
+
+    <string name="tooltip_queue_add">आपके म्यूजिक क्यू में गानों को जोड़ने के लिए यहां टैप करें।</string>
+
+    <string name="tooltip_albums">डेटा-मुक्त सुनने के लिए ऑफ़लाइन को अपनाएं</string>
+
+    <string name="tooltip_suggested_followers">अपने पसंदीदा आर्टिस्टों / दिग्गजों को फॉलो करें और जब वे नए म्यूजिक को अपलोड करते हैं तो यह आपके फ़ीड में प्रदर्शित होगा।</string>
+
+    <string name="tooltip_playlists_offline">ऑफलाइन के लिए इस Playlist में गाने जोड़ें</string>
+
+    <string name="tooltip_playlists_favorite">इस Playlist को\nपसंदीदा बनाएँ</string>
+
+    <string name="tooltip_player_scroll">शफल करने और टिप्पणियाँ देखने, गाने की जानकारी और इस आर्टिस्ट से अधिक म्यूजिक के लिए नीचे स्क्रॉल करें।</string>
+
+    <string name="tooltip_player_equalizer">अपने म्यूजिक की आवाज़ को कस्टमाइज करने के लिए इक्वलाइज़र का उपयोग करें</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+
+    <string name="settings_go_premium">विज्ञापनों को निकालें - प्रीमियम को आजमाएं </string>
+
+    <string name="settings_cancel_subscription">सदस्यता रद्द करें </string>
+
+    <string name="settings_edit_account">खाते को एडिट करें</string>
+
+    <string name="settings_view_your_profile">अपनी प्रोफ़ाइल को देखें</string>
+
+    <string name="settings_share_profile">प्रोफ़ाइल को साझा करें</string>
+
+    <string name="settings_default_genre">डिफ़ॉल्ट ज़ॉन्रअ को सेट करें</string>
+
+    <string name="settings_permissions">अनुमतियां</string>
+
+    <string name="settings_support">सपोर्ट</string>
+
+    <string name="settings_debug_info">डीबग की जानकारी भेजें</string>
+
+    <string name="settings_share_app">इस ऐप को साझा करें</string>
+
+    <string name="settings_rate_app">इस ऐप को रेट करें</string>
+
+    <string name="settings_privacy_policy">गोपनीयता नीति</string>
+
+    <string name="settings_dev_environment">देव Env * का प्रयोग करें</string>
+
+    <string name="settings_track_ads">विज्ञापनों को ट्रैक करें</string>
+
+    <string name="settings_grant_premium">ग्रांट प्रीमियम</string>
+
+    <string name="settings_log_viewer">लॉग व्यूअर</string>
+
+    <string name="settings_logout">लॉगआउट करें</string>
+
+    <string name="settings_version_template">वर्जन %s (%s)</string>
+
+    <string name="settings_opensource">ओपन सोर्स लाइब्रेरीज़</string>
+
+    <string name="settings_equalizer">इक्वलाइज़र</string>
+
+    <string name="settings_upgrade_title">Audiomack प्रीमियम में अपग्रेड करें</string>
+
+    <string name="settings_upgrade_subtitle">सभी विज्ञापनों को हटाने के लिए अपना 7-दिवसीय नि:शुल्क परीक्षण शुरू करें </string>
+
+    <string name="settings_upgrade_cta">अपग्रेड क्यों करें?</string>
+
+    <string name="equalizer_title">इक्वलाइज़र</string>
+
+    <string name="equalizer_enable">इक्वलाइज़र</string>
+
+    <string name="equalizer_custom">कस्टम प्रीसेट का उपयोग करें</string>
+
+    <string name="equalizer_acoustic">अकूस्टिक (ध्वनि-संबंधी)</string>
+
+    <string name="equalizer_dance">नृत्य</string>
+
+    <string name="equalizer_electronic">इलेक्ट्रॉनिक</string>
+
+    <string name="equalizer_flat">फ्लैट</string>
+
+    <string name="equalizer_hiphop">हिप-हॉप</string>
+
+    <string name="equalizer_loudness">तीव्रता</string>
+
+    <string name="equalizer_pop">पॉप</string>
+
+    <string name="equalizer_rnb">आर एंड बी</string>
+
+    <string name="equalizer_rock">रॉक</string>
+
+    <string name="equalizer_vocal_booster">वोकल बूस्टर</string>
+
+    <string name="equalizer_save">सहेजें</string>
+
+    <string name="help_title">सहायता</string>
+
+    <string name="help_message">हमारे सहायता केंद्र को देखें, एक टिकट का सृजन करें या अपने मौजूदा टिकटों का प्रबंधन करें।</string>
+
+    <string name="help_knowledgebase">ज्ञान आधारित</string>
+
+    <string name="help_contact">हमसे संपर्क करें</string>
+
+    <string name="help_tickets_none">मेरे टिकट</string>
+
+    <string name="help_tickets_template">मेरे टिकट (%s UNREAD)</string>
+
+    <string name="help_alert_title">हमारी सहायता टीम ने आपके हाल ही का अनुरोध का उत्तर दिया है</string>
+
+    <string name="help_alert_yes">देखें</string>
+
+    <string name="help_alert_no">रद्द करें</string>
+
+    <string name="artist_tab_uploads">अपलोड्स</string>
+
+    <string name="artist_tab_favorites">पसंदीदा</string>
+
+    <string name="artist_tab_playlists">PLAYLISTS</string>
+
+    <string name="artist_tab_followers">फ़ॉलोअर्स</string>
+
+    <string name="artist_tab_following">फॉलोविंग</string>
+
+    <string name="library_tab_favorites">पसंदीदा</string>
+
+    <string name="library_tab_offline">ऑफ़लाइन</string>
+
+    <string name="library_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_tab_followers">फ़ॉलोअर्स</string>
+
+    <string name="library_tab_following">फॉलोविंग</string>
+
+    <string name="library_tab_uploads">अपलोड्स</string>
+
+    <string name="feed_tab_timeline">टाइमलाइन</string>
+
+    <string name="feed_tab_suggestedfollows">सुझाए गए फ़ॉलोस</string>
+
+    <string name="feed_tab_following">फॉलोविंग</string>
+
+    <string name="browse_tab_trending">ट्रेंडिंग</string>
+
+    <string name="browse_tab_topsongs">शीर्ष गाने</string>
+
+    <string name="browse_tab_topalbums">शीर्ष एल्बम्स </string>
+
+    <string name="browse_tab_recentlyadded">हाल ही में जोड़ा गया</string>
+
+    <string name="browse_filter_allgenres">सभी</string>
+
+    <string name="search_tab_allmusic">सभी</string>
+
+    <string name="search_tab_playlists">PLAYLISTS</string>
+
+    <string name="search_tab_songs">गाने</string>
+
+    <string name="search_tab_albums">एल्बम</string>
+
+    <string name="search_tab_accounts">खाते</string>
+
+    <string name="library_search_tab_favorites">पसंदीदा</string>
+
+    <string name="library_search_tab_offline">ऑफ़लाइन</string>
+
+    <string name="library_search_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_search_tab_uploads">अपलोड्स</string>
+
+    <string name="cannot_refresh_token">अब हम आपके खाते तक एक्सेस नहीं सकते हैं</string>
+
+    <string name="failed_refresh_token_title">Audiomack से कनेक्ट करने में असमर्थ</string>
+
+    <string name="failed_refresh_token_message">Audiomack से कनेक्ट करने में असमर्थ। कृपया बाद में दोबारा कोशिश करें।</string>
+
+    <string name="failed_refresh_token_button">ठीक है</string>
+
+    <string name="generic_api_error">एक त्रुटि घटित हुई। कृपया, बाद में दोबारा कोशिश करें</string>
+
+    <string name="generic_error_occurred">एक त्रुटि घटित हुई</string>
+
+    <string name="feat">फीट।</string>
+
+    <string name="feat_inline">फीट।</string>
+
+    <string name="by">द्वारा</string>
+
+    <string name="ok">ठीक है</string>
+
+    <string name="imagepicker_message">से छवि का चयन करें</string>
+
+    <string name="imagepicker_camera">कैमरा</string>
+
+    <string name="imagepicker_gallery">गैलरी</string>
+
+    <string name="imagepicker_gallery_cancel">रद्द करें</string>
+
+    <string name="options_play">प्ले करें</string>
+
+    <string name="options_download">डाउनलोड करें</string>
+
+    <string name="options_favorite">पसंदीदा</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Re-Up</string>
+
+    <string name="options_share">साझा करें</string>
+
+    <string name="options_copy_link">लिंक को कॉपी करें</string>
+
+    <string name="options_song_details">गाने के विवरण</string>
+
+    <string name="options_album_details">एल्बम के विवरण</string>
+
+    <string name="options_follow">फॉलो करें</string>
+
+    <string name="options_unfollow">अनफॉलो करें</string>
+
+    <string name="options_artist_more"> की ओर से अधिक</string>
+
+    <string name="options_remove_from_queue">क्यू से निकालें</string>
+
+    <string name="options_delete_download">डाउनलोड को हटाएँ</string>
+
+    <string name="options_retry_download">डाउनलोड करने की दोबारा कोशिश करें</string>
+
+    <string name="options_play_next">अगले को प्ले करें</string>
+
+    <string name="options_add_to_queue">क्यू में जोड़ें</string>
+
+    <string name="options_music_more_info">और अधिक जानकारी</string>
+
+    <string name="options_delete_download_list">डाउनलोड सूची से हटाएँ</string>
+
+    <string name="options_reorder_remove_tracks">पुन: व्यवस्थित करें / ट्रैक्स से निकालें</string>
+
+    <string name="options_edit_playlist_details">Playlist के विवरणों को एडिट करें</string>
+
+    <string name="options_delete_playlist">Playlist को हटाएँ</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">टिप्पणियाँ</string>
+
+    <string name="options_edit">एडिट करें</string>
+
+    <string name="options_cancel">रद्द करें</string>
+
+    <string name="ad_ad">विज्ञापन</string>
+
+    <string name="premium_cannot_find_product">अनुरोध किया गया उत्पाद नहीं खोजा जा सका</string>
+
+    <string name="premium_device_not_allowed">इस डिवाइस को भुगतान करने की अनुमति नहीं है</string>
+
+    <string name="database_error_recreated">हम क्षमा चाहते हैं लेकिन आपके डेटाबेस में कोई समस्या आ रही है। हम अब डेटाबेस को पुन:सृजित कर रहे हैं, लेकिन आपके ऑफ़लाइन म्यूजिक को दोबारा डाउनलोड करना होगा।</string>
+
+    <string name="database_error_lowstorage">क्षमा करें, ऐसा लग रहा है कि आपका डिवाइस की मेमोरी समाप्त हो गई है। कृपया स्पेस को रिक्त करें और दोबारा कोशिश करें।</string>
+
+    <string name="accessibility_playlists_all_categories">सभी श्रेणियाँ</string>
+
+    <string name="accessibility_remove_ad">विज्ञापन को निकालें</string>
+
+    <string name="accessibility_song_info">म्यूजिक की जानकारी</string>
+
+    <string name="accessibility_queue">क्यू</string>
+
+    <string name="accessibility_miniplayer_pager">मिनी खिलाड़ी स्क्रॉल</string>
+
+    <string name="accessibility_download">डाउनलोड करें</string>
+
+    <string name="accessibility_choose_genre">फ़िल्टर</string>
+
+    <string name="accessibility_choose_period">अवधि का चयन करें</string>
+
+    <string name="accessibility_settings">सेटिंग्स</string>
+
+    <string name="accessibility_show_hide_password">पासवर्ड प्रदर्शित करें/छिपाएं</string>
+
+    <string name="accessibility_close">बंद करें</string>
+
+    <string name="accessibility_back">बंद करें</string>
+
+    <string name="accessibility_actions">कार्रवाई</string>
+
+    <string name="accessibility_toggle_follow">फॉलो करें/अनफॉलो करें </string>
+
+    <string name="accessibility_add_to_playlist">गाने को playlist में जोड़ें</string>
+
+    <string name="accessibility_share">साझा करें</string>
+
+    <string name="accessibility_player_seek">स्क्रबर</string>
+
+    <string name="accessibility_player_prev">पिछला गाना</string>
+
+    <string name="accessibility_player_next">अगला गाना</string>
+
+    <string name="accessibility_player_play_pause">प्ले करें/पॉज करें </string>
+
+    <string name="accessibility_player_repeat">रिपीट मोड को टॉगल करें</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">प्लेयर को मिनीमाइज़ करें</string>
+
+    <string name="accessibility_player_shuffle">शफलिंग को टॉगल करें</string>
+
+    <string name="accessibility_artist_info">आर्टिस्ट की जानकारी</string>
+
+    <string name="accessibility_twitter">ट्विटर</string>
+
+    <string name="accessibility_facebook">फेसबुक</string>
+
+    <string name="accessibility_instagram">इंस्टाग्राम</string>
+
+    <string name="accessibility_youtube">यूट्यूब</string>
+
+    <string name="accessibility_queue_create_playlist">क्यू से playlist का सृजन करें</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">शीर्ष तक स्क्रॉल करें</string>
+
+    <string name="accessibility_song_image">गाने का आर्टवर्क</string>
+
+    <string name="accessibility_favorite">पसंदीदा</string>
+
+    <string name="accessibility_repost">Re-Up</string>
+
+    <string name="accessibility_edit">एडिट करें</string>
+
+    <string name="accessibility_ad">विज्ञापन</string>
+
+    <string name="accessibility_toast_image">टोस्ट छवि</string>
+
+    <string name="NSAppleMusicUsageDescription">इस फीचर के लिए मीडिया लाइब्रेरी के उपयोग की आवश्यकता होती है।</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">यहां तक कि जब आप ऐप का उपयोग नहीं कर रहे हैं तब भी Audiomack आसपास मौजूद ब्लूटूथ डिवाइसों को डेटा उपलब्ध कराना चाहेगा।</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">यहां तक कि जब आप ऐप का उपयोग नहीं कर रहे हैं तब भी Audiomack आसपास मौजूद ब्लूटूथ डिवाइसों को डेटा उपलब्ध कराना चाहेगा।</string>
+
+    <string name="NSCalendarsUsageDescription">इस इंटरैक्शन के लिए कैलेंडर एक्सेस की आवश्यकता होती है।</string>
+
+    <string name="NSContactsUsageDescription">इस फीचर के लिए संपर्कों के उपयोग की आवश्यकता होती है।</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">आपके क्षेत्र में लोकप्रिय म्यूजिक को दिखाने के लिए Audiomack को इनेबल करता है।</string>
+
+    <string name="NSLocationAlwaysUsageDescription">आपके क्षेत्र में लोकप्रिय म्यूजिक को दिखाने के लिए Audiomack को इनेबल करता है।</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">आपके क्षेत्र में लोकप्रिय म्यूजिक को दिखाने के लिए Audiomack को इनेबल करता है।</string>
+
+    <string name="NSMicrophoneUsageDescription">इस फीचर के लिए माइक्रोफोन के उपयोग की आवश्यकता होती है।</string>
+
+    <string name="NSMotionUsageDescription">इस फीचर के लिए मोशन के उपयोग की आवश्यकता होती है।</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">इस फीचर के लिए फोटो लाइब्रेरी में सहेजने की आवश्यकता होती है।</string>
+
+    <string name="NSRemindersUsageDescription">यह इंटरैक्शन एक रिमाइंडर को जोड़ेगा।</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">इस फीचर के लिए स्पीच रिकग्निशन के उपयोग की आवश्यकता होती है।</string>
+
+    <string name="positive_upsell_message">विज्ञापनों को हटाने के लिए AUDIOMACK प्रीमियम में अपग्रेड करें</string>
+
+    <string name="highlights_add">हाइलाइट</string>
+
+    <string name="highlights_remove">हाइलाइटों से निकालें</string>
+
+    <string name="highlights_reached_limit_message">एक और को जोड़ने के लिए आपको एक हाइलाइट को हटाना होगा</string>
+
+    <string name="highlights_reached_limit_edit">हाइलाइट्स को एडिट करें</string>
+
+    <string name="highlights_reached_limit_cancel">रद्द करें</string>
+
+    <string name="highlights_edit_title">हाइलाइट्स को एडिट करें</string>
+
+    <string name="highlights_edit_subtitle">आप अपने प्रोफ़ाइल पर चार (4) ट्रैक्स,\nएल्बम्स या playlists तक हाइलाइट कर सकते हैं।</string>
+
+    <string name="highlights_edit_save">सहेजें</string>
+
+    <string name="uploads_header_highlighted">विशेष रूप से प्रदर्शित (हाइलाइटेड)</string>
+
+    <string name="uploads_header_recent">नवीनतम अपलोड</string>
+
+    <string name="uploads_highlighted_message">किसी गाने, एल्बम, या playlist के आगे के तीन बिंदुओं पर टैप करें और इसे अपनी प्रोफ़ाइल के शीर्ष पर पिन करने के लिए \'हाइलाइट\' का चयन करें।</string>
+
+    <string name="toast_highlight_error">इस सामग्री को हाइलाइट करने में असमर्थ</string>
+
+    <string name="highlight_confirmation_title_template">%s अब आपके प्रोफ़ाइल पर हाइलाइटेड है</string>
+
+    <string name="highlight_confirmation_message">आप अपनी प्रोफाइल पर अन्य श्रोताओं के देखने के लिए अपने पसंदीदा गानों, एल्बमों, या playlists में से 4 तक को हाइलाइट कर सकते हैं।</string>
+
+    <string name="highlight_confirmation_view">अपनी प्रोफ़ाइल को देखें</string>
+
+    <string name="highlight_confirmation_close">जारी रखें</string>
+
+    <string name="song">गाना</string>
+
+    <string name="album">एल्बम</string>
+
+    <string name="artist">आर्टिस्ट</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">पॉडकास्ट</string>
+
+    <string name="editplaylist_create_banner">बैनर छवि जोड़ें</string>
+
+    <string name="download_delete_confirmation_title">क्या आप वाकई %s को अपने डाउनलोड से हटाना चाहते हैं?</string>
+
+    <string name="download_delete_confirmation_yes">हटाएँ</string>
+
+    <string name="download_delete_confirmation_no">रद्द करें</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">साइन-अप करें</string>
+
+    <string name="signup_cant_login">साइन-इन करने में समस्या आ रही है? हमसे संपर्क करें</string>
+
+    <string name="signup_cant_login_highlighted">हमसे संपर्क करें</string>
+
+    <string name="signup_privacy_policy">गोपनीयता नीति</string>
+
+    <string name="signup_create_account_prompt">हमारे पास ऐसा कोई खाता नहीं है जो उस ईमेल से मेल खाता हो। निःशुल्क नए खाते का निर्माण करें।</string>
+
+    <string name="signup_create_account_prompt_highlighted">निःशुल्क नए खाते का निर्माण करें।</string>
+
+    <string name="signup_audiomack_header">AUDIOMACK में साइन-इन करें</string>
+
+    <string name="signup_continue">जारी रखें</string>
+
+    <string name="signup_with_email_prompt">या साइन-अप करें/अपने ईमेल के साथ लॉग इन करें</string>
+
+    <string name="signup_troubles_alert_message">अपने पासवर्ड को रीसेट करने के लिए\nअपना ईमेल दर्ज करें:</string>
+
+    <string name="signup_troubles_alert_footer">अभी भी लॉग-इन नहीं कर पा रहे हैं? हमसे संपर्क करें</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">हमसे संपर्क करें</string>
+
+    <string name="login_twitter_error_message">ट्विटर के साथ लॉग-इन विफल हुआ</string>
+
+    <string name="login_google_error_message">गूगल के साथ लॉग-इन विफल हुआ</string>
+
+    <string name="disconnect_social_alert_title">क्या आप वाकई इस सोशल खाते को डिस्कनेक्ट करना चाहते हैं?</string>
+
+    <string name="disconnect_social_alert_yes">डिस्कनेक्ट करें</string>
+
+    <string name="disconnect_social_alert_no">रद्द करें</string>
+
+    <string name="connect_social_twitter">अपने ट्विटर खाते को कनेक्ट करें</string>
+
+    <string name="connect_social_facebook">अपने फेसबुक खाते को कनेक्ट करें</string>
+
+    <string name="connect_social_instagram">अपने इंस्टाग्राम खाते को कनेक्ट करें</string>
+
+    <string name="connect_social_youtube">अपने यूट्यूब खाते को कनेक्ट करें</string>
+
+    <string name="connect_social_popup_title_twitter">अपने ट्विटर को सूचीबद्ध करें</string>
+
+    <string name="connect_social_popup_title_instagram">अपने इंस्टाग्राम को सूचीबद्ध करें</string>
+
+    <string name="connect_social_popup_title_facebook">अपने फेसबुक को सूचीबद्ध करें</string>
+
+    <string name="connect_social_popup_title_youtube">अपने यूट्यूब को सूचीबद्ध करें</string>
+
+    <string name="connect_social_popup_placeholder_twitter">प्रयोक्ता का नाम</string>
+
+    <string name="connect_social_popup_placeholder_instagram">प्रयोक्ता का नाम</string>
+
+    <string name="connect_social_popup_placeholder_facebook">यूआरएल</string>
+
+    <string name="connect_social_popup_placeholder_youtube">यूआरएल</string>
+
+    <string name="connect_social_popup_save">जोड़ें</string>
+
+    <string name="connect_social_popup_clear">मिटाएँ</string>
+
+    <string name="connect_social_popup_cancel">रद्द करें</string>
+
+    <string name="playlist_delete_title_template">Playlist %s को हटाएँ</string>
+
+    <string name="playlist_delete_no">रद्द करें</string>
+
+    <string name="playlist_delete_yes">हटाएँ</string>
+
+    <string name="playlist_delete_message">क्या आप वाकई ऐसा करना चाहते हैं? इसे पूर्ववत नहीं किया जा सकता</string>
+
+    <string name="search_related_title">हमारे पास म्यूजिक नहीं है जो %s से मेल खाता हो</string>
+
+    <string name="search_related_subtitle">यहाँ कुछ समान प्रकार के आर्टिस्ट हैं जिनका आप आनंद ले सकते हैं।</string>
+
+    <string name="search_filter">परिणाम को फिल्टर करें</string>
+
+    <string name="search_filter_sort">इसके अनुसार सॉर्ट करें</string>
+
+    <string name="search_filter_popular">सबसे लोकप्रिय</string>
+
+    <string name="search_filter_recent">नवीनतम</string>
+
+    <string name="search_filter_relevant">सबसे प्रासंगिक</string>
+
+    <string name="search_filter_verified_only">केवल सत्यापित</string>
+
+    <string name="search_filter_genres">ज़ॉन्रअ</string>
+
+    <string name="search_filter_refine">खोज को परिशोधित करें</string>
+
+    <string name="inapprating_alert_title">Audiomack को रेट करें</string>
+
+    <string name="inapprating_alert_message">क्या आपको लगता है कि Audiomack एक 5 स्टार ऐप है?</string>
+
+    <string name="inapprating_alert_positive">जी हाँ</string>
+
+    <string name="inapprating_alert_negative">जी नहीं</string>
+
+    <string name="inapprating_alert_followup_title">Audiomack सपोर्ट</string>
+
+    <string name="inapprating_alert_followup_message">क्षमा करें, आपको ऐप पसंद नहीं आ रहा है। क्या आप सपोर्ट से संपर्क करना चाहेंगे ताकि हम सहायता कर सकें?</string>
+
+    <string name="inapprating_alert_followup_positive">जी हाँ</string>
+
+    <string name="inapprating_alert_followup_negative">शायद बाद में</string>
+
+    <string name="search_verified_account">सत्यापित खाता</string>
+
+    <string name="search_verified_playlist">सत्यापित playlist </string>
+
+    <string name="slideupmenu_music_added_by_template">%s द्वारा जोड़ा गया</string>
+
+    <string name="slideupmenu_music_share_copylink">लिंक को कॉपी करें</string>
+
+    <string name="slideupmenu_music_share_twitter">ट्विटर</string>
+
+    <string name="slideupmenu_music_share_facebook">फेसबुक</string>
+
+    <string name="slideupmenu_music_share_text">टेक्स्ट के माध्यम से </string>
+
+    <string name="slideupmenu_music_share_more">और अधिक</string>
+
+    <string name="slideupmenu_music_cancel">रद्द करें</string>
+
+    <string name="slideupmenu_music_add_to_downloads">डाउनलोडों में जोड़ें</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">डाउनलोडों से निकालें</string>
+
+    <string name="opensource_title">ओपन सोर्स लाइब्रेरी</string>
+
+    <string name="opensource_subtitle">इस ऐप में प्रयुक्त लाइब्रेरियाँ</string>
+
+    <string name="opensource_subsubtitle">यह पेज थर्ड पार्टी सॉफ्टवेयर के लिए एट्रिब्यूशन नोटिसों को प्रदर्शित करता है जिसका उपयोग Audiomack ऐप में किया जा सकता है।\nधन्यवाद!</string>
+
+    <string name="accessibility_comment">टिप्पणी</string>
+
+    <string name="accessibility_sort">सॉर्ट करें</string>
+
+    <string name="comments_write_prompt">एक सार्वजनिक टिप्पणी लिखें...</string>
+
+    <string name="comments_removed_comment">इस टिप्पणी को हटा दिया गया है</string>
+
+    <string name="comments_comment_title">टिप्पणी</string>
+
+    <string name="comments_header_title">टिप्पणियाँ</string>
+
+    <string name="comments_reply">उत्तर दें</string>
+
+    <string name="comments_filter_top">शीर्ष टिप्पणी</string>
+
+    <string name="comments_filter_newest">सर्वप्रथम नवीनतम</string>
+
+    <string name="comments_filter_oldest">सर्वप्रथम सबसे पुराना</string>
+
+    <string name="comments_delete_comment">टिप्पणी को हटाएँ</string>
+
+    <string name="comments_flag_comment">टिप्पणी को फ्लैग करें</string>
+
+    <string name="comments_share_comment">टिप्पणी को साझा करें</string>
+
+    <string name="comments_delete_alert_title">क्या आप वाकई इस टिप्पणी को हटाना चाहते हैं?</string>
+
+    <string name="comments_delete_alert_confirm">टिप्पणी को हटाएँ</string>
+
+    <string name="comments_flag_alert_title">क्या आप वाकई ऐसा करना चाहते हैं?</string>
+
+    <string name="comments_flag_alert_subtitle">केवल अश्लील या स्पैम सामग्री की रिपोर्ट करें।</string>
+
+    <string name="comments_flag_alert_confirm">रिपोर्ट</string>
+
+    <string name="comments_alert_cancel">रद्द करें</string>
+
+    <string name="comments_be_nice_title">अच्छा व्यवहार करें।</string>
+
+    <string name="comments_be_nice_subtitle">यह आपका समुदाय है। इसे अपना बनाएँ।</string>
+
+    <string name="comments_be_nice_bullet_1">कोई स्पैम नहीं है। लिंक यहाँ काम नहीं करते हैं।</string>
+
+    <string name="comments_be_nice_bullet_2">टिप्पणियाँ आपके म्यूजिक को पुश करने के लिए नहीं हैं।</string>
+
+    <string name="comments_be_nice_bullet_3">यदि आप नस्लभेदी, नारी-विरोधी, आक्रामक या अव्यवहारिक हैं, तो आप टिप्पणी करने के विशेषाधिकारों को खो देंगे।</string>
+
+    <string name="comments_be_nice_continue">जारी रखें</string>
+
+    <string name="comments_view_more_replies">%sऔर उत्तरों को देखें</string>
+
+    <string name="comments_view_more_reply">1 और उत्तर को देखें</string>
+
+    <string name="comments_expand">विस्तार करें</string>
+
+    <string name="comments_minimize">मिनीमाइज़ करें </string>
+
+    <string name="comments_commenting_on">%s पर टिप्पणी करना</string>
+
+    <string name="comments_placeholder_cta">टिप्पणी करने वाले पहले व्यक्ति बनें</string>
+
+    <string name="artists_onboarding_title">Audiomack नए म्यूजिक की\nखोज के लिए है।</string>
+
+    <string name="artists_onboarding_message">नीचे दिए गए आर्टिस्टों में से आप किसको सुनने के मूड में हैं?</string>
+
+    <string name="artists_onboarding_message_highlighted">नीचे दिए गए आर्टिस्ट</string>
+
+    <string name="artists_onboarding_button">अभी सुनें</string>
+
+    <string name="artists_onboarding_footer">केवल मुझे शीर्ष प्रचलित गानों में ले जाएँ</string>
+
+    <string name="artists_onboarding_playlist_play_all">सभी को प्ले करें</string>
+
+    <string name="artists_onboarding_playlist_pause">पॉज करें</string>
+
+    <string name="artists_onboarding_playlist_shuffle">शफल करें</string>
+
+    <string name="artists_onboarding_select">आर्टिस्ट का चयन करें</string>
+
+    <string name="social_login_missing_email_title">कृपया खाते के सृजन को पूरा करने के लिए एक मान्य ईमेल प्रदान करें।</string>
+
+    <string name="social_login_missing_email_placeholder">ईमेल पता</string>
+
+    <string name="social_login_missing_email_cta">प्रस्तुत करें</string>
+
+    <string name="social_login_missing_email_cancel">रद्द करें</string>
+
+    <string name="download_notification_title">डाउनलोड जारी है</string>
+
+    <string name="download_notification_message_template">और %s अन्य</string>
+
+    <string name="player_extra_comments">टिप्पणियाँ</string>
+
+    <string name="player_extra_info">जानकारी</string>
+
+    <string name="player_extra_more_from_artist">कलाकार से और अधिक</string>
+
+    <string name="player_extra_comments_count_plural">%s टिप्पणियाँ</string>
+
+    <string name="player_extra_comments_count_singular">%s टिप्पणी</string>
+
+    <string name="player_extra_rankings">रैंकिंग</string>
+
+    <string name="player_extra_rankings_daily">आज</string>
+
+    <string name="player_extra_rankings_weekly">इस सप्ताह</string>
+
+    <string name="player_extra_rankings_monthly">इस महीने</string>
+
+    <string name="player_extra_rankings_all">हर समय</string>
+
+    <string name="player_extra_more_from_artist_template">%s से और अधिक</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">प्रोफ़ाइल पर जाएँ</string>
+
+    <string name="player_extra_artist_followers_plural">%sफॉलोवर्स</string>
+
+    <string name="player_extra_artist_followers_singular">%s फॉलोवर</string>
+
+    <string name="player_extra_offline_placeholder_title">आप ऑफलाइन हैं</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">अपनी इंटरनेट स्थिति की जाँच करें या नीचे दोबारा कोशिश करें</string>
+
+    <string name="player_extra_offline_placeholder_cta"> दोबारा कोशिश करें</string>
+
+    <string name="filters_title_chart">चार्ट्स को फ़िल्टर करें</string>
+
+    <string name="filters_section_genre">ज़ॉन्रअ द्वारा फिल्टर:</string>
+
+    <string name="filters_section_timeframe">टाइमफ्रेम द्वारा फ़िल्टर:</string>
+
+    <string name="filters_section_timeframe_today">आज</string>
+
+    <string name="filters_section_timeframe_week">इस सप्ताह</string>
+
+    <string name="filters_section_timeframe_month">इस महीने</string>
+
+    <string name="filters_section_timeframe_year">इस वर्ष</string>
+
+    <string name="filters_section_timeframe_alltime">हर समय</string>
+
+    <string name="filters_section_view">द्वारा देखें:</string>
+
+    <string name="filters_section_view_list">लिस्ट व्यू</string>
+
+    <string name="filters_section_view_tile">टाइल व्यू</string>
+
+    <string name="filters_cta">फ़िल्टर करें</string>
+
+    <string name="chromecast_device_default_name">अज्ञात क्रोमकास्ट डिवाइस</string>
+
+    <string name="airplay_devices">एयरप्ले डिवाइस</string>
+
+    <string name="cast_menu_disconnect">%s से डिस्कनेक्ट करें</string>
+
+    <string name="cast_unavailable">क्रोमकास्ट का उपयोग करने में असमर्थ</string>
+
+    <string name="notif_login_required">लॉग-इन आवश्यक</string>
+
+    <string name="notif_login_favorite">गाने को आपके पसंदीदा में जोड़ने में असमर्थ</string>
+
+    <string name="notif_login_repost">गाने को Re-up करने में असमर्थ</string>
+
+    <string name="feat_x">%1$sफीट। %2$s</string>
+
+    <string name="contact_title_text">लॉग-इन नहीं कर पा रहे हैं?</string>
+
+    <string name="contact_subtitle_text">कृपया हमें इस समस्या के बारे में और बताएं और\nहम जितनी जल्दी हो सके आपको उत्तर देंगे।</string>
+
+    <string name="contact_what_title_text">क्या आप लॉग-इन या साइन-अप करने की कोशिश कर रहे थे?</string>
+
+    <string name="contact_how_title_text">आप लॉग-इन/साइन-अप करने की कैसे कोशिश कर रहे थे?</string>
+
+    <string name="contact_when_title_text">आपने पिछली बार कब लॉग-इन किया था?</string>
+
+    <string name="contact_email_title_text">आपसे संपर्क करने के लिए आप हमें कौन-सी ईमेल देना चाहेंगे?</string>
+
+    <string name="contact_can_title_text">क्या आप हमें कुछ और बता सकते हैं कि जब आप लॉग-इन या साइन-अप करने की कोशिश करते हैं तो क्या घटित होता है?</string>
+
+    <string name="contact_selection_what_login">लॉग-इन करें</string>
+
+    <string name="contact_selection_what_signup">साइन-अप करें</string>
+
+    <string name="contact_selection_how_google">गूगल</string>
+
+    <string name="contact_selection_how_twitter">ट्विटर</string>
+
+    <string name="contact_selection_how_facebook">फेसबुक</string>
+
+    <string name="contact_selection_how_email">ईमेल</string>
+
+    <string name="contact_selection_when_today">आज</string>
+
+    <string name="contact_selection_when_last_week">पिछले सप्ताह में</string>
+
+    <string name="contact_selection_when_last_month">अंतिम माह में</string>
+
+    <string name="contact_selection_when_dont_remember">मैं याद नहीं कर पा रहा हूँ</string>
+
+    <string name="contact_selection_required">*आवश्यक</string>
+
+    <string name="contact_selection_select">कृपया चयन करें</string>
+
+    <string name="contact_selection_enter">टेक्स्ट यहाँ दर्ज करें</string>
+
+    <string name="contact_selection_send">भेजें</string>
+
+    <string name="contact_time_limit_error">आपका सपोर्ट टिकट प्रस्तुत किया गया है। कृपया नई टिकट प्रस्तुत करने से पहले हमारी सहायता टीम से उत्तर की प्रतीक्षा करें।</string>
+
+    <string name="contact_send_success">आपका सपोर्ट टिकट प्रस्तुत किया गया है। कृपया हमारी सहायता टीम से उत्तर की प्रतीक्षा करें।</string>
+
+    <string name="album_play">एल्बम को प्ले करें</string>
+
+    <string name="album_pause">एल्बम को पॉज करें</string>
+
+    <string name="playlist_play">Playlist को प्ले करें</string>
+
+    <string name="playlist_pause">Playlist को पॉज करें</string>
+
+    <string name="slideupmenu_music_trophies">ट्रोफियाँ</string>
+
+    <string name="screenshot_now_playing">#अभी प्ले कर हो रहा है</string>
+
+    <string name="screenshot_toast_title">इस पेज का स्क्रीनशॉट लें और साझा करें।</string>
+
+    <string name="screenshot_toast_subtitle">बंद करने के लिए नीचे की ओर स्वाइप करें।</string>
+
+    <string name="highlights_highlighted">हाइलाइट किया गया</string>
+
+    <string name="slideupmenu_music_share_snapchat">स्नैपचैट</string>
+
+    <string name="georestriction_alert_message">अधिकारधारक ने इसे आपके क्षेत्र में उपलब्ध नहीं कराया है।</string>
+
+    <string name="georestriction_alert_delete">हटाएँ</string>
+
+    <string name="settings_notifications">नोटिफिकेशन</string>
+
+    <string name="notifications_manager_new_song_album">नया गाना/एल्बम नोटिफिकेशन</string>
+
+    <string name="notifications_manager_weekly_artist_reports">साप्ताहिक आर्टिस्ट की रिपोर्टें</string>
+
+    <string name="notifications_manager_song_album_benchmarks">गाना/एल्बम बेंचमार्क</string>
+
+    <string name="notifications_manager_everyone">प्रत्येक</string>
+
+    <string name="notifications_manager_artists">आर्टिस्ट</string>
+
+    <string name="notifications_manager_title">नोटिफिकेशन</string>
+
+    <string name="billing_issue_subscribed">बिलिंग समस्या: प्रीमियम जारी रखने के लिए अपनी भुगतान जानकारी को अपडेट करें</string>
+
+    <string name="billing_issue_unsubscribed">बिलिंग समस्या: प्रीमियम को रिस्टोर करने के लिए अपनी भुगतान जानकारी को अपडेट करें</string>
+
+    <string name="comments_count_template">%s टिप्पणियाँ</string>
+
+    <string name="permissions_rationale_alert_instagram_message">इस फीचर के लिए इंस्टाग्राम के पास सभी आवश्यक अनुमतियाँ होने की आवश्यकता होती है। कृपया इन अनुमतियों को इनेबल करें।</string>
+
+    <string name="premium_start_trial_ios">नि: शुल्क 7-दिवसीय परीक्षण शुरू करें</string>
+
+    <string name="premium_price_template_ios">%s प्रति माह</string>
+
+    <string name="comments_try_add_later">कृपया अपनी टिप्पणी बाद में दोबारा जोड़ने की कोशिश करें</string>
+
+    <string name="comments_try_load_later">कृपया अपनी टिप्पणी बाद में दोबारा लोड करने की कोशिश करें</string>
+
+    <string name="comments_try_later_connection">जब आपके पास बेहतर कनेक्शन हो तब कृपया बाद में दोबारा कोशिश करें</string>
+
+    <string name="please_try_again_later">कृपया बाद में दोबारा कोशिश करें</string>
+
+    <string name="please_check_connection_try_again">कृपया अपने कनेक्शन की जाँच करें और दोबारा कोशिश करें</string>
+
+    <string name="please_try_request_later">कृपया अपने अनुरोध की बाद में दोबारा कोशिश करें</string>
+
+    <string name="please_login_again">कृपया दोबारा लॉग-इन करें</string>
+
+    <string name="please_restart_app">कृपया ऐप को रिस्टार्ट करने की कोशिश करें</string>
+
+    <string name="player_file_no_connection">आपके पास इंटरनेट का एक्सेस नहीं है </string>
+
+    <string name="please_check_connection_try_download_again">कृपया अपने कनेक्शन की जाँच करें और इस डाउनलोड की दोबारा कोशिश करें</string>
+
+    <string name="home_tab_browse_experiment">पता लगाएँ</string>
+
+    <string name="no_browser_installed">यह कार्रवाई नहीं की जा सकती, कृपया सुनिश्चित करें कि आपके पास अपने डिवाइस पर ब्राउज़र इंस्टॉल किया गया है</string>
+
+    <string name="billing_issue_avoid_losing_premium">कृपया प्रीमियम से वंचित होने से बचने के लिए अपनी बिलिंग की जानकारी को अपडेट करें</string>
+
+    <string name="billing_issue_restore_premium">आपके प्रीमियम लाभ की अवधि समाप्त हो गई है। कृपया उन्हें रिस्टोर करने के लिए अपनी बिलिंग की जानकारी को अपडेट करें</string>
+
+    <string name="billing_issue_alert_header">ऐसा लगता है कि आपकी भुगतान प्रणाली में कोई समस्या है</string>
+
+    <string name="billing_issue_no_thanks">जी नहीं, धन्यवाद</string>
+
+    <string name="billing_issue_update_info">जानकारी को अपडेट करें</string>
+
+    <string name="social_link_error_already_linked_title">यह खाता पहले से ही Audiomack के प्रयोक्ता से लिंक्ड है</string>
+
+    <string name="social_link_error_already_linked_message_instagram">किसी अन्य इंस्टाग्राम खाते को लिंक करने की कोशिश करें।</string>
+
+    <string name="social_link_error_already_linked_message_twitter">किसी अन्य ट्विटर खाते को लिंक करने की कोशिश करें।</string>
+
+    <string name="trending_search_song">गाना</string>
+
+    <string name="trending_search_album">एल्बम</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">खाता</string>
+
+    <string name="login_apple_error_message">Apple के साथ लॉग-इन विफल हुआ</string>
+
+    <string name="benchmark_image_description">छवि को बेंचमार्क करें</string>
+
+    <string name="benchmark_trophies_title">ट्रोफियाँ</string>
+
+    <string name="benchmark_hide">छिपाएँ</string>
+
+    <string name="benchmark_now">अभी</string>
+
+    <string name="benchmark_playing">प्ले हो रहा है</string>
+
+    <string name="benchmark_million">%dमिलियन</string>
+
+    <string name="benchmark_billion">%d बिलियन</string>
+
+    <string name="benchmark_play">प्ले</string>
+
+    <string name="benchmark_favorite">पसंदीदा</string>
+
+    <string name="benchmark_playlist">Playlist जोड़ता है</string>
+
+    <string name="benchmark_repost">RE-UPS</string>
+
+    <string name="benchmark_verified">सत्यापित</string>
+
+    <string name="benchmark_artist">आर्टिस्ट</string>
+
+    <string name="share_whatsapp">व्हाट्सऐप</string>
+
+    <string name="share_messenger">मेसेंजर</string>
+
+    <string name="share_wechat">वीचैट</string>
+
+    <string name="share_messenger_login_error">इस फीचर के लिए आपको मैसेंजर में लॉग-इन होने की आवश्यकता होती है।</string>
+
+    <string name="notifications_verb_benchmark">बस हिट करें</string>
+
+    <string name="notifications_verb_benchmark_your_song">आपका गाना</string>
+
+    <string name="notifications_verb_benchmark_your_album">आपका एल्बम</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">आपकी playlist </string>
+
+    <string name="premium_download_toast">लॉक्ड गानों को शफल करने के लिए प्रीमियम को सक्रिय करें।</string>
+
+    <string name="premium_download_downloaded">डाउनलोड किए गए</string>
+
+    <string name="premium_download_standard_message">नि: शुल्क प्रीमियम डाउनलोड शेष है।</string>
+
+    <string name="premium_download_upgrade">अपग्रेड</string>
+
+    <string name="premium_download_reached_limit">आप अपनी निःशुल्क प्रीमियम डाउनलोड की अधिकतम सीमा तक पहुँच चुके हैं।</string>
+
+    <string name="premium_download_large_header">आप प्रीमियम सामग्री को डाउनलोड कर रहे हैं</string>
+
+    <string name="premium_download_large_subheader">आपका निःशुल्क खाता %d प्रीमियम डाउनलोड के साथ आता है।</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d नि:शुल्क प्रीमियम</string>
+
+    <string name="premium_download_plain_remaining">डाउनलोड शेष है।</string>
+
+    <string name="premium_download_upgrade_header">अभी प्रीमियम में अपग्रेड करें और पाएँ:</string>
+
+    <string name="premium_download_upgrade_first_point">असीमित प्रीमियम डाउनलोड</string>
+
+    <string name="premium_download_upgrade_second_point">एक विज्ञापन-रहित अनुभव</string>
+
+    <string name="premium_download_upgrade_third_point">उच्च गुणवत्ता वाली स्ट्रीमिंग</string>
+
+    <string name="premium_download_upgrade_fourth_point">इक्विलाइज़र नियंत्रण</string>
+
+    <string name="premium_download_upgrade_fifth_point">और भी बहुत कुछ!</string>
+
+    <string name="premium_download_upgrade_button">अभी अपग्रेड करें</string>
+
+    <string name="premium_download_learn_more_left">के बारे में अधिक जानें</string>
+
+    <string name="premium_download_learn_more_right">प्रीमियम सामग्री।</string>
+
+    <string name="premium_download_large_header_second">प्रीमियम डाउनलोड के बारे में और अधिक जानें</string>
+
+    <string name="premium_download_replace_header">डाउनलोडों को प्रतिस्थापित करें</string>
+
+    <string name="premium_download_replace_single_subheader">प्रतिस्थापित करने के लिए एक गाने का चयन करें।</string>
+
+    <string name="premium_download_replace_multiple_subheader">प्रतिस्थापित करने के लिए %d गानों का चयन करें।</string>
+
+    <string name="premium_download_replace_button">%s (%d) का चयन करें</string>
+
+    <string name="premium_download_replace_button_selected">(%d) को निकालें और डाउनलोड करें</string>
+
+    <string name="premium_download_replace_button_text_one">एक</string>
+
+    <string name="premium_download_replace_button_text_two">दो</string>
+
+    <string name="premium_download_replace_button_text_three">तीन</string>
+
+    <string name="premium_download_replace_button_text_four">चार</string>
+
+    <string name="premium_download_replace_button_text_five">पाँच</string>
+
+    <string name="premium_download_replace_button_text_six">छह</string>
+
+    <string name="premium_download_replace_button_text_seven">सात</string>
+
+    <string name="premium_download_replace_button_text_eight">आठ</string>
+
+    <string name="premium_download_replace_button_text_nine">नौ</string>
+
+    <string name="premium_download_replace_button_text_ten">दस</string>
+
+    <string name="premium_download_replace_button_text_eleven">ग्यारह</string>
+
+    <string name="premium_download_replace_button_text_twelve">बारह</string>
+
+    <string name="premium_download_replace_button_text_thirteen">तेरह</string>
+
+    <string name="premium_download_replace_button_text_fourteen">चौदह</string>
+
+    <string name="premium_download_replace_button_text_fifteen">पंद्रह</string>
+
+    <string name="premium_download_replace_button_text_sixteen">सोलह</string>
+
+    <string name="premium_download_replace_button_text_seventeen">सत्रह</string>
+
+    <string name="premium_download_replace_button_text_eighteen">अठारह</string>
+
+    <string name="premium_download_replace_button_text_nineteen">उन्नीस</string>
+
+    <string name="premium_download_replace_button_text_twenty">बीस</string>
+
+    <string name="premium_download_replace_full_album_button">डाउनलोड करने के लिए (%d) का चयन करें</string>
+
+    <string name="premium_download_alert_exceed_limit_title">प्रीमियम प्रयोक्ताओं द्वारा इस पूरे एल्बम को पूरी तरह से डाउनलोड किया जा सकता है।</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">आप अब भी विशिष्ट ट्रैक को डाउनलोड कर सकते है।</string>
+
+    <string name="premium_download_alert_upgrade">प्रीमियम में अपग्रेड करें</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">रद्द करें</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">यह सामग्री आपकी प्रीमियम डाउनलोड सीमा से अधिक है।</string>
+
+    <string name="offline_filter_button">फ़िल्टर करें</string>
+
+    <string name="offline_filter_files_description">क्योंकि ये गाने आपके डिवाइस से जुड़े हैं, इसलिए इन्हें पसंदीदा, Re-up, हाइलालाइटेड, playlisted, साझा नहीं किया जा सकता है</string>
+
+    <string name="offline_filter_files_scan">ऐप में अपने डिवाइस पर स्थानीय रूप से सहेजे गए किसी भी गाने को सुनें</string>
+
+    <string name="offline_filter_files_switch">लोकल फ़ाइलों को शामिल करें</string>
+
+    <string name="offline_filter_previous_downloads">पिछले डाउनलोडों को देखें</string>
+
+    <string name="offline_filter_section_type">प्रकार द्वारा फ़िल्टर:</string>
+
+    <string name="offline_filter_section_order">क्रम द्वारा फ़िल्टर:</string>
+
+    <string name="offline_filter_section_files">लोकल फ़ाइलें:</string>
+
+    <string name="offline_filter_title">ऑफलाइन फिल्टर करें</string>
+
+    <string name="signup_error_min_age">इस ऐप का उपयोग करने के लिए आपकी आयु कम से कम 13 वर्ष होनी चाहिए</string>
+
+    <string name="report_content">सामग्री की रिपोर्ट करें</string>
+
+    <string name="report_content_done">सामग्री की रिपोर्ट की गई है</string>
+
+    <string name="block_user">प्रयोक्ता को ब्लॉक करें</string>
+
+    <string name="block_user_done">रिपोर्ट/ब्लॉक अनुरोध को प्रस्तुत किया गया</string>
+
+    <string name="confirm_report_done">अगले 24 घंटों में आपकी रिपोर्ट/ब्लॉक अनुरोध को लागू कर दिया जाएगा</string>
+
+    <string name="confirm_report_alert_title">कृपया समस्या का विवरण प्रदान करें</string>
+
+    <string name="confirm_report_report_alert_message">इस रिपोर्ट/ब्लॉक के कारण के लिए सर्वश्रेष्ठ विवरण का चयन करें</string>
+
+    <string name="confirm_report_alert_submit">प्रस्तुत करें</string>
+
+    <string name="confirm_report_alert_option_violent">यह हिंसात्मक/अश्लील दृश्य या ऑडियो सामग्री है</string>
+
+    <string name="confirm_report_alert_option_broken">यह सामग्री स्ट्रीम या डाउनलोड नहीं करती है</string>
+
+    <string name="confirm_report_alert_option_misleading">यह सामग्री भ्रामक या गलत है</string>
+
+    <string name="confirm_report_alert_option_spam">यह खाता स्पैम या उत्पीड़न में संलग्न है</string>
+
+    <string name="confirm_report_alert_option_infringement">मेरा मानना है कि यह कॉपीराइट का उल्लंघन है</string>
+
+    <string name="confirm_bis_report_alert_title">क्या आप वाकई इस ब्लॉक कराना/रिपोर्ट नोटिस को प्रस्तुत करना चाहते हैं?</string>
+
+    <string name="confirm_bis_report_alert_yes">जी हाँ</string>
+
+    <string name="confirm_bis_report_alert_cancel">जी नहीं, मैं नहीं करना चाहता </string>
+
+    <string name="benchmark_tastemaker">दिग्गज</string>
+
+    <string name="benchmark_authenticated">प्रामाणिक</string>
+
+    <string name="download_restore_backup_fail">पिछले डिवाइस से डाउनलोड को रिस्टोर नहीं किया जा सका</string>
+
+    <string name="download_restore_backup_success">पिछले डिवाइस से डाउनलोड को सफलतापूर्वक रिस्टोर किया गया</string>
+
+    <string name="download_restore_prompt">क्या आप अपने पिछले डिवाइस से %d डाउनलोड पुनर्स्थापित करना चाहेंगे?</string>
+
+    <string name="download_restore_prompt_yes">जी हाँ</string>
+
+    <string name="download_restore_prompt_no">जी नहीं</string>
+
+    <string name="download_restore_no_wifi_prompt">आपके वाईफाई से कनेक्ट होते ही डाउनलोड होना शुरू हो जाएगा</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">ठीक है</string>
+
+    <string name="in_app_update_ios_title">अपडेट उपलब्ध</string>
+
+    <string name="in_app_update_ios_message">Audiomack का एक नया संस्करण उपलब्ध है। कृपया अभी अपडेट करें।</string>
+
+    <string name="in_app_update_ios_option_update">अपडेट करें</string>
+
+    <string name="in_app_update_ios_option_next_time">अगली बार</string>
+
+    <string name="in_app_update_downloaded_title">इस ऐप के लिए एक अपडेट अभी-अभी डाउनलोड किया गया है</string>
+
+    <string name="in_app_update_downloaded_restart">रि-स्टार्ट करें</string>
+
+    <string name="in_app_update_downloaded_cancel">रद्द करें</string>
+
+    <string name="in_app_update_download_started">ऐप अपडेट का डाउनलोड शुरू हो गया है</string>
+
+    <string name="comments_view_all">सभी टिप्पणियों को देखें</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">एक ट्रोफी का चयन करें, उसके बाद साझा करने के लिए स्क्रीनशॉट लें</string>
+
+    <string name="search_authenticated_account">प्रमाणित खाता</string>
+
+    <string name="search_tastemaker_account">टेस्टमेकर खाता</string>
+
+    <string name="playlists_filter_pill_favorited">पसंदीदा</string>
+
+    <string name="offline_remove_title">ऑफलाइन एकाधिक का चयन करें और हटाएँ</string>
+
+    <string name="offline_remove_button">ऑफ़लाइन से हटाएँ</string>
+
+    <string name="download_delete_slide">हटाएँ</string>
+
+    <string name="options_play_next_list">अगला प्ले करें</string>
+
+    <string name="slideupmenu_music_share_instagram">इंस्टाग्राम स्टोरीज़</string>
+
+    <string name="notifications_playlists_bundle_verb">में जोड़ा गया था</string>
+
+    <string name="notifications_playlists_bundle_suffix">आप फॉलो करें</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d playlists</string>
+
+    <string name="notifications_playlists_new_songs">%d  नए गाने</string>
+
+    <string name="audio_ad_now_playing_info_title">ऑडियो विज्ञापन</string>
+
+    <string name="audio_ad_advertisement">विज्ञापन:</string>
+
+    <string name="audio_ad_support_artists">विज्ञापन, Audiomack पर आर्टिस्टों और सर्जकों का समर्थन करते हैं।</string>
+
+    <string name="audio_ad_upgrade_premium">सभी विज्ञापनों को हटाने के लिए प्रीमियम में अपग्रेड करें</string>
+
+    <string name="audio_ad_now_playing_info_artist">आपकी सामग्री %d सेकंड में शुरू हो  जाएगी...</string>
+
+    <string name="downloadmessage_button_premium_downloads">ऑफ़लाइन म्यूजिक पर जाएँ</string>
+
+    <string name="benchmark_next_milestone">अगला: %s</string>
+
+    <string name="benchmark_on_audiomack">Audiomack पर</string>
+
+    <string name="settings_sleep_timer">स्लीप टाइमर</string>
+
+    <string name="sleep_timer_alert_title">आप कब तक चाहते हैं कि म्यूजिक प्ले होता रहे?</string>
+
+    <string name="sleep_timer_alert_button">टाइमर सेट करें</string>
+
+    <string name="sleep_timer_alert_hours">घंटे</string>
+
+    <string name="sleep_timer_alert_hour">घंटा</string>
+
+    <string name="sleep_timer_alert_minutes">मिनट</string>
+
+    <string name="browse_tab_world">विश्व</string>
+
+    <string name="premium_2019_sleep_timer">स्लीप टाइमर</string>
+
+    <string name="premium_2019_sleep_timer_desc">अपने ऑडियो को रोकने के लिए टाइमर सेट करें ताकि आप पूरी रात ऐप को चलाए बिना सो सकें</string>
+
+    <string name="signup_gender_birthday_information_header">अपनी प्रोफाइल पूर्ण करें</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">अधिक जानकारी के लिए, कृपया हमारी सेवा की शर्तें और गोपनीयता नीति को देखें</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">पर आपकी टिप्पणी</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">इसके मिलें</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">%d वां अपवोट।</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">%d वां अपवोट।</string>
+
+    <string name="premium_download_large_subheader_second_song">इस गीत को डाउनलोड करने के लिए एक प्रीमियम डाउनलोड को अपग्रेड करें या निकालें</string>
+
+    <string name="notifications_playlists_bundle_verb_single">में जोड़ा गया था</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d गाना</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d प्लेलिस्ट</string>
+
+    <string name="notifications_playlists_new_songs_single">%d नया गीत</string>
+
+    <string name="audio_ad_notif_title">विज्ञापन:</string>
+
+    <string name="playlists_filter_my">मेरी प्लेलिस्ट</string>
+
+    <string name="playlists_filter_favorited">पसंदीदा</string>
+
+    <string name="playlists_filter_offline">केवल-ऑफ़लाइन</string>
+
+    <string name="filters_section_type">प्रकार द्वारा फ़िल्टर:</string>
+
+    <string name="musicinfo_runtime_title">रनटाइम:</string>
+
+    <string name="musicinfo_runtime_value">%s मिनट, %d ट्रैक</string>
+
+    <string name="premium_2019_advanced">उन्नत विशेषताएं</string>
+
+    <string name="premium_2019_start_trial">अपना 7-दिवसीय नि: शुल्क परीक्षण शुरू करें</string>
+
+    <string name="favorites_filter_title">फिल्टर मनपसंद</string>
+
+    <string name="accessibility_multiselect">बहु चयन</string>
+
+    <string name="accessibility_premium_download">प्रीमियम डाउनलोड</string>
+
+    <string name="search_playlist_total_songs">कुल गाने:</string>
+
+    <string name="restore_downloads_prompt_title_plural">क्या आप अपने पिछले डिवाइस से %d डाउनलोड पुनर्स्थापित करना चाहते हैं?</string>
+
+    <string name="restore_downloads_prompt_title_singular">क्या आप अपने पिछले डिवाइस से %d डाउनलोड को पुनर्स्थापित करना चाहेंगे?</string>
+
+    <string name="restore_downloads_dialog_positive">सभी डाउनलोड डाउनलोड करें</string>
+
+    <string name="restore_downloads_dialog_negative">पुनर्स्थापित करने के लिए डाउनलोड का चयन करें</string>
+
+    <string name="restore_downloads_error">डाउनलोड पुनर्स्थापित करने में असमर्थ</string>
+
+    <string name="restore_downloads_started">डाउनलोड पुनर्स्थापित कर रहा है</string>
+
+    <string name="restore_downloads_queued">आपके वाईफाई से कनेक्ट होते ही डाउनलोड होना शुरू हो जाएगा</string>
+
+    <string name="premium_2019_premiumdownloads">असीमित डाउनलोड</string>
+
+    <string name="premium_2019_premiumdownloads_desc">ऑडीओमैक पर सब कुछ का असीमित डाउनलोड</string>
+
+    <string name="premium_only_downloads_alert_title">यह डाउनलोड प्रीमियम है.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">ऑडीओमैक पर लाखों मुफ्त डाउनलोड हैं \n&#13;लेकिन कलाकार ने यह डाउनलोड केवल प्रीमियम ग्राहकों\n&#13;के लिए उपलब्ध कराया है.</string>
+
+    <string name="premium_only_downloads_alert_yes">अपग्रेड</string>
+
+    <string name="premium_only_downloads_alert_no">रद्द करें</string>
+
+    <string name="notifications_manager_play_milestones">मील के पत्थर खेलें</string>
+
+    <string name="notifications_manager_upvote_milestones">मील के पत्थर को अपवोट करें</string>
+
+    <string name="notifications_manager_comment_replies">टिप्पणी का जवाब दें</string>
+
+    <string name="local_player_granted_alert_title">स्थानीय फ़ाइलों को चलाएं</string>
+
+    <string name="local_player_granted_alert_message">आपके पास स्थानीय रूप से आपके डिवाइस पर %d संगीत फ़ाइलें संग्रहीत हैं. क्या आप इन गानों को ऑडीओमैक से एक्सेस करना चाहेंगे?\n\nनोट: क्योंकि स्थानीय फ़ाइलें केवल आपके डिवाइस पर रहती हैं, उन्हें प्लेलिस्ट में पुनः साझा, पसंदीदा, हाइलाइट, या जोड़ा नहीं जा सकता.</string>
+
+    <string name="local_player_granted_alert_positive">जोड़ें</string>
+
+    <string name="local_player_granted_alert_negative">रद्द करें</string>
+
+    <string name="local_player_ungranted_alert_title">स्थानीय फ़ाइलों को चलाएं</string>
+
+    <string name="local_player_ungranted_alert_message">क्या आपके फ़ोन पर संगीत फ़ाइलें संग्रहीत हैं? अब आप उन्हें अपने स्ट्रीमिंग संगीत की तरह ही ऑडीओमैक पर सुन सकते हैं. आरंभ करने के लिए नीचे \"जोड़ें\" पर टैप करें!\n\nनोट: क्योंकि स्थानीय फ़ाइलें केवल आपके डिवाइस पर रहती हैं, उन्हें प्लेलिस्ट में पुनः साझा, पसंदीदा, हाइलाइट, या जोड़ा नहीं जा सकता.</string>
+
+    <string name="local_player_declined_alert_title">स्थानीय फ़ाइलें जोड़ें</string>
+
+    <string name="local_player_declined_alert_message">ऑडीओमैक में अपने डिवाइस पर संग्रहीत सभी ऑडियो फाइलों को सुनें</string>
+
+    <string name="local_player_declined_alert_positive">जोड़ें</string>
+
+    <string name="queue_clear_all">सभी साफ करें</string>
+
+    <string name="queue_clear_upcoming">आगामी साफ़ करें</string>
+
+    <string name="queue_save_playlist">प्लेलिस्ट में सहेजें</string>
+
+    <string name="premium_only_downloads_stream_alert_title">यह एक प्रीमियम-मात्र डाउनलोड है</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">ऑफ़लाइन सुनने के लिए उपलब्ध एप्लिकेशन पर कोई भी सामग्री बनाने के लिए अपने खाते का नवीनीकरण करें.</string>
+
+    <string name="articles_noresults_placeholder">कोई लेख नहीं मिला.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s मिनट, %d गाने</string>
+
+    <string name="premium_limited_reached_limit_alert_title">आपके पास पर्याप्त प्रीमियम डाउनलोड उपलब्ध नहीं हैं</string>
+
+    <string name="premium_limited_reached_limit_alert_message">असीमित डाउनलोड के लिए प्रीमियम में अपग्रेड करें या कमरे बनाने के लिए पुराने डाउनलोड को बदलें.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">प्रीमियम का एक मुफ़्त परीक्षण</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">प्रतिस्थापित करें और डाउनलोड करें</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">प्रीमियम सामग्री के बारे में अधिक जानें.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">प्रीमियम सामग्री।</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">आप प्रीमियम डाउनलोड से बाहर हैं.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">खेलने के लिए, या तो प्रीमियम में अपग्रेड करें या अपने प्रीमियम डाउनलोड के %d को बदलें.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">प्रीमियम में अपग्रेड करें</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">बदलें और अनलॉक करें</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">मैं इसके बजाय इसे स्ट्रीम करना चाहता हूं.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">इसके बजाय इसे स्ट्रीम करें.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">ऑफ़लाइन से हटाएँ</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">आप प्रीमियम डाउनलोड से बाहर हैं.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">डाउनलोड करने के लिए, या तो प्रीमियम में अपग्रेड करें या अपने प्रीमियम डाउनलोड के %d को बदलें.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">प्रीमियम में अपग्रेड करें</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">बदलें और अनलॉक करें</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">मैं इसके बजाय इसे स्ट्रीम करना चाहता हूं.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">इसके बजाय इसे स्ट्रीम करें.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">ऑफ़लाइन से हटाएँ</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">इस डाउनलोड को अनलॉक करें?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">इसे अनलॉक करने के लिए आप अपने शेष प्रीमियम डाउनलोड के %d का उपयोग कर सकते हैं.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">प्रीमियम में अपग्रेड करें</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">अनलॉक करें</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">मैं इसके बजाय इसे स्ट्रीम करना चाहता हूं.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">इसके बजाय इसे स्ट्रीम करें.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">ऑफ़लाइन से हटाएँ</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">अनलॉक करने के लिए सदस्यता लें.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">ऑडीओमैक पर लाखों मुफ्त डाउनलोड हैं लेकिन यह डाउनलोड केवल प्रीमियम उपयोगकर्ताओं द्वारा ही एक्सेस किये जा सकते हैं</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">प्रीमियम में अपग्रेड करें</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">मैं इसके बजाय इसे स्ट्रीम करना चाहता हूं.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">इसके बजाय इसे स्ट्रीम करें.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">ऑफ़लाइन से हटाएँ</string>
+
+    <string name="restore_downloads_dialog_select">पुनर्स्थापित करने के लिए डाउनलोड का चयन करें</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">बहाल करें</string>
+
+    <string name="search_recommendations">आपके लिए अनुशंसित</string>
+
+    <string name="settings_premium_status">प्रीमियम स्थिति</string>
+
+    <string name="settings_premium_status_no_override">कोई ओवरराइड नहीं</string>
+
+    <string name="settings_premium_status_free">नि: शुल्क</string>
+
+    <string name="settings_premium_status_premium">प्रीमियम</string>
+
+    <string name="settings_premium_status_free_billing_issue">बिलिंग समस्या से मुक्त</string>
+
+    <string name="settings_premium_status_premium_billing_issue">बिलिंग अंक के साथ प्रीमियम</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d प्लेलिस्ट</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d नया गीत</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">में जोड़ा गया था</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%dगाने</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d प्लेलिस्ट</string>
+
+    <string name="premium_limited_download_unlock_toast">%s खुला हुआ</string>
+
+    <string name="notifications_follow_alert_title">जब यह कलाकार नया संगीत डालता है तो अधिसूचित हो जाएं?</string>
+
+    <string name="notifications_follow_alert_positive">अनुदान के भुगतान की शर्तें</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">ऑफ़लाइन से हटाएँ</string>
+
+    <string name="email_verification_toast_success">आपके ईमेल को सत्यापित करने के लिए धन्यवाद!</string>
+
+    <string name="email_verification_toast_failure">ईमेल सत्यापन विफल रहा</string>
+
+    <string name="sleep_timer_stop_today">प्लेबैक %s पर रुकेगा</string>
+
+    <string name="sleep_timer_stop_tomorrow">प्लेबैक कल %s पर रुकेगा</string>
+
+    <string name="sleep_timer_triggered">नींद की घड़ी खत्म</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">जब यह कलाकार नया संगीत डालता है तो अधिसूचित हो जाएं?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">अनुदान के भुगतान की शर्तें</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">रद्द करें</string>
+
+    <string name="notifications_manager_push_off_title">पुश सूचनाएं अक्षम हैं.</string>
+
+    <string name="notifications_manager_push_off_message_ios">सक्षम करने के लिए, पर जाएं: iPhone सेटिंग्स &gt; सूचनाएं &gt; ऑडीओमैक</string>
+
+    <string name="notifications_manager_push_off_message_android">सक्षम करने के लिए, पर जाएँ: डिवाइस सेटिंग्स&gt; ऐप्स और सूचनाएं&gt; ऑडीओमैक&gt; सूचनाएं</string>
+
+    <string name="sleep_timer_notification_button">शुरू करें</string>
+
+    <string name="sleep_timer_notification_title">प्रीमियम स्लीप टाइमर को अनलॉक करें</string>
+
+    <string name="sleep_timer_notification_subtitle">इसे सेटिंग्स में सेट करें ताकि आप पूरी रात ऐप को चलाए बिना डोज़ कर सकें</string>
+
+    <string name="sleep_timer_notification_premium_title">आपने स्लीप टाइमर को अनलॉक कर दिया</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">सोने के लिए बहाव के बाद अपने ऑडियो को रोकने के लिए इसे सेटिंग्स में सेट करें</string>
+
+    <string name="NSLocalNetworkUsageDescription">ऑडीओमैक अपने वाईफाई नेटवर्क पर कास्ट-इनेबल्ड डिवाइसेस को खोजने के लिए स्थानीय नेटवर्क का उपयोग करता है.</string>
+
+    <string name="notifications_manager_verified_playlist">सत्यापित प्लेलिस्ट जोड़ता है</string>
+
+    <string name="world_articles_not_found">कोई लेख नहीं मिला.</string>
+
+    <string name="world_article_detail_not_found">कोई लेख नहीं मिला.</string>
+
+    <string name="accessibility_world_logo">दुनिया का लोगो</string>
+
+    <string name="splash_message_single">सर्वश्रेष्ठ अनुभव प्रदान करने के लिए हम आपसे निम्नलिखित अनुमतियों को इनेबल करने के लिए पूछते  हैं:</string>
+
+    <string name="splash_location_message_new">अपने क्षेत्र, ट्रेंडिंग चार्ट और स्थानीय खोजों में लोकप्रिय संगीत दिखाएं</string>
+
+    <string name="accessibility_logo">ऑडीओमैक आइकन</string>
+
+    <string name="widget_gallery_title">प्ले हिट करें</string>
+
+    <string name="widget_gallery_subtitle">अपने नवीनतम पसंदीदा सहेजे गए ट्रैक को सुनें</string>
+
+    <string name="widget_placeholder_title">ऑडियोमैक</string>
+
+    <string name="premium_only_streaming_alert_title">यह ट्रैक केवल प्रीमियम है</string>
+
+    <string name="premium_only_streaming_alert_message">प्लेटफ़ॉर्म पर किसी भी ट्रैक को स्ट्रीम करने के लिए ऑडीओमैक प्रीमियम प्राप्त करें, साथ ही असीमित डाउनलोड और बहुत कुछ!</string>
+
+    <string name="premium_only_streaming_alert_premium">प्रीमियम प्राप्त करें</string>
+
+    <string name="premium_only_streaming_alert_cancel">रद्द करें</string>
+
+    <string name="toast_play_album_deleted_tracks_header">इन सभी गानों को डाउनलोड नहीं किया जाता है</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">डेटा को सेव करने के लिए, केवल ऑफ़लाइन ट्रैकों की कतार होगी</string>
+
+    <string name="feed_suggested_accounts">सुझाए गए खाते</string>
+
+    <string name="feed_suggested_accounts_view_all">सभी देखें</string>
+
+    <string name="feed_new_music_description">आपके द्वारा अनुसरण किए जाने वाले लोगों का नया संगीत यहां दिखाई देगा.</string>
+
+    <string name="feed_follow_suggested_description">आप ऊपर दिए गए कुछ सुझाए गए कलाकारों का अनुसरण करके शुरू कर सकते हैं.</string>
+
+    <string name="feed_social_feed">सामाजिक फ़ीड</string>
+
+    <string name="NSPhotoLibraryUsageDescription">हमें आपकी फोटो लाइब्रेरी तक पहुंच की आवश्यकता है ताकि आपकी प्रोफ़ाइल पर उपयोग करने के लिए एक चित्र चुना जा सके.</string>
+
+    <string name="NSCameraUsageDescription">हमें आपकी प्रोफ़ाइल पर उपयोग करने के लिए तस्वीर लेने के लिए कैमरे तक पहुंच की आवश्यकता है.</string>
+
+    <string name="settings_change_password">पासवर्ड बदलें</string>
+
+    <string name="update_password_success">पासवर्ड सफलतापूर्वक अपडेट किया गया!</string>
+
+    <string name="update_password_title">अद्यतन पासवर्ड</string>
+
+    <string name="update_password_current">वर्तमान पासवर्ड</string>
+
+    <string name="update_password_new">नया पासवर्ड</string>
+
+    <string name="update_password_confirm">पासवर्ड की पुष्टि कीजिये</string>
+
+    <string name="update_password_forgot">क्या आप अपना पासवर्ड भूल गए?</string>
+
+    <string name="update_password_save">पासवर्ड का अद्यतन करें</string>
+
+    <string name="reset_password_invalid_token_title">पासवर्ड रीसेट लिंक त्रुटि</string>
+
+    <string name="reset_password_invalid_token_message">पासवर्ड रीसेट लिंक को मान्य करने में एक त्रुटि थी. ऐसा शायद इसलिए हुआ क्योंकि लिंक की समय सीमा समाप्त हो गई है. एक नया लिंक जनरेट करने के लिए फिर से भूल गए पासवर्ड फॉर्म का उपयोग करने का प्रयास करें.</string>
+
+    <string name="reset_password_title">पासवर्ड रीसेट करें</string>
+
+    <string name="reset_password_subtitle">नया पासवर्ड भरें</string>
+
+    <string name="reset_password_new">नया पासवर्ड</string>
+
+    <string name="reset_password_confirm">पासवर्ड की पुष्टि कीजिये</string>
+
+    <string name="reset_password_reset">पासवर्ड रीसेट करें</string>
+
+    <string name="reset_password_success">पासवर्ड रीसेट सफलतापूर्वक किया!</string>
+
+    <string name="word_article_webview_updating_error">कुछ सेवाओं को अपडेट किया जा रहा है, कृपया पुनः प्रयास करें</string>
+
+    <string name="local_file">स्थानीय फ़ाइल</string>
+
+    <string name="local_file_selection_apply">परिवर्तनों को सुरक्षित करें</string>
+
+    <string name="local_file_selection_applied">फ़ाइल चयन सहेजा गया</string>
+
+    <string name="local_file_selection_permissions_rationale">ऑडीओमैक को आपके स्थानीय मीडिया तक पहुंचने के लिए भंडारण अनुमति की आवश्यकता होती है</string>
+
+    <string name="local_file_selection_empty">कोई स्थानीय मीडिया नहीं मिला</string>
+
+    <string name="offline_filter_files_select">फ़ाइलें चुनें</string>
+
+    <string name="options_hide_track">ट्रैक छुपाएं</string>
+
+    <string name="options_hide_album">एल्बम छिपाएँ</string>
+
+    <string name="uploads_filter_popular">सबसे लोकप्रिय</string>
+
+    <string name="uploads_filter_recent">नवीनतम</string>
+
+</resources>

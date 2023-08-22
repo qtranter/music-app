@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0d0d">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#1C1C1C"
+        android:contentDescription="@string/notifications_manager_title"
+        android:fontFamily="@font/opensans_extrabold"
+        android:gravity="center"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="@string/notifications_manager_title"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:customletterspacing="-0.89"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="40dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_back"
+        android:scaleType="centerInside"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_button" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layoutNotificationsOff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginBottom="2dp"
+                    android:contentDescription="@string/notifications_manager_everyone"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:text="@string/notifications_manager_push_off_title"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:customletterspacing="-0.36" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginBottom="20dp"
+                    android:contentDescription="@string/notifications_manager_everyone"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center"
+                    android:text="@string/notifications_manager_push_off_message_android"
+                    android:textColor="#CACACA"
+                    android:textSize="13sp"
+                    app:customletterspacing="-0.36" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#292929" />
+
+            </LinearLayout>
+
+            <com.audiomack.views.AMCustomFontTextView
+                style="@style/NotificationsManagerCategory"
+                android:contentDescription="@string/notifications_manager_everyone"
+                android:text="@string/notifications_manager_everyone" />
+
+            <com.audiomack.views.AMCustomSwitch
+                android:id="@+id/switchNewSongAlbum"
+                style="@style/NotificationsManagerEntry"
+                android:contentDescription="@string/notifications_manager_new_song_album"
+                android:text="@string/notifications_manager_new_song_album" />
+
+            <com.audiomack.views.AMCustomSwitch
+                android:id="@+id/switchCommentReplies"
+                style="@style/NotificationsManagerEntry"
+                android:contentDescription="@string/notifications_manager_comment_replies"
+                android:text="@string/notifications_manager_comment_replies" />
+
+            <com.audiomack.views.AMCustomSwitch
+                android:id="@+id/switchUpvoteMilestones"
+                style="@style/NotificationsManagerEntry"
+                android:contentDescription="@string/notifications_manager_upvote_milestones"
+                android:text="@string/notifications_manager_upvote_milestones" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                style="@style/NotificationsManagerCategory"
+                android:contentDescription="@string/notifications_manager_artists"
+                android:text="@string/notifications_manager_artists" />
+
+            <com.audiomack.views.AMCustomSwitch
+                android:id="@+id/switchWeeklyArtistReports"
+                style="@style/NotificationsManagerEntry"
+                android:contentDescription="@string/notifications_manager_weekly_artist_reports"
+                android:text="@string/notifications_manager_weekly_artist_reports" />
+
+            <com.audiomack.views.AMCustomSwitch
+                android:id="@+id/switchPlayBenchmark"
+                style="@style/NotificationsManagerEntry"
+                android:contentDescription="@string/notifications_manager_play_milestones"
+                android:text="@string/notifications_manager_play_milestones" />
+
+            <com.audiomack.views.AMCustomSwitch
+                android:id="@+id/switchVerifiedPlaylistAdds"
+                style="@style/NotificationsManagerEntry"
+                android:contentDescription="@string/notifications_manager_verified_playlist"
+                android:text="@string/notifications_manager_verified_playlist" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

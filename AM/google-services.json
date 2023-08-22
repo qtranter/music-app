@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_number": "122326890670",
+    "firebase_url": "https://totemic-fact-95821.firebaseio.com",
+    "project_id": "totemic-fact-95821",
+    "storage_bucket": "totemic-fact-95821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122326890670:android:e9815488db5cd13c",
+        "android_client_info": {
+          "package_name": "com.audiomack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122326890670-a8aab25asi80u8indctqj9filb9g1dkl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiomack",
+            "certificate_hash": "4461c93caa5f84e5afa57f01520205146e22e6f6"
+          }
+        },
+        {
+          "client_id": "122326890670-q0ctcnqsfelhhs7ps1rn4k6l62ou52h3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiomack",
+            "certificate_hash": "0ddee7cf1763391d594108af4f6d86a5a2ebe277"
+          }
+        },
+        {
+          "client_id": "122326890670-uoaagfs8oot29o2rr7jv47edarrn957s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiomack",
+            "certificate_hash": "c26925be251f5712dcc7cfa8af76d72b0a3fd6a3"
+          }
+        },
+        {
+          "client_id": "122326890670-up4l19ipsjqmld5lu5d4imgq06262394.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.audiomack",
+            "certificate_hash": "3356c2e3fbb8e6dc00bdfc738dbb95ebf6f9d7d1"
+          }
+        },
+        {
+          "client_id": "122326890670-tgsv6fpfo2qmeq434k07q8p54mgdt8c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv4WPxoCbZBuwI0jnC9Xv6miCzJHYRULg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122326890670-tgsv6fpfo2qmeq434k07q8p54mgdt8c2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "122326890670-okc8g1vp7vjt08i552tjcia7uesm9fbv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.audiomack.iphone",
+                "app_store_id": "921765888"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3858157454086512~8984853183"
+    }
+  ],
+  "configuration_version": "1"
+}

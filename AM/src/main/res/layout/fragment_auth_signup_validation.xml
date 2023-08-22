@@ -1,0 +1,203 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.Dark"
+    tools:ignore="UnusedAttribute">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/scrollContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:orientation="vertical"
+            android:paddingBottom="96dp">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="9dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_login_logo" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_extrabold"
+                android:gravity="center_horizontal"
+                android:text="@string/signup_header"
+                android:textSize="14sp"
+                app:customletterspacing="-0.65" />
+
+            <FrameLayout
+                android:id="@+id/birthdayLayout"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginTop="24dp">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/birthdayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/signup_birthday_label"
+                    android:textSize="14sp"
+                    app:customletterspacing="-0.65" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/birthdaySpinner"
+                    style="@style/item_spinner_auth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:customletterspacing="-0.65"
+                    tools:text="March 5, 1982" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:srcCompat="@drawable/ic_spinner" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:background="#4Cffffff" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/birthdayError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:drawablePadding="4dp"
+                android:gravity="start|center_vertical"
+                android:paddingBottom="4dp"
+                android:textColor="@color/red_error"
+                android:visibility="gone"
+                app:drawableStartCompat="@drawable/ic_snackbar_error"
+                tools:text="@string/signup_error_birthday"
+                tools:visibility="visible" />
+
+            <FrameLayout
+                android:id="@+id/genderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="@dimen/fields_vertical_margin"
+                android:clickable="true"
+                android:descendantFocusability="afterDescendants"
+                android:focusable="true">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/genderLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/signup_gender_label"
+                    android:textSize="14sp"
+                    app:customletterspacing="-0.65" />
+
+                <Spinner
+                    android:id="@+id/genderSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:visibility="gone"
+                    tools:entries="@array/gender"
+                    tools:listitem="@layout/item_auth_spinner" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:srcCompat="@drawable/ic_spinner" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:background="#4Cffffff" />
+            </FrameLayout>
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/disclaimerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:background="@null"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:lineHeight="18sp"
+                android:text="@string/signup_disclaimer"
+                android:textSize="12sp"
+                app:customletterspacing="-0.46" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/termsView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:contentDescription="@string/signup_tos"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:lineHeight="18sp"
+                android:text="@string/signup_tos"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                app:customletterspacing="-0.46" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonFinish"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/splash_rounded_button"
+                android:fontFamily="@font/opensans_bold"
+                android:foreground="?selectableItemBackground"
+                android:text="@string/signup_finish"
+                android:textSize="15sp"
+                app:customletterspacing="-0.72" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/contactView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:windowBackground"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/signup_cant_login"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.54" />
+
+</FrameLayout>

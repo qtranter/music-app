@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">重试</string>
+
+    <string name="splash_offline">您未连接到网络，只能播放下载的音乐。</string>
+
+    <string name="splash_gotodownloads">前往离线音乐</string>
+
+    <string name="splash_message">为了提供最佳体验，我们需要您启用以下权限：</string>
+
+    <string name="splash_storage">文件访问</string>
+
+    <string name="splash_storage_message">允许您下载歌曲和专辑</string>
+
+    <string name="splash_location">位置</string>
+
+    <string name="splash_location_message">使Audiomack可以显示您所在地区的流行音乐</string>
+
+    <string name="splash_notifications">推送通知</string>
+
+    <string name="splash_notifications_message">允许我们在新音乐发布时通知您</string>
+
+    <string name="splash_ok">好的，知道了！</string>
+
+    <string name="splash_later">也许以后？</string>
+
+    <string name="splash_privacy_policy">隐私政策</string>
+
+    <string name="splash_autologin_timeout_error_message">连接遇到问题。请检查您的网络连接</string>
+
+    <string name="splash_autologin_timeout_error_ok">确定</string>
+
+    <string name="splash_autologin_fail_message">登录失败</string>
+
+    <string name="splash_autologin_facebook_error_message">Facebook令牌刷新失败</string>
+
+    <string name="home_tab_feed">推送</string>
+
+    <string name="home_tab_playlists">Playlist</string>
+
+    <string name="home_tab_search">搜索</string>
+
+    <string name="home_tab_library">我的媒体库</string>
+
+    <string name="signup_tos">注册即表示您同意我们的服务条款和隐私政策</string>
+
+    <string name="signup_tos_highlighted_tos">服务条款</string>
+
+    <string name="signup_tos_highlighted_privacy">隐私政策</string>
+
+    <string name="signup_username">输入用户名</string>
+
+    <string name="signup_email">输入您的电子邮箱</string>
+
+    <string name="signup_password">创建密码</string>
+
+    <string name="signup_password_confirm">确认您的密码</string>
+
+    <string name="signup_create">创建您的账户</string>
+
+    <string name="signup_facebook">用脸书注册</string>
+
+    <string name="signup_go_to_login">已有账户？</string>
+
+    <string name="signup_header">创建一个免费账户</string>
+
+    <string name="signup_birthday_label">您的生日是什么时候？</string>
+
+    <string name="signup_gender_label">您的性别是什么？</string>
+
+    <string name="signup_gender_male">男</string>
+
+    <string name="signup_gender_female">女</string>
+
+    <string name="signup_gender_other">非二进制</string>
+
+    <string name="signup_disclaimer">Audiomack使用此数据来个性化您的体验，帮助艺术家了解他们的听众，等等。我们将始终保持您的个人数据匿名。</string>
+
+    <string name="signup_finish">完成</string>
+
+    <string name="signup_error_birthday">请输入有效的生日</string>
+
+    <string name="signup_error_gender">请选择性别</string>
+
+    <string name="login_show_password">显示密码</string>
+
+    <string name="login_error_timestamp">时间戳记已过期。这可能意味着设备上的时钟有误。请检查时间和日期，如果仍有问题，请发送电子邮件至support\@audiomack.com。</string>
+
+    <string name="login_error_1037">无法检索必要的详情。请确保您在账户中设置了电子邮箱地址，然后重试。</string>
+
+    <string name="login_header">登录到您的账户</string>
+
+    <string name="login_email">电子邮箱</string>
+
+    <string name="login_password">密码</string>
+
+    <string name="login_forgot_password">忘记密码</string>
+
+    <string name="login_cta">登录</string>
+
+    <string name="login_facebook">用脸书登录</string>
+
+    <string name="login_go_to_signup_hint">还没有账户？</string>
+
+    <string name="login_go_to_signup">创建一个免费账户</string>
+
+    <string name="login_facebook_error_message">用脸书登录失败</string>
+
+    <string name="login_facebook_error_button">确定</string>
+
+    <string name="login_error_title">登录错误</string>
+
+    <string name="login_error_message_facebook">脸书错误</string>
+
+    <string name="login_tos">登录audiomack，您即同意\n我们的服务条款和隐私政策</string>
+
+    <string name="login_tos_highlighted_tos">服务条款</string>
+
+    <string name="login_tos_highlighted_privacy">隐私政策</string>
+
+    <string name="signup_error_title">注册错误</string>
+
+    <string name="authentication_validation_username_empty">用户名为空</string>
+
+    <string name="authentication_validation_email_empty">电子邮箱为空</string>
+
+    <string name="authentication_validation_password_empty">密码为空</string>
+
+    <string name="authentication_validation_password_mismatch">密码不匹配</string>
+
+    <string name="logout_alert_title">登出</string>
+
+    <string name="logout_alert_message">登出Audiomack？</string>
+
+    <string name="logout_alert_no">取消</string>
+
+    <string name="logout_alert_yes">确定</string>
+
+    <string name="forgot_password_alert_title">忘记密码</string>
+
+    <string name="forgot_password_alert_message">输入您的电子邮箱，我们将向您发送重置密码的步骤</string>
+
+    <string name="forgot_password_alert_no">取消</string>
+
+    <string name="forgot_password_alert_yes">提交</string>
+
+    <string name="forgot_password_alert_hint">电子邮箱地址</string>
+
+    <string name="forgot_password_success">谢谢。请查看您的电子邮箱以获取重置密码的说明。它可能在您的垃圾邮件文件夹中。</string>
+
+    <string name="forgot_password_failure_template">%s如果您遇到问题，请发送电子邮件至support\@audiomack.com</string>
+
+    <string name="premium_start_trial">开始7天免费试用</string>
+
+    <string name="premium_price_template">试用后每月%s</string>
+
+    <string name="premium_toc">Audiomack高级版订阅\n条款和条件</string>
+
+    <string name="premium_desc_template">Audiomack高级版为定期订阅。在7天试用结束后，每月会通过Google Play账户自动向您收取%s。除非您在结算期结束前至少24小时取消或关闭自动续订，否则您的订阅将自动续订。您可以在Google Play商店中管理订阅。</string>
+
+    <string name="premium_desc_template_ios">如果您购买Audiomack订阅（每月%s），则将从您的iTunes账户收费，您的账户将在当前订阅期结束前的24小时内被收取续订费用。如果您不想再为Audiomack黄金/白金付费并取消您的高级会员，请务必在此24小时截止时间前进行操作。购买后，可以随时前往iTunes Store商店中的“设置”关闭自动续订。此处和应用程序中提到的所有黄金/白金订阅级别价格均为美元，在世界其他国家可能会有不同，并且将来可能发生变化。在您的有效订阅期内，不允许取消当前订阅。Audiomack始终可以免费使用而无需订阅，在订阅结束后您可以在任何时间继续使用包含广告的Audiomack。</string>
+
+    <string name="premium_no_active_subscriptions">您没有有效的订阅。</string>
+
+    <string name="premium_unable_restore">无法恢复之前的购买</string>
+
+    <string name="premium_restore">恢复之前的购买</string>
+
+    <string name="premium_and">和</string>
+
+    <string name="premium_terms_of_service">服务条款</string>
+
+    <string name="premium_privacy_policy">隐私政策</string>
+
+    <string name="premium_subscribing">通过订阅，您可以访问Audiomack的</string>
+
+    <string name="premium_2019_title">升级到\nAudiomack高级版</string>
+
+    <string name="premium_2019_subtitle">开始7天免费试用，并获得：</string>
+
+    <string name="premium_2019_adfree">无广告体验</string>
+
+    <string name="premium_2019_adfree_desc">无限播放，无广告干扰或横幅</string>
+
+    <string name="premium_2019_playlist">下载完整Playlist</string>
+
+    <string name="premium_2019_playlist_desc">一键将任何Playlist中的所有歌曲保存到设备</string>
+
+    <string name="premium_2019_hifi">高品质流传输</string>
+
+    <string name="premium_2019_hifi_desc">确保以最高品质听到每首歌曲</string>
+
+    <string name="premium_2019_airplay">隔空播放至音乐设备</string>
+
+    <string name="premium_2019_airplay_desc">想在支持隔空播放的设备上播放？直接从播放器投射</string>
+
+    <string name="premium_2019_equalizer">均衡器控制</string>
+
+    <string name="premium_2019_equalizer_desc">使用低音和高音定制让音乐听起来如您所愿</string>
+
+    <string name="premium_2019_trial">7天免费试用</string>
+
+    <string name="premium_2019_trial_desc">购买前先试用 - 开始后一个星期免费获取以上所有内容</string>
+
+    <string name="defaultgenre_title">设置默认流派</string>
+
+    <string name="notifications_title">通知</string>
+
+    <string name="notifications_verb_favorite">已收藏</string>
+
+    <string name="notifications_verb_repost">已Re-up</string>
+
+    <string name="notifications_verb_follow">关注您</string>
+
+    <string name="notifications_verb_playlist">已加入Playlist</string>
+
+    <string name="notifications_verb_added">已添加</string>
+
+    <string name="notifications_verb_added_to_playlist">到Playlist</string>
+
+    <string name="notifications_verb_comment">评论于</string>
+
+    <string name="notifications_verb_comment_reply">回复了您的评论</string>
+
+    <string name="removedcontent_title">已移除的内容</string>
+
+    <string name="removedcontent_message">艺术家、唱片公司或版权所有者已将以下音乐从Audiomack中移除。我们正在努力在将来恢复它。谢谢</string>
+
+    <string name="removedcontent_ok">确定</string>
+
+    <string name="removedcontent_header">一些离线音乐已被移除。了解更多</string>
+
+    <string name="removedcontent_header_highlighted">一些离线音乐已被移除。了解更多</string>
+
+    <string name="excludereups">排除Re-up</string>
+
+    <string name="restoredownloads_title">恢复下载</string>
+
+    <string name="restoredownloads_footer">恢复之前的下载</string>
+
+    <string name="playlist_info_failed">无法获取Playlist详情。请稍后再试。</string>
+
+    <string name="artist_info_failed">无法获取艺术家数据。请稍后再试。</string>
+
+    <string name="song_info_failed">无法获取歌曲数据。</string>
+
+    <string name="album_info_failed">无法获取专辑数据。</string>
+
+    <string name="download_results_no_connection">您没有连接到网络</string>
+
+    <string name="download_failed_song">无法下载歌曲</string>
+
+    <string name="download_failed_abum">无法下载专辑</string>
+
+    <string name="download_delete_list_failed">无法从下载列表中删除</string>
+
+    <string name="download_playlist_succeeded">Playlist已添加到离线</string>
+
+    <string name="download_succeeded">成功下载</string>
+
+    <string name="login_needed_message">请登录以使用此功能</string>
+
+    <string name="login_needed_no">取消</string>
+
+    <string name="login_needed_yes">登录</string>
+
+    <string name="playlist_song_singular">歌曲</string>
+
+    <string name="playlist_song_plural">歌曲</string>
+
+    <string name="playlist_sync">将新歌曲添加到离线</string>
+
+    <string name="playlistreorder_title">重新排序/移除</string>
+
+    <string name="playlistreorder_save">保存</string>
+
+    <string name="addtoplaylist_title">添加到Playlist</string>
+
+    <string name="addtoplaylist_create">创建新Playlist</string>
+
+    <string name="addtoplaylist_create_hint">点击以创建新Playlist</string>
+
+    <string name="addtoplaylist_addtoexisting">添加到现有Playlist</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">此Playlist无法编辑</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">这首歌无法添加到Playlist</string>
+
+    <string name="addtoplaylist_song_added">已成功添加到Playlist</string>
+
+    <string name="addtoplaylist_song_added_failed">无法添加到Playlist</string>
+
+    <string name="addtoplaylist_song_removed">已成功从Playlist中移除</string>
+
+    <string name="addtoplaylist_song_removed_failed">无法从Playlist中移除</string>
+
+    <string name="editplaylist_title">编辑Playlist详情</string>
+
+    <string name="editplaylist_create_title">创建新Playlist</string>
+
+    <string name="editplaylist_hint">点击字段进行编辑</string>
+
+    <string name="editplaylist_name">名称：</string>
+
+    <string name="editplaylist_name_hint">输入Playlist名称</string>
+
+    <string name="editplaylist_genre">流派：</string>
+
+    <string name="editplaylist_permissions">权限：</string>
+
+    <string name="editplaylist_description">描述：</string>
+
+    <string name="editplaylist_description_hint">输入Playlist说明</string>
+
+    <string name="editplaylist_delete">删除Playlist</string>
+
+    <string name="editplaylist_save">保存</string>
+
+    <string name="editplaylist_cancel">取消</string>
+
+    <string name="playlist_delete_failed">删除Playlist失败</string>
+
+    <string name="playlist_delete_succeeded_template">Playlist“%s”已删除</string>
+
+    <string name="playlist_takendown_title">创建者已移除此Playlist。</string>
+
+    <string name="playlist_takendown_message">您想将其复制到您的账户吗？</string>
+
+    <string name="playlist_takendown_yes">是，复制Playlist</string>
+
+    <string name="playlist_takendown_no">不，删除</string>
+
+    <string name="musicinfo_stats_today">今天</string>
+
+    <string name="musicinfo_stats_week">本周</string>
+
+    <string name="musicinfo_stats_month">本月</string>
+
+    <string name="musicinfo_stats_alltime">所有时间</string>
+
+    <string name="musicinfo_lastupdated">最近更新：</string>
+
+    <string name="musicinfo_numberofsongs">歌曲数：</string>
+
+    <string name="musicinfo_playlistcreator">Playlist创建者：</string>
+
+    <string name="musicinfo_album">专辑：</string>
+
+    <string name="musicinfo_producer">制作人：</string>
+
+    <string name="musicinfo_addedon">发布日期：</string>
+
+    <string name="musicinfo_genre">流派：</string>
+
+    <string name="musicinfo_description">描述：</string>
+
+    <string name="musicinfo_description_read_more">阅读更多</string>
+
+    <string name="musicinfo_total_plays">总播放：</string>
+
+    <string name="musicinfo_tags">标签</string>
+
+    <string name="artist_followers">关注者</string>
+
+    <string name="artist_following">关注</string>
+
+    <string name="artist_plays">总播放</string>
+
+    <string name="queue_added">已添加到队列</string>
+
+    <string name="queue_unable_to_add_playlist">无法将Playlist添加到队列</string>
+
+    <string name="share_twitter">在Twitter上分享</string>
+
+    <string name="share_contacts">与联系人分享</string>
+
+    <string name="share_app">通过App分享</string>
+
+    <string name="share_copy_link">复制链接</string>
+
+    <string name="share_link_copied">链接已复制到剪贴板</string>
+
+    <string name="favorites_filter_allmusic">所有</string>
+
+    <string name="favorites_filter_songs">歌曲</string>
+
+    <string name="favorites_filter_albums">专辑</string>
+
+    <string name="favorites_filter_playlists">Playlist</string>
+
+    <string name="offline_filter_allmusic">所有</string>
+
+    <string name="offline_filter_songs">歌曲</string>
+
+    <string name="offline_filter_albums">专辑</string>
+
+    <string name="offline_filter_playlists">Playlist</string>
+
+    <string name="offline_filter_notondevice">不在设备上</string>
+
+    <string name="offline_sort_newest">最新</string>
+
+    <string name="offline_sort_oldest">最老</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">登陆/注册</string>
+
+    <string name="search_hint">搜索</string>
+
+    <string name="search_cancel">取消</string>
+
+    <string name="search_global_placeholder">搜索艺术家、\n歌曲和专辑。</string>
+
+    <string name="search_trending">趋势搜索</string>
+
+    <string name="search_recent">最近搜索</string>
+
+    <string name="library_search_hint">搜索</string>
+
+    <string name="library_search_cancel">取消</string>
+
+    <string name="player_playingfrom">播放自</string>
+
+    <string name="player_goadfree">移除广告 - 开始7天免费试用</string>
+
+    <string name="player_closead">关闭广告</string>
+
+    <string name="player_shuffle_on">随机播放</string>
+
+    <string name="player_repeat_all">全部重复</string>
+
+    <string name="player_repeat_one">重复一遍</string>
+
+    <string name="player_file_error">加载歌曲时出错</string>
+
+    <string name="player_storage_error">无法播放下载的文件</string>
+
+    <string name="player_playback_error">无法播放歌曲</string>
+
+    <string name="player_queue_error">更新队列时出错</string>
+
+    <string name="player_file_error_download_again">此文件必须再次下载，请检查您的连接</string>
+
+    <string name="player_hifi">高保真</string>
+
+    <string name="player_prev">之前</string>
+
+    <string name="player_pause">暂停</string>
+
+    <string name="player_play">播放</string>
+
+    <string name="player_next">下一个</string>
+
+    <string name="player_close">关闭</string>
+
+    <string name="player_fav">收藏</string>
+
+    <string name="player_unfav">取消收藏</string>
+
+    <string name="player_skip_forward">向前跳30秒</string>
+
+    <string name="player_skip_back">向后跳15秒</string>
+
+    <string name="editaccount_title">编辑账户</string>
+
+    <string name="editaccount_banner">编辑您的横幅图像</string>
+
+    <string name="editaccount_hint">点击字段进行编辑</string>
+
+    <string name="editaccount_name">艺术家名字：</string>
+
+    <string name="editaccount_label">唱片公司：</string>
+
+    <string name="editaccount_hometown">家乡：</string>
+
+    <string name="editaccount_website">网站：</string>
+
+    <string name="editaccount_bio">个人简介：</string>
+
+    <string name="editaccount_bio_counter_template">%s个字符剩余</string>
+
+    <string name="editaccount_twitter">推特：</string>
+
+    <string name="editaccount_instagram">Instagram：</string>
+
+    <string name="editaccount_facebook">脸书：</string>
+
+    <string name="editaccount_youtube">YouTube：</string>
+
+    <string name="editaccount_error_banner">保存横幅时发生错误</string>
+
+    <string name="editaccount_save">保存</string>
+
+    <string name="editaccount_cancel">取消</string>
+
+    <string name="editaccount_slug">用户句柄：</string>
+
+    <string name="artistinfo_follow">关注</string>
+
+    <string name="artistinfo_unfollow">关注</string>
+
+    <string name="artistinfo_website">网站：</string>
+
+    <string name="artistinfo_genre">流派：</string>
+
+    <string name="artistinfo_label">唱片公司：</string>
+
+    <string name="artistinfo_hometown">家乡：</string>
+
+    <string name="artistinfo_membersince">会员起自：</string>
+
+    <string name="artistinfo_bio">个人简介：</string>
+
+    <string name="miniplayer_prev_song">上一曲目</string>
+
+    <string name="miniplayer_next_song">下一曲目</string>
+
+    <string name="queue_title">您的队列</string>
+
+    <string name="add_to_playlist_permissions_public">公开 - 任何人都可以查看</string>
+
+    <string name="add_to_playlist_permissions_private">不公开 - 只有您可以查看</string>
+
+    <string name="add_to_playlist_error_no_name">请输入您的Playlist名称</string>
+
+    <string name="add_to_playlist_error">创建Playlist失败</string>
+
+    <string name="add_to_playlist_success_generic">Playlist成功创建</string>
+
+    <string name="add_to_playlist_success">“%s”已添加到您的Playlist</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">您无法删除Playlist的最后一个曲目</string>
+
+    <string name="edit_playlist_success">Playlist“%s”已编辑</string>
+
+    <string name="edit_playlist_error">编辑Playlist失败</string>
+
+    <string name="edit_playlist_banner_error">无法保存横幅图像</string>
+
+    <string name="select_playlist_error">无法获取您的Playlist</string>
+
+    <string name="select_playlist_nothing_selected">请选择一个Playlist</string>
+
+    <string name="select_playlist_success">歌曲“%s”已添加到您的Playlist</string>
+
+    <string name="select_playlist_failure">无法添加歌曲</string>
+
+    <string name="player_account_followed">正在关注%s</string>
+
+    <string name="player_account_unfollowed">取消关注%s</string>
+
+    <string name="feature_not_available_offline_alert_message">连接遇到问题。请检查您的连接，然后重试。</string>
+
+    <string name="feature_not_available_offline_alert_button">确定</string>
+
+    <string name="toast_favorited_song">歌曲已收藏</string>
+
+    <string name="toast_favorited_song_error">无法收藏歌曲</string>
+
+    <string name="toast_favorited_album">专辑已收藏</string>
+
+    <string name="toast_favorited_album_error">无法收藏专辑</string>
+
+    <string name="toast_favorited_playlist">Playlist已收藏</string>
+
+    <string name="toast_favorited_playlist_error">无法收藏到Playlist</string>
+
+    <string name="toast_unfavorited_song">歌曲已取消收藏</string>
+
+    <string name="toast_unfavorited_song_error">无法取消收藏歌曲</string>
+
+    <string name="toast_unfavorited_album">专辑已取消收藏</string>
+
+    <string name="toast_unfavorited_album_error">无法取消收藏专辑</string>
+
+    <string name="toast_unfavorited_playlist">Playlist已取消收藏</string>
+
+    <string name="toast_unfavorited_playlist_error">无法取消收藏Playlist</string>
+
+    <string name="toast_reposted_song">歌曲已Re-up</string>
+
+    <string name="toast_reposted_song_error">无法Re-up歌曲</string>
+
+    <string name="toast_reposted_album">专辑已Re-up</string>
+
+    <string name="toast_reposted_album_error">无法Re-up专辑</string>
+
+    <string name="permissions_rationale_alert_camera_message">此功能需要相机权限。请在设置中启用此权限以使用此功能。</string>
+
+    <string name="permissions_rationale_alert_storage_message">此功能需要存储权限。请在设置中启用此权限以使用此功能。</string>
+
+    <string name="permissions_rationale_alert_cancel">取消</string>
+
+    <string name="permissions_rationale_alert_settings">打开设置</string>
+
+    <string name="permissions_location_ios">使Audiomack可以显示您所在地区的流行音乐。</string>
+
+    <string name="shortcuts_offline_short">离线</string>
+
+    <string name="shortcuts_offline_long">离线</string>
+
+    <string name="shortcuts_offline_disabled">离线</string>
+
+    <string name="shortcuts_topsongs_short">热门歌曲</string>
+
+    <string name="shortcuts_topsongs_long">热门歌曲</string>
+
+    <string name="shortcuts_topsongs_disabled">热门歌曲</string>
+
+    <string name="shortcuts_favorites_short">收藏</string>
+
+    <string name="shortcuts_favorites_long">收藏</string>
+
+    <string name="shortcuts_favorites_disabled">收藏</string>
+
+    <string name="shortcuts_playlists_short">Playlist</string>
+
+    <string name="shortcuts_playlists_long">Playlist</string>
+
+    <string name="shortcuts_playlists_disabled">Playlist</string>
+
+    <string name="downloadmessage_title">下载开始！</string>
+
+    <string name="downloadmessage_message">现在您可以在应用程序中“我的媒体库”的离线部分免费播放此上传数据。</string>
+
+    <string name="downloadmessage_button">前往离线音乐</string>
+
+    <string name="download_completed_notification_title">下载完成</string>
+
+    <string name="download_completed_notification_message">点击查看您的离线音乐</string>
+
+    <string name="playlist_delete_download_title">这将从您的离线库中移除此Playlist。</string>
+
+    <string name="playlist_delete_download_title_highlighted">移除此Playlist</string>
+
+    <string name="playlist_delete_download_message">不用担心，它不会从您的离线库中移除任何歌曲。</string>
+
+    <string name="playlist_delete_download_yes">确定</string>
+
+    <string name="playlist_delete_download_cancel">取消</string>
+
+    <string name="playlist_download_sync_title">这会将此Playlist中的%s首歌曲添加到您的离线库中。</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s首歌曲</string>
+
+    <string name="playlist_download_sync_message">下载前，您可能想检查一下您是否连接了WiFi。</string>
+
+    <string name="playlist_download_sync_yes">确定</string>
+
+    <string name="playlist_download_sync_cancel">取消</string>
+
+    <string name="playlist_download_error">无法下载Playlist</string>
+
+    <string name="unsupported_crop_error">您的设备不支持裁剪</string>
+
+    <string name="library_search_favorites_placeholder">搜索您的收藏…</string>
+
+    <string name="library_search_downloads_placeholder">搜索您的离线内容…</string>
+
+    <string name="library_search_playlists_placeholder">搜索您的Playlist...</string>
+
+    <string name="library_search_uploads_placeholder">搜索您的上传...</string>
+
+    <string name="library_search_noresults_placeholder">在您的媒体库中未找到结果。</string>
+
+    <string name="library_search_noresults_cta">搜索所有音频</string>
+
+    <string name="search_noresults_placeholder">未找到结果。\n尝试其他搜索</string>
+
+    <string name="playlists_noresults_placeholder">还没有任何Playlist。</string>
+
+    <string name="followers_my_noresults_placeholder">您没有关注者。</string>
+
+    <string name="followers_other_noresults_placeholder">%s没有关注者</string>
+
+    <string name="favorites_my_noresults_placeholder">您没有收藏。</string>
+
+    <string name="downloads_noresults_placeholder">您没有下载。</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">恢复您的下载</string>
+
+    <string name="downloads_loggedout_placeholder">登录以恢复之前的下载</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">创建一个账户</string>
+
+    <string name="favorites_my_loggedout_placeholder">您没有收藏。</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">创建一个账户</string>
+
+    <string name="favorites_other_noresults_placeholder">%s没有收藏</string>
+
+    <string name="following_my_noresults_placeholder">您没有关注任何人。\n查看推荐关注的账户。</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">推荐的关注</string>
+
+    <string name="following_other_noresults_placeholder">%s没有关注任何人</string>
+
+    <string name="uploads_my_noresults_placeholder">您没有上传。\n访问audiomack.com将\n音乐添加到您的账户。</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">访问AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">%s没有上传</string>
+
+    <string name="playlists_my_noresults_placeholder">您尚未创建任何Playlist。</string>
+
+    <string name="playlists_my_loggedout_placeholder">您尚未创建任何Playlist。\n创建一个账户并开始\n建立一些Playlist。</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">创建一个账户</string>
+
+    <string name="playlists_other_noresults_placeholder">%s尚未创建任何Playlist。</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">您没有收藏的Playlist。</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">您没有收藏的Playlist。\n创建一个账户并开始\n建立一些Playlist。</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">创建一个账户</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s没有收藏的Playlist</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">您没有离线Playlist。</string>
+
+    <string name="timeline_noresults_placeholder">关注账户以查看其新上传的内容</string>
+
+    <string name="timeline_loggedout_placeholder">您的推送为空。\n创建一个账户以开始关注他人。</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">创建一个账户</string>
+
+    <string name="restoredownlods_noresults_placeholder">您没有不在设备上的存储下载</string>
+
+    <string name="notifications_noresults_placeholder">您没有通知</string>
+
+    <string name="noconnection_placeholder">连接有问题</string>
+
+    <string name="noconnection_highlighted_placeholder">重试</string>
+
+    <string name="user_name_placeholder">用户</string>
+
+    <string name="playlist_desc_more">更多</string>
+
+    <string name="tooltip_toast">向左或向右滑动\n以查看更多音乐，\n或点击下拉列表\n以更改流派</string>
+
+    <string name="tooltip_play">向左滑动以播放下一首歌曲。点击以打开全屏播放器。</string>
+
+    <string name="tooltip_playlists">创建一个\n自定义Playlist</string>
+
+    <string name="tooltip_player_queue">点击此处查看音乐队列中的歌曲。</string>
+
+    <string name="tooltip_queue_add">点击此处将队列中的歌曲添加到Playlist。</string>
+
+    <string name="tooltip_albums">离线进行\n无数据收听</string>
+
+    <string name="tooltip_suggested_followers">关注您最喜欢的艺术家/时尚引领者，当他们上传新音乐时，它将显示在您的推送中</string>
+
+    <string name="tooltip_playlists_offline">将此Playlist中的歌\n曲添加到离线播放</string>
+
+    <string name="tooltip_playlists_favorite">收藏此\nPlaylist</string>
+
+    <string name="tooltip_player_scroll">向下滚动以随机播放并查看评论、歌曲信息以及该歌手的更多音乐。</string>
+
+    <string name="tooltip_player_equalizer">使用均衡器自定义音乐的声音</string>
+
+    <string name="settings_title">设置</string>
+
+    <string name="settings_go_premium">移除广告 - 前往高级版</string>
+
+    <string name="settings_cancel_subscription">取消订阅</string>
+
+    <string name="settings_edit_account">编辑账户</string>
+
+    <string name="settings_view_your_profile">查看您的个人资料</string>
+
+    <string name="settings_share_profile">分享个人资料</string>
+
+    <string name="settings_default_genre">设置默认流派</string>
+
+    <string name="settings_permissions">权限</string>
+
+    <string name="settings_support">支持</string>
+
+    <string name="settings_debug_info">发送调试信息</string>
+
+    <string name="settings_share_app">分享这个应用程序</string>
+
+    <string name="settings_rate_app">评价这个应用程序</string>
+
+    <string name="settings_privacy_policy">隐私政策</string>
+
+    <string name="settings_dev_environment">使用开发环境*</string>
+
+    <string name="settings_track_ads">追踪广告</string>
+
+    <string name="settings_grant_premium">授予高级</string>
+
+    <string name="settings_log_viewer">日志查看器</string>
+
+    <string name="settings_logout">登出</string>
+
+    <string name="settings_version_template">版本%s（%s）</string>
+
+    <string name="settings_opensource">开源库</string>
+
+    <string name="settings_equalizer">均衡器</string>
+
+    <string name="settings_upgrade_title">升级到Audiomack高级版</string>
+
+    <string name="settings_upgrade_subtitle">开始7天免费试用，移除所有广告等等</string>
+
+    <string name="settings_upgrade_cta">为什么升级？</string>
+
+    <string name="equalizer_title">均衡器</string>
+
+    <string name="equalizer_enable">均衡器</string>
+
+    <string name="equalizer_custom">使用自定义预设</string>
+
+    <string name="equalizer_acoustic">声学</string>
+
+    <string name="equalizer_dance">舞蹈</string>
+
+    <string name="equalizer_electronic">电子</string>
+
+    <string name="equalizer_flat">平直</string>
+
+    <string name="equalizer_hiphop">嘻哈</string>
+
+    <string name="equalizer_loudness">响度</string>
+
+    <string name="equalizer_pop">流行音乐</string>
+
+    <string name="equalizer_rnb">节奏蓝调</string>
+
+    <string name="equalizer_rock">摇滚</string>
+
+    <string name="equalizer_vocal_booster">人声强化</string>
+
+    <string name="equalizer_save">保存</string>
+
+    <string name="help_title">帮助</string>
+
+    <string name="help_message">查看我们的帮助中心，创建通知单或管理您现有的通知单。</string>
+
+    <string name="help_knowledgebase">知识库</string>
+
+    <string name="help_contact">联系我们</string>
+
+    <string name="help_tickets_none">我的通知单</string>
+
+    <string name="help_tickets_template">我的通知单（%s未读）</string>
+
+    <string name="help_alert_title">我们的支持团队已回复您最近的请求</string>
+
+    <string name="help_alert_yes">查看</string>
+
+    <string name="help_alert_no">取消</string>
+
+    <string name="artist_tab_uploads">上传</string>
+
+    <string name="artist_tab_favorites">收藏</string>
+
+    <string name="artist_tab_playlists">Playlist</string>
+
+    <string name="artist_tab_followers">关注者</string>
+
+    <string name="artist_tab_following">关注</string>
+
+    <string name="library_tab_favorites">收藏</string>
+
+    <string name="library_tab_offline">离线</string>
+
+    <string name="library_tab_playlists">Playlist</string>
+
+    <string name="library_tab_followers">关注者</string>
+
+    <string name="library_tab_following">关注</string>
+
+    <string name="library_tab_uploads">上传</string>
+
+    <string name="feed_tab_timeline">时间线</string>
+
+    <string name="feed_tab_suggestedfollows">推荐的关注</string>
+
+    <string name="feed_tab_following">关注</string>
+
+    <string name="browse_tab_trending">趋势</string>
+
+    <string name="browse_tab_topsongs">热门歌曲</string>
+
+    <string name="browse_tab_topalbums">热门专辑</string>
+
+    <string name="browse_tab_recentlyadded">最近添加</string>
+
+    <string name="browse_filter_allgenres">所有</string>
+
+    <string name="search_tab_allmusic">所有</string>
+
+    <string name="search_tab_playlists">Playlist</string>
+
+    <string name="search_tab_songs">歌曲</string>
+
+    <string name="search_tab_albums">专辑</string>
+
+    <string name="search_tab_accounts">账户</string>
+
+    <string name="library_search_tab_favorites">收藏</string>
+
+    <string name="library_search_tab_offline">离线</string>
+
+    <string name="library_search_tab_playlists">Playlist</string>
+
+    <string name="library_search_tab_uploads">上传</string>
+
+    <string name="cannot_refresh_token">我们无法再访问您的账户</string>
+
+    <string name="failed_refresh_token_title">无法连接到Audiomack</string>
+
+    <string name="failed_refresh_token_message">无法连接到Audiomack。请稍后再试。</string>
+
+    <string name="failed_refresh_token_button">确定</string>
+
+    <string name="generic_api_error">发生错误。请稍后再试</string>
+
+    <string name="generic_error_occurred">发生错误</string>
+
+    <string name="feat">壮举</string>
+
+    <string name="feat_inline">壮举。</string>
+
+    <string name="by">由</string>
+
+    <string name="ok">确定</string>
+
+    <string name="imagepicker_message">选择图像自</string>
+
+    <string name="imagepicker_camera">相机</string>
+
+    <string name="imagepicker_gallery">图库</string>
+
+    <string name="imagepicker_gallery_cancel">取消</string>
+
+    <string name="options_play">播放</string>
+
+    <string name="options_download">下载</string>
+
+    <string name="options_favorite">收藏</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Re-up</string>
+
+    <string name="options_share">分享</string>
+
+    <string name="options_copy_link">复制链接</string>
+
+    <string name="options_song_details">歌曲详情</string>
+
+    <string name="options_album_details">专辑详情</string>
+
+    <string name="options_follow">关注</string>
+
+    <string name="options_unfollow">取消关注</string>
+
+    <string name="options_artist_more">更多来自</string>
+
+    <string name="options_remove_from_queue">从队列中移除</string>
+
+    <string name="options_delete_download">删除下载</string>
+
+    <string name="options_retry_download">重试下载</string>
+
+    <string name="options_play_next">播放下一个</string>
+
+    <string name="options_add_to_queue">添加到队列</string>
+
+    <string name="options_music_more_info">更多信息</string>
+
+    <string name="options_delete_download_list">从下载列表中删除</string>
+
+    <string name="options_reorder_remove_tracks">重新排序/移除曲目</string>
+
+    <string name="options_edit_playlist_details">编辑Playlist详情</string>
+
+    <string name="options_delete_playlist">删除Playlist</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">评论</string>
+
+    <string name="options_edit">编辑</string>
+
+    <string name="options_cancel">取消</string>
+
+    <string name="ad_ad">广告</string>
+
+    <string name="premium_cannot_find_product">找不到请求的产品</string>
+
+    <string name="premium_device_not_allowed">此设备不允许进行付款</string>
+
+    <string name="database_error_recreated">很抱歉，您的数据库遇到问题。我们现在正在重新创建数据库，但是您的离线音乐须重新下载。</string>
+
+    <string name="database_error_lowstorage">抱歉，您的设备似乎内存不足。请释放空间，然后重试。</string>
+
+    <string name="accessibility_playlists_all_categories">所有类别</string>
+
+    <string name="accessibility_remove_ad">移除广告</string>
+
+    <string name="accessibility_song_info">音乐信息</string>
+
+    <string name="accessibility_queue">队列</string>
+
+    <string name="accessibility_miniplayer_pager">迷你播放器滚动</string>
+
+    <string name="accessibility_download">下载</string>
+
+    <string name="accessibility_choose_genre">过滤</string>
+
+    <string name="accessibility_choose_period">选择时期</string>
+
+    <string name="accessibility_settings">设置</string>
+
+    <string name="accessibility_show_hide_password">显示/隐藏密码</string>
+
+    <string name="accessibility_close">关闭</string>
+
+    <string name="accessibility_back">关闭</string>
+
+    <string name="accessibility_actions">操作</string>
+
+    <string name="accessibility_toggle_follow">关注/取消关注</string>
+
+    <string name="accessibility_add_to_playlist">将歌曲添加到Playlist</string>
+
+    <string name="accessibility_share">分享</string>
+
+    <string name="accessibility_player_seek">洗涤器</string>
+
+    <string name="accessibility_player_prev">上一首歌</string>
+
+    <string name="accessibility_player_next">下一首歌</string>
+
+    <string name="accessibility_player_play_pause">播放/暂停</string>
+
+    <string name="accessibility_player_repeat">切换重复模式</string>
+
+    <string name="accessibility_player_hifi">高保真</string>
+
+    <string name="accessibility_player_minimise">最小化播放器</string>
+
+    <string name="accessibility_player_shuffle">切换随机</string>
+
+    <string name="accessibility_artist_info">艺术家信息</string>
+
+    <string name="accessibility_twitter">推特</string>
+
+    <string name="accessibility_facebook">脸书</string>
+
+    <string name="accessibility_instagram">Instagram</string>
+
+    <string name="accessibility_youtube">Youtube</string>
+
+    <string name="accessibility_queue_create_playlist">从队列创建Playlist</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">滚动到顶部</string>
+
+    <string name="accessibility_song_image">歌曲作品</string>
+
+    <string name="accessibility_favorite">收藏</string>
+
+    <string name="accessibility_repost">Re-up</string>
+
+    <string name="accessibility_edit">编辑</string>
+
+    <string name="accessibility_ad">广告</string>
+
+    <string name="accessibility_toast_image">Toast图像</string>
+
+    <string name="NSAppleMusicUsageDescription">此功能需要使用媒体库。</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">即使您不使用该应用程序，Audiomack也希望将数据提供给附近的蓝牙设备。</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">即使您不使用该应用程序，Audiomack也希望将数据提供给附近的蓝牙设备。</string>
+
+    <string name="NSCalendarsUsageDescription">此交互需要日历权限。</string>
+
+    <string name="NSContactsUsageDescription">此功能需要使用联系人。</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">使Audiomack可以显示您所在地区的流行音乐。</string>
+
+    <string name="NSLocationAlwaysUsageDescription">使Audiomack可以显示您所在地区的流行音乐。</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">使Audiomack可以显示您所在地区的流行音乐。</string>
+
+    <string name="NSMicrophoneUsageDescription">此功能需要使用麦克风。</string>
+
+    <string name="NSMotionUsageDescription">此功能需要使用运动。</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">此功能需要保存到照片库。</string>
+
+    <string name="NSRemindersUsageDescription">此交互将增加提醒。</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">此功能需要使用语音识别。</string>
+
+    <string name="positive_upsell_message">升级到AUDIOMACK高级版以移除广告</string>
+
+    <string name="highlights_add">突出显示</string>
+
+    <string name="highlights_remove">从突出显示中移除</string>
+
+    <string name="highlights_reached_limit_message">您必须移除一个突出显示以添加另一个</string>
+
+    <string name="highlights_reached_limit_edit">编辑突出显示</string>
+
+    <string name="highlights_reached_limit_cancel">取消</string>
+
+    <string name="highlights_edit_title">编辑突出显示</string>
+
+    <string name="highlights_edit_subtitle">您最多可以在个人资料上突出显示\n四（4）个曲目、专辑或Playlist。</string>
+
+    <string name="highlights_edit_save">保存</string>
+
+    <string name="uploads_header_highlighted">突出显示</string>
+
+    <string name="uploads_header_recent">最近上传</string>
+
+    <string name="uploads_highlighted_message">点击歌曲、专辑或Playlist旁边的三个点，然后选择“突出显示”以将其固定在个人资料的顶部</string>
+
+    <string name="toast_highlight_error">无法突出显示此内容</string>
+
+    <string name="highlight_confirmation_title_template">%s现在在您的个人资料上突出显示</string>
+
+    <string name="highlight_confirmation_message">您可以在个人资料中突出显示最多4个您喜欢的歌曲、专辑或Playlist，以供其他听众查看。</string>
+
+    <string name="highlight_confirmation_view">查看您的个人资料</string>
+
+    <string name="highlight_confirmation_close">继续</string>
+
+    <string name="song">歌曲</string>
+
+    <string name="album">专辑</string>
+
+    <string name="artist">艺术家</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">播客</string>
+
+    <string name="editplaylist_create_banner">添加横幅图像</string>
+
+    <string name="download_delete_confirmation_title">您确定要从下载内容中删除%s吗？</string>
+
+    <string name="download_delete_confirmation_yes">删除</string>
+
+    <string name="download_delete_confirmation_no">取消</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">注册</string>
+
+    <string name="signup_cant_login">登录遇到问题？联系我们</string>
+
+    <string name="signup_cant_login_highlighted">联系我们</string>
+
+    <string name="signup_privacy_policy">隐私政策</string>
+
+    <string name="signup_create_account_prompt">我们没有与该电子邮箱匹配的账户。免费注册一个新账户。</string>
+
+    <string name="signup_create_account_prompt_highlighted">免费注册一个新账户。</string>
+
+    <string name="signup_audiomack_header">登录到AUDIOMACK</string>
+
+    <string name="signup_continue">继续</string>
+
+    <string name="signup_with_email_prompt">或使用您的电子邮箱注册/登录</string>
+
+    <string name="signup_troubles_alert_message">输入您的电子邮箱\n以重置您的密码：</string>
+
+    <string name="signup_troubles_alert_footer">仍然无法登录？联系我们</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">联系我们</string>
+
+    <string name="login_twitter_error_message">使用推特登录失败</string>
+
+    <string name="login_google_error_message">使用谷歌登录失败</string>
+
+    <string name="disconnect_social_alert_title">您确定要断开此社交账户的连接吗？</string>
+
+    <string name="disconnect_social_alert_yes">断开</string>
+
+    <string name="disconnect_social_alert_no">取消</string>
+
+    <string name="connect_social_twitter">连接您的推特账户</string>
+
+    <string name="connect_social_facebook">连接您的脸书账户</string>
+
+    <string name="connect_social_instagram">连接您的Instagram账户</string>
+
+    <string name="connect_social_youtube">连接您的YouTube账户</string>
+
+    <string name="connect_social_popup_title_twitter">列出您的推特</string>
+
+    <string name="connect_social_popup_title_instagram">列出您的Instagram</string>
+
+    <string name="connect_social_popup_title_facebook">列出您的脸书</string>
+
+    <string name="connect_social_popup_title_youtube">列出您的YouTube</string>
+
+    <string name="connect_social_popup_placeholder_twitter">用户名</string>
+
+    <string name="connect_social_popup_placeholder_instagram">用户名</string>
+
+    <string name="connect_social_popup_placeholder_facebook">网址</string>
+
+    <string name="connect_social_popup_placeholder_youtube">网址</string>
+
+    <string name="connect_social_popup_save">添加</string>
+
+    <string name="connect_social_popup_clear">清除</string>
+
+    <string name="connect_social_popup_cancel">取消</string>
+
+    <string name="playlist_delete_title_template">删除Playlist%s</string>
+
+    <string name="playlist_delete_no">取消</string>
+
+    <string name="playlist_delete_yes">删除</string>
+
+    <string name="playlist_delete_message">您确定吗？这不能被撤消</string>
+
+    <string name="search_related_title">我们没有与%s匹配的音乐</string>
+
+    <string name="search_related_subtitle">这是您可能会喜欢的一些类似艺术家。</string>
+
+    <string name="search_filter">过滤结果</string>
+
+    <string name="search_filter_sort">排序方式：</string>
+
+    <string name="search_filter_popular">最受欢迎</string>
+
+    <string name="search_filter_recent">最近</string>
+
+    <string name="search_filter_relevant">最相关</string>
+
+    <string name="search_filter_verified_only">仅验证</string>
+
+    <string name="search_filter_genres">流派</string>
+
+    <string name="search_filter_refine">精确搜索</string>
+
+    <string name="inapprating_alert_title">评价Audiomack</string>
+
+    <string name="inapprating_alert_message">您认为Audiomack是5星应用吗？</string>
+
+    <string name="inapprating_alert_positive">是</string>
+
+    <string name="inapprating_alert_negative">否</string>
+
+    <string name="inapprating_alert_followup_title">Audiomack支持</string>
+
+    <string name="inapprating_alert_followup_message">很遗憾您不喜欢该应用。您想联系支持部门以便我们提供帮助吗？</string>
+
+    <string name="inapprating_alert_followup_positive">是</string>
+
+    <string name="inapprating_alert_followup_negative">以后吧</string>
+
+    <string name="search_verified_account">已验证的账户</string>
+
+    <string name="search_verified_playlist">已验证的Playlist</string>
+
+    <string name="slideupmenu_music_added_by_template">由%s添加</string>
+
+    <string name="slideupmenu_music_share_copylink">复制链接</string>
+
+    <string name="slideupmenu_music_share_twitter">推特</string>
+
+    <string name="slideupmenu_music_share_facebook">脸书</string>
+
+    <string name="slideupmenu_music_share_text">通过文本</string>
+
+    <string name="slideupmenu_music_share_more">更多</string>
+
+    <string name="slideupmenu_music_cancel">取消</string>
+
+    <string name="slideupmenu_music_add_to_downloads">添加到下载</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">从下载中移除</string>
+
+    <string name="opensource_title">开源库</string>
+
+    <string name="opensource_subtitle">此应用程序中使用的库</string>
+
+    <string name="opensource_subsubtitle">此页面显示Audiomack应用程序中可能使用的第三方软件的归属通知。\n谢谢！</string>
+
+    <string name="accessibility_comment">评论</string>
+
+    <string name="accessibility_sort">排序</string>
+
+    <string name="comments_write_prompt">发表公开评论…</string>
+
+    <string name="comments_removed_comment">此评论已被移除</string>
+
+    <string name="comments_comment_title">评论</string>
+
+    <string name="comments_header_title">评论</string>
+
+    <string name="comments_reply">回复</string>
+
+    <string name="comments_filter_top">热门评论</string>
+
+    <string name="comments_filter_newest">最新在前</string>
+
+    <string name="comments_filter_oldest">最老在前</string>
+
+    <string name="comments_delete_comment">删除评论</string>
+
+    <string name="comments_flag_comment">标记评论</string>
+
+    <string name="comments_share_comment">分享评论</string>
+
+    <string name="comments_delete_alert_title">确定要删除此评论？</string>
+
+    <string name="comments_delete_alert_confirm">删除评论</string>
+
+    <string name="comments_flag_alert_title">确定吗？</string>
+
+    <string name="comments_flag_alert_subtitle">仅举报淫秽或垃圾内容。</string>
+
+    <string name="comments_flag_alert_confirm">举报</string>
+
+    <string name="comments_alert_cancel">取消</string>
+
+    <string name="comments_be_nice_title">友善待人。</string>
+
+    <string name="comments_be_nice_subtitle">这是您的社区。拥有它。</string>
+
+    <string name="comments_be_nice_bullet_1">没有垃圾信息。链接在这里无效。</string>
+
+    <string name="comments_be_nice_bullet_2">评论不是用于推销您的音乐。</string>
+
+    <string name="comments_be_nice_bullet_3">如果你是种族主义者、歧视女性、具有攻击性或表现混蛋，将失去发表评论的特权。</string>
+
+    <string name="comments_be_nice_continue">继续</string>
+
+    <string name="comments_view_more_replies">查看额外的%s则回复</string>
+
+    <string name="comments_view_more_reply">查看额外的1则回复</string>
+
+    <string name="comments_expand">扩展</string>
+
+    <string name="comments_minimize">最小化</string>
+
+    <string name="comments_commenting_on">在%s评论</string>
+
+    <string name="comments_placeholder_cta">成为第一个评论者</string>
+
+    <string name="artists_onboarding_title">Audiomack\n用于发现新音乐。</string>
+
+    <string name="artists_onboarding_message">您想听下面哪些\n艺术家的作品？</string>
+
+    <string name="artists_onboarding_message_highlighted">下面的艺术家</string>
+
+    <string name="artists_onboarding_button">现在听</string>
+
+    <string name="artists_onboarding_footer">带我前往热门歌曲</string>
+
+    <string name="artists_onboarding_playlist_play_all">播放所有</string>
+
+    <string name="artists_onboarding_playlist_pause">暂停</string>
+
+    <string name="artists_onboarding_playlist_shuffle">随机播放</string>
+
+    <string name="artists_onboarding_select">选择一个艺术家</string>
+
+    <string name="social_login_missing_email_title">请提供有效的电子邮箱以完成账户创建。</string>
+
+    <string name="social_login_missing_email_placeholder">电子邮箱地址</string>
+
+    <string name="social_login_missing_email_cta">提交</string>
+
+    <string name="social_login_missing_email_cancel">取消</string>
+
+    <string name="download_notification_title">正在下载</string>
+
+    <string name="download_notification_message_template">和%s个其他的</string>
+
+    <string name="player_extra_comments">评论</string>
+
+    <string name="player_extra_info">信息</string>
+
+    <string name="player_extra_more_from_artist">来自艺术家的更多内容</string>
+
+    <string name="player_extra_comments_count_plural">%s则评论</string>
+
+    <string name="player_extra_comments_count_singular">%s则评论</string>
+
+    <string name="player_extra_rankings">排名</string>
+
+    <string name="player_extra_rankings_daily">今天</string>
+
+    <string name="player_extra_rankings_weekly">本周</string>
+
+    <string name="player_extra_rankings_monthly">本月</string>
+
+    <string name="player_extra_rankings_all">所有时间</string>
+
+    <string name="player_extra_more_from_artist_template">来自%s的更多内容</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">访问个人资料</string>
+
+    <string name="player_extra_artist_followers_plural">%s个关注者</string>
+
+    <string name="player_extra_artist_followers_singular">%s个关注者</string>
+
+    <string name="player_extra_offline_placeholder_title">您离线</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">检查您的网络状态或在下面重试</string>
+
+    <string name="player_extra_offline_placeholder_cta">重试</string>
+
+    <string name="filters_title_chart">过滤图表</string>
+
+    <string name="filters_section_genre">按类型过滤：</string>
+
+    <string name="filters_section_timeframe">按时间过滤：</string>
+
+    <string name="filters_section_timeframe_today">今天</string>
+
+    <string name="filters_section_timeframe_week">本周</string>
+
+    <string name="filters_section_timeframe_month">本月</string>
+
+    <string name="filters_section_timeframe_year">今年</string>
+
+    <string name="filters_section_timeframe_alltime">所有时间</string>
+
+    <string name="filters_section_view">查看方式：</string>
+
+    <string name="filters_section_view_list">列表视图</string>
+
+    <string name="filters_section_view_tile">平铺视图</string>
+
+    <string name="filters_cta">过滤</string>
+
+    <string name="chromecast_device_default_name">未知的Chromecast设备</string>
+
+    <string name="airplay_devices">Airplay设备</string>
+
+    <string name="cast_menu_disconnect">与%s断开连接</string>
+
+    <string name="cast_unavailable">无法使用Chromecast</string>
+
+    <string name="notif_login_required">需要登录</string>
+
+    <string name="notif_login_favorite">无法将歌曲添加到收藏夹</string>
+
+    <string name="notif_login_repost">无法Re-up歌曲</string>
+
+    <string name="feat_x">%1$s壮举%2$s</string>
+
+    <string name="contact_title_text">无法登录？</string>
+
+    <string name="contact_subtitle_text">请告诉我们此问题的更多信息，\n我们将尽快给您回复。</string>
+
+    <string name="contact_what_title_text">您尝试登录还是注册？</string>
+
+    <string name="contact_how_title_text">您尝试如何登录/注册？</string>
+
+    <string name="contact_when_title_text">您上次登录是什么时候？</string>
+
+    <string name="contact_email_title_text">您希望我们与您联系的电子邮箱是什么？</string>
+
+    <string name="contact_can_title_text">您能告诉我们您尝试登录或注册时\n发生的其他事情吗？</string>
+
+    <string name="contact_selection_what_login">登录</string>
+
+    <string name="contact_selection_what_signup">注册</string>
+
+    <string name="contact_selection_how_google">谷歌</string>
+
+    <string name="contact_selection_how_twitter">推特</string>
+
+    <string name="contact_selection_how_facebook">脸书</string>
+
+    <string name="contact_selection_how_email">电子邮箱</string>
+
+    <string name="contact_selection_when_today">今天</string>
+
+    <string name="contact_selection_when_last_week">在上周</string>
+
+    <string name="contact_selection_when_last_month">在上个月</string>
+
+    <string name="contact_selection_when_dont_remember">我不记得了</string>
+
+    <string name="contact_selection_required">*需要</string>
+
+    <string name="contact_selection_select">请选择</string>
+
+    <string name="contact_selection_enter">在此输入文本</string>
+
+    <string name="contact_selection_send">发送</string>
+
+    <string name="contact_time_limit_error">您的支持通知单已提交。提交新通知单之前，请等待我们的支持团队回复。</string>
+
+    <string name="contact_send_success">您的支持通知单已提交。请等待我们的支持团队回复。</string>
+
+    <string name="album_play">播放专辑</string>
+
+    <string name="album_pause">暂停专辑</string>
+
+    <string name="playlist_play">播放Playlist</string>
+
+    <string name="playlist_pause">暂停Playlist</string>
+
+    <string name="slideupmenu_music_trophies">奖杯</string>
+
+    <string name="screenshot_now_playing">#现在播放</string>
+
+    <string name="screenshot_toast_title">截图此页面并分享。</string>
+
+    <string name="screenshot_toast_subtitle">向下滑动以关闭。</string>
+
+    <string name="highlights_highlighted">已突出显示</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">权利所有者尚未在您所在的地区提供此内容。</string>
+
+    <string name="georestriction_alert_delete">删除</string>
+
+    <string name="settings_notifications">通知</string>
+
+    <string name="notifications_manager_new_song_album">新歌曲/专辑通知</string>
+
+    <string name="notifications_manager_weekly_artist_reports">艺术家每周报告</string>
+
+    <string name="notifications_manager_song_album_benchmarks">歌曲/专辑基准</string>
+
+    <string name="notifications_manager_everyone">大家</string>
+
+    <string name="notifications_manager_artists">艺术家</string>
+
+    <string name="notifications_manager_title">通知</string>
+
+    <string name="billing_issue_subscribed">账单问题：更新您的付款信息以保留高级版</string>
+
+    <string name="billing_issue_unsubscribed">账单问题：更新您的付款信息以恢复高级版</string>
+
+    <string name="comments_count_template">%s则评论</string>
+
+    <string name="permissions_rationale_alert_instagram_message">此功能要求Instagram具有所有必要的权限。请启用这些权限。</string>
+
+    <string name="premium_start_trial_ios">开始免费7天试用</string>
+
+    <string name="premium_price_template_ios">%s/月</string>
+
+    <string name="comments_try_add_later">请稍后再尝试添加评论</string>
+
+    <string name="comments_try_load_later">请稍后再尝试加载评论</string>
+
+    <string name="comments_try_later_connection">请在稍后连接状况更好时重试</string>
+
+    <string name="please_try_again_later">请稍后重试</string>
+
+    <string name="please_check_connection_try_again">请检查您的连接，然后重试</string>
+
+    <string name="please_try_request_later">请稍后重试您的请求</string>
+
+    <string name="please_login_again">请重新登录</string>
+
+    <string name="please_restart_app">请尝试重启应用程序</string>
+
+    <string name="player_file_no_connection">您没有网络连接</string>
+
+    <string name="please_check_connection_try_download_again">请检查您的连接，然后重试此下载</string>
+
+    <string name="home_tab_browse_experiment">发现</string>
+
+    <string name="no_browser_installed">无法执行此操作，请确保您的设备上安装了浏览器</string>
+
+    <string name="billing_issue_avoid_losing_premium">请更新您的结算信息，以免丢失高级版</string>
+
+    <string name="billing_issue_restore_premium">您的高级版福利已过期。请更新您的结算信息以将其恢复。</string>
+
+    <string name="billing_issue_alert_header">您的付款方式似乎有问题</string>
+
+    <string name="billing_issue_no_thanks">不，谢谢</string>
+
+    <string name="billing_issue_update_info">更新信息</string>
+
+    <string name="social_link_error_already_linked_title">此账户已关联到一个Audiomack用户</string>
+
+    <string name="social_link_error_already_linked_message_instagram">尝试关联另一个Instagram账户。</string>
+
+    <string name="social_link_error_already_linked_message_twitter">尝试关联另一个推特账户。</string>
+
+    <string name="trending_search_song">歌曲</string>
+
+    <string name="trending_search_album">专辑</string>
+
+    <string name="trending_search_playlist">Playlist</string>
+
+    <string name="trending_search_account">账户</string>
+
+    <string name="login_apple_error_message">用苹果登录失败</string>
+
+    <string name="benchmark_image_description">基准图像</string>
+
+    <string name="benchmark_trophies_title">奖杯</string>
+
+    <string name="benchmark_hide">隐藏</string>
+
+    <string name="benchmark_now">现在</string>
+
+    <string name="benchmark_playing">播放</string>
+
+    <string name="benchmark_million">%d百万</string>
+
+    <string name="benchmark_billion">%d十亿</string>
+
+    <string name="benchmark_play">播放</string>
+
+    <string name="benchmark_favorite">收藏</string>
+
+    <string name="benchmark_playlist">Playlist添加</string>
+
+    <string name="benchmark_repost">Re-up</string>
+
+    <string name="benchmark_verified">已验证</string>
+
+    <string name="benchmark_artist">艺术家</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Messenger</string>
+
+    <string name="share_wechat">微信</string>
+
+    <string name="share_messenger_login_error">此功能要求您登录到Messenger</string>
+
+    <string name="notifications_verb_benchmark">只需点击</string>
+
+    <string name="notifications_verb_benchmark_your_song">您的歌曲</string>
+
+    <string name="notifications_verb_benchmark_your_album">您的专辑</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">您的Playlist</string>
+
+    <string name="premium_download_toast">激活高级以随机播放锁定的歌曲。</string>
+
+    <string name="premium_download_downloaded">已下载</string>
+
+    <string name="premium_download_standard_message">剩余免费高级下载。</string>
+
+    <string name="premium_download_upgrade">升级</string>
+
+    <string name="premium_download_reached_limit">您已达到免费高级下载限制。</string>
+
+    <string name="premium_download_large_header">您正在下载高级内容</string>
+
+    <string name="premium_download_large_subheader">您的免费账户附带%d个高级下载。</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d个免费高级</string>
+
+    <string name="premium_download_plain_remaining">剩余下载。</string>
+
+    <string name="premium_download_upgrade_header">立即升级至高级版并获得：</string>
+
+    <string name="premium_download_upgrade_first_point">无限高级下载</string>
+
+    <string name="premium_download_upgrade_second_point">无广告体验</string>
+
+    <string name="premium_download_upgrade_third_point">高品质流传输</string>
+
+    <string name="premium_download_upgrade_fourth_point">均衡器控制</string>
+
+    <string name="premium_download_upgrade_fifth_point">等等！</string>
+
+    <string name="premium_download_upgrade_button">现在升级</string>
+
+    <string name="premium_download_learn_more_left">进一步了解</string>
+
+    <string name="premium_download_learn_more_right">高级版内容。</string>
+
+    <string name="premium_download_large_header_second">进一步了解高级下载</string>
+
+    <string name="premium_download_replace_header">替换下载</string>
+
+    <string name="premium_download_replace_single_subheader">选择要替换的一首歌曲。</string>
+
+    <string name="premium_download_replace_multiple_subheader">选择要替换的%d首歌曲。</string>
+
+    <string name="premium_download_replace_button">选择%s（%d）</string>
+
+    <string name="premium_download_replace_button_selected">移除（%d）和下载</string>
+
+    <string name="premium_download_replace_button_text_one">一</string>
+
+    <string name="premium_download_replace_button_text_two">二</string>
+
+    <string name="premium_download_replace_button_text_three">三</string>
+
+    <string name="premium_download_replace_button_text_four">四</string>
+
+    <string name="premium_download_replace_button_text_five">五</string>
+
+    <string name="premium_download_replace_button_text_six">六</string>
+
+    <string name="premium_download_replace_button_text_seven">七</string>
+
+    <string name="premium_download_replace_button_text_eight">八</string>
+
+    <string name="premium_download_replace_button_text_nine">九</string>
+
+    <string name="premium_download_replace_button_text_ten">十</string>
+
+    <string name="premium_download_replace_button_text_eleven">十一</string>
+
+    <string name="premium_download_replace_button_text_twelve">十二</string>
+
+    <string name="premium_download_replace_button_text_thirteen">十三</string>
+
+    <string name="premium_download_replace_button_text_fourteen">十四</string>
+
+    <string name="premium_download_replace_button_text_fifteen">十五</string>
+
+    <string name="premium_download_replace_button_text_sixteen">十六</string>
+
+    <string name="premium_download_replace_button_text_seventeen">十七</string>
+
+    <string name="premium_download_replace_button_text_eighteen">十八</string>
+
+    <string name="premium_download_replace_button_text_nineteen">十九</string>
+
+    <string name="premium_download_replace_button_text_twenty">二十</string>
+
+    <string name="premium_download_replace_full_album_button">选择（%d）进行下载</string>
+
+    <string name="premium_download_alert_exceed_limit_title">这个完整专辑只有高级用户可以完全下载。</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">您仍然可以下载单个曲目。</string>
+
+    <string name="premium_download_alert_upgrade">升级到高级</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">取消</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">此内容超出您的高级下载限制。</string>
+
+    <string name="offline_filter_button">过滤</string>
+
+    <string name="offline_filter_files_description">由于这些歌曲与您的设备绑定在一起，因此无法收藏、Re-up、突出显示、加入Playlist或分享。</string>
+
+    <string name="offline_filter_files_scan">听应用程序本地保存到设备中的任何歌曲</string>
+
+    <string name="offline_filter_files_switch">包括本地文件</string>
+
+    <string name="offline_filter_previous_downloads">查看之前的下载</string>
+
+    <string name="offline_filter_section_type">按类型过滤：</string>
+
+    <string name="offline_filter_section_order">按顺序过滤：</string>
+
+    <string name="offline_filter_section_files">本地文件：</string>
+
+    <string name="offline_filter_title">过滤器离线</string>
+
+    <string name="signup_error_min_age">您必须年满13岁才能使用此应用</string>
+
+    <string name="report_content">举报内容</string>
+
+    <string name="report_content_done">内容已被举报</string>
+
+    <string name="block_user">阻止用户</string>
+
+    <string name="block_user_done">举报/阻止请求已提交</string>
+
+    <string name="confirm_report_done">您的举报/阻止请求将在接下来的24小时内执行</string>
+
+    <string name="confirm_report_alert_title">请描述问题</string>
+
+    <string name="confirm_report_report_alert_message">选择最适合此举报/阻止的原因描述</string>
+
+    <string name="confirm_report_alert_submit">提交</string>
+
+    <string name="confirm_report_alert_option_violent">这是暴力/色情的视觉或音频内容</string>
+
+    <string name="confirm_report_alert_option_broken">此内容没有流式播放或下载</string>
+
+    <string name="confirm_report_alert_option_misleading">此内容具有误导性或标签错误</string>
+
+    <string name="confirm_report_alert_option_spam">此账户涉及垃圾信息或骚扰</string>
+
+    <string name="confirm_report_alert_option_infringement">我认为这侵犯版权</string>
+
+    <string name="confirm_bis_report_alert_title">您确定想提交此阻止/举报通知吗？</string>
+
+    <string name="confirm_bis_report_alert_yes">是</string>
+
+    <string name="confirm_bis_report_alert_cancel">不，我不想</string>
+
+    <string name="benchmark_tastemaker">时尚引领者</string>
+
+    <string name="benchmark_authenticated">已授权</string>
+
+    <string name="download_restore_backup_fail">无法从之前的设备恢复下载</string>
+
+    <string name="download_restore_backup_success">成功从之前的设备恢复下载</string>
+
+    <string name="download_restore_prompt">您想从以前的设备恢复%d个下载吗？</string>
+
+    <string name="download_restore_prompt_yes">是</string>
+
+    <string name="download_restore_prompt_no">否</string>
+
+    <string name="download_restore_no_wifi_prompt">连接到WiFi后，下载将开始</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">确定</string>
+
+    <string name="in_app_update_ios_title">有可用更新</string>
+
+    <string name="in_app_update_ios_message">有Audiomack新版本。请立即更新。</string>
+
+    <string name="in_app_update_ios_option_update">更新</string>
+
+    <string name="in_app_update_ios_option_next_time">下次</string>
+
+    <string name="in_app_update_downloaded_title">此应用的更新刚刚已下载</string>
+
+    <string name="in_app_update_downloaded_restart">重新开始</string>
+
+    <string name="in_app_update_downloaded_cancel">取消</string>
+
+    <string name="in_app_update_download_started">应用更新下载已开始</string>
+
+    <string name="comments_view_all">查看所有评论</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">选择奖杯，然后截图分享</string>
+
+    <string name="search_authenticated_account">已认证账户</string>
+
+    <string name="search_tastemaker_account">风尚开创者账户</string>
+
+    <string name="playlists_filter_pill_favorited">已收藏</string>
+
+    <string name="offline_remove_title">离线多选移除</string>
+
+    <string name="offline_remove_button">离线移除</string>
+
+    <string name="download_delete_slide">删除</string>
+
+    <string name="options_play_next_list">播放下一个</string>
+
+    <string name="slideupmenu_music_share_instagram">Instagram快拍</string>
+
+    <string name="notifications_playlists_bundle_verb">已添加到</string>
+
+    <string name="notifications_playlists_bundle_suffix">你关注</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%dPlaylist</string>
+
+    <string name="notifications_playlists_new_songs">%d首新歌曲</string>
+
+    <string name="audio_ad_now_playing_info_title">音频广告</string>
+
+    <string name="audio_ad_advertisement">广告：</string>
+
+    <string name="audio_ad_support_artists">广告支持Audiomack上的艺术家和创作者。</string>
+
+    <string name="audio_ad_upgrade_premium">升级到高级账户以移除所有广告</string>
+
+    <string name="audio_ad_now_playing_info_artist">您的内容将在%d秒内开始...</string>
+
+    <string name="downloadmessage_button_premium_downloads">前往离线音乐</string>
+
+    <string name="benchmark_next_milestone">下一个%s</string>
+
+    <string name="benchmark_on_audiomack">在AUDIOMACK上</string>
+
+    <string name="settings_sleep_timer">睡眠定时器</string>
+
+    <string name="sleep_timer_alert_title">您想让音乐播放多长时间？</string>
+
+    <string name="sleep_timer_alert_button">设置定时器</string>
+
+    <string name="sleep_timer_alert_hours">小时</string>
+
+    <string name="sleep_timer_alert_hour">小时</string>
+
+    <string name="sleep_timer_alert_minutes">分钟</string>
+
+    <string name="browse_tab_world">世界</string>
+
+    <string name="premium_2019_sleep_timer">睡眠定时器</string>
+
+    <string name="premium_2019_sleep_timer_desc">设置定时器以停止音频，以便您睡着后不会整夜运行App</string>
+
+    <string name="signup_gender_birthday_information_header">完成您的个人资料</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">更多信息请查看我们的服务条款和隐私政策</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">您如何评论</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">获取</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">第%d次投票。</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">第%d次投票。</string>
+
+    <string name="premium_download_large_subheader_second_song">升级或移除一个高级下载以下载此歌曲</string>
+
+    <string name="notifications_playlists_bundle_verb_single">已添加到</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d歌曲</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%dPlaylist</string>
+
+    <string name="notifications_playlists_new_songs_single">%d新歌</string>
+
+    <string name="audio_ad_notif_title">广告</string>
+
+    <string name="playlists_filter_my">我的Playlist</string>
+
+    <string name="playlists_filter_favorited">已收藏</string>
+
+    <string name="playlists_filter_offline">仅离线</string>
+
+    <string name="filters_section_type">按类型过滤：</string>
+
+    <string name="musicinfo_runtime_title">运行时间：</string>
+
+    <string name="musicinfo_runtime_value">%s分钟，%d个曲目</string>
+
+    <string name="premium_2019_advanced">高级功能</string>
+
+    <string name="premium_2019_start_trial">开始7天免费试用</string>
+
+    <string name="favorites_filter_title">过滤收藏夹</string>
+
+    <string name="accessibility_multiselect">多选</string>
+
+    <string name="accessibility_premium_download">高级下载</string>
+
+    <string name="search_playlist_total_songs">歌曲总计：</string>
+
+    <string name="restore_downloads_prompt_title_plural">您想从之前的设备恢复%d个下载吗？</string>
+
+    <string name="restore_downloads_prompt_title_singular">您要从之前的设备恢复%d个下载吗？</string>
+
+    <string name="restore_downloads_dialog_positive">恢复所有下载</string>
+
+    <string name="restore_downloads_dialog_negative">选择要恢复的下载</string>
+
+    <string name="restore_downloads_error">无法恢复下载</string>
+
+    <string name="restore_downloads_started">恢复下载</string>
+
+    <string name="restore_downloads_queued">连接到WiFi后，下载将开始</string>
+
+    <string name="premium_2019_premiumdownloads">无限下载</string>
+
+    <string name="premium_2019_premiumdownloads_desc">无限下载Audiomack 上的所有内容</string>
+
+    <string name="premium_only_downloads_alert_title">此下载为高级版。</string>
+
+    <string name="premium_only_downloads_alert_subtitle">Audiomack上有\n数百万免费下载，\n但艺术家仅允许\n高级订户下载。</string>
+
+    <string name="premium_only_downloads_alert_yes">升级</string>
+
+    <string name="premium_only_downloads_alert_no">取消</string>
+
+    <string name="notifications_manager_play_milestones">播放里程碑</string>
+
+    <string name="notifications_manager_upvote_milestones">投票里程碑</string>
+
+    <string name="notifications_manager_comment_replies">评论回复</string>
+
+    <string name="local_player_granted_alert_title">播放本地文件</string>
+
+    <string name="local_player_granted_alert_message">您有%d个音乐文件存储在设备本地。您想要从Audiomack访问这些歌曲吗？\n\n注意：由于本地文件仅存在于您的设备上，因此无法共享、Re-up、收藏、突出显示或添加到Playlist。</string>
+
+    <string name="local_player_granted_alert_positive">添加</string>
+
+    <string name="local_player_granted_alert_negative">取消</string>
+
+    <string name="local_player_ungranted_alert_title">播放本地文件</string>
+
+    <string name="local_player_ungranted_alert_message">音乐文件存储在手机上？现在，您可以在Audiomack上像流媒体音乐一样听它们。点击下面的“添加”即可开始！&#13;\n&#13;\n注意：由于本地文件仅存在于您的设备上，因此无法共享、Re-up、收藏、突出显示或添加到Playlist。</string>
+
+    <string name="local_player_declined_alert_title">添加本地文件</string>
+
+    <string name="local_player_declined_alert_message">听Audiomack中存储在设备上的所有音频文件</string>
+
+    <string name="local_player_declined_alert_positive">添加</string>
+
+    <string name="queue_clear_all">清除所有</string>
+
+    <string name="queue_clear_upcoming">清除即将来临</string>
+
+    <string name="queue_save_playlist">保存到Playlist</string>
+
+    <string name="premium_only_downloads_stream_alert_title">这是高级版专属下载</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">升级您的账户，使应用程序上的所有内容都可用于离线收听。</string>
+
+    <string name="articles_noresults_placeholder">未找到文章。</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s分钟，%d首歌曲</string>
+
+    <string name="premium_limited_reached_limit_alert_title">您没有足够的可用高级下载</string>
+
+    <string name="premium_limited_reached_limit_alert_message">升级到高级版以无限制下载，或替换之前的下载以释放空间。</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">开始高级版免费试用</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">替换并下载</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">进一步了解高级版内容。</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">高级版内容。</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">您没有高级下载了。</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">若要播放，请升级到高级版或替换%d个高级下载。</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">升级到高级版</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">替换并解锁</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">我想用流媒体来代替。</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">用流媒体来代替。</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">从线下删除</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">您没有高级下载了。</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">若要下载，请升级到高级版或替换%d个高级下载。</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">升级到高级版</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">替换并解锁</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">我想用流媒体来代替。</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">用流媒体来代替。</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">从线下删除</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">解锁此下载？</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">您可以使用剩余的%d个高级下载来解锁它。</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">升级到高级版</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">解锁</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">我想用流媒体来代替。</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">用流媒体来代替。</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">从线下删除</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">订阅以解锁。</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">Audiomack上有数百万免费下载，但只有高级用户可以访问此下载。</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">升级到高级版</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">我想用流媒体来代替。</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">用流媒体来代替。</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">从线下删除</string>
+
+    <string name="restore_downloads_dialog_select">选择要恢复的下载</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">恢复</string>
+
+    <string name="search_recommendations">为您推荐</string>
+
+    <string name="settings_premium_status">高级身份</string>
+
+    <string name="settings_premium_status_no_override">无覆盖</string>
+
+    <string name="settings_premium_status_free">免费</string>
+
+    <string name="settings_premium_status_premium">高级</string>
+
+    <string name="settings_premium_status_free_billing_issue">免费计费问题</string>
+
+    <string name="settings_premium_status_premium_billing_issue">高级计费问题</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d个Playlist</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d首新歌</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">已添加到</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d首歌曲</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d个Playlist</string>
+
+    <string name="premium_limited_download_unlock_toast">%s已解锁</string>
+
+    <string name="notifications_follow_alert_title">在该艺人发布&#13;\n新音乐时&#13;\n获得通知？</string>
+
+    <string name="notifications_follow_alert_positive">授予推送权限</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">从线下删除</string>
+
+    <string name="email_verification_toast_success">感谢您验证您的电子邮箱！</string>
+
+    <string name="email_verification_toast_failure">电子邮箱验证失败</string>
+
+    <string name="sleep_timer_stop_today">播放将在%s停止</string>
+
+    <string name="sleep_timer_stop_tomorrow">播放将在明天%s停止</string>
+
+    <string name="sleep_timer_triggered">睡眠定时器完成</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">在该艺人发布新音乐时获得通知？</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">授予推送权限</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">取消</string>
+
+    <string name="notifications_manager_push_off_title">推送通知已禁用。</string>
+
+    <string name="notifications_manager_push_off_message_ios">若要启用，请访问：&#13;\niPhone设置 &gt; 通知 &gt; Audiomack</string>
+
+    <string name="notifications_manager_push_off_message_android">若要启用，请访问：&#13;\n设备设置 &gt; 应用和通知 &gt; Audiomack &gt; 通知</string>
+
+    <string name="sleep_timer_notification_button">前往</string>
+
+    <string name="sleep_timer_notification_title">解锁高级睡眠定时器</string>
+
+    <string name="sleep_timer_notification_subtitle">在设置中进行设置，以便在您睡着时不会整夜运行应用</string>
+
+    <string name="sleep_timer_notification_premium_title">您已解锁睡眠定时器</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">在设置中进行设置，以便在您入睡后停止音频</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack使用本地网络以发现您WiFi网络上的启用Cast的设备。</string>
+
+    <string name="notifications_manager_verified_playlist">已验证的Playlist添加</string>
+
+    <string name="world_articles_not_found">未找到文章。</string>
+
+    <string name="world_article_detail_not_found">未找到文章。</string>
+
+    <string name="accessibility_world_logo">世界徽标</string>
+
+    <string name="splash_message_single">为了提供最佳体验，我们需要您启用以下权限：</string>
+
+    <string name="splash_location_message_new">显示您所在地区的流行音乐、趋势图和本地搜索</string>
+
+    <string name="accessibility_logo">Audiomack图标</string>
+
+    <string name="widget_gallery_title">热门歌曲</string>
+
+    <string name="widget_gallery_subtitle">听最近收藏的曲目</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">这个曲目仅限高级版</string>
+
+    <string name="premium_only_streaming_alert_message">获取Audiomack高级版，流式传输平台上的任何曲目，外加无限制下载等等！</string>
+
+    <string name="premium_only_streaming_alert_premium">获取高级版</string>
+
+    <string name="premium_only_streaming_alert_cancel">取消</string>
+
+    <string name="toast_play_album_deleted_tracks_header">并非所有这些歌曲都已下载</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">为了节省数据，只有离线曲目会排队</string>
+
+    <string name="feed_suggested_accounts">推荐的账号</string>
+
+    <string name="feed_suggested_accounts_view_all">查看全部</string>
+
+    <string name="feed_new_music_description">来自您关注的人的新音乐将显示在这里。</string>
+
+    <string name="feed_follow_suggested_description">您可以从上面推荐的一些艺人开始。</string>
+
+    <string name="feed_social_feed">社交动态消息</string>
+
+    <string name="NSPhotoLibraryUsageDescription">我们需要访问您的图片库，以选择图片将其用于您的个人资料。</string>
+
+    <string name="NSCameraUsageDescription">我们需要访问相机，以拍摄照片将其用于您的个人资料。</string>
+
+    <string name="settings_change_password">更改密码</string>
+
+    <string name="update_password_success">密码更新成功！</string>
+
+    <string name="update_password_title">更新密码</string>
+
+    <string name="update_password_current">当前密码</string>
+
+    <string name="update_password_new">新密码</string>
+
+    <string name="update_password_confirm">确认密码</string>
+
+    <string name="update_password_forgot">忘记密码？</string>
+
+    <string name="update_password_save">更新密码</string>
+
+    <string name="reset_password_invalid_token_title">密码重置链接错误</string>
+
+    <string name="reset_password_invalid_token_message">验证密码重置链接时出错。这可能是因为链接已过期。尝试再次使用“忘记密码”表单来生成新链接。</string>
+
+    <string name="reset_password_title">重置密码</string>
+
+    <string name="reset_password_subtitle">输入新密码</string>
+
+    <string name="reset_password_new">新密码</string>
+
+    <string name="reset_password_confirm">确认密码</string>
+
+    <string name="reset_password_reset">重置密码</string>
+
+    <string name="reset_password_success">密码重置成功！</string>
+
+    <string name="word_article_webview_updating_error">一些服务正在更新，请重试</string>
+
+    <string name="local_file">本地文件</string>
+
+    <string name="local_file_selection_apply">保存更改</string>
+
+    <string name="local_file_selection_applied">文件选择已保存</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack需要存储权限才能访问您的本地媒体</string>
+
+    <string name="local_file_selection_empty">未找到本地媒体</string>
+
+    <string name="offline_filter_files_select">选择文件</string>
+
+    <string name="options_hide_track">隐藏曲目</string>
+
+    <string name="options_hide_album">隐藏专辑</string>
+
+    <string name="uploads_filter_popular">最受欢迎</string>
+
+    <string name="uploads_filter_recent">最近</string>
+
+</resources>

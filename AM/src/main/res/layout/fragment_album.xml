@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/imagesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/sizingView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/accessibility_song_image"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="#ff0000" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@id/imageView"
+            app:layout_constraintEnd_toEndOf="@id/imageView"
+            app:layout_constraintStart_toStartOf="@id/imageView"
+            app:layout_constraintTop_toTopOf="@id/imageView"
+            app:srcCompat="@drawable/ic_album_artwork_shadow" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.audiomack.views.AMRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_albumtrack" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/upperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/album_margin_horizontal" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/album_margin_horizontal" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/album_playlist_buttons_fade" />
+
+        <View
+            android:id="@+id/sizingViewBis"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:layout_constraintDimensionRatio="1.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_default="percent"
+            app:layout_constraintWidth_percent="0.5" />
+
+        <ImageView
+            android:id="@+id/imageViewSmall"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/artwork_border"
+            android:contentDescription="@string/accessibility_song_image"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="@id/sizingViewBis"
+            app:layout_constraintDimensionRatio="1.0"
+            app:layout_constraintEnd_toEndOf="@id/sizingViewBis"
+            app:layout_constraintStart_toStartOf="@id/sizingViewBis"
+            app:layout_constraintTop_toTopOf="@id/sizingViewBis" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvArtist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:customletterspacing="-0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sizingViewBis"
+            tools:text="Cardi B" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:customletterspacing="-0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvArtist"
+            tools:text="Invasion of Privacy" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvFeat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            app:customletterspacing="-0.39"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+            app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle"
+            tools:text="Feat. -" />
+
+        <com.audiomack.ui.player.full.view.SongActionButton
+            android:id="@+id/actionFavorite"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/song_action_button_margin"
+            android:minWidth="@dimen/album_buttons_size"
+            app:layout_constraintEnd_toStartOf="@id/actionRePost"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+            app:layout_constraintTop_toTopOf="@id/buttonViewComment"
+            app:type="favorite" />
+
+        <com.audiomack.ui.player.full.view.SongActionButton
+            android:id="@+id/actionRePost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/album_buttons_size"
+            app:layout_constraintEnd_toStartOf="@id/buttonViewComment"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/actionFavorite"
+            app:layout_constraintTop_toTopOf="@id/buttonViewComment"
+            app:type="rePost" />
+
+        <com.audiomack.views.AMCommentButton
+            android:id="@+id/buttonViewComment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="17dp"
+            android:contentDescription="@string/accessibility_comment"
+            android:minWidth="@dimen/album_buttons_size"
+            app:layout_constraintBottom_toTopOf="@id/playShuffleLayout"
+            app:layout_constraintEnd_toStartOf="@id/actionDownload"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/actionRePost"
+            app:layout_constraintTop_toBottomOf="@id/tvFeat" />
+
+        <com.audiomack.ui.player.full.view.SongActionButton
+            android:id="@+id/actionDownload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@id/actionShare"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/buttonViewComment"
+            app:layout_constraintTop_toTopOf="@id/buttonViewComment"
+            app:type="download" />
+
+        <com.audiomack.ui.player.full.view.SongActionButton
+            android:id="@+id/actionShare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/song_action_button_margin"
+            android:contentDescription="@string/accessibility_share"
+            android:minWidth="@dimen/album_buttons_size"
+            app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toEndOf="@id/actionDownload"
+            app:layout_constraintTop_toTopOf="@id/buttonViewComment"
+            app:type="share" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/playShuffleLayout"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonViewComment">
+
+            <View
+                android:id="@+id/leftView"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@drawable/artists_onboarding_playlist_button_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonPlayAll"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@null"
+                android:drawableStart="@drawable/artists_onboarding_playlist_play"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:text="@string/album_play"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                app:customletterspacing="-0.63"
+                app:layout_constraintBottom_toBottomOf="@id/leftView"
+                app:layout_constraintEnd_toEndOf="@id/leftView"
+                app:layout_constraintStart_toStartOf="@id/leftView"
+                app:layout_constraintTop_toTopOf="@id/leftView" />
+
+            <View
+                android:id="@+id/rightView"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:background="@drawable/artists_onboarding_playlist_button_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonShuffle"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:drawableStart="@drawable/artists_onboarding_playlist_shuffle"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:text="@string/artists_onboarding_playlist_shuffle"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                app:customletterspacing="-0.63"
+                app:layout_constraintBottom_toBottomOf="@id/rightView"
+                app:layout_constraintEnd_toEndOf="@id/rightView"
+                app:layout_constraintStart_toStartOf="@id/rightView"
+                app:layout_constraintTop_toTopOf="@id/rightView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imageViewBlurredTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0D0D0D"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/imageViewShadowTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_top_image_shadow" />
+    </FrameLayout>
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start|top"
+        android:layout_margin="5dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_back"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_back_button" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTopArtistTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:visibility="invisible"
+            app:customletterspacing="-0.46"
+            tools:text="Artist Name" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTopAlbumTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:visibility="invisible"
+            app:customletterspacing="-0.46"
+            tools:text="Album Title" />
+    </LinearLayout>
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonInfo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|top"
+        android:layout_marginEnd="4dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_song_info"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_info" />
+
+    <ImageView
+        android:id="@+id/shadowImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/album_shadow"
+        android:visibility="invisible" />
+
+</FrameLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="splash_logo_margin_top">40dp</dimen>
+    <dimen name="splash_layout_margin_top">43dp</dimen>
+    <dimen name="splash_location_margin_top">15dp</dimen>
+    <dimen name="splash_location_msg_margin_top">10dp</dimen>
+    <dimen name="splash_btn_margin_top">65dp</dimen>
+    <dimen name="splash_privacy_margin_top">10dp</dimen>
+</resources>

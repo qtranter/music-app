@@ -1,0 +1,1 @@
+ALTER TABLE bookmarked_items ADD COLUMN amp_duration INTEGER DEFAULT 0;

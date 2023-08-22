@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">Попробуйте еще раз</string>
+
+    <string name="splash_offline">Вы не подключены к Интернету и можете воспроизводить только скачанную музыку.</string>
+
+    <string name="splash_gotodownloads">ПЕРЕЙТИ К МУЗЫКЕ ОФФЛАЙН</string>
+
+    <string name="splash_message">Чтобы ваши впечатления от приложения были лучше, мы просим вас включить следующие разрешения:</string>
+
+    <string name="splash_storage">Доступ к файлам</string>
+
+    <string name="splash_storage_message">Позволяет скачивать песни и альбомы</string>
+
+    <string name="splash_location">Расположение</string>
+
+    <string name="splash_location_message">Позволяет Audiomack показывать популярную музыку в вашем районе</string>
+
+    <string name="splash_notifications">Всплывающие напоминания</string>
+
+    <string name="splash_notifications_message">Позволяет нам уведомлять вас, когда выходит новая горячая музыка</string>
+
+    <string name="splash_ok">ДА, ПОНЯТНО!</string>
+
+    <string name="splash_later">Может быть позже?</string>
+
+    <string name="splash_privacy_policy">Политика конфиденциальности</string>
+
+    <string name="splash_autologin_timeout_error_message">Проблемы с подключением. Пожалуйста, проверьте ваше интернет-соединение</string>
+
+    <string name="splash_autologin_timeout_error_ok">Хорошо</string>
+
+    <string name="splash_autologin_fail_message">Не удалось войти</string>
+
+    <string name="splash_autologin_facebook_error_message">Не удалось обновить токен Facebook</string>
+
+    <string name="home_tab_feed">Лента</string>
+
+    <string name="home_tab_playlists">Playlist</string>
+
+    <string name="home_tab_search">Поиск</string>
+
+    <string name="home_tab_library">Моя библиотека</string>
+
+    <string name="signup_tos">Регистрируясь, вы соглашаетесь с нашими Условиями обслуживания и Политикой конфиденциальности.</string>
+
+    <string name="signup_tos_highlighted_tos">Условия обслуживания</string>
+
+    <string name="signup_tos_highlighted_privacy">Политика конфиденциальности</string>
+
+    <string name="signup_username">Введите имя пользователя</string>
+
+    <string name="signup_email">Введите адрес электронной почты</string>
+
+    <string name="signup_password">Придумайте пароль</string>
+
+    <string name="signup_password_confirm">Подтвердите ваш пароль</string>
+
+    <string name="signup_create">СОЗДАЙТЕ АККАУНТ</string>
+
+    <string name="signup_facebook">Зарегистрируйтесь через Facebook</string>
+
+    <string name="signup_go_to_login">УЖЕ ЕСТЬ АККАУНТ?</string>
+
+    <string name="signup_header">СОЗДАЙТЕ БЕСПЛАТНЫЙ АККАУНТ</string>
+
+    <string name="signup_birthday_label">Когда ваш день рождения?</string>
+
+    <string name="signup_gender_label">Ваш пол?</string>
+
+    <string name="signup_gender_male">Мужской</string>
+
+    <string name="signup_gender_female">Женский</string>
+
+    <string name="signup_gender_other">Небинарный</string>
+
+    <string name="signup_disclaimer">Audiomack использует эти данные, чтобы персонализировать ваш опыт, помогать исполнителям понимать своих слушателей и делать многое другое. Мы будем всегда соблюдать анонимность ваших личных данных.</string>
+
+    <string name="signup_finish">Завершить</string>
+
+    <string name="signup_error_birthday">Пожалуйста, введите действительный день рождения</string>
+
+    <string name="signup_error_gender">Пожалуйста, выберите пол</string>
+
+    <string name="login_show_password">Показать пароль</string>
+
+    <string name="login_error_timestamp">Отметка времени истекла. Это может означать, что на вашем устройстве неправильно идут часы. Пожалуйста, проверьте время и дату, а если у вас все еще остались проблемы, напишите сюда: support\@audiomack.com.</string>
+
+    <string name="login_error_1037">Не удалось получить необходимые данные. Убедитесь, что в вашей учетной записи установлен адрес эл. почты, и повторите попытку.</string>
+
+    <string name="login_header">ВОЙТИ В СВОЙ АККАУНТ</string>
+
+    <string name="login_email">Эл. почта</string>
+
+    <string name="login_password">Пароль</string>
+
+    <string name="login_forgot_password">Забыли пароль</string>
+
+    <string name="login_cta">ВОЙТИ</string>
+
+    <string name="login_facebook">Авторизоваться через Facebook</string>
+
+    <string name="login_go_to_signup_hint">У вас нет аккаунта?</string>
+
+    <string name="login_go_to_signup">СОЗДАТЬ БЕСПЛАТНЫЙ АККАУНТ</string>
+
+    <string name="login_facebook_error_message">Не удалось войти через Facebook</string>
+
+    <string name="login_facebook_error_button">Хорошо</string>
+
+    <string name="login_error_title">Ошибка при входе</string>
+
+    <string name="login_error_message_facebook">Ошибка Facebook</string>
+
+    <string name="login_tos">Регистрируясь в Audiomack, вы соглашаетесь с нашими Условиями обслуживания и Политикой конфиденциальности.</string>
+
+    <string name="login_tos_highlighted_tos">Условия обслуживания</string>
+
+    <string name="login_tos_highlighted_privacy">Политика конфиденциальности</string>
+
+    <string name="signup_error_title">Ошибка при регистрации</string>
+
+    <string name="authentication_validation_username_empty">Имя пользователя не заполнено</string>
+
+    <string name="authentication_validation_email_empty">Адрес эл. почты не заполнен</string>
+
+    <string name="authentication_validation_password_empty">Пароль не заполнен</string>
+
+    <string name="authentication_validation_password_mismatch">Пароли не совпадают</string>
+
+    <string name="logout_alert_title">Выйти</string>
+
+    <string name="logout_alert_message">Выйти из Audiomack?</string>
+
+    <string name="logout_alert_no">Отмена</string>
+
+    <string name="logout_alert_yes">Да</string>
+
+    <string name="forgot_password_alert_title">Забыли пароль</string>
+
+    <string name="forgot_password_alert_message">Введите адрес электронной почты, и мы вышлем вам, что нужно сделать для сброса пароля</string>
+
+    <string name="forgot_password_alert_no">Отмена</string>
+
+    <string name="forgot_password_alert_yes">Отправить</string>
+
+    <string name="forgot_password_alert_hint">Адрес электронной почты</string>
+
+    <string name="forgot_password_success">Спасибо. Пожалуйста, проверьте свою эл. почту и найдите инструкции по сбросу пароля. Они могут быть в папке со спамом.</string>
+
+    <string name="forgot_password_failure_template">%s Если у вас есть проблемы, пожалуйста, напишите нам: support\@audiomack.com</string>
+
+    <string name="premium_start_trial">НАЧНИТЕ БЕСПЛАТНУЮ 7-ДНЕВНУЮ ПРОБНУЮ ВЕРСИЮ</string>
+
+    <string name="premium_price_template">%s в месяц после пробной версии</string>
+
+    <string name="premium_toc">Условия подписки на Audiomack Premium</string>
+
+    <string name="premium_desc_template">Audiomack Premium предполагает периодическую подписку.  По истечении 7-дневного пробного периода через вашу учетную запись Google Play вам будет автоматически выставляться счет в размере %s в месяц.  Ваша подписка будет автоматически продлеваться, если вы не отмените или не отключите автоматическое продление не менее чем за 24 часа до окончания расчетного периода.  Вы можете управлять своей подпиской в магазине Google Play.</string>
+
+    <string name="premium_desc_template_ios">Если вы приобретаете подписку на Audiomack (%s в месяц), оплата будет списана с вашей учетной записи в iTunes. С вашей учетной записи будет взиматься плата за обновление в течение 24 часов до окончания текущего периода подписки. Если вы не хотите, чтобы счет Audiomack Gold/Platinum больше не оплачивался, и желаете отменить свое премиум-членство, обязательно сделайте это до истечения указанного 24-часового периода. Вы можете отключить автообновление в любое время, зайдя в настройки в iTunes Store после покупки. Все цены, приведенные здесь и в приложении для уровней подписки Gold/Platinum, указаны в долларах США. Они могут отличаться в других странах мира и могут быть изменены в будущем. В течение активного периода подписки отмена текущей подписки не допускается. Audiomack всегда можно использовать без подписки, и вы можете возобновить использование Audiomack с рекламой в любое время после окончания срока подписки.</string>
+
+    <string name="premium_no_active_subscriptions">У вас нет активной подписки.</string>
+
+    <string name="premium_unable_restore">Невозможно восстановить предыдущую покупку</string>
+
+    <string name="premium_restore">Восстановить предыдущую покупку</string>
+
+    <string name="premium_and">и</string>
+
+    <string name="premium_terms_of_service">Условия обслуживания</string>
+
+    <string name="premium_privacy_policy">Политика конфиденциальности</string>
+
+    <string name="premium_subscribing">Подписавшись, вы получаете доступ к следующим возможностям Audiomack</string>
+
+    <string name="premium_2019_title">Обновление до Audiomack Premium</string>
+
+    <string name="premium_2019_subtitle">Начните 7-дневную бесплатную пробную версию и получите:</string>
+
+    <string name="premium_2019_adfree">Отсутствие рекламы</string>
+
+    <string name="premium_2019_adfree_desc">Неограниченное воспроизведение без прерываний на рекламу и баннеры</string>
+
+    <string name="premium_2019_playlist">Скачивание полных playlist</string>
+
+    <string name="premium_2019_playlist_desc">Сохранение всех песен из любого playlist на ваше устройство в одно касание</string>
+
+    <string name="premium_2019_hifi">Высокое качество потоковой передачи</string>
+
+    <string name="premium_2019_hifi_desc">Убедитесь, что вы слышите каждую песню в высочайшем качестве</string>
+
+    <string name="premium_2019_airplay">Трансляция на музыкальные устройства</string>
+
+    <string name="premium_2019_airplay_desc">Хотите проигрывать музыку на устройствах с поддержкой Airplay? Передача от проигрывателя</string>
+
+    <string name="premium_2019_equalizer">Управление эквалайзером</string>
+
+    <string name="premium_2019_equalizer_desc">Настройте свою музыку так, как вам нравится, с помощью пользовательских настроек низких и высоких частот</string>
+
+    <string name="premium_2019_trial">Бесплатная 7-дневная пробная версия</string>
+
+    <string name="premium_2019_trial_desc">Попробуйте, прежде чем купить. Получите все вышеперечисленное бесплатно в течение недели после начала использования</string>
+
+    <string name="defaultgenre_title">УСТАНОВИТЬ ЖАНР ПО УМОЛЧАНИЮ</string>
+
+    <string name="notifications_title">УВЕДОМЛЕНИЯ</string>
+
+    <string name="notifications_verb_favorite">добавлен(а) в избранные</string>
+
+    <string name="notifications_verb_repost">повторно включено</string>
+
+    <string name="notifications_verb_follow">подписан(а) на вас</string>
+
+    <string name="notifications_verb_playlist">внесен(а) в playlist</string>
+
+    <string name="notifications_verb_added">добавлен(а)</string>
+
+    <string name="notifications_verb_added_to_playlist">в playlist</string>
+
+    <string name="notifications_verb_comment">прокомментировал(а)</string>
+
+    <string name="notifications_verb_comment_reply">ответил(а) на ваш комментарий</string>
+
+    <string name="removedcontent_title">УДАЛЕННЫЙ КОНТЕНТ</string>
+
+    <string name="removedcontent_message">Следующая музыка была удалена из Audiomack исполнителем, лейблом или правообладателем. Мы работаем над тем, чтобы восстановить ее в будущем. Спасибо</string>
+
+    <string name="removedcontent_ok">Хорошо</string>
+
+    <string name="removedcontent_header">Некоторая офлайн-музыка была удалена. Узнать больше</string>
+
+    <string name="removedcontent_header_highlighted">Некоторая офлайн-музыка была удалена. Узнать больше</string>
+
+    <string name="excludereups">Исключить re-up</string>
+
+    <string name="restoredownloads_title">ВОССТАНОВИТЬ ЗАГРУЗКИ</string>
+
+    <string name="restoredownloads_footer">Восстановить ваши предыдущие загрузки</string>
+
+    <string name="playlist_info_failed">Невозможно получить данные playlist. Пожалуйста, попробуйте позже.</string>
+
+    <string name="artist_info_failed">Невозможно получить данные об исполнителе. Пожалуйста, попробуйте позже.</string>
+
+    <string name="song_info_failed">Невозможно получить данные песни.</string>
+
+    <string name="album_info_failed">Невозможно получить данные альбома.</string>
+
+    <string name="download_results_no_connection">Вы не подключены к Интернету</string>
+
+    <string name="download_failed_song">Невозможно скачать песню</string>
+
+    <string name="download_failed_abum">Невозможно скачать альбом</string>
+
+    <string name="download_delete_list_failed">Невозможно удалить из списка для скачивания</string>
+
+    <string name="download_playlist_succeeded">Playlist добавлен в офлайн</string>
+
+    <string name="download_succeeded">Успешно загружено</string>
+
+    <string name="login_needed_message">Пожалуйста, войдите, чтобы использовать эту функцию</string>
+
+    <string name="login_needed_no">Отмена</string>
+
+    <string name="login_needed_yes">ВХОД</string>
+
+    <string name="playlist_song_singular">Песня</string>
+
+    <string name="playlist_song_plural">Песни</string>
+
+    <string name="playlist_sync">ДОБАВИТЬ НОВЫЕ ПЕСНИ В ОФФЛАЙН</string>
+
+    <string name="playlistreorder_title">ПОМЕНЯТЬ МЕСТАМИ / УДАЛИТЬ</string>
+
+    <string name="playlistreorder_save">СОХРАНИТЬ</string>
+
+    <string name="addtoplaylist_title">ДОБАВИТЬ В PLAYLIST</string>
+
+    <string name="addtoplaylist_create">СОЗДАТЬ НОВЫЙ PLAYLIST</string>
+
+    <string name="addtoplaylist_create_hint">Нажмите, чтобы создать новый playlist</string>
+
+    <string name="addtoplaylist_addtoexisting">ДОБАВИТЬ В СУЩЕСТВУЮЩИЙ PLAYLIST</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">Этот playlist не может быть отредактирован</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">Эту песню нельзя добавить в playlist</string>
+
+    <string name="addtoplaylist_song_added">Успешно добавлено в playlist</string>
+
+    <string name="addtoplaylist_song_added_failed">Невозможно добавить в playlist</string>
+
+    <string name="addtoplaylist_song_removed">Успешно удалено из playlist</string>
+
+    <string name="addtoplaylist_song_removed_failed">Не удается удалить из playlist</string>
+
+    <string name="editplaylist_title">РЕДАКТИРОВАТЬ ДАННЫЕ PLAYLIST</string>
+
+    <string name="editplaylist_create_title">СОЗДАТЬ НОВЫЙ PLAYLIST</string>
+
+    <string name="editplaylist_hint">Нажмите на поля для редактирования</string>
+
+    <string name="editplaylist_name">Имя:</string>
+
+    <string name="editplaylist_name_hint">Введите название playlist</string>
+
+    <string name="editplaylist_genre">Жанр:</string>
+
+    <string name="editplaylist_permissions">Разрешения:</string>
+
+    <string name="editplaylist_description">Описание:</string>
+
+    <string name="editplaylist_description_hint">Введите описание playlist</string>
+
+    <string name="editplaylist_delete">Удалить playlist</string>
+
+    <string name="editplaylist_save">Сохранить</string>
+
+    <string name="editplaylist_cancel">Отмена</string>
+
+    <string name="playlist_delete_failed">Не удалось удалить playlist</string>
+
+    <string name="playlist_delete_succeeded_template">Playlist \'%s\' удален</string>
+
+    <string name="playlist_takendown_title">Создатель удалил этот playlist.</string>
+
+    <string name="playlist_takendown_message">Хотите скопировать его на свой аккаунт?</string>
+
+    <string name="playlist_takendown_yes">Да, копировать playlist</string>
+
+    <string name="playlist_takendown_no">Нет, удалить</string>
+
+    <string name="musicinfo_stats_today">CЕГОДНЯ</string>
+
+    <string name="musicinfo_stats_week">НА ЭТОЙ НЕДЕЛЕ</string>
+
+    <string name="musicinfo_stats_month">В ЭТОМ МЕСЯЦЕ</string>
+
+    <string name="musicinfo_stats_alltime">ВСЕ ВРЕМЯ</string>
+
+    <string name="musicinfo_lastupdated">Последнее обновление:</string>
+
+    <string name="musicinfo_numberofsongs">Количество песен:</string>
+
+    <string name="musicinfo_playlistcreator">Создатель playlist:</string>
+
+    <string name="musicinfo_album">Альбом:</string>
+
+    <string name="musicinfo_producer">Режиссер:</string>
+
+    <string name="musicinfo_addedon">Дата выпуска:</string>
+
+    <string name="musicinfo_genre">Жанр:</string>
+
+    <string name="musicinfo_description">Описание:</string>
+
+    <string name="musicinfo_description_read_more">Читать дальше</string>
+
+    <string name="musicinfo_total_plays">Всего воспроизводится: </string>
+
+    <string name="musicinfo_tags">Теги</string>
+
+    <string name="artist_followers">Подписчики</string>
+
+    <string name="artist_following">Вы подписаны</string>
+
+    <string name="artist_plays">Всего воспроизводится</string>
+
+    <string name="queue_added">Добавлено в очередь</string>
+
+    <string name="queue_unable_to_add_playlist">Невозможно добавить playlist в очередь</string>
+
+    <string name="share_twitter">Поделиться в Twitter</string>
+
+    <string name="share_contacts">Поделиться с контактами</string>
+
+    <string name="share_app">Поделиться через приложение</string>
+
+    <string name="share_copy_link">Копировать ссылку</string>
+
+    <string name="share_link_copied">Ссылка скопирована в буфер обмена</string>
+
+    <string name="favorites_filter_allmusic">Все</string>
+
+    <string name="favorites_filter_songs">Песни</string>
+
+    <string name="favorites_filter_albums">Альбомы</string>
+
+    <string name="favorites_filter_playlists">Playlist</string>
+
+    <string name="offline_filter_allmusic">Все</string>
+
+    <string name="offline_filter_songs">Песни</string>
+
+    <string name="offline_filter_albums">Альбомы</string>
+
+    <string name="offline_filter_playlists">Playlist</string>
+
+    <string name="offline_filter_notondevice">Не на устройстве</string>
+
+    <string name="offline_sort_newest">Новейшие</string>
+
+    <string name="offline_sort_oldest">Старейшие</string>
+
+    <string name="offline_sort_alphabetically">А-Я</string>
+
+    <string name="library_loginsignup">ВХОД / РЕГИСТРАЦИЯ</string>
+
+    <string name="search_hint">Поиск</string>
+
+    <string name="search_cancel">Отмена</string>
+
+    <string name="search_global_placeholder">Поиск исполнителей,\nпесен и альбомов.</string>
+
+    <string name="search_trending">ПОИСКИ В ТРЕНДАХ</string>
+
+    <string name="search_recent">ПОСЛЕДНИЕ ПОИСКИ</string>
+
+    <string name="library_search_hint">Поиск</string>
+
+    <string name="library_search_cancel">Отмена</string>
+
+    <string name="player_playingfrom">ВОСПРОИЗВОДИТСЯ ИЗ</string>
+
+    <string name="player_goadfree">Удалите рекламу - начните 7-дневную бесплатную пробную версию</string>
+
+    <string name="player_closead">Закрыть объявление</string>
+
+    <string name="player_shuffle_on">Случ.порядок Вкл</string>
+
+    <string name="player_repeat_all">Повторить все</string>
+
+    <string name="player_repeat_one">Повторить один</string>
+
+    <string name="player_file_error">Ошибка при загрузке песни</string>
+
+    <string name="player_storage_error">Невозможно воспроизвести загруженный файл</string>
+
+    <string name="player_playback_error">Невозможно воспроизвести песню</string>
+
+    <string name="player_queue_error">Ошибка при обновлении очереди</string>
+
+    <string name="player_file_error_download_again">Этот файл должен быть загружен снова. Пожалуйста, проверьте подключение</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">Предыдущий</string>
+
+    <string name="player_pause">Пауза</string>
+
+    <string name="player_play">Воспроизведение</string>
+
+    <string name="player_next">Далее</string>
+
+    <string name="player_close">Закрыть</string>
+
+    <string name="player_fav">Избранные</string>
+
+    <string name="player_unfav">Удалить из избранного</string>
+
+    <string name="player_skip_forward">Перейти на 30 секунд вперед</string>
+
+    <string name="player_skip_back">Вернуться на 15 секунд назад</string>
+
+    <string name="editaccount_title">РЕДАКТИРОВАТЬ АККАУНТ</string>
+
+    <string name="editaccount_banner">Изменить ваше баннерное изображение</string>
+
+    <string name="editaccount_hint">Нажмите на поля для редактирования</string>
+
+    <string name="editaccount_name">Имя исполнителя:</string>
+
+    <string name="editaccount_label">Метка:</string>
+
+    <string name="editaccount_hometown">Родной город:</string>
+
+    <string name="editaccount_website">Веб-сайт:</string>
+
+    <string name="editaccount_bio">Био:</string>
+
+    <string name="editaccount_bio_counter_template">Осталось %s символов</string>
+
+    <string name="editaccount_twitter">Twitter:</string>
+
+    <string name="editaccount_instagram">Instagram:</string>
+
+    <string name="editaccount_facebook">Facebook:</string>
+
+    <string name="editaccount_youtube">YouTube:</string>
+
+    <string name="editaccount_error_banner">Произошла ошибка при сохранении баннера</string>
+
+    <string name="editaccount_save">Сохранить</string>
+
+    <string name="editaccount_cancel">Отмена</string>
+
+    <string name="editaccount_slug">Дескриптор пользователя:</string>
+
+    <string name="artistinfo_follow">ПОДПИСАТЬСЯ</string>
+
+    <string name="artistinfo_unfollow">ВЫ ПОДПИСАНЫ</string>
+
+    <string name="artistinfo_website">Веб-сайт:</string>
+
+    <string name="artistinfo_genre">Жанр:</string>
+
+    <string name="artistinfo_label">Метка:</string>
+
+    <string name="artistinfo_hometown">Родной город:</string>
+
+    <string name="artistinfo_membersince">Участник с:</string>
+
+    <string name="artistinfo_bio">Био:</string>
+
+    <string name="miniplayer_prev_song">Пред. трек</string>
+
+    <string name="miniplayer_next_song">След. трек</string>
+
+    <string name="queue_title">ВАША ОЧЕРЕДЬ</string>
+
+    <string name="add_to_playlist_permissions_public">Общедоступный - Может просматривать любой</string>
+
+    <string name="add_to_playlist_permissions_private">Приватный - Можете просматривать только вы</string>
+
+    <string name="add_to_playlist_error_no_name">Пожалуйста, введите имя вашего playlist</string>
+
+    <string name="add_to_playlist_error">Не удалось создать playlist</string>
+
+    <string name="add_to_playlist_success_generic">Playlist успешно создан</string>
+
+    <string name="add_to_playlist_success">\'%s\' добавлен в ваш playlist</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">Вы не можете удалить последний трек playlist</string>
+
+    <string name="edit_playlist_success">Playlist \'%s\' отредактирован</string>
+
+    <string name="edit_playlist_error">Не удалось изменить playlist</string>
+
+    <string name="edit_playlist_banner_error">Невозможно сохранить изображение баннера</string>
+
+    <string name="select_playlist_error">Невозможно получить ваши playlist</string>
+
+    <string name="select_playlist_nothing_selected">Пожалуйста, выберите playlist</string>
+
+    <string name="select_playlist_success">Песня \'%s\' добавлена в ваш(и) playlist</string>
+
+    <string name="select_playlist_failure">Невозможно добавить песню</string>
+
+    <string name="player_account_followed">Текущая подписка на %s</string>
+
+    <string name="player_account_unfollowed">Отмена подписок на %s</string>
+
+    <string name="feature_not_available_offline_alert_message">У нас проблемы с подключением. Пожалуйста, проверьте ваше соединение и попробуйте снова.</string>
+
+    <string name="feature_not_available_offline_alert_button">Хорошо</string>
+
+    <string name="toast_favorited_song">Песня добавлена в Избранное</string>
+
+    <string name="toast_favorited_song_error">Невозможно добавить песню в Избранное</string>
+
+    <string name="toast_favorited_album">Альбом добавлен в Избранное</string>
+
+    <string name="toast_favorited_album_error">Невозможно добавить альбом в Избранное</string>
+
+    <string name="toast_favorited_playlist">Playlist добавлен в Избранное</string>
+
+    <string name="toast_favorited_playlist_error">Невозможно добавить playlist в Избранное</string>
+
+    <string name="toast_unfavorited_song">Песня удалена из Избранного</string>
+
+    <string name="toast_unfavorited_song_error">Невозможно удалить песню из Избранного</string>
+
+    <string name="toast_unfavorited_album">Альбом удален из Избранного</string>
+
+    <string name="toast_unfavorited_album_error">Невозможно удалить альбом из Избранного</string>
+
+    <string name="toast_unfavorited_playlist">Playlist удален из Избранного</string>
+
+    <string name="toast_unfavorited_playlist_error">Невозможно удалить playlist из Избранного</string>
+
+    <string name="toast_reposted_song">Выполнен re-up песни</string>
+
+    <string name="toast_reposted_song_error">Невозможно выполнить re-up песни</string>
+
+    <string name="toast_reposted_album">Выполнен re-up альбома</string>
+
+    <string name="toast_reposted_album_error">Невозможно выполнить re-up альбома</string>
+
+    <string name="permissions_rationale_alert_camera_message">Эта функция требует доступа к камере. Пожалуйста, включите это разрешение в настройках, чтобы использовать эту функцию.</string>
+
+    <string name="permissions_rationale_alert_storage_message">Эта функция требует доступа к вашему хранилищу. Пожалуйста, включите это разрешение в настройках, чтобы использовать эту функцию.</string>
+
+    <string name="permissions_rationale_alert_cancel">Отмена</string>
+
+    <string name="permissions_rationale_alert_settings">Открыть настройки</string>
+
+    <string name="permissions_location_ios">Позволяет Audiomack показывать популярную в вашем регионе музыку.</string>
+
+    <string name="shortcuts_offline_short">Не в сети</string>
+
+    <string name="shortcuts_offline_long">Не в сети</string>
+
+    <string name="shortcuts_offline_disabled">Не в сети</string>
+
+    <string name="shortcuts_topsongs_short">Лучшие песни</string>
+
+    <string name="shortcuts_topsongs_long">Лучшие песни</string>
+
+    <string name="shortcuts_topsongs_disabled">Лучшие песни</string>
+
+    <string name="shortcuts_favorites_short">Избранные</string>
+
+    <string name="shortcuts_favorites_long">Избранные</string>
+
+    <string name="shortcuts_favorites_disabled">Избранные</string>
+
+    <string name="shortcuts_playlists_short">Playlist</string>
+
+    <string name="shortcuts_playlists_long">Playlist</string>
+
+    <string name="shortcuts_playlists_disabled">Playlist</string>
+
+    <string name="downloadmessage_title">Скачивание началось!</string>
+
+    <string name="downloadmessage_message">Теперь вы можете воспроизводить эту загрузку в приложении без расхода трафика - в автономном разделе «Моя библиотека».</string>
+
+    <string name="downloadmessage_button">ПЕРЕЙТИ К ОФФЛАЙН-МУЗЫКЕ</string>
+
+    <string name="download_completed_notification_title">Скачивание завершено</string>
+
+    <string name="download_completed_notification_message">Нажмите, чтобы просмотреть музыку в автономном режиме</string>
+
+    <string name="playlist_delete_download_title">Это удалит этот playlist из вашей автономной библиотеки.</string>
+
+    <string name="playlist_delete_download_title_highlighted">Удалить этот playlist</string>
+
+    <string name="playlist_delete_download_message">Не волнуйтесь, это не удалит песни из вашей автономной библиотеки.</string>
+
+    <string name="playlist_delete_download_yes">Да</string>
+
+    <string name="playlist_delete_download_cancel">Отмена</string>
+
+    <string name="playlist_download_sync_title">Это добавит %s песен из этого playlist в вашу автономную библиотеку.</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s песен</string>
+
+    <string name="playlist_download_sync_message">Перед загрузкой вам может понадобиться проверить, что вы подключены к WiFi.</string>
+
+    <string name="playlist_download_sync_yes">Да</string>
+
+    <string name="playlist_download_sync_cancel">Отмена</string>
+
+    <string name="playlist_download_error">Невозможно загрузить playlist</string>
+
+    <string name="unsupported_crop_error">Ваше устройство не поддерживает обрезку</string>
+
+    <string name="library_search_favorites_placeholder">Поиск в избранном...</string>
+
+    <string name="library_search_downloads_placeholder">Поиск в автономном контенте...</string>
+
+    <string name="library_search_playlists_placeholder">Поиск в playlist...</string>
+
+    <string name="library_search_uploads_placeholder">Поиск ваших загрузок...</string>
+
+    <string name="library_search_noresults_placeholder">В вашей библиотеке результатов не найдено.</string>
+
+    <string name="library_search_noresults_cta">ПОИСК ВЕЗДЕ В AUDIOMACK</string>
+
+    <string name="search_noresults_placeholder">Результатов не найдено.\nПопробуйте другой поиск</string>
+
+    <string name="playlists_noresults_placeholder">Пока нет ни одного playlist.</string>
+
+    <string name="followers_my_noresults_placeholder">У вас нет подписчиков.</string>
+
+    <string name="followers_other_noresults_placeholder">%s не имеет подписчиков</string>
+
+    <string name="favorites_my_noresults_placeholder">У вас нет избранного.</string>
+
+    <string name="downloads_noresults_placeholder">У вас нет загрузок.</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">ВОССТАНОВИТЬ СКАЧАННОЕ</string>
+
+    <string name="downloads_loggedout_placeholder">Войдите, чтобы восстановить ваши предыдущие скачивания</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">СОЗДАТЬ АККАУНТ</string>
+
+    <string name="favorites_my_loggedout_placeholder">У вас нет избранного.</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">СОЗДАТЬ АККАУНТ</string>
+
+    <string name="favorites_other_noresults_placeholder">%s не имеет избранного</string>
+
+    <string name="following_my_noresults_placeholder">Вы ни на кого не подписаны.\nПросмотрите предлагаемые аккаунты для подписки.</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">ПРЕДЛАГАЕТСЯ ДЛЯ ПОДПИСКИ</string>
+
+    <string name="following_other_noresults_placeholder">%s ни на кого не подписан(а)</string>
+
+    <string name="uploads_my_noresults_placeholder">У вас нет загрузок.\nПосетите audiomack.com,\nчтобы добавить музыку в свой аккаунт.</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">ПОСЕТИТЬ AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">%s не имеет загрузок</string>
+
+    <string name="playlists_my_noresults_placeholder">Вы еще не создали ни одного playlist.</string>
+
+    <string name="playlists_my_loggedout_placeholder">Вы еще не создали ни одного playlist.\nСоздайте аккаунт и начните\nсоздавать playlist.</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">СОЗДАТЬ АККАУНТ</string>
+
+    <string name="playlists_other_noresults_placeholder">%s еще не создал(а) ни одного playlist.</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">У вас нет избранных playlist.</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">У вас нет избранных playlist.\nСоздайте аккаунт и начните\nсоздавать playlist.</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">СОЗДАТЬ АККАУНТ</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s не имеет избранных playlist</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">У вас нет автономных playlist.</string>
+
+    <string name="timeline_noresults_placeholder">Подписывайтесь на аккаунты здесь, чтобы здесь появились их новые загрузки.</string>
+
+    <string name="timeline_loggedout_placeholder">Ваша лента пуста.\nСоздайте аккаунт, чтобы начать подписываться на людей.</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">СОЗДАТЬ АККАУНТ</string>
+
+    <string name="restoredownlods_noresults_placeholder">У вас нет сохраненных скачиваний, которые отсутствуют на вашем устройстве</string>
+
+    <string name="notifications_noresults_placeholder">У вас нет уведомлений</string>
+
+    <string name="noconnection_placeholder">Возникли проблемы с подключением</string>
+
+    <string name="noconnection_highlighted_placeholder">ПОПРОБУЙТЕ ЕЩЕ РАЗ</string>
+
+    <string name="user_name_placeholder">Пользователь</string>
+
+    <string name="playlist_desc_more">ДОПОЛНИТЕЛЬНО</string>
+
+    <string name="tooltip_toast">Проведите пальцем влево или вправо,\nчтобы увидеть больше музыки\nили нажмите раскрывающийся список,\nчтобы изменить жанры</string>
+
+    <string name="tooltip_play">Проведите пальцем влево, чтобы воспроизвести следующую песню. Нажмите, чтобы открыть полноэкранный плеер.</string>
+
+    <string name="tooltip_playlists">Создать\nсобственный playlist</string>
+
+    <string name="tooltip_player_queue">Нажмите здесь, чтобы увидеть песни в вашей очереди муз. произведений.</string>
+
+    <string name="tooltip_queue_add">Нажмите здесь, чтобы добавить песни из своей очереди в playlist.</string>
+
+    <string name="tooltip_albums">Внесите песни для прослушивания\nв оффлайне без расхода трафика</string>
+
+    <string name="tooltip_suggested_followers">Подписывайтесь на любимых исполнителей / законодателей вкусов. Когда они загрузят новую музыку, она появится в вашей ленте</string>
+
+    <string name="tooltip_playlists_offline">Добавить песни из этого\nplaylist в оффлайн</string>
+
+    <string name="tooltip_playlists_favorite">Добавить этот\nplaylist в избранное</string>
+
+    <string name="tooltip_player_scroll">Прокрутите вниз, чтобы играть в случ. порядке и увидеть комментарии, информацию о песне и др. музыку этого исполнителя.</string>
+
+    <string name="tooltip_player_equalizer">Используйте эквалайзер, чтобы настроить звучание вашей музыки</string>
+
+    <string name="settings_title">НАСТРОЙКИ</string>
+
+    <string name="settings_go_premium">Скрыть рекламу - Перейти в Премиум</string>
+
+    <string name="settings_cancel_subscription">Отменить подписку</string>
+
+    <string name="settings_edit_account">Редактировать аккаунт</string>
+
+    <string name="settings_view_your_profile">Просмотр вашего профиля</string>
+
+    <string name="settings_share_profile">Поделиться профилем</string>
+
+    <string name="settings_default_genre">Установить жанр по умолчанию</string>
+
+    <string name="settings_permissions">Права доступа</string>
+
+    <string name="settings_support">Служба поддержки</string>
+
+    <string name="settings_debug_info">Отправить отладочную информацию</string>
+
+    <string name="settings_share_app">Поделиться этим приложением</string>
+
+    <string name="settings_rate_app">Оценить это приложение</string>
+
+    <string name="settings_privacy_policy">Политика конфиденциальности</string>
+
+    <string name="settings_dev_environment">Использовать Dev Env *</string>
+
+    <string name="settings_track_ads">Отслеживать рекламу</string>
+
+    <string name="settings_grant_premium">Получить Премиум</string>
+
+    <string name="settings_log_viewer">Просмотр журнала</string>
+
+    <string name="settings_logout">ВЫХОД</string>
+
+    <string name="settings_version_template">Версия %s (%s)</string>
+
+    <string name="settings_opensource">Библиотеки с открытым кодом</string>
+
+    <string name="settings_equalizer">Эквалайзер</string>
+
+    <string name="settings_upgrade_title">Обновление до Audiomack Premium</string>
+
+    <string name="settings_upgrade_subtitle">Начните 7-дневную бесплатную пробную версию, чтобы удалить ВСЮ рекламу и получить многие другие функции</string>
+
+    <string name="settings_upgrade_cta">Зачем нужно обновление?</string>
+
+    <string name="equalizer_title">ЭКВАЛАЙЗЕР</string>
+
+    <string name="equalizer_enable">ЭКВАЛАЙЗЕР</string>
+
+    <string name="equalizer_custom">ИСПОЛЬЗОВАТЬ ПОЛЬЗОВАТЕЛЬСКИЕ НАСТРОЙКИ</string>
+
+    <string name="equalizer_acoustic">Акустическая</string>
+
+    <string name="equalizer_dance">Танцевальная</string>
+
+    <string name="equalizer_electronic">Электронная</string>
+
+    <string name="equalizer_flat">Флэт</string>
+
+    <string name="equalizer_hiphop">Хип-хоп</string>
+
+    <string name="equalizer_loudness">Громкость</string>
+
+    <string name="equalizer_pop">Поп</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">Рок</string>
+
+    <string name="equalizer_vocal_booster">Усилитель вокала</string>
+
+    <string name="equalizer_save">СОХРАНИТЬ</string>
+
+    <string name="help_title">ПОМОЩЬ</string>
+
+    <string name="help_message">Просмотрите наш Справочный центр, создайте заявку или управляйте вашими существующими запросами.</string>
+
+    <string name="help_knowledgebase">БАЗА ЗНАНИЙ</string>
+
+    <string name="help_contact">СВЯЗАТЬСЯ С НАМИ</string>
+
+    <string name="help_tickets_none">МОИ ЗАПРОСЫ</string>
+
+    <string name="help_tickets_template">МОИ ЗАПРОСЫ (%s НЕ ПРОЧИТАНО)</string>
+
+    <string name="help_alert_title">Наша служба поддержки ответила на ваш недавний запрос</string>
+
+    <string name="help_alert_yes">СМОТРЕТЬ</string>
+
+    <string name="help_alert_no">Отмена</string>
+
+    <string name="artist_tab_uploads">ЗАГРУЗКИ</string>
+
+    <string name="artist_tab_favorites">ИЗБРАННОЕ</string>
+
+    <string name="artist_tab_playlists">PLAYLIST</string>
+
+    <string name="artist_tab_followers">ПОДПИСЧИКИ</string>
+
+    <string name="artist_tab_following">ВЫ ПОДПИСАНЫ</string>
+
+    <string name="library_tab_favorites">ИЗБРАННОЕ</string>
+
+    <string name="library_tab_offline">ОФФЛАЙН</string>
+
+    <string name="library_tab_playlists">PLAYLIST</string>
+
+    <string name="library_tab_followers">ПОДПИСЧИКИ</string>
+
+    <string name="library_tab_following">ВЫ ПОДПИСАНЫ</string>
+
+    <string name="library_tab_uploads">ЗАГРУЗКИ</string>
+
+    <string name="feed_tab_timeline">ЛЕНТА НОВОСТЕЙ</string>
+
+    <string name="feed_tab_suggestedfollows">ПРЕДЛАГАЕТСЯ ДЛЯ ПОДПИСКИ</string>
+
+    <string name="feed_tab_following">ВЫ ПОДПИСАНЫ</string>
+
+    <string name="browse_tab_trending">ТРЕНДЫ</string>
+
+    <string name="browse_tab_topsongs">ЛУЧШИЕ ПЕСНИ</string>
+
+    <string name="browse_tab_topalbums">ЛУЧШИЕ АЛЬБОМЫ</string>
+
+    <string name="browse_tab_recentlyadded">НЕДАВНО ДОБАВЛЕННЫЕ</string>
+
+    <string name="browse_filter_allgenres">Все</string>
+
+    <string name="search_tab_allmusic">ВСЕ</string>
+
+    <string name="search_tab_playlists">PLAYLIST</string>
+
+    <string name="search_tab_songs">ПЕСНИ</string>
+
+    <string name="search_tab_albums">АЛЬБОМЫ</string>
+
+    <string name="search_tab_accounts">АККАУНТЫ</string>
+
+    <string name="library_search_tab_favorites">ИЗБРАННОЕ</string>
+
+    <string name="library_search_tab_offline">ОФФЛАЙН</string>
+
+    <string name="library_search_tab_playlists">PLAYLIST</string>
+
+    <string name="library_search_tab_uploads">ЗАГРУЗКИ</string>
+
+    <string name="cannot_refresh_token">Мы больше не можем получить доступ к вашему аккаунту</string>
+
+    <string name="failed_refresh_token_title">Невозможно подключиться к Audiomack</string>
+
+    <string name="failed_refresh_token_message">Невозможно подключиться к Audiomack. Пожалуйста, попробуйте позднее.</string>
+
+    <string name="failed_refresh_token_button">Хорошо</string>
+
+    <string name="generic_api_error">Произошла ошибка. Пожалуйста, попробуйте позднее</string>
+
+    <string name="generic_error_occurred">Произошла ошибка</string>
+
+    <string name="feat">С участием</string>
+
+    <string name="feat_inline">с участием</string>
+
+    <string name="by">С</string>
+
+    <string name="ok">Хорошо</string>
+
+    <string name="imagepicker_message">Выберите изображение из</string>
+
+    <string name="imagepicker_camera">Камера</string>
+
+    <string name="imagepicker_gallery">Галерея</string>
+
+    <string name="imagepicker_gallery_cancel">Отмена</string>
+
+    <string name="options_play">Воспроизвести</string>
+
+    <string name="options_download">Скачать</string>
+
+    <string name="options_favorite">Избранные</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Re-Up</string>
+
+    <string name="options_share">Поделиться</string>
+
+    <string name="options_copy_link">Копировать ссылку</string>
+
+    <string name="options_song_details">Подробнее о песне</string>
+
+    <string name="options_album_details">Подробнее об альбоме</string>
+
+    <string name="options_follow">Подписаться</string>
+
+    <string name="options_unfollow">Отписаться</string>
+
+    <string name="options_artist_more">Дополнительно от</string>
+
+    <string name="options_remove_from_queue">Удалить из очереди</string>
+
+    <string name="options_delete_download">Удалить загрузку</string>
+
+    <string name="options_retry_download">Повторить загрузку</string>
+
+    <string name="options_play_next">Воспроизвести следующее</string>
+
+    <string name="options_add_to_queue">Добавить в очередь</string>
+
+    <string name="options_music_more_info">Больше информации</string>
+
+    <string name="options_delete_download_list">Удалить из списка загрузки</string>
+
+    <string name="options_reorder_remove_tracks">Изменить порядок / удалить треки</string>
+
+    <string name="options_edit_playlist_details">Изменить данные playlist</string>
+
+    <string name="options_delete_playlist">Удалить playlist</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">Комментарии</string>
+
+    <string name="options_edit">Редактировать</string>
+
+    <string name="options_cancel">Отмена</string>
+
+    <string name="ad_ad">Реклама</string>
+
+    <string name="premium_cannot_find_product">Запрошенный товар не найден</string>
+
+    <string name="premium_device_not_allowed">Это устройство не может осуществлять платежи</string>
+
+    <string name="database_error_recreated">К сожалению, в вашей базе данных возникла проблема. Сейчас мы воссоздаем базу данных, но ваша офлайн-музыка должна быть перезагружена.</string>
+
+    <string name="database_error_lowstorage">Извините, но похоже, на вашем устройстве недостаточно памяти. Пожалуйста, освободите место и попробуйте снова.</string>
+
+    <string name="accessibility_playlists_all_categories">Все категории</string>
+
+    <string name="accessibility_remove_ad">Удалить рекламу</string>
+
+    <string name="accessibility_song_info">Информация о музыке</string>
+
+    <string name="accessibility_queue">Очередь</string>
+
+    <string name="accessibility_miniplayer_pager">Прокрутка мини-плеера</string>
+
+    <string name="accessibility_download">Скачать</string>
+
+    <string name="accessibility_choose_genre">Фильтр</string>
+
+    <string name="accessibility_choose_period">Выберите период</string>
+
+    <string name="accessibility_settings">Настройки</string>
+
+    <string name="accessibility_show_hide_password">Показать/Скрыть пароль</string>
+
+    <string name="accessibility_close">Закрыть</string>
+
+    <string name="accessibility_back">Закрыть</string>
+
+    <string name="accessibility_actions">Действия</string>
+
+    <string name="accessibility_toggle_follow">Подписаться/Отписаться</string>
+
+    <string name="accessibility_add_to_playlist">Добавить песню в playlist</string>
+
+    <string name="accessibility_share">Поделиться</string>
+
+    <string name="accessibility_player_seek">Ползунок</string>
+
+    <string name="accessibility_player_prev">Предыдущая песня</string>
+
+    <string name="accessibility_player_next">Следующая песня</string>
+
+    <string name="accessibility_player_play_pause">Воспроизведение/Пауза</string>
+
+    <string name="accessibility_player_repeat">Переключить режим повтора</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">Свернуть плеер</string>
+
+    <string name="accessibility_player_shuffle">Переключить смешивание</string>
+
+    <string name="accessibility_artist_info">Информация об исполнителе</string>
+
+    <string name="accessibility_twitter">Twitter</string>
+
+    <string name="accessibility_facebook">Facebook</string>
+
+    <string name="accessibility_instagram">Instagram</string>
+
+    <string name="accessibility_youtube">YouTube</string>
+
+    <string name="accessibility_queue_create_playlist">Создать playlist из очереди</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">Пролистать наверх</string>
+
+    <string name="accessibility_song_image">Оформление песни</string>
+
+    <string name="accessibility_favorite">Избранные</string>
+
+    <string name="accessibility_repost">Re-Up</string>
+
+    <string name="accessibility_edit">Редактировать</string>
+
+    <string name="accessibility_ad">Реклама</string>
+
+    <string name="accessibility_toast_image">Рисунок всплывающего уведомления</string>
+
+    <string name="NSAppleMusicUsageDescription">Эта функция требует использования библиотеки мультимедиа.</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">Audiomack хотел бы сделать данные доступными для соседних устройств с Bluetooth, даже если вы не используете приложение.</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">Audiomack хотел бы сделать данные доступными для соседних устройств с Bluetooth, даже если вы не используете приложение.</string>
+
+    <string name="NSCalendarsUsageDescription">Это взаимодействие требует доступа к календарю.</string>
+
+    <string name="NSContactsUsageDescription">Эта функция требует использования контактов.</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Позволяет Audiomack показывать популярную в вашем регионе музыку.</string>
+
+    <string name="NSLocationAlwaysUsageDescription">Позволяет Audiomack показывать популярную в вашем регионе музыку.</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">Позволяет Audiomack показывать популярную в вашем регионе музыку.</string>
+
+    <string name="NSMicrophoneUsageDescription">Эта функция требует использования микрофона.</string>
+
+    <string name="NSMotionUsageDescription">Эта функция требует использования движения.</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">Эта функция требует сохранения в библиотеке фотографий.</string>
+
+    <string name="NSRemindersUsageDescription">Это взаимодействие добавит напоминание.</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">Эта функция требует использования возможностей распознавания речи.</string>
+
+    <string name="positive_upsell_message">ОБНОВИТЕ ДО AUDIOMACK PREMIUM, ЧТОБЫ УДАЛИТЬ РЕКЛАМУ</string>
+
+    <string name="highlights_add">Выделить</string>
+
+    <string name="highlights_remove">Удалить из выделенного</string>
+
+    <string name="highlights_reached_limit_message">Вам нужно удалить выделенный элемент, чтобы добавить еще один</string>
+
+    <string name="highlights_reached_limit_edit">РЕДАКТИРОВАТЬ ВЫДЕЛЕННОЕ</string>
+
+    <string name="highlights_reached_limit_cancel">Отмена</string>
+
+    <string name="highlights_edit_title">РЕДАКТИРОВАТЬ ВЫДЕЛЕННОЕ</string>
+
+    <string name="highlights_edit_subtitle">Вы можете выделить до 4 (четырех) треков, альбомов или playlist в своем профиле.</string>
+
+    <string name="highlights_edit_save">СОХРАНИТЬ</string>
+
+    <string name="uploads_header_highlighted">ВЫДЕЛЕННОЕ</string>
+
+    <string name="uploads_header_recent">ПОСЛЕДНИЕ ЗАГРУЗКИ</string>
+
+    <string name="uploads_highlighted_message">Нажмите на три точки рядом с песней, альбомом или списком воспроизведения и выберите «выделить», чтобы закрепить их в верхней части своего профиля.</string>
+
+    <string name="toast_highlight_error">Невозможно выделить этот контент</string>
+
+    <string name="highlight_confirmation_title_template">%s теперь выделен(а) в вашем профиле</string>
+
+    <string name="highlight_confirmation_message">Вы можете выделить до 4 любимых песен, альбомов или playlist в своем профиле, чтобы другие слушатели могли видеть их.</string>
+
+    <string name="highlight_confirmation_view">ПОСМОТРЕТЬ СВОЙ ПРОФИЛЬ</string>
+
+    <string name="highlight_confirmation_close">Продолжить</string>
+
+    <string name="song">Песня</string>
+
+    <string name="album">Альбом</string>
+
+    <string name="artist">Исполнитель</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">Подкаст</string>
+
+    <string name="editplaylist_create_banner">Добавить изображение баннера</string>
+
+    <string name="download_delete_confirmation_title">Вы уверены, что хотите удалить %s из ваших скачиваний?</string>
+
+    <string name="download_delete_confirmation_yes">УДАЛИТЬ</string>
+
+    <string name="download_delete_confirmation_no">Отмена</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">РЕГИСТРАЦИЯ</string>
+
+    <string name="signup_cant_login">Возникли проблемы со входом? Связаться с нами</string>
+
+    <string name="signup_cant_login_highlighted">Связаться с нами</string>
+
+    <string name="signup_privacy_policy">Политика конфиденциальности</string>
+
+    <string name="signup_create_account_prompt">У нас нет аккаунта, которому соответствует этот адрес эл. почты. Создать новый аккаунт бесплатно.</string>
+
+    <string name="signup_create_account_prompt_highlighted">Создать новый аккаунт бесплатно.</string>
+
+    <string name="signup_audiomack_header">ВОЙТИ В AUDIOMACK</string>
+
+    <string name="signup_continue">ПРОДОЛЖИТЬ</string>
+
+    <string name="signup_with_email_prompt">ИЛИ ПОДПИСАТЬСЯ/ВОЙТИ ПО АДРЕСУ ЭЛ.ПОЧТЫ</string>
+
+    <string name="signup_troubles_alert_message">Введите Ваш электронный адрес,\nчтобы сбросить пароль:</string>
+
+    <string name="signup_troubles_alert_footer">Все еще не можете войти? Связаться с нами</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">Связаться с нами</string>
+
+    <string name="login_twitter_error_message">Не удалось войти через Twitter</string>
+
+    <string name="login_google_error_message">Не удалось войти через Google</string>
+
+    <string name="disconnect_social_alert_title">Вы уверены, что хотите отключить эту учетную запись в соцсети?</string>
+
+    <string name="disconnect_social_alert_yes">ОТКЛЮЧИТЬ</string>
+
+    <string name="disconnect_social_alert_no">Отмена</string>
+
+    <string name="connect_social_twitter">Подключите свой аккаунт в Twitter</string>
+
+    <string name="connect_social_facebook">Подключите свой аккаунт в Facebook</string>
+
+    <string name="connect_social_instagram">Подключите свой аккаунт в Instagram</string>
+
+    <string name="connect_social_youtube">Подключите свой аккаунт YouTube</string>
+
+    <string name="connect_social_popup_title_twitter">Зарегистрируйте свой Twitter</string>
+
+    <string name="connect_social_popup_title_instagram">Зарегистрируй свой Instagram</string>
+
+    <string name="connect_social_popup_title_facebook">Зарегистрируйте свой Facebook</string>
+
+    <string name="connect_social_popup_title_youtube">Зарегистрируйте свой Youtube</string>
+
+    <string name="connect_social_popup_placeholder_twitter">имя пользователя</string>
+
+    <string name="connect_social_popup_placeholder_instagram">имя пользователя</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">ДОБАВИТЬ</string>
+
+    <string name="connect_social_popup_clear">ОЧИСТИТЬ</string>
+
+    <string name="connect_social_popup_cancel">Отмена</string>
+
+    <string name="playlist_delete_title_template">Удалить playlist %s</string>
+
+    <string name="playlist_delete_no">Отмена</string>
+
+    <string name="playlist_delete_yes">УДАЛИТЬ</string>
+
+    <string name="playlist_delete_message">Вы уверены? Это действие не может быть отменено</string>
+
+    <string name="search_related_title">У нас нет музыки, совпадающей с %s</string>
+
+    <string name="search_related_subtitle">Вот несколько похожих исполнителей, которые могут вам понравиться.</string>
+
+    <string name="search_filter">РЕЗУЛЬТАТЫ ФИЛЬТРА</string>
+
+    <string name="search_filter_sort">СПОСОБ СОРТИРОВКИ</string>
+
+    <string name="search_filter_popular">Самый популярный</string>
+
+    <string name="search_filter_recent">Самые последние</string>
+
+    <string name="search_filter_relevant">Самые актуальные</string>
+
+    <string name="search_filter_verified_only">Только подтвержденные</string>
+
+    <string name="search_filter_genres">ЖАНРЫ</string>
+
+    <string name="search_filter_refine">УТОЧНИТЬ ПОИСК</string>
+
+    <string name="inapprating_alert_title">Оценить Audiomack</string>
+
+    <string name="inapprating_alert_message">Как вы думаете, приложению Audiomack можно поставить 5 звезд?</string>
+
+    <string name="inapprating_alert_positive">ДА</string>
+
+    <string name="inapprating_alert_negative">Нет</string>
+
+    <string name="inapprating_alert_followup_title">Поддержка Audiomack</string>
+
+    <string name="inapprating_alert_followup_message">Извините, что вам не понравилось приложение. Хотите связаться со службой поддержки, чтобы мы могли вам помочь?</string>
+
+    <string name="inapprating_alert_followup_positive">ДА</string>
+
+    <string name="inapprating_alert_followup_negative">Может быть позже</string>
+
+    <string name="search_verified_account">ПОДТВЕРЖДЕННЫЙ АККАУНТ</string>
+
+    <string name="search_verified_playlist">ПОДТВЕРЖДЕННЫЙ PLAYLIST</string>
+
+    <string name="slideupmenu_music_added_by_template">Добавил(а): %s</string>
+
+    <string name="slideupmenu_music_share_copylink">Копировать ссылку</string>
+
+    <string name="slideupmenu_music_share_twitter">Twitter</string>
+
+    <string name="slideupmenu_music_share_facebook">Facebook</string>
+
+    <string name="slideupmenu_music_share_text">Текстом</string>
+
+    <string name="slideupmenu_music_share_more">Дополнительно</string>
+
+    <string name="slideupmenu_music_cancel">Отмена</string>
+
+    <string name="slideupmenu_music_add_to_downloads">Добавить к загрузкам</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">Удалить из загрузок</string>
+
+    <string name="opensource_title">БИБЛИОТЕКИ С ОТКРЫТЫМ КОДОМ</string>
+
+    <string name="opensource_subtitle">Библиотеки, используемые в приложении</string>
+
+    <string name="opensource_subsubtitle">На этой странице отображаются уведомления об атрибуции стороннего программного обеспечения, которое может использоваться в приложении Audiomack. Спасибо!</string>
+
+    <string name="accessibility_comment">Комментарий</string>
+
+    <string name="accessibility_sort">Сортировать</string>
+
+    <string name="comments_write_prompt">Написать публичный комментарий...</string>
+
+    <string name="comments_removed_comment">Данный комментарий был удален</string>
+
+    <string name="comments_comment_title">КОММЕНТАРИЙ</string>
+
+    <string name="comments_header_title">КОММЕНТАРИИ</string>
+
+    <string name="comments_reply">ОТВЕТИТЬ</string>
+
+    <string name="comments_filter_top">Лучшие комментарии</string>
+
+    <string name="comments_filter_newest">Сначала самые новые</string>
+
+    <string name="comments_filter_oldest">Сначала самые старые</string>
+
+    <string name="comments_delete_comment">Удалить комментарий</string>
+
+    <string name="comments_flag_comment">Отметить комментарий</string>
+
+    <string name="comments_share_comment">Поделиться комментарием</string>
+
+    <string name="comments_delete_alert_title">Вы уверены, что хотите удалить этот комментарий?</string>
+
+    <string name="comments_delete_alert_confirm">УДАЛИТЬ КОММЕНТАРИЙ</string>
+
+    <string name="comments_flag_alert_title">Вы уверены?</string>
+
+    <string name="comments_flag_alert_subtitle">Сообщайте только о непристойном или спам-контенте.</string>
+
+    <string name="comments_flag_alert_confirm">СООБЩИТЬ</string>
+
+    <string name="comments_alert_cancel">Отмена</string>
+
+    <string name="comments_be_nice_title">Будь вежливы.</string>
+
+    <string name="comments_be_nice_subtitle">Это ваше сообщество. Пользуйтесь им, как своим.</string>
+
+    <string name="comments_be_nice_bullet_1">Без спама. Ссылки здесь не работают.</string>
+
+    <string name="comments_be_nice_bullet_2">Комментарии служат не для навязчивого продвижения вашей музыки.</string>
+
+    <string name="comments_be_nice_bullet_3">Если вы расист, женоненавистник, оскорбитель или придурок, вы потеряете право комментировать.</string>
+
+    <string name="comments_be_nice_continue">ПРОДОЛЖИТЬ</string>
+
+    <string name="comments_view_more_replies">СМОТРЕТЬ ЕЩЕ %s ОТВЕТОВ</string>
+
+    <string name="comments_view_more_reply">СМОТРЕТЬ ЕЩЕ 1 ОТВЕТ</string>
+
+    <string name="comments_expand">РАЗВЕРНУТЬ</string>
+
+    <string name="comments_minimize">СВЕРНУТЬ</string>
+
+    <string name="comments_commenting_on">Комментирование %s</string>
+
+    <string name="comments_placeholder_cta">ОСТАВЬТЕ ПЕРВЫЙ КОММЕНТАРИЙ</string>
+
+    <string name="artists_onboarding_title">Audiomack предназначен для того,\nчтобы открывать новую музыку.</string>
+
+    <string name="artists_onboarding_message">Кого из приведенных ниже исполнителей вы хотели бы послушать?</string>
+
+    <string name="artists_onboarding_message_highlighted">приведенные ниже исполнители</string>
+
+    <string name="artists_onboarding_button">СЛУШАТЬ СЕЙЧАС</string>
+
+    <string name="artists_onboarding_footer">Просто поместите меня в топ самых популярных песен</string>
+
+    <string name="artists_onboarding_playlist_play_all">Воспроизвести все</string>
+
+    <string name="artists_onboarding_playlist_pause">Пауза</string>
+
+    <string name="artists_onboarding_playlist_shuffle">В случ. порядке</string>
+
+    <string name="artists_onboarding_select">ВЫБРАТЬ ИСПОЛНИТЕЛЯ</string>
+
+    <string name="social_login_missing_email_title">Пожалуйста, предоставьте действительный адрес эл. почты, чтобы завершить создание учетной записи.</string>
+
+    <string name="social_login_missing_email_placeholder">Адрес эл. почты</string>
+
+    <string name="social_login_missing_email_cta">Отправить</string>
+
+    <string name="social_login_missing_email_cancel">Отмена</string>
+
+    <string name="download_notification_title">Выполняется скачивание</string>
+
+    <string name="download_notification_message_template">и %s других</string>
+
+    <string name="player_extra_comments">Комментарии</string>
+
+    <string name="player_extra_info">Информация</string>
+
+    <string name="player_extra_more_from_artist">Еще от исполнителя</string>
+
+    <string name="player_extra_comments_count_plural">%s комментариев</string>
+
+    <string name="player_extra_comments_count_singular">%s комментарий</string>
+
+    <string name="player_extra_rankings">Рейтинг</string>
+
+    <string name="player_extra_rankings_daily">Cегодня</string>
+
+    <string name="player_extra_rankings_weekly">На этой неделе</string>
+
+    <string name="player_extra_rankings_monthly">В этом месяце</string>
+
+    <string name="player_extra_rankings_all">За все время</string>
+
+    <string name="player_extra_more_from_artist_template">Дополнительно от %s</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">ПОСЕТИТЬ ПРОФИЛЬ</string>
+
+    <string name="player_extra_artist_followers_plural">%s подписчиков</string>
+
+    <string name="player_extra_artist_followers_singular">%s подписчик</string>
+
+    <string name="player_extra_offline_placeholder_title">Вы не в сети</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">Проверьте состояние своего интернет-соединения или попробуйте снова ниже</string>
+
+    <string name="player_extra_offline_placeholder_cta">Повтор</string>
+
+    <string name="filters_title_chart">ФИЛЬТРОВАТЬ В ЧАРТАХ</string>
+
+    <string name="filters_section_genre">ФИЛЬТРОВАТЬ ПО ЖАНРУ:</string>
+
+    <string name="filters_section_timeframe">ФИЛЬТРОВАТЬ ПО ВРЕМЕНИ:</string>
+
+    <string name="filters_section_timeframe_today">Сегодня</string>
+
+    <string name="filters_section_timeframe_week">На этой неделе</string>
+
+    <string name="filters_section_timeframe_month">В этом месяце</string>
+
+    <string name="filters_section_timeframe_year">В этом году</string>
+
+    <string name="filters_section_timeframe_alltime">За все время</string>
+
+    <string name="filters_section_view">ПРОСМОТР:</string>
+
+    <string name="filters_section_view_list">Список</string>
+
+    <string name="filters_section_view_tile">Плитка</string>
+
+    <string name="filters_cta">ФИЛЬТР</string>
+
+    <string name="chromecast_device_default_name">Неизвестное устройство Chromecast</string>
+
+    <string name="airplay_devices">Устройства Airplay</string>
+
+    <string name="cast_menu_disconnect">Отключиться от %s</string>
+
+    <string name="cast_unavailable">Невозможно использовать Chromecast</string>
+
+    <string name="notif_login_required">Требуется логин</string>
+
+    <string name="notif_login_favorite">Невозможно добавить песню в избранное</string>
+
+    <string name="notif_login_repost">Невозможно выполнить re-up песни</string>
+
+    <string name="feat_x">%1$s с участием %2$s</string>
+
+    <string name="contact_title_text">Не можете войти?</string>
+
+    <string name="contact_subtitle_text">Пожалуйста, расскажите нам подробнее о проблеме, и мы ответим вам в кратчайшие сроки.</string>
+
+    <string name="contact_what_title_text">Вы пытались войти или зарегистрироваться?</string>
+
+    <string name="contact_how_title_text">Как вы пытались войти / зарегистрироваться?</string>
+
+    <string name="contact_when_title_text">Когда вы последний раз входили?</string>
+
+    <string name="contact_email_title_text">По какому адресу электронной почты можно с вами связаться?</string>
+
+    <string name="contact_can_title_text">Можете ли вы рассказать нам, что еще произошло, когда вы пытались войти или зарегистрироваться?</string>
+
+    <string name="contact_selection_what_login">Вход</string>
+
+    <string name="contact_selection_what_signup">Регистрация</string>
+
+    <string name="contact_selection_how_google">Google</string>
+
+    <string name="contact_selection_how_twitter">Twitter</string>
+
+    <string name="contact_selection_how_facebook">Facebook</string>
+
+    <string name="contact_selection_how_email">Эл. почта</string>
+
+    <string name="contact_selection_when_today">Cегодня</string>
+
+    <string name="contact_selection_when_last_week">На прошлой неделе</string>
+
+    <string name="contact_selection_when_last_month">В прошлом месяце</string>
+
+    <string name="contact_selection_when_dont_remember">Не могу вспомнить</string>
+
+    <string name="contact_selection_required">*Обязательные</string>
+
+    <string name="contact_selection_select">Пожалуйста, выберите</string>
+
+    <string name="contact_selection_enter">Введите текст сюда</string>
+
+    <string name="contact_selection_send">ОТПРАВИТЬ</string>
+
+    <string name="contact_time_limit_error">Ваша заявка была подана в службу поддержки. Пожалуйста, подождите ответа нашей службы поддержки, прежде чем отправлять новую заявку.</string>
+
+    <string name="contact_send_success">Ваша заявка была подана в службу поддержки. Пожалуйста, подождите подождите ответа нашей службы поддержки.</string>
+
+    <string name="album_play">Воспроизвести альбом</string>
+
+    <string name="album_pause">Приостановить альбом</string>
+
+    <string name="playlist_play">Воспроизвести playlist</string>
+
+    <string name="playlist_pause">Приостановить playlist</string>
+
+    <string name="slideupmenu_music_trophies">Трофеи</string>
+
+    <string name="screenshot_now_playing">#NOWPLAYING</string>
+
+    <string name="screenshot_toast_title">Сделать скриншот этой страницы и поделиться.</string>
+
+    <string name="screenshot_toast_subtitle">Проведите вниз, чтобы закрыть.</string>
+
+    <string name="highlights_highlighted">Выделено</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">Правообладатель сделал это недоступным в вашем регионе.</string>
+
+    <string name="georestriction_alert_delete">Удалить</string>
+
+    <string name="settings_notifications">Уведомления</string>
+
+    <string name="notifications_manager_new_song_album">Уведомления о новой песне/альбоме</string>
+
+    <string name="notifications_manager_weekly_artist_reports">Еженедельные отчеты исполнителей</string>
+
+    <string name="notifications_manager_song_album_benchmarks">Показатели песни/альбома</string>
+
+    <string name="notifications_manager_everyone">ВСЕ</string>
+
+    <string name="notifications_manager_artists">ИСПОЛНИТЕЛИ</string>
+
+    <string name="notifications_manager_title">УВЕДОМЛЕНИЯ</string>
+
+    <string name="billing_issue_subscribed">ПРОБЛЕМА БИЛЛИНГА: ОБНОВИТЕ ПЛАТЕЖНУЮ ИНФОРМАЦИЮ, ЧТОБЫ СОХРАНИТЬ ЗА СОБОЙ ПРЕМИУМ</string>
+
+    <string name="billing_issue_unsubscribed">ПРОБЛЕМА БИЛЛИНГА: ОБНОВИТЕ ПЛАТЕЖНУЮ ИНФОРМАЦИЮ, ЧТОБЫ ВОССТАНОВИТЬ ПРЕМИУМ</string>
+
+    <string name="comments_count_template">%s комментариев</string>
+
+    <string name="permissions_rationale_alert_instagram_message">Для этой функции нужно получить все необходимые разрешения в Instagram. Пожалуйста, включите эти разрешения.</string>
+
+    <string name="premium_start_trial_ios">Начать бесплатную 7-дневную пробную версию</string>
+
+    <string name="premium_price_template_ios">%s в месяц</string>
+
+    <string name="comments_try_add_later">Пожалуйста, попробуйте добавить свой комментарий позднее</string>
+
+    <string name="comments_try_load_later">Пожалуйста, попробуйте загрузить комментарии позднее</string>
+
+    <string name="comments_try_later_connection">Пожалуйста, попробуйте позднее, когда у вас будет более качественное соединение</string>
+
+    <string name="please_try_again_later">Пожалуйста, попробуйте позднее</string>
+
+    <string name="please_check_connection_try_again">Пожалуйста, проверьте ваше соединение и попробуйте снова</string>
+
+    <string name="please_try_request_later">Пожалуйста, повторите запрос позднее</string>
+
+    <string name="please_login_again">Пожалуйста, войдите снова</string>
+
+    <string name="please_restart_app">Пожалуйста, попробуйте перезапустить приложение</string>
+
+    <string name="player_file_no_connection">У вас нет доступа в Интернет</string>
+
+    <string name="please_check_connection_try_download_again">Пожалуйста, проверьте ваше соединение и повторите попытку скачивания</string>
+
+    <string name="home_tab_browse_experiment">Обнаружение</string>
+
+    <string name="no_browser_installed">Это действие не может быть выполнено. Убедитесь, что на вашем устройстве установлен браузер</string>
+
+    <string name="billing_issue_avoid_losing_premium">Обновите свою платежную информацию, чтобы не потерять премиум</string>
+
+    <string name="billing_issue_restore_premium">Срок действия ваших премиум-льгот истек. Пожалуйста, обновите свою платежную информацию, чтобы восстановить их.</string>
+
+    <string name="billing_issue_alert_header">Кажется, возникла проблема с вашим способом оплаты</string>
+
+    <string name="billing_issue_no_thanks">Нет, спасибо</string>
+
+    <string name="billing_issue_update_info">Обновить информацию</string>
+
+    <string name="social_link_error_already_linked_title">Этот аккаунт уже привязан к пользователю Audiomack</string>
+
+    <string name="social_link_error_already_linked_message_instagram">Попробуйте привязать другой аккаунт Instagram.</string>
+
+    <string name="social_link_error_already_linked_message_twitter">Попробуйте привязать другой аккаунт Twitter.</string>
+
+    <string name="trending_search_song">ПЕСНЯ</string>
+
+    <string name="trending_search_album">АЛЬБОМ</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">АККАУНТ</string>
+
+    <string name="login_apple_error_message">Не удалось войти из Apple</string>
+
+    <string name="benchmark_image_description">Эталонное изображение</string>
+
+    <string name="benchmark_trophies_title">Трофеи</string>
+
+    <string name="benchmark_hide">СКРЫТЬ</string>
+
+    <string name="benchmark_now">СЕЙЧАС</string>
+
+    <string name="benchmark_playing">ИГРАЕТ</string>
+
+    <string name="benchmark_million">%d МЛН.</string>
+
+    <string name="benchmark_billion">%d МЛРД.</string>
+
+    <string name="benchmark_play">ИГРАЕТ</string>
+
+    <string name="benchmark_favorite">ИЗБРАННОЕ</string>
+
+    <string name="benchmark_playlist">ДОБАВЛЕННЫЕ В PLAYLIST</string>
+
+    <string name="benchmark_repost">RE-UP</string>
+
+    <string name="benchmark_verified">ПОДТВЕРЖДЕННЫЕ</string>
+
+    <string name="benchmark_artist">ИСПОЛНИТЕЛЬ</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Мессенджер</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">Эта функция требует, чтобы вы вошли в Мессенджер</string>
+
+    <string name="notifications_verb_benchmark">просто получил</string>
+
+    <string name="notifications_verb_benchmark_your_song">Ваша песня</string>
+
+    <string name="notifications_verb_benchmark_your_album">Ваш альбом</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">Ваш playlist</string>
+
+    <string name="premium_download_toast">Активируйте премиум, чтобы играть заблокированные песни в случ. порядке.</string>
+
+    <string name="premium_download_downloaded">Загруженные</string>
+
+    <string name="premium_download_standard_message">бесплатных премиум-загрузок осталось.</string>
+
+    <string name="premium_download_upgrade">ОБНОВИТЬ</string>
+
+    <string name="premium_download_reached_limit">Вы достигли предела бесплатного скачивания премиального контента.</string>
+
+    <string name="premium_download_large_header">Вы скачиваете премиум-контент</string>
+
+    <string name="premium_download_large_subheader">Ваш бесплатный аккаунт поставляется с %d Премиум-загрузками.</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d бесплатный премиум</string>
+
+    <string name="premium_download_plain_remaining">загрузок осталось.</string>
+
+    <string name="premium_download_upgrade_header">Обновите сейчас до премиум-версии и получите следующее:</string>
+
+    <string name="premium_download_upgrade_first_point">Неограниченное количество премиум-загрузок</string>
+
+    <string name="premium_download_upgrade_second_point">Отсутствие рекламы</string>
+
+    <string name="premium_download_upgrade_third_point">Качественную потоковую передачу</string>
+
+    <string name="premium_download_upgrade_fourth_point">Управление эквалайзером</string>
+
+    <string name="premium_download_upgrade_fifth_point">и многое еще!</string>
+
+    <string name="premium_download_upgrade_button">Обновите сейчас</string>
+
+    <string name="premium_download_learn_more_left">Больше информации:</string>
+
+    <string name="premium_download_learn_more_right">премиум-контент.</string>
+
+    <string name="premium_download_large_header_second">Узнайте больше о премиум-загрузках</string>
+
+    <string name="premium_download_replace_header">ЗАМЕНИТЬ ЗАГРУЗКИ</string>
+
+    <string name="premium_download_replace_single_subheader">Выберите песню для замены.</string>
+
+    <string name="premium_download_replace_multiple_subheader">Выберите %d песен для замены.</string>
+
+    <string name="premium_download_replace_button">ВЫБРАТЬ %s (%d)</string>
+
+    <string name="premium_download_replace_button_selected">УДАЛИТЬ (%d) И ЗАГРУЗИТЬ</string>
+
+    <string name="premium_download_replace_button_text_one">ОДНА</string>
+
+    <string name="premium_download_replace_button_text_two">ДВЕ</string>
+
+    <string name="premium_download_replace_button_text_three">ТРИ</string>
+
+    <string name="premium_download_replace_button_text_four">ЧЕТЫРЕ</string>
+
+    <string name="premium_download_replace_button_text_five">ПЯТЬ</string>
+
+    <string name="premium_download_replace_button_text_six">ШЕСТЬ</string>
+
+    <string name="premium_download_replace_button_text_seven">СЕМЬ</string>
+
+    <string name="premium_download_replace_button_text_eight">ВОСЕМЬ</string>
+
+    <string name="premium_download_replace_button_text_nine">ДЕВЯТЬ</string>
+
+    <string name="premium_download_replace_button_text_ten">ДЕСЯТЬ</string>
+
+    <string name="premium_download_replace_button_text_eleven">ОДИННАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_twelve">ДВЕНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_thirteen">ТРИНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_fourteen">ЧЕТЫРНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_fifteen">ПЯТНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_sixteen">ШЕСТНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_seventeen">СЕМНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_eighteen">ВОСЕМНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_nineteen">ДЕВЯТНАДЦАТЬ</string>
+
+    <string name="premium_download_replace_button_text_twenty">ДВАДЦАТЬ</string>
+
+    <string name="premium_download_replace_full_album_button">ВЫБРАТЬ (%d) ДЛЯ СКАЧИВАНИЯ</string>
+
+    <string name="premium_download_alert_exceed_limit_title">Этот полный альбом может быть загружен полностью только Премиум-пользователями.</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">Вы все же можете скачать отдельные треки.</string>
+
+    <string name="premium_download_alert_upgrade">Обновить до Премиум</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">Отмена</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">Этот контент превышает ваш премиальный лимит скачиваний.</string>
+
+    <string name="offline_filter_button">ФИЛЬТР</string>
+
+    <string name="offline_filter_files_description">Поскольку эти песни привязаны к вашему устройству, они не могут быть добавлены в избранное, re-up, выделены, добавлены в playlist или опубликованы.</string>
+
+    <string name="offline_filter_files_scan">Слушайте любые песни, сохраненные локально на вашем устройстве, в приложении</string>
+
+    <string name="offline_filter_files_switch">Включить локальные файлы</string>
+
+    <string name="offline_filter_previous_downloads">ПОСМОТРЕТЬ ПРЕДЫДУЩИЕ СКАЧИВАНИЯ</string>
+
+    <string name="offline_filter_section_type">ФИЛЬТРОВАТЬ ПО ТИПУ:</string>
+
+    <string name="offline_filter_section_order">ФИЛЬТРОВАТЬ ПО ПОРЯДКУ:</string>
+
+    <string name="offline_filter_section_files">ЛОКАЛЬНЫЕ ФАЙЛЫ:</string>
+
+    <string name="offline_filter_title">ФИЛЬТРОВАТЬ ОФФЛАЙН</string>
+
+    <string name="signup_error_min_age">Для использования этого приложения вам должно быть не менее 13 лет</string>
+
+    <string name="report_content">Пожаловаться на контент</string>
+
+    <string name="report_content_done">Вы пожаловались на контент</string>
+
+    <string name="block_user">Заблокировать пользователя</string>
+
+    <string name="block_user_done">Жалоба/запрос на блокировку отправлены</string>
+
+    <string name="confirm_report_done">Ваша жалоба/запрос на блокировку будет исполнен в течение следующих 24 часов</string>
+
+    <string name="confirm_report_alert_title">Пожалуйста, опишите проблему</string>
+
+    <string name="confirm_report_report_alert_message">Выберите максимально точное описание причины этой жалобы/запроса на блокировку</string>
+
+    <string name="confirm_report_alert_submit">Отправить</string>
+
+    <string name="confirm_report_alert_option_violent">Это визуальный или аудиоконтент насильственного/порнографического характера</string>
+
+    <string name="confirm_report_alert_option_broken">Этот контент не транслируется и не загружается</string>
+
+    <string name="confirm_report_alert_option_misleading">Этот контент вводит в заблуждение или неправильно обозначен</string>
+
+    <string name="confirm_report_alert_option_spam">Пользователь этой учетной записи занимается спамом или домогательством</string>
+
+    <string name="confirm_report_alert_option_infringement">Я считаю, что это нарушение авторских прав</string>
+
+    <string name="confirm_bis_report_alert_title">Вы уверены, что хотите отправить эту жалобу/запрос на блокировку?</string>
+
+    <string name="confirm_bis_report_alert_yes">Да</string>
+
+    <string name="confirm_bis_report_alert_cancel">Нет, не хочу</string>
+
+    <string name="benchmark_tastemaker">TASTEMAKER</string>
+
+    <string name="benchmark_authenticated">AUTHED</string>
+
+    <string name="download_restore_backup_fail">Не удалось восстановить загрузки с предыдущего устройства</string>
+
+    <string name="download_restore_backup_success">Успешно восстановленные загрузки с предыдущего устройства</string>
+
+    <string name="download_restore_prompt">Хотите восстановить %d загрузок с предыдущего устройства?</string>
+
+    <string name="download_restore_prompt_yes">ДА</string>
+
+    <string name="download_restore_prompt_no">НЕТ</string>
+
+    <string name="download_restore_no_wifi_prompt">Загрузка начнется, как только вы подключитесь к WiFi</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">OK</string>
+
+    <string name="in_app_update_ios_title">Доступно обновление</string>
+
+    <string name="in_app_update_ios_message">Доступна новая версия Audiomack. Пожалуйста, выполните обновление сейчас.</string>
+
+    <string name="in_app_update_ios_option_update">Обновить</string>
+
+    <string name="in_app_update_ios_option_next_time">В следующий раз</string>
+
+    <string name="in_app_update_downloaded_title">Обновление для этого приложения загружено</string>
+
+    <string name="in_app_update_downloaded_restart">ЗАПУСТИТЬ СНОВА</string>
+
+    <string name="in_app_update_downloaded_cancel">Отмена</string>
+
+    <string name="in_app_update_download_started">Загрузка обновления приложения началась</string>
+
+    <string name="comments_view_all">Просмотреть все комментарии</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">Выберите трофей, а затем скриншот, чтобы поделиться</string>
+
+    <string name="search_authenticated_account">АУТЕНТИФИЦИРОВАННЫЙ АККАУНТ</string>
+
+    <string name="search_tastemaker_account">АККАУНТ ЗАКОНОДАТЕЛЯ ВКУСОВ</string>
+
+    <string name="playlists_filter_pill_favorited">ДОБАВЛЕНО В ИЗБРАННОЕ</string>
+
+    <string name="offline_remove_title">МНОЖЕСТВЕННОЕ УДАЛЕНИЕ ОФЛАЙН</string>
+
+    <string name="offline_remove_button">УДАЛИТЬ ИЗ ОФЛАЙН</string>
+
+    <string name="download_delete_slide">Удалить</string>
+
+    <string name="options_play_next_list">Воспроизвести следующее</string>
+
+    <string name="slideupmenu_music_share_instagram">Истории из Instagram</string>
+
+    <string name="notifications_playlists_bundle_verb">были добавлены к</string>
+
+    <string name="notifications_playlists_bundle_suffix">из числа ваших подписок</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs">%d новых песен</string>
+
+    <string name="audio_ad_now_playing_info_title">Аудиообъявление</string>
+
+    <string name="audio_ad_advertisement">РЕКЛАМА:</string>
+
+    <string name="audio_ad_support_artists">реклама поддерживает исполнителей и авторов на Audiomack.</string>
+
+    <string name="audio_ad_upgrade_premium">Выполните обновление до категории \"Премиум\", чтобы удалить все объявления</string>
+
+    <string name="audio_ad_now_playing_info_artist">Ваш контент начнется через %d секунд...</string>
+
+    <string name="downloadmessage_button_premium_downloads">Перейти к музыке офлайн</string>
+
+    <string name="benchmark_next_milestone">Далее: %s</string>
+
+    <string name="benchmark_on_audiomack">НА AUDIOMACK</string>
+
+    <string name="settings_sleep_timer">Таймер сна</string>
+
+    <string name="sleep_timer_alert_title">Как долго вы хотите воспроизводить музыку?</string>
+
+    <string name="sleep_timer_alert_button">УСТАНОВИТЬ ТАЙМЕР</string>
+
+    <string name="sleep_timer_alert_hours">часов</string>
+
+    <string name="sleep_timer_alert_hour">час</string>
+
+    <string name="sleep_timer_alert_minutes">мин</string>
+
+    <string name="browse_tab_world">ВО ВСЕМ МИРЕ</string>
+
+    <string name="premium_2019_sleep_timer">Таймер сна</string>
+
+    <string name="premium_2019_sleep_timer_desc">Установите таймер для остановки воспроизведения, чтобы приложение не работало ночью, пока вы спите</string>
+
+    <string name="signup_gender_birthday_information_header">Заполните свой профиль</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">Для получения дополнительной информации, пожалуйста, ознакомьтесь с нашими Условиями предоставления услуг и Политикой конфиденциальности.</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">Ваш комментарий на</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">получил</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">%d-ю оценку \"Нравится\".</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">%d-ю оценку \"Нравится\".</string>
+
+    <string name="premium_download_large_subheader_second_song">Обновите или удалите одну премиальную загрузку, чтобы загрузить эту песню</string>
+
+    <string name="notifications_playlists_bundle_verb_single">был(а) добавлен(а) в</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d песня</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_single">%d новая песня</string>
+
+    <string name="audio_ad_notif_title">Реклама</string>
+
+    <string name="playlists_filter_my">МОИ PLAYLISTS</string>
+
+    <string name="playlists_filter_favorited">ДОБАВЛЕНО В ИЗБРАННОЕ</string>
+
+    <string name="playlists_filter_offline">ТОЛЬКО ОФФЛАЙН</string>
+
+    <string name="filters_section_type">ФИЛЬТРОВАТЬ ПО ТИПУ:</string>
+
+    <string name="musicinfo_runtime_title">Время выполнения:</string>
+
+    <string name="musicinfo_runtime_value">%s мин., %d треков</string>
+
+    <string name="premium_2019_advanced">Расширенные возможности</string>
+
+    <string name="premium_2019_start_trial">Начните 7-дневную бесплатную пробную версию</string>
+
+    <string name="favorites_filter_title">ФИЛЬТРОВАТЬ ИЗБРАННОЕ</string>
+
+    <string name="accessibility_multiselect">Множественный выбор</string>
+
+    <string name="accessibility_premium_download">Скачать Премиум</string>
+
+    <string name="search_playlist_total_songs">Всего песен:</string>
+
+    <string name="restore_downloads_prompt_title_plural">Хотите восстановить %d загрузок с предыдущего устройства?</string>
+
+    <string name="restore_downloads_prompt_title_singular">Хотите восстановить %d загрузку с предыдущего устройства?</string>
+
+    <string name="restore_downloads_dialog_positive">ВОССТАНОВИТЬ ВСЕ ЗАГРУЗКИ</string>
+
+    <string name="restore_downloads_dialog_negative">Выберите загрузки для восстановления</string>
+
+    <string name="restore_downloads_error">Невозможно восстановить загрузки</string>
+
+    <string name="restore_downloads_started">Восстановление загрузок</string>
+
+    <string name="restore_downloads_queued">Загрузка начнется, как только вы подключитесь к WiFi</string>
+
+    <string name="premium_2019_premiumdownloads">Неограниченные загрузки</string>
+
+    <string name="premium_2019_premiumdownloads_desc">Неограниченное скачивание всего на Audiomack</string>
+
+    <string name="premium_only_downloads_alert_title">Эта загрузка является премиальной.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">На Audiomack есть миллионы бесплатных загрузок, но исполнитель сделал эту загрузку доступной только для премиум-подписчиков.</string>
+
+    <string name="premium_only_downloads_alert_yes">ОБНОВИТЬ</string>
+
+    <string name="premium_only_downloads_alert_no">Отмена</string>
+
+    <string name="notifications_manager_play_milestones">Основные этапы игры</string>
+
+    <string name="notifications_manager_upvote_milestones">Основные этапы голосования</string>
+
+    <string name="notifications_manager_comment_replies">Ответы на комментарии</string>
+
+    <string name="local_player_granted_alert_title">Воспроизвести локальные файлы</string>
+
+    <string name="local_player_granted_alert_message">У вас %d музыкальных файлов, хранящихся локально на вашем устройстве. Хотели бы вы получить доступ к этим песням из Audiomack?\n\nПримечание. Поскольку локальные файлы хранятся только на вашем устройстве, они не могут быть опубликованы, подвинуты в списке, добавлены в избранное, выделены или добавлены в списки воспроизведения.</string>
+
+    <string name="local_player_granted_alert_positive">ДОБАВИТЬ</string>
+
+    <string name="local_player_granted_alert_negative">Отмена</string>
+
+    <string name="local_player_ungranted_alert_title">Воспроизвести локальные файлы</string>
+
+    <string name="local_player_ungranted_alert_message">На вашем телефоне хранятся музыкальные файлы? Теперь вы можете слушать их на Audiomack как потоковую музыку. Нажмите «Добавить» ниже, чтобы начать!\n\nПримечание. Поскольку локальные файлы хранятся только на вашем устройстве, они не могут быть опубликованы, перемещены в списке, добавлены в избранное, выделены или добавлены в списки воспроизведения.</string>
+
+    <string name="local_player_declined_alert_title">Добавить локальные файлы</string>
+
+    <string name="local_player_declined_alert_message">Слушайте все аудиофайлы, хранящиеся на вашем устройстве, в Audiomack</string>
+
+    <string name="local_player_declined_alert_positive">ДОБАВИТЬ</string>
+
+    <string name="queue_clear_all">Очистить все</string>
+
+    <string name="queue_clear_upcoming">Очистить предстоящие</string>
+
+    <string name="queue_save_playlist">Сохранить в плейлист</string>
+
+    <string name="premium_only_downloads_stream_alert_title">Это загрузка только премиум-класса</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">Обновите свою учетную запись, чтобы любой контент в приложении был доступен для прослушивания в автономном режиме.</string>
+
+    <string name="articles_noresults_placeholder">Статьи не найдены.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s мин., %d песен</string>
+
+    <string name="premium_limited_reached_limit_alert_title">У вас недостаточно доступных премиальных загрузок</string>
+
+    <string name="premium_limited_reached_limit_alert_message">Обновите до премиум-класса, чтобы получить неограниченное количество загрузок, или замените старые загрузки, чтобы освободить место.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">НАЧАТЬ БЕСПЛАТНУЮ ПРОБНУЮ ПРЕМИУМ-ВЕРСИЮ</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">ЗАМЕНИТЬ И СКАЧАТЬ</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">Узнайте больше о премиальном контенте.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">премиальный контент.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">У вас закончились премиальные загрузки.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">Чтобы воспроизвести, перейдите на премиум-версию или замените %d из своих премиальных загрузок.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">ОБНОВИТЬ ДО ПРЕМИУМ</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">ЗАМЕНИТЬ И РАЗБЛОКИРОВАТЬ</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">Вместо этого я хочу это транслировать.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">вместо этого транслируйте это.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">Удалить из автономного списка</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">У вас закончились премиальные загрузки.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">Чтобы скачать, перейдите на премиум-версию или замените %d из своих премиальных загрузок.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">ОБНОВИТЬ ДО ПРЕМИУМ</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">ЗАМЕНИТЬ И РАЗБЛОКИРОВАТЬ</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">Вместо этого я хочу это транслировать.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">вместо этого транслируйте это.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">Удалить из автономного списка</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">Разблокировать эту загрузку?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">Вы можете использовать %d из оставшихся премиум-загрузок, чтобы это разблокировать.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">ОБНОВИТЬ ДО ПРЕМИУМ</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">РАЗБЛОКИРОВАТЬ</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">Вместо этого я хочу это транслировать.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">вместо этого транслируйте это.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">Удалить из автономного списка</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">Подпишитесь, чтобы разблокировать.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">На Audiomack есть миллионы бесплатных загрузок, но эта загрузка доступна только для премиум-пользователей.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">ОБНОВИТЬ ДО ПРЕМИУМ</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">Вместо этого я хочу это транслировать.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">вместо этого транслируйте это.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">Удалить из автономного списка</string>
+
+    <string name="restore_downloads_dialog_select">Выберите загрузки для восстановления</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">восстановить</string>
+
+    <string name="search_recommendations">РЕКОМЕНДУЕТСЯ ДЛЯ ВАС</string>
+
+    <string name="settings_premium_status">Премиум-статус</string>
+
+    <string name="settings_premium_status_no_override">Без отмены</string>
+
+    <string name="settings_premium_status_free">Бесплатно</string>
+
+    <string name="settings_premium_status_premium">Премиум</string>
+
+    <string name="settings_premium_status_free_billing_issue">Бесплатно с выпуском биллинга</string>
+
+    <string name="settings_premium_status_premium_billing_issue">Премиум с выпуском биллинга</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d новая песня</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">был(а) добавлен(а) в</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d песен</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d playlist</string>
+
+    <string name="premium_limited_download_unlock_toast">%s разблокировано</string>
+
+    <string name="notifications_follow_alert_title">Получать уведомления,&#13;\nкогда этот исполнитель&#13;\nвыпускает новую музыку?</string>
+
+    <string name="notifications_follow_alert_positive">ПРЕДОСТАВЛЯТЬ РАЗРЕШЕНИЯ НА PUSH-УВЕДОМЛЕНИЯ</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">Удалить из офлайна</string>
+
+    <string name="email_verification_toast_success">Спасибо за подтверждение электронной почты!</string>
+
+    <string name="email_verification_toast_failure">Ошибка проверки электронной почты</string>
+
+    <string name="sleep_timer_stop_today">Воспроизведение остановится в %s</string>
+
+    <string name="sleep_timer_stop_tomorrow">Воспроизведение остановится завтра в %s</string>
+
+    <string name="sleep_timer_triggered">Таймер сна подошел к концу</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">Получать уведомления, когда этот исполнитель выпускает новую музыку?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">ПРЕДОСТАВЛЯТЬ РАЗРЕШЕНИЯ НА PUSH-УВЕДОМЛЕНИЯ</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">Отмена</string>
+
+    <string name="notifications_manager_push_off_title">Push-уведомления отключены.</string>
+
+    <string name="notifications_manager_push_off_message_ios">Чтобы включить, посетите: Настройки iPhone &gt; Уведомления &gt; Audiomack.</string>
+
+    <string name="notifications_manager_push_off_message_android">Чтобы включить, посетите: Настройки устройства&gt; Приложения и уведомления&gt; Audiomack&gt; Уведомления.</string>
+
+    <string name="sleep_timer_notification_button">ПЕРЕЙТИ</string>
+
+    <string name="sleep_timer_notification_title">Разблокируйте премиальный таймер сна</string>
+
+    <string name="sleep_timer_notification_subtitle">Установите его в настройках, чтобы вы могли спать всю ночь, не запуская приложение</string>
+
+    <string name="sleep_timer_notification_premium_title">Вы разблокировали таймер сна</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">Установите его в настройках, чтобы отключить звук после того, как вы засыпаете</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack использует локальную сеть для обнаружения устройств с поддержкой Cast в вашей сети Wi-Fi.</string>
+
+    <string name="notifications_manager_verified_playlist">Добавлен проверенный плейлист</string>
+
+    <string name="world_articles_not_found">Статьи не найдены.</string>
+
+    <string name="world_article_detail_not_found">Статьи не найдены.</string>
+
+    <string name="accessibility_world_logo">Мировой логотип</string>
+
+    <string name="splash_message_single">Чтобы ваши впечатления от приложения были лучше, мы просим вас включить следующее разрешение:</string>
+
+    <string name="splash_location_message_new">Показывать популярную музыку в вашем районе, списки трендов и результаты локального поиска</string>
+
+    <string name="accessibility_logo">Значок Audiomack</string>
+
+    <string name="widget_gallery_title">Воспроизведение хитов</string>
+
+    <string name="widget_gallery_subtitle">Слушайте свои последние любимые сохраненные треки</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">Этот трек только для премиум-версии</string>
+
+    <string name="premium_only_streaming_alert_message">Получите премиум-версию Audiomack, чтобы транслировать любой трек на платформе, а также неограниченное количество загрузок и многое другое!</string>
+
+    <string name="premium_only_streaming_alert_premium">Получить премиум-версию</string>
+
+    <string name="premium_only_streaming_alert_cancel">Отмена</string>
+
+    <string name="toast_play_album_deleted_tracks_header">Не все эти песни скачаны</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">Для сохранения данных в очереди будут стоять только офлайн-треки</string>
+
+    <string name="feed_suggested_accounts">Предлагаемые аккаунты</string>
+
+    <string name="feed_suggested_accounts_view_all">Посмотреть все</string>
+
+    <string name="feed_new_music_description">Здесь будет отображаться новая музыка от людей, на которых вы подписаны.</string>
+
+    <string name="feed_follow_suggested_description">Вы можете начать отслеживать некоторых из предложенных выше исполнителей.</string>
+
+    <string name="feed_social_feed">Лента в социальной сети</string>
+
+    <string name="NSPhotoLibraryUsageDescription">Нам необходим доступ к вашей фотобиблиотеке, чтобы выбрать изображение для вашего профиля.</string>
+
+    <string name="NSCameraUsageDescription">Нам необходим доступ к камере, чтобы сделать снимок для использования в вашем профиле.</string>
+
+    <string name="settings_change_password">Изменить пароль</string>
+
+    <string name="update_password_success">Пароль успешно обновлен!</string>
+
+    <string name="update_password_title">ОБНОВИТЬ ПАРОЛЬ</string>
+
+    <string name="update_password_current">Текущий пароль</string>
+
+    <string name="update_password_new">Новый пароль</string>
+
+    <string name="update_password_confirm">Подтвердите пароль</string>
+
+    <string name="update_password_forgot">Забыли пароль?</string>
+
+    <string name="update_password_save">ОБНОВИТЬ ПАРОЛЬ</string>
+
+    <string name="reset_password_invalid_token_title">Ошибка ссылки для сброса пароля</string>
+
+    <string name="reset_password_invalid_token_message">При проверке ссылки для сброса пароля произошла ошибка. Вероятно, это произошло из-за того, что срок действия ссылки истек. Попробуйте снова использовать форму забытого пароля, чтобы создать новую ссылку.</string>
+
+    <string name="reset_password_title">СБРОС ПАРОЛЯ</string>
+
+    <string name="reset_password_subtitle">ВВЕДИТЕ НОВЫЙ ПАРОЛЬ</string>
+
+    <string name="reset_password_new">Новый пароль</string>
+
+    <string name="reset_password_confirm">Подтвердите пароль</string>
+
+    <string name="reset_password_reset">СБРОС ПАРОЛЯ</string>
+
+    <string name="reset_password_success">Пароль успешно сброшен!</string>
+
+    <string name="word_article_webview_updating_error">Некоторые службы обновляются, попробуйте еще раз</string>
+
+    <string name="local_file">Локальный файл</string>
+
+    <string name="local_file_selection_apply">Сохранить изменения</string>
+
+    <string name="local_file_selection_applied">Выбор файла сохранен</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack требуется разрешение на хранение для доступа к вашим локальным мультимедиа</string>
+
+    <string name="local_file_selection_empty">Локальные мультимедиа не найдены</string>
+
+    <string name="offline_filter_files_select">Выбрать файлы</string>
+
+    <string name="options_hide_track">Скрыть трек</string>
+
+    <string name="options_hide_album">Скрыть альбом</string>
+
+    <string name="uploads_filter_popular">ПОПУЛЯРНОЕ</string>
+
+    <string name="uploads_filter_recent">НЕДАВНЕЕ</string>
+
+</resources>

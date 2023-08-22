@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.audiomack.views.AMViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C1C1C"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <com.audiomack.views.AMCustomFontEditText
+                android:id="@+id/etSearch"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/search_background"
+                android:drawableStart="@drawable/search_left_icon"
+                android:drawablePadding="7dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:hint="@string/search_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="text|textNoSuggestions|textVisiblePassword"
+                android:paddingStart="9dp"
+                android:paddingEnd="33dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#989898"
+                android:textSize="13sp"
+                app:customletterspacing="-0.2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/buttonCancel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.audiomack.views.AMImageButton
+                android:id="@+id/buttonClear"
+                android:layout_width="33dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical|end"
+                android:background="@null"
+                android:src="@drawable/search_clear"
+                android:visibility="gone"
+                app:customletterspacing="-0.44"
+                app:layout_constraintBottom_toBottomOf="@id/etSearch"
+                app:layout_constraintEnd_toEndOf="@id/etSearch"
+                app:layout_constraintTop_toTopOf="@id/etSearch"
+                tools:visibility="visible" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical|end"
+                android:background="@null"
+                android:fontFamily="@font/opensans_regular"
+                android:minWidth="0dp"
+                android:paddingHorizontal="15dp"
+                android:text="@string/search_cancel"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                app:customletterspacing="-0.44"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <FrameLayout
+            android:id="@+id/tabLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="bottom"
+                android:background="#2B2B2B" />
+
+            <com.audiomack.views.AMCustomTabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:clipToPadding="false"
+                app:tabIndicatorColor="@color/orange"
+                app:tabIndicatorHeight="3dp"
+                app:tabMode="scrollable"
+                app:tabPaddingBottom="10dp"
+                app:tabSelectedTextColor="@color/tablayout_dark_selected_textcolor"
+                app:tabTextAppearance="@style/TabLayoutDarkTextAppearance"
+                app:tabTextColor="@color/tablayout_dark_unselected_textcolor" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/trendingRecentRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/row_search_history_text" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/autocompleteRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_color"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingTop="4dp"
+            android:visibility="gone"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </FrameLayout>
+
+</FrameLayout>

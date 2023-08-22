@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    tools:ignore="SpUsage">
+    <LinearLayout
+        android:id="@+id/layoutDetails"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:paddingEnd="2dp">
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="12dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/opensans_regular"
+            app:customletterspacing="-0.46"
+            tools:text="Fetty Wap"/>
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="12dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/opensans_regular"
+            app:customletterspacing="-0.46"
+            tools:text="$ave Dat Money Young Buck" />
+    </LinearLayout>
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvPlaceholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="11dp"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/opensans_bold"
+        tools:text="Next track"
+        android:layout_gravity="center_vertical" />
+</FrameLayout>

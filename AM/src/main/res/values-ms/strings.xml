@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">Cuba semula</string>
+
+    <string name="splash_offline">Anda tidak bersambung ke internet dan hanya boleh mainkan muzik yang dimuat turun.</string>
+
+    <string name="splash_gotodownloads">PERGI KE MUZIK LUAR TALIAN</string>
+
+    <string name="splash_message">Untuk memberikan pengalaman terbaik, kami meminta anda mendayakan kebenaran berikut:</string>
+
+    <string name="splash_storage">Akses Fail</string>
+
+    <string name="splash_storage_message">Membolehkan anda memuat turun lagu dan album</string>
+
+    <string name="splash_location">Lokasi</string>
+
+    <string name="splash_location_message">Membolehkan Audiomack menunjukkan muzik popular di kawasan anda</string>
+
+    <string name="splash_notifications">Pemberitahuan Tolak</string>
+
+    <string name="splash_notifications_message">Membolehkan kami memberitahu anda apabila muzik baru yang hangat dikeluarkan</string>
+
+    <string name="splash_ok">OKEY, FAHAM!</string>
+
+    <string name="splash_later">Mungkin kemudian?</string>
+
+    <string name="splash_privacy_policy">Dasar Privasi </string>
+
+    <string name="splash_autologin_timeout_error_message">Kami menghadapi masalah untuk menyambung. Sila semak sambungan internet anda</string>
+
+    <string name="splash_autologin_timeout_error_ok">Okey</string>
+
+    <string name="splash_autologin_fail_message">Daftar masuk gagal</string>
+
+    <string name="splash_autologin_facebook_error_message">Penyegaran token Facebook gagal</string>
+
+    <string name="home_tab_feed">Suapan</string>
+
+    <string name="home_tab_playlists">Playlist</string>
+
+    <string name="home_tab_search">Cari</string>
+
+    <string name="home_tab_library">Perpustakaan Saya</string>
+
+    <string name="signup_tos">Dengan mendaftar anda bersetuju dengan Syarat Perkhidmatan dan Dasar Privasi kami</string>
+
+    <string name="signup_tos_highlighted_tos">Syarat Perkhidmatan</string>
+
+    <string name="signup_tos_highlighted_privacy">Dasar Privasi</string>
+
+    <string name="signup_username">Masukkan nama pengguna</string>
+
+    <string name="signup_email">Masukkan e-mel anda</string>
+
+    <string name="signup_password">Cipta kata laluan</string>
+
+    <string name="signup_password_confirm">Sahkan kata laluan anda</string>
+
+    <string name="signup_create">CIPTA AKAUN ANDA</string>
+
+    <string name="signup_facebook">Daftar dengan Facebook</string>
+
+    <string name="signup_go_to_login">SUDAH MEMPUNYAI AKAUN?</string>
+
+    <string name="signup_header">CIPTA AKAUN PERCUMA</string>
+
+    <string name="signup_birthday_label">Bilakah hari jadi anda?</string>
+
+    <string name="signup_gender_label">Apakah jantina anda?</string>
+
+    <string name="signup_gender_male">Lelaki</string>
+
+    <string name="signup_gender_female">Perempuan</string>
+
+    <string name="signup_gender_other">Bukan binari</string>
+
+    <string name="signup_disclaimer">Audiomack menggunakan data ini untuk memperibadikan pengalaman anda, membantu artis memahami pendengar mereka dan banyak lagi. Kami akan sentiasa menyimpan data peribadi anda tanpa nama.</string>
+
+    <string name="signup_finish">Selesai</string>
+
+    <string name="signup_error_birthday">Sila masukkan tarikh lahir yang sah</string>
+
+    <string name="signup_error_gender">Sila pilih jantina</string>
+
+    <string name="login_show_password">Tunjukkan Kata Laluan</string>
+
+    <string name="login_error_timestamp">Cap Waktu Tamat. Ini mungkin bermaksud bahawa jam pada peranti anda salah. Sila semak waktu dan tarikh dan jika anda masih mempunyai masalah, e-mel support\@audiomack.com.</string>
+
+    <string name="login_error_1037">Tidak boleh mendapatkan butiran yang diperlukan. Pastikan anda menetapkan alamat e-mel di akaun anda dan cuba semula.</string>
+
+    <string name="login_header">DAFTAR MASUK KE AKAUN ANDA</string>
+
+    <string name="login_email">E-mel</string>
+
+    <string name="login_password">Kata Laluan</string>
+
+    <string name="login_forgot_password">Lupa kata laluan</string>
+
+    <string name="login_cta">DAFTAR MASUK</string>
+
+    <string name="login_facebook">Daftar masuk dengan Facebook</string>
+
+    <string name="login_go_to_signup_hint">Tiada akaun?</string>
+
+    <string name="login_go_to_signup">CIPTA AKAUN PERCUMA</string>
+
+    <string name="login_facebook_error_message">Daftar masuk dengan Facebook gagal</string>
+
+    <string name="login_facebook_error_button">Okey</string>
+
+    <string name="login_error_title">Masalah daftar masuk</string>
+
+    <string name="login_error_message_facebook">Masalah Facebook</string>
+
+    <string name="login_tos">Dengan mendaftar masuk ke audiomack, anda bersetuju dengan Syarat Perkhidmatan dan Dasar Privasi kami</string>
+
+    <string name="login_tos_highlighted_tos">Syarat Perkhidmatan</string>
+
+    <string name="login_tos_highlighted_privacy">Dasar Privasi</string>
+
+    <string name="signup_error_title">Masalah mendaftar</string>
+
+    <string name="authentication_validation_username_empty">Nama pengguna kosong</string>
+
+    <string name="authentication_validation_email_empty">E-mel kosong</string>
+
+    <string name="authentication_validation_password_empty">Kata laluan kosong</string>
+
+    <string name="authentication_validation_password_mismatch">Kata laluan tidak padan</string>
+
+    <string name="logout_alert_title">Daftar keluar</string>
+
+    <string name="logout_alert_message">Daftar keluar Audiomack?</string>
+
+    <string name="logout_alert_no">Batalkan</string>
+
+    <string name="logout_alert_yes">Okey</string>
+
+    <string name="forgot_password_alert_title">Lupa kata laluan</string>
+
+    <string name="forgot_password_alert_message">Masukkan e-mel anda dan kami akan menghantar anda langkah-langkah untuk menetapkan semula kata laluan anda</string>
+
+    <string name="forgot_password_alert_no">Batalkan</string>
+
+    <string name="forgot_password_alert_yes">Hantar</string>
+
+    <string name="forgot_password_alert_hint">Alamat e-mel</string>
+
+    <string name="forgot_password_success">Terima kasih. Sila semak e-mel anda untuk mendapatkan arahan untuk menetapkan semula kata laluan anda. Mungkin terdapat di folder spam anda.</string>
+
+    <string name="forgot_password_failure_template">%s Sekiranya anda menghadapi masalah, sila e-mel kami di support\@audiomack.com</string>
+
+    <string name="premium_start_trial">MULAKAN PERCUBAAN 7 HARI PERCUMA ANDA</string>
+
+    <string name="premium_price_template">%s setiap bulan selepas percubaan</string>
+
+    <string name="premium_toc">Terma &amp; Syarat Langganan Premium Audiomack</string>
+
+    <string name="premium_desc_template">Audiomack Premium adalah langganan berulang.  Anda akan dibil secara automatik sebanyak %s setiap bulan melalui akaun Google Play anda apabila percubaan 7 hari anda tamat.  Langganan anda akan diperbaharui secara automatik melainkan anda membatalkan atau menyahdayakan pembaharuan automatik sekurang-kurangnya 24 jam sebelum tempoh pembilan tamat.  Anda boleh menguruskan langganan anda di Google Play Store.</string>
+
+    <string name="premium_desc_template_ios">Sekiranya anda membeli Langganan Audiomack (%s setiap bulan), pembayaran akan dikenakan ke akaun iTunes anda, dan akaun anda akan dikenakan bayaran untuk pembaharuan dalam 24 jam sebelum tempoh tamat langganan semasa. Sekiranya anda tidak ingin lagi dibil untuk Audiomack Gold/Platinum dan ingin membatalkan keahlian premium anda, pastikan anda melakukannya sebelum had 24 jam ini berlalu. Pembaharuan automatik dapat dinyahdayakan bila-bila di Tetapan anda di iTunes Store setelah membeli. Semua harga yang disebutkan di sini dan dalam aplikasi untuk tahap langganan Emas/Platinum adalah dalam dolar AS, mungkin berbeza di negara lain di seluruh dunia, dan boleh berubah pada masa akan datang. Pembatalan langganan semasa tidak dibenarkan dalam tempoh langganan aktif anda. Audiomack selamanya percuma untuk digunakan tanpa langganan, dan anda boleh meneruskan penggunaan Audiomack dengan iklan pada bila-bila masa selepas langganan anda berakhir.</string>
+
+    <string name="premium_no_active_subscriptions">Anda tidak mempunyai langganan aktif.</string>
+
+    <string name="premium_unable_restore">Tidak dapat memulihkan pembelian sebelumnya</string>
+
+    <string name="premium_restore">Pulihkan Pembelian Sebelumnya</string>
+
+    <string name="premium_and">dan</string>
+
+    <string name="premium_terms_of_service">Syarat Perkhidmatan</string>
+
+    <string name="premium_privacy_policy">Dasar Privasi</string>
+
+    <string name="premium_subscribing">Dengan melanggan anda mengakses Audiomack</string>
+
+    <string name="premium_2019_title">Naiktaraf ke\nAudiomack Premium</string>
+
+    <string name="premium_2019_subtitle">Mulakan percubaan percuma 7 Hari anda dan dapatkan:</string>
+
+    <string name="premium_2019_adfree">Pengalaman tanpa iklan</string>
+
+    <string name="premium_2019_adfree_desc">Main balik tanpa had tanpa gangguan iklan atau sepanduk</string>
+
+    <string name="premium_2019_playlist">Muat turun playlist penuh</string>
+
+    <string name="premium_2019_playlist_desc">Simpan semua lagu dalam playlist ke peranti anda dalam satu ketik</string>
+
+    <string name="premium_2019_hifi">Penstriman berkualiti tinggi</string>
+
+    <string name="premium_2019_hifi_desc">Pastikan anda mendengar setiap lagu dalam kualiti tertinggi yang tersedia</string>
+
+    <string name="premium_2019_airplay">Tayangan udara ke peranti muzik</string>
+
+    <string name="premium_2019_airplay_desc">Ingin bermain pada peranti yang didayakan Airplay? Papar terus dari pemain</string>
+
+    <string name="premium_2019_equalizer">Kawalan penyamaan</string>
+
+    <string name="premium_2019_equalizer_desc">Suaikan muzik anda dengan keinginan anda dengan penyesuaian bass dan treble</string>
+
+    <string name="premium_2019_trial">Percubaan 7 hari percuma</string>
+
+    <string name="premium_2019_trial_desc">Cuba sebelum anda membeli - Dapatkan semua perkara di atas secara percuma selama seminggu selepas anda mula</string>
+
+    <string name="defaultgenre_title">TETAPAN GENRE LALAI</string>
+
+    <string name="notifications_title">PEMBERITAHUAN</string>
+
+    <string name="notifications_verb_favorite">kegemaran</string>
+
+    <string name="notifications_verb_repost">re-up</string>
+
+    <string name="notifications_verb_follow">mengikuti anda</string>
+
+    <string name="notifications_verb_playlist">disenarai main</string>
+
+    <string name="notifications_verb_added">ditambah</string>
+
+    <string name="notifications_verb_added_to_playlist">ke playlist</string>
+
+    <string name="notifications_verb_comment">mengulas mengenai</string>
+
+    <string name="notifications_verb_comment_reply">membalas komen anda</string>
+
+    <string name="removedcontent_title">KANDUNGAN DIBUANG</string>
+
+    <string name="removedcontent_message">Muzik berikut telah dikeluarkan dari Audiomack oleh artis, label atau pemegang hak. Kami berusaha untuk memulihkannya pada masa akan datang. Terima kasih</string>
+
+    <string name="removedcontent_ok">Okey</string>
+
+    <string name="removedcontent_header">Beberapa muzik luar talian telah dikeluarkan. Ketahui lebih lanjut</string>
+
+    <string name="removedcontent_header_highlighted">Beberapa muzik luar talian telah dikeluarkan. Ketahui lebih lanjut</string>
+
+    <string name="excludereups">Kecualikan Re-Up</string>
+
+    <string name="restoredownloads_title">PULIHKAN MUAT TURUN</string>
+
+    <string name="restoredownloads_footer">Pulihkan muat turun sebelumnya</string>
+
+    <string name="playlist_info_failed">Tidak boleh mendapatkan butiran playlist. Sila cuba lagi kemudian.</string>
+
+    <string name="artist_info_failed">Tidak boleh mendapatkan data artis. Sila cuba lagi kemudian.</string>
+
+    <string name="song_info_failed">Tidak boleh mendapatkan data lagu.</string>
+
+    <string name="album_info_failed">Tidak boleh mendapatkan data album.</string>
+
+    <string name="download_results_no_connection">Anda tidak disambungkan ke Internet</string>
+
+    <string name="download_failed_song">Tidak dapat memuat turun lagu</string>
+
+    <string name="download_failed_abum">Tidak dapat memuat turun album</string>
+
+    <string name="download_delete_list_failed">Tidak dapat memadam dari senarai Muat Turun</string>
+
+    <string name="download_playlist_succeeded">playlist ditambahkan ke luar talian</string>
+
+    <string name="download_succeeded">Berjaya Dimuat Turun</string>
+
+    <string name="login_needed_message">Sila daftar masuk untuk menggunakan ciri ini</string>
+
+    <string name="login_needed_no">Batalkan</string>
+
+    <string name="login_needed_yes">DAFTAR MASUK</string>
+
+    <string name="playlist_song_singular">Lagu\n</string>
+
+    <string name="playlist_song_plural">Lagu</string>
+
+    <string name="playlist_sync">TAMBAHKAN LAGU BARU KE LUAR TALIAN</string>
+
+    <string name="playlistreorder_title">PESAN SEMULA / KELUARKAN</string>
+
+    <string name="playlistreorder_save">SIMPAN</string>
+
+    <string name="addtoplaylist_title">TAMBAHKAN KE PLAYLIST</string>
+
+    <string name="addtoplaylist_create">CIPTA PLAYLIST BARU</string>
+
+    <string name="addtoplaylist_create_hint">Ketik untuk cipta playlist baru</string>
+
+    <string name="addtoplaylist_addtoexisting">TAMBAHKAN KE PLAYLIST SEDIA ADA</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">playlist ini tidak dapat disunting</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">Lagu ini tidak dapat ditambahkan ke playlist</string>
+
+    <string name="addtoplaylist_song_added">Berjaya ditambahkan ke playlist</string>
+
+    <string name="addtoplaylist_song_added_failed">Tidak dapat ditambahkan ke playlist</string>
+
+    <string name="addtoplaylist_song_removed">Berjaya dikeluarkan dari playlist</string>
+
+    <string name="addtoplaylist_song_removed_failed">Tidak dapat dikeluarkan dari playlist</string>
+
+    <string name="editplaylist_title">SUNTING BUTIRAN PLAYLIST</string>
+
+    <string name="editplaylist_create_title">CIPTA PLAYLIST BARU</string>
+
+    <string name="editplaylist_hint">Ketik ruangan untuk disunting</string>
+
+    <string name="editplaylist_name">Nama:</string>
+
+    <string name="editplaylist_name_hint">Masukkan nama playlist</string>
+
+    <string name="editplaylist_genre">Genre: </string>
+
+    <string name="editplaylist_permissions">Kebenaran:</string>
+
+    <string name="editplaylist_description">Huraian:</string>
+
+    <string name="editplaylist_description_hint">Masukkan huraian playlist</string>
+
+    <string name="editplaylist_delete">Padamkan Playlist</string>
+
+    <string name="editplaylist_save">Simpan</string>
+
+    <string name="editplaylist_cancel">Batalkan</string>
+
+    <string name="playlist_delete_failed">Gagal memadamkan playlist</string>
+
+    <string name="playlist_delete_succeeded_template">playlist \'%s\' telah dipadamkan</string>
+
+    <string name="playlist_takendown_title">Pencipta telah mengeluarkan playlist ini.</string>
+
+    <string name="playlist_takendown_message">Adakah anda ingin menyalinnya ke akaun anda?</string>
+
+    <string name="playlist_takendown_yes">Ya, Salin Playlist</string>
+
+    <string name="playlist_takendown_no">Tidak, Buang</string>
+
+    <string name="musicinfo_stats_today">HARI INI</string>
+
+    <string name="musicinfo_stats_week">MINGGU INI</string>
+
+    <string name="musicinfo_stats_month">BULAN INI</string>
+
+    <string name="musicinfo_stats_alltime">SEPANJANG MASA</string>
+
+    <string name="musicinfo_lastupdated">Terakhir dikemas kini:</string>
+
+    <string name="musicinfo_numberofsongs">Jumlah Lagu:</string>
+
+    <string name="musicinfo_playlistcreator">Pencipta Playlist:</string>
+
+    <string name="musicinfo_album">Album:</string>
+
+    <string name="musicinfo_producer">Penerbit:</string>
+
+    <string name="musicinfo_addedon">Tarikh Keluar:</string>
+
+    <string name="musicinfo_genre">Genre:</string>
+
+    <string name="musicinfo_description">Huraian:</string>
+
+    <string name="musicinfo_description_read_more">Baca lebih lanjut</string>
+
+    <string name="musicinfo_total_plays">Jumlah Mainan:</string>
+
+    <string name="musicinfo_tags">Tag</string>
+
+    <string name="artist_followers">Pengikut</string>
+
+    <string name="artist_following">Mengikuti</string>
+
+    <string name="artist_plays">Jumlah Mainan</string>
+
+    <string name="queue_added">Ditambah ke barisan</string>
+
+    <string name="queue_unable_to_add_playlist">Tidak dapat menambahkan playlist ke barisan</string>
+
+    <string name="share_twitter">Kongsi di Twitter</string>
+
+    <string name="share_contacts">Kongsi dengan Kenalan</string>
+
+    <string name="share_app">Kongsi melalui Aplikasi</string>
+
+    <string name="share_copy_link">Salin Pautan</string>
+
+    <string name="share_link_copied">Pautan disalin ke papan klip anda</string>
+
+    <string name="favorites_filter_allmusic">Semua</string>
+
+    <string name="favorites_filter_songs">Lagu</string>
+
+    <string name="favorites_filter_albums">Album</string>
+
+    <string name="favorites_filter_playlists">Playlist</string>
+
+    <string name="offline_filter_allmusic">Semua</string>
+
+    <string name="offline_filter_songs">Lagu</string>
+
+    <string name="offline_filter_albums">Album</string>
+
+    <string name="offline_filter_playlists">Playlist</string>
+
+    <string name="offline_filter_notondevice">Bukan pada peranti</string>
+
+    <string name="offline_sort_newest">Terkini</string>
+
+    <string name="offline_sort_oldest">Paling Lama</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">DAFTAR MASUK / DAFTAR</string>
+
+    <string name="search_hint">Cari</string>
+
+    <string name="search_cancel">Batalkan </string>
+
+    <string name="search_global_placeholder">Cari artis, lagu, dan album.</string>
+
+    <string name="search_trending">CARIAN POPULAR</string>
+
+    <string name="search_recent">CARIAN TERBARU</string>
+
+    <string name="library_search_hint">Cari</string>
+
+    <string name="library_search_cancel">Batalkan</string>
+
+    <string name="player_playingfrom">BERMAIN DARI</string>
+
+    <string name="player_goadfree">Buang Iklan - Mulakan percubaan percuma selama 7 hari</string>
+
+    <string name="player_closead">Tutup Iklan</string>
+
+    <string name="player_shuffle_on">Rombakan Dipasang</string>
+
+    <string name="player_repeat_all">Ulangi Semua</string>
+
+    <string name="player_repeat_one">Ulangi Satu</string>
+
+    <string name="player_file_error">Masalah semasa memuatkan lagu</string>
+
+    <string name="player_storage_error">Tidak dapat memainkan fail yang dimuat turun</string>
+
+    <string name="player_playback_error">Tidak dapat memainkan lagu</string>
+
+    <string name="player_queue_error">Masalah semasa mengemaskini barisan</string>
+
+    <string name="player_file_error_download_again">Fail ini mesti dimuat turun semula, sila semak sambungan anda</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">Sebelumnya</string>
+
+    <string name="player_pause">Jeda</string>
+
+    <string name="player_play">Main</string>
+
+    <string name="player_next">Seterusnya</string>
+
+    <string name="player_close">Tutup</string>
+
+    <string name="player_fav">Kegemaran</string>
+
+    <string name="player_unfav">Tidak digemari</string>
+
+    <string name="player_skip_forward">Langkau ke hadapan 30 saat</string>
+
+    <string name="player_skip_back">Langkau ke belakang 15 saat</string>
+
+    <string name="editaccount_title">SUNTING AKAUN</string>
+
+    <string name="editaccount_banner">Sunting gambar sepanduk anda</string>
+
+    <string name="editaccount_hint">Ketik ruangan untuk disunting</string>
+
+    <string name="editaccount_name">Nama Artis:</string>
+
+    <string name="editaccount_label">Label:</string>
+
+    <string name="editaccount_hometown">Tanah Air:</string>
+
+    <string name="editaccount_website">Laman Sesawang:</string>
+
+    <string name="editaccount_bio">Bio:</string>
+
+    <string name="editaccount_bio_counter_template">%s aksara tinggal</string>
+
+    <string name="editaccount_twitter">Twitter:</string>
+
+    <string name="editaccount_instagram">Instagram:</string>
+
+    <string name="editaccount_facebook">Facebook:</string>
+
+    <string name="editaccount_youtube">Youtube:</string>
+
+    <string name="editaccount_error_banner">Masalah berlaku semasa menyimpan sepanduk</string>
+
+    <string name="editaccount_save">Simpan</string>
+
+    <string name="editaccount_cancel">Batalkan</string>
+
+    <string name="editaccount_slug">Pemegang Pengguna:</string>
+
+    <string name="artistinfo_follow">IKUTI</string>
+
+    <string name="artistinfo_unfollow">MENGIKUTI</string>
+
+    <string name="artistinfo_website">Laman Sesawang:</string>
+
+    <string name="artistinfo_genre">Genre:</string>
+
+    <string name="artistinfo_label">Label:</string>
+
+    <string name="artistinfo_hometown">Tanah Air:</string>
+
+    <string name="artistinfo_membersince">Ahli Sejak:</string>
+
+    <string name="artistinfo_bio">Bio:</string>
+
+    <string name="miniplayer_prev_song">Lagu sebelumnya</string>
+
+    <string name="miniplayer_next_song">Lagu seterusnya</string>
+
+    <string name="queue_title">BARISAN ANDA</string>
+
+    <string name="add_to_playlist_permissions_public">Awam - Sesiapa sahaja boleh melihat</string>
+
+    <string name="add_to_playlist_permissions_private">Peribadi - Hanya anda yang dapat melihat</string>
+
+    <string name="add_to_playlist_error_no_name">Sila masukkan nama untuk playlist anda</string>
+
+    <string name="add_to_playlist_error">Gagal mencipta playlist</string>
+
+    <string name="add_to_playlist_success_generic">playlist berjaya dicipta</string>
+
+    <string name="add_to_playlist_success">\'%s\' telah ditambahkan ke playlist anda</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">Anda tidak dapat memadamkan lagu terakhir playlist</string>
+
+    <string name="edit_playlist_success">playlist \'%s\' telah disunting</string>
+
+    <string name="edit_playlist_error">Gagal menyunting playlist</string>
+
+    <string name="edit_playlist_banner_error">Tidak dapat menyimpan gambar sepanduk</string>
+
+    <string name="select_playlist_error">Tidak boleh mendapatkan playlist anda</string>
+
+    <string name="select_playlist_nothing_selected">Sila pilih playlist</string>
+
+    <string name="select_playlist_success">Lagu \'%s\' telah ditambahkan ke playlist anda</string>
+
+    <string name="select_playlist_failure">Tidak dapat menambahkan lagu</string>
+
+    <string name="player_account_followed">Sekarang Mengikuti %s</string>
+
+    <string name="player_account_unfollowed">Berhenti mengikut %s</string>
+
+    <string name="feature_not_available_offline_alert_message">Kami menghadapi masalah untuk menyambung. Sila semak sambungan anda dan cuba lagi.</string>
+
+    <string name="feature_not_available_offline_alert_button">Okey</string>
+
+    <string name="toast_favorited_song">Lagu yang digemari</string>
+
+    <string name="toast_favorited_song_error">Tidak dapat menggemari lagu</string>
+
+    <string name="toast_favorited_album">Album Digemari</string>
+
+    <string name="toast_favorited_album_error">Tidak dapat menggemari album</string>
+
+    <string name="toast_favorited_playlist">Playlist Digemari</string>
+
+    <string name="toast_favorited_playlist_error">Tidak dapat menggemari playlist</string>
+
+    <string name="toast_unfavorited_song">Lagu Tidak Digemari</string>
+
+    <string name="toast_unfavorited_song_error">Tidak dapat menyahgemari lagu</string>
+
+    <string name="toast_unfavorited_album">Album Dinyahgemari</string>
+
+    <string name="toast_unfavorited_album_error">Tidak dapat menyahgemari album</string>
+
+    <string name="toast_unfavorited_playlist">Playlist Dinyahgemari</string>
+
+    <string name="toast_unfavorited_playlist_error">Tidak dapat menyahgemari playlist</string>
+
+    <string name="toast_reposted_song">Lagu Re-Up</string>
+
+    <string name="toast_reposted_song_error">Tidak dapat menaikkan semula lagu</string>
+
+    <string name="toast_reposted_album">Album Re-Up</string>
+
+    <string name="toast_reposted_album_error">Tidak dapat menaikkan semula album</string>
+
+    <string name="permissions_rationale_alert_camera_message">Ciri ini memerlukan akses ke kamera. Sila izinkan kebenaran ini dalam tetapan untuk menggunakan ciri ini.</string>
+
+    <string name="permissions_rationale_alert_storage_message">Ciri ini memerlukan akses ke storan anda. Sila izinkan kebenaran ini dalam tetapan untuk menggunakan ciri ini.</string>
+
+    <string name="permissions_rationale_alert_cancel">Batalkan</string>
+
+    <string name="permissions_rationale_alert_settings">Buka Tetapan</string>
+
+    <string name="permissions_location_ios">Membolehkan Audiomack menunjukkan muzik popular di kawasan anda.</string>
+
+    <string name="shortcuts_offline_short">Luar Talian</string>
+
+    <string name="shortcuts_offline_long">Luar Talian</string>
+
+    <string name="shortcuts_offline_disabled">Luar Talian</string>
+
+    <string name="shortcuts_topsongs_short">Lagu Popular</string>
+
+    <string name="shortcuts_topsongs_long">Lagu Popular</string>
+
+    <string name="shortcuts_topsongs_disabled">Lagu Popular</string>
+
+    <string name="shortcuts_favorites_short">Kegemaran </string>
+
+    <string name="shortcuts_favorites_long">Kegemaran </string>
+
+    <string name="shortcuts_favorites_disabled">Kegemaran </string>
+
+    <string name="shortcuts_playlists_short">Playlist</string>
+
+    <string name="shortcuts_playlists_long">Playlist</string>
+
+    <string name="shortcuts_playlists_disabled">Playlist</string>
+
+    <string name="downloadmessage_title">Muat turun dimulakan!</string>
+
+    <string name="downloadmessage_message">Anda kini boleh memainkan muat naik ini tanpa data di aplikasi pada bahagian luar talian Perpustakaan Saya.</string>
+
+    <string name="downloadmessage_button">PERGI KE MUZIK LUAR TALIAN</string>
+
+    <string name="download_completed_notification_title">Muat Turun Selesai</string>
+
+    <string name="download_completed_notification_message">Ketik untuk melihat muzik luar talian anda</string>
+
+    <string name="playlist_delete_download_title">Ini akan membuang playlist ini dari perpustakaan luar talian anda.</string>
+
+    <string name="playlist_delete_download_title_highlighted">buang playlist ini</string>
+
+    <string name="playlist_delete_download_message">Jangan risau, ia tidak akan membuang lagu dari perpustakaan luar talian anda</string>
+
+    <string name="playlist_delete_download_yes">Okey</string>
+
+    <string name="playlist_delete_download_cancel">Batalkan</string>
+
+    <string name="playlist_download_sync_title">Ini akan menambahkan %s lagu dalam playlist ini ke perpustakaan luar talian anda.</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s lagu</string>
+
+    <string name="playlist_download_sync_message">Anda mungkin ingin memeriksa jika anda disambung pada WiFi sebelum memuat turun.</string>
+
+    <string name="playlist_download_sync_yes">Okey</string>
+
+    <string name="playlist_download_sync_cancel">Batalkan</string>
+
+    <string name="playlist_download_error">Tidak dapat memuat turun playlist</string>
+
+    <string name="unsupported_crop_error">Peranti anda tidak menyokong pemotongan</string>
+
+    <string name="library_search_favorites_placeholder">Cari kegemaran anda ...</string>
+
+    <string name="library_search_downloads_placeholder">Cari kandungan luar talian anda ...</string>
+
+    <string name="library_search_playlists_placeholder">Cari playlist anda ...</string>
+
+    <string name="library_search_uploads_placeholder">Cari muat naik anda ...</string>
+
+    <string name="library_search_noresults_placeholder">Tiada keputusan dijumpai di perpustakaan anda.</string>
+
+    <string name="library_search_noresults_cta">CARI KESELURUHAN AUDIOMACK</string>
+
+    <string name="search_noresults_placeholder">Tiada keputusan dijumpai.\nCuba carian lain</string>
+
+    <string name="playlists_noresults_placeholder">Belum ada playlist.</string>
+
+    <string name="followers_my_noresults_placeholder">Anda tiada pengikut.</string>
+
+    <string name="followers_other_noresults_placeholder">%s tiada pengikut</string>
+
+    <string name="favorites_my_noresults_placeholder">Anda tiada kegemaran.</string>
+
+    <string name="downloads_noresults_placeholder">Anda tiada muat turun.</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">PULIHKAN MUAT TURUN ANDA</string>
+
+    <string name="downloads_loggedout_placeholder">Daftar masuk untuk memulihkan muat turun sebelumnya</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">CIPTA AKAUN</string>
+
+    <string name="favorites_my_loggedout_placeholder">Anda tiada kegemaran.</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">CIPTA AKAUN</string>
+
+    <string name="favorites_other_noresults_placeholder">%s tiada kegemaran</string>
+
+    <string name="following_my_noresults_placeholder">Anda tidak mengikuti sesiapa.\nLihat akaun yang dicadangkan untuk diikuti.</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">DICADANGKAN UNTUK DIIKUTI</string>
+
+    <string name="following_other_noresults_placeholder">%s tidak mengikuti sesiapa</string>
+
+    <string name="uploads_my_noresults_placeholder">Anda tiada muat naik.\nLayari audiomack.com untuk menambahkan muzik ke akaun anda.</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">LAYARI AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">%s tiada memuat naik</string>
+
+    <string name="playlists_my_noresults_placeholder">Anda belum mencipta playlist.</string>
+
+    <string name="playlists_my_loggedout_placeholder">Anda belum mencipta playlist.\nCipta akaun dan mula membina beberapa playlist.</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">CIPTA AKAUN</string>
+
+    <string name="playlists_other_noresults_placeholder">%s belum cipta playlist.</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">Anda tiada playlist yang digemari.</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">Anda tiada playlist yang digemari.\nCipta akaun dan mula membina beberapa playlist.</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">CIPTA AKAUN</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s tiada playlist kegemaran</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">Anda tiada playlist luar talian.</string>
+
+    <string name="timeline_noresults_placeholder">Ikuti akaun untuk melihat muat naik baru mereka muncul di sini</string>
+
+    <string name="timeline_loggedout_placeholder">Suapan anda kosong.\nCipta akaun untuk mula mengikuti orang.</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">CIPTA AKAUN</string>
+
+    <string name="restoredownlods_noresults_placeholder">Anda tiada muat turun tersimpan yang tidak terdapat pada peranti anda</string>
+
+    <string name="notifications_noresults_placeholder">Anda tiada pemberitahuan</string>
+
+    <string name="noconnection_placeholder">Menghadapi masalah untuk menyambung</string>
+
+    <string name="noconnection_highlighted_placeholder">CUBA LAGI</string>
+
+    <string name="user_name_placeholder">Pengguna</string>
+
+    <string name="playlist_desc_more">LAGI</string>
+
+    <string name="tooltip_toast">Leret ke kiri atau kanan untuk\nmelihat lebih banyak muzik atau ketik\nmenu lungsur turun untuk\nmenukar genre</string>
+
+    <string name="tooltip_play">Leret ke kiri untuk memainkan lagu seterusnya. Ketik untuk membuka pemain skrin penuh.</string>
+
+    <string name="tooltip_playlists">Cipta\nplaylist tersuai</string>
+
+    <string name="tooltip_player_queue">Ketik di sini untuk melihat lagu dalam barisan muzik anda.</string>
+
+    <string name="tooltip_queue_add">Ketik di sini untuk menambahkan lagu dalam barisan anda ke playlist.</string>
+
+    <string name="tooltip_albums">Bawa ke luar talian untuk\nmendengar tanpa data</string>
+
+    <string name="tooltip_suggested_followers">Ikuti artis / penyanyi kegemaran anda dan apabila mereka memuat naik muzik baru, muzik akan muncul di suapan anda</string>
+
+    <string name="tooltip_playlists_offline">Tambahkan lagu dalam\nplaylist ini ke luar talian</string>
+
+    <string name="tooltip_playlists_favorite">Gemari\nplaylist ini</string>
+
+    <string name="tooltip_player_scroll">Tatal ke bawah untuk merombak dan melihat komen, maklumat lagu, dan banyak lagi muzik dari artis ini.</string>
+
+    <string name="tooltip_player_equalizer">Gunakan penyamaan untuk menyesuaikan bunyi muzik anda</string>
+
+    <string name="settings_title">TETAPAN</string>
+
+    <string name="settings_go_premium">Buang Keluar Iklan - Pergi Premium</string>
+
+    <string name="settings_cancel_subscription">Batalkan Langganan</string>
+
+    <string name="settings_edit_account">Sunting Akaun</string>
+
+    <string name="settings_view_your_profile">Lihat Profil Anda</string>
+
+    <string name="settings_share_profile">Kongsi Profil</string>
+
+    <string name="settings_default_genre">Tetapkan Genre Lalai</string>
+
+    <string name="settings_permissions">Kebenaran</string>
+
+    <string name="settings_support">Sokongan</string>
+
+    <string name="settings_debug_info">Hantar maklumat nyahpepijat</string>
+
+    <string name="settings_share_app">Kongsi aplikasi ini</string>
+
+    <string name="settings_rate_app">Nilaikan aplikasi ini</string>
+
+    <string name="settings_privacy_policy">Dasar Privasi</string>
+
+    <string name="settings_dev_environment">Gunakan Dev Env *</string>
+
+    <string name="settings_track_ads">Jejaki Iklan</string>
+
+    <string name="settings_grant_premium">Berikan Premium</string>
+
+    <string name="settings_log_viewer">Paparan Catatan</string>
+
+    <string name="settings_logout">DAFTAR KELUAR</string>
+
+    <string name="settings_version_template">Versi %s (%s)</string>
+
+    <string name="settings_opensource">Perpustakaan Sumber Terbuka</string>
+
+    <string name="settings_equalizer">Penyamaan</string>
+
+    <string name="settings_upgrade_title">Naiktaraf ke Audiomack Premium</string>
+
+    <string name="settings_upgrade_subtitle">Mulakan percubaan percuma 7 Hari anda untuk membuang SEMUA iklan dan banyak lagi</string>
+
+    <string name="settings_upgrade_cta">Kenapa Naiktaraf?</string>
+
+    <string name="equalizer_title">PENYAMAAN</string>
+
+    <string name="equalizer_enable">PENYAMAAN</string>
+
+    <string name="equalizer_custom">GUNAKAN PRATETAPAN TERSUAI</string>
+
+    <string name="equalizer_acoustic">Akustik</string>
+
+    <string name="equalizer_dance">Tarian</string>
+
+    <string name="equalizer_electronic">Elektronik</string>
+
+    <string name="equalizer_flat">Leper</string>
+
+    <string name="equalizer_hiphop">Hip-Hop</string>
+
+    <string name="equalizer_loudness">Kelantangan</string>
+
+    <string name="equalizer_pop">Pop</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">Rock</string>
+
+    <string name="equalizer_vocal_booster">Penggalak Vokal</string>
+
+    <string name="equalizer_save">SIMPAN</string>
+
+    <string name="help_title">BANTUAN</string>
+
+    <string name="help_message">Lihat Pusat Bantuan kami, cipta tiket atau uruskan tiket anda yang sedia ada.</string>
+
+    <string name="help_knowledgebase">PUSAT PENGETAHUAN</string>
+
+    <string name="help_contact">HUBUNGI KAMI</string>
+
+    <string name="help_tickets_none">TIKET SAYA</string>
+
+    <string name="help_tickets_template">TIKET SAYA (%s BELUM DIBACA)</string>
+
+    <string name="help_alert_title">Pasukan sokongan kami telah menjawab permintaan anda baru-baru ini</string>
+
+    <string name="help_alert_yes">LIHAT</string>
+
+    <string name="help_alert_no">Batalkan</string>
+
+    <string name="artist_tab_uploads">MUAT NAIK</string>
+
+    <string name="artist_tab_favorites">KEGEMARAN</string>
+
+    <string name="artist_tab_playlists">PLAYLIST</string>
+
+    <string name="artist_tab_followers">PENGIKUT</string>
+
+    <string name="artist_tab_following">MENGIKUTI</string>
+
+    <string name="library_tab_favorites">KEGEMARAN</string>
+
+    <string name="library_tab_offline">LUAR TALIAN</string>
+
+    <string name="library_tab_playlists">PLAYLIST</string>
+
+    <string name="library_tab_followers">PENGIKUT</string>
+
+    <string name="library_tab_following">MENGIKUTI</string>
+
+    <string name="library_tab_uploads">MUAT NAIK</string>
+
+    <string name="feed_tab_timeline">GARIS MASA</string>
+
+    <string name="feed_tab_suggestedfollows">DICADANGKAN UNTUK DIIKUTI</string>
+
+    <string name="feed_tab_following">MENGIKUTI</string>
+
+    <string name="browse_tab_trending">POPULAR</string>
+
+    <string name="browse_tab_topsongs">LAGU TERATAS</string>
+
+    <string name="browse_tab_topalbums">ALBUM TERATAS</string>
+
+    <string name="browse_tab_recentlyadded">BARU DITAMBAH</string>
+
+    <string name="browse_filter_allgenres">Semua</string>
+
+    <string name="search_tab_allmusic">SEMUA</string>
+
+    <string name="search_tab_playlists">PLAYLIST</string>
+
+    <string name="search_tab_songs">LAGU</string>
+
+    <string name="search_tab_albums">ALBUM</string>
+
+    <string name="search_tab_accounts">AKAUN</string>
+
+    <string name="library_search_tab_favorites">KEGEMARAN</string>
+
+    <string name="library_search_tab_offline">LUAR TALIAN</string>
+
+    <string name="library_search_tab_playlists">PLAYLIST</string>
+
+    <string name="library_search_tab_uploads">MUAT NAIK</string>
+
+    <string name="cannot_refresh_token">Kami tidak dapat lagi mengakses akaun anda</string>
+
+    <string name="failed_refresh_token_title">Tidak dapat menyambung ke Audiomack</string>
+
+    <string name="failed_refresh_token_message">Tidak dapat menyambung ke Audiomack. Sila cuba lagi kemudian.</string>
+
+    <string name="failed_refresh_token_button">Okey</string>
+
+    <string name="generic_api_error">Masalah berlaku. Sila cuba sebentar lagi</string>
+
+    <string name="generic_error_occurred">Berlaku masalah</string>
+
+    <string name="feat">Memaparkan</string>
+
+    <string name="feat_inline">memaparkan</string>
+
+    <string name="by">Oleh</string>
+
+    <string name="ok">Okey</string>
+
+    <string name="imagepicker_message">Pilih imej dari</string>
+
+    <string name="imagepicker_camera">Kamera</string>
+
+    <string name="imagepicker_gallery">Galeri</string>
+
+    <string name="imagepicker_gallery_cancel">Batalkan</string>
+
+    <string name="options_play">Main</string>
+
+    <string name="options_download">Muat turun</string>
+
+    <string name="options_favorite">Kegemaran</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Ditambah semula</string>
+
+    <string name="options_share">Kongsi</string>
+
+    <string name="options_copy_link">Salin Pautan</string>
+
+    <string name="options_song_details">Butiran Lagu</string>
+
+    <string name="options_album_details">Butiran Album</string>
+
+    <string name="options_follow">Ikuti</string>
+
+    <string name="options_unfollow">Berhenti mengikuti</string>
+
+    <string name="options_artist_more">Lagi dari</string>
+
+    <string name="options_remove_from_queue">Keluarkan dari Barisan</string>
+
+    <string name="options_delete_download">Padamkan Muat Turun</string>
+
+    <string name="options_retry_download">Cuba Muat Turun Semula</string>
+
+    <string name="options_play_next">Main seterusnya</string>
+
+    <string name="options_add_to_queue">Tambah ke Barisan</string>
+
+    <string name="options_music_more_info">Maklumat lanjut</string>
+
+    <string name="options_delete_download_list">Padam dari senarai Muat Turun</string>
+
+    <string name="options_reorder_remove_tracks">Susun Semula / Keluarkan lagu</string>
+
+    <string name="options_edit_playlist_details">Sunting butiran playlist</string>
+
+    <string name="options_delete_playlist">Padamkan Playlist</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">Komen</string>
+
+    <string name="options_edit">Sunting</string>
+
+    <string name="options_cancel">Batalkan</string>
+
+    <string name="ad_ad">Iklan</string>
+
+    <string name="premium_cannot_find_product">Tidak dapat mencari produk yang diminta</string>
+
+    <string name="premium_device_not_allowed">Peranti ini tidak dibenarkan membuat pembayaran</string>
+
+    <string name="database_error_recreated">Maaf tetapi pangkalan data anda mengalami masalah. Kami mencipta semula pangkalan data sekarang, tetapi muzik luar talian anda perlu dimuat turun semula.</string>
+
+    <string name="database_error_lowstorage">Maaf, nampaknya peranti anda kehabisan memori. Kosongkan ruang dan cuba lagi.</string>
+
+    <string name="accessibility_playlists_all_categories">Semua Kategori</string>
+
+    <string name="accessibility_remove_ad">Buang iklan</string>
+
+    <string name="accessibility_song_info">Maklumat muzik</string>
+
+    <string name="accessibility_queue">Barisan</string>
+
+    <string name="accessibility_miniplayer_pager">Tatal pemain mini</string>
+
+    <string name="accessibility_download">Muat turun</string>
+
+    <string name="accessibility_choose_genre">Penapis</string>
+
+    <string name="accessibility_choose_period">Pilih tempoh</string>
+
+    <string name="accessibility_settings">Tetapan</string>
+
+    <string name="accessibility_show_hide_password">Tunjukkan/Sembunyikan kata laluan</string>
+
+    <string name="accessibility_close">Tutup</string>
+
+    <string name="accessibility_back">Tutup</string>
+
+    <string name="accessibility_actions">Tindakan</string>
+
+    <string name="accessibility_toggle_follow">Ikuti/Berhenti Ikuti</string>
+
+    <string name="accessibility_add_to_playlist">Tambahkan lagu ke playlist</string>
+
+    <string name="accessibility_share">Kongsi</string>
+
+    <string name="accessibility_player_seek">Penyental</string>
+
+    <string name="accessibility_player_prev">Lagu sebelumnya</string>
+
+    <string name="accessibility_player_next">Lagu seterusnya</string>
+
+    <string name="accessibility_player_play_pause">Main/Jeda</string>
+
+    <string name="accessibility_player_repeat">Togol mod ulangi</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">Minimumkan pemain</string>
+
+    <string name="accessibility_player_shuffle">Togol rombakan</string>
+
+    <string name="accessibility_artist_info">Maklumat artis</string>
+
+    <string name="accessibility_twitter">Twitter</string>
+
+    <string name="accessibility_facebook">Facebook</string>
+
+    <string name="accessibility_instagram">Instagram</string>
+
+    <string name="accessibility_youtube">Youtube</string>
+
+    <string name="accessibility_queue_create_playlist">Cipta playlist dari barisan</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">Tatal ke atas</string>
+
+    <string name="accessibility_song_image">Karya seni lagu</string>
+
+    <string name="accessibility_favorite">Kegemaran</string>
+
+    <string name="accessibility_repost">Menaikkan Semula</string>
+
+    <string name="accessibility_edit">Sunting</string>
+
+    <string name="accessibility_ad">Iklan</string>
+
+    <string name="accessibility_toast_image">Gambar roti bakar</string>
+
+    <string name="NSAppleMusicUsageDescription">Ciri ini memerlukan penggunaan perpustakaan media.</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">Audiomack ingin menyediakan data untuk peranti bluetooth berdekatan walaupun anda tidak menggunakan aplikasinya.</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">Audiomack ingin menyediakan data untuk peranti bluetooth berdekatan walaupun anda tidak menggunakan aplikasinya.</string>
+
+    <string name="NSCalendarsUsageDescription">Interaksi ini memerlukan akses kalendar.</string>
+
+    <string name="NSContactsUsageDescription">Ciri ini memerlukan penggunaan kenalan.</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Membolehkan Audiomack menunjukkan muzik popular di kawasan anda.</string>
+
+    <string name="NSLocationAlwaysUsageDescription">Membolehkan Audiomack menunjukkan muzik popular di kawasan anda.</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">Membolehkan Audiomack menunjukkan muzik popular di kawasan anda.</string>
+
+    <string name="NSMicrophoneUsageDescription">Ciri ini memerlukan penggunaan mikrofon.</string>
+
+    <string name="NSMotionUsageDescription">Ciri ini memerlukan penggunaan pergerakan.</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">Ciri ini memerlukan simpanan ke perpustakaan gambar.</string>
+
+    <string name="NSRemindersUsageDescription">Interaksi ini akan menambahkan peringatan.</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">Ciri ini memerlukan penggunaan pengecaman pertuturan.</string>
+
+    <string name="positive_upsell_message">NAIKTARAF KE AUDIOMACK PREMIUM UNTUK MEMBUANG IKLAN</string>
+
+    <string name="highlights_add">Sorotan</string>
+
+    <string name="highlights_remove">Keluarkan dari sorotan</string>
+
+    <string name="highlights_reached_limit_message">Anda mesti keluarkan sorotan untuk menambahkan yang lain</string>
+
+    <string name="highlights_reached_limit_edit">SUNTING SOROTAN</string>
+
+    <string name="highlights_reached_limit_cancel">Batalkan</string>
+
+    <string name="highlights_edit_title">SUNTING SOROTAN</string>
+
+    <string name="highlights_edit_subtitle">Anda boleh membuat sehingga empat (4) sorotan lagu, album atau playlist pada profil anda.</string>
+
+    <string name="highlights_edit_save">SIMPAN</string>
+
+    <string name="uploads_header_highlighted">DISOROT</string>
+
+    <string name="uploads_header_recent">MUATNAIK TERBARU</string>
+
+    <string name="uploads_highlighted_message">Ketik tiga titik di sebelah lagu, album, atau playlist dan pilih \'sorotan\' untuk menyematkannya ke bahagian atas profil anda</string>
+
+    <string name="toast_highlight_error">Kandungan ini tidak dapat disorotkan</string>
+
+    <string name="highlight_confirmation_title_template">%s kini disorotkan pada profil anda</string>
+
+    <string name="highlight_confirmation_message">Anda boleh membuat sehingga 4 sorotan lagu, album, atau playlist kegemaran anda di profil anda untuk dilihat oleh pendengar lain.</string>
+
+    <string name="highlight_confirmation_view">LIHAT PROFIL ANDA</string>
+
+    <string name="highlight_confirmation_close">Teruskan</string>
+
+    <string name="song">Lagu</string>
+
+    <string name="album">Album</string>
+
+    <string name="artist">Artis</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">Paparan Pod</string>
+
+    <string name="editplaylist_create_banner">Tambahkan gambar sepanduk</string>
+
+    <string name="download_delete_confirmation_title">Adakah anda pasti bahawa anda ingin memadamkan %s dari muat turun anda?</string>
+
+    <string name="download_delete_confirmation_yes">PADAMKAN</string>
+
+    <string name="download_delete_confirmation_no">Batalkan</string>
+
+    <string name="signup_email_placeholder">emaill\@domain.com</string>
+
+    <string name="signup_cta">DAFTAR</string>
+
+    <string name="signup_cant_login">Mengalami masalah mendaftar masuk? Hubungi Kami</string>
+
+    <string name="signup_cant_login_highlighted">Hubungi Kami</string>
+
+    <string name="signup_privacy_policy">Dasar Privasi</string>
+
+    <string name="signup_create_account_prompt">Kami tiada akaun yang padan dengan e-mel itu. Cipta akaun baru secara percuma.</string>
+
+    <string name="signup_create_account_prompt_highlighted">Cipta akaun baru secara percuma.</string>
+
+    <string name="signup_audiomack_header">DAFTAR MASUK KE AUDIOMACK</string>
+
+    <string name="signup_continue">TERUSKAN</string>
+
+    <string name="signup_with_email_prompt">ATAU DAFTAR/DAFTAR MASUK DENGAN E-MEL ANDA</string>
+
+    <string name="signup_troubles_alert_message">Masukkan e-mel anda untuk\nmenetapkan semula kata laluan anda:</string>
+
+    <string name="signup_troubles_alert_footer">Masih tidak boleh daftar masuk? Hubungi Kami</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">Hubungi Kami</string>
+
+    <string name="login_twitter_error_message">Daftar masuk dengan Twitter gagal</string>
+
+    <string name="login_google_error_message">Daftar masuk dengan Google gagal</string>
+
+    <string name="disconnect_social_alert_title">Adakah anda pasti bahawa anda ingin menyahsambung akaun sosial ini?</string>
+
+    <string name="disconnect_social_alert_yes">NYAHSAMBUNG</string>
+
+    <string name="disconnect_social_alert_no">Batalkan</string>
+
+    <string name="connect_social_twitter">Sambungkan akaun twitter anda</string>
+
+    <string name="connect_social_facebook">Sambungkan akaun facebook anda</string>
+
+    <string name="connect_social_instagram">Sambungkan akaun instagram anda</string>
+
+    <string name="connect_social_youtube">Sambungkan akaun youtube anda</string>
+
+    <string name="connect_social_popup_title_twitter">Senaraikan Twitter Anda</string>
+
+    <string name="connect_social_popup_title_instagram">Senaraikan Instagram Anda</string>
+
+    <string name="connect_social_popup_title_facebook">Senaraikan Facebook Anda</string>
+
+    <string name="connect_social_popup_title_youtube">Senaraikan Youtube Anda</string>
+
+    <string name="connect_social_popup_placeholder_twitter">nama pengguna</string>
+
+    <string name="connect_social_popup_placeholder_instagram">nama pengguna</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">TAMBAH</string>
+
+    <string name="connect_social_popup_clear">KOSONGKAN</string>
+
+    <string name="connect_social_popup_cancel">Batalkan</string>
+
+    <string name="playlist_delete_title_template">Padamkan playlist %s</string>
+
+    <string name="playlist_delete_no">Batalkan</string>
+
+    <string name="playlist_delete_yes">PADAMKAN</string>
+
+    <string name="playlist_delete_message">Adakah anda pasti? Perkara ini tidak boleh diubah</string>
+
+    <string name="search_related_title">Kami tiada muzik yang padan dengan %s</string>
+
+    <string name="search_related_subtitle">Berikut adalah beberapa artis serupa yang mungkin anda suka.</string>
+
+    <string name="search_filter">KEPUTUSAN PENAPIS</string>
+
+    <string name="search_filter_sort">DISUSUN MENGIKUT</string>
+
+    <string name="search_filter_popular">Paling Popular</string>
+
+    <string name="search_filter_recent">Yang Terbaru</string>
+
+    <string name="search_filter_relevant">Paling Berkaitan</string>
+
+    <string name="search_filter_verified_only">Disahkan Sahaja</string>
+
+    <string name="search_filter_genres">GENRE</string>
+
+    <string name="search_filter_refine">MENELITI CARIAN</string>
+
+    <string name="inapprating_alert_title">Nilaikan Audiomack</string>
+
+    <string name="inapprating_alert_message">Adakah anda fikir Audiomack adalah aplikasi 5 bintang?</string>
+
+    <string name="inapprating_alert_positive">YA</string>
+
+    <string name="inapprating_alert_negative">Tidak</string>
+
+    <string name="inapprating_alert_followup_title">Sokongan Audiomack</string>
+
+    <string name="inapprating_alert_followup_message">Maaf anda tidak menyukai aplikasi. Adakah anda ingin menghubungi sokongan supaya kami dapat membantu?</string>
+
+    <string name="inapprating_alert_followup_positive">YA</string>
+
+    <string name="inapprating_alert_followup_negative">Mungkin kemudian</string>
+
+    <string name="search_verified_account">AKAUN YANG DISAHKAN</string>
+
+    <string name="search_verified_playlist">PLAYLIST YANG DISAHKAN</string>
+
+    <string name="slideupmenu_music_added_by_template">Ditambahkan oleh %s</string>
+
+    <string name="slideupmenu_music_share_copylink">Salin Pautan</string>
+
+    <string name="slideupmenu_music_share_twitter">Twitter</string>
+
+    <string name="slideupmenu_music_share_facebook">Facebook</string>
+
+    <string name="slideupmenu_music_share_text">Melalui Teks</string>
+
+    <string name="slideupmenu_music_share_more">Lagi</string>
+
+    <string name="slideupmenu_music_cancel">Batalkan</string>
+
+    <string name="slideupmenu_music_add_to_downloads">Tambahkan ke muat turun</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">Keluarkan dari muat turun</string>
+
+    <string name="opensource_title">PERPUSTAKAAN SUMBER TERBUKA</string>
+
+    <string name="opensource_subtitle">Perpustakaan yang digunakan dalam aplikasi ini</string>
+
+    <string name="opensource_subsubtitle">Halaman ini memaparkan pemberitahuan atribusi untuk perisian pihak ketiga yang mungkin digunakan dalam aplikasi audiomack. Terima kasih!</string>
+
+    <string name="accessibility_comment">Komen</string>
+
+    <string name="accessibility_sort">Susun</string>
+
+    <string name="comments_write_prompt">Tulis komen awam ...</string>
+
+    <string name="comments_removed_comment">Komen ini telah dikeluarkan</string>
+
+    <string name="comments_comment_title">KOMEN</string>
+
+    <string name="comments_header_title">KOMEN</string>
+
+    <string name="comments_reply">BALAS</string>
+
+    <string name="comments_filter_top">Komen teratas</string>
+
+    <string name="comments_filter_newest">Terbaru dahulu</string>
+
+    <string name="comments_filter_oldest">Paling lama dahulu</string>
+
+    <string name="comments_delete_comment">Padamkan komen</string>
+
+    <string name="comments_flag_comment">Tandakan komen</string>
+
+    <string name="comments_share_comment">Kongsi komen</string>
+
+    <string name="comments_delete_alert_title">Adakah anda pasti bahawa anda ingin memadamkan komen ini?</string>
+
+    <string name="comments_delete_alert_confirm">PADAMKAN KOMEN</string>
+
+    <string name="comments_flag_alert_title">Adakah anda pasti?</string>
+
+    <string name="comments_flag_alert_subtitle">Hanya laporkan kandungan tidak senonoh atau spam.</string>
+
+    <string name="comments_flag_alert_confirm">LAPORKAN</string>
+
+    <string name="comments_alert_cancel">Batalkan</string>
+
+    <string name="comments_be_nice_title">Jadilah baik.</string>
+
+    <string name="comments_be_nice_subtitle">Ini komuniti anda. Milikinya.</string>
+
+    <string name="comments_be_nice_bullet_1">Tiada spam. Pautan tidak berfungsi di sini.</string>
+
+    <string name="comments_be_nice_bullet_2">Komen bukan untuk menjual muzik anda.</string>
+
+    <string name="comments_be_nice_bullet_3">Sekiranya anda bersifat perkauman, misoginistik, menyinggung perasaan, atau teruk, anda akan kehilangan hak untuk komen.</string>
+
+    <string name="comments_be_nice_continue">TERUSKAN</string>
+
+    <string name="comments_view_more_replies">LIHAT %s LAGI BALASAN</string>
+
+    <string name="comments_view_more_reply">LIHAT 1 LAGI BALASAN</string>
+
+    <string name="comments_expand">KEMBANGKAN</string>
+
+    <string name="comments_minimize">KECILKAN</string>
+
+    <string name="comments_commenting_on">Komen mengenai %s</string>
+
+    <string name="comments_placeholder_cta">JADI YANG PERTAMA UNTUK KOMEN</string>
+
+    <string name="artists_onboarding_title">Audiomack adalah untuk\nmenemui muzik baru.</string>
+
+    <string name="artists_onboarding_message">Mana antara artis di bawah ini yang anda ingin dengar?</string>
+
+    <string name="artists_onboarding_message_highlighted">artis di bawah</string>
+
+    <string name="artists_onboarding_button">DENGAR SEKARANG</string>
+
+    <string name="artists_onboarding_footer">Bawa saya ke lagu popular saja</string>
+
+    <string name="artists_onboarding_playlist_play_all">Main Semua</string>
+
+    <string name="artists_onboarding_playlist_pause">Jeda</string>
+
+    <string name="artists_onboarding_playlist_shuffle">Rombak</string>
+
+    <string name="artists_onboarding_select">PILIH ARTIS</string>
+
+    <string name="social_login_missing_email_title">Sila berikan e-mel yang sah untuk menyelesaikan penciptaan akaun.</string>
+
+    <string name="social_login_missing_email_placeholder">Alamat emel</string>
+
+    <string name="social_login_missing_email_cta">Hantar</string>
+
+    <string name="social_login_missing_email_cancel">Batalkan</string>
+
+    <string name="download_notification_title">Muat turun sedang dijalankan</string>
+
+    <string name="download_notification_message_template">dan %s yang lain</string>
+
+    <string name="player_extra_comments">Komen</string>
+
+    <string name="player_extra_info">Maklumat</string>
+
+    <string name="player_extra_more_from_artist">Lagi dari Artis</string>
+
+    <string name="player_extra_comments_count_plural">%s Komen</string>
+
+    <string name="player_extra_comments_count_singular">%s Komen</string>
+
+    <string name="player_extra_rankings">Kedudukan</string>
+
+    <string name="player_extra_rankings_daily">Hari Ini</string>
+
+    <string name="player_extra_rankings_weekly">Minggu Ini</string>
+
+    <string name="player_extra_rankings_monthly">Bulan Ini</string>
+
+    <string name="player_extra_rankings_all">Sepanjang Masa</string>
+
+    <string name="player_extra_more_from_artist_template">Lagi dari %s</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">LAWAT PROFIL</string>
+
+    <string name="player_extra_artist_followers_plural">%s Pengikut</string>
+
+    <string name="player_extra_artist_followers_singular">%s Pengikut</string>
+
+    <string name="player_extra_offline_placeholder_title">Anda di luar talian</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">Semak status internet anda atau cuba lagi di bawah</string>
+
+    <string name="player_extra_offline_placeholder_cta">Cuba lagi</string>
+
+    <string name="filters_title_chart">TAPIS CARTA</string>
+
+    <string name="filters_section_genre">TAPIS MELALUI GENRE:</string>
+
+    <string name="filters_section_timeframe">TAPIS MELALUI GARIS MASA:</string>
+
+    <string name="filters_section_timeframe_today">Hari ini</string>
+
+    <string name="filters_section_timeframe_week">Minggu ini</string>
+
+    <string name="filters_section_timeframe_month">Bulan ini</string>
+
+    <string name="filters_section_timeframe_year">Tahun ini</string>
+
+    <string name="filters_section_timeframe_alltime">Sepanjang Masa</string>
+
+    <string name="filters_section_view">PAPARAN MENGIKUT:</string>
+
+    <string name="filters_section_view_list">Paparan Senarai</string>
+
+    <string name="filters_section_view_tile">Paparan Jubin</string>
+
+    <string name="filters_cta">PENAPIS</string>
+
+    <string name="chromecast_device_default_name">Peranti chromecast tidak dikenali</string>
+
+    <string name="airplay_devices">Peranti mainan udara</string>
+
+    <string name="cast_menu_disconnect">Nyahsambung dari %s</string>
+
+    <string name="cast_unavailable">Tidak dapat menggunakan Chromecast</string>
+
+    <string name="notif_login_required">Daftar masuk diperlukan</string>
+
+    <string name="notif_login_favorite">Tidak dapat menambahkan lagu ke kegemaran anda</string>
+
+    <string name="notif_login_repost">Tidak dapat menaikkan semula lagu</string>
+
+    <string name="feat_x">%1$s memaparkan. %2$s</string>
+
+    <string name="contact_title_text">Tidak boleh daftar masuk?</string>
+
+    <string name="contact_subtitle_text">Beritahu kami lebih lanjut mengenai masalah ini dan kami akan memberi maklumbalas kepada anda secepat mungkin.</string>
+
+    <string name="contact_what_title_text">Adakah anda cuba daftar masuk atau mendaftar?</string>
+
+    <string name="contact_how_title_text">Bagaimana anda cuba daftar masuk / mendaftar?</string>
+
+    <string name="contact_when_title_text">Bilakah kali terakhir anda daftar masuk?</string>
+
+    <string name="contact_email_title_text">Apakah e-mel yang anda mahu kami hubungi?</string>
+
+    <string name="contact_can_title_text">Bolehkah anda memberitahu kami apa-apa lagi yang berlaku semasa anda cuba daftar masuk atau mendaftar?</string>
+
+    <string name="contact_selection_what_login">Daftar masuk</string>
+
+    <string name="contact_selection_what_signup">Mendaftar</string>
+
+    <string name="contact_selection_how_google">Google</string>
+
+    <string name="contact_selection_how_twitter">Twitter</string>
+
+    <string name="contact_selection_how_facebook">Facebook</string>
+
+    <string name="contact_selection_how_email">E-mel</string>
+
+    <string name="contact_selection_when_today">Hari ini</string>
+
+    <string name="contact_selection_when_last_week">Pada minggu terakhir</string>
+
+    <string name="contact_selection_when_last_month">Pada bulan terakhir</string>
+
+    <string name="contact_selection_when_dont_remember">Saya tidak ingat</string>
+
+    <string name="contact_selection_required">*Wajib</string>
+
+    <string name="contact_selection_select">Sila pilih</string>
+
+    <string name="contact_selection_enter">Masukkan teks di sini</string>
+
+    <string name="contact_selection_send">HANTAR</string>
+
+    <string name="contact_time_limit_error">Tiket sokongan anda telah difailkan. Sila tunggu pasukan sokongan kami untuk membalas sebelum menghantar tiket baru.</string>
+
+    <string name="contact_send_success">Tiket sokongan anda telah difailkan. Sila tunggu pasukan sokongan kami membalas.</string>
+
+    <string name="album_play">Mainkan Album</string>
+
+    <string name="album_pause">Jeda Album</string>
+
+    <string name="playlist_play">Main Playlist</string>
+
+    <string name="playlist_pause">Jeda Playlist</string>
+
+    <string name="slideupmenu_music_trophies">Piala</string>
+
+    <string name="screenshot_now_playing">#BERMAINSEKARANG</string>
+
+    <string name="screenshot_toast_title">Tangkap skrin halaman ini dan kongsi.</string>
+
+    <string name="screenshot_toast_subtitle">Leret ke bawah untuk menutup.</string>
+
+    <string name="highlights_highlighted">Disorotkan</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">Pemegang hak belum menyediakannya di kawasan anda.</string>
+
+    <string name="georestriction_alert_delete">Padamkan</string>
+
+    <string name="settings_notifications">Pemberitahuan</string>
+
+    <string name="notifications_manager_new_song_album">Pemberitahuan lagu/album baru</string>
+
+    <string name="notifications_manager_weekly_artist_reports">Laporan artis mingguan</string>
+
+    <string name="notifications_manager_song_album_benchmarks">Penanda aras lagu/album</string>
+
+    <string name="notifications_manager_everyone">SEMUA ORANG</string>
+
+    <string name="notifications_manager_artists">ARTIS</string>
+
+    <string name="notifications_manager_title">PEMBERITAHUAN</string>
+
+    <string name="billing_issue_subscribed">ISU PEMBILAN: KEMASKINI MAKLUMAT PEMBAYARAN ANDA UNTUK MENGEKALKAN PREMIUM</string>
+
+    <string name="billing_issue_unsubscribed">MASALAH PEMBILAN: KEMASKINI MAKLUMAT PEMBAYARAN ANDA UNTUK MENGEMBALIKAN PREMIUM</string>
+
+    <string name="comments_count_template">%s Komen</string>
+
+    <string name="permissions_rationale_alert_instagram_message">Fungsi ini memerlukan supaya Instagram mempunyai semua kebenaran yang diperlukan. Sila dayakan kebenaran ini.</string>
+
+    <string name="premium_start_trial_ios">Mulakan percubaan 7 Hari Percuma</string>
+
+    <string name="premium_price_template_ios">%s sebulan</string>
+
+    <string name="comments_try_add_later">Cuba tambah komen anda lagi kemudian</string>
+
+    <string name="comments_try_load_later">Sila muatkan komen sekali lagi kemudian</string>
+
+    <string name="comments_try_later_connection">Sila cuba sebentar lagi apabila anda mempunyai sambungan yang lebih baik</string>
+
+    <string name="please_try_again_later">Sila cuba sebentar lagi</string>
+
+    <string name="please_check_connection_try_again">Sila semak sambungan anda dan cuba lagi</string>
+
+    <string name="please_try_request_later">Sila cuba permintaan anda lagi kemudian</string>
+
+    <string name="please_login_again">Sila daftar masuk semula</string>
+
+    <string name="please_restart_app">Cuba mulakan semula aplikasi</string>
+
+    <string name="player_file_no_connection">Anda tiada akses internet</string>
+
+    <string name="please_check_connection_try_download_again">Sila semak sambungan anda dan cuba semula muat turun ini</string>
+
+    <string name="home_tab_browse_experiment">Temui</string>
+
+    <string name="no_browser_installed">Tindakan ini tidak dapat dilakukan, pastikan anda memasang pelayar pada peranti anda</string>
+
+    <string name="billing_issue_avoid_losing_premium">Sila kemaskini maklumat pembilan anda untuk mengelakkan kehilangan premium</string>
+
+    <string name="billing_issue_restore_premium">Manfaat premium anda telah tamat. Sila kemaskini maklumat pembilan anda untuk memulihkannya.</string>
+
+    <string name="billing_issue_alert_header">Nampaknya ada masalah dengan kaedah pembayaran anda</string>
+
+    <string name="billing_issue_no_thanks">Tidak, Terima Kasih</string>
+
+    <string name="billing_issue_update_info">Kemaskini Maklumat</string>
+
+    <string name="social_link_error_already_linked_title">Akaun ini sudah disambungkan kepada pengguna di Audiomack</string>
+
+    <string name="social_link_error_already_linked_message_instagram">Cuba pautkan akaun Instagram yang lain.</string>
+
+    <string name="social_link_error_already_linked_message_twitter">Cuba pautkan akaun Twitter yang lain.</string>
+
+    <string name="trending_search_song">LAGU</string>
+
+    <string name="trending_search_album">ALBUM</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">AKAUN</string>
+
+    <string name="login_apple_error_message">Daftar masuk dengan Apple gagal</string>
+
+    <string name="benchmark_image_description">Imej tanda aras</string>
+
+    <string name="benchmark_trophies_title">Piala</string>
+
+    <string name="benchmark_hide">SEMBUNYIKAN</string>
+
+    <string name="benchmark_now">SEKARANG</string>
+
+    <string name="benchmark_playing">BERMAIN</string>
+
+    <string name="benchmark_million">%d JUTA</string>
+
+    <string name="benchmark_billion">%d BILION</string>
+
+    <string name="benchmark_play">MAINAN</string>
+
+    <string name="benchmark_favorite">KEGEMARAN</string>
+
+    <string name="benchmark_playlist">TAMBAHAN PLAYLIST</string>
+
+    <string name="benchmark_repost">RE-UP</string>
+
+    <string name="benchmark_verified">DISAHKAN</string>
+
+    <string name="benchmark_artist">ARTIS</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Messenger</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">Fungsi ini memerlukan anda mendaftar masuk ke Messenger</string>
+
+    <string name="notifications_verb_benchmark">tekan saja</string>
+
+    <string name="notifications_verb_benchmark_your_song">Lagu anda</string>
+
+    <string name="notifications_verb_benchmark_your_album">Album anda</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">Playlist anda</string>
+
+    <string name="premium_download_toast">Aktifkan premium untuk merombak lagu yang terkunci.</string>
+
+    <string name="premium_download_downloaded">Dimuat turun</string>
+
+    <string name="premium_download_standard_message">baki muat turun premium percuma.</string>
+
+    <string name="premium_download_upgrade">NAIKTARAF</string>
+
+    <string name="premium_download_reached_limit">Anda telah mencapai had muat turun premium percuma anda.</string>
+
+    <string name="premium_download_large_header">Anda memuat turun kandungan premium</string>
+
+    <string name="premium_download_large_subheader">Akaun percuma anda disertakan dengan %d Muat Turun Premium.</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d premium percuma</string>
+
+    <string name="premium_download_plain_remaining">baki muat turun.</string>
+
+    <string name="premium_download_upgrade_header">Naik taraf sekarang ke premium dan dapatkan:</string>
+
+    <string name="premium_download_upgrade_first_point">Muat turun premium tanpa had</string>
+
+    <string name="premium_download_upgrade_second_point">Pengalaman Tanpa Iklan</string>
+
+    <string name="premium_download_upgrade_third_point">Penstriman berkualiti tinggi</string>
+
+    <string name="premium_download_upgrade_fourth_point">Kawalan penyamaan</string>
+
+    <string name="premium_download_upgrade_fifth_point">dan banyak lagi!</string>
+
+    <string name="premium_download_upgrade_button">Naiktaraf sekarang</string>
+
+    <string name="premium_download_learn_more_left">Ketahui lebih lanjut mengenai</string>
+
+    <string name="premium_download_learn_more_right">kandungan premium.</string>
+
+    <string name="premium_download_large_header_second">Ketahui lebih lanjut mengenai muat turun premium</string>
+
+    <string name="premium_download_replace_header">GANTI MUAT TURUN</string>
+
+    <string name="premium_download_replace_single_subheader">Pilih lagu untuk diganti.</string>
+
+    <string name="premium_download_replace_multiple_subheader">Pilih %d lagu untuk diganti.</string>
+
+    <string name="premium_download_replace_button">PILIH %s (%d)</string>
+
+    <string name="premium_download_replace_button_selected">BUANG (%d) &amp; MUAT TURUN</string>
+
+    <string name="premium_download_replace_button_text_one">SATU</string>
+
+    <string name="premium_download_replace_button_text_two">DUA</string>
+
+    <string name="premium_download_replace_button_text_three">TIGA</string>
+
+    <string name="premium_download_replace_button_text_four">EMPAT</string>
+
+    <string name="premium_download_replace_button_text_five">LIMA</string>
+
+    <string name="premium_download_replace_button_text_six">ENAM</string>
+
+    <string name="premium_download_replace_button_text_seven">TUJUH</string>
+
+    <string name="premium_download_replace_button_text_eight">LAPAN</string>
+
+    <string name="premium_download_replace_button_text_nine">SEMBILAN</string>
+
+    <string name="premium_download_replace_button_text_ten">SEPULUH</string>
+
+    <string name="premium_download_replace_button_text_eleven">SEBELAS</string>
+
+    <string name="premium_download_replace_button_text_twelve">DUA BELAS</string>
+
+    <string name="premium_download_replace_button_text_thirteen">TIGA BELAS</string>
+
+    <string name="premium_download_replace_button_text_fourteen">EMPAT BELAS</string>
+
+    <string name="premium_download_replace_button_text_fifteen">LIMA BELAS</string>
+
+    <string name="premium_download_replace_button_text_sixteen">ENAM BELAS</string>
+
+    <string name="premium_download_replace_button_text_seventeen">TUJUH BELAS</string>
+
+    <string name="premium_download_replace_button_text_eighteen">LAPAN BELAS</string>
+
+    <string name="premium_download_replace_button_text_nineteen">SEMBILAN BELAS</string>
+
+    <string name="premium_download_replace_button_text_twenty">DUA PULUH</string>
+
+    <string name="premium_download_replace_full_album_button">PILIH (%d) UNTUK MUAT TURUN</string>
+
+    <string name="premium_download_alert_exceed_limit_title">Album penuh ini hanya boleh dimuat turun sepenuhnya oleh Pengguna Premium.</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">Anda masih boleh memuat turun lagu individu.</string>
+
+    <string name="premium_download_alert_upgrade">Naik taraf ke Premium</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">Batalkan</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">Kandungan ini melebihi had muat turun premium anda.</string>
+
+    <string name="offline_filter_button">PENAPIS</string>
+
+    <string name="offline_filter_files_description">Kerana lagu-lagu ini terikat kepada peranti anda, lagu tersebut tidak dapat digemari, dinaikkan kembali, disorot, disenaraikan, atau dikongsi.</string>
+
+    <string name="offline_filter_files_scan">Dengar lagu yang disimpan secara tempatan ke peranti anda dalam aplikasi</string>
+
+    <string name="offline_filter_files_switch">Sertakan fail tempatan</string>
+
+    <string name="offline_filter_previous_downloads">LIHAT MUAT TURUN SEBELUMNYA</string>
+
+    <string name="offline_filter_section_type">TAPIS MENGIKUT JENIS:</string>
+
+    <string name="offline_filter_section_order">TAPIS MENGIKUT SUSUNAN:</string>
+
+    <string name="offline_filter_section_files">FAIL TEMPATAN:</string>
+
+    <string name="offline_filter_title">PENAPIS DILUAR TALIAN</string>
+
+    <string name="signup_error_min_age">Anda mesti berumur sekurang-kurangnya 13 tahun untuk menggunakan aplikasi ini</string>
+
+    <string name="report_content">Laporkan Kandungan</string>
+
+    <string name="report_content_done">Kandungan telah dilaporkan</string>
+
+    <string name="block_user">Sekat Pengguna</string>
+
+    <string name="block_user_done">Permintaan laporan/sekatan dihantar</string>
+
+    <string name="confirm_report_done">Permintaan laporan/sekatan anda akan berkuatkuasa dalam 24 jam yang akan datang</string>
+
+    <string name="confirm_report_alert_title">Sila jelaskan isu</string>
+
+    <string name="confirm_report_report_alert_message">Pilih huraian terbaik untuk tujuan laporan/sekatan ini</string>
+
+    <string name="confirm_report_alert_submit">HANTAR</string>
+
+    <string name="confirm_report_alert_option_violent">Ini adalah kandungan visual atau audio yang ganas / berunsur lucah</string>
+
+    <string name="confirm_report_alert_option_broken">Kandungan ini tidak distrim atau dimuat turun</string>
+
+    <string name="confirm_report_alert_option_misleading">Kandungan ini mengelirukan atau disalah label</string>
+
+    <string name="confirm_report_alert_option_spam">Akaun ini terlibat dalam spam atau gangguan</string>
+
+    <string name="confirm_report_alert_option_infringement">Saya percaya ini adalah pelanggaran hak cipta</string>
+
+    <string name="confirm_bis_report_alert_title">Adakah anda pasti bahawa anda ingin menghantar notis sekatan/laporan ini?</string>
+
+    <string name="confirm_bis_report_alert_yes">Ya</string>
+
+    <string name="confirm_bis_report_alert_cancel">TIDAK, SAYA TIDAK MAHU</string>
+
+    <string name="benchmark_tastemaker">PENCIPTA RASA</string>
+
+    <string name="benchmark_authenticated">BERKUASA</string>
+
+    <string name="download_restore_backup_fail">Tidak dapat memulihkan muat turun dari peranti sebelumnya</string>
+
+    <string name="download_restore_backup_success">Berjaya memulihkan muat turun dari peranti sebelumnya</string>
+
+    <string name="download_restore_prompt">Adakah anda ingin memulihkan %d Muat Turun dari peranti anda yang sebelumnya?</string>
+
+    <string name="download_restore_prompt_yes">YA</string>
+
+    <string name="download_restore_prompt_no">TIDAK</string>
+
+    <string name="download_restore_no_wifi_prompt">Muat turun akan dimulakan sebaik sahaja anda disambungkan ke WiFi</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">OKEY</string>
+
+    <string name="in_app_update_ios_title">Kemaskini Tersedia</string>
+
+    <string name="in_app_update_ios_message">Versi baru Audiomack tersedia. Sila kemaskini sekarang.</string>
+
+    <string name="in_app_update_ios_option_update">Kemaskini</string>
+
+    <string name="in_app_update_ios_option_next_time">Lain kali</string>
+
+    <string name="in_app_update_downloaded_title">Kemaskini untuk aplikasi ini baru sahaja dimuat turun</string>
+
+    <string name="in_app_update_downloaded_restart">MULAKAN SEMULA</string>
+
+    <string name="in_app_update_downloaded_cancel">Batalkan</string>
+
+    <string name="in_app_update_download_started">Muat turun kemaskini aplikasi telah dimulakan</string>
+
+    <string name="comments_view_all">Lihat Semua Komen</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">Pilih piala, kemudian buat tangkapan skrin untuk dikongsi</string>
+
+    <string name="search_authenticated_account">AKAUN YANG DISAHKAN</string>
+
+    <string name="search_tastemaker_account">AKAUN TASTEMAKER</string>
+
+    <string name="playlists_filter_pill_favorited">KEGEMARAN</string>
+
+    <string name="offline_remove_title">PELBAGAI PILIHAN KELUARKAN SECARA LUAR TALIAN</string>
+
+    <string name="offline_remove_button">KELUARKAN DARI LUAR TALIAN</string>
+
+    <string name="download_delete_slide">Padamkan</string>
+
+    <string name="options_play_next_list">Main Seterusnya</string>
+
+    <string name="slideupmenu_music_share_instagram">Cerita Instagram</string>
+
+    <string name="notifications_playlists_bundle_verb">telah ditambahkan ke</string>
+
+    <string name="notifications_playlists_bundle_suffix">anda mengikuti</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs">%d lagu baru</string>
+
+    <string name="audio_ad_now_playing_info_title">Iklan Audio</string>
+
+    <string name="audio_ad_advertisement">IKLAN:</string>
+
+    <string name="audio_ad_support_artists">Iklan menyokong artis dan pencipta di Audiomack.</string>
+
+    <string name="audio_ad_upgrade_premium">Naik taraf ke premium untuk mengeluarkan semua iklan</string>
+
+    <string name="audio_ad_now_playing_info_artist">Kandungan anda akan bermula dalam %d saat...</string>
+
+    <string name="downloadmessage_button_premium_downloads">Pergi ke Muzik Luar Talian</string>
+
+    <string name="benchmark_next_milestone">Seterusnya: %s</string>
+
+    <string name="benchmark_on_audiomack">PADA AUDIOMACK</string>
+
+    <string name="settings_sleep_timer">Pemasa Tidur</string>
+
+    <string name="sleep_timer_alert_title">Berapa lama anda mahu muzik dimainkan?</string>
+
+    <string name="sleep_timer_alert_button">TETAPKAN PEMASA</string>
+
+    <string name="sleep_timer_alert_hours">jam</string>
+
+    <string name="sleep_timer_alert_hour">jam</string>
+
+    <string name="sleep_timer_alert_minutes">min</string>
+
+    <string name="browse_tab_world">DUNIA</string>
+
+    <string name="premium_2019_sleep_timer">Pemasa Tidur</string>
+
+    <string name="premium_2019_sleep_timer_desc">Tetapkan pemasa untuk menghentikan audio supaya anda dapat tidur tanpa menjalankan aplikasi sepanjang malam</string>
+
+    <string name="signup_gender_birthday_information_header">Lengkapkan profil anda</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">Untuk maklumat lebih lanjut, sila lihat Syarat Perkhidmatan dan Dasar Privasi kami</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">Komen anda mengenai</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">mendapatnya</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">%d undian baik ke</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">undian baik ke %d.</string>
+
+    <string name="premium_download_large_subheader_second_song">Naiktaraf atau buang satu muat turun premium untuk memuat turun lagu ini</string>
+
+    <string name="notifications_playlists_bundle_verb_single">telah ditambahkan ke</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d LAGU</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d PLAYLIST</string>
+
+    <string name="notifications_playlists_new_songs_single">%d lagu baru</string>
+
+    <string name="audio_ad_notif_title">Iklan</string>
+
+    <string name="playlists_filter_my">PLAYLIST SAYA</string>
+
+    <string name="playlists_filter_favorited">KEGEMARAN</string>
+
+    <string name="playlists_filter_offline">LUAR TALIAN-SAHAJA</string>
+
+    <string name="filters_section_type">TAPIS MENGIKUT JENIS:</string>
+
+    <string name="musicinfo_runtime_title">Masa Jalan:</string>
+
+    <string name="musicinfo_runtime_value">%s minit, %d lagu</string>
+
+    <string name="premium_2019_advanced">Ciri maju</string>
+
+    <string name="premium_2019_start_trial">Mulakan percubaan percuma 7-Hari anda</string>
+
+    <string name="favorites_filter_title">TAPIS KEGEMARAN</string>
+
+    <string name="accessibility_multiselect">Pelbagai pilihan</string>
+
+    <string name="accessibility_premium_download">Muat turun premium</string>
+
+    <string name="search_playlist_total_songs">Jumlah Lagu:</string>
+
+    <string name="restore_downloads_prompt_title_plural">Adakah anda ingin memulihkan muat turun %d dari peranti anda yang sebelumnya?</string>
+
+    <string name="restore_downloads_prompt_title_singular">Adakah anda ingin memulihkan muat turun %d dari peranti anda yang sebelumnya?</string>
+
+    <string name="restore_downloads_dialog_positive">PULIHKAN SEMUA MUAT TURUN</string>
+
+    <string name="restore_downloads_dialog_negative">Pilih muat turun untuk dipulihkan</string>
+
+    <string name="restore_downloads_error">Tidak dapat memulihkan muat turun</string>
+
+    <string name="restore_downloads_started">Memulihkan muat turun</string>
+
+    <string name="restore_downloads_queued">Muat turun akan dimulakan sebaik sahaja anda disambungkan ke WiFi</string>
+
+    <string name="premium_2019_premiumdownloads">Muat Turun Tanpa Had</string>
+
+    <string name="premium_2019_premiumdownloads_desc">Muat turun tanpa had semua benda di audiomack</string>
+
+    <string name="premium_only_downloads_alert_title">Muat turun ini adalah premium.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">Terdapat berjuta-juta muat turun percuma di audiomack tetapi artis telah menyediakan muat turun ini hanya untuk pelanggan premium.</string>
+
+    <string name="premium_only_downloads_alert_yes">NAIKTARAF</string>
+
+    <string name="premium_only_downloads_alert_no">Batalkan</string>
+
+    <string name="notifications_manager_play_milestones">Main pencapaian</string>
+
+    <string name="notifications_manager_upvote_milestones">Naik taraf pencapaian</string>
+
+    <string name="notifications_manager_comment_replies">Balasan komen</string>
+
+    <string name="local_player_granted_alert_title">Main fail tempatan</string>
+
+    <string name="local_player_granted_alert_message">Anda mempunyai %d fail muzik yang disimpan secara tempatan ke peranti anda. Adakah anda ingin mengakses lagu-lagu ini dari Audiomack?\n\nCatatan: Kerana fail tempatan hanya berada di peranti anda, file tersebut tidak dapat dikongsikan, re-up, digemari, disorot, atau ditambahkan ke playlist.</string>
+
+    <string name="local_player_granted_alert_positive">TAMBAHKAN</string>
+
+    <string name="local_player_granted_alert_negative">Batalkan</string>
+
+    <string name="local_player_ungranted_alert_title">Main fail tempatan</string>
+
+    <string name="local_player_ungranted_alert_message">Adakah fail muzik disimpan di telefon anda? Kini anda dapat mendengarnya di Audiomack sama seperti muzik strim anda. Ketik \"Tambah\" di bawah untuk mula!\n\nCatatan: Kerana fail tempatan hanya berada pada peranti anda, fail tersebut tidak dapat dikongsikan, re-up, digemari, disorot, atau ditambahkan ke playlist.</string>
+
+    <string name="local_player_declined_alert_title">Tambahkan fail tempatan</string>
+
+    <string name="local_player_declined_alert_message">Dengar semua fail audio yang disimpan pada peranti anda di Audiomack</string>
+
+    <string name="local_player_declined_alert_positive">TAMBAHKAN</string>
+
+    <string name="queue_clear_all">Kosongkan semua</string>
+
+    <string name="queue_clear_upcoming">Kosongkan Seterusnya</string>
+
+    <string name="queue_save_playlist">Simpan ke Playlist</string>
+
+    <string name="premium_only_downloads_stream_alert_title">Ini adalah muat turun premium sahaja</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">Naiktaraf akaun anda supaya kandungan di aplikasi tersedia untuk didengar di luar talian.</string>
+
+    <string name="articles_noresults_placeholder">Tiada artikel dijumpai.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s minit, %d lagu</string>
+
+    <string name="premium_limited_reached_limit_alert_title">Anda tiada muat turun premium yang mencukupi</string>
+
+    <string name="premium_limited_reached_limit_alert_message">Naiktaraf ke premium untuk muat turun tanpa had atau ganti muat turun lama untuk mengosongkan ruang.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">MULAKAN PERCUBAAN PREMIUM PERCUMA</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">GANTIKAN DAN MUAT TURUN</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">Ketahui lebih lanjut mengenai kandungan premium.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">kandungan premium.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">Anda kehabisan muat turun premium.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">Untuk bermain, naiktaraf ke premium atau gantikan %d muat turun premium anda.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">NAIK TARAF KE PREMIUM</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">GANTIKAN DAN BUKA KUNCI</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">Saya ingin menstrimkannya.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">strimkannya sebaliknya.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">Padamkan dari luar talian</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">Anda kehabisan muat turun premium.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">Untuk memuat turun, naik taraf ke premium atau gantikan %d muat turun premium anda.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">NAIK TARAF KE PREMIUM</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">GANTIKAN DAN BUKA KUNCI</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">Saya ingin menstrimkannya.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">strimkannya sebaliknya.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">Padamkan dari luar talian</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">Buka kunci muat turun ini?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">Anda boleh menggunakan %d baki muat turun premium anda untuk membukanya.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">NAIK TARAF KE PREMIUM</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">BUKA KUNCI</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">Saya ingin menstrimkannya.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">strimkannya sebaliknya.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">Padamkan dari luar talian</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">Langgani untuk Buka Kunci.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">Terdapat jutaan muat turun percuma di Audiomack tetapi muat turun ini hanya dapat diakses oleh pengguna premium.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">NAIK TARAF KE PREMIUM</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">Saya ingin menstrimkannya.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">strimkannya sebaliknya.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">Padamkan dari luar talian</string>
+
+    <string name="restore_downloads_dialog_select">Pilih muat turun untuk dipulihkan</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">pulihkan</string>
+
+    <string name="search_recommendations">DISYORKAN UNTUK ANDA</string>
+
+    <string name="settings_premium_status">Status Premium</string>
+
+    <string name="settings_premium_status_no_override">Tiada penggantian</string>
+
+    <string name="settings_premium_status_free">Percuma</string>
+
+    <string name="settings_premium_status_premium">Premium</string>
+
+    <string name="settings_premium_status_free_billing_issue">Percuma dengan pemberian bil</string>
+
+    <string name="settings_premium_status_premium_billing_issue">Premium dengan pemberian bil</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d lagu baru</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">telah ditambahkan ke</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d lagu</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d playlist</string>
+
+    <string name="premium_limited_download_unlock_toast">%s Dibuka Kunci</string>
+
+    <string name="notifications_follow_alert_title">Dapatkan pemberitahuan apabila\nartis ini mengeluarkan\nmuzik baru?</string>
+
+    <string name="notifications_follow_alert_positive">IZINKAN PEMBERITAHUAN TOLAK</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">Padamkan dari luar talian</string>
+
+    <string name="email_verification_toast_success">Terima kasih kerana mengesahkan e-mel anda!</string>
+
+    <string name="email_verification_toast_failure">Pengesahan e-mel gagal</string>
+
+    <string name="sleep_timer_stop_today">Main balik akan berhenti pada %s</string>
+
+    <string name="sleep_timer_stop_tomorrow">Main balik akan berhenti esok pada %s</string>
+
+    <string name="sleep_timer_triggered">Pemasa tidur selesai</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">Dapatkan pemberitahuan apabila artis ini mengeluarkan muzik baru?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">IZINKAN PEMBERITAHUAN TOLAK</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">Batalkan</string>
+
+    <string name="notifications_manager_push_off_title">Pemberitahuan tolak dinyahdayakan</string>
+
+    <string name="notifications_manager_push_off_message_ios">Untuk dayakan, pergi:\nTetapan iPhone &gt; Pemberitahuan &gt; Audiomack</string>
+
+    <string name="notifications_manager_push_off_message_android">Untuk mengaktifkan, pergi:\nTetapan Peranti &gt; Aplikasi &amp; Pemberitahuan &gt; Audiomack &gt; Pemberitahuan</string>
+
+    <string name="sleep_timer_notification_button">PERGI</string>
+
+    <string name="sleep_timer_notification_title">Buka kunci Pemasa Tidur Premium</string>
+
+    <string name="sleep_timer_notification_subtitle">Tetapkan dalam tetapan supaya anda dapat tidur tanpa menjalankan aplikasi sepanjang malam</string>
+
+    <string name="sleep_timer_notification_premium_title">Anda Membuka Kunci Pemasa Tidur</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">Tetapkan dalam tetapan untuk menghentikan audio anda setelah anda tidur</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack menggunakan rangkaian tempatan untuk menemui peranti yang didayakan Cast pada rangkaian WiFi anda.</string>
+
+    <string name="notifications_manager_verified_playlist">Tambahan senarai main yang disahkan</string>
+
+    <string name="world_articles_not_found">Tiada artikel dijumpai.</string>
+
+    <string name="world_article_detail_not_found">Tiada artikel dijumpai.</string>
+
+    <string name="accessibility_world_logo">Logo dunia</string>
+
+    <string name="splash_message_single">Untuk memberikan pengalaman terbaik, kami meminta anda mendayakan kebenaran berikut:</string>
+
+    <string name="splash_location_message_new">Paparkan muzik popular di kawasan anda, carta arah aliran dan carian tempatan</string>
+
+    <string name="accessibility_logo">Ikon Audiomack</string>
+
+    <string name="widget_gallery_title">Tekan main</string>
+
+    <string name="widget_gallery_subtitle">Dengar lagu simpanan kegemaran anda yang terkini</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">Lagu ini hanya untuk premium</string>
+
+    <string name="premium_only_streaming_alert_message">Dapatkan Audiomack premium untuk menstrimkan trek di platform, termasuk muat turun tanpa had dan banyak lagi!</string>
+
+    <string name="premium_only_streaming_alert_premium">Dapatkan premium</string>
+
+    <string name="premium_only_streaming_alert_cancel">Batalkan</string>
+
+    <string name="toast_play_album_deleted_tracks_header">Bukan semua lagu ini dimuat turun</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">Untuk menyimpan data, hanya lagu di luar talian akan berada dalam barisan</string>
+
+    <string name="feed_suggested_accounts">Akaun Yang Dicadangkan</string>
+
+    <string name="feed_suggested_accounts_view_all">Lihat Semua</string>
+
+    <string name="feed_new_music_description">Muzik baru dari orang yang anda ikuti akan muncul di sini.</string>
+
+    <string name="feed_follow_suggested_description">Anda boleh bermula dengan mengikuti beberapa artis yang dicadangkan di atas.</string>
+
+    <string name="feed_social_feed">Suapan Sosial</string>
+
+    <string name="NSPhotoLibraryUsageDescription">Kami memerlukan akses ke perpustakaan foto anda untuk memilih gambar yang akan digunakan pada profil anda.</string>
+
+    <string name="NSCameraUsageDescription">Kami memerlukan akses kepada kamera untuk mengambil gambar bagi digunakan pada profil anda.</string>
+
+    <string name="settings_change_password">Tukar kata laluan</string>
+
+    <string name="update_password_success">Kata laluan berjaya dikemas kini!</string>
+
+    <string name="update_password_title">KEMASKINI KATA LALUAN</string>
+
+    <string name="update_password_current">Kata laluan semasa</string>
+
+    <string name="update_password_new">Kata laluan baharu</string>
+
+    <string name="update_password_confirm">Sahkan kata laluan</string>
+
+    <string name="update_password_forgot">Lupa kata laluan anda?</string>
+
+    <string name="update_password_save">KEMASKINI KATA LALUAN</string>
+
+    <string name="reset_password_invalid_token_title">Masalah pautan tetapan semula kata laluan</string>
+
+    <string name="reset_password_invalid_token_message">Terdapat masalah semasa mengesahkan pautan tetapan semula kata laluan. Ini mungkin berlaku kerana pautan telah tamat tempoh. Cuba gunakan borang kata laluan terlupa sekali lagi untuk menghasilkan pautan baru.</string>
+
+    <string name="reset_password_title">TETAPKAN SEMULA KATA LALUAN</string>
+
+    <string name="reset_password_subtitle">MASUKKAN KATA LALUAN BAHARU</string>
+
+    <string name="reset_password_new">Kata laluan baharu</string>
+
+    <string name="reset_password_confirm">Sahkan kata laluan</string>
+
+    <string name="reset_password_reset">TETAPKAN SEMULA KATA LALUAN</string>
+
+    <string name="reset_password_success">Berjaya tetapkan semula kata laluan!</string>
+
+    <string name="word_article_webview_updating_error">Beberapa perkhidmatan sedang dikemas kini, sila cuba lagi</string>
+
+    <string name="local_file">Fail tempatan</string>
+
+    <string name="local_file_selection_apply">Simpan perubahan</string>
+
+    <string name="local_file_selection_applied">Pilihan fail disimpan</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack memerlukan keizinan penyimpanan untuk mengakses media tempatan anda</string>
+
+    <string name="local_file_selection_empty">Tiada media tempatan yang dijumpai</string>
+
+    <string name="offline_filter_files_select">Pilih fail</string>
+
+    <string name="options_hide_track">Sembunyikan Lagu</string>
+
+    <string name="options_hide_album">Sembunyikan Album</string>
+
+    <string name="uploads_filter_popular">PALING POPULAR</string>
+
+    <string name="uploads_filter_recent">PALING TERKINI</string>
+
+</resources>

@@ -1,0 +1,199 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e0e0e">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="230dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="@dimen/splash_logo_margin_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:layout_constraintVertical_bias="0.1"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splash_loader"
+        app:lottie_repeatMode="reverse"
+        app:lottie_speed="1.5" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonTryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:contentDescription="@string/splash_tryagain"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="@string/splash_tryagain"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animationView" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvOffline"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/splash_offline"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.9"
+        android:text="@string/splash_offline"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:customletterspacing="-0.54"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTryAgain" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonGoToDownloads"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/splash_rounded_button"
+        android:contentDescription="@string/splash_gotodownloads"
+        android:drawableStart="@drawable/splash_offline"
+        android:fontFamily="@font/opensans_bold"
+        android:paddingStart="16dp"
+        android:paddingEnd="4dp"
+        android:text="@string/splash_gotodownloads"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:visibility="gone"
+        app:customletterspacing="-0.72"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOffline" />
+
+    <ImageView
+        android:id="@+id/ivAudiomack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:autoMirrored="true"
+        android:contentDescription="@string/accessibility_logo"
+        app:srcCompat="@drawable/ic_audiomack"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/animationView"
+        app:layout_constraintEnd_toEndOf="@+id/animationView"
+        app:layout_constraintStart_toStartOf="@+id/animationView"
+        app:layout_constraintTop_toTopOf="@+id/animationView"
+        tools:visibility="visible" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvPermissionsMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="@font/opensans_regular"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.9"
+        android:text="@string/splash_message_single"
+        android:textColor="#D8D8D8"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/animationView"
+        tools:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/layoutPermissionsBox"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/splash_layout_margin_top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPermissionsMessage"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/splash_position" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/splash_location_margin_top"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:text="@string/splash_location"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:customletterspacing="-0.3" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/splash_location_msg_margin_top"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:lineSpacingMultiplier="0.9"
+            android:text="@string/splash_location_message_new"
+            android:textColor="#CACACA"
+            android:textSize="14sp"
+            app:customletterspacing="-0.2" />
+
+    </LinearLayout>
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonOK"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/splash_btn_margin_top"
+        android:background="@drawable/splash_ok_rounded_button"
+        android:contentDescription="@string/splash_ok"
+        android:fontFamily="@font/opensans_semibold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="@string/splash_ok"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:customletterspacing="-0.3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutPermissionsBox"
+        tools:visibility="visible" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonPrivacy"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/splash_privacy_margin_top"
+        android:background="@null"
+        android:contentDescription="@string/splash_privacy_policy"
+        android:fontFamily="@font/opensans_bold"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="@string/splash_privacy_policy"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:customletterspacing="-0.47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOK"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

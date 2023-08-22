@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/alert_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            app:customletterspacing="-0.42"
+            tools:text="This will This will add 42 songs in this playlist to your offline library. " />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center"
+            android:textColor="#CACACA"
+            android:textSize="15sp"
+            app:customletterspacing="-0.47"
+            tools:text="You may want to check you're on wifi before downloading." />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonSolid"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/popup_rounded_button"
+            android:fontFamily="@font/opensans_bold"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:customletterspacing="-0.72"
+            tools:text="OK" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonOutline"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/popup_rounded_button_border"
+            android:fontFamily="@font/opensans_bold"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            app:customletterspacing="-0.72"
+            tools:text="MAYBE" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonPlain1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:background="@null"
+            android:fontFamily="@font/opensans_semibold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            app:customletterspacing="-0.54"
+            tools:text="Cancel" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonPlain2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="22dp"
+            android:background="@null"
+            android:fontFamily="@font/opensans_semibold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            app:customletterspacing="-0.54"
+            tools:text="Cancel" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/premium_download_large_header_second"
+        android:translationY="24dp"
+        app:layout_constraintBottom_toTopOf="@id/layoutMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_download_logo" />
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_close"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white"
+        app:layout_constraintBottom_toTopOf="@id/layoutMain"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

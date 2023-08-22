@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">다시 시도하기</string>
+
+    <string name="splash_offline">인터넷에 연결되어 있지 않아 다운로드한 음악만 재생할 수 있습니다.</string>
+
+    <string name="splash_gotodownloads">오프라인 음악으로 이동</string>
+
+    <string name="splash_message">최적의 환경을 제공하기 위해 다음 권한을 사용하도록 요청:</string>
+
+    <string name="splash_storage">파일 액세스</string>
+
+    <string name="splash_storage_message">음악과 앨범을 다운로드하도록 허용합니다</string>
+
+    <string name="splash_location">위치</string>
+
+    <string name="splash_location_message">Audiomack에서 사용자의 지역에서 인기 있는 음악을 표시할 수 있습니다</string>
+
+    <string name="splash_notifications">푸시 알림</string>
+
+    <string name="splash_notifications_message">멋진 최신 음악이 릴리스되면 알려드립니다</string>
+
+    <string name="splash_ok">알겠습니다!</string>
+
+    <string name="splash_later">아마 나중에?</string>
+
+    <string name="splash_privacy_policy">개인정보 처리방침</string>
+
+    <string name="splash_autologin_timeout_error_message">연결에 문제가 생겼습니다. 인터넷 연결을 확인하세요</string>
+
+    <string name="splash_autologin_timeout_error_ok">확인</string>
+
+    <string name="splash_autologin_fail_message">로그인하지 못했습니다</string>
+
+    <string name="splash_autologin_facebook_error_message">페이스북 토큰 새로고침을 하지 못했습니다</string>
+
+    <string name="home_tab_feed">피드</string>
+
+    <string name="home_tab_playlists">Playlists</string>
+
+    <string name="home_tab_search">검색</string>
+
+    <string name="home_tab_library">내 라이브러리</string>
+
+    <string name="signup_tos">가입함으로써 귀하는 당사 이용 약관 및 개인정보 처리방침에 동의하시게 됩니다</string>
+
+    <string name="signup_tos_highlighted_tos">이용 약관</string>
+
+    <string name="signup_tos_highlighted_privacy">개인정보 처리방침</string>
+
+    <string name="signup_username">사용자이름을 입력하세요</string>
+
+    <string name="signup_email">이메일을 입력하세요</string>
+
+    <string name="signup_password">비밀번호를 입력하세요</string>
+
+    <string name="signup_password_confirm">비밀번호를 다시 입력하세요</string>
+
+    <string name="signup_create">계정 만들기</string>
+
+    <string name="signup_facebook">페이스북으로 가입</string>
+
+    <string name="signup_go_to_login">이미 계정이 있으신가요?</string>
+
+    <string name="signup_header">무료 계정 만들기</string>
+
+    <string name="signup_birthday_label">생일은 언제입니까?</string>
+
+    <string name="signup_gender_label">성별이 무엇입니까?</string>
+
+    <string name="signup_gender_male">남성</string>
+
+    <string name="signup_gender_female">여성</string>
+
+    <string name="signup_gender_other">논바이너리</string>
+
+    <string name="signup_disclaimer">Audiomack은 사용자에게 맞춤화된 환경을 제공하고 아티스트들이 청취자들을 이해하도록 돕는 등의 목적으로 이 데이터를 활용합니다. 당사는 언제나 사용자의 정보를 익명으로 보관합니다.</string>
+
+    <string name="signup_finish">끝내기</string>
+
+    <string name="signup_error_birthday">유효한 생일을 입력하세요</string>
+
+    <string name="signup_error_gender">성별을 선택하세요</string>
+
+    <string name="login_show_password">비밀번호 표시</string>
+
+    <string name="login_error_timestamp">타임스탬프가 만료되었습니다. 이는 기기의 시계가 잘못되었음을 의미합니다. 시간과 날짜를 확인하고 문제가 계속되는 경우 support\@audiomack.com에 이메일을 보내주세요.</string>
+
+    <string name="login_error_1037">필수 세부 사항을 검색할 수 없습니다. 계정에서 설정한 이메일 주소를 확인하고 다시 시도하세요.</string>
+
+    <string name="login_header">계정에 로그인</string>
+
+    <string name="login_email">이메일</string>
+
+    <string name="login_password">비밀번호</string>
+
+    <string name="login_forgot_password">비밀번호를 잊으신 경우</string>
+
+    <string name="login_cta">로그인</string>
+
+    <string name="login_facebook">페이스북으로 로그인</string>
+
+    <string name="login_go_to_signup_hint">계정이 없으신가요?</string>
+
+    <string name="login_go_to_signup">무료 계정 만들기</string>
+
+    <string name="login_facebook_error_message">페이스북으로 로그인 실패</string>
+
+    <string name="login_facebook_error_button">확인</string>
+
+    <string name="login_error_title">로그인 오류</string>
+
+    <string name="login_error_message_facebook">페이스북 오류</string>
+
+    <string name="login_tos">audiomack에 로그인함으로써 귀하는 \n당사 이용 약관 및 개인정보 처리방침에 동의하시게 됩니다</string>
+
+    <string name="login_tos_highlighted_tos">이용 약관</string>
+
+    <string name="login_tos_highlighted_privacy">개인정보 처리방침</string>
+
+    <string name="signup_error_title">가입 오류</string>
+
+    <string name="authentication_validation_username_empty">사용자 이름이 비어 있습니다</string>
+
+    <string name="authentication_validation_email_empty">이메일이 비어 있습니다</string>
+
+    <string name="authentication_validation_password_empty">비밀번호가 비어 있습니다</string>
+
+    <string name="authentication_validation_password_mismatch">비밀번호가 일치하지 않습니다</string>
+
+    <string name="logout_alert_title">로그아웃</string>
+
+    <string name="logout_alert_message">Audiomack에서 로그아웃하시겠습니까?</string>
+
+    <string name="logout_alert_no">취소</string>
+
+    <string name="logout_alert_yes">확인</string>
+
+    <string name="forgot_password_alert_title">비밀번호를 잊으신 경우</string>
+
+    <string name="forgot_password_alert_message">이메일을 입력하면 비밀번호 초기화 단계를 보내드립니다</string>
+
+    <string name="forgot_password_alert_no">취소</string>
+
+    <string name="forgot_password_alert_yes">제출</string>
+
+    <string name="forgot_password_alert_hint">이메일 주소</string>
+
+    <string name="forgot_password_success">감사합니다. 이메일에서 비밀번호를 초기화 지침을 확인하세요. 스팸 폴더에 있을 수 있습니다.</string>
+
+    <string name="forgot_password_failure_template">%s 문제가 발생하면 support\@audiomack.com으로 이메일을 보내주시기 바랍니다</string>
+
+    <string name="premium_start_trial">무료 7일 체험판 시작하기</string>
+
+    <string name="premium_price_template">체험판 이후 매월 %s</string>
+
+    <string name="premium_toc">Audiomack 프리미엄 구독\n이용 약관</string>
+
+    <string name="premium_desc_template">Audiomack 프리미엄은 정기 구독입니다.  7일 체험판이 종료되면 Google Play 계정을 통해 매월 %s의 요금이 자동으로 청구됩니다.  청구 기간이 종료되기 최소 24시간 전에 자동 갱신 기능을 끄거나 구독을 취소하지 않으면 구독이 자동으로 갱신됩니다.  Google Play 스토어에서 구독을 관리할 수 있습니다.</string>
+
+    <string name="premium_desc_template_ios">Audiomack 구독(매월 %s)을 구입하면 사용자의 iTunes 계정에 결제 비용이 부과되며 현재 구독 기간이 끝나기 전 24시간 이내에 계정에 갱신 비용이 부과됩니다. 더 이상 Audiomack 골드/플래티넘을 결제하고 싶지 않고 프리미엄 멤버십을 취소하려면 이러한 24시간 마감이 끝나기 전에 취소해야 합니다. 구매 후 언제든지 iTunes 스토어 설정에서 자동 갱신 기능을 끄실 수 있습니다. 여기 언급된 모든 가격 및 골드/플래티넘 구독 등급에 대한 앱 내 모든 가격은 미국 달러로 표시되며, 전 세계 국가에 따라 다를 수 있습니다. 또한 이는 향후 변경될 수 있습니다. 구독이 활성화되어 있는 동안에는 현재 구독을 취소하실 수 없습니다. Audiomack은 구독 없이도 언제든지 무료로 이용할 수 있으며 구독이 종료된 후 언제든지 광고가 포함된 Audiomack을 다시 이용할 수 있습니다.</string>
+
+    <string name="premium_no_active_subscriptions">활성화된 구독이 없습니다.</string>
+
+    <string name="premium_unable_restore">이전 구매를 복원할 수 없습니다</string>
+
+    <string name="premium_restore">이전 구매 복원</string>
+
+    <string name="premium_and">및</string>
+
+    <string name="premium_terms_of_service">이용 약관</string>
+
+    <string name="premium_privacy_policy">개인정보 처리방침</string>
+
+    <string name="premium_subscribing">구독함으로써 Audiomack</string>
+
+    <string name="premium_2019_title">프리미엄을 이용할 수 있도록\nAudiomack를 업그레이드합니다</string>
+
+    <string name="premium_2019_subtitle">7일 무료 체험판을 시작하고 획득하기:</string>
+
+    <string name="premium_2019_adfree">광고 없는 쾌적한 이용</string>
+
+    <string name="premium_2019_adfree_desc">광고로 인한 중단이나 배너 없이 무제한 재생</string>
+
+    <string name="premium_2019_playlist">전체 playlist 다운로드</string>
+
+    <string name="premium_2019_playlist_desc">터치 한 번으로 기기에 playlist의 모든 음악 저장</string>
+
+    <string name="premium_2019_hifi">고품질 스트리밍</string>
+
+    <string name="premium_2019_hifi_desc">모든 음악을 최고의 음질로 들을 수 있습니다</string>
+
+    <string name="premium_2019_airplay">음악 기기에 Airplay 제공</string>
+
+    <string name="premium_2019_airplay_desc">Airplay가 가능한 기기에서 재생하고 싶으세요? 플레이어에서 바로 전송 가능</string>
+
+    <string name="premium_2019_equalizer">이퀄라이저 제어</string>
+
+    <string name="premium_2019_equalizer_desc">베이스와 트레블 지정을 통해 원하는 방식으로 음색을 조정하세요</string>
+
+    <string name="premium_2019_trial">7일 무료 체험판</string>
+
+    <string name="premium_2019_trial_desc">구매하기 전에 체험하기 - 시작한 후 일주일 동안 위의 모든 기능을 무료로 이용하세요</string>
+
+    <string name="defaultgenre_title">기본 장르로 설정</string>
+
+    <string name="notifications_title">알림</string>
+
+    <string name="notifications_verb_favorite">즐겨찾기</string>
+
+    <string name="notifications_verb_repost">re-up됨</string>
+
+    <string name="notifications_verb_follow">나를 팔로우함</string>
+
+    <string name="notifications_verb_playlist">playlist</string>
+
+    <string name="notifications_verb_added">추가됨</string>
+
+    <string name="notifications_verb_added_to_playlist">playlist로</string>
+
+    <string name="notifications_verb_comment">댓글 올림</string>
+
+    <string name="notifications_verb_comment_reply">내 댓글에 답변을 달았습니다</string>
+
+    <string name="removedcontent_title">삭제된 콘텐츠</string>
+
+    <string name="removedcontent_message">아티스트, 레이블 또는 권리 보유자에 의해 Audiomack에서 다음 음악이 제거되었습니다. 향후 이를 복구하기 위해 노력하고 있습니다. 감사합니다</string>
+
+    <string name="removedcontent_ok">확인</string>
+
+    <string name="removedcontent_header">일부 오프라인 음악이 제거되었습니다. 더 알아보기</string>
+
+    <string name="removedcontent_header_highlighted">일부 오프라인 음악이 제거되었습니다. 더 알아보기</string>
+
+    <string name="excludereups">re-up 제외</string>
+
+    <string name="restoredownloads_title">다운로드 복원</string>
+
+    <string name="restoredownloads_footer">이전 다운로드 복원</string>
+
+    <string name="playlist_info_failed">playlist 세부 정보를 불러올 수 없습니다. 나중에 다시 시도하세요.</string>
+
+    <string name="artist_info_failed">아티스트 데이터를 불러올 수 없습니다. 나중에 다시 시도하세요.</string>
+
+    <string name="song_info_failed">음악 데이터를 불러올 수 없습니다.</string>
+
+    <string name="album_info_failed">앨범 데이터를 불러올 수 없습니다.</string>
+
+    <string name="download_results_no_connection">인터넷에 연결되어 있지 않습니다</string>
+
+    <string name="download_failed_song">음악을 다운로드할 수 없습니다</string>
+
+    <string name="download_failed_abum">앨범을 다운로드할 수 없습니다</string>
+
+    <string name="download_delete_list_failed">다운로드 목록에서 삭제할 수 없습니다</string>
+
+    <string name="download_playlist_succeeded">playlist가 오프라인에 추가되었습니다</string>
+
+    <string name="download_succeeded">다운로드에 성공했습니다</string>
+
+    <string name="login_needed_message">이 기능을 사용하려면 로그인하세요</string>
+
+    <string name="login_needed_no">취소</string>
+
+    <string name="login_needed_yes">로그인</string>
+
+    <string name="playlist_song_singular">음악</string>
+
+    <string name="playlist_song_plural">음악</string>
+
+    <string name="playlist_sync">오프라인에 새 음악 추가</string>
+
+    <string name="playlistreorder_title">재주문 / 제거</string>
+
+    <string name="playlistreorder_save">저장</string>
+
+    <string name="addtoplaylist_title">playlist에 추가</string>
+
+    <string name="addtoplaylist_create">새 playlist 만들기</string>
+
+    <string name="addtoplaylist_create_hint">새 playlist를 만들려면 터치하세요</string>
+
+    <string name="addtoplaylist_addtoexisting">기존 playlist에 추가</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">이 playlist는 편집할 수 없습니다</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">이 음악을 playlist에 추가할 수 없습니다</string>
+
+    <string name="addtoplaylist_song_added">성공적으로 playlist에 추가했습니다</string>
+
+    <string name="addtoplaylist_song_added_failed">playlist에 추가할 수 없습니다</string>
+
+    <string name="addtoplaylist_song_removed">성공적으로 playlist에서 삭제했습니다</string>
+
+    <string name="addtoplaylist_song_removed_failed">playlist에서 삭제할 수 없습니다</string>
+
+    <string name="editplaylist_title">playlist 상세 정보 편집</string>
+
+    <string name="editplaylist_create_title">새 playlist 만들기</string>
+
+    <string name="editplaylist_hint">편집할 항목을 터치하세요</string>
+
+    <string name="editplaylist_name">이름:</string>
+
+    <string name="editplaylist_name_hint">playlist 이름을 입력하세요</string>
+
+    <string name="editplaylist_genre">장르:</string>
+
+    <string name="editplaylist_permissions">권한:</string>
+
+    <string name="editplaylist_description">설명:</string>
+
+    <string name="editplaylist_description_hint">playlist 설명을 입력하세요</string>
+
+    <string name="editplaylist_delete">playlist 삭제</string>
+
+    <string name="editplaylist_save">저장</string>
+
+    <string name="editplaylist_cancel">취소</string>
+
+    <string name="playlist_delete_failed">playlist 삭제 실패</string>
+
+    <string name="playlist_delete_succeeded_template">\'%s‘ playlist가 삭제되었습니다</string>
+
+    <string name="playlist_takendown_title">제작자가 이 playlist를 삭제했습니다</string>
+
+    <string name="playlist_takendown_message">이를 내 계정에 복사하시겠습니까?</string>
+
+    <string name="playlist_takendown_yes">예, playlist를 복사합니다</string>
+
+    <string name="playlist_takendown_no">아니요, 제거합니다</string>
+
+    <string name="musicinfo_stats_today">오늘</string>
+
+    <string name="musicinfo_stats_week">이번 주</string>
+
+    <string name="musicinfo_stats_month">이번 달</string>
+
+    <string name="musicinfo_stats_alltime">항상</string>
+
+    <string name="musicinfo_lastupdated">마지막 업데이트:</string>
+
+    <string name="musicinfo_numberofsongs">음악 수:</string>
+
+    <string name="musicinfo_playlistcreator">playlist 제작자:</string>
+
+    <string name="musicinfo_album">앨범:</string>
+
+    <string name="musicinfo_producer">프로듀서:</string>
+
+    <string name="musicinfo_addedon">출시일:</string>
+
+    <string name="musicinfo_genre">장르:</string>
+
+    <string name="musicinfo_description">설명:</string>
+
+    <string name="musicinfo_description_read_more">더 읽어보기</string>
+
+    <string name="musicinfo_total_plays">총 재생:</string>
+
+    <string name="musicinfo_tags">태그</string>
+
+    <string name="artist_followers">팔로워</string>
+
+    <string name="artist_following">팔로잉</string>
+
+    <string name="artist_plays">총 재생</string>
+
+    <string name="queue_added">대기열에 추가되었습니다</string>
+
+    <string name="queue_unable_to_add_playlist">playlist를 대기열에 추가할 수 없습니다</string>
+
+    <string name="share_twitter">트위터에 공유</string>
+
+    <string name="share_contacts">연락처와 공유</string>
+
+    <string name="share_app">앱을 통해 공유</string>
+
+    <string name="share_copy_link">링크 복사</string>
+
+    <string name="share_link_copied">링크가 클립보드에 복사되었습니다</string>
+
+    <string name="favorites_filter_allmusic">전체</string>
+
+    <string name="favorites_filter_songs">음악</string>
+
+    <string name="favorites_filter_albums">앨범</string>
+
+    <string name="favorites_filter_playlists">playlist</string>
+
+    <string name="offline_filter_allmusic">전체</string>
+
+    <string name="offline_filter_songs">음악</string>
+
+    <string name="offline_filter_albums">앨범</string>
+
+    <string name="offline_filter_playlists">playlist</string>
+
+    <string name="offline_filter_notondevice">기기에 없음</string>
+
+    <string name="offline_sort_newest">최신순</string>
+
+    <string name="offline_sort_oldest">오래된 순</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">로그인 / 가입</string>
+
+    <string name="search_hint">검색</string>
+
+    <string name="search_cancel">취소</string>
+
+    <string name="search_global_placeholder">아티스트, 음악,\n앨범을 검색하세요.</string>
+
+    <string name="search_trending">인기 검색어</string>
+
+    <string name="search_recent">최근 검색</string>
+
+    <string name="library_search_hint">검색</string>
+
+    <string name="library_search_cancel">취소</string>
+
+    <string name="player_playingfrom">재생 위치</string>
+
+    <string name="player_goadfree">광고 제거 - 7일 무료 체험판을 시작하세요</string>
+
+    <string name="player_closead">광고 닫기</string>
+
+    <string name="player_shuffle_on">셔플 켜기</string>
+
+    <string name="player_repeat_all">전체 반복</string>
+
+    <string name="player_repeat_one">한 곡 반복</string>
+
+    <string name="player_file_error">음악을 불러오는 도중 오류 발생</string>
+
+    <string name="player_storage_error">다운로드한 음악을 재생할 수 없습니다</string>
+
+    <string name="player_playback_error">음악을 재생할 수 없습니다</string>
+
+    <string name="player_queue_error">대기열 업데이트 도중 오류 발생</string>
+
+    <string name="player_file_error_download_again">이 파일을 다시 다운로드해야 합니다. 연결 상태를 확인하세요</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">이전</string>
+
+    <string name="player_pause">일시 정지</string>
+
+    <string name="player_play">재생</string>
+
+    <string name="player_next">다음</string>
+
+    <string name="player_close">닫기</string>
+
+    <string name="player_fav">즐겨찾기</string>
+
+    <string name="player_unfav">즐겨찾기 해제</string>
+
+    <string name="player_skip_forward">30초 앞으로 건너 뛰기</string>
+
+    <string name="player_skip_back">15초 뒤로 건너 뛰기</string>
+
+    <string name="editaccount_title">계정 편집</string>
+
+    <string name="editaccount_banner">배너 이미지 편집</string>
+
+    <string name="editaccount_hint">편집할 항목을 터치하세요</string>
+
+    <string name="editaccount_name">아티스트 이름:</string>
+
+    <string name="editaccount_label">레이블:</string>
+
+    <string name="editaccount_hometown">출신:</string>
+
+    <string name="editaccount_website">웹 사이트:</string>
+
+    <string name="editaccount_bio">이력:</string>
+
+    <string name="editaccount_bio_counter_template">%s자 남음</string>
+
+    <string name="editaccount_twitter">트위터:</string>
+
+    <string name="editaccount_instagram">인스타그램:</string>
+
+    <string name="editaccount_facebook">페이스북:</string>
+
+    <string name="editaccount_youtube">유튜브:</string>
+
+    <string name="editaccount_error_banner">배너 저장 도중 오류가 발생했습니다.</string>
+
+    <string name="editaccount_save">저장</string>
+
+    <string name="editaccount_cancel">취소</string>
+
+    <string name="editaccount_slug">사용자 이름:</string>
+
+    <string name="artistinfo_follow">팔로우</string>
+
+    <string name="artistinfo_unfollow">팔로잉</string>
+
+    <string name="artistinfo_website">웹 사이트:</string>
+
+    <string name="artistinfo_genre">장르:</string>
+
+    <string name="artistinfo_label">레이블:</string>
+
+    <string name="artistinfo_hometown">출신:</string>
+
+    <string name="artistinfo_membersince">가입 연도:</string>
+
+    <string name="artistinfo_bio">이력:</string>
+
+    <string name="miniplayer_prev_song">이전 곡</string>
+
+    <string name="miniplayer_next_song">다음 곡</string>
+
+    <string name="queue_title">내 대기열</string>
+
+    <string name="add_to_playlist_permissions_public">공개 - 누구나 볼 수 있음</string>
+
+    <string name="add_to_playlist_permissions_private">비공개 - 나만 볼 수 있음</string>
+
+    <string name="add_to_playlist_error_no_name">playlist의 이름을 입력하세요</string>
+
+    <string name="add_to_playlist_error">playlist 생성 실패</string>
+
+    <string name="add_to_playlist_success_generic">playlist를 성공적으로 생성했습니다</string>
+
+    <string name="add_to_playlist_success">\'%s\'이(가) 내 playlist에 추가되었습니다</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">playlist의 마지막 곡을 삭제할 수 없습니다</string>
+
+    <string name="edit_playlist_success">\'%s\' playlist가 편집되었습니다</string>
+
+    <string name="edit_playlist_error">playlist 편집 실패</string>
+
+    <string name="edit_playlist_banner_error">배너 이미지를 저장할 수 없습니다</string>
+
+    <string name="select_playlist_error">playlist를 불러올 수 없습니다</string>
+
+    <string name="select_playlist_nothing_selected">playlist를 선택하세요</string>
+
+    <string name="select_playlist_success">음악 \'%s\'이(가) 내 playlist에 추가되었습니다</string>
+
+    <string name="select_playlist_failure">음악을 추가할 수 없습니다</string>
+
+    <string name="player_account_followed">%s 님을 팔로잉하는 중</string>
+
+    <string name="player_account_unfollowed">%s 님을 언팔로우했습니다</string>
+
+    <string name="feature_not_available_offline_alert_message">연결에 문제가 생겼습니다. 연결 상태를 확인하고 다시 시도하세요.</string>
+
+    <string name="feature_not_available_offline_alert_button">확인</string>
+
+    <string name="toast_favorited_song">즐겨찾는 음악</string>
+
+    <string name="toast_favorited_song_error">즐겨찾는 음악을 재생할 수 없습니다</string>
+
+    <string name="toast_favorited_album">즐겨찾는 앨범</string>
+
+    <string name="toast_favorited_album_error">즐겨찾는 앨범을 재생할 수 없습니다</string>
+
+    <string name="toast_favorited_playlist">즐겨찾는 playlist</string>
+
+    <string name="toast_favorited_playlist_error">즐겨찾는 playlist를 재생할 수 없습니다</string>
+
+    <string name="toast_unfavorited_song">음악 즐겨찾기를 해제했습니다</string>
+
+    <string name="toast_unfavorited_song_error">음악 즐겨찾기를 해제할 수 없습니다</string>
+
+    <string name="toast_unfavorited_album">앨범 즐겨찾기를 해제했습니다</string>
+
+    <string name="toast_unfavorited_album_error">앨범 즐겨찾기를 해제할 수 없습니다</string>
+
+    <string name="toast_unfavorited_playlist">playlist 즐겨찾기를 해제했습니다</string>
+
+    <string name="toast_unfavorited_playlist_error">playlist 즐겨찾기를 해제할 수 없습니다</string>
+
+    <string name="toast_reposted_song">음악을 re-up했습니다</string>
+
+    <string name="toast_reposted_song_error">음악을 re-up할 수 없습니다</string>
+
+    <string name="toast_reposted_album">앨범을 re-up했습니다</string>
+
+    <string name="toast_reposted_album_error">앨범을 re-up할 수 없습니다</string>
+
+    <string name="permissions_rationale_alert_camera_message">이 기능을 사용하려면 카메라에 액세스해야 합니다. 이 기능을 사용하려면 설정에서 권한을 활성화하세요.</string>
+
+    <string name="permissions_rationale_alert_storage_message">이 기능을 사용하려면 저장소에 액세스해야 합니다. 이 기능을 사용하려면 설정에서 권한을 활성화하세요.</string>
+
+    <string name="permissions_rationale_alert_cancel">취소</string>
+
+    <string name="permissions_rationale_alert_settings">설정 열기</string>
+
+    <string name="permissions_location_ios">Audiomack에서 사용자의 지역에서 인기 있는 음악을 표시할 수 있습니다.</string>
+
+    <string name="shortcuts_offline_short">오프라인</string>
+
+    <string name="shortcuts_offline_long">오프라인</string>
+
+    <string name="shortcuts_offline_disabled">오프라인</string>
+
+    <string name="shortcuts_topsongs_short">인기 음악</string>
+
+    <string name="shortcuts_topsongs_long">인기 음악</string>
+
+    <string name="shortcuts_topsongs_disabled">인기 음악</string>
+
+    <string name="shortcuts_favorites_short">즐겨찾기</string>
+
+    <string name="shortcuts_favorites_long">즐겨찾기</string>
+
+    <string name="shortcuts_favorites_disabled">즐겨찾기</string>
+
+    <string name="shortcuts_playlists_short">playlist</string>
+
+    <string name="shortcuts_playlists_long">playlist</string>
+
+    <string name="shortcuts_playlists_disabled">playlist</string>
+
+    <string name="downloadmessage_title">다운로드가 시작되었습니다!</string>
+
+    <string name="downloadmessage_message">이제 이 업로드 음악을 앱에서 내 라이브러리의 오프라인 항목에서 데이터 없이 재생할 수 있습니다.</string>
+
+    <string name="downloadmessage_button">오프라인 음악으로 이동</string>
+
+    <string name="download_completed_notification_title">다운로드 완료</string>
+
+    <string name="download_completed_notification_message">오프라인 음악을 보려면 터치하세요</string>
+
+    <string name="playlist_delete_download_title">오프라인 라이브러리에서 이 playlist가 제거됩니다.</string>
+
+    <string name="playlist_delete_download_title_highlighted">이 playlist 삭제</string>
+
+    <string name="playlist_delete_download_message">걱정하지 마세요. 오프라인 라이브러리에서 음악이 제거되지 않습니다.</string>
+
+    <string name="playlist_delete_download_yes">확인</string>
+
+    <string name="playlist_delete_download_cancel">취소</string>
+
+    <string name="playlist_download_sync_title">오프라인 라이브러리의 playlist에 음악 %s곡을 추가합니다.</string>
+
+    <string name="playlist_download_sync_title_highlighted">음악 %s곡</string>
+
+    <string name="playlist_download_sync_message">다운로드하기 전에 WiFi를 확인할 수 있습니다.</string>
+
+    <string name="playlist_download_sync_yes">확인</string>
+
+    <string name="playlist_download_sync_cancel">취소</string>
+
+    <string name="playlist_download_error">playlist를 다운로드할 수 없습니다</string>
+
+    <string name="unsupported_crop_error">기기에서 자르기를 지원하지 않습니다</string>
+
+    <string name="library_search_favorites_placeholder">즐겨찾기 검색…</string>
+
+    <string name="library_search_downloads_placeholder">오프라인 콘텐츠 검색…</string>
+
+    <string name="library_search_playlists_placeholder">playlist 검색…</string>
+
+    <string name="library_search_uploads_placeholder">업로드 검색…</string>
+
+    <string name="library_search_noresults_placeholder">라이브러리에서 결과를 찾을 수 없습니다.</string>
+
+    <string name="library_search_noresults_cta">AUDIOMACK에서 전체 찾기</string>
+
+    <string name="search_noresults_placeholder">결과를 찾을 수 없습니다.\n다른 검색어를 시도하세요</string>
+
+    <string name="playlists_noresults_placeholder">아직 playlist가 없습니다.</string>
+
+    <string name="followers_my_noresults_placeholder">팔로워가 없습니다.</string>
+
+    <string name="followers_other_noresults_placeholder">%s 님은 팔로워가 없습니다</string>
+
+    <string name="favorites_my_noresults_placeholder">즐겨찾기가 없습니다.</string>
+
+    <string name="downloads_noresults_placeholder">다운로드가 없습니다.</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">다운로드 복원</string>
+
+    <string name="downloads_loggedout_placeholder">이전 다운로드를 복원하려면 로그인하세요</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">계정 만들기</string>
+
+    <string name="favorites_my_loggedout_placeholder">즐겨찾기가 없습니다.</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">계정 만들기</string>
+
+    <string name="favorites_other_noresults_placeholder">%s에 즐겨찾기가 없습니다</string>
+
+    <string name="following_my_noresults_placeholder">내가 팔로우하는 사람이 없습니다.\n팔로우 추천 계정을 확인하세요.</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">팔로우 추천</string>
+
+    <string name="following_other_noresults_placeholder">%s 님이 아무도 팔로우하지 않습니다</string>
+
+    <string name="uploads_my_noresults_placeholder">업로드가 없습니다.\naudiomack.com에 방문하시고\n계정에 음악을 추가하세요.</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">AUDIOMACK.COM 방문</string>
+
+    <string name="uploads_other_noresults_placeholder">%s에 업로드가 없습니다</string>
+
+    <string name="playlists_my_noresults_placeholder">아직 playlist를 만들지 않았습니다.</string>
+
+    <string name="playlists_my_loggedout_placeholder">아직 playlist를 만들지 않았습니다.\n계정을 만들고 playlist를\n생성해보세요.</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">계정 만들기</string>
+
+    <string name="playlists_other_noresults_placeholder">%s 님은 아직 playlist를 만들지 않았습니다.</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">즐겨찾는 playlist가 없습니다.</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">즐겨찾는 playlist가 없습니다.\n계정을 만들고 playlist를\n생성해보세요.</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">계정 만들기</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s에 즐겨찾는 playlist가 없습니다.</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">오프라인 playlist가 없습니다.</string>
+
+    <string name="timeline_noresults_placeholder">계정을 팔로우하고 여기에 표시되는 새로운 업로드를 확인하세요</string>
+
+    <string name="timeline_loggedout_placeholder">피드가 비어있습니다.\n계정을 만들고 사람들을 팔로우해보세요.</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">계정 만들기</string>
+
+    <string name="restoredownlods_noresults_placeholder">기기에 없는 저장된 다운로드가 없습니다</string>
+
+    <string name="notifications_noresults_placeholder">알림이 없습니다</string>
+
+    <string name="noconnection_placeholder">연결에 문제가 발생했습니다</string>
+
+    <string name="noconnection_highlighted_placeholder">다시 시도하세요</string>
+
+    <string name="user_name_placeholder">사용자</string>
+
+    <string name="playlist_desc_more">더 보기</string>
+
+    <string name="tooltip_toast">좌우로 슬라이드해\n더 많은 음악을 표시하거나\n드롭다운을 터치해\n장르를 변경하세요</string>
+
+    <string name="tooltip_play">다음 음악을 재생하려면 왼쪽으로 슬라이드하세요. 전체화면 플레이어를 열려면 터치하세요.</string>
+
+    <string name="tooltip_playlists">맞춤 playlist를\n만드세요</string>
+
+    <string name="tooltip_player_queue">음악 대기열에 있는 음악을 보려면 여기를 터치하세요.</string>
+
+    <string name="tooltip_queue_add">대기열에 있는 음악을 playlist에 추가하려면 여기를 터치하세요.</string>
+
+    <string name="tooltip_albums">데이터 없이 들으려면\n오프라인으로 전환하세요</string>
+
+    <string name="tooltip_suggested_followers">즐겨찾는 아티스트 / 인플루언서를 팔로우하면 새로운 음악이 업로드될 때 피드에 표시됩니다</string>
+
+    <string name="tooltip_playlists_offline">이 playlist의 음악을\n오프라인에 추가</string>
+
+    <string name="tooltip_playlists_favorite">이 playlist를\n즐겨찾기에 추가</string>
+
+    <string name="tooltip_player_scroll">음악을 랜덤으로 재생하고 댓글, 음악 정보, 아티스트의 다른 음악을 보려면 아래로 스크롤하세요.</string>
+
+    <string name="tooltip_player_equalizer">이퀄라이저를 사용해 원하는 음색을 사용자 지정할 수 있습니다</string>
+
+    <string name="settings_title">설정</string>
+
+    <string name="settings_go_premium">광고 제거 -프리미엄 이용하기</string>
+
+    <string name="settings_cancel_subscription">구독 취소</string>
+
+    <string name="settings_edit_account">계정 편집</string>
+
+    <string name="settings_view_your_profile">프로필 보기</string>
+
+    <string name="settings_share_profile">프로필 공유</string>
+
+    <string name="settings_default_genre">기본 장르 설정</string>
+
+    <string name="settings_permissions">권한</string>
+
+    <string name="settings_support">지원</string>
+
+    <string name="settings_debug_info">디버그 정보 전송</string>
+
+    <string name="settings_share_app">이 앱 공유</string>
+
+    <string name="settings_rate_app">앱 평가하기</string>
+
+    <string name="settings_privacy_policy">개인정보 처리방침</string>
+
+    <string name="settings_dev_environment">Dev Env 사용*</string>
+
+    <string name="settings_track_ads">광고 추적</string>
+
+    <string name="settings_grant_premium">프리미엄 사용</string>
+
+    <string name="settings_log_viewer">뷰어 기록</string>
+
+    <string name="settings_logout">로그아웃</string>
+
+    <string name="settings_version_template">버전 %s (%s)</string>
+
+    <string name="settings_opensource">오픈 소스 라이브러리</string>
+
+    <string name="settings_equalizer">이퀄라이저</string>
+
+    <string name="settings_upgrade_title">Audiomack 프리미엄으로 업그레이드</string>
+
+    <string name="settings_upgrade_subtitle">7일 무료 체험판을 시작하시고 모든 광고 제거 등 혜택을 이용하세요</string>
+
+    <string name="settings_upgrade_cta">왜 업그레이드해야 할까요?</string>
+
+    <string name="equalizer_title">이퀄라이저</string>
+
+    <string name="equalizer_enable">이퀄라이저</string>
+
+    <string name="equalizer_custom">커스텀 프리셋 사용</string>
+
+    <string name="equalizer_acoustic">어쿠스틱</string>
+
+    <string name="equalizer_dance">댄스</string>
+
+    <string name="equalizer_electronic">전자</string>
+
+    <string name="equalizer_flat">플랫</string>
+
+    <string name="equalizer_hiphop">힙합</string>
+
+    <string name="equalizer_loudness">라우드니스</string>
+
+    <string name="equalizer_pop">팝</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">록</string>
+
+    <string name="equalizer_vocal_booster">보컬 부스터</string>
+
+    <string name="equalizer_save">저장</string>
+
+    <string name="help_title">도움말</string>
+
+    <string name="help_message">도움말 센터를 확인하시고 티켓을 생성하거나 기존 티켓을 관리하세요.</string>
+
+    <string name="help_knowledgebase">지식 베이스</string>
+
+    <string name="help_contact">문의하기</string>
+
+    <string name="help_tickets_none">내 티켓</string>
+
+    <string name="help_tickets_template">내 티켓 (읽지 않음 %s개)</string>
+
+    <string name="help_alert_title">지원팀에서 최근 요청에 답변했습니다</string>
+
+    <string name="help_alert_yes">보기</string>
+
+    <string name="help_alert_no">취소</string>
+
+    <string name="artist_tab_uploads">업로드</string>
+
+    <string name="artist_tab_favorites">즐겨찾기</string>
+
+    <string name="artist_tab_playlists">playlist</string>
+
+    <string name="artist_tab_followers">팔로워</string>
+
+    <string name="artist_tab_following">팔로잉</string>
+
+    <string name="library_tab_favorites">즐겨찾기</string>
+
+    <string name="library_tab_offline">오프라인</string>
+
+    <string name="library_tab_playlists">playlist</string>
+
+    <string name="library_tab_followers">팔로워</string>
+
+    <string name="library_tab_following">팔로잉</string>
+
+    <string name="library_tab_uploads">업로드</string>
+
+    <string name="feed_tab_timeline">타임라인</string>
+
+    <string name="feed_tab_suggestedfollows">팔로우 추천</string>
+
+    <string name="feed_tab_following">팔로잉</string>
+
+    <string name="browse_tab_trending">인기</string>
+
+    <string name="browse_tab_topsongs">인기 음악</string>
+
+    <string name="browse_tab_topalbums">인기 앨범</string>
+
+    <string name="browse_tab_recentlyadded">최근 추가됨</string>
+
+    <string name="browse_filter_allgenres">전체</string>
+
+    <string name="search_tab_allmusic">전체</string>
+
+    <string name="search_tab_playlists">playlist</string>
+
+    <string name="search_tab_songs">음악</string>
+
+    <string name="search_tab_albums">앨범</string>
+
+    <string name="search_tab_accounts">계정</string>
+
+    <string name="library_search_tab_favorites">즐겨찾기</string>
+
+    <string name="library_search_tab_offline">오프라인</string>
+
+    <string name="library_search_tab_playlists">playlist</string>
+
+    <string name="library_search_tab_uploads">업로드</string>
+
+    <string name="cannot_refresh_token">더 이상 계정에 액세스할 수 없습니다</string>
+
+    <string name="failed_refresh_token_title">Audiomack에 연결할 수 없습니다</string>
+
+    <string name="failed_refresh_token_message">Audiomack에 연결할 수 없습니다. 나중에 다시 시도하세요.</string>
+
+    <string name="failed_refresh_token_button">확인</string>
+
+    <string name="generic_api_error">오류가 발생했습니다. 나중에 다시 시도하세요.</string>
+
+    <string name="generic_error_occurred">오류가 발생했습니다</string>
+
+    <string name="feat">Feat.</string>
+
+    <string name="feat_inline">feat.</string>
+
+    <string name="by">By</string>
+
+    <string name="ok">확인</string>
+
+    <string name="imagepicker_message">이미지 선택 위치</string>
+
+    <string name="imagepicker_camera">카메라</string>
+
+    <string name="imagepicker_gallery">갤러리</string>
+
+    <string name="imagepicker_gallery_cancel">취소</string>
+
+    <string name="options_play">재생</string>
+
+    <string name="options_download">다운로드</string>
+
+    <string name="options_favorite">즐겨찾기</string>
+
+    <string name="options_add_to_playlist">playlist</string>
+
+    <string name="options_repost">re-up</string>
+
+    <string name="options_share">공유</string>
+
+    <string name="options_copy_link">링크 복사</string>
+
+    <string name="options_song_details">음악 세부 정보</string>
+
+    <string name="options_album_details">앨범 세부 정보</string>
+
+    <string name="options_follow">팔로우</string>
+
+    <string name="options_unfollow">언팔로우</string>
+
+    <string name="options_artist_more">더 보기:</string>
+
+    <string name="options_remove_from_queue">대기열에서 제거</string>
+
+    <string name="options_delete_download">다운로드 삭제</string>
+
+    <string name="options_retry_download">다운로드 재시도</string>
+
+    <string name="options_play_next">다음에 재생</string>
+
+    <string name="options_add_to_queue">대기열에 추가</string>
+
+    <string name="options_music_more_info">더 많은 정보</string>
+
+    <string name="options_delete_download_list">다운로드 목록에서 삭제</string>
+
+    <string name="options_reorder_remove_tracks">곡 재정렬 / 제거</string>
+
+    <string name="options_edit_playlist_details">playlist 상세 정보 편집</string>
+
+    <string name="options_delete_playlist">playlist 삭제</string>
+
+    <string name="options_add_to_playlist_short">playlist</string>
+
+    <string name="options_comments">댓글</string>
+
+    <string name="options_edit">편집</string>
+
+    <string name="options_cancel">취소</string>
+
+    <string name="ad_ad">광고</string>
+
+    <string name="premium_cannot_find_product">요청한 제품을 찾을 수 없습니다</string>
+
+    <string name="premium_device_not_allowed">이 기기는 결제할 수 없습니다</string>
+
+    <string name="database_error_recreated">죄송합니다. 데이터베이스에 문제가 발생했습니다. 지금 데이터베이스를 다시 만들고 있으나, 오프라인 음악을 다시 다운로드해야 합니다.</string>
+
+    <string name="database_error_lowstorage">죄송합니다. 기기의 메모리가 부족합니다. 공간을 확보하고 다시 시도하세요.</string>
+
+    <string name="accessibility_playlists_all_categories">모든 카테고리</string>
+
+    <string name="accessibility_remove_ad">광고 제거</string>
+
+    <string name="accessibility_song_info">음악 정보</string>
+
+    <string name="accessibility_queue">대기열</string>
+
+    <string name="accessibility_miniplayer_pager">미니 플레이어 스크롤</string>
+
+    <string name="accessibility_download">다운로드</string>
+
+    <string name="accessibility_choose_genre">필터</string>
+
+    <string name="accessibility_choose_period">길이를 선택하세요</string>
+
+    <string name="accessibility_settings">설정</string>
+
+    <string name="accessibility_show_hide_password">비밀번호 표시/숨기기</string>
+
+    <string name="accessibility_close">닫기</string>
+
+    <string name="accessibility_back">닫기</string>
+
+    <string name="accessibility_actions">작업</string>
+
+    <string name="accessibility_toggle_follow">팔로우/언팔로우</string>
+
+    <string name="accessibility_add_to_playlist">playlist에 음악 추가</string>
+
+    <string name="accessibility_share">공유</string>
+
+    <string name="accessibility_player_seek">스크러버</string>
+
+    <string name="accessibility_player_prev">이전 음악</string>
+
+    <string name="accessibility_player_next">다음 음악</string>
+
+    <string name="accessibility_player_play_pause">재생/일시 정지</string>
+
+    <string name="accessibility_player_repeat">반복 모드 전환</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">플레이어 최소화</string>
+
+    <string name="accessibility_player_shuffle">셔플 전환</string>
+
+    <string name="accessibility_artist_info">아티스트 정보</string>
+
+    <string name="accessibility_twitter">트위터</string>
+
+    <string name="accessibility_facebook">페이스북</string>
+
+    <string name="accessibility_instagram">인스타그램</string>
+
+    <string name="accessibility_youtube">유튜브</string>
+
+    <string name="accessibility_queue_create_playlist">대기열에서 playlist를 만드세요</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">맨 위로 스크롤</string>
+
+    <string name="accessibility_song_image">음악 작품</string>
+
+    <string name="accessibility_favorite">즐겨찾기</string>
+
+    <string name="accessibility_repost">re-up</string>
+
+    <string name="accessibility_edit">편집</string>
+
+    <string name="accessibility_ad">광고</string>
+
+    <string name="accessibility_toast_image">토스트 이미지</string>
+
+    <string name="NSAppleMusicUsageDescription">이 기능을 사용하려면 미디어 라이브러리를 사용해야 합니다.</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">Audiomack에서 앱을 사용하지 않을 때도 근처의 블루투스 장비에서 데이터를 사용할 수 있도록 하려고 합니다.</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">Audiomack에서 앱을 사용하지 않을 때도 근처의 블루투스 장비에서 데이터를 사용할 수 있도록 하려고 합니다.</string>
+
+    <string name="NSCalendarsUsageDescription">이 상호 작용에는 캘린더 액세스가 필요합니다.</string>
+
+    <string name="NSContactsUsageDescription">이 기능을 사용하려면 연락처를 사용해야 합니다.</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Audiomack에서 사용자의 지역에서 인기 있는 음악을 표시할 수 있습니다.</string>
+
+    <string name="NSLocationAlwaysUsageDescription">Audiomack에서 사용자의 지역에서 인기 있는 음악을 표시할 수 있습니다.</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">Audiomack에서 사용자의 지역에서 인기 있는 음악을 표시할 수 있습니다.</string>
+
+    <string name="NSMicrophoneUsageDescription">이 기능을 사용하려면 마이크를 사용해야 합니다.</string>
+
+    <string name="NSMotionUsageDescription">이 기능을 사용하려면 모션을 사용해야 합니다.</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">이 기능을 사용하려면 사진 라이브러리에 저장해야 합니다.</string>
+
+    <string name="NSRemindersUsageDescription">이 상호 작용은 알림을 추가합니다.</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">이 기능을 사용하려면 음성 인식을 사용해야 합니다.</string>
+
+    <string name="positive_upsell_message">광고를 제거하려면 AUDIOMACK 프리미엄으로 업그레이드하세요</string>
+
+    <string name="highlights_add">하이라이트</string>
+
+    <string name="highlights_remove">하이라이트에서 제거</string>
+
+    <string name="highlights_reached_limit_message">다른 하이라이트를 추가하려면 하나를 삭제해야 합니다</string>
+
+    <string name="highlights_reached_limit_edit">하이라이트 편집</string>
+
+    <string name="highlights_reached_limit_cancel">취소</string>
+
+    <string name="highlights_edit_title">하이라이트 편집</string>
+
+    <string name="highlights_edit_subtitle">프로필에 곡, 앨범 또는 playlist를\n최대 4개까지 하이라이트할 수 있습니다.</string>
+
+    <string name="highlights_edit_save">저장</string>
+
+    <string name="uploads_header_highlighted">하이라이트됨</string>
+
+    <string name="uploads_header_recent">최근 업로드</string>
+
+    <string name="uploads_highlighted_message">음악, 앨범 또는 playlist 옆의 점 세 개를 터치하고 ‘하이라이트’를 선택해 프로필 상단에 고정할 수 있습니다</string>
+
+    <string name="toast_highlight_error">이 콘텐츠를 하이라이트할 수 없습니다</string>
+
+    <string name="highlight_confirmation_title_template">프로필에 %s이(가) 하이라이트되었습니다</string>
+
+    <string name="highlight_confirmation_message">다른 청취자들이 볼 수 있도록 프로필에 즐겨찾는 음악, 앨범 또는 playlist를 최대 4개까지 하이라이트할 수 있습니다.</string>
+
+    <string name="highlight_confirmation_view">프로필 보기</string>
+
+    <string name="highlight_confirmation_close">계속</string>
+
+    <string name="song">음악</string>
+
+    <string name="album">앨범</string>
+
+    <string name="artist">아티스트</string>
+
+    <string name="playlist">playlist</string>
+
+    <string name="podcast">팟캐스트</string>
+
+    <string name="editplaylist_create_banner">배너 이미지 추가</string>
+
+    <string name="download_delete_confirmation_title">다운로드에서 %s을(를) 삭제하시겠습니까?</string>
+
+    <string name="download_delete_confirmation_yes">삭제</string>
+
+    <string name="download_delete_confirmation_no">취소</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">가입하기</string>
+
+    <string name="signup_cant_login">로그인에 문제가 발생했습니까? 문의하기</string>
+
+    <string name="signup_cant_login_highlighted">문의하기</string>
+
+    <string name="signup_privacy_policy">개인정보 처리방침</string>
+
+    <string name="signup_create_account_prompt">해당 이메일과 일치하는 계정이 없습니다. 무료로 새 계정을 만드세요.</string>
+
+    <string name="signup_create_account_prompt_highlighted">무료로 새 계정을 만드세요.</string>
+
+    <string name="signup_audiomack_header">AUDIOMACK에 로그인</string>
+
+    <string name="signup_continue">계속</string>
+
+    <string name="signup_with_email_prompt">또는 이메일로 가입/로그인</string>
+
+    <string name="signup_troubles_alert_message">비밀번호를 초기화하려면\n이메일 주소 입력:</string>
+
+    <string name="signup_troubles_alert_footer">계속 로그인할 수 없습니까? 문의하기</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">문의하기</string>
+
+    <string name="login_twitter_error_message">트위터로 로그인 실패</string>
+
+    <string name="login_google_error_message">구글로 로그인 실패</string>
+
+    <string name="disconnect_social_alert_title">이 소셜 계정의 연결을 해제하시겠습니까?</string>
+
+    <string name="disconnect_social_alert_yes">연결 해제</string>
+
+    <string name="disconnect_social_alert_no">취소</string>
+
+    <string name="connect_social_twitter">트위터 계정을 연결하세요</string>
+
+    <string name="connect_social_facebook">페이스북 계정을 연결하세요</string>
+
+    <string name="connect_social_instagram">인스타그램 계정을 연결하세요</string>
+
+    <string name="connect_social_youtube">유튜브 계정을 연결하세요</string>
+
+    <string name="connect_social_popup_title_twitter">트위터 목록 표시</string>
+
+    <string name="connect_social_popup_title_instagram">인스타그램 목록 표시</string>
+
+    <string name="connect_social_popup_title_facebook">페이스북 목록 표시</string>
+
+    <string name="connect_social_popup_title_youtube">유튜브 목록 표시</string>
+
+    <string name="connect_social_popup_placeholder_twitter">사용자 이름</string>
+
+    <string name="connect_social_popup_placeholder_instagram">사용자 이름</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">추가</string>
+
+    <string name="connect_social_popup_clear">제거</string>
+
+    <string name="connect_social_popup_cancel">취소</string>
+
+    <string name="playlist_delete_title_template">%s playlist 삭제</string>
+
+    <string name="playlist_delete_no">취소</string>
+
+    <string name="playlist_delete_yes">삭제</string>
+
+    <string name="playlist_delete_message">확실합니까? 이는 취소할 수 없습니다</string>
+
+    <string name="search_related_title">%s에 일치하는 음악이 없습니다</string>
+
+    <string name="search_related_subtitle">마음에 드는 비슷한 아티스트들이 있습니다.</string>
+
+    <string name="search_filter">결과 필터링</string>
+
+    <string name="search_filter_sort">정렬 기준:</string>
+
+    <string name="search_filter_popular">최고 인기</string>
+
+    <string name="search_filter_recent">최근</string>
+
+    <string name="search_filter_relevant">가장 관련성 있음</string>
+
+    <string name="search_filter_verified_only">인증만</string>
+
+    <string name="search_filter_genres">장르</string>
+
+    <string name="search_filter_refine">정밀 검색</string>
+
+    <string name="inapprating_alert_title">Audiomack 평가하기</string>
+
+    <string name="inapprating_alert_message">Audiomack이 별 5개 앱이라고 생각하세요?</string>
+
+    <string name="inapprating_alert_positive">예</string>
+
+    <string name="inapprating_alert_negative">아니요</string>
+
+    <string name="inapprating_alert_followup_title">Audiomack 지원</string>
+
+    <string name="inapprating_alert_followup_message">앱이 마음에 들지 않으시다니 안타깝습니다. 저희가 도와드릴 수 있도록 지원팀에 문의하시겠습니까?</string>
+
+    <string name="inapprating_alert_followup_positive">예</string>
+
+    <string name="inapprating_alert_followup_negative">나중에</string>
+
+    <string name="search_verified_account">인증된 계정</string>
+
+    <string name="search_verified_playlist">인증된 playlist</string>
+
+    <string name="slideupmenu_music_added_by_template">%s 님이 추가했습니다</string>
+
+    <string name="slideupmenu_music_share_copylink">링크 복사</string>
+
+    <string name="slideupmenu_music_share_twitter">트위터</string>
+
+    <string name="slideupmenu_music_share_facebook">페이스북</string>
+
+    <string name="slideupmenu_music_share_text">문자로</string>
+
+    <string name="slideupmenu_music_share_more">더 보기</string>
+
+    <string name="slideupmenu_music_cancel">취소</string>
+
+    <string name="slideupmenu_music_add_to_downloads">다운로드에 추가</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">다운로드에서 제거</string>
+
+    <string name="opensource_title">오픈 소스 라이브러리</string>
+
+    <string name="opensource_subtitle">이 앱에서 사용된 라이브러리</string>
+
+    <string name="opensource_subsubtitle">이 페이지는 audiomack 앱에서 사용될 수 있는 타사 소프트웨어에 대한 저작자 공지를 표시합니다. \n감사합니다!</string>
+
+    <string name="accessibility_comment">댓글</string>
+
+    <string name="accessibility_sort">정렬</string>
+
+    <string name="comments_write_prompt">공개 댓글 쓰기…</string>
+
+    <string name="comments_removed_comment">이 댓글은 삭제되었습니다</string>
+
+    <string name="comments_comment_title">댓글</string>
+
+    <string name="comments_header_title">댓글</string>
+
+    <string name="comments_reply">답글</string>
+
+    <string name="comments_filter_top">상위 댓글</string>
+
+    <string name="comments_filter_newest">최신순</string>
+
+    <string name="comments_filter_oldest">오래된 순</string>
+
+    <string name="comments_delete_comment">댓글 삭제</string>
+
+    <string name="comments_flag_comment">댓글 플래그 표시</string>
+
+    <string name="comments_share_comment">댓글 공유</string>
+
+    <string name="comments_delete_alert_title">이 댓글을 삭제하시겠습니까?</string>
+
+    <string name="comments_delete_alert_confirm">댓글 삭제</string>
+
+    <string name="comments_flag_alert_title">확실합니까?</string>
+
+    <string name="comments_flag_alert_subtitle">음란물이나 스팸 콘텐츠만 신고하세요.</string>
+
+    <string name="comments_flag_alert_confirm">신고</string>
+
+    <string name="comments_alert_cancel">취소</string>
+
+    <string name="comments_be_nice_title">예의바르게 행동하세요.</string>
+
+    <string name="comments_be_nice_subtitle">여기는 여러분의 커뮤니티입니다. 주인의식을 가지고 행동하세요.</string>
+
+    <string name="comments_be_nice_bullet_1">스팸이 없습니다. 링크가 여기에서 작동하지 않습니다.</string>
+
+    <string name="comments_be_nice_bullet_2">댓글은 내 음악을 강조하기 위한 것이 아닙니다.</string>
+
+    <string name="comments_be_nice_bullet_3">만약 인종차별주의자, 혐오주의자, 악플러 또는 트롤이라면 댓글을 달 수 있는 혜택을 박탈당하게 됩니다.</string>
+
+    <string name="comments_be_nice_continue">계속</string>
+
+    <string name="comments_view_more_replies">댓글 %s개 더 보기</string>
+
+    <string name="comments_view_more_reply">1개 더 보기</string>
+
+    <string name="comments_expand">확장</string>
+
+    <string name="comments_minimize">최소화</string>
+
+    <string name="comments_commenting_on">%s에 댓글 달기</string>
+
+    <string name="comments_placeholder_cta">가장 먼저 댓글을 달아보세요</string>
+
+    <string name="artists_onboarding_title">Audiomack은\n새로운 음악을 발견하는 곳입니다.</string>
+
+    <string name="artists_onboarding_message">아래 아티스트 중\n듣고 싶은 분위기는 무엇인가요?</string>
+
+    <string name="artists_onboarding_message_highlighted">아래 아티스트</string>
+
+    <string name="artists_onboarding_button">지금 들어보세요</string>
+
+    <string name="artists_onboarding_footer">가장 인기 있는 음악으로 이동</string>
+
+    <string name="artists_onboarding_playlist_play_all">전체 재생</string>
+
+    <string name="artists_onboarding_playlist_pause">일시 정지</string>
+
+    <string name="artists_onboarding_playlist_shuffle">셔플</string>
+
+    <string name="artists_onboarding_select">아티스트 선택</string>
+
+    <string name="social_login_missing_email_title">계정 생성을 완료하려면 유효한 이메일을 입력하세요.</string>
+
+    <string name="social_login_missing_email_placeholder">이메일 주소</string>
+
+    <string name="social_login_missing_email_cta">제출</string>
+
+    <string name="social_login_missing_email_cancel">취소</string>
+
+    <string name="download_notification_title">다운로드 진행 중</string>
+
+    <string name="download_notification_message_template">그 외 %s 명</string>
+
+    <string name="player_extra_comments">댓글</string>
+
+    <string name="player_extra_info">정보</string>
+
+    <string name="player_extra_more_from_artist">아티스트에서 더 보기</string>
+
+    <string name="player_extra_comments_count_plural">댓글 %s개</string>
+
+    <string name="player_extra_comments_count_singular">댓글 %s개</string>
+
+    <string name="player_extra_rankings">랭킹</string>
+
+    <string name="player_extra_rankings_daily">오늘</string>
+
+    <string name="player_extra_rankings_weekly">이번 주</string>
+
+    <string name="player_extra_rankings_monthly">이번 달</string>
+
+    <string name="player_extra_rankings_all">항상</string>
+
+    <string name="player_extra_more_from_artist_template">%s에서 더 보기</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">프로필 방문</string>
+
+    <string name="player_extra_artist_followers_plural">팔로워 %s명</string>
+
+    <string name="player_extra_artist_followers_singular">팔로워 %s명</string>
+
+    <string name="player_extra_offline_placeholder_title">오프라인입니다</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">인터넷 상태를 확인하거나 아래에서 다시 시도하세요</string>
+
+    <string name="player_extra_offline_placeholder_cta">재시도</string>
+
+    <string name="filters_title_chart">차트 필터링</string>
+
+    <string name="filters_section_genre">장르별 필터링:</string>
+
+    <string name="filters_section_timeframe">타임 프레임별 필터:</string>
+
+    <string name="filters_section_timeframe_today">오늘</string>
+
+    <string name="filters_section_timeframe_week">이번 주</string>
+
+    <string name="filters_section_timeframe_month">이번 달</string>
+
+    <string name="filters_section_timeframe_year">올해</string>
+
+    <string name="filters_section_timeframe_alltime">항상</string>
+
+    <string name="filters_section_view">표시 기준:</string>
+
+    <string name="filters_section_view_list">목록 보기</string>
+
+    <string name="filters_section_view_tile">타일 보기</string>
+
+    <string name="filters_cta">필터</string>
+
+    <string name="chromecast_device_default_name">알 수 없는 크롬캐스트 기기</string>
+
+    <string name="airplay_devices">Airplay 기기</string>
+
+    <string name="cast_menu_disconnect">%s에서 연결 해제</string>
+
+    <string name="cast_unavailable">크롬캐스트를 사용할 수 없습니다</string>
+
+    <string name="notif_login_required">로그인 해야 합니다</string>
+
+    <string name="notif_login_favorite">즐겨찾기에 음악을 추가할 수 없습니다</string>
+
+    <string name="notif_login_repost">음악을 re-up할 수 없습니다</string>
+
+    <string name="feat_x">%1$s feat. %2$s</string>
+
+    <string name="contact_title_text">로그인할 수 없습니까?</string>
+
+    <string name="contact_subtitle_text">문제에 대해 자세히 알려주시면 \n최대한 빨리 답변해 드리겠습니다.</string>
+
+    <string name="contact_what_title_text">로그인 또는 가입하려 하셨습니까?</string>
+
+    <string name="contact_how_title_text">어떻게 로그인 / 가입하려 하셨습니까?</string>
+
+    <string name="contact_when_title_text">언제 마지막으로 로그인하셨습니까?</string>
+
+    <string name="contact_email_title_text">어떤 이메일로 후속 연락을 받으시겠습니까?</string>
+
+    <string name="contact_can_title_text">로그인 또는 가입을 시도했을 때\n발생한 다른 사항을 알려주시겠습니까?</string>
+
+    <string name="contact_selection_what_login">로그인</string>
+
+    <string name="contact_selection_what_signup">가입하기</string>
+
+    <string name="contact_selection_how_google">구글</string>
+
+    <string name="contact_selection_how_twitter">트위터</string>
+
+    <string name="contact_selection_how_facebook">페이스북</string>
+
+    <string name="contact_selection_how_email">이메일</string>
+
+    <string name="contact_selection_when_today">오늘</string>
+
+    <string name="contact_selection_when_last_week">지난 주에</string>
+
+    <string name="contact_selection_when_last_month">지난 달에</string>
+
+    <string name="contact_selection_when_dont_remember">기억이 나지 않습니다</string>
+
+    <string name="contact_selection_required">*필수</string>
+
+    <string name="contact_selection_select">선택해주세요</string>
+
+    <string name="contact_selection_enter">여기에 텍스트를 입력하세요</string>
+
+    <string name="contact_selection_send">전송</string>
+
+    <string name="contact_time_limit_error">지원 티켓이 제출되었습니다. 새 티켓을 제출하기 전에 지원팀의 답변을 기다려주세요.</string>
+
+    <string name="contact_send_success">지원 티켓이 제출되었습니다. 지원팀에서 답변할 때까지 기다려주세요.</string>
+
+    <string name="album_play">앨범 재생</string>
+
+    <string name="album_pause">앨범 일시 정지</string>
+
+    <string name="playlist_play">playlist 재생</string>
+
+    <string name="playlist_pause">playlist 일시 정지</string>
+
+    <string name="slideupmenu_music_trophies">트로피</string>
+
+    <string name="screenshot_now_playing">#NOWPLAYING</string>
+
+    <string name="screenshot_toast_title">이 페이지를 스크린샷으로 찍고 공유하세요.</string>
+
+    <string name="screenshot_toast_subtitle">종료하려면 아래로 슬라이드하세요.</string>
+
+    <string name="highlights_highlighted">하이라이트됨</string>
+
+    <string name="slideupmenu_music_share_snapchat">스냅챗</string>
+
+    <string name="georestriction_alert_message">권리 보유자가 사용자의 지역에서 이 음악을 사용할 수 없도록 했습니다.</string>
+
+    <string name="georestriction_alert_delete">삭제</string>
+
+    <string name="settings_notifications">알림</string>
+
+    <string name="notifications_manager_new_song_album">새 노래/앨범 알림</string>
+
+    <string name="notifications_manager_weekly_artist_reports">주간 아티스트 보고서</string>
+
+    <string name="notifications_manager_song_album_benchmarks">음악/앨범 벤치마크</string>
+
+    <string name="notifications_manager_everyone">모두</string>
+
+    <string name="notifications_manager_artists">아티스트</string>
+
+    <string name="notifications_manager_title">알림</string>
+
+    <string name="billing_issue_subscribed">결제 문제: 프리미엄을 유지하려면 결제 정보를 업데이트하세요</string>
+
+    <string name="billing_issue_unsubscribed">결제 문제: 프리미엄을 복원하려면 결제 정보를 업데이트하세요</string>
+
+    <string name="comments_count_template">댓글 %s개</string>
+
+    <string name="permissions_rationale_alert_instagram_message">이 기능을 사용하려면 인스타그램에 필요한 모든 권한이 있어야 합니다. 해당 권한을 활성화하세요.</string>
+
+    <string name="premium_start_trial_ios">7일 무료 평가판 시작</string>
+
+    <string name="premium_price_template_ios">월 %s</string>
+
+    <string name="comments_try_add_later">나중에 댓글을 다시 추가하세요</string>
+
+    <string name="comments_try_load_later">나중에 댓글을 다시 불러오세요</string>
+
+    <string name="comments_try_later_connection">연결 상태가 더 좋아지면 나중에 다시 시도하세요</string>
+
+    <string name="please_try_again_later">나중에 다시 시도하세요</string>
+
+    <string name="please_check_connection_try_again">연결 상태를 확인하고 다시 시도하세요</string>
+
+    <string name="please_try_request_later">나중에 다시 요청하세요</string>
+
+    <string name="please_login_again">다시 로그인하세요</string>
+
+    <string name="please_restart_app">앱을 다시 시작해주세요</string>
+
+    <string name="player_file_no_connection">인터넷에 접속할 수 없습니다</string>
+
+    <string name="please_check_connection_try_download_again">연결 상태를 확인하고 다운로드를 다시 시도하세요</string>
+
+    <string name="home_tab_browse_experiment">알아보기</string>
+
+    <string name="no_browser_installed">이 작업을 수행할 수 없습니다. 기기에 브라우저가 설치되어 있는지 확인하세요</string>
+
+    <string name="billing_issue_avoid_losing_premium">프리미엄 기능이 사라지지 않도록 결제 정보를 업데이트하시기 바랍니다</string>
+
+    <string name="billing_issue_restore_premium">프리미엄 혜택이 만료되었습니다. 프리미엄을 복원하려면 결제 정보를 업데이트하세요</string>
+
+    <string name="billing_issue_alert_header">결제 수단에 문제가 있습니다</string>
+
+    <string name="billing_issue_no_thanks">아뇨, 괜찮습니다</string>
+
+    <string name="billing_issue_update_info">정보 업데이트</string>
+
+    <string name="social_link_error_already_linked_title">이 계정은 이미 Audiomack 사용자에게 연결되어 있습니다</string>
+
+    <string name="social_link_error_already_linked_message_instagram">다른 인스타그램 계정을 연결하세요.</string>
+
+    <string name="social_link_error_already_linked_message_twitter">다른 트위터 계정을 연결하세요.</string>
+
+    <string name="trending_search_song">음악</string>
+
+    <string name="trending_search_album">앨범</string>
+
+    <string name="trending_search_playlist">playlist</string>
+
+    <string name="trending_search_account">계정</string>
+
+    <string name="login_apple_error_message">Apple로 로그인 실패</string>
+
+    <string name="benchmark_image_description">벤치마크 이미지</string>
+
+    <string name="benchmark_trophies_title">트로피</string>
+
+    <string name="benchmark_hide">숨기기</string>
+
+    <string name="benchmark_now">지금</string>
+
+    <string name="benchmark_playing">재생 중</string>
+
+    <string name="benchmark_million">%d00만</string>
+
+    <string name="benchmark_billion">%d0억</string>
+
+    <string name="benchmark_play">재생</string>
+
+    <string name="benchmark_favorite">즐겨찾기</string>
+
+    <string name="benchmark_playlist">playlist 추가</string>
+
+    <string name="benchmark_repost">re-up</string>
+
+    <string name="benchmark_verified">인증됨</string>
+
+    <string name="benchmark_artist">아티스트</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">메신저</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">이 기능을 사용하려면 메신저에 로그인해야 합니다</string>
+
+    <string name="notifications_verb_benchmark">히트</string>
+
+    <string name="notifications_verb_benchmark_your_song">내 음악</string>
+
+    <string name="notifications_verb_benchmark_your_album">내 앨범</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">내 playlist</string>
+
+    <string name="premium_download_toast">잠긴 음악을 랜덤으로 들으려면 프리미엄을 활성화하세요.</string>
+
+    <string name="premium_download_downloaded">다운로드됨</string>
+
+    <string name="premium_download_standard_message">무료 프리미엄 다운로드가 남아 있습니다.</string>
+
+    <string name="premium_download_upgrade">업그레이드</string>
+
+    <string name="premium_download_reached_limit">무료 프리미엄 다운로드 한도에 도달했습니다.</string>
+
+    <string name="premium_download_large_header">프리미엄 콘텐츠를 다운로드하고 있습니다</string>
+
+    <string name="premium_download_large_subheader">무료 계정에 프리미엄 다운로드 %d개가 제공됩니다.</string>
+
+    <string name="premium_download_highlighted_premium_count_message">무료 프리미엄 %d개</string>
+
+    <string name="premium_download_plain_remaining">다운로드가 남아 있습니다.</string>
+
+    <string name="premium_download_upgrade_header">프리미엄 업그레이드 혜택:</string>
+
+    <string name="premium_download_upgrade_first_point">무제한 프리미엄 다운로드</string>
+
+    <string name="premium_download_upgrade_second_point">광고 없이 쾌적한 경험</string>
+
+    <string name="premium_download_upgrade_third_point">고품질 스트리밍</string>
+
+    <string name="premium_download_upgrade_fourth_point">이퀄라이저 제어</string>
+
+    <string name="premium_download_upgrade_fifth_point">그 외 다양한 혜택!</string>
+
+    <string name="premium_download_upgrade_button">지금 업그레이드</string>
+
+    <string name="premium_download_learn_more_left">프리미엄 콘텐츠에 대해</string>
+
+    <string name="premium_download_learn_more_right">자세히 알아보세요.</string>
+
+    <string name="premium_download_large_header_second">프리미엄 다운로드에 대해 자세히 알아보세요</string>
+
+    <string name="premium_download_replace_header">다운로드 교체</string>
+
+    <string name="premium_download_replace_single_subheader">교체할 음악을 선택하세요.</string>
+
+    <string name="premium_download_replace_multiple_subheader">교체할 음악 %d곡을 선택하세요.</string>
+
+    <string name="premium_download_replace_button">%s (%d) 선택</string>
+
+    <string name="premium_download_replace_button_selected">(%d) 제거 및 다운로드</string>
+
+    <string name="premium_download_replace_button_text_one">하나</string>
+
+    <string name="premium_download_replace_button_text_two">둘</string>
+
+    <string name="premium_download_replace_button_text_three">셋</string>
+
+    <string name="premium_download_replace_button_text_four">넷</string>
+
+    <string name="premium_download_replace_button_text_five">다섯</string>
+
+    <string name="premium_download_replace_button_text_six">여섯</string>
+
+    <string name="premium_download_replace_button_text_seven">일곱</string>
+
+    <string name="premium_download_replace_button_text_eight">여덟</string>
+
+    <string name="premium_download_replace_button_text_nine">아홉</string>
+
+    <string name="premium_download_replace_button_text_ten">열</string>
+
+    <string name="premium_download_replace_button_text_eleven">열하나</string>
+
+    <string name="premium_download_replace_button_text_twelve">열둘</string>
+
+    <string name="premium_download_replace_button_text_thirteen">열셋</string>
+
+    <string name="premium_download_replace_button_text_fourteen">열넷</string>
+
+    <string name="premium_download_replace_button_text_fifteen">열다섯</string>
+
+    <string name="premium_download_replace_button_text_sixteen">열여섯</string>
+
+    <string name="premium_download_replace_button_text_seventeen">열일곱</string>
+
+    <string name="premium_download_replace_button_text_eighteen">열여덟</string>
+
+    <string name="premium_download_replace_button_text_nineteen">열아홉</string>
+
+    <string name="premium_download_replace_button_text_twenty">스물</string>
+
+    <string name="premium_download_replace_full_album_button">다운로드하려면 (%d)을 선택하세요</string>
+
+    <string name="premium_download_alert_exceed_limit_title">이 전체 앨범은 프리미엄 사용자만 다운로드할 수 있습니다.</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">개별 곡은 계속 다운로드할 수 있습니다.</string>
+
+    <string name="premium_download_alert_upgrade">프리미엄으로 업그레이드</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">취소</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">이 콘텐츠는 프리미엄 다운로드 한도를 초과했습니다.</string>
+
+    <string name="offline_filter_button">필터</string>
+
+    <string name="offline_filter_files_description">이 음악은 장치에 연결되어 있기 때문에 즐겨찾기, re-up, 하이라이트, playlist 또는 공유에 추가할 수 없습니다.</string>
+
+    <string name="offline_filter_files_scan">앱에서 기기에 저장된 노래를 듣습니다.</string>
+
+    <string name="offline_filter_files_switch">로컬 파일 포함</string>
+
+    <string name="offline_filter_previous_downloads">이전 다운로드 보기</string>
+
+    <string name="offline_filter_section_type">유형별 필터링:</string>
+
+    <string name="offline_filter_section_order">주문별 필터링:</string>
+
+    <string name="offline_filter_section_files">로컬 파일:</string>
+
+    <string name="offline_filter_title">오프라인 필터링</string>
+
+    <string name="signup_error_min_age">이 앱을 사용하려면 13세 이상이어야 합니다.</string>
+
+    <string name="report_content">콘텐츠 신고</string>
+
+    <string name="report_content_done">콘텐츠가 신고되었습니다</string>
+
+    <string name="block_user">사용자 차단</string>
+
+    <string name="block_user_done">신고/차단 요청 제출</string>
+
+    <string name="confirm_report_done">향후 24 시간 내에 신고/차단 요청이 실행됩니다.</string>
+
+    <string name="confirm_report_alert_title">문제를 설명하십시오</string>
+
+    <string name="confirm_report_report_alert_message">신고/차단의 원인을 가장 잘 설명한 항목을 선택하십시오</string>
+
+    <string name="confirm_report_alert_submit">제출</string>
+
+    <string name="confirm_report_alert_option_violent">폭력적이거나 음란물 또는 오디오 콘텐츠입니다.</string>
+
+    <string name="confirm_report_alert_option_broken">이 콘텐츠는 스트리밍되거나 다운로드되지 않습니다</string>
+
+    <string name="confirm_report_alert_option_misleading">이 콘텐츠는 잘못 안내되거나 표시되어 있습니다</string>
+
+    <string name="confirm_report_alert_option_spam">이 계정은 스팸 또는 괴롭힘과 관련이 있습니다</string>
+
+    <string name="confirm_report_alert_option_infringement">이 콘텐츠는 저작권 침해라고 생각합니다</string>
+
+    <string name="confirm_bis_report_alert_title">이 차단/신고 통지를 제출하시겠습니까?</string>
+
+    <string name="confirm_bis_report_alert_yes">예</string>
+
+    <string name="confirm_bis_report_alert_cancel">아니요. 제출하지 않습니다</string>
+
+    <string name="benchmark_tastemaker">유행을 만드는 사람들</string>
+
+    <string name="benchmark_authenticated">인증됨</string>
+
+    <string name="download_restore_backup_fail">이전 기기에서 다운로드를 복원할 수 없습니다</string>
+
+    <string name="download_restore_backup_success">이전 기기에서 다운로드를 성공적으로 복원했습니다</string>
+
+    <string name="download_restore_prompt">이전 기기에서 %d건의 다운로드를 복원하시겠습니까?</string>
+
+    <string name="download_restore_prompt_yes">예</string>
+
+    <string name="download_restore_prompt_no">아니요</string>
+
+    <string name="download_restore_no_wifi_prompt">WiFi에 연결되면 다운로드가 시작됩니다</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">확인</string>
+
+    <string name="in_app_update_ios_title">사용 가능한 업데이트</string>
+
+    <string name="in_app_update_ios_message">새로운 버전의 Audiomack을 사용할 수 있습니다. 지금 업데이트하십시오.</string>
+
+    <string name="in_app_update_ios_option_update">최신 정보</string>
+
+    <string name="in_app_update_ios_option_next_time">다음에 하기</string>
+
+    <string name="in_app_update_downloaded_title">이 앱에 대한 업데이트가 다운로드되었습니다</string>
+
+    <string name="in_app_update_downloaded_restart">재시작</string>
+
+    <string name="in_app_update_downloaded_cancel">취소</string>
+
+    <string name="in_app_update_download_started">앱 업데이트 다운로드가 시작되었습니다</string>
+
+    <string name="comments_view_all">모든 댓글보기</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">트로피를 선택한 다음 스크린 샷을 공유</string>
+
+    <string name="search_authenticated_account">인증된 계정</string>
+
+    <string name="search_tastemaker_account">테이스트 메이커 계정</string>
+
+    <string name="playlists_filter_pill_favorited">즐겨찾기</string>
+
+    <string name="offline_remove_title">멀티셀렉트는 오프라인을 제거</string>
+
+    <string name="offline_remove_button">오프라인에서 제거</string>
+
+    <string name="download_delete_slide">삭제</string>
+
+    <string name="options_play_next_list">다음 재생</string>
+
+    <string name="slideupmenu_music_share_instagram">인스타그램 스토리</string>
+
+    <string name="notifications_playlists_bundle_verb">다음에 추가되었습니다</string>
+
+    <string name="notifications_playlists_bundle_suffix">팔로우</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d개의 playlist</string>
+
+    <string name="notifications_playlists_new_songs">%d곡의 새로운 노래</string>
+
+    <string name="audio_ad_now_playing_info_title">오디오 광고</string>
+
+    <string name="audio_ad_advertisement">광고:</string>
+
+    <string name="audio_ad_support_artists">광고를 통해 Audiomack의 아티스트와 제작자를 지원할 수 있습니다.</string>
+
+    <string name="audio_ad_upgrade_premium">모든 광고를 제거하려면 프리미엄으로 업그레이드하세요</string>
+
+    <string name="audio_ad_now_playing_info_artist">콘텐츠가 %d초 안에 시작됩니다...</string>
+
+    <string name="downloadmessage_button_premium_downloads">오프라인 음악으로 이동</string>
+
+    <string name="benchmark_next_milestone">다음: %s</string>
+
+    <string name="benchmark_on_audiomack">AUDIOMACK에서</string>
+
+    <string name="settings_sleep_timer">수면 타이머</string>
+
+    <string name="sleep_timer_alert_title">음악을 얼마 동안 재생하시겠습니까?</string>
+
+    <string name="sleep_timer_alert_button">타이머 설정</string>
+
+    <string name="sleep_timer_alert_hours">시간</string>
+
+    <string name="sleep_timer_alert_hour">시</string>
+
+    <string name="sleep_timer_alert_minutes">분</string>
+
+    <string name="browse_tab_world">세계</string>
+
+    <string name="premium_2019_sleep_timer">수면 타이머</string>
+
+    <string name="premium_2019_sleep_timer_desc">밤새 앱을 실행하지 않고 잠을 잘 수 있도록 오디오를 중지하는 타이머를 설정하십시오.</string>
+
+    <string name="signup_gender_birthday_information_header">프로필 작성</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">자세한 내용은 서비스 약관 및 개인정보 보호정책을 참조하십시오</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">다음에 대한 귀하의 의견</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">알겠습니다</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">%d번째 공감.</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">%d번째 공감</string>
+
+    <string name="premium_download_large_subheader_second_song">이 노래를 다운로드하려면 하나의 프리미엄 다운로드를 업그레이드하거나 제거하세요.</string>
+
+    <string name="notifications_playlists_bundle_verb_single">이(가) 다음에 추가되었습니다</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">노래 %d 곡</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_single">새 노래 %d 곡</string>
+
+    <string name="audio_ad_notif_title">광고</string>
+
+    <string name="playlists_filter_my">내 playlist</string>
+
+    <string name="playlists_filter_favorited">즐겨찾기</string>
+
+    <string name="playlists_filter_offline">오프라인 전용</string>
+
+    <string name="filters_section_type">유형별 필터링:</string>
+
+    <string name="musicinfo_runtime_title">재생 시간:</string>
+
+    <string name="musicinfo_runtime_value">%s분, 트랙 %d개</string>
+
+    <string name="premium_2019_advanced">고급 기능</string>
+
+    <string name="premium_2019_start_trial">7일 무료 평가판 시작</string>
+
+    <string name="favorites_filter_title">필터 즐겨 찾기</string>
+
+    <string name="accessibility_multiselect">다중 선택</string>
+
+    <string name="accessibility_premium_download">프리미엄 다운로드</string>
+
+    <string name="search_playlist_total_songs">전체 노래:</string>
+
+    <string name="restore_downloads_prompt_title_plural">이전 기기에서 %d건의 다운로드를 복원하시겠습니까?</string>
+
+    <string name="restore_downloads_prompt_title_singular">이전 기기에서 %d건의 다운로드를 복원하시겠습니까?</string>
+
+    <string name="restore_downloads_dialog_positive">모든 다운로드 복원</string>
+
+    <string name="restore_downloads_dialog_negative">복원할 다운로드 선택</string>
+
+    <string name="restore_downloads_error">다운로드를 복원할 수 없습니다.</string>
+
+    <string name="restore_downloads_started">다운로드 복원 중</string>
+
+    <string name="restore_downloads_queued">WiFi에 연결되면 다운로드가 시작됩니다</string>
+
+    <string name="premium_2019_premiumdownloads">무제한 다운로드</string>
+
+    <string name="premium_2019_premiumdownloads_desc">Audiomack에서 모든 것을 무제한 다운로드</string>
+
+    <string name="premium_only_downloads_alert_title">이 다운로드는 프리미엄입니다.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">audiomack에는 수백만 건의 \n&#13;무료 다운로드가 있지만 \n&#13;아티스트는 프리미엄 구독자에게만 \n&#13;이 다운로드를 제공했습니다.</string>
+
+    <string name="premium_only_downloads_alert_yes">업그레이드</string>
+
+    <string name="premium_only_downloads_alert_no">취소</string>
+
+    <string name="notifications_manager_play_milestones">마일스톤 재생</string>
+
+    <string name="notifications_manager_upvote_milestones">마일스톤 좋아요 달기</string>
+
+    <string name="notifications_manager_comment_replies">답글에 댓글 달기</string>
+
+    <string name="local_player_granted_alert_title">로컬 파일 재생</string>
+
+    <string name="local_player_granted_alert_message">기기에 로컬로 저장된 음악 파일이 %d개 있습니다. Audiomack에서 이 노래에 액세스 하시겠습니까?\n\n참고: 로컬 파일은 장치에만 있기 때문에 공유, 재입력, 즐겨 찾기, 강조 표시 또는 재생 목록에 추가할 수 없습니다.</string>
+
+    <string name="local_player_granted_alert_positive">추가</string>
+
+    <string name="local_player_granted_alert_negative">취소</string>
+
+    <string name="local_player_ungranted_alert_title">로컬 파일 재생</string>
+
+    <string name="local_player_ungranted_alert_message">휴대폰에 음악 파일이 저장되어 있습니까? 이제 스트리밍 음악처럼 Audiomack에서 들을 수 있습니다. 시작하려면 아래의 \"추가\"를 탭하세요!\n\n참고: 로컬 파일은 장치에만 있기 때문에 공유, 리업, 즐겨 찾기, 강조 표시 또는 재생 목록에 추가할 수 없습니다.</string>
+
+    <string name="local_player_declined_alert_title">로컬 파일 추가</string>
+
+    <string name="local_player_declined_alert_message">Audiomack에서 기기에 저장된 모든 오디오 파일 듣기</string>
+
+    <string name="local_player_declined_alert_positive">추가</string>
+
+    <string name="queue_clear_all">모두 지우기</string>
+
+    <string name="queue_clear_upcoming">예정 지우기</string>
+
+    <string name="queue_save_playlist">재생 목록에 저장</string>
+
+    <string name="premium_only_downloads_stream_alert_title">프리미엄 전용 다운로드입니다.</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">앱의 모든 콘텐츠를 오프라인에서 들을 수 있도록 하려면 계정을 업그레이드하세요.</string>
+
+    <string name="articles_noresults_placeholder">글이 없습니다.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s분, %d곡</string>
+
+    <string name="premium_limited_reached_limit_alert_title">사용 가능한 프리미엄 다운로드가 충분하지 않습니다.</string>
+
+    <string name="premium_limited_reached_limit_alert_message">무제한 다운로드를 위해 프리미엄으로 업그레이드하거나 이전 다운로드를 교체하여 공간을 확보하십시오.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">프리미엄 무료 평가판 시작</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">교체 및 다운로드</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">프리미엄 콘텐츠에 대해 자세히 알아보십시오.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">프리미엄 콘텐츠</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">프리미엄 다운로드가 없습니다.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">플레이하려면 프리미엄으로 업그레이드하거나 프리미엄 다운로드의 %d을(를) 교체하세요.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">프리미엄으로 업그레이드</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">교체 및 잠금 해제</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">대신 스트리밍하고 싶습니다.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">대신 스트리밍하십시오.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">오프라인에서 삭제</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">프리미엄 다운로드가 없습니다.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">다운로드하려면 프리미엄으로 업그레이드하거나 프리미엄 다운로드의 %d을(를) 교체하세요.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">프리미엄으로 업그레이드</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">교체 및 잠금 해제</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">대신 스트리밍하고 싶습니다.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">대신 스트리밍하십시오.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">오프라인에서 삭제</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">이 다운로드를 잠금 해제하시겠습니까?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">남은 프리미엄 다운로드 중 %d을(를) 사용하여 잠금 해제할 수 있습니다.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">프리미엄으로 업그레이드</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">잠금 해제</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">대신 스트리밍하고 싶습니다.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">대신 스트리밍하십시오.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">오프라인에서 삭제</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">구독하여 잠금해제하십시오.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">audiomack에는 수백만 건의 무료 다운로드가 있지만 이 다운로드는 프리미엄 사용자만 액세스할 수 있습니다.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">프리미엄으로 업그레이드</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">대신 스트리밍하고 싶습니다.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">대신 스트리밍하십시오.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">오프라인에서 삭제</string>
+
+    <string name="restore_downloads_dialog_select">복구할 다운로드 선택</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">복구</string>
+
+    <string name="search_recommendations">추천</string>
+
+    <string name="settings_premium_status">프리미엄 상태</string>
+
+    <string name="settings_premium_status_no_override">취소 없음</string>
+
+    <string name="settings_premium_status_free">무료</string>
+
+    <string name="settings_premium_status_premium">프리미엄</string>
+
+    <string name="settings_premium_status_free_billing_issue">청구 문제로 무료</string>
+
+    <string name="settings_premium_status_premium_billing_issue">청구 문제가 있는 프리미엄</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d개의 재생 목록</string>
+
+    <string name="notifications_playlists_new_songs_singular">새 노래 %d곡</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">이(가) 다음에 추가되었습니다</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d곡</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d개의 재생목록</string>
+
+    <string name="premium_limited_download_unlock_toast">%s 잠금 해제</string>
+
+    <string name="notifications_follow_alert_title">이 아티스트가 &#13;\n새 음악을 내면 &#13;\n알림을 받으시겠습니까?</string>
+
+    <string name="notifications_follow_alert_positive">푸시 권한 부여</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">오프라인에서 삭제</string>
+
+    <string name="email_verification_toast_success">이메일을 확인해 주셔서 감사합니다!</string>
+
+    <string name="email_verification_toast_failure">이메일 확인 실패</string>
+
+    <string name="sleep_timer_stop_today">%s에 재생이 중지됩니다.</string>
+
+    <string name="sleep_timer_stop_tomorrow">내일 %s에 재생이 중지됩니다.</string>
+
+    <string name="sleep_timer_triggered">취침 타이머 완료</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">이 아티스트가 새 음악을 내면 알림을 받으시겠습니까?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">푸시 권한 부여</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">취소</string>
+
+    <string name="notifications_manager_push_off_title">푸시 알림이 비활성화됩니다.</string>
+
+    <string name="notifications_manager_push_off_message_ios">활성화하려면&#13;\niPhone 설정 &gt; 알림 &gt; Audiomack을 방문하십시오.</string>
+
+    <string name="notifications_manager_push_off_message_android">활성화하려면&#13;\n장치 설정&gt; 앱 및 알림&gt; Audiomack&gt; 알림을 방문하십시오.</string>
+
+    <string name="sleep_timer_notification_button">이동</string>
+
+    <string name="sleep_timer_notification_title">프리미엄 수면 타이머 잠금 해제</string>
+
+    <string name="sleep_timer_notification_subtitle">밤새도록 앱을 실행하지 않고도 잠을 잘 수 있도록 설정하세요.</string>
+
+    <string name="sleep_timer_notification_premium_title">수면 타이머를 잠금 해제했습니다.</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">잠자기 상태로 떠난 후 오디오를 중지하도록 설정</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack은 로컬 네트워크를 사용하여 WiFi 네트워크에서 Cast 지원 장치를 검색합니다.</string>
+
+    <string name="notifications_manager_verified_playlist">확인된 재생 목록 추가</string>
+
+    <string name="world_articles_not_found">글이 없습니다.</string>
+
+    <string name="world_article_detail_not_found">글이 없습니다.</string>
+
+    <string name="accessibility_world_logo">세계 로고</string>
+
+    <string name="splash_message_single">최적의 환경을 제공하기 위해 다음 권한을 사용하도록 요청:</string>
+
+    <string name="splash_location_message_new">해당 지역의 인기 음악, 인기 차트 및 지역 검색 표시</string>
+
+    <string name="accessibility_logo">Audiomack 아이콘</string>
+
+    <string name="widget_gallery_title">히트곡 재생</string>
+
+    <string name="widget_gallery_subtitle">좋아하는 최근 저장 트랙 듣기</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">이 트랙은 프리미엄 전용입니다.</string>
+
+    <string name="premium_only_streaming_alert_message">Audiomack 프리미엄을 구입하여 플랫폼에서 모든 트랙을 스트리밍하고 무제한 다운로드 등을 즐기십시오!</string>
+
+    <string name="premium_only_streaming_alert_premium">프리미엄 받기</string>
+
+    <string name="premium_only_streaming_alert_cancel">취소</string>
+
+    <string name="toast_play_album_deleted_tracks_header">모든 노래가 다운로드되지는 않습니다.</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">데이터를 절약하기 위해 오프라인 트랙만 대기열에 추가됩니다.</string>
+
+    <string name="feed_suggested_accounts">추천 계정</string>
+
+    <string name="feed_suggested_accounts_view_all">모두 보기</string>
+
+    <string name="feed_new_music_description">팔로우하는 사람들의 새로운 음악이 여기에 표시됩니다.</string>
+
+    <string name="feed_follow_suggested_description">위에서 추천한 아티스트 중 일부를 팔로우하여 시작할 수 있습니다.</string>
+
+    <string name="feed_social_feed">소셜 피드</string>
+
+    <string name="NSPhotoLibraryUsageDescription">프로필에 사용할 사진을 선택하려면 사진 라이브러리에 액세스해야합니다.</string>
+
+    <string name="NSCameraUsageDescription">프로필에 사용할 사진을 찍으려면 카메라에 액세스해야합니다.</string>
+
+    <string name="settings_change_password">비밀번호 변경</string>
+
+    <string name="update_password_success">비밀번호가 성공적으로 업데이트되었습니다!</string>
+
+    <string name="update_password_title">암호 업데이트</string>
+
+    <string name="update_password_current">현재 비밀번호</string>
+
+    <string name="update_password_new">새 비밀번호</string>
+
+    <string name="update_password_confirm">비밀번호 확인</string>
+
+    <string name="update_password_forgot">비밀번호를 잊으셨습니까?</string>
+
+    <string name="update_password_save">비밀번호 업데이트</string>
+
+    <string name="reset_password_invalid_token_title">비밀번호 재설정 링크 오류</string>
+
+    <string name="reset_password_invalid_token_message">비밀번호 재설정 링크를 확인하는 중에 오류가 발생했습니다. 링크가 만료 되었기 때문일 수 있습니다. 비밀번호 찾기 양식을 다시 사용하여 새 링크를 생성하십시오.</string>
+
+    <string name="reset_password_title">암호 재설정</string>
+
+    <string name="reset_password_subtitle">새 비밀번호 입력</string>
+
+    <string name="reset_password_new">새 비밀번호</string>
+
+    <string name="reset_password_confirm">비밀번호 확인</string>
+
+    <string name="reset_password_reset">비밀번호 재설정</string>
+
+    <string name="reset_password_success">비밀번호 재설정이 완료되었습니다!</string>
+
+    <string name="word_article_webview_updating_error">일부 서비스를 업데이트 중입니다. 다시 시도하십시오.</string>
+
+    <string name="local_file">로컬 파일</string>
+
+    <string name="local_file_selection_apply">변경 사항 저장</string>
+
+    <string name="local_file_selection_applied">선택한 파일이 저장되었습니다.</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack이 로컬 미디어에 액세스하려면 저장소 권한이 필요합니다.</string>
+
+    <string name="local_file_selection_empty">로컬 미디어가 없습니다.</string>
+
+    <string name="offline_filter_files_select">파일 선택</string>
+
+    <string name="options_hide_track">트랙 숨기기</string>
+
+    <string name="options_hide_album">앨범 숨기기</string>
+
+    <string name="uploads_filter_popular">최고 인기</string>
+
+    <string name="uploads_filter_recent">최근</string>
+
+</resources>

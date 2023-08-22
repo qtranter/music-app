@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutProgress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="13dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    tools:ignore="SmallSp">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvDownloadLimit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/premium_download_standard_message"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:customletterspacing="-0.5" />
+
+    <FrameLayout
+        android:layout_width="290dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal">
+
+        <View
+            android:id="@+id/viewProgressContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/header_download_progress_background" />
+
+        <View
+            android:id="@+id/viewProgress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/header_download_progress" />
+
+    </FrameLayout>
+
+</LinearLayout>

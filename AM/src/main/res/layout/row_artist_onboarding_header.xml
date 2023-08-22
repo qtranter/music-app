@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/ic_login_logo" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/artists_onboarding_title"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:customletterspacing="-0.46" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/opensans_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/artists_onboarding_message"
+        android:textColor="#CACACA"
+        android:textSize="16sp"
+        app:customletterspacing="-0.44" />
+
+</LinearLayout>

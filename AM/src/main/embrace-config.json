@@ -1,0 +1,15 @@
+{
+  "app_id": "5Q2YK",
+  "api_token": "0f4d9a0e046d4006884e9a5ae4d2dade",
+  "sdk_config": {
+    "session": {
+      "async_end": true
+    },
+    "app": {
+      "report_disk_usage": false
+    },
+    "networking": {
+      "capture_request_content_length": false
+    }
+  }
+}

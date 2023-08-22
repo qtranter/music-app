@@ -1,0 +1,2 @@
+ALTER TABLE items ADD COLUMN tags TEXT;
+ALTER TABLE bookmarked_items ADD COLUMN tags TEXT;

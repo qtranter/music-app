@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender">
+        <item>@string/signup_gender_male</item>
+        <item>@string/signup_gender_female</item>
+        <item>@string/signup_gender_other</item>
+    </string-array>
+
+</resources>

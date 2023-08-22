@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:clipToPadding="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/accessibility_song_image"
+                android:scaleType="centerCrop"
+                tools:src="@color/orange" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:maxLines="2"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textIsSelectable="true"
+                android:textSize="19sp"
+                app:customletterspacing="-0.5"
+                tools:text="Fetty Wap" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="#ffffff"
+                android:textIsSelectable="true"
+                android:textSize="19sp"
+                app:customletterspacing="-0.5"
+                tools:text="$ave Dat Money (Unity Remix)" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvFeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:maxLines="2"
+                android:textColor="#ffffff"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                app:customletterspacing="-0.39"
+                tools:text="Feat. Monty, Drake, Migos" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_horizontal">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvAdded"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.5"
+                    tools:text="By Dj ArabMixTapes" />
+
+                <ImageView
+                    android:id="@+id/imageViewVerified"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/tvAdded"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_verified" />
+
+                <com.audiomack.views.AMImageButton
+                    android:id="@+id/buttonFollow"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="24dp"
+                    android:layout_height="22dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="2dp"
+                    android:layout_toEndOf="@id/imageViewVerified"
+                    android:background="@null"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/player_follow" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvPlays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:drawablePadding="5dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:textSize="13sp"
+                    app:customletterspacing="-0.5"
+                    app:drawableStartCompat="@drawable/ic_stats_plays"
+                    tools:text="999K" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvFavs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:drawablePadding="5dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:textSize="13sp"
+                    app:customletterspacing="-0.5"
+                    app:drawableStartCompat="@drawable/ic_stats_favs"
+                    tools:text="999K" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvReups"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:drawablePadding="5dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:textSize="13sp"
+                    app:customletterspacing="-0.5"
+                    app:drawableStartCompat="@drawable/ic_stats_reups"
+                    tools:text="999K" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvPlaylists"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:drawablePadding="5dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:textColor="#ffffff"
+                    android:textIsSelectable="true"
+                    android:textSize="13sp"
+                    app:customletterspacing="-0.5"
+                    app:drawableStartCompat="@drawable/ic_stats_playlists"
+                    tools:text="999K" />
+
+            </LinearLayout>
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="12.5dp"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="#CACACA"
+                android:textIsSelectable="true"
+                android:textSize="13sp"
+                app:customletterspacing="-0.1"
+                tools:text="He is best known for his 2014 hit single 'Trap Queen', which was a sleeper hit that peaked at number two on the US Billboard Hot 100 chart in May 2015" />
+
+            <View
+                android:id="@+id/dividerRanks"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="25dp"
+                android:background="#2a2a2a" />
+
+            <LinearLayout
+                android:id="@+id/layoutRanks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="7.5dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/musicinfo_stats_today"
+                        android:textColor="#ffffff"
+                        android:textSize="11sp" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvTodayNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/orange"
+                        android:textIsSelectable="true"
+                        android:textSize="20sp"
+                        tools:text="#56" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/musicinfo_stats_week"
+                        android:textColor="#ffffff"
+                        android:textSize="11sp" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvWeekNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/orange"
+                        android:textIsSelectable="true"
+                        android:textSize="20sp"
+                        tools:text="#1.71K" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/musicinfo_stats_month"
+                        android:textColor="#ffffff"
+                        android:textSize="11sp" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvMonthNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/orange"
+                        android:textIsSelectable="true"
+                        android:textSize="20sp"
+                        tools:text="#15.5K" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/musicinfo_stats_alltime"
+                        android:textColor="#ffffff"
+                        android:textSize="11sp" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvAllTimeNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/orange"
+                        android:textIsSelectable="true"
+                        android:textSize="20sp"
+                        tools:text="#21.5K" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="12.5dp"
+                android:layout_marginBottom="25dp"
+                android:background="#2a2a2a" />
+
+            <LinearLayout
+                android:id="@+id/layoutLastUpdated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_lastupdated"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvLastUpdated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#CACACA"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="Date" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutNumberOfSongs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_numberofsongs"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvNumberOfSongs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#CACACA"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="37" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutPlaylistCreator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_playlistcreator"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvPlaylistCreator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="@color/orange"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="Creator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutAlbum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_album"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvAlbum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#CACACA"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="The Definition (DJ Semi Mix)" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutProducer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_producer"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvProducer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#CACACA"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="Dave Edwards" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutAddedOn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_addedon"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvAddedOn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#CACACA"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="Feb 5th, 2018" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:orientation="vertical">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:text="@string/musicinfo_genre"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:textColor="#CACACA"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    app:customletterspacing="-0.54"
+                    tools:text="Hip-Hop/R&amp;B" />
+            </LinearLayout>
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/btnReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="end"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/report_content"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="13sp"
+                app:customletterspacing="-0.5" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end|top"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_close"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white" />
+
+</FrameLayout>

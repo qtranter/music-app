@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:ignore="SmallSp">
+
+    <com.audiomack.views.AMViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/headerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#1C1C1C"
+        app:layout_constraintBottom_toBottomOf="@id/tabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTopTitle"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/navbar_height"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:customletterspacing="-0.44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Taylor Wise" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_back"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/tvTopTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTopTitle"
+        app:srcCompat="@drawable/ic_back_button" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarSmallImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="15dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@id/tvTopTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTopTitle"
+        tools:src="#333333" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ticketsBadgeView"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:src="@color/orange"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/avatarSmallImageView"
+        app:layout_constraintTop_toTopOf="@id/avatarSmallImageView"
+        tools:visibility="visible" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonAvatarSettings"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_settings"
+        android:paddingStart="12dp"
+        android:paddingTop="18dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/library_avatar_gear"
+        app:layout_constraintBottom_toBottomOf="@id/tvTopTitle"
+        app:layout_constraintStart_toStartOf="@id/avatarSmallImageView"
+        app:layout_constraintTop_toTopOf="@id/tvTopTitle"
+        tools:ignore="RtlSymmetry" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonNotifications"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="12dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/profile_notifications"
+        app:layout_constraintBottom_toBottomOf="@id/tvTopTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTopTitle" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvNotificationsBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/badge_background"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textColor="#ffffff"
+        android:textSize="9sp"
+        app:layout_constraintEnd_toEndOf="@id/buttonNotifications"
+        app:layout_constraintTop_toTopOf="@id/buttonNotifications"
+        tools:text="9+" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonSearch"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/profile_search"
+        app:layout_constraintBottom_toBottomOf="@id/tabLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tabLayout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:background="#2B2B2B"
+        app:layout_constraintBottom_toBottomOf="@id/tabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.audiomack.views.AMCustomTabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTopTitle"
+        app:tabIndicatorColor="@color/orange"
+        app:tabIndicatorHeight="3dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/tablayout_dark_selected_textcolor"
+        app:tabTextAppearance="@style/TabLayoutDarkTextAppearance"
+        app:tabTextColor="@color/tablayout_dark_unselected_textcolor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

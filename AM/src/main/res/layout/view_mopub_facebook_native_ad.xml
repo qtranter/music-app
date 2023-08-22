@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#171717"
+    tools:ignore="SpUsage">
+
+    <com.facebook.ads.MediaView
+        android:id="@+id/native_ad_main_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#2a2a2a"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1.905"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/native_ad_choices_view_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.facebook.ads.MediaView
+        android:id="@+id/native_ad_icon_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/native_ad_main_image"
+        tools:src="#cccccc" />
+
+    <RelativeLayout
+        android:id="@+id/native_ad_choices_relative_layout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="#cccccc" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/native_ad_call_to_action"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/nativead_cta"
+        android:fontFamily="@font/opensans_bold"
+        android:maxLines="2"
+        android:minWidth="116dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:customletterspacing="-0.72"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/native_ad_icon_image"
+        tools:text="Learn more" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/native_ad_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="12dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/opensans_bold"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        app:customletterspacing="-0.44"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/native_ad_body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/native_ad_icon_image"
+        app:layout_constraintTop_toTopOf="@id/native_ad_icon_image"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="The BMW M4 Coupé. The Ultimate Driving Machine." />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/native_ad_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="12dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/opensans_regular"
+        android:maxLines="2"
+        android:textColor="@color/gray_text"
+        android:textSize="12dp"
+        app:customletterspacing="-0.43"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="@id/native_ad_icon_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/native_ad_icon_image"
+        app:layout_constraintTop_toBottomOf="@+id/native_ad_title"
+        tools:text="A high-performance athlete for the road and the racetrack, for perfect track car in manual transmission." />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/native_ad_label"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/nativead_badge"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:text="@string/ad_ad"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        app:customletterspacing="-0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

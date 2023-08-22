@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    tools:ignore="SpUsage, SmallSp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivBenchmark"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/benchmark_image_description"
+        android:scaleType="centerCrop"
+        tools:src="@color/gray_text" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivBenchmarkOverlay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@color/black_alpha30"
+        app:civ_circle_background_color="@color/black_alpha30" />
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/benchmark_image_description"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_share_image_80" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivBenchmarkBorder"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@color/transparent"
+        app:civ_circle_background_color="@color/transparent"
+        tools:civ_border_color="@color/orange"
+        tools:civ_border_width="3dp" />
+
+    <ImageView
+        android:id="@+id/ivArtistIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="55dp"
+        android:contentDescription="@string/benchmark_image_description"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_verified" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:orientation="vertical">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kanit_bold"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/orange"
+            android:textSize="16sp"
+            app:customletterspacing="-0.4"
+            tools:text="NOW" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-6dp"
+            android:fontFamily="@font/kanit_bold"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            app:customletterspacing="-0.3"
+            tools:text="PLAYING" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="#777777"
+            android:textSize="10sp"
+            app:customletterspacing="-0.3"
+            tools:text="Next: 250K" />
+
+    </LinearLayout>
+
+</FrameLayout>

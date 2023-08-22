@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:right="@dimen/now_playing_scrollbar_margin"
+        android:top="@dimen/now_playing_scrollbar_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="#80FFFFFF" />
+            <corners android:radius="4dp" />
+            <size android:width="3dp" />
+        </shape>
+    </item>
+</layer-list>

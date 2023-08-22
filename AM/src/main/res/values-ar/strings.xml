@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">حاول مرة أخرى</string>
+
+    <string name="splash_offline">أنت غير متصل بالإنترنت ويمكنك تشغيل الموسيقى التي تم تنزيلها فقط.</string>
+
+    <string name="splash_gotodownloads">انتقل إلى الموسيقى دون الاتصال بالإنترنت</string>
+
+    <string name="splash_message">لتقديم أفضل تجربة، نطلب منك تمكين الأذونات التالية:</string>
+
+    <string name="splash_storage">الوصول إلى الملف</string>
+
+    <string name="splash_storage_message">يسمح لك بتنزيل الأغاني والألبومات</string>
+
+    <string name="splash_location">الموقع</string>
+
+    <string name="splash_location_message">يُمكّن Audiomack من عرض الموسيقى الشعبية في منطقتك</string>
+
+    <string name="splash_notifications">إشعارات Push</string>
+
+    <string name="splash_notifications_message">يسمح لنا بإشعارك عند إصدار موسيقى محمسة جديدة</string>
+
+    <string name="splash_ok">حسناً، لك ذلك!</string>
+
+    <string name="splash_later">ربما في وقت لاحق؟</string>
+
+    <string name="splash_privacy_policy">سياسة الخصوصية</string>
+
+    <string name="splash_autologin_timeout_error_message">نواجه مشكلة في الاتصال. يُرجى التحقق من اتصالك بالإنترنت</string>
+
+    <string name="splash_autologin_timeout_error_ok">موافق</string>
+
+    <string name="splash_autologin_fail_message">فشل تسجيل الدخول</string>
+
+    <string name="splash_autologin_facebook_error_message">فشل تحديث رمز فيسبوك المميز</string>
+
+    <string name="home_tab_feed">تزويد بمقتطفات</string>
+
+    <string name="home_tab_playlists">Playlists</string>
+
+    <string name="home_tab_search">بحث</string>
+
+    <string name="home_tab_library">مكتبتي</string>
+
+    <string name="signup_tos">من خلال التسجيل، فإنك توافق على شروط الخدمة وسياسة الخصوصية</string>
+
+    <string name="signup_tos_highlighted_tos">شروط الخدمة</string>
+
+    <string name="signup_tos_highlighted_privacy">سياسة الخصوصية</string>
+
+    <string name="signup_username">أدخل اسم المستخدم</string>
+
+    <string name="signup_email">أدخل بريدك الإلكتروني</string>
+
+    <string name="signup_password">قم بإنشاء كلمة المرور</string>
+
+    <string name="signup_password_confirm">قم بتأكيد كلمة المرور</string>
+
+    <string name="signup_create">قم بإنشاء حسابك</string>
+
+    <string name="signup_facebook">التسجيل بحساب فيسبوك</string>
+
+    <string name="signup_go_to_login">هل لديك حساب بالفعل؟</string>
+
+    <string name="signup_header">قم بإنشاء حساب مجاني</string>
+
+    <string name="signup_birthday_label">ما يوم ميلادك؟</string>
+
+    <string name="signup_gender_label">ما جنسك؟</string>
+
+    <string name="signup_gender_male">ذكر</string>
+
+    <string name="signup_gender_female">أنثى</string>
+
+    <string name="signup_gender_other">غير ثنائي</string>
+
+    <string name="signup_disclaimer">يستخدم Audiomack هذه البيانات لتخصيص تجربتك ويساعد الفنانين على فهم مستمعيهم، والمزيد. سنجعل بياناتك الشخصية مجهولة دائماً.</string>
+
+    <string name="signup_finish">إنهاء</string>
+
+    <string name="signup_error_birthday">يرجى إدخال يوم ميلاد صالح</string>
+
+    <string name="signup_error_gender">يرجى تحديد الجنس</string>
+
+    <string name="login_show_password">عرض كلمة المرور</string>
+
+    <string name="login_error_timestamp">انتهت صلاحية الطابع الزمني. قد يعني هذا أن الساعة على جهازك خاطئة. يرجى التحقق من الوقت والتاريخ وإذا كنت لا تزال تواجه مشاكل، تواصل من خلال البريد الإلكتروني support\@audiomack.com.</string>
+
+    <string name="login_error_1037">لا يمكن استعادة البيانات الضرورية. يرجى التأكد من تعيين عنوان بريد إلكتروني في حسابك والمحاولة مرة أخرى.</string>
+
+    <string name="login_header">تسجيل الدخول إلى حسابك</string>
+
+    <string name="login_email">البريد الإلكتروني</string>
+
+    <string name="login_password">كلمة المرور</string>
+
+    <string name="login_forgot_password">هل نسيت كلمة المرور</string>
+
+    <string name="login_cta">تسجيل الدخول</string>
+
+    <string name="login_facebook">قم بتسجيل الدخول باستخدام فيسبوك</string>
+
+    <string name="login_go_to_signup_hint">ليس لديك حساب؟</string>
+
+    <string name="login_go_to_signup">قم بإنشاء حساب مجاني</string>
+
+    <string name="login_facebook_error_message">فشل تسجيل الدخول باستخدام فيسبوك</string>
+
+    <string name="login_facebook_error_button">موافق</string>
+
+    <string name="login_error_title">خطأ في تسجيل الدخول</string>
+
+    <string name="login_error_message_facebook">خطأ في فيسبوك</string>
+
+    <string name="login_tos">من خلال تسجيل الدخول إلى audiomack، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا</string>
+
+    <string name="login_tos_highlighted_tos">شروط الخدمة</string>
+
+    <string name="login_tos_highlighted_privacy">سياسة الخصوصية</string>
+
+    <string name="signup_error_title">خطأ في الاشتراك</string>
+
+    <string name="authentication_validation_username_empty">اسم المستخدم فارغ</string>
+
+    <string name="authentication_validation_email_empty">البريد الإلكتروني فارغ</string>
+
+    <string name="authentication_validation_password_empty">كلمة المرور فارغة</string>
+
+    <string name="authentication_validation_password_mismatch">كلمتا المرور غير متطابقتين</string>
+
+    <string name="logout_alert_title">تسجيل الخروج</string>
+
+    <string name="logout_alert_message">هل تريد تسجيل الخروج من Audiomack؟</string>
+
+    <string name="logout_alert_no">إلغاء</string>
+
+    <string name="logout_alert_yes">موافق</string>
+
+    <string name="forgot_password_alert_title">هل نسيت كلمة المرور</string>
+
+    <string name="forgot_password_alert_message">أدخل بريدك الإلكتروني وسنرسل لك خطوات لإعادة تعيين كلمة المرور الخاصة بك</string>
+
+    <string name="forgot_password_alert_no">إلغاء</string>
+
+    <string name="forgot_password_alert_yes">إرسال</string>
+
+    <string name="forgot_password_alert_hint">عنوان البريد الإلكتروني</string>
+
+    <string name="forgot_password_success">شكراً لك. يرجى التحقق من بريدك الإلكتروني للحصول على تعليمات إعادة تعيين كلمة المرور الخاصة بك. قد يكون في مجلد البريد العشوائي.</string>
+
+    <string name="forgot_password_failure_template">%s إذا كنت تواجه مشكلة، يرجى التواصل معنا عبر البريد الإلكتروني support\@audiomack.com</string>
+
+    <string name="premium_start_trial">ابدأ تجربتك المجانية لمدة 7 أيام</string>
+
+    <string name="premium_price_template">%s في الشهر بعد التجربة المجانية</string>
+
+    <string name="premium_toc">شروط وأحكام الاشتراك في Audiomack Premium</string>
+
+    <string name="premium_desc_template">Audiomack Premium هو اشتراك متكرر.  ستتم محاسبتك تلقائياً بمبلغ %s شهرياً من خلال حسابك على Google Play في نهاية الفترة التجريبية التي تبلغ 7 أيام.  سيتم تجديد اشتراكك تلقائياً ما لم تقم بإلغاء التجديد التلقائي أو إيقاف تشغيله قبل 24 ساعة على الأقل من نهاية مدة الفوترة.  يمكنك إدارة اشتراكك في متجر Google Play.</string>
+
+    <string name="premium_desc_template_ios">إذا قمت بشراء اشتراك Audiomack (%s في الشهر)، فسيتم خصم الدفعة من حسابك على iTunes ، وسيتم تحصيل رسوم حسابك من التجديد خلال 24 ساعة قبل نهاية فترة الاشتراك الحالية. إذا كنت لا تريد أن تتم محاسبتك بعد الآن لـ Audiomack Gold/Platinum وإلغاء عضوية premium الخاصة بك، يُرجى التأكد من القيام بذلك قبل انقضاء هذا المدة التي تبلغ 24 ساعة. يمكن إيقاف التجديد التلقائي في أي وقت بالانتقال إلى الإعدادات في iTunes Store بعد الشراء. جميع الأسعار المذكورة هنا وفي التطبيق لمستويات الاشتراك Gold/Platinum بالدولار الأمريكي، وقد تختلف في دول أخرى حول العالم، وهي عرضة للتغيير في المستقبل. لا يُسمح بإلغاء الاشتراك الحالي خلال فترة الاشتراك الفعالة. دائمًا ما يكون استخدام Audiomack مجانياً دون اشتراك، ويمكنك استئناف استخدام Audiomack مع الإعلانات في أي وقت بعد انتهاء اشتراكك.</string>
+
+    <string name="premium_no_active_subscriptions">ليس لديك اشتراك فعال.</string>
+
+    <string name="premium_unable_restore">غير قادر على استعادة الشراء السابق</string>
+
+    <string name="premium_restore">استعادة الشراء السابق</string>
+
+    <string name="premium_and">و</string>
+
+    <string name="premium_terms_of_service">شروط الخدمة</string>
+
+    <string name="premium_privacy_policy">سياسة الخصوصية</string>
+
+    <string name="premium_subscribing">بالاشتراك، يمكنك الوصول إلى Audiomack\'s</string>
+
+    <string name="premium_2019_title">الترقية إلى\nAudiomack Premium</string>
+
+    <string name="premium_2019_subtitle">ابدأ تجربتك المجانية لمدة 7 أيام واحصل على:</string>
+
+    <string name="premium_2019_adfree">تجربة خالية من الإعلانات</string>
+
+    <string name="premium_2019_adfree_desc">تشغيل غير محدود بدون انقطاع الإعلانات أو لافتات</string>
+
+    <string name="premium_2019_playlist">قم بتنزيل playlists الكاملة</string>
+
+    <string name="premium_2019_playlist_desc">احفظ جميع الأغاني في أي playlist على جهازك بنقرة واحدة</string>
+
+    <string name="premium_2019_hifi">تدفق بجودة عالية</string>
+
+    <string name="premium_2019_hifi_desc">تأكد من سماع كل أغنية بأعلى جودة متاحة</string>
+
+    <string name="premium_2019_airplay">البث على أجهزة الموسيقى</string>
+
+    <string name="premium_2019_airplay_desc">هل تريد التشغيل على الأجهزة التي تدعم Airplay؟ النقل مباشرةً من المشغل</string>
+
+    <string name="premium_2019_equalizer">عناصر التحكم في موازن الصوت</string>
+
+    <string name="premium_2019_equalizer_desc">اجعل الموسيقى الخاصة بك تبدو كما تحب مع تخصيص الجهير والتخصيص الثلاثي</string>
+
+    <string name="premium_2019_trial">تجربة مجانية لمدة 7 أيام</string>
+
+    <string name="premium_2019_trial_desc">جرب قبل الشراء - احصل على كل ما سبق مجاناً لمدة أسبوع بعد البدء</string>
+
+    <string name="defaultgenre_title">تعيين نوع افتراضي</string>
+
+    <string name="notifications_title">إشعارات</string>
+
+    <string name="notifications_verb_favorite">المفضلة</string>
+
+    <string name="notifications_verb_repost">مسجل في القائمة</string>
+
+    <string name="notifications_verb_follow">تابعك</string>
+
+    <string name="notifications_verb_playlist">مسجل في playlist</string>
+
+    <string name="notifications_verb_added">تمت الإضافة</string>
+
+    <string name="notifications_verb_added_to_playlist">إلى playlist</string>
+
+    <string name="notifications_verb_comment">علق على</string>
+
+    <string name="notifications_verb_comment_reply">رد على تعليقك</string>
+
+    <string name="removedcontent_title">تمت إزالة المحتوى</string>
+
+    <string name="removedcontent_message">تمت إزالة الموسيقى التالية من Audiomack بواسطة الفنان أو الملصق أو صاحب الحقوق. نحن نعمل على استعادته في المستقبل. شكراً لك.</string>
+
+    <string name="removedcontent_ok">موافق</string>
+
+    <string name="removedcontent_header">تم حذف بعض الموسيقى في وضع عدم الاتصال بالإنترنت. تعلم المزيد</string>
+
+    <string name="removedcontent_header_highlighted">تم حذف بعض الموسيقى في وضع عدم الاتصال بالإنترنت. تعلم المزيد</string>
+
+    <string name="excludereups">استبعاد Re-Ups</string>
+
+    <string name="restoredownloads_title">استعادة التنزيلات</string>
+
+    <string name="restoredownloads_footer">استعادة تنزيلاتك السابقة</string>
+
+    <string name="playlist_info_failed">تعذر إحضار تفاصيل playlist. يُرجى إعادة المحاولة في وقت لاحق.</string>
+
+    <string name="artist_info_failed">تعذر إحضار بيانات الفنان. يُرجى إعادة المحاولة في وقت لاحق.</string>
+
+    <string name="song_info_failed">تعذر إحضار بيانات الأغنية.</string>
+
+    <string name="album_info_failed">تعذر إحضار بيانات الألبوم.</string>
+
+    <string name="download_results_no_connection">أنت غير متصل بالإنترنت</string>
+
+    <string name="download_failed_song">غير قادر على تنزيل الأغنية</string>
+
+    <string name="download_failed_abum">غير قادر على تنزيل الألبوم</string>
+
+    <string name="download_delete_list_failed">تعذر الحذف من قائمة التنزيل</string>
+
+    <string name="download_playlist_succeeded">تمت إضافة playlist إلى وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="download_succeeded">تم التنزيل بنجاح</string>
+
+    <string name="login_needed_message">يُرجى تسجيل الدخول لاستخدام هذه الميزة</string>
+
+    <string name="login_needed_no">إلغاء</string>
+
+    <string name="login_needed_yes">تسجيل الدخول</string>
+
+    <string name="playlist_song_singular">أغنية</string>
+
+    <string name="playlist_song_plural">الأغاني</string>
+
+    <string name="playlist_sync">أضف أغانٍ جديدة إلى وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="playlistreorder_title">إعادة ترتيب / حذف</string>
+
+    <string name="playlistreorder_save">حفظ</string>
+
+    <string name="addtoplaylist_title">أضف إلى Playlists</string>
+
+    <string name="addtoplaylist_create">إنشاء Playlist جديدة</string>
+
+    <string name="addtoplaylist_create_hint">انقر لإنشاء Playlist جديدة</string>
+
+    <string name="addtoplaylist_addtoexisting">أضف إلى Playlist الحالية</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">لا يمكن تعديل Playlists هذه</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">لا يمكن إضافة هذه الأغنية إلى Playlist</string>
+
+    <string name="addtoplaylist_song_added">تمت الإضافة إلى Playlist بنجاح</string>
+
+    <string name="addtoplaylist_song_added_failed">لا يمكن الإضافة إلى Playlist</string>
+
+    <string name="addtoplaylist_song_removed">تم الحذف بنجاح من playlist</string>
+
+    <string name="addtoplaylist_song_removed_failed">لا يمكن الحذف من playlist</string>
+
+    <string name="editplaylist_title">تعديل تفاصيل playlist</string>
+
+    <string name="editplaylist_create_title">إنشاء Playlist جديدة</string>
+
+    <string name="editplaylist_hint">انقر على الحقول للتعديل</string>
+
+    <string name="editplaylist_name">الاسم:</string>
+
+    <string name="editplaylist_name_hint">أدخل اسم Playlists</string>
+
+    <string name="editplaylist_genre">النوع:</string>
+
+    <string name="editplaylist_permissions">أذونات:</string>
+
+    <string name="editplaylist_description">وصف:</string>
+
+    <string name="editplaylist_description_hint">أدخل وصف playlist</string>
+
+    <string name="editplaylist_delete">حذف playlist</string>
+
+    <string name="editplaylist_save">حفظ</string>
+
+    <string name="editplaylist_cancel">إلغاء</string>
+
+    <string name="playlist_delete_failed">فشل حذف playlist</string>
+
+    <string name="playlist_delete_succeeded_template">تم حذف playlist \'%s\'</string>
+
+    <string name="playlist_takendown_title">حذف المنشئ playlist هذه.</string>
+
+    <string name="playlist_takendown_message">هل ترغب في نسخها إلى حسابك؟</string>
+
+    <string name="playlist_takendown_yes">نعم، نسخ playlist</string>
+
+    <string name="playlist_takendown_no">لا، حذف</string>
+
+    <string name="musicinfo_stats_today">اليوم</string>
+
+    <string name="musicinfo_stats_week">هذا الاسبوع</string>
+
+    <string name="musicinfo_stats_month">هذا الشهر</string>
+
+    <string name="musicinfo_stats_alltime">جميع الأوقات</string>
+
+    <string name="musicinfo_lastupdated">آخر تحديث:</string>
+
+    <string name="musicinfo_numberofsongs">عدد الأغاني:</string>
+
+    <string name="musicinfo_playlistcreator">منشئ playlist:</string>
+
+    <string name="musicinfo_album">الألبوم:</string>
+
+    <string name="musicinfo_producer">المنتج:</string>
+
+    <string name="musicinfo_addedon">تاريخ النشر:</string>
+
+    <string name="musicinfo_genre">النوع:</string>
+
+    <string name="musicinfo_description">الوصف:</string>
+
+    <string name="musicinfo_description_read_more">اقرأ المزيد</string>
+
+    <string name="musicinfo_total_plays">مجموع  playlists:</string>
+
+    <string name="musicinfo_tags">العلامات</string>
+
+    <string name="artist_followers">المتابعون</string>
+
+    <string name="artist_following">المتابعة</string>
+
+    <string name="artist_plays">مجموع playlists</string>
+
+    <string name="queue_added">تمت الإضافة إلى قائمة الانتظار</string>
+
+    <string name="queue_unable_to_add_playlist">تعذرت إضافة playlist إلى قائمة الانتظار</string>
+
+    <string name="share_twitter">مشاركة على تويتر</string>
+
+    <string name="share_contacts">مشاركة مع جهات الاتصال</string>
+
+    <string name="share_app">مشاركة عبر تطبيق</string>
+
+    <string name="share_copy_link">انسخ الرابط</string>
+
+    <string name="share_link_copied">تم نسخ الرابط إلى حافظتك</string>
+
+    <string name="favorites_filter_allmusic">الكل</string>
+
+    <string name="favorites_filter_songs">الأغاني</string>
+
+    <string name="favorites_filter_albums">الألبومات</string>
+
+    <string name="favorites_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_allmusic">الكل</string>
+
+    <string name="offline_filter_songs">الأغاني</string>
+
+    <string name="offline_filter_albums">الألبومات</string>
+
+    <string name="offline_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_notondevice">ليس على الجهاز</string>
+
+    <string name="offline_sort_newest">الأحدث</string>
+
+    <string name="offline_sort_oldest">الأقدم</string>
+
+    <string name="offline_sort_alphabetically">من أ إلى ي</string>
+
+    <string name="library_loginsignup">تسجيل الدخول/ الاشتراك</string>
+
+    <string name="search_hint">بحث</string>
+
+    <string name="search_cancel">إلغاء</string>
+
+    <string name="search_global_placeholder">ابحث عن الفنانين، \nوالأغاني، والألبومات.</string>
+
+    <string name="search_trending">عمليات البحث الشائعة</string>
+
+    <string name="search_recent">عمليات البحث الأخيرة</string>
+
+    <string name="library_search_hint">بحث</string>
+
+    <string name="library_search_cancel">إلغاء</string>
+
+    <string name="player_playingfrom">التشغيل من</string>
+
+    <string name="player_goadfree">حذف الإعلانات - ابدأ تجربة مجانية لمدة 7 أيام</string>
+
+    <string name="player_closead">إغلاق الإعلانات</string>
+
+    <string name="player_shuffle_on">تشغيل الانتقال التلقائي العشوائي</string>
+
+    <string name="player_repeat_all">تكرار الكل</string>
+
+    <string name="player_repeat_one">تكرار لمرة واحدة</string>
+
+    <string name="player_file_error">حدث خطأ أثناء تحميل الأغنية</string>
+
+    <string name="player_storage_error">غير قادر على تشغيل الملف الذي تم تنزيله</string>
+
+    <string name="player_playback_error">تعذر تشغيل الأغنية</string>
+
+    <string name="player_queue_error">حدث خطأ أثناء تحديث قائمة الانتظار</string>
+
+    <string name="player_file_error_download_again">يجب تنزيل هذا الملف مرة أخرى، يرجى التحقق من الاتصال</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">السابق</string>
+
+    <string name="player_pause">إيقاف مؤقت</string>
+
+    <string name="player_play">تشغيل</string>
+
+    <string name="player_next">التالى</string>
+
+    <string name="player_close">إغلاق</string>
+
+    <string name="player_fav">مفضلة</string>
+
+    <string name="player_unfav">غير مفضلة</string>
+
+    <string name="player_skip_forward">تخطي للأمام 30 ثانية</string>
+
+    <string name="player_skip_back">تخطي للخلف 15 ثانية</string>
+
+    <string name="editaccount_title">تعديل الحساب</string>
+
+    <string name="editaccount_banner">تعديل صورة شعارك</string>
+
+    <string name="editaccount_hint">انقر على الحقول للتعديل</string>
+
+    <string name="editaccount_name">اسم الفنان:</string>
+
+    <string name="editaccount_label">العلامة:</string>
+
+    <string name="editaccount_hometown">الموطن:</string>
+
+    <string name="editaccount_website">الموقع الإلكتروني:</string>
+
+    <string name="editaccount_bio">الوصف:</string>
+
+    <string name="editaccount_bio_counter_template">يتبقى %s حرف</string>
+
+    <string name="editaccount_twitter">تويتر:</string>
+
+    <string name="editaccount_instagram">انستغرام:</string>
+
+    <string name="editaccount_facebook">فيسبوك:</string>
+
+    <string name="editaccount_youtube">يوتيوب:</string>
+
+    <string name="editaccount_error_banner">حدث خطأ أثناء حفظ الشعار</string>
+
+    <string name="editaccount_save">حفظ</string>
+
+    <string name="editaccount_cancel">إلغاء</string>
+
+    <string name="editaccount_slug">مقبض المستخدم:</string>
+
+    <string name="artistinfo_follow">تابع</string>
+
+    <string name="artistinfo_unfollow">متابعة</string>
+
+    <string name="artistinfo_website">الموقع الإلكتروني:</string>
+
+    <string name="artistinfo_genre">النوع:</string>
+
+    <string name="artistinfo_label">العلامة:</string>
+
+    <string name="artistinfo_hometown">الموطن:</string>
+
+    <string name="artistinfo_membersince">عضو منذ:</string>
+
+    <string name="artistinfo_bio">الوصف:</string>
+
+    <string name="miniplayer_prev_song">المسار السابق</string>
+
+    <string name="miniplayer_next_song">المسار التالي</string>
+
+    <string name="queue_title">قائمتك</string>
+
+    <string name="add_to_playlist_permissions_public">عام - يمكن لأي شخص العرض</string>
+
+    <string name="add_to_playlist_permissions_private">خاص - يمكنك فقط العرض</string>
+
+    <string name="add_to_playlist_error_no_name">يرجى إدخال اسم لـ playlist الخاصة بك</string>
+
+    <string name="add_to_playlist_error">فشل إنشاء playlist</string>
+
+    <string name="add_to_playlist_success_generic">تم إنشاء playlist بنجاح</string>
+
+    <string name="add_to_playlist_success">تمت إضافة \"%s\" إلى playlist الخاصة بك</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">لا يمكنك حذف المسار الأخير لـ playlist</string>
+
+    <string name="edit_playlist_success">تم تعديل playlist \"%s\"</string>
+
+    <string name="edit_playlist_error">فشل تعديل playlist</string>
+
+    <string name="edit_playlist_banner_error">غير قادر على حفظ صورة الشعار</string>
+
+    <string name="select_playlist_error">تعذر إحضار playlists الخاصة بك</string>
+
+    <string name="select_playlist_nothing_selected">يرجى تحديد playlist</string>
+
+    <string name="select_playlist_success">تمت إضافة الأغنية \"%s\" إلىplaylist(s)</string>
+
+    <string name="select_playlist_failure">تعذر إضافة الأغنية</string>
+
+    <string name="player_account_followed">متابعة %s الآن</string>
+
+    <string name="player_account_unfollowed">تم إلغاء متابعة %s</string>
+
+    <string name="feature_not_available_offline_alert_message">نواجه مشكلة في الاتصال. يرجى التحقق من اتصالك والمحاولة مرة أخرى.</string>
+
+    <string name="feature_not_available_offline_alert_button">موافق</string>
+
+    <string name="toast_favorited_song">أغنية مفضلة</string>
+
+    <string name="toast_favorited_song_error">تعذر إضافة الأغنية إلى المفضلة</string>
+
+    <string name="toast_favorited_album">ألبوم مفضل</string>
+
+    <string name="toast_favorited_album_error">تعذر إضافة الألبوم إلى المفضل</string>
+
+    <string name="toast_favorited_playlist">تم إضافة Playlist إلى المفضلة</string>
+
+    <string name="toast_favorited_playlist_error">تعذر إضافة Playlist إلى المفضلة</string>
+
+    <string name="toast_unfavorited_song">تم إضافة الأغنية إلى غير المفضلة</string>
+
+    <string name="toast_unfavorited_song_error">تعذر إضافة الأغنية إلى غير المفضلة</string>
+
+    <string name="toast_unfavorited_album">تم إضافة الألبوم إلى غير المفضل</string>
+
+    <string name="toast_unfavorited_album_error">تعذر إضافة الألبوم إلى غير المفضل</string>
+
+    <string name="toast_unfavorited_playlist">تم إضافة playlist إلى غير المفضلة</string>
+
+    <string name="toast_unfavorited_playlist_error">تعذر إضافة playlist إلى غير المفضلة</string>
+
+    <string name="toast_reposted_song">أغنية Re-up</string>
+
+    <string name="toast_reposted_song_error">تعذر Re-up الأغنية</string>
+
+    <string name="toast_reposted_album">تم Re-up الألبوم</string>
+
+    <string name="toast_reposted_album_error">تعذر Re-up الألبوم</string>
+
+    <string name="permissions_rationale_alert_camera_message">تتطلب هذه الميزة الوصول إلى الكاميرا. يرجى تمكين هذا الإذن في الإعدادات لاستخدام هذه الميزة.</string>
+
+    <string name="permissions_rationale_alert_storage_message">تتطلب هذه الميزة الوصول إلى التخزين الخاص بك. يرجى تمكين هذا الإذن في الإعدادات لاستخدام هذه الميزة.</string>
+
+    <string name="permissions_rationale_alert_cancel">إلغاء</string>
+
+    <string name="permissions_rationale_alert_settings">افتح الإعدادات</string>
+
+    <string name="permissions_location_ios">يُمكّن Audiomack من عرض الموسيقى الشعبية في منطقتك.</string>
+
+    <string name="shortcuts_offline_short">دون اتصال بالإنترنت</string>
+
+    <string name="shortcuts_offline_long">دون اتصال بالإنترنت</string>
+
+    <string name="shortcuts_offline_disabled">دون اتصال بالإنترنت</string>
+
+    <string name="shortcuts_topsongs_short">أفضل الأغاني</string>
+
+    <string name="shortcuts_topsongs_long">أفضل الأغاني</string>
+
+    <string name="shortcuts_topsongs_disabled">أفضل الأغاني</string>
+
+    <string name="shortcuts_favorites_short">المفضلة</string>
+
+    <string name="shortcuts_favorites_long">المفضلة</string>
+
+    <string name="shortcuts_favorites_disabled">المفضلة</string>
+
+    <string name="shortcuts_playlists_short">Playlists</string>
+
+    <string name="shortcuts_playlists_long">Playlists</string>
+
+    <string name="shortcuts_playlists_disabled">Playlists</string>
+
+    <string name="downloadmessage_title">بدأ التنزيل!</string>
+
+    <string name="downloadmessage_message">يمكنك الآن تشغيل هذا التحميل دون بيانات في التطبيق في قسم دون اتصال بالإنترنت في مكتبتي.</string>
+
+    <string name="downloadmessage_button">انتقل إلى الموسيقى دون الاتصال بالإنترنت</string>
+
+    <string name="download_completed_notification_title">اكتمل التنزيل</string>
+
+    <string name="download_completed_notification_message">انقر لعرض الموسيقى الخاصة بك في وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="playlist_delete_download_title">سيؤدي ذلك إلى حذف Playlist هذه من مكتبتك في وضع عدم الاتصال بالإنترنت.</string>
+
+    <string name="playlist_delete_download_title_highlighted">حذف Playlist هذه</string>
+
+    <string name="playlist_delete_download_message">لا تقلق، فلن تحذف أي أغاني من مكتبتك في وضع عدم الاتصال بالإنترنت.</string>
+
+    <string name="playlist_delete_download_yes">موافق</string>
+
+    <string name="playlist_delete_download_cancel">إلغاء</string>
+
+    <string name="playlist_download_sync_title">سيؤدي هذا إلى إضافة (%s)  أغنية في Playlist هذه إلى مكتبتك في وضع عدم الاتصال بالإنترنت.</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s أغنية.</string>
+
+    <string name="playlist_download_sync_message">قد ترغب في التحقق من أنك متصل بشبكة WiFi قبل التنزيل.</string>
+
+    <string name="playlist_download_sync_yes">موافق</string>
+
+    <string name="playlist_download_sync_cancel">إلغاء</string>
+
+    <string name="playlist_download_error">تعذر تنزيل Playlist</string>
+
+    <string name="unsupported_crop_error">جهازك لا يدعم القص</string>
+
+    <string name="library_search_favorites_placeholder">ابحث في المفضلة لديك...</string>
+
+    <string name="library_search_downloads_placeholder">ابحث في محتوى دون اتصال بالإنترنت لديك...</string>
+
+    <string name="library_search_playlists_placeholder">ابحث في playlists الخاصة بك ...</string>
+
+    <string name="library_search_uploads_placeholder">ابحث في تنزيلاتك ...</string>
+
+    <string name="library_search_noresults_placeholder">لم يتم العثور على نتائج في مكتبتك.</string>
+
+    <string name="library_search_noresults_cta">ابحث عن جميع AUDIOMACK الخاصة بك</string>
+
+    <string name="search_noresults_placeholder">لم يتم العثور على نتائج.\nحاول البحث مرة أخرى</string>
+
+    <string name="playlists_noresults_placeholder">لا توجد أي  playlists حتى الآن.</string>
+
+    <string name="followers_my_noresults_placeholder">ليس لديك متابعين.</string>
+
+    <string name="followers_other_noresults_placeholder">ليس لدى %s متابعون</string>
+
+    <string name="favorites_my_noresults_placeholder">ليس لديك مفضلات.</string>
+
+    <string name="downloads_noresults_placeholder">ليس لديك تنزيلات.</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">استعادة تنزيلاتك</string>
+
+    <string name="downloads_loggedout_placeholder">تسجيل الدخول لاستعادة تنزيلاتك السابقة</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">قم بإنشاء حساب</string>
+
+    <string name="favorites_my_loggedout_placeholder">ليس لديك مفضلات.</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">قم بإنشاء حساب</string>
+
+    <string name="favorites_other_noresults_placeholder">%s ليس لديه مفضلات</string>
+
+    <string name="following_my_noresults_placeholder">أنت لا تتابع أحد.\nانظر الحسابات المقترحة للمتابعة.</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">المتابعات المقترحة</string>
+
+    <string name="following_other_noresults_placeholder">%s لا يتابع أي شخص</string>
+
+    <string name="uploads_my_noresults_placeholder">ليس لديك تنزيلات.\nقم بزيارة audiomack.com\nلإضافة موسيقى إلى حسابك.</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">قم بزيارة AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">ليس لدى %s تنزيلات</string>
+
+    <string name="playlists_my_noresults_placeholder">لم تقم بإنشاء أي  playlists حتى الآن.</string>
+
+    <string name="playlists_my_loggedout_placeholder">لم تقم بإنشاء أي  playlists حتى الآن.\nقم بإنشاء حساب وابدأ\nفي إنشاء بعض  playlists.</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">قم بإنشاء حساب</string>
+
+    <string name="playlists_other_noresults_placeholder">لم ينشئ %s أي قوائم تشغيل حتى الآن.</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">ليس لديك قوائم تشغيل مفضلة.</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">ليس لديك قوائم تشغيل مفضلة.\nقم بإنشاء حساب وابدأ\nفي إنشاء بعض  playlists.</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">قم بإنشاء حساب</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">ليس لدى %s  playlists مفضلة</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">ليست لديك  playlists دون اتصال بالإنترنت.</string>
+
+    <string name="timeline_noresults_placeholder">تابع الحسابات لرؤية تحميلاتها الجديدة تظهر هنا</string>
+
+    <string name="timeline_loggedout_placeholder">مقتطفاتك فارغة.\nقم بإنشاء حساب لبدء متابعة الأشخاص.</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">قم بإنشاء حساب</string>
+
+    <string name="restoredownlods_noresults_placeholder">ليس لديك تنزيلات مخزنة ليست على جهازك</string>
+
+    <string name="notifications_noresults_placeholder">ليس لديك إشعارات</string>
+
+    <string name="noconnection_placeholder">تواجه مشكلة في الاتصال</string>
+
+    <string name="noconnection_highlighted_placeholder">حاول مرة أخرى</string>
+
+    <string name="user_name_placeholder">المستخدم</string>
+
+    <string name="playlist_desc_more">المزيد</string>
+
+    <string name="tooltip_toast">اسحب إلى اليسار أو اليمين\nلمشاهدة المزيد من الموسيقى أو انقر\nعلى القائمة المنسدلة\nلتغيير الأنواع</string>
+
+    <string name="tooltip_play">اسحب إلى اليسار لتشغيل الأغنية التالية. انقر لفتح مشغل الشاشة الكاملة.</string>
+
+    <string name="tooltip_playlists">قم بإنشاء\nقائمة تشغيل مخصصة</string>
+
+    <string name="tooltip_player_queue">انقر هنا لمشاهدة الأغاني في قائمة الموسيقى الخاصة بك.</string>
+
+    <string name="tooltip_queue_add">انقر هنا لإضافة الأغاني في قائمة الانتظار إلى  playlist.</string>
+
+    <string name="tooltip_albums">قم بتفعيل وضع عدم الاتصال بالإنترنت\nللاستماع دون بيانات</string>
+
+    <string name="tooltip_suggested_followers">تابع الفنانين/ الأشخاص الأكثر تأثيراً المفضلين لديك وعند تحميلهم موسيقى جديدة، ستظهر في مقتطفاتك</string>
+
+    <string name="tooltip_playlists_offline">أضف الأغاني في  playlist هذه\nإلى وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="tooltip_playlists_favorite">إدراج  playlist هذه\nفي المفضلة</string>
+
+    <string name="tooltip_player_scroll">قم بالتمرير لأسفل للتبديل والاطلاع على التعليقات، ومعلومات الأغنية، والمزيد من الموسيقى لهذا الفنان.</string>
+
+    <string name="tooltip_player_equalizer">استخدم موازن الصوت لتخصيص كيف تبدو الموسيقى الخاصة بك</string>
+
+    <string name="settings_title">الإعدادات</string>
+
+    <string name="settings_go_premium">حذف الإعلانات - Go Premium</string>
+
+    <string name="settings_cancel_subscription">إلغاء الاشتراك</string>
+
+    <string name="settings_edit_account">تعديل الحساب</string>
+
+    <string name="settings_view_your_profile">عرض ملفك الشخصي</string>
+
+    <string name="settings_share_profile">مشاركة الملف الشخصي</string>
+
+    <string name="settings_default_genre">تعيين النوع الافتراضي</string>
+
+    <string name="settings_permissions">أذونات</string>
+
+    <string name="settings_support">الدعم</string>
+
+    <string name="settings_debug_info">إرسال معلومات تصحيح الأخطاء</string>
+
+    <string name="settings_share_app">مشاركة هذا التطبيق</string>
+
+    <string name="settings_rate_app">قيّم هذا التطبيق</string>
+
+    <string name="settings_privacy_policy">سياسة الخصوصية</string>
+
+    <string name="settings_dev_environment">استخدم Dev Env *</string>
+
+    <string name="settings_track_ads">تتبع الإعلانات</string>
+
+    <string name="settings_grant_premium">منح Premium</string>
+
+    <string name="settings_log_viewer">سجل المشاهدين</string>
+
+    <string name="settings_logout">تسجيل الخروج</string>
+
+    <string name="settings_version_template">الإصدار %s (%s)</string>
+
+    <string name="settings_opensource">افتح مكتبات المصدر</string>
+
+    <string name="settings_equalizer">موازن الصوت</string>
+
+    <string name="settings_upgrade_title">الترقية إلى Audiomack Premium</string>
+
+    <string name="settings_upgrade_subtitle">ابدأ الفترة التجريبية المجانية لمدة 7 أيام لحذف جميع الإعلانات والمزيد</string>
+
+    <string name="settings_upgrade_cta">لماذا الترقية؟</string>
+
+    <string name="equalizer_title">موازن الصوت</string>
+
+    <string name="equalizer_enable">موازن الصوت</string>
+
+    <string name="equalizer_custom">استخدم الإعدادات المسبقة المخصصة</string>
+
+    <string name="equalizer_acoustic">صوتي</string>
+
+    <string name="equalizer_dance">رقص</string>
+
+    <string name="equalizer_electronic">إلكتروني</string>
+
+    <string name="equalizer_flat">مسطح</string>
+
+    <string name="equalizer_hiphop">Hip-Hop</string>
+
+    <string name="equalizer_loudness">علو الصوت</string>
+
+    <string name="equalizer_pop">موسيقى البوب</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">روك</string>
+
+    <string name="equalizer_vocal_booster">تحسين صوتي</string>
+
+    <string name="equalizer_save">حفظ</string>
+
+    <string name="help_title">مساعدة</string>
+
+    <string name="help_message">عرض مركز المساعدة الخاص بنا، أو إنشاء بطاقة، أو إدارة بطاقاتك الحالية.</string>
+
+    <string name="help_knowledgebase">قاعدة المعرفة</string>
+
+    <string name="help_contact">اتصل بنا</string>
+
+    <string name="help_tickets_none">بطاقاتي</string>
+
+    <string name="help_tickets_template">بطاقاتي (%s غير مقروءة)</string>
+
+    <string name="help_alert_title">استجاب فريق الدعم لدينا لطلبك الأخير</string>
+
+    <string name="help_alert_yes">عرض</string>
+
+    <string name="help_alert_no">إلغاء</string>
+
+    <string name="artist_tab_uploads">تنزيلات</string>
+
+    <string name="artist_tab_favorites">المفضلة</string>
+
+    <string name="artist_tab_playlists">PLAYLISTS</string>
+
+    <string name="artist_tab_followers">المتابعون</string>
+
+    <string name="artist_tab_following">متابعة</string>
+
+    <string name="library_tab_favorites">المفضلة</string>
+
+    <string name="library_tab_offline">وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="library_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_tab_followers">المتابعون</string>
+
+    <string name="library_tab_following">متابعة</string>
+
+    <string name="library_tab_uploads">تنزيلات</string>
+
+    <string name="feed_tab_timeline">التسلسل الزمني</string>
+
+    <string name="feed_tab_suggestedfollows">المتابعات المقترحة</string>
+
+    <string name="feed_tab_following">متابعة</string>
+
+    <string name="browse_tab_trending">الأكثر شعبية</string>
+
+    <string name="browse_tab_topsongs">أفضل الأغاني</string>
+
+    <string name="browse_tab_topalbums">أفضل الألبومات</string>
+
+    <string name="browse_tab_recentlyadded">أضيف مؤخراً</string>
+
+    <string name="browse_filter_allgenres">الكل</string>
+
+    <string name="search_tab_allmusic">الكل</string>
+
+    <string name="search_tab_playlists">PLAYLISTS</string>
+
+    <string name="search_tab_songs">الأغاني</string>
+
+    <string name="search_tab_albums">الألبومات</string>
+
+    <string name="search_tab_accounts">الحسابات</string>
+
+    <string name="library_search_tab_favorites">المفضلة</string>
+
+    <string name="library_search_tab_offline">وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="library_search_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_search_tab_uploads">تنزيلات</string>
+
+    <string name="cannot_refresh_token">لم يعد بإمكاننا الوصول إلى حسابك</string>
+
+    <string name="failed_refresh_token_title">تعذر الاتصال بـ Audiomack</string>
+
+    <string name="failed_refresh_token_message">تعذر الاتصال بـ Audiomack. يُرجى إعادة المحاولة في وقت لاحق.</string>
+
+    <string name="failed_refresh_token_button">موافق</string>
+
+    <string name="generic_api_error">حدث خطأ. يُرجى المحاولة مرة أخرى</string>
+
+    <string name="generic_error_occurred">حدث خطأ</string>
+
+    <string name="feat">إنجاز.</string>
+
+    <string name="feat_inline">إنجاز.</string>
+
+    <string name="by">بواسطة</string>
+
+    <string name="ok">موافق</string>
+
+    <string name="imagepicker_message">حدد صورة من</string>
+
+    <string name="imagepicker_camera">الكاميرا</string>
+
+    <string name="imagepicker_gallery">الاستوديو</string>
+
+    <string name="imagepicker_gallery_cancel">إلغاء</string>
+
+    <string name="options_play">تشغيل</string>
+
+    <string name="options_download">تنزيل</string>
+
+    <string name="options_favorite">مفضلة</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Re-Up</string>
+
+    <string name="options_share">مشاركة</string>
+
+    <string name="options_copy_link">انسخ الرابط</string>
+
+    <string name="options_song_details">تفاصيل الأغنية</string>
+
+    <string name="options_album_details">تفاصيل الألبوم</string>
+
+    <string name="options_follow">متابعة</string>
+
+    <string name="options_unfollow">إلغاء المتابعة</string>
+
+    <string name="options_artist_more">المزيد من</string>
+
+    <string name="options_remove_from_queue">حذف من قائمة الانتظار</string>
+
+    <string name="options_delete_download">حذف التنزيل</string>
+
+    <string name="options_retry_download">إعادة التنزيل</string>
+
+    <string name="options_play_next">تشغيل التالي</string>
+
+    <string name="options_add_to_queue">إضافة إلى قائمة الانتظار</string>
+
+    <string name="options_music_more_info">المزيد من المعلومات</string>
+
+    <string name="options_delete_download_list">حذف من قائمة التنزيل</string>
+
+    <string name="options_reorder_remove_tracks">إعادة ترتيب/ حذف المسارات</string>
+
+    <string name="options_edit_playlist_details">تعديل تفاصيل playlist</string>
+
+    <string name="options_delete_playlist">حذف playlist</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">تعليقات</string>
+
+    <string name="options_edit">تعديل</string>
+
+    <string name="options_cancel">إلغاء</string>
+
+    <string name="ad_ad">إعلانات</string>
+
+    <string name="premium_cannot_find_product">لا يمكن العثور على المنتج المطلوب</string>
+
+    <string name="premium_device_not_allowed">هذا الجهاز غير مسموح له بدفع مبالغ</string>
+
+    <string name="database_error_recreated">عذراً، لقد واجهت قاعدة بياناتك مشكلة. نحن بصدد إعادة إنشاء قاعدة البيانات الآن، ولكن يجب إعادة تنزيل الموسيقى في وضع عدم الاتصال بالإنترنت.</string>
+
+    <string name="database_error_lowstorage">عذراً، يبدو أن ذاكرة جهازك نفدت. يرجى إفراغ مساحة وإعادة المحاولة.</string>
+
+    <string name="accessibility_playlists_all_categories">جميع الفئات</string>
+
+    <string name="accessibility_remove_ad">حذف الإعلانات</string>
+
+    <string name="accessibility_song_info">معلومات الموسيقى</string>
+
+    <string name="accessibility_queue">قائمة الانتظار</string>
+
+    <string name="accessibility_miniplayer_pager">انتقال إلى المشغل الصغير</string>
+
+    <string name="accessibility_download">تنزيل</string>
+
+    <string name="accessibility_choose_genre">فلتر</string>
+
+    <string name="accessibility_choose_period">اختر المدة</string>
+
+    <string name="accessibility_settings">الإعدادات</string>
+
+    <string name="accessibility_show_hide_password">إظهار/إخفاء كلمة المرور</string>
+
+    <string name="accessibility_close">إغلاق</string>
+
+    <string name="accessibility_back">إغلاق</string>
+
+    <string name="accessibility_actions">إجراءات</string>
+
+    <string name="accessibility_toggle_follow">متابعة/إلغاء متابعة</string>
+
+    <string name="accessibility_add_to_playlist">إضافة أغنية إلى  playlist</string>
+
+    <string name="accessibility_share">مشاركة</string>
+
+    <string name="accessibility_player_seek">منقي</string>
+
+    <string name="accessibility_player_prev">الأغنية السابقة</string>
+
+    <string name="accessibility_player_next">الأغنية التالية</string>
+
+    <string name="accessibility_player_play_pause">تشغيل/ إيقاف مؤقت</string>
+
+    <string name="accessibility_player_repeat">تبديل وضع التكرار</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">تصغير المشغل</string>
+
+    <string name="accessibility_player_shuffle">تبديل التشغيل العشوائي</string>
+
+    <string name="accessibility_artist_info">معلومات الفنان</string>
+
+    <string name="accessibility_twitter">تويتر</string>
+
+    <string name="accessibility_facebook">فيسبوك</string>
+
+    <string name="accessibility_instagram">انستغرام</string>
+
+    <string name="accessibility_youtube">يوتيوب</string>
+
+    <string name="accessibility_queue_create_playlist">إنشاء  playlist من قائمة الانتظار</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">انتقل إلى أعلى</string>
+
+    <string name="accessibility_song_image">العمل الفني للأغنية</string>
+
+    <string name="accessibility_favorite">مفضلة</string>
+
+    <string name="accessibility_repost">Re-Up</string>
+
+    <string name="accessibility_edit">تعديل</string>
+
+    <string name="accessibility_ad">إعلانات</string>
+
+    <string name="accessibility_toast_image">صورة توست</string>
+
+    <string name="NSAppleMusicUsageDescription">تتطلب هذه الميزة استخدام مكتبة الوسائط.</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">يرغب Audiomack في إتاحة البيانات لأجهزة البلوتوث القريبة حتى عندما لا تستخدم التطبيق.</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">يرغب Audiomack في إتاحة البيانات لأجهزة البلوتوث القريبة حتى عندما لا تستخدم التطبيق.</string>
+
+    <string name="NSCalendarsUsageDescription">يتطلب هذا التفاعل الوصول إلى التقويم.</string>
+
+    <string name="NSContactsUsageDescription">تتطلب هذه الميزة استخدام جهات الاتصال.</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">يُمكّن Audiomack من عرض الموسيقى الشعبية في منطقتك.</string>
+
+    <string name="NSLocationAlwaysUsageDescription">يُمكّن Audiomack من عرض الموسيقى الشعبية في منطقتك.</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">يُمكّن Audiomack من عرض الموسيقى الشعبية في منطقتك.</string>
+
+    <string name="NSMicrophoneUsageDescription">تتطلب هذه الميزة استخدام الميكروفون.</string>
+
+    <string name="NSMotionUsageDescription">تتطلب هذه الميزة استخدام الانتقال.</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">تتطلب هذه الميزة حفظها في مكتبة الصور.</string>
+
+    <string name="NSRemindersUsageDescription">سيضيف هذا التفاعل تذكيراً.</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">تتطلب هذه الميزة استخدام التعرف على الكلام.</string>
+
+    <string name="positive_upsell_message">ترقية إلى إصدار AUDIOMACK لحذف الإعلانات</string>
+
+    <string name="highlights_add">تمييز</string>
+
+    <string name="highlights_remove">حذف من المميزات</string>
+
+    <string name="highlights_reached_limit_message">يجب عليك إزالة تمييز من أجل إضافة تمييز آخر</string>
+
+    <string name="highlights_reached_limit_edit">تعديل المميزات</string>
+
+    <string name="highlights_reached_limit_cancel">إلغاء</string>
+
+    <string name="highlights_edit_title">تعديل المميزات</string>
+
+    <string name="highlights_edit_subtitle">يمكنك تمييز ما يصل إلى أربعة (4) مسارات أو ألبومات أو  playlists في ملفك الشخصي.</string>
+
+    <string name="highlights_edit_save">حفظ</string>
+
+    <string name="uploads_header_highlighted">مميز</string>
+
+    <string name="uploads_header_recent">التحميلات الأخيرة</string>
+
+    <string name="uploads_highlighted_message">انقر على النقاط الثلاث بجوار الأغنية أو الألبوم أو  playlist واختر \"تمييز\" لتثبيتها أعلى ملفك الشخصي</string>
+
+    <string name="toast_highlight_error">غير قادر على تمييز هذا المحتوى</string>
+
+    <string name="highlight_confirmation_title_template">تم تمييز %s الآن في ملفك الشخصي</string>
+
+    <string name="highlight_confirmation_message">يمكنك تمييز ما يصل إلى 4 من الأغاني أو الألبومات أو playlists المفضلة لديك في ملفك الشخصي ليراها المستمعون الآخرون.</string>
+
+    <string name="highlight_confirmation_view">عرض ملفك الشخصي</string>
+
+    <string name="highlight_confirmation_close">استمرار</string>
+
+    <string name="song">أغنية</string>
+
+    <string name="album">ألبوم</string>
+
+    <string name="artist">فنان</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">حلقة صوتية</string>
+
+    <string name="editplaylist_create_banner">أضف صورة شعار</string>
+
+    <string name="download_delete_confirmation_title">هل تريد بالتأكيد حذف %s من تنزيلاتك؟</string>
+
+    <string name="download_delete_confirmation_yes">حذف</string>
+
+    <string name="download_delete_confirmation_no">إلغاء</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">تسجيل</string>
+
+    <string name="signup_cant_login">هل لديك مشكلة في تسجيل الدخول؟ اتصل بنا</string>
+
+    <string name="signup_cant_login_highlighted">اتصل بنا</string>
+
+    <string name="signup_privacy_policy">سياسة الخصوصية</string>
+
+    <string name="signup_create_account_prompt">ليس لدينا حساب يطابق هذا البريد الإلكتروني. قم بإنشاء حساب جديد مجاناً.</string>
+
+    <string name="signup_create_account_prompt_highlighted">قم بإنشاء حساب جديد مجاناً.</string>
+
+    <string name="signup_audiomack_header">تسجيل الدخول إلى AUDIOMACK</string>
+
+    <string name="signup_continue">استمرار</string>
+
+    <string name="signup_with_email_prompt">أو قم بالتسجيل/تسجيل الدخول إلى بريدك الإلكتروني</string>
+
+    <string name="signup_troubles_alert_message">أدخل بريدك الإلكتروني\nلإعادة تعيين كلمة المرور الخاصة بك:</string>
+
+    <string name="signup_troubles_alert_footer">هل لا تزال تواجه مشكلة في تسجيل الدخول؟ اتصل بنا</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">اتصل بنا</string>
+
+    <string name="login_twitter_error_message">فشل تسجيل الدخول باستخدام تويتر</string>
+
+    <string name="login_google_error_message">فشل تسجيل الدخول باستخدام جوجل</string>
+
+    <string name="disconnect_social_alert_title">هل أنت متأكد من أنك تريد فصل حساب التواصل الاجتماعي هذا؟</string>
+
+    <string name="disconnect_social_alert_yes">فصل</string>
+
+    <string name="disconnect_social_alert_no">إلغاء</string>
+
+    <string name="connect_social_twitter">قم بربط حسابك على تويتر</string>
+
+    <string name="connect_social_facebook">قم بربط حسابك على فيسبوك</string>
+
+    <string name="connect_social_instagram">قم بربط حسابك على انستغرام</string>
+
+    <string name="connect_social_youtube">قم بربط حسابك على يوتيوب</string>
+
+    <string name="connect_social_popup_title_twitter">قم بإدراج حسابك على تويتر</string>
+
+    <string name="connect_social_popup_title_instagram">قم بإدراج حسابك على انستغرام</string>
+
+    <string name="connect_social_popup_title_facebook">قم بإدراج حسابك على فيسبوك</string>
+
+    <string name="connect_social_popup_title_youtube">قم بإدراج حسابك على يوتيوب</string>
+
+    <string name="connect_social_popup_placeholder_twitter">اسم المستخدم</string>
+
+    <string name="connect_social_popup_placeholder_instagram">اسم المستخدم</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">إضافة</string>
+
+    <string name="connect_social_popup_clear">مسح</string>
+
+    <string name="connect_social_popup_cancel">إلغاء</string>
+
+    <string name="playlist_delete_title_template">حذف  playlist %s</string>
+
+    <string name="playlist_delete_no">إلغاء</string>
+
+    <string name="playlist_delete_yes">حذف</string>
+
+    <string name="playlist_delete_message">هل أنت متأكد؟ لا يمكن التراجع عن ذلك</string>
+
+    <string name="search_related_title">ليست لدينا موسيقى مطابقة %s</string>
+
+    <string name="search_related_subtitle">إليك بعض الفنانين المماثلين الذين قد تستمتع بالاستماع إليهم.</string>
+
+    <string name="search_filter">تصفية النتائج</string>
+
+    <string name="search_filter_sort">ترتيب حسب</string>
+
+    <string name="search_filter_popular">الأكثر شعبية</string>
+
+    <string name="search_filter_recent">الأحدث</string>
+
+    <string name="search_filter_relevant">الأكثر صلة</string>
+
+    <string name="search_filter_verified_only">تم التحقق فقط</string>
+
+    <string name="search_filter_genres">الأنواع</string>
+
+    <string name="search_filter_refine">تحسين البحث</string>
+
+    <string name="inapprating_alert_title">قيّم Audiomack</string>
+
+    <string name="inapprating_alert_message">هل تعتقد أن Audiomack هو تطبيق يستحق تقييم 5 نجوم؟</string>
+
+    <string name="inapprating_alert_positive">نعم</string>
+
+    <string name="inapprating_alert_negative">لا</string>
+
+    <string name="inapprating_alert_followup_title">دعم Audiomack</string>
+
+    <string name="inapprating_alert_followup_message">نأسف بسبب عدم إعجابك بالتطبيق. هل ترغب في الاتصال بالدعم حتى نتمكن من المساعدة؟</string>
+
+    <string name="inapprating_alert_followup_positive">نعم</string>
+
+    <string name="inapprating_alert_followup_negative">ربما في وقت لاحق</string>
+
+    <string name="search_verified_account">حساب تم التحقق منه</string>
+
+    <string name="search_verified_playlist"> playlist تم التحقق منها</string>
+
+    <string name="slideupmenu_music_added_by_template">أُضيف من %s</string>
+
+    <string name="slideupmenu_music_share_copylink">انسخ الرابط</string>
+
+    <string name="slideupmenu_music_share_twitter">تويتر</string>
+
+    <string name="slideupmenu_music_share_facebook">فيسبوك</string>
+
+    <string name="slideupmenu_music_share_text">عبر النص</string>
+
+    <string name="slideupmenu_music_share_more">المزيد</string>
+
+    <string name="slideupmenu_music_cancel">إلغاء</string>
+
+    <string name="slideupmenu_music_add_to_downloads">إضافة إلى التنزيلات</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">حذف من التنزيلات</string>
+
+    <string name="opensource_title">فتح مكتبات المصادر</string>
+
+    <string name="opensource_subtitle">المكتبات المستخدمة في هذا التطبيق</string>
+
+    <string name="opensource_subsubtitle">تعرض هذه الصفحة إشعارات الإحالة لبرامج الجهات الخارجية التي يمكن استخدامها في تطبيق audiomack.\nشكراً لك!</string>
+
+    <string name="accessibility_comment">تعليق</string>
+
+    <string name="accessibility_sort">فرز</string>
+
+    <string name="comments_write_prompt">اكتب تعليق عام ...</string>
+
+    <string name="comments_removed_comment">حُذف هذا التعليق</string>
+
+    <string name="comments_comment_title">تعليق</string>
+
+    <string name="comments_header_title">تعليقات</string>
+
+    <string name="comments_reply">الرد</string>
+
+    <string name="comments_filter_top">أهم التعليقات</string>
+
+    <string name="comments_filter_newest">الأحدث أولاً</string>
+
+    <string name="comments_filter_oldest">الأقدم أولاً</string>
+
+    <string name="comments_delete_comment">حذف تعليق</string>
+
+    <string name="comments_flag_comment">وضع علامة على التعليق</string>
+
+    <string name="comments_share_comment">مشاركة التعليق</string>
+
+    <string name="comments_delete_alert_title">هل أنت متأكد أنك تريد حذف هذا التعليق؟</string>
+
+    <string name="comments_delete_alert_confirm">حذف التعليق</string>
+
+    <string name="comments_flag_alert_title">هل أنت متأكد؟</string>
+
+    <string name="comments_flag_alert_subtitle">الإبلاغ فقط عن محتوى فاحش أو محتوى غير مرغوب فيه.</string>
+
+    <string name="comments_flag_alert_confirm">إبلاغ</string>
+
+    <string name="comments_alert_cancel">إلغاء</string>
+
+    <string name="comments_be_nice_title">كن لطيفاً.</string>
+
+    <string name="comments_be_nice_subtitle">هذا هو مجتمعك. تملكه.</string>
+
+    <string name="comments_be_nice_bullet_1">لا يوجد بريد عشوائي. الروابط لا تعمل هنا.</string>
+
+    <string name="comments_be_nice_bullet_2">التعليقات ليست لدفع الموسيقى الخاصة بك.</string>
+
+    <string name="comments_be_nice_bullet_3">إذا كنت عنصرياً أو كارهاً للنساء أو عدوانياً أو طائشاً، فستفقد امتيازات التعليق.</string>
+
+    <string name="comments_be_nice_continue">استمرار</string>
+
+    <string name="comments_view_more_replies">عرض %s ردود إضافية</string>
+
+    <string name="comments_view_more_reply">عرض رد إضافي</string>
+
+    <string name="comments_expand">توسيع</string>
+
+    <string name="comments_minimize">تصغير</string>
+
+    <string name="comments_commenting_on">التعليق على %s</string>
+
+    <string name="comments_placeholder_cta">كن أول من يعلق</string>
+
+    <string name="artists_onboarding_title">Audiomack هو\nاكتشاف موسيقى جديدة.</string>
+
+    <string name="artists_onboarding_message">أي من الفنانين التاليين\nفي مزاج جيد للاستماع إليه؟</string>
+
+    <string name="artists_onboarding_message_highlighted">الفنانون أدناه</string>
+
+    <string name="artists_onboarding_button">استمع الآن</string>
+
+    <string name="artists_onboarding_footer">انتقل بي إلى الأغاني الأكثر رواجاً</string>
+
+    <string name="artists_onboarding_playlist_play_all">تشغيل الكل</string>
+
+    <string name="artists_onboarding_playlist_pause">إيقاف مؤقت</string>
+
+    <string name="artists_onboarding_playlist_shuffle">تشغيل عشوائي</string>
+
+    <string name="artists_onboarding_select">اختر فنان</string>
+
+    <string name="social_login_missing_email_title">يرجى تقديم بريد إلكتروني صالح لإكمال إنشاء الحساب.</string>
+
+    <string name="social_login_missing_email_placeholder">عنوان البريد الإلكتروني</string>
+
+    <string name="social_login_missing_email_cta">إرسال</string>
+
+    <string name="social_login_missing_email_cancel">إلغاء</string>
+
+    <string name="download_notification_title">التنزيل قيد التقدم</string>
+
+    <string name="download_notification_message_template">و %s آخرين</string>
+
+    <string name="player_extra_comments">تعليقات</string>
+
+    <string name="player_extra_info">معلومات</string>
+
+    <string name="player_extra_more_from_artist">المزيد من الفنان</string>
+
+    <string name="player_extra_comments_count_plural">%s تعليقات</string>
+
+    <string name="player_extra_comments_count_singular">%s تعليق</string>
+
+    <string name="player_extra_rankings">الترتيب</string>
+
+    <string name="player_extra_rankings_daily">اليوم</string>
+
+    <string name="player_extra_rankings_weekly">هذا الاسبوع</string>
+
+    <string name="player_extra_rankings_monthly">هذا الشهر</string>
+
+    <string name="player_extra_rankings_all">جميع الأوقات</string>
+
+    <string name="player_extra_more_from_artist_template">المزيد من %s</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">عرض الملف الشخصي</string>
+
+    <string name="player_extra_artist_followers_plural">%s متابعين</string>
+
+    <string name="player_extra_artist_followers_singular">%s متابع</string>
+
+    <string name="player_extra_offline_placeholder_title">أنت غير متصل</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">تحقق من حالة الإنترنت أو حاول مرة أخرى أدناه</string>
+
+    <string name="player_extra_offline_placeholder_cta">أعد المحاولة</string>
+
+    <string name="filters_title_chart">مخططات الفلتر</string>
+
+    <string name="filters_section_genre">تصفية حسب النوع:</string>
+
+    <string name="filters_section_timeframe">تصفية حسب الإطار الزمني:</string>
+
+    <string name="filters_section_timeframe_today">اليوم</string>
+
+    <string name="filters_section_timeframe_week">هذا الاسبوع</string>
+
+    <string name="filters_section_timeframe_month">هذا الشهر</string>
+
+    <string name="filters_section_timeframe_year">هذا العام</string>
+
+    <string name="filters_section_timeframe_alltime">جميع الأوقات</string>
+
+    <string name="filters_section_view">عرض بواسطة:</string>
+
+    <string name="filters_section_view_list">عرض القائمة</string>
+
+    <string name="filters_section_view_tile">عرض التجانب</string>
+
+    <string name="filters_cta">فلتر</string>
+
+    <string name="chromecast_device_default_name">جهاز Chromecast غير معروف</string>
+
+    <string name="airplay_devices">أجهزة البث</string>
+
+    <string name="cast_menu_disconnect">فصل من %s</string>
+
+    <string name="cast_unavailable">تعذر استخدام Chromecast</string>
+
+    <string name="notif_login_required">تسجيل الدخول مطلوب</string>
+
+    <string name="notif_login_favorite">تعذر إضافة الأغنية إلى مفضلاتك</string>
+
+    <string name="notif_login_repost">تعذر Re-up الأغنية</string>
+
+    <string name="feat_x">%1$s إنجاز. %2$s</string>
+
+    <string name="contact_title_text">لا يمكنك تسجيل الدخول؟</string>
+
+    <string name="contact_subtitle_text">يُرجى إخبارنا بالمزيد حول المشكلة وسنرد عليك في أقرب وقت ممكن.</string>
+
+    <string name="contact_what_title_text">هل كنت تحاول تسجيل الدخول أو الاشتراك؟</string>
+
+    <string name="contact_how_title_text">كيف كنت تحاول تسجيل الدخول/ الاشتراك؟</string>
+
+    <string name="contact_when_title_text">متى قمت بتسجيل الدخول لآخر مرة؟</string>
+
+    <string name="contact_email_title_text">ما البريد الإلكتروني الذي تريد أن نتواصل معك من خلاله؟</string>
+
+    <string name="contact_can_title_text">هل يمكنك إخبارنا بأي شيء آخر حدث\nعندما حاولت تسجيل الدخول أو الاشتراك؟</string>
+
+    <string name="contact_selection_what_login">تسجيل الدخول</string>
+
+    <string name="contact_selection_what_signup">تسجيل</string>
+
+    <string name="contact_selection_how_google">جوجل</string>
+
+    <string name="contact_selection_how_twitter">تويتر</string>
+
+    <string name="contact_selection_how_facebook">فيسبوك</string>
+
+    <string name="contact_selection_how_email">البريد الإلكتروني</string>
+
+    <string name="contact_selection_when_today">اليوم</string>
+
+    <string name="contact_selection_when_last_week">في الأسبوع الماضي</string>
+
+    <string name="contact_selection_when_last_month">في الشهر الماضي</string>
+
+    <string name="contact_selection_when_dont_remember">لا أتذكر</string>
+
+    <string name="contact_selection_required">*مطلوب</string>
+
+    <string name="contact_selection_select">يرجى التحديد</string>
+
+    <string name="contact_selection_enter">أدخل النص هنا</string>
+
+    <string name="contact_selection_send">إرسال</string>
+
+    <string name="contact_time_limit_error">تم حفظ بطاقة الدعم الخاصة بك. يُرجى الانتظار حتى يرد فريق الدعم لدينا قبل إرسال بطاقة جديدة.</string>
+
+    <string name="contact_send_success">تم حفظ بطاقة الدعم الخاصة بك. يرجى الانتظار حتى يقوم فريق الدعم بالرد.</string>
+
+    <string name="album_play">تشغيل الألبوم</string>
+
+    <string name="album_pause">إيقاف الألبوم مؤقتاً</string>
+
+    <string name="playlist_play">تشغيل playlist</string>
+
+    <string name="playlist_pause">إيقاف  playlist مؤقتاً</string>
+
+    <string name="slideupmenu_music_trophies">الجوائز</string>
+
+    <string name="screenshot_now_playing">#تشغيل الآن</string>
+
+    <string name="screenshot_toast_title">التقط لقطة شاشة لهذه الصفحة وشاركها.</string>
+
+    <string name="screenshot_toast_subtitle">مرر لأسفل للإغلاق.</string>
+
+    <string name="highlights_highlighted">مميز</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">لم يجعل صاحب الحقوق هذا متاحاً في منطقتك.</string>
+
+    <string name="georestriction_alert_delete">حذف</string>
+
+    <string name="settings_notifications">إشعارات</string>
+
+    <string name="notifications_manager_new_song_album">إشعارات أغنية/ ألبوم جديدة</string>
+
+    <string name="notifications_manager_weekly_artist_reports">تقارير الفنان الأسبوعية</string>
+
+    <string name="notifications_manager_song_album_benchmarks">مؤشرات الأغنية/ الألبوم</string>
+
+    <string name="notifications_manager_everyone">الكل</string>
+
+    <string name="notifications_manager_artists">الفنانون</string>
+
+    <string name="notifications_manager_title">إشعارات</string>
+
+    <string name="billing_issue_subscribed">مشكلة في الفواتير: تحديث معلومات الدفع الخاصة بك\nللحفاظ على PREMIUM</string>
+
+    <string name="billing_issue_unsubscribed">مشكلة في الفواتير: تحديث معلومات الدفع الخاصة بك\nلاستعادة PREMIUM</string>
+
+    <string name="comments_count_template">%s تعليقات</string>
+
+    <string name="permissions_rationale_alert_instagram_message">تتطلب هذه الميزة أن يكون لدى انستغرام جميع الأذونات اللازمة. يرجى تمكين هذه الأذونات.</string>
+
+    <string name="premium_start_trial_ios">ابدأ تجربة مجانية لمدة 7 أيام</string>
+
+    <string name="premium_price_template_ios">%s شهريًا</string>
+
+    <string name="comments_try_add_later">يرجى محاولة إضافة تعليقك مرة أخرى لاحقاً</string>
+
+    <string name="comments_try_load_later">يرجى محاولة تحميل التعليقات مرة أخرى لاحقًا</string>
+
+    <string name="comments_try_later_connection">يرجى المحاولة مرة أخرى لاحقاً عندما يكون لديك اتصال أفضل بالإنترنت</string>
+
+    <string name="please_try_again_later">يُرجى إعادة المحاولة لاحقاً</string>
+
+    <string name="please_check_connection_try_again">يرجى التحقق من اتصالك والمحاولة مرة أخرى</string>
+
+    <string name="please_try_request_later">يرجى تجربة طلبك مرة أخرى لاحقاً</string>
+
+    <string name="please_login_again">يُرجى تسجيل الدخول مرة أخرى</string>
+
+    <string name="please_restart_app">يرجى محاولة إعادة تشغيل التطبيق</string>
+
+    <string name="player_file_no_connection">ليس لديك اتصال بالإنترنت</string>
+
+    <string name="please_check_connection_try_download_again">يرجى التحقق من اتصالك وإعادة محاولة هذا التنزيل</string>
+
+    <string name="home_tab_browse_experiment">اكتشاف</string>
+
+    <string name="no_browser_installed">لا يمكن اتخاذ هذا الإجراء، يرجى التأكد من تثبيت متصفح على جهازك</string>
+
+    <string name="billing_issue_avoid_losing_premium">يرجى تحديث معلومات الفواتير الخاصة بك لتجنب فقدان premium</string>
+
+    <string name="billing_issue_restore_premium">انتهت صلاحية مزايا premium لديك. يرجى تحديث معلومات الفواتير الخاصة بك لاستعادته.</string>
+
+    <string name="billing_issue_alert_header">يبدو أن هناك مشكلة في طريقة الدفع</string>
+
+    <string name="billing_issue_no_thanks">لا شكراً</string>
+
+    <string name="billing_issue_update_info">تحديث المعلومات</string>
+
+    <string name="social_link_error_already_linked_title">هذا الحساب مرتبط بالفعل بمستخدم على Audiomack</string>
+
+    <string name="social_link_error_already_linked_message_instagram">حاول ربط حساب انستغرام آخر.</string>
+
+    <string name="social_link_error_already_linked_message_twitter">حاول ربط حساب تويتر آخر.</string>
+
+    <string name="trending_search_song">أغنية</string>
+
+    <string name="trending_search_album">ألبوم</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">الحساب</string>
+
+    <string name="login_apple_error_message">فشل تسجيل الدخول باستخدام Apple</string>
+
+    <string name="benchmark_image_description">صورة مرجعية</string>
+
+    <string name="benchmark_trophies_title">الجوائز</string>
+
+    <string name="benchmark_hide">إخفاء</string>
+
+    <string name="benchmark_now">الآن</string>
+
+    <string name="benchmark_playing">جارِ التشغيل</string>
+
+    <string name="benchmark_million">%d مليون</string>
+
+    <string name="benchmark_billion">%d مليار</string>
+
+    <string name="benchmark_play">تشغيل</string>
+
+    <string name="benchmark_favorite">المفضلة</string>
+
+    <string name="benchmark_playlist">يضيف إلى playlist</string>
+
+    <string name="benchmark_repost">RE-UPS</string>
+
+    <string name="benchmark_verified">مُحَقّق</string>
+
+    <string name="benchmark_artist">فنان</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Messenger</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">تتطلب هذه الميزة تسجيل الدخول إلى Messenger</string>
+
+    <string name="notifications_verb_benchmark">فقط اضغط</string>
+
+    <string name="notifications_verb_benchmark_your_song">أغنيتك</string>
+
+    <string name="notifications_verb_benchmark_your_album">ألبومك</string>
+
+    <string name="notifications_verb_benchmark_your_playlist"> playlist الخاصة بك</string>
+
+    <string name="premium_download_toast">تفعيل premium لتشغيل الأغاني المقفلة بشكل عشوائي.</string>
+
+    <string name="premium_download_downloaded">تم التنزيل</string>
+
+    <string name="premium_download_standard_message">تنزيلات premium المجانية المتبقية.</string>
+
+    <string name="premium_download_upgrade">ترقية</string>
+
+    <string name="premium_download_reached_limit">لقد وصلت إلى حد تنزيل premium المجاني.</string>
+
+    <string name="premium_download_large_header">أنت تقوم بتنزيل محتوى premium</string>
+
+    <string name="premium_download_large_subheader">يأتي حسابك المجاني مع %d تنزيلات Premium.</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d Premium مجاني</string>
+
+    <string name="premium_download_plain_remaining">التنزيلات المتبقية.</string>
+
+    <string name="premium_download_upgrade_header">قم بالترقية الآن إلى premium واحصل على:</string>
+
+    <string name="premium_download_upgrade_first_point">تنزيلات premium غير محدودة</string>
+
+    <string name="premium_download_upgrade_second_point">تجربة خالية من الإعلانات</string>
+
+    <string name="premium_download_upgrade_third_point">تدفق بجودة عالية</string>
+
+    <string name="premium_download_upgrade_fourth_point">عناصر التحكم في موازن الصوت</string>
+
+    <string name="premium_download_upgrade_fifth_point">والمزيد!</string>
+
+    <string name="premium_download_upgrade_button">ترقية الآن</string>
+
+    <string name="premium_download_learn_more_left">تعلم المزيد عن</string>
+
+    <string name="premium_download_learn_more_right">محتوى premium.</string>
+
+    <string name="premium_download_large_header_second">تعرف على المزيد حول تنزيلات premium</string>
+
+    <string name="premium_download_replace_header">استبدل التنزيلات</string>
+
+    <string name="premium_download_replace_single_subheader">اختر أغنية للاستبدال.</string>
+
+    <string name="premium_download_replace_multiple_subheader">اختر %d أغنية للاستبدال.</string>
+
+    <string name="premium_download_replace_button">اختر %s (%d)</string>
+
+    <string name="premium_download_replace_button_selected">حذف (%d) وتنزيل</string>
+
+    <string name="premium_download_replace_button_text_one">واحد</string>
+
+    <string name="premium_download_replace_button_text_two">اثنان</string>
+
+    <string name="premium_download_replace_button_text_three">ثلاثة</string>
+
+    <string name="premium_download_replace_button_text_four">أربعة</string>
+
+    <string name="premium_download_replace_button_text_five">خمسة</string>
+
+    <string name="premium_download_replace_button_text_six">ستة</string>
+
+    <string name="premium_download_replace_button_text_seven">سبعة</string>
+
+    <string name="premium_download_replace_button_text_eight">ثمانية</string>
+
+    <string name="premium_download_replace_button_text_nine">تسعة</string>
+
+    <string name="premium_download_replace_button_text_ten">عشرة</string>
+
+    <string name="premium_download_replace_button_text_eleven">أحد عشر</string>
+
+    <string name="premium_download_replace_button_text_twelve">اثني عشر</string>
+
+    <string name="premium_download_replace_button_text_thirteen">ثلاثة عشر</string>
+
+    <string name="premium_download_replace_button_text_fourteen">أربعة عشر</string>
+
+    <string name="premium_download_replace_button_text_fifteen">خمسة عشر</string>
+
+    <string name="premium_download_replace_button_text_sixteen">ستة عشر</string>
+
+    <string name="premium_download_replace_button_text_seventeen">سبعة عشر</string>
+
+    <string name="premium_download_replace_button_text_eighteen">ثمانية عشر</string>
+
+    <string name="premium_download_replace_button_text_nineteen">تسعة عشر</string>
+
+    <string name="premium_download_replace_button_text_twenty">عشرين</string>
+
+    <string name="premium_download_replace_full_album_button">حدد (%d) للتنزيل</string>
+
+    <string name="premium_download_alert_exceed_limit_title">لا يمكن تنزيل هذا الألبوم بالكامل إلا من قبل مستخدمي Premium.</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">لا يزال بإمكانك تنزيل مسارات فردية.</string>
+
+    <string name="premium_download_alert_upgrade">الترقية إلى Premium</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">إلغاء</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">يتجاوز هذا المحتوى حد تنزيل premium الخاص بك.</string>
+
+    <string name="offline_filter_button">فلتر</string>
+
+    <string name="offline_filter_files_description">نظراً لأن هذه الأغاني مرتبطة بجهازك، فلا يمكن تفضيلها أو Re-up أو تمييزها أو تشغيلها أو مشاركتها.</string>
+
+    <string name="offline_filter_files_scan">استمع إلى أي أغانٍ محفوظة داخلياً على جهازك في التطبيق</string>
+
+    <string name="offline_filter_files_switch">إدراج الملفات المحلية</string>
+
+    <string name="offline_filter_previous_downloads">عرض التنزيلات السابقة</string>
+
+    <string name="offline_filter_section_type">تصفية حسب النوع:</string>
+
+    <string name="offline_filter_section_order">تصفية حسب الطلب:</string>
+
+    <string name="offline_filter_section_files">ملفات محلية:</string>
+
+    <string name="offline_filter_title">تصفية دون اتصال بالإنترنت</string>
+
+    <string name="signup_error_min_age">يجب أن يكون عمرك 13 عاماً على الأقل لاستخدام هذا التطبيق</string>
+
+    <string name="report_content">إبلاغ عن المحتوى</string>
+
+    <string name="report_content_done">تم الإبلاغ عن المحتوى</string>
+
+    <string name="block_user">حظر المستخدم</string>
+
+    <string name="block_user_done">تم إرسال طلب الإبلاغ/الحظر</string>
+
+    <string name="confirm_report_done">سيتم تنفيذ طلبك للإبلاغ/الحظر خلال الـ 24 ساعة القادمة</string>
+
+    <string name="confirm_report_alert_title">يرجى وصف المشكلة</string>
+
+    <string name="confirm_report_report_alert_message">حدد أفضل وصف لسبب هذا الإبلاغ/ الحظر</string>
+
+    <string name="confirm_report_alert_submit">إرسال</string>
+
+    <string name="confirm_report_alert_option_violent">هذا محتوى مرئي أو صوتي عنيف / إباحي</string>
+
+    <string name="confirm_report_alert_option_broken">هذا المحتوى لا يتم دفقه أو تنزيله</string>
+
+    <string name="confirm_report_alert_option_misleading">هذا المحتوى مضلل أو بتسمية خاطئة</string>
+
+    <string name="confirm_report_alert_option_spam">ينخرط هذا الحساب في الإزعاج أو المضايقة</string>
+
+    <string name="confirm_report_alert_option_infringement">أعتقد أن هذا انتهاك لحقوق النشر</string>
+
+    <string name="confirm_bis_report_alert_title">هل أنت متأكد من أنك تريد إرسال إشعار الحظر/الإبلاغ هذا؟</string>
+
+    <string name="confirm_bis_report_alert_yes">نعم</string>
+
+    <string name="confirm_bis_report_alert_cancel">لا، لا أريد ذلك</string>
+
+    <string name="benchmark_tastemaker">TASTEMAKER</string>
+
+    <string name="benchmark_authenticated">موثق</string>
+
+    <string name="download_restore_backup_fail">تعذر استعادة التنزيلات من الجهاز السابق</string>
+
+    <string name="download_restore_backup_success">تمت استعادة التنزيلات بنجاح من الجهاز السابق</string>
+
+    <string name="download_restore_prompt">هل ترغب في استعادة %d تنزيلات من جهازك السابق؟</string>
+
+    <string name="download_restore_prompt_yes">نعم</string>
+
+    <string name="download_restore_prompt_no">لا</string>
+
+    <string name="download_restore_no_wifi_prompt">ستبدأ التنزيلات بمجرد اتصالك بشبكة WiFi</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">موافق</string>
+
+    <string name="in_app_update_ios_title">التحديث متوفر</string>
+
+    <string name="in_app_update_ios_message">يتوفر إصدار جديد من Audiomack. يرجى التحديث الآن.</string>
+
+    <string name="in_app_update_ios_option_update">تحديث</string>
+
+    <string name="in_app_update_ios_option_next_time">المرة القادمة</string>
+
+    <string name="in_app_update_downloaded_title">تم تنزيل تحديث لهذا التطبيق للتو</string>
+
+    <string name="in_app_update_downloaded_restart">إعادة تشغيل</string>
+
+    <string name="in_app_update_downloaded_cancel">إلغاء</string>
+
+    <string name="in_app_update_download_started">بدأ تنزيل تحديث التطبيق</string>
+
+    <string name="comments_view_all">عرض جميع التعليقات</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">حدد الجائزة، ثم لقطة شاشة للمشاركة</string>
+
+    <string name="search_authenticated_account">حساب مصدق</string>
+
+    <string name="search_tastemaker_account">حساب صانع القرار</string>
+
+    <string name="playlists_filter_pill_favorited">المفضلة</string>
+
+    <string name="offline_remove_title">إزالة الاختيار المتعدد دون اتصال</string>
+
+    <string name="offline_remove_button">إزالة من دون اتصال بالإنترنت</string>
+
+    <string name="download_delete_slide">حذف</string>
+
+    <string name="options_play_next_list">تشغيل التالي</string>
+
+    <string name="slideupmenu_music_share_instagram">قصص انستغرام</string>
+
+    <string name="notifications_playlists_bundle_verb">تمت إضافة إلى</string>
+
+    <string name="notifications_playlists_bundle_suffix">أنت تتابع</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d قوائم التشغيل</string>
+
+    <string name="notifications_playlists_new_songs">%d أغانٍ جديدة</string>
+
+    <string name="audio_ad_now_playing_info_title">إعلان صوتي</string>
+
+    <string name="audio_ad_advertisement">الإعلانات:</string>
+
+    <string name="audio_ad_support_artists">تدعم الإعلانات الفنانين والمبدعين على Audiomack.</string>
+
+    <string name="audio_ad_upgrade_premium">الترقية إلى  premium لإزالة جميع الإعلانات</string>
+
+    <string name="audio_ad_now_playing_info_artist">سيبدأ المحتوى الخاص بك في غضون %d ثانية...</string>
+
+    <string name="downloadmessage_button_premium_downloads">انتقل إلى الموسيقى دون الاتصال بالإنترنت</string>
+
+    <string name="benchmark_next_milestone">التالى%s</string>
+
+    <string name="benchmark_on_audiomack">في AUDIOMACK</string>
+
+    <string name="settings_sleep_timer">موقت النوم</string>
+
+    <string name="sleep_timer_alert_title">إلى متى تريد تشغيل الموسيقى؟</string>
+
+    <string name="sleep_timer_alert_button">حدد موقت</string>
+
+    <string name="sleep_timer_alert_hours">ساعات</string>
+
+    <string name="sleep_timer_alert_hour">ساعة</string>
+
+    <string name="sleep_timer_alert_minutes">دقيقة</string>
+
+    <string name="browse_tab_world">العالم</string>
+
+    <string name="premium_2019_sleep_timer">موقت النوم</string>
+
+    <string name="premium_2019_sleep_timer_desc">اضبط موقتًا لإيقاف الصوت حتى تتمكن من النوم دون تشغيل التطبيق طوال الليل</string>
+
+    <string name="signup_gender_birthday_information_header">أكمل ملفك الشخصي</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">للمزيد من المعلومات، يرجى الاطلاع على شروط الخدمة وسياسة الخصوصية</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">تعليقك على</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">حصلت على</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">التصويت الإيجابي %d.</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">التصويت الإيجابي %d.</string>
+
+    <string name="premium_download_large_subheader_second_song">قم بترقية أو إزالة تنزيل واحد premium لتنزيل هذه الأغنية</string>
+
+    <string name="notifications_playlists_bundle_verb_single">تمت إضافته إلى</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d أغنية</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d قائمة تشغيل</string>
+
+    <string name="notifications_playlists_new_songs_single">%d أغنية جديدة</string>
+
+    <string name="audio_ad_notif_title">الإعلانات:</string>
+
+    <string name="playlists_filter_my">قوائم التشغيل الخاصة بي</string>
+
+    <string name="playlists_filter_favorited">المفضلة</string>
+
+    <string name="playlists_filter_offline">دون اتصال بالإنترنت فقط</string>
+
+    <string name="filters_section_type">تصفية حسب النوع:</string>
+
+    <string name="musicinfo_runtime_title">مدة العرض:</string>
+
+    <string name="musicinfo_runtime_value">%s دقيقة ، %d مقاطع صوتية</string>
+
+    <string name="premium_2019_advanced">الخيارات المتقدمة</string>
+
+    <string name="premium_2019_start_trial">ابدأ تجربتك المجانية لمدة 7 أيام</string>
+
+    <string name="favorites_filter_title">تفضيلات الفلتر</string>
+
+    <string name="accessibility_multiselect">اختيار متعدد</string>
+
+    <string name="accessibility_premium_download">تنزيل Premium</string>
+
+    <string name="search_playlist_total_songs">مجموع الأغاني:</string>
+
+    <string name="restore_downloads_prompt_title_plural">هل ترغب في استعادة %d تنزيلات من جهازك السابق؟</string>
+
+    <string name="restore_downloads_prompt_title_singular">هل ترغب في استعادة %d تنزيل من جهازك السابق؟</string>
+
+    <string name="restore_downloads_dialog_positive">استعادة جميع التنزيلات</string>
+
+    <string name="restore_downloads_dialog_negative">حدد التنزيلات لاستعادتها</string>
+
+    <string name="restore_downloads_error">غير قادر على استعادة التنزيلات</string>
+
+    <string name="restore_downloads_started">استعادة التنزيلات</string>
+
+    <string name="restore_downloads_queued">ستبدأ التنزيلات بمجرد اتصالك بشبكة واي فاي</string>
+
+    <string name="premium_2019_premiumdownloads">تنزيلات غير محدودة</string>
+
+    <string name="premium_2019_premiumdownloads_desc">تنزيلات غير محدودة لكل شيء على Audiomack</string>
+
+    <string name="premium_only_downloads_alert_title">هذا التنزيل premium.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">هناك الملايين من التنزيلات المجانية على audiomack ولكن الفنان جعل هذا التنزيل متاحاً فقط لمشتركي premium.</string>
+
+    <string name="premium_only_downloads_alert_yes">ترقية</string>
+
+    <string name="premium_only_downloads_alert_no">إلغاء</string>
+
+    <string name="notifications_manager_play_milestones">تشغيل المراحل الرئيسية</string>
+
+    <string name="notifications_manager_upvote_milestones">التصويت الإيجابي للمراحل الرئيسية</string>
+
+    <string name="notifications_manager_comment_replies">ردود التعليق</string>
+
+    <string name="local_player_granted_alert_title">تشغيل الملفات المحلية</string>
+
+    <string name="local_player_granted_alert_message">لديك %d ملفات موسيقى مخزنة محلياً على جهازك. هل ترغب في الوصول إلى هذه الأغاني من Audiomack؟\n\nملاحظة: نظراً لأن الملفات المحلية موجودة فقط على جهازك، فلا يمكن مشاركتها أو إعادة ترقيتها أو وضعها في المفضلة أو تمييزها أو إضافتها إلى قوائم التشغيل.</string>
+
+    <string name="local_player_granted_alert_positive">إضافة</string>
+
+    <string name="local_player_granted_alert_negative">إلغاء</string>
+
+    <string name="local_player_ungranted_alert_title">تشغيل الملفات المحلية</string>
+
+    <string name="local_player_ungranted_alert_message">هل لديك ملفات موسيقى مخزنة على هاتفك؟ يمكنك الآن الاستماع إليها على Audiomack تماماً مثل الموسيقى المشغلة. اضغط على \"إضافة\" أدناه للبدء!\n\nملاحظة: نظراً لأن الملفات المحلية موجودة فقط على جهازك، فلا يمكن مشاركتها أو إعادة ترقيتها أو وضعها في المفضلة أو تمييزها أو إضافتها إلى قوائم التشغيل.</string>
+
+    <string name="local_player_declined_alert_title">إضافة الملفات المحلية</string>
+
+    <string name="local_player_declined_alert_message">استمع إلى جميع الملفات الصوتية المخزنة على جهازك في Audiomack</string>
+
+    <string name="local_player_declined_alert_positive">إضافة</string>
+
+    <string name="queue_clear_all">امسح الكل</string>
+
+    <string name="queue_clear_upcoming">مسح القادم</string>
+
+    <string name="queue_save_playlist">حفظ في قائمة التشغيل</string>
+
+    <string name="premium_only_downloads_stream_alert_title">هذا تنزيل premium فقط</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">قم بترقية حسابك لجعل أي محتوى على التطبيق متاحًا للاستماع في وضع عدم الاتصال.</string>
+
+    <string name="articles_noresults_placeholder">لم يتم العثور على مقالات.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s دقيقة، %d أغنية</string>
+
+    <string name="premium_limited_reached_limit_alert_title">ليس لديك ما يكفي من تنزيلات premium المتاحة</string>
+
+    <string name="premium_limited_reached_limit_alert_message">قم بالترقية إلى premium للتنزيلات غير المحدودة أو استبدال التنزيلات القديمة لإفساح المجال.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">ابدأ تجربة مجانية من PREMIUM</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">استبدال وتنزيل</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">تعرف على المزيد حول محتوى premium.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">محتوى premium.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">لقد نفدت تنزيلات premium.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">للعب، قم بالترقية إلى الإصدار المميز أو استبدل %d من تنزيلات الإصدار premium.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">الترقية إلى Premium</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">استبدال وفتح</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">أرغب في دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">حذف من وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">لقد نفدت تنزيلات premium.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">للتنزيل، قم بالترقية إلى premium أو استبدل %d من تنزيلات إصدار premium.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">الترقية إلى Premium</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">استبدال وفتح</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">أرغب في دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">حذف من وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">هل تريد فتح هذا التنزيل؟</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">يمكنك استخدام %d من التنزيلات المميزة المتبقية لإلغاء قفله.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">الترقية إلى Premium</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">إلغاء القفل</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">أرغب في دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">حذف من وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">اشترك لإلغاء القفل.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">هناك الملايين من التنزيلات المجانية على audiomack ولكن لا يمكن الوصول إلى هذا التنزيل إلا بواسطة مستخدمي premium.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">الترقية إلى Premium</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">أرغب في دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">دفقه بدلاً من ذلك.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">حذف من وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="restore_downloads_dialog_select">حدد التنزيلات لاستعادتها</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">استعادة</string>
+
+    <string name="search_recommendations">موصى به لك</string>
+
+    <string name="settings_premium_status">حالة Premium</string>
+
+    <string name="settings_premium_status_no_override">لا تجاوز</string>
+
+    <string name="settings_premium_status_free">مجاناً</string>
+
+    <string name="settings_premium_status_premium">Premium</string>
+
+    <string name="settings_premium_status_free_billing_issue">مجاني مع إصدار الفواتير</string>
+
+    <string name="settings_premium_status_premium_billing_issue">Premium مع إصدار الفواتير</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d قائمة تشغيل</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d أغنية جديدة</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">تمت إضافته إلى</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d أغنية.</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d قائمة تشغيل</string>
+
+    <string name="premium_limited_download_unlock_toast">%s مفتوح</string>
+
+    <string name="notifications_follow_alert_title">هل تريد الحصول على إشعار عندما يضع هذا الفنان موسيقى جديدة؟</string>
+
+    <string name="notifications_follow_alert_positive">منح أذونات الدفع</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">حذف من وضع عدم الاتصال بالإنترنت</string>
+
+    <string name="email_verification_toast_success">شكرا للتحقق من بريدك الإلكتروني!</string>
+
+    <string name="email_verification_toast_failure">فشل التحقق من البريد الإلكتروني</string>
+
+    <string name="sleep_timer_stop_today">سيتوقف التشغيل في %s</string>
+
+    <string name="sleep_timer_stop_tomorrow">سيتوقف التشغيل غداً في %s</string>
+
+    <string name="sleep_timer_triggered">انتهى موقت النوم</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">هل تريد الحصول على إشعار عندما يضع هذا الفنان موسيقى جديدة؟</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">منح أذونات الدفع</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">إلغاء</string>
+
+    <string name="notifications_manager_push_off_title">إشعارات الدفع معطلة.</string>
+
+    <string name="notifications_manager_push_off_message_ios">للتمكين،\nانتقل إلى: إعدادات iPhone &gt; الإشعارات &gt; Audiomack</string>
+
+    <string name="notifications_manager_push_off_message_android">للتمكين،\nانتقل إلى: إعدادات الجهاز&gt; التطبيقات والإشعارات&gt; Audiomack&gt; الإشعارات</string>
+
+    <string name="sleep_timer_notification_button">اذهب</string>
+
+    <string name="sleep_timer_notification_title">افتح موقت نوم Premium</string>
+
+    <string name="sleep_timer_notification_subtitle">قم بإعداده في الإعدادات حتى تتمكن من الغفوة دون تشغيل التطبيق طوال الليل</string>
+
+    <string name="sleep_timer_notification_premium_title">لقد فتحت قفل موقت النوم</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">قم بإعداده في الإعدادات لإيقاف الصوت الخاص بك بعد الذهاب للنوم</string>
+
+    <string name="NSLocalNetworkUsageDescription">يستخدم Audiomack الشبكة المحلية لاكتشاف الأجهزة التي تدعم Cast على شبكة WiFi الخاصة بك.</string>
+
+    <string name="notifications_manager_verified_playlist">تضيف قائمة التشغيل التي تم التحقق منها</string>
+
+    <string name="world_articles_not_found">لم يتم العثور على مقالات.</string>
+
+    <string name="world_article_detail_not_found">لم يتم العثور على مقال.</string>
+
+    <string name="accessibility_world_logo">الشعار العالمي</string>
+
+    <string name="splash_message_single">لتقديم أفضل تجربة، نطلب منك تمكين الأذونات التالية:</string>
+
+    <string name="splash_location_message_new">اعرض الموسيقى الشعبية في منطقتك والمخططات الشائعة وعمليات البحث المحلية</string>
+
+    <string name="accessibility_logo">رمز Audiomack</string>
+
+    <string name="widget_gallery_title">اضغط تشغيل</string>
+
+    <string name="widget_gallery_subtitle">استمع إلى أحدث المسارات المحفوظة المفضلة لديك</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">هذا المسار هو premium فقط</string>
+
+    <string name="premium_only_streaming_alert_message">احصل على Audiomack premium لبث أي مسار على المنصة، بالإضافة إلى تنزيلات غير محدودة والمزيد!</string>
+
+    <string name="premium_only_streaming_alert_premium">احصل على PREMIUM</string>
+
+    <string name="premium_only_streaming_alert_cancel">إلغاء</string>
+
+    <string name="toast_play_album_deleted_tracks_header">لم يتم تنزيل كل هذه الأغاني</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">لحفظ البيانات، سيتم وضع المسارات غير المتصلة فقط في قائمة الانتظار</string>
+
+    <string name="feed_suggested_accounts">الحسابات المقترحة</string>
+
+    <string name="feed_suggested_accounts_view_all">عرض الكل</string>
+
+    <string name="feed_new_music_description">ستظهر هنا الموسيقى الجديدة من الأشخاص الذين تتابعهم.</string>
+
+    <string name="feed_follow_suggested_description">يمكنك البدء باتباع بعض الفنانين المقترحين أعلاه.</string>
+
+    <string name="feed_social_feed">تغذية اجتماعية</string>
+
+    <string name="NSPhotoLibraryUsageDescription">نطلب الوصول إلى مكتبة الصور الخاصة بك لاختيار صورة لاستخدامها في ملفك الشخصي.</string>
+
+    <string name="NSCameraUsageDescription">نطلب الوصول إلى الكاميرا لالتقاط صورة لاستخدامها في ملفك الشخصي.</string>
+
+    <string name="settings_change_password">تغيير كلمة المرور</string>
+
+    <string name="update_password_success">تم تحديث كلمة المرور بنجاح!</string>
+
+    <string name="update_password_title">تحديث كلمة المرور</string>
+
+    <string name="update_password_current">كلمة المرور الحالية</string>
+
+    <string name="update_password_new">كلمة المرور الجديدة</string>
+
+    <string name="update_password_confirm">تأكيد كلمة المرور</string>
+
+    <string name="update_password_forgot">نسيت كلمة المرور؟</string>
+
+    <string name="update_password_save">تحديث كلمة المرور</string>
+
+    <string name="reset_password_invalid_token_title">خطأ في رابط إعادة تعيين كلمة المرور</string>
+
+    <string name="reset_password_invalid_token_message">حدث خطأ أثناء التحقق من صحة رابط إعادة تعيين كلمة المرور. ربما حدث هذا بسبب انتهاء صلاحية الرابط. حاول استخدام نموذج نسيت كلمة المرور مرة أخرى لإنشاء ارتباط جديد.</string>
+
+    <string name="reset_password_title">إعادة تعيين كلمة المرور</string>
+
+    <string name="reset_password_subtitle">أدخل كلمة مرور جديدة</string>
+
+    <string name="reset_password_new">كلمة مرور جديدة</string>
+
+    <string name="reset_password_confirm">تأكيد كلمة المرور</string>
+
+    <string name="reset_password_reset">إعادة تعيين كلمة المرور</string>
+
+    <string name="reset_password_success">إعادة تعيين كلمة المرور بنجاح!</string>
+
+    <string name="word_article_webview_updating_error">يتم تحديث بعض الخدمات، يرجى المحاولة مرة أخرى</string>
+
+    <string name="local_file">ملف محلي</string>
+
+    <string name="local_file_selection_apply">حفظ التغييرات</string>
+
+    <string name="local_file_selection_applied">تم حفظ اختيار الملف</string>
+
+    <string name="local_file_selection_permissions_rationale">يحتاج Audiomack إلى أذونات التخزين للوصول إلى الوسائط المحلية الخاصة بك</string>
+
+    <string name="local_file_selection_empty">لم يتم العثور على وسائط محلية</string>
+
+    <string name="offline_filter_files_select">اختر الملفات</string>
+
+    <string name="options_hide_track">إخفاء المسار</string>
+
+    <string name="options_hide_album">إخفاء الألبوم</string>
+
+    <string name="uploads_filter_popular">الأكثر شعبية</string>
+
+    <string name="uploads_filter_recent">الأحدث</string>
+
+</resources>

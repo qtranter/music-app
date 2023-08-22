@@ -1,0 +1,53 @@
+<resources>
+
+    <dimen name="ad_height">50dp</dimen>
+
+    <dimen name="navbar_height">44dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="toolbar_action_size">56dp</dimen>
+
+    <dimen name="fields_vertical_margin">15dp</dimen>
+
+    <dimen name="album_buttons_size">48dp</dimen>
+    <dimen name="album_buttons_spacing">0dp</dimen>
+    <dimen name="album_buttons_container_padding">8dp</dimen>
+
+    <dimen name="minified_player_height">57dp</dimen>
+
+    <dimen name="modal_horizontal_margin_tablets">120dp</dimen>
+    <dimen name="tabbar_layout_height">60dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+    <dimen name="slideup_menu_row_height">54dp</dimen>
+    <dimen name="slideup_menu_row_padding">15dp</dimen>
+    <dimen name="slideup_menu_row_divider_height">1dp</dimen>
+
+    <dimen name="now_playing_margin_horizontal">20dp</dimen>
+    <dimen name="now_playing_scrollbar_margin">6dp</dimen>
+    <dimen name="player_btn_play_size">64dp</dimen>
+    <dimen name="player_text_meta_large">18sp</dimen>
+    <dimen name="player_text_meta_small">14sp</dimen>
+    <dimen name="player_art_padding_top">0dp</dimen>
+    <dimen name="player_ad_width">300dp</dimen>
+    <dimen name="player_native_ad_width">320dp</dimen>
+    <dimen name="song_action_button_margin">0dp</dimen>
+
+    <dimen name="album_margin_horizontal">15dp</dimen>
+
+    <dimen name="playlist_margin_horizontal">15dp</dimen>
+
+    <dimen name="benchmark_subtitle_text_size_large">36sp</dimen>
+    <dimen name="benchmark_subtitle_text_size_small">26sp</dimen>
+
+    <dimen name="splash_logo_margin_top">0dp</dimen>
+    <dimen name="splash_layout_margin_top">14dp</dimen>
+    <dimen name="splash_location_margin_top">5dp</dimen>
+    <dimen name="splash_location_msg_margin_top">4dp</dimen>
+    <dimen name="splash_btn_margin_top">21dp</dimen>
+    <dimen name="splash_privacy_margin_top">3dp</dimen>
+</resources>

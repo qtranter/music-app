@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/standaloneHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#1C1C1C" />
+
+        <com.audiomack.views.AMImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start|top"
+            android:layout_margin="5dp"
+            android:background="@null"
+            android:contentDescription="@string/accessibility_back"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_back_button" />
+
+        <LinearLayout
+            android:id="@+id/viewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            tools:visibility="gone">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvCommentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:customletterspacing="-0.5"
+                tools:text="TITLE" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvCommentSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                app:customletterspacing="-0.5"
+                tools:text="Subtitle" />
+
+        </LinearLayout>
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvCommentCount"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="64dp"
+            android:fontFamily="@font/opensans_extrabold"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:customletterspacing="-0.89"
+            tools:text="TITLE" />
+
+        <com.audiomack.views.AMImageButton
+            android:id="@+id/buttonSort"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end|top"
+            android:background="@null"
+            android:contentDescription="@string/accessibility_sort"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/ic_filter" />
+
+        <LinearLayout
+            android:id="@+id/linWriteComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="51dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewUserProfile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_placeholder" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvComment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center_vertical"
+                android:text="@string/comments_write_prompt"
+                android:textColor="@color/login_hint_color"
+                android:textSize="14sp"
+                app:customletterspacing="-0.56" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/playerHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="10dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvCommentTitleBis"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                app:customletterspacing="-0.54"
+                tools:text="104 Comments" />
+
+            <com.audiomack.views.AMImageButton
+                android:id="@+id/buttonSortBis"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end|top"
+                android:background="@null"
+                android:contentDescription="@string/accessibility_sort"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_filter" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linWriteCommentBis"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/player_comments_input_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewUserProfileBis"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="3dp"
+                android:clickable="false"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_placeholder" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvCommentBis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:clickable="false"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center_vertical"
+                android:text="@string/comments_write_prompt"
+                android:textColor="@color/login_hint_color"
+                android:textSize="14sp"
+                app:customletterspacing="-0.56" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewBorder"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@color/permissions_darkgrey" />
+
+    <FrameLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.audiomack.views.ProgressLogoView
+            android:id="@+id/animationView"
+            style="@style/ProgressLogoView" />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.audiomack.views.AMRecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@color/orange"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:visibility="invisible"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <include
+            android:id="@+id/placeholderNoComments"
+            layout="@layout/view_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/placeholderNoConnection"
+            layout="@layout/view_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonViewAll"
+            android:layout_width="215dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/popup_rounded_button"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/comments_view_all"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:visibility="gone"
+            app:customletterspacing="-0.72" />
+
+    </FrameLayout>
+
+</LinearLayout>

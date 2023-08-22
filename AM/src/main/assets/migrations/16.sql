@@ -1,0 +1,1 @@
+ALTER TABLE items ADD COLUMN amp_duration INTEGER DEFAULT 0;

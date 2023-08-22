@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/backgroundView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_alpha80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/alert_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            app:customletterspacing="-0.42"
+            tools:drawableTop="@drawable/social_link_youtube_popup"
+            tools:text="@string/connect_social_popup_title_youtube" />
+
+        <com.audiomack.views.AMCustomFontEditText
+            android:id="@+id/etUsername"
+            android:layout_width="254dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="4dp"
+            android:background="#00000000"
+            android:drawableStart="@drawable/social_link_slug_popup"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center_vertical|start"
+            android:paddingBottom="-8dp"
+            android:singleLine="true"
+            android:textColor="#CACACA"
+            android:textColorHint="#80CACACA"
+            android:textSize="16sp"
+            app:customletterspacing="-0.62"
+            tools:text="purenine" />
+
+        <View
+            android:layout_width="254dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="6dp"
+            android:background="#4CFFFFFF" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonSave"
+            android:layout_width="215dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/popup_rounded_button"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/connect_social_popup_save"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:customletterspacing="-0.72" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonClear"
+            android:layout_width="215dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:background="@null"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/connect_social_popup_clear"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            app:customletterspacing="-0.53" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white"
+        app:layout_constraintBottom_toTopOf="@id/layoutMain"
+        app:layout_constraintStart_toStartOf="@id/layoutMain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

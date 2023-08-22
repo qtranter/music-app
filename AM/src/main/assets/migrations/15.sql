@@ -1,0 +1,1 @@
+ALTER TABLE items ADD COLUMN amp boolean DEFAULT FALSE;

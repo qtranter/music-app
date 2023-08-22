@@ -1,0 +1,697 @@
+---
+format_version: '4'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: android
+trigger_map:
+- push_branch: release/*
+  workflow: internal
+- push_branch: hotfix/*
+  workflow: internal
+- push_branch: patch/*
+  workflow: internal
+- pull_request_source_branch: "*"
+  workflow: export-prod-build
+- tag: "*.*.*"
+  workflow: create-release
+workflows:
+  alpha:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: bundleProdRelease
+        - app_file_include_filter: "*.aab\n"
+        - gradlew_path: "$GRADLEW_PATH"
+    - script@1:
+        title: Overwrite AAB with the one processed by Dexguard
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            normal=$BITRISE_AAB_PATH
+            protected="${normal/.aab/-protected.aab}"
+            if [ -f $protected ] ; then
+                mv $protected $normal
+            fi
+    - sign-apk@1.7:
+        inputs:
+        - android_app: "$BITRISE_AAB_PATH"
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+        is_always_run: false
+    - cache-push@2.4: {}
+    - google-play-deploy@3.1:
+        inputs:
+        - user_fraction: ''
+        - package_name: com.audiomack
+        - service_account_json_key_path: "$BITRISEIO_SERVICE_ACCOUNT_URL"
+        - apk_path: "$BITRISE_SIGNED_APK_PATH"
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  debug:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0: {}
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: assembleProdDebug
+        - gradlew_path: "$GRADLEW_PATH"
+    - sign-apk@1.7: {}
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+        is_always_run: false
+    - cache-push@2.4: {}
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  create-release:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            # See here https://github.com/bitrise-steplib/steps-generate-changelog/issues/4
+            mkdir -p ~/.envman && echo -e '{"env_bytes_limit_in_kb": 0}' > ~/.envman/configs.json
+        title: Hack for huge changelogs
+    - generate-changelog@0.9: {}
+    - github-release@0.11.0:
+        inputs:
+        - draft: 'no'
+        - api_token: "$GITHUB_TOKEN"
+        - body: "$BITRISE_CHANGELOG"
+        - name: "$BITRISE_GIT_TAG"
+        - username: "$GITHUB_USERNAME"
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  robo-tests:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: assembleProdRelease
+        - gradlew_path: "$GRADLEW_PATH"
+        title: assembleRelease
+    - sign-apk@1.7: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - virtual-device-testing-for-android@1.1.2:
+        inputs:
+        - test_timeout: '900'
+        - test_devices: |-
+            Nexus10,21,es,portrait
+            Nexus10,22,fr,portrait
+            Nexus4,21,fr,portrait
+            Nexus4,22,en,portrait
+            Nexus5,21,es,portrait
+            Nexus5,22,en,portrait
+            Nexus5,23,fr,portrait
+            Nexus5X,23,en,portrait
+            Nexus5X,24,es,portrait
+            Nexus5X,25,en,portrait
+            Nexus5X,26,fr,portrait
+            Nexus6,21,en,portrait
+            Nexus6,22,es,portrait
+            Nexus6,23,en,portrait
+            Nexus6,24,fr,portrait
+            Nexus6P,23,en,portrait
+            Nexus6P,24,es,portrait
+            Nexus6P,25,en,portrait
+            Nexus6P,26,fr,portrait
+            Nexus6P,27,en,portrait
+            Nexus7,21,es,portrait
+            Nexus7,22,en,portrait
+            Nexus9,21,fr,portrait
+            Nexus9,22,en,portrait
+            Nexus9,23,es,portrait
+            Nexus9,24,en,portrait
+            Nexus9,25,fr,portrait
+            NexusLowRes,23,en,portrait
+            NexusLowRes,24,fr,portrait
+            NexusLowRes,25,en,portrait
+            NexusLowRes,26,es,portrait
+            NexusLowRes,27,en,portrait
+            NexusLowRes,28,fr,portrait
+            Pixel2,26,es,portrait
+            Pixel2,27,en,portrait
+            Pixel2,28,fr,portrait
+        - apk_path: "$BITRISE_SIGNED_APK_PATH"
+        - robo_directives: |-
+            etEmailLayout,matteo@majestykapps.com,ENTER_TEXT
+            etPassword,aaaaaaaa,ENTER_TEXT
+            buttonLogin,,SINGLE_CLICK
+        title: Robo Virtual Device Testing
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+    - cache-push@2.4:
+        is_always_run: true
+  AWS-fuzz-tests:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: prodRelease
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: assembleProdRelease
+        - app_file_include_filter: "*.apk\n"
+        - gradle_options: "--stacktrace --debug --no-daemon"
+        - gradlew_path: "$GRADLEW_PATH"
+        title: assembleRelease
+    - sign-apk@1.7:
+        inputs:
+        - android_app: "$BITRISE_APK_PATH"
+    - aws-device-farm-runner@0.0.7:
+        inputs:
+        - billing_method: UNMETERED
+        - platform: android
+        - test_package_name: "$AWS_UPLOAD_FILE_PATH"
+        - test_type: BUILTIN_FUZZ
+        - filter: event_count:8000
+        - aws_region: us-west-2
+        - run_wait_for_results: 'false'
+        - run_fail_on_warning: 'false'
+        - android_pool: "$AWS_DEVICE_POOL_ARN"
+        - device_farm_project: "$AWS_DEVICE_ARN"
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+    - cache-push@2.4:
+        is_always_run: true
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  nothing: {}
+  export-dev-build:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner@1.9:
+        inputs:
+        - gradle_task: assembleProdDebug
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: assembleQaRelease
+        - gradlew_path: "$GRADLEW_PATH"
+    - script@1:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            normal=$BITRISE_APK_PATH
+            protected="${normal/.apk/-protected.apk}"
+            if [ -f $protected ] ; then
+            mv $protected $normal
+            fi
+        title: Overwrite APK with the one processed by Dexguard
+    - sign-apk@1.7: {}
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+    - cache-push@2.4:
+        is_always_run: true
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  export-prod-build:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1:
+        inputs:
+        - variant: debug
+        - module: modules:onesignal
+        title: 'Android Unit Test: OneSignal'
+    - android-unit-test@1.0:
+        inputs:
+        - arguments: ''
+        - variant: ProdDebug
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: assembleProdRelease
+        - gradle_options: "--stacktrace --debug --no-daemon"
+        - gradlew_path: "$GRADLEW_PATH"
+    - script@1:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            normal=$BITRISE_APK_PATH
+            protected="${normal/.apk/-protected.apk}"
+            if [ -f $protected ] ; then
+                mv $protected $normal
+            fi
+        title: Overwrite APK with the one processed by Dexguard
+    - sign-apk@1.7: {}
+    - deploy-to-bitrise-io@1.11:
+        inputs:
+        - debug_mode: 'true'
+        title: Deploy release build to Bitrise.io
+    - cache-push@2.4:
+        is_always_run: true
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - message_on_error: "$GIT_CLONE_COMMIT_MESSAGE_BODY\n"
+        - fields: |-
+            App|${BITRISE_APP_TITLE}
+            Branch|${BITRISE_GIT_BRANCH}
+            Workflow|${BITRISE_TRIGGERED_WORKFLOW_ID}
+        - icon_url: ''
+        - thumb_url: ''
+        - footer_icon: https://www.meme-arsenal.com/memes/ba0b8fdca507f3bf7ccd35088305f00d.jpg
+        - webhook_url: ''
+        is_always_run: false
+        run_if: ".IsBuildFailed"
+  test-on-device:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner@1.9:
+        inputs:
+        - gradle_task: assembleProdDebug assembleProdDebugAndroidTest
+    - virtual-device-testing-for-android@1.1.2:
+        inputs:
+        - test_type: instrumentation
+        - inst_use_orchestrator: 'true'
+        - test_devices: |-
+            Nexus5,23,en,portrait
+            Nexus5X,24,es,portrait
+            Nexus6,25,en,portrait
+            Nexus6P,27,fr,portrait
+            Pixel2,28,es,portrait
+        title: UI tests
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: assembleProdRelease
+        - gradlew_path: "$GRADLEW_PATH"
+    - sign-apk@1.7: {}
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+    - cache-push@2.4:
+        is_always_run: true
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - message_on_error: "$GIT_CLONE_COMMIT_MESSAGE_BODY\n"
+        - fields: |-
+            App|${BITRISE_APP_TITLE}
+            Branch|${BITRISE_GIT_BRANCH}
+            Workflow|${BITRISE_TRIGGERED_WORKFLOW_ID}
+        - icon_url: https://www.meme-arsenal.com/memes/ba0b8fdca507f3bf7ccd35088305f00d.jpg
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  test:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - is_debug: 'true'
+        - variant: ProdDebug
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - deploy-to-bitrise-io@1.11:
+        inputs:
+        - debug_mode: 'true'
+        title: Deploy release build to Bitrise.io
+    - cache-push@2.4: {}
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - message_on_error: "$GIT_CLONE_COMMIT_MESSAGE_BODY\n"
+        - fields: |-
+            App|${BITRISE_APP_TITLE}
+            Branch|${BITRISE_GIT_BRANCH}
+            Workflow|${BITRISE_TRIGGERED_WORKFLOW_ID}
+        - icon_url: ''
+        - thumb_url: ''
+        - footer_icon: https://www.meme-arsenal.com/memes/ba0b8fdca507f3bf7ccd35088305f00d.jpg
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  beta:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: bundleProdRelease
+        - app_file_include_filter: "*.aab\n"
+        - gradlew_path: "$GRADLEW_PATH"
+    - script@1:
+        title: Overwrite AAB with the one processed by Dexguard
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            normal=$BITRISE_AAB_PATH
+            protected="${normal/.aab/-protected.aab}"
+            if [ -f $protected ] ; then
+                mv $protected $normal
+            fi
+    - sign-apk@1.7:
+        inputs:
+        - android_app: "$BITRISE_AAB_PATH"
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+        is_always_run: false
+    - cache-push@2.4: {}
+    - google-play-deploy@3.1:
+        inputs:
+        - user_fraction: ''
+        - package_name: com.audiomack
+        - service_account_json_key_path: "$BITRISEIO_SERVICE_ACCOUNT_URL"
+        - track: beta
+        - apk_path: "$BITRISE_SIGNED_APK_PATH"
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+  bundle:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: bundleProdRelease
+        - app_file_include_filter: "*.aab\n"
+        - gradlew_path: "$GRADLEW_PATH"
+    - script@1:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            normal=$BITRISE_AAB_PATH
+            protected="${normal/.aab/-protected.aab}"
+            if [ -f $protected ] ; then
+                mv $protected $normal
+            fi
+        title: Overwrite AAB with the one processed by Dexguard
+    - sign-apk@1.7:
+        inputs:
+        - android_app: "$BITRISE_AAB_PATH"
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+        is_always_run: false
+    - cache-push@2.4: {}
+  internal:
+    steps:
+    - activate-ssh-key@4.0.5:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4.0: {}
+    - cache-pull@2.4: {}
+    - install-missing-android-tools: {}
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew ktlint
+        title: ktlint
+    - change-android-versioncode-and-versionname@1.2.3:
+        inputs:
+        - build_gradle_path: "./AM/build.gradle"
+    - android-unit-test@1.0:
+        inputs:
+        - variant: ProdDebug
+    - gradle-runner:
+        inputs:
+        - gradle_file: "$GRADLE_BUILD_FILE_PATH"
+        - gradle_task: bundleProdRelease
+        - app_file_include_filter: "*.aab\n"
+        - gradlew_path: "$GRADLEW_PATH"
+    - script@1:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            normal=$BITRISE_AAB_PATH
+            protected="${normal/.aab/-protected.aab}"
+            if [ -f $protected ] ; then
+                mv $protected $normal
+            fi
+        title: Overwrite AAB with the one processed by Dexguard
+    - sign-apk@1.7:
+        inputs:
+        - android_app: "$BITRISE_AAB_PATH"
+    - script@1.1.6:
+        inputs:
+        - content: |-
+            #!/usr/bin/env bash
+            ./gradlew jacocoTestReport
+        title: Run jacocoTestReport
+    - codecov@2:
+        inputs:
+        - CODECOV_TOKEN: "$CODECOV_TOKEN"
+    - deploy-to-bitrise-io@1.11:
+        title: Deploy release build to Bitrise.io
+        is_always_run: false
+    - cache-push@2.4: {}
+    - google-play-deploy@3.1:
+        inputs:
+        - user_fraction: ''
+        - package_name: com.audiomack
+        - service_account_json_key_path: "$BITRISEIO_SERVICE_ACCOUNT_URL"
+        - track: internal
+        - apk_path: "$BITRISE_SIGNED_APK_PATH"
+    - slack@3.1:
+        inputs:
+        - channel: audiomack
+        - api_token: "$BITRISE_SLACK_BOT_API_TOKEN"
+        - webhook_url: ''
+        is_always_run: true
+        run_if: ".IsBuildFailed"
+app:
+  envs:
+  - opts:
+      is_expand: false
+    GRADLE_BUILD_FILE_PATH: build.gradle
+  - opts:
+      is_expand: false
+    GRADLEW_PATH: "./gradlew"
+  - opts:
+      is_expand: false
+    GRADLE_OPTS: "-Dorg.gradle.daemon=false"
+meta:
+  bitrise.io:
+    machine_type: elite

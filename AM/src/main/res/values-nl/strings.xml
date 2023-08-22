@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">Probeer het opnieuw</string>
+
+    <string name="splash_offline">Je bent niet verbonden met internet en kunt alleen gedownloade muziek afspelen.</string>
+
+    <string name="splash_gotodownloads">GA NAAR OFFLINE MUZIEK</string>
+
+    <string name="splash_message">Om de beste ervaring te bieden, vragen we je om de volgende toestemmingen in te schakelen:</string>
+
+    <string name="splash_storage">Bestandstoegang</string>
+
+    <string name="splash_storage_message">Hiermee kun je nummers en albums downloaden</string>
+
+    <string name="splash_location">Locatie</string>
+
+    <string name="splash_location_message">Hiermee kan Audiomack populaire muziek in jouw regio weergeven</string>
+
+    <string name="splash_notifications">Pushberichten</string>
+
+    <string name="splash_notifications_message">Geeft ons toestemming om je op de hoogte te stellen wanneer er populaire nieuwe muziek wordt uitgebracht</string>
+
+    <string name="splash_ok">OK IK SNAP HET!</string>
+
+    <string name="splash_later">Misschien later?</string>
+
+    <string name="splash_privacy_policy">Privacybeleid</string>
+
+    <string name="splash_autologin_timeout_error_message">We kunnen geen verbinding maken. Controleer je internetverbinding</string>
+
+    <string name="splash_autologin_timeout_error_ok">OK</string>
+
+    <string name="splash_autologin_fail_message">Inloggen mislukt</string>
+
+    <string name="splash_autologin_facebook_error_message">Vernieuwen van Facebook-token is mislukt</string>
+
+    <string name="home_tab_feed">Feed</string>
+
+    <string name="home_tab_playlists">Playlists</string>
+
+    <string name="home_tab_search">Zoeken</string>
+
+    <string name="home_tab_library">Mijn Bibliotheek</string>
+
+    <string name="signup_tos">Door je aan te melden ga je akkoord met onze Servicevoorwaarden en ons Privacybeleid</string>
+
+    <string name="signup_tos_highlighted_tos">Servicevoorwaarden</string>
+
+    <string name="signup_tos_highlighted_privacy">Privacybeleid</string>
+
+    <string name="signup_username">Vul een gebruikersnaam in</string>
+
+    <string name="signup_email">Voer je e-mailadres in</string>
+
+    <string name="signup_password">Maak een wachtwoord aan</string>
+
+    <string name="signup_password_confirm">Bevestig je wachtwoord</string>
+
+    <string name="signup_create">MAAK EEN ACCOUNT AAN</string>
+
+    <string name="signup_facebook">Aanmelden met Facebook</string>
+
+    <string name="signup_go_to_login">HEB JE AL EEN ACCOUNT?</string>
+
+    <string name="signup_header">MAAK EEN GRATIS ACCOUNT AAN</string>
+
+    <string name="signup_birthday_label">Wanneer is je verjaardag?</string>
+
+    <string name="signup_gender_label">Wat is je geslacht?</string>
+
+    <string name="signup_gender_male">Man</string>
+
+    <string name="signup_gender_female">Vrouw</string>
+
+    <string name="signup_gender_other">Niet-binair</string>
+
+    <string name="signup_disclaimer">Audiomack gebruikt deze gegevens om jouw ervaring te personaliseren, artiesten te helpen hun luisteraars te begrijpen en meer. We zullen jouw persoonlijke gegevens altijd anoniem houden.</string>
+
+    <string name="signup_finish">Afronden</string>
+
+    <string name="signup_error_birthday">Voer een geldige geboortedatum in</string>
+
+    <string name="signup_error_gender">Selecteer een geslacht</string>
+
+    <string name="login_show_password">Laat wachtwoord zien</string>
+
+    <string name="login_error_timestamp">Tijdstempel is verlopen. Dit kan betekenen dat de klok op je apparaat verkeerd staat. Controleer de tijd en datum en als je nog steeds problemen hebt, stuur dan een e-mail naar support\@audiomack.com.</string>
+
+    <string name="login_error_1037">Kan noodzakelijke details niet ophalen. Zorg ervoor dat je een e-mailadres hebt ingesteld in je account en probeer het opnieuw.</string>
+
+    <string name="login_header">LOG IN OP UW ACCOUNT</string>
+
+    <string name="login_email">E-mail</string>
+
+    <string name="login_password">Wachtwoord</string>
+
+    <string name="login_forgot_password">Wachtwoord vergeten</string>
+
+    <string name="login_cta">INLOGGEN</string>
+
+    <string name="login_facebook">Meld je aan met Facebook</string>
+
+    <string name="login_go_to_signup_hint">Heb je geen account?</string>
+
+    <string name="login_go_to_signup">MAAK EEN GRATIS ACCOUNT AAN</string>
+
+    <string name="login_facebook_error_message">Inloggen met Facebook is mislukt</string>
+
+    <string name="login_facebook_error_button">OK</string>
+
+    <string name="login_error_title">Inlogfout</string>
+
+    <string name="login_error_message_facebook">Facebook-fout</string>
+
+    <string name="login_tos">Door je aan te melden bij audiomack ga je akkoord met onze Servicevoorwaarden en ons Privacybeleid</string>
+
+    <string name="login_tos_highlighted_tos">Servicevoorwaarden</string>
+
+    <string name="login_tos_highlighted_privacy">Privacybeleid</string>
+
+    <string name="signup_error_title">Fout bij aanmelden</string>
+
+    <string name="authentication_validation_username_empty">Gebruikersnaam is leeg</string>
+
+    <string name="authentication_validation_email_empty">E-mail is leeg</string>
+
+    <string name="authentication_validation_password_empty">Wachtwoord is leeg</string>
+
+    <string name="authentication_validation_password_mismatch">Wachtwoorden komen niet overeen</string>
+
+    <string name="logout_alert_title">Uitloggen</string>
+
+    <string name="logout_alert_message">Afmelden van Audiomack?</string>
+
+    <string name="logout_alert_no">Annuleren</string>
+
+    <string name="logout_alert_yes">OK</string>
+
+    <string name="forgot_password_alert_title">Wachtwoord vergeten</string>
+
+    <string name="forgot_password_alert_message">Voer je e-mailadres in en we sturen je stappen om je wachtwoord opnieuw in te stellen</string>
+
+    <string name="forgot_password_alert_no">Annuleren</string>
+
+    <string name="forgot_password_alert_yes">Verzenden</string>
+
+    <string name="forgot_password_alert_hint">E-mailadres</string>
+
+    <string name="forgot_password_success">Dank je wel Controleer je e-mail voor instructies om jouw wachtwoord opnieuw in te stellen. Het staat mogelijk in je spam-map.</string>
+
+    <string name="forgot_password_failure_template">%s Als je problemen ondervindt, stuur ons dan een e-mail naar support\@audiomack.com</string>
+
+    <string name="premium_start_trial">BEGIN JE GRATIS 7-DAAGSE PROEFPERIODE</string>
+
+    <string name="premium_price_template">%s per maand na proefperiode</string>
+
+    <string name="premium_toc">Audiomack Premium-abonnementsvoorwaarden</string>
+
+    <string name="premium_desc_template">Audiomack Premium is een periodiek abonnement.  Aan het einde van jouw proefperiode van zeven dagen wordt automatisch %s per maand in rekening gebracht via je Google Play-account.  Jouw abonnement wordt automatisch verlengd, tenzij je de automatische verlenging ten minste 24 uur voor het einde van de factureringsperiode annuleert of uitschakelt.  Je kunt je abonnement beheren in de Google Play Store.</string>
+
+    <string name="premium_desc_template_ios">Als je een Audiomack-abonnement aanschaft (%s per maand), wordt de betaling in rekening gebracht op je iTunes-account en wordt het bedrag voor verlenging binnen 24 uur voor het einde van de huidige abonnementsperiode in rekening gebracht op je rekening. Als je niet langer gefactureerd wilt worden voor Audiomack Gold/Platinum en je premiumlidmaatschap wilt annuleren, dien je dit meer dan 24 uur voor het verstrijken van je lidmaatschap te doen. Automatische verlenging kan op elk moment worden uitgeschakeld door na aankoop naar je instellingen in de iTunes Store te gaan. Alle prijzen die hier en in de app voor Goud/Platina-abonnementen worden vermeld, zijn in Amerikaanse dollars, kunnen variëren in andere landen over de hele wereld en kunnen in de toekomst worden gewijzigd. Opzeggen van het huidige abonnement is niet toegestaan tijdens je actieve abonnementsperiode. Audiomack is altijd gratis te gebruiken zonder abonnement en je kunt Audiomack op elk moment met advertenties hervatten nadat je abonnement is afgelopen.</string>
+
+    <string name="premium_no_active_subscriptions">Je hebt geen actief abonnement.</string>
+
+    <string name="premium_unable_restore">Kan vorige aankoop niet herstellen</string>
+
+    <string name="premium_restore">Herstel vorige aankoop</string>
+
+    <string name="premium_and">en</string>
+
+    <string name="premium_terms_of_service">Servicevoorwaarden</string>
+
+    <string name="premium_privacy_policy">Privacybeleid</string>
+
+    <string name="premium_subscribing">Door je te abonneren heb je toegang tot Audiomack\'s</string>
+
+    <string name="premium_2019_title">Upgrade naar\nAudiomack Premium</string>
+
+    <string name="premium_2019_subtitle">Start jouw gratis proefperiode van 7 dagen en ontvang:</string>
+
+    <string name="premium_2019_adfree">Een advertentievrije ervaring</string>
+
+    <string name="premium_2019_adfree_desc">Onbeperkt afspelen zonder advertentie-onderbrekingen of banners</string>
+
+    <string name="premium_2019_playlist">Download volledige playlists</string>
+
+    <string name="premium_2019_playlist_desc">Sla alle nummers in elke playlist met één tik op je apparaat op</string>
+
+    <string name="premium_2019_hifi">Streaming van hoge kwaliteit</string>
+
+    <string name="premium_2019_hifi_desc">Zorg ervoor dat je elk nummer hoort met de hoogst beschikbare kwaliteit</string>
+
+    <string name="premium_2019_airplay">Airplay naar muziekapparaten</string>
+
+    <string name="premium_2019_airplay_desc">Wil je afspelen op Airplay-apparaten? Cast rechtstreeks van de speler</string>
+
+    <string name="premium_2019_equalizer">Equalizer-regelaars</string>
+
+    <string name="premium_2019_equalizer_desc">Laat je muziek klinken zoals je wilt met aanpassing voor lage en hoge tonen</string>
+
+    <string name="premium_2019_trial">Gratis proefperiode van 7 dagen</string>
+
+    <string name="premium_2019_trial_desc">Probeer voordat je koopt - Krijg al het bovenstaande  een week lang gratis vanaf het moment dat je begint</string>
+
+    <string name="defaultgenre_title">STEL STANDAARD GENRE IN</string>
+
+    <string name="notifications_title">MELDINGEN</string>
+
+    <string name="notifications_verb_favorite">als favoriet aangemerkt</string>
+
+    <string name="notifications_verb_repost">vernieuwd</string>
+
+    <string name="notifications_verb_follow">volgde je</string>
+
+    <string name="notifications_verb_playlist">aan playlist toegevoegd</string>
+
+    <string name="notifications_verb_added">toegevoegd</string>
+
+    <string name="notifications_verb_added_to_playlist">aan de playlist</string>
+
+    <string name="notifications_verb_comment">reageerde op</string>
+
+    <string name="notifications_verb_comment_reply">reageerde op je opmerking</string>
+
+    <string name="removedcontent_title">VERWIJDERDE INHOUD</string>
+
+    <string name="removedcontent_message">De volgende muziek is door de artiest, het label of de rechthebbende verwijderd van Audiomack. We werken eraan om het in de toekomst te herstellen. Dank je</string>
+
+    <string name="removedcontent_ok">OK</string>
+
+    <string name="removedcontent_header">Sommige offline muziek is verwijderd. Kom meer te weten</string>
+
+    <string name="removedcontent_header_highlighted">Sommige offline muziek is verwijderd. Kom meer te weten</string>
+
+    <string name="excludereups">Sluit Re-Up uit</string>
+
+    <string name="restoredownloads_title">HERSTEL DOWNLOADS</string>
+
+    <string name="restoredownloads_footer">Herstel jouw eerdere downloads</string>
+
+    <string name="playlist_info_failed">Kan de details van de playlist niet ophalen. Probeer het later opnieuw.</string>
+
+    <string name="artist_info_failed">Kan artiestgegevens niet ophalen. Probeer het later opnieuw.</string>
+
+    <string name="song_info_failed">Kan liedgegevens niet ophalen.</string>
+
+    <string name="album_info_failed">Kan albumgegevens niet ophalen.</string>
+
+    <string name="download_results_no_connection">Je bent niet verbonden met internet</string>
+
+    <string name="download_failed_song">Kan het nummer niet downloaden</string>
+
+    <string name="download_failed_abum">Kan het album niet downloaden</string>
+
+    <string name="download_delete_list_failed">Kan niet verwijderen uit downloadlijst</string>
+
+    <string name="download_playlist_succeeded">Playlist toegevoegd aan offline</string>
+
+    <string name="download_succeeded">Met succes gedownload</string>
+
+    <string name="login_needed_message">Log in om deze functie te gebruiken</string>
+
+    <string name="login_needed_no">Annuleren</string>
+
+    <string name="login_needed_yes">INLOGGEN</string>
+
+    <string name="playlist_song_singular">Nummer</string>
+
+    <string name="playlist_song_plural">Nummers</string>
+
+    <string name="playlist_sync">VOEG NIEUWE NUMMERS TOE AAN OFFLINE</string>
+
+    <string name="playlistreorder_title">BESTELLEN / VERWIJDEREN</string>
+
+    <string name="playlistreorder_save">OPSLAAN</string>
+
+    <string name="addtoplaylist_title">TOEVOEGEN AAN PLAYLISTS</string>
+
+    <string name="addtoplaylist_create">MAAK EEN NIEUWE PLAYLIST AAN</string>
+
+    <string name="addtoplaylist_create_hint">Tik om een nieuwe playlist aan te maken</string>
+
+    <string name="addtoplaylist_addtoexisting">VOEG TOE AAN BESTAANDE PLAYLIST</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">Deze playlist kan niet worden bewerkt</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">Dit nummer kan niet worden toegevoegd aan een playlist</string>
+
+    <string name="addtoplaylist_song_added">Met succes toegevoegd aan playlist</string>
+
+    <string name="addtoplaylist_song_added_failed">Kan niet toevoegen aan playlist</string>
+
+    <string name="addtoplaylist_song_removed">Met succes verwijderd uit playlist</string>
+
+    <string name="addtoplaylist_song_removed_failed">Kan niet verwijderen uit playlist</string>
+
+    <string name="editplaylist_title">BEWERK PLAYLISTGEGEVENS</string>
+
+    <string name="editplaylist_create_title">MAAK EEN NIEUWE PLAYLIST AAN</string>
+
+    <string name="editplaylist_hint">Tik op de velden om te bewerken</string>
+
+    <string name="editplaylist_name">Naam:</string>
+
+    <string name="editplaylist_name_hint">Voer de naam van de playlist in</string>
+
+    <string name="editplaylist_genre">Genre:</string>
+
+    <string name="editplaylist_permissions">Rechten:</string>
+
+    <string name="editplaylist_description">Omschrijving:</string>
+
+    <string name="editplaylist_description_hint">Voer een beschrijving van de playlist in</string>
+
+    <string name="editplaylist_delete">Playlist verwijderen</string>
+
+    <string name="editplaylist_save">Opslaan</string>
+
+    <string name="editplaylist_cancel">Annuleren</string>
+
+    <string name="playlist_delete_failed">Verwijderen van playlist is mislukt</string>
+
+    <string name="playlist_delete_succeeded_template">Playlist \'%s\' is verwijderd</string>
+
+    <string name="playlist_takendown_title">De maker heeft deze playlist verwijderd.</string>
+
+    <string name="playlist_takendown_message">Wil je hem naar je account kopiëren?</string>
+
+    <string name="playlist_takendown_yes">Ja, playlist kopiëren</string>
+
+    <string name="playlist_takendown_no">Nee, verwijder deze</string>
+
+    <string name="musicinfo_stats_today">VANDAAG</string>
+
+    <string name="musicinfo_stats_week">DEZE WEEK</string>
+
+    <string name="musicinfo_stats_month">DEZE MAAND</string>
+
+    <string name="musicinfo_stats_alltime">ALTIJD</string>
+
+    <string name="musicinfo_lastupdated">Laatst bijgewerkt:</string>
+
+    <string name="musicinfo_numberofsongs">Aantal nummers:</string>
+
+    <string name="musicinfo_playlistcreator">Playlistmaker:</string>
+
+    <string name="musicinfo_album">Album:</string>
+
+    <string name="musicinfo_producer">Producent:</string>
+
+    <string name="musicinfo_addedon">Datum van publicatie:</string>
+
+    <string name="musicinfo_genre">Genre:</string>
+
+    <string name="musicinfo_description">Omschrijving:</string>
+
+    <string name="musicinfo_description_read_more">Lees verder</string>
+
+    <string name="musicinfo_total_plays">Totaal aantal keer afgespeeld:</string>
+
+    <string name="musicinfo_tags">Tags</string>
+
+    <string name="artist_followers">Volgers</string>
+
+    <string name="artist_following">Volgt</string>
+
+    <string name="artist_plays">Totaal aantal keer afgespeeld</string>
+
+    <string name="queue_added">Toegevoegd aan wachtrij</string>
+
+    <string name="queue_unable_to_add_playlist">Kan playlist niet toevoegen aan de wachtrij</string>
+
+    <string name="share_twitter">Delen op Twitter</string>
+
+    <string name="share_contacts">Delen met Contacten</string>
+
+    <string name="share_app">Deel via een App</string>
+
+    <string name="share_copy_link">Kopieer Link</string>
+
+    <string name="share_link_copied">Link gekopieerd naar uw klembord</string>
+
+    <string name="favorites_filter_allmusic">Alles</string>
+
+    <string name="favorites_filter_songs">Nummers</string>
+
+    <string name="favorites_filter_albums">Albums</string>
+
+    <string name="favorites_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_allmusic">Alles</string>
+
+    <string name="offline_filter_songs">Nummers</string>
+
+    <string name="offline_filter_albums">Albums</string>
+
+    <string name="offline_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_notondevice">Niet op apparaat</string>
+
+    <string name="offline_sort_newest">Nieuwste</string>
+
+    <string name="offline_sort_oldest">Oudste</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">INLOGGEN / INSCHRIJVEN</string>
+
+    <string name="search_hint">Zoeken</string>
+
+    <string name="search_cancel">Annuleren</string>
+
+    <string name="search_global_placeholder">Zoek naar artiesten,\nliedjes en albums.</string>
+
+    <string name="search_trending">TRENDING ZOEKOPDRACHTEN</string>
+
+    <string name="search_recent">RECENTE ZOEKOPDRACHTEN</string>
+
+    <string name="library_search_hint">Zoeken</string>
+
+    <string name="library_search_cancel">Annuleren</string>
+
+    <string name="player_playingfrom">SPELEN VANAF</string>
+
+    <string name="player_goadfree">Verwijder advertenties - Start een gratis proefperiode van 7 dagen</string>
+
+    <string name="player_closead">Advertentie sluiten</string>
+
+    <string name="player_shuffle_on">Shuffle Aan</string>
+
+    <string name="player_repeat_all">Herhaal alles</string>
+
+    <string name="player_repeat_one">Herhaal er één</string>
+
+    <string name="player_file_error">Fout bij het laden van nummer</string>
+
+    <string name="player_storage_error">Kan het gedownloade bestand niet afspelen</string>
+
+    <string name="player_playback_error">Kan nummer niet afspelen</string>
+
+    <string name="player_queue_error">Fout bij bijwerken van wachtrij</string>
+
+    <string name="player_file_error_download_again">Dit bestand moet opnieuw worden gedownload, controleer je verbinding</string>
+
+    <string name="player_hifi">HIFI</string>
+
+    <string name="player_prev">Vorige</string>
+
+    <string name="player_pause">Pauze</string>
+
+    <string name="player_play">Afspelen</string>
+
+    <string name="player_next">Volgende</string>
+
+    <string name="player_close">Sluiten</string>
+
+    <string name="player_fav">Als favoriet gemarkeerd</string>
+
+    <string name="player_unfav">Verwijdert als favoriet</string>
+
+    <string name="player_skip_forward">Spring 30 seconden vooruit</string>
+
+    <string name="player_skip_back">Spring 15 seconden terug</string>
+
+    <string name="editaccount_title">ACCOUNT BEWERKEN</string>
+
+    <string name="editaccount_banner">Bewerk uw bannerafbeelding</string>
+
+    <string name="editaccount_hint">Tik op de velden om te bewerken</string>
+
+    <string name="editaccount_name">Artiestennaam:</string>
+
+    <string name="editaccount_label">Label:</string>
+
+    <string name="editaccount_hometown">Woonplaats:</string>
+
+    <string name="editaccount_website">Website:</string>
+
+    <string name="editaccount_bio">Biografie:</string>
+
+    <string name="editaccount_bio_counter_template">%s tekens over</string>
+
+    <string name="editaccount_twitter">Twitter:</string>
+
+    <string name="editaccount_instagram">Instagram:</string>
+
+    <string name="editaccount_facebook">Facebook:</string>
+
+    <string name="editaccount_youtube">Youtube:</string>
+
+    <string name="editaccount_error_banner">Er is een fout opgetreden bij het opslaan van de banner</string>
+
+    <string name="editaccount_save">Opslaan</string>
+
+    <string name="editaccount_cancel">Annuleren</string>
+
+    <string name="editaccount_slug">Gebruikershandvat:</string>
+
+    <string name="artistinfo_follow">VOLGEN</string>
+
+    <string name="artistinfo_unfollow">VOLGEND</string>
+
+    <string name="artistinfo_website">Website:</string>
+
+    <string name="artistinfo_genre">Genre:</string>
+
+    <string name="artistinfo_label">Label:</string>
+
+    <string name="artistinfo_hometown">Woonplaats:</string>
+
+    <string name="artistinfo_membersince">Lid sinds:</string>
+
+    <string name="artistinfo_bio">Biografie:</string>
+
+    <string name="miniplayer_prev_song">Vorige track</string>
+
+    <string name="miniplayer_next_song">Volgende track</string>
+
+    <string name="queue_title">UW WACHTRIJ</string>
+
+    <string name="add_to_playlist_permissions_public">Openbaar - Iedereen kan bekijken</string>
+
+    <string name="add_to_playlist_permissions_private">Privé - Alleen jij kunt bekijken</string>
+
+    <string name="add_to_playlist_error_no_name">Voer een naam in voor je playlist</string>
+
+    <string name="add_to_playlist_error">Playlist aanmaken is mislukt</string>
+
+    <string name="add_to_playlist_success_generic">Playlist is met succes aangemaakt</string>
+
+    <string name="add_to_playlist_success">\'%s\' is toegevoegd aan je playlist</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">Je kunt het laatste nummer van een playlist niet verwijderen</string>
+
+    <string name="edit_playlist_success">Playlist \'%s\' is bijgewerkt</string>
+
+    <string name="edit_playlist_error">Playlist bijwerken is mislukt</string>
+
+    <string name="edit_playlist_banner_error">Kan bannerafbeelding niet opslaan</string>
+
+    <string name="select_playlist_error">Kan je playlists niet ophalen</string>
+
+    <string name="select_playlist_nothing_selected">Selecteer een playlist</string>
+
+    <string name="select_playlist_success">Nummer \'%s\' is toegevoegd aan je playlist(s)</string>
+
+    <string name="select_playlist_failure">Kan nummer niet toevoegen</string>
+
+    <string name="player_account_followed">Nu volgend %s</string>
+
+    <string name="player_account_unfollowed">%s niet meer gevolgd</string>
+
+    <string name="feature_not_available_offline_alert_message">We kunnen geen verbinding maken. Controleer je verbinding en probeer het opnieuw.</string>
+
+    <string name="feature_not_available_offline_alert_button">OK</string>
+
+    <string name="toast_favorited_song">Lied als favoriet gemarkeerd</string>
+
+    <string name="toast_favorited_song_error">Kan nummer niet als favoriet markeren</string>
+
+    <string name="toast_favorited_album">Album als favoriet gemarkeerd</string>
+
+    <string name="toast_favorited_album_error">Kan album niet als favoriet markeren</string>
+
+    <string name="toast_favorited_playlist">Playlist als favoriet gemarkeerd</string>
+
+    <string name="toast_favorited_playlist_error">Kan playlist niet als favoriet markeren</string>
+
+    <string name="toast_unfavorited_song">Nummer verwijderd als favoriet</string>
+
+    <string name="toast_unfavorited_song_error">Kan nummer niet verwijderen als favoriet</string>
+
+    <string name="toast_unfavorited_album">Album verwijderd als favoriet</string>
+
+    <string name="toast_unfavorited_album_error">Kan album niet verwijderen als favoriet</string>
+
+    <string name="toast_unfavorited_playlist">Playlist als favoriet verwijderd</string>
+
+    <string name="toast_unfavorited_playlist_error">Kan playlist niet als favoriet verwijderen</string>
+
+    <string name="toast_reposted_song">Nummer Re-Up</string>
+
+    <string name="toast_reposted_song_error">Nummer kan niet Re-Up</string>
+
+    <string name="toast_reposted_album">Album Re-Up</string>
+
+    <string name="toast_reposted_album_error">Album kan niet Re-Up</string>
+
+    <string name="permissions_rationale_alert_camera_message">Deze functie vereist toegang tot de camera. Schakel deze toestemming in de instellingen in om deze functie te gebruiken.</string>
+
+    <string name="permissions_rationale_alert_storage_message">Deze functie vereist toegang tot uw opslagmedium. Schakel deze toestemming in de instellingen in om deze functie te gebruiken.</string>
+
+    <string name="permissions_rationale_alert_cancel">Annuleren</string>
+
+    <string name="permissions_rationale_alert_settings">Open instellingen</string>
+
+    <string name="permissions_location_ios">Hiermee kan Audiomack populaire muziek in je regio weergeven.</string>
+
+    <string name="shortcuts_offline_short">Offline</string>
+
+    <string name="shortcuts_offline_long">Offline</string>
+
+    <string name="shortcuts_offline_disabled">Offline</string>
+
+    <string name="shortcuts_topsongs_short">Topnummers</string>
+
+    <string name="shortcuts_topsongs_long">Topnummers</string>
+
+    <string name="shortcuts_topsongs_disabled">Topnummers</string>
+
+    <string name="shortcuts_favorites_short">Favorieten</string>
+
+    <string name="shortcuts_favorites_long">Favorieten</string>
+
+    <string name="shortcuts_favorites_disabled">Favorieten</string>
+
+    <string name="shortcuts_playlists_short">Playlists</string>
+
+    <string name="shortcuts_playlists_long">Playlists</string>
+
+    <string name="shortcuts_playlists_disabled">Playlists</string>
+
+    <string name="downloadmessage_title">Downloaden is begonnen!</string>
+
+    <string name="downloadmessage_message">Je kunt deze upload nu zonder dataverbruik afspelen in de app in het offline gedeelte van Mijn bibliotheek.</string>
+
+    <string name="downloadmessage_button">GA NAAR OFFLINE MUZIEK</string>
+
+    <string name="download_completed_notification_title">Download voltooid</string>
+
+    <string name="download_completed_notification_message">Tik om je offline muziek te bekijken</string>
+
+    <string name="playlist_delete_download_title">Hiermee wordt deze playlist uit je offline bibliotheek verwijderd.</string>
+
+    <string name="playlist_delete_download_title_highlighted">verwijder deze playlist</string>
+
+    <string name="playlist_delete_download_message">Maak je geen zorgen, het verwijdert geen nummers uit je offline bibliotheek.</string>
+
+    <string name="playlist_delete_download_yes">OK</string>
+
+    <string name="playlist_delete_download_cancel">Annuleren</string>
+
+    <string name="playlist_download_sync_title">Hiermee worden %s nummers in deze playlist toegevoegd aan je offline bibliotheek.</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s nummers</string>
+
+    <string name="playlist_download_sync_message">Controleer of je wifi hebt voordat je gaat downloaden.</string>
+
+    <string name="playlist_download_sync_yes">OK</string>
+
+    <string name="playlist_download_sync_cancel">Annuleren</string>
+
+    <string name="playlist_download_error">Kan playlist niet downloaden</string>
+
+    <string name="unsupported_crop_error">Jouw apparaat ondersteunt geen inkorten</string>
+
+    <string name="library_search_favorites_placeholder">Zoek je favorieten ...</string>
+
+    <string name="library_search_downloads_placeholder">Zoeken in jouw offline inhoud ...</string>
+
+    <string name="library_search_playlists_placeholder">Zoek in je playlists...</string>
+
+    <string name="library_search_uploads_placeholder">Zoeken in je uploads ...</string>
+
+    <string name="library_search_noresults_placeholder">Geen resultaten gevonden in je bibliotheek.</string>
+
+    <string name="library_search_noresults_cta">DOORZOEK GEHEEL AUDIOMACK</string>
+
+    <string name="search_noresults_placeholder">Geen resultaten gevonden.\nProbeer een andere zoekopdracht</string>
+
+    <string name="playlists_noresults_placeholder">Er zijn nog geen playlists.</string>
+
+    <string name="followers_my_noresults_placeholder">Je hebt geen volgers.</string>
+
+    <string name="followers_other_noresults_placeholder">%s heeft geen volgers</string>
+
+    <string name="favorites_my_noresults_placeholder">Je hebt geen favorieten.</string>
+
+    <string name="downloads_noresults_placeholder">Je hebt geen downloads.</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">HERSTEL JE DOWNLOADS</string>
+
+    <string name="downloads_loggedout_placeholder">Log in om je eerdere downloads te herstellen</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">ACCOUNT AANMAKEN</string>
+
+    <string name="favorites_my_loggedout_placeholder">Je hebt geen favorieten.</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">ACCOUNT AANMAKEN</string>
+
+    <string name="favorites_other_noresults_placeholder">%s heeft geen favorieten</string>
+
+    <string name="following_my_noresults_placeholder">Je volgt niemand.\nZie voorgestelde accounts om te volgen.</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">VOORGESTELD OM TE VOLGEN</string>
+
+    <string name="following_other_noresults_placeholder">%s volgt niemand</string>
+
+    <string name="uploads_my_noresults_placeholder">Je hebt geen uploads.\nBezoek audiomack.com om\nmuziek toe te voegen aan je account.</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">BEZOEK AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">%s heeft geen uploads</string>
+
+    <string name="playlists_my_noresults_placeholder">Je hebt nog geen playlists aangemaakt.</string>
+
+    <string name="playlists_my_loggedout_placeholder">Je hebt nog geen playlists aangemaakt.\nMaak een account aan en begin\nmet het samenstellen van enkele playlists.</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">ACCOUNT AANMAKEN</string>
+
+    <string name="playlists_other_noresults_placeholder">%s heeft nog geen playlists aangemaakt.</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">Je hebt geen favoriete playlists.</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">Je hebt geen favoriete playlists.\nMaak een account aan en begin met het samenstellen van enkele playlists.</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">ACCOUNT AANMAKEN</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s heeft geen favoriete playlists</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">Je hebt geen offline playlists.</string>
+
+    <string name="timeline_noresults_placeholder">Volg accounts om hun nieuwe uploads hier te zien verschijnen</string>
+
+    <string name="timeline_loggedout_placeholder">Je feed is leeg.\nMaak een account aan om mensen te gaan volgen.</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">ACCOUNT AANMAKEN</string>
+
+    <string name="restoredownlods_noresults_placeholder">Je hebt geen opgeslagen downloads die niet op je apparaat staan</string>
+
+    <string name="notifications_noresults_placeholder">Je hebt geen meldingen</string>
+
+    <string name="noconnection_placeholder">Problemen met verbinden</string>
+
+    <string name="noconnection_highlighted_placeholder">PROBEER HET OPNIEUW</string>
+
+    <string name="user_name_placeholder">Gebruiker</string>
+
+    <string name="playlist_desc_more">MEER</string>
+
+    <string name="tooltip_toast">Swipe naar links of rechts\nom meer muziek te zien of\ntik op de vervolgkeuzelijst\nom genres te wijzigen</string>
+
+    <string name="tooltip_play">Swipe naar links om het volgende nummer af te spelen. Tik om de speler op volledig scherm te openen.</string>
+
+    <string name="tooltip_playlists">Maak een\naangepaste playlist</string>
+
+    <string name="tooltip_player_queue">Tik hier om de nummers in je muziekwachtrij te zien.</string>
+
+    <string name="tooltip_queue_add">Tik hier om nummers in je wachtrij toe te voegen aan een playlist.</string>
+
+    <string name="tooltip_albums">Ga offline om\nzonder dataverbruik te luisteren</string>
+
+    <string name="tooltip_suggested_followers">Volg je favoriete artiesten / smaakmakers en wanneer ze nieuwe muziek uploaden, verschijnt deze in je feed</string>
+
+    <string name="tooltip_playlists_offline">Voeg nummers in deze\nplaylist toe aan offline</string>
+
+    <string name="tooltip_playlists_favorite">Markeer deze playlist\nals favoriet</string>
+
+    <string name="tooltip_player_scroll">Scrol omlaag om in willekeurige volgorde af te spelen en om reacties, nummerinformatie en meer muziek van deze artiest te bekijken.</string>
+
+    <string name="tooltip_player_equalizer">Gebruik de equalizer om aan te passen hoe je muziek klinkt</string>
+
+    <string name="settings_title">INSTELLINGEN</string>
+
+    <string name="settings_go_premium">Verwijder advertenties - Ga voor Premium</string>
+
+    <string name="settings_cancel_subscription">Abonnement annuleren</string>
+
+    <string name="settings_edit_account">Bewerk account</string>
+
+    <string name="settings_view_your_profile">Bekijk uw profiel</string>
+
+    <string name="settings_share_profile">Profiel delen</string>
+
+    <string name="settings_default_genre">Standaardgenre instellen</string>
+
+    <string name="settings_permissions">Rechten</string>
+
+    <string name="settings_support">Ondersteuning</string>
+
+    <string name="settings_debug_info">Verzend debug informatie</string>
+
+    <string name="settings_share_app">Deel deze app</string>
+
+    <string name="settings_rate_app">Beoordeel deze app</string>
+
+    <string name="settings_privacy_policy">Privacybeleid</string>
+
+    <string name="settings_dev_environment">Dev Env * gebruiken</string>
+
+    <string name="settings_track_ads">Advertenties tracken</string>
+
+    <string name="settings_grant_premium">Premium toekennen</string>
+
+    <string name="settings_log_viewer">Log Viewer</string>
+
+    <string name="settings_logout">UITLOGGEN</string>
+
+    <string name="settings_version_template">Versie %s (%s)</string>
+
+    <string name="settings_opensource">Open source bibliotheken</string>
+
+    <string name="settings_equalizer">Equalizer</string>
+
+    <string name="settings_upgrade_title">Upgraden naar Audiomack Premium</string>
+
+    <string name="settings_upgrade_subtitle">Start je gratis proefperiode van 7 dagen om ALLE advertenties te verwijdereren en meer</string>
+
+    <string name="settings_upgrade_cta">Waarom zou je upgraden?</string>
+
+    <string name="equalizer_title">EQUALIZER</string>
+
+    <string name="equalizer_enable">EQUALIZER</string>
+
+    <string name="equalizer_custom">GEBRUIK AANGEPASTE PRESETS</string>
+
+    <string name="equalizer_acoustic">Akoestisch</string>
+
+    <string name="equalizer_dance">Dance</string>
+
+    <string name="equalizer_electronic">Elektronisch</string>
+
+    <string name="equalizer_flat">Vlak</string>
+
+    <string name="equalizer_hiphop">Hiphop</string>
+
+    <string name="equalizer_loudness">Loudness</string>
+
+    <string name="equalizer_pop">Pop</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">Rock</string>
+
+    <string name="equalizer_vocal_booster">Vocal Booster</string>
+
+    <string name="equalizer_save">OPSLAAN</string>
+
+    <string name="help_title">HELPEN</string>
+
+    <string name="help_message">Bekijk ons Helpcentrum, maak een ticket aan of beheer je bestaande tickets.</string>
+
+    <string name="help_knowledgebase">KENNISBANK</string>
+
+    <string name="help_contact">NEEM CONTACT MET ONS OP</string>
+
+    <string name="help_tickets_none">MIJN TICKETS</string>
+
+    <string name="help_tickets_template">MIJN TICKETS (%s ONGELEZEN)</string>
+
+    <string name="help_alert_title">Ons ondersteuningsteam heeft op je recente verzoek gereageerd</string>
+
+    <string name="help_alert_yes">BEKIJKEN</string>
+
+    <string name="help_alert_no">Annuleren</string>
+
+    <string name="artist_tab_uploads">UPLOADS</string>
+
+    <string name="artist_tab_favorites">FAVORIETEN</string>
+
+    <string name="artist_tab_playlists">PLAYLISTS</string>
+
+    <string name="artist_tab_followers">VOLGERS</string>
+
+    <string name="artist_tab_following">VOLGT</string>
+
+    <string name="library_tab_favorites">FAVORIETEN</string>
+
+    <string name="library_tab_offline">OFFLINE</string>
+
+    <string name="library_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_tab_followers">VOLGERS</string>
+
+    <string name="library_tab_following">VOLGT</string>
+
+    <string name="library_tab_uploads">UPLOADS</string>
+
+    <string name="feed_tab_timeline">TIJDLIJN</string>
+
+    <string name="feed_tab_suggestedfollows">VOORGESTELD OM TE VOLGEN</string>
+
+    <string name="feed_tab_following">VOLGT</string>
+
+    <string name="browse_tab_trending">TRENDING</string>
+
+    <string name="browse_tab_topsongs">TOPNUMMERS</string>
+
+    <string name="browse_tab_topalbums">TOPALBUMS</string>
+
+    <string name="browse_tab_recentlyadded">RECENT TOEGEVOEGD</string>
+
+    <string name="browse_filter_allgenres">Alles</string>
+
+    <string name="search_tab_allmusic">ALLES</string>
+
+    <string name="search_tab_playlists">PLAYLISTS</string>
+
+    <string name="search_tab_songs">NUMMERS</string>
+
+    <string name="search_tab_albums">ALBUMS</string>
+
+    <string name="search_tab_accounts">ACCOUNTS</string>
+
+    <string name="library_search_tab_favorites">FAVORIETEN</string>
+
+    <string name="library_search_tab_offline">OFFLINE</string>
+
+    <string name="library_search_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_search_tab_uploads">UPLOADS</string>
+
+    <string name="cannot_refresh_token">We hebben geen toegang meer tot je account</string>
+
+    <string name="failed_refresh_token_title">Kan geen verbinding maken met Audiomack</string>
+
+    <string name="failed_refresh_token_message">Kan geen verbinding maken met Audiomack. Probeer het later opnieuw.</string>
+
+    <string name="failed_refresh_token_button">OK</string>
+
+    <string name="generic_api_error">Er is een fout opgetreden. Probeer het later opnieuw</string>
+
+    <string name="generic_error_occurred">Er is een fout opgetreden</string>
+
+    <string name="feat">Feat.</string>
+
+    <string name="feat_inline">feat.</string>
+
+    <string name="by">Door</string>
+
+    <string name="ok">OK</string>
+
+    <string name="imagepicker_message">Selecteer afbeelding uit</string>
+
+    <string name="imagepicker_camera">Camera</string>
+
+    <string name="imagepicker_gallery">Galerij</string>
+
+    <string name="imagepicker_gallery_cancel">Annuleren</string>
+
+    <string name="options_play">Afspelen</string>
+
+    <string name="options_download">Downloaden</string>
+
+    <string name="options_favorite">Favoriete</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">Re-Up</string>
+
+    <string name="options_share">Delen</string>
+
+    <string name="options_copy_link">Kopieer link</string>
+
+    <string name="options_song_details">Gegevens Nummer</string>
+
+    <string name="options_album_details">Albumgegevens</string>
+
+    <string name="options_follow">Volgen</string>
+
+    <string name="options_unfollow">Niet meer volgen</string>
+
+    <string name="options_artist_more">Meer van</string>
+
+    <string name="options_remove_from_queue">Verwijderen uit wachtrij</string>
+
+    <string name="options_delete_download">Download verwijderen</string>
+
+    <string name="options_retry_download">Probeer opnieuw te downloaden</string>
+
+    <string name="options_play_next">Als volgende afspelen</string>
+
+    <string name="options_add_to_queue">Toevoegen aan wachtrij</string>
+
+    <string name="options_music_more_info">Meer informatie</string>
+
+    <string name="options_delete_download_list">Verwijderen uit downloadlijst</string>
+
+    <string name="options_reorder_remove_tracks">Nummers opnieuw ordenen / verwijderen</string>
+
+    <string name="options_edit_playlist_details">Playlistgegevens bewerken</string>
+
+    <string name="options_delete_playlist">Playlist verwijderen</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">Opmerkingen</string>
+
+    <string name="options_edit">Bewerken</string>
+
+    <string name="options_cancel">Annuleren</string>
+
+    <string name="ad_ad">Advertentie</string>
+
+    <string name="premium_cannot_find_product">Kan het gevraagde product niet vinden</string>
+
+    <string name="premium_device_not_allowed">Dit apparaat mag geen betalingen doen</string>
+
+    <string name="database_error_recreated">Het spijt ons, maar er is een probleem opgetreden in je database. We zijn de database nu opnieuw aan het maken, maar je offline muziek moet opnieuw worden gedownload.</string>
+
+    <string name="database_error_lowstorage">Sorry, het lijkt erop dat je apparaat onvoldoende geheugen heeft. Maak ruimte vrij en probeer het opnieuw.</string>
+
+    <string name="accessibility_playlists_all_categories">Alle categorieën</string>
+
+    <string name="accessibility_remove_ad">Verwijder advertentie</string>
+
+    <string name="accessibility_song_info">Muziekinformatie</string>
+
+    <string name="accessibility_queue">Wachtrij</string>
+
+    <string name="accessibility_miniplayer_pager">Mini player scroll</string>
+
+    <string name="accessibility_download">Downloaden</string>
+
+    <string name="accessibility_choose_genre">Filteren</string>
+
+    <string name="accessibility_choose_period">Kies periode</string>
+
+    <string name="accessibility_settings">Instellingen</string>
+
+    <string name="accessibility_show_hide_password">Toon/verberg wachtwoord</string>
+
+    <string name="accessibility_close">Sluiten</string>
+
+    <string name="accessibility_back">Sluiten</string>
+
+    <string name="accessibility_actions">Acties</string>
+
+    <string name="accessibility_toggle_follow">Volgen/Niet meer volgen</string>
+
+    <string name="accessibility_add_to_playlist">Nummer toevoegen aan playlist</string>
+
+    <string name="accessibility_share">Delen</string>
+
+    <string name="accessibility_player_seek">Scrubber</string>
+
+    <string name="accessibility_player_prev">Vorige nummer</string>
+
+    <string name="accessibility_player_next">Volgende nummer</string>
+
+    <string name="accessibility_player_play_pause">Afspelen/Pauzeren</string>
+
+    <string name="accessibility_player_repeat">Schakel de repeat modus in</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">Minimaliseer speler</string>
+
+    <string name="accessibility_player_shuffle">Schakel shuffle in</string>
+
+    <string name="accessibility_artist_info">Informatie artiest</string>
+
+    <string name="accessibility_twitter">Twitter</string>
+
+    <string name="accessibility_facebook">Facebook</string>
+
+    <string name="accessibility_instagram">Instagram</string>
+
+    <string name="accessibility_youtube">Youtube</string>
+
+    <string name="accessibility_queue_create_playlist">Maak een playlist aan vanuit de wachtrij</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">Scroll naar boven</string>
+
+    <string name="accessibility_song_image">Artwork van nummer</string>
+
+    <string name="accessibility_favorite">Favoriet</string>
+
+    <string name="accessibility_repost">Re-Up</string>
+
+    <string name="accessibility_edit">Bewerken</string>
+
+    <string name="accessibility_ad">Advertentie</string>
+
+    <string name="accessibility_toast_image">Toast afbeelding</string>
+
+    <string name="NSAppleMusicUsageDescription">Voor deze functie is het gebruik van de mediabibliotheek vereist.</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">Audiomack wil gegevens beschikbaar stellen aan Bluetooth-apparaten in de buurt, zelfs als je de app niet gebruikt.</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">Audiomack wil gegevens beschikbaar stellen aan Bluetooth-apparaten in de buurt, zelfs als je de app niet gebruikt.</string>
+
+    <string name="NSCalendarsUsageDescription">Voor deze interactie is toegang tot de kalender vereist.</string>
+
+    <string name="NSContactsUsageDescription">Deze functie vereist het gebruik van contacten.</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">Hiermee kan Audiomack populaire muziek in jouw regio weergeven.</string>
+
+    <string name="NSLocationAlwaysUsageDescription">Hiermee kan Audiomack populaire muziek in jouw regio weergeven.</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">Hiermee kan Audiomack populaire muziek in jouw regio weergeven.</string>
+
+    <string name="NSMicrophoneUsageDescription">Deze functie vereist het gebruik van de microfoon.</string>
+
+    <string name="NSMotionUsageDescription">Deze functie vereist het gebruik van beweging.</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">Deze functie vereist opslaan in de fotobibliotheek.</string>
+
+    <string name="NSRemindersUsageDescription">Deze interactie voegt een reminder toe.</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">Deze functie vereist het gebruik van spraakherkenning.</string>
+
+    <string name="positive_upsell_message">UPGRADE NAAR AUDIOMACK PREMIUM OM ADVERTENTIES TE VERWIJDEREN</string>
+
+    <string name="highlights_add">Markeren</string>
+
+    <string name="highlights_remove">Verwijderen uit hoogtepunten</string>
+
+    <string name="highlights_reached_limit_message">Je moet een hoogtepunt verwijderen om er nog een toe te kunnen voegen</string>
+
+    <string name="highlights_reached_limit_edit">HOOGTEPUNTEN BEWERKEN</string>
+
+    <string name="highlights_reached_limit_cancel">Annuleren</string>
+
+    <string name="highlights_edit_title">HOOGTEPUNTEN BEWERKEN</string>
+
+    <string name="highlights_edit_subtitle">Je kunt maximaal vier (4) nummers,\nalbums of playlists in je profiel als hoogtepunt markeren.</string>
+
+    <string name="highlights_edit_save">OPSLAAN</string>
+
+    <string name="uploads_header_highlighted">UITGELICHT</string>
+
+    <string name="uploads_header_recent">RECENTE UPLOADS</string>
+
+    <string name="uploads_highlighted_message">Tik op de drie stippen naast een nummer, album of playlist en selecteer \'markeren\' om het bovenaan je profiel vast te zetten</string>
+
+    <string name="toast_highlight_error">Kan deze inhoud niet markeren</string>
+
+    <string name="highlight_confirmation_title_template">%s is nu gemarkeerd in je profiel</string>
+
+    <string name="highlight_confirmation_message">Je kunt maximaal 4 van je favoriete nummers, albums of playlists in je profiel als hoogtepunt markeren zodat andere luisteraars het kunnen zien.</string>
+
+    <string name="highlight_confirmation_view">BEKIJK JE PROFIEL</string>
+
+    <string name="highlight_confirmation_close">Doorgaan met</string>
+
+    <string name="song">Nummer</string>
+
+    <string name="album">Album</string>
+
+    <string name="artist">Artiest</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">Podcast</string>
+
+    <string name="editplaylist_create_banner">Voeg een bannerafbeelding toe</string>
+
+    <string name="download_delete_confirmation_title">Weet je zeker dat je %s uit je downloads wilt verwijderen?</string>
+
+    <string name="download_delete_confirmation_yes">VERWIJDEREN</string>
+
+    <string name="download_delete_confirmation_no">Annuleren</string>
+
+    <string name="signup_email_placeholder">e-mail\@domein.com</string>
+
+    <string name="signup_cta">AANMELDEN</string>
+
+    <string name="signup_cant_login">Problemen met inloggen? Neem contact met ons op</string>
+
+    <string name="signup_cant_login_highlighted">Neem contact met ons op</string>
+
+    <string name="signup_privacy_policy">Privacybeleid</string>
+
+    <string name="signup_create_account_prompt">We hebben geen account dat overeenkomt met dat e-mailadres. Maak gratis een nieuw account aan.</string>
+
+    <string name="signup_create_account_prompt_highlighted">Maak gratis een nieuw account aan.</string>
+
+    <string name="signup_audiomack_header">INLOGGEN BIJ AUDIOMACK</string>
+
+    <string name="signup_continue">VERDERGAAN</string>
+
+    <string name="signup_with_email_prompt">OF MELD JE AAN/LOG IN MET JE E-MAIL</string>
+
+    <string name="signup_troubles_alert_message">Voer je e-mailadres in om je wachtwoord opnieuw in te stellen:</string>
+
+    <string name="signup_troubles_alert_footer">Kun je je nog steeds niet aanmelden? Neem contact met ons op</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">Neem contact met ons op</string>
+
+    <string name="login_twitter_error_message">Inloggen met Twitter is mislukt</string>
+
+    <string name="login_google_error_message">Inloggen met Google is mislukt</string>
+
+    <string name="disconnect_social_alert_title">Weet je zeker dat je dit sociale account wilt ontkoppelen?</string>
+
+    <string name="disconnect_social_alert_yes">VERBINDING VERBREKEN</string>
+
+    <string name="disconnect_social_alert_no">Annuleren</string>
+
+    <string name="connect_social_twitter">Koppel je Twitter-account</string>
+
+    <string name="connect_social_facebook">Koppel je Facebook-account</string>
+
+    <string name="connect_social_instagram">Koppel je Instagram-account</string>
+
+    <string name="connect_social_youtube">Koppel je YouTube-account</string>
+
+    <string name="connect_social_popup_title_twitter">Geef je Twitter op</string>
+
+    <string name="connect_social_popup_title_instagram">Geef je Instagram op</string>
+
+    <string name="connect_social_popup_title_facebook">Geef je Facebook-account op</string>
+
+    <string name="connect_social_popup_title_youtube">Geef je YouTube-account op</string>
+
+    <string name="connect_social_popup_placeholder_twitter">gebruikersnaam</string>
+
+    <string name="connect_social_popup_placeholder_instagram">gebruikersnaam</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">TOEVOEGEN</string>
+
+    <string name="connect_social_popup_clear">WISSEN</string>
+
+    <string name="connect_social_popup_cancel">Annuleren</string>
+
+    <string name="playlist_delete_title_template">Playlist verwijderen %s</string>
+
+    <string name="playlist_delete_no">Annuleren</string>
+
+    <string name="playlist_delete_yes">VERWIJDEREN</string>
+
+    <string name="playlist_delete_message">Weet je het zeker? Dit kan niet ongedaan gemaakt worden</string>
+
+    <string name="search_related_title">We hebben geen muziek die overeenkomt met %s</string>
+
+    <string name="search_related_subtitle">Hier zijn enkele vergelijkbare artiesten die je misschien leuk vindt.</string>
+
+    <string name="search_filter">FILTER RESULTATEN</string>
+
+    <string name="search_filter_sort">SORTEER OP</string>
+
+    <string name="search_filter_popular">Populairst</string>
+
+    <string name="search_filter_recent">Meest recent</string>
+
+    <string name="search_filter_relevant">Meest relevant</string>
+
+    <string name="search_filter_verified_only">Alleen geverifieerd</string>
+
+    <string name="search_filter_genres">GENRES</string>
+
+    <string name="search_filter_refine">VERFIJN ZOEKOPDRACHT</string>
+
+    <string name="inapprating_alert_title">Beoordeel Audiomack</string>
+
+    <string name="inapprating_alert_message">Denk je dat Audiomack een 5-sterren app is?</string>
+
+    <string name="inapprating_alert_positive">JA</string>
+
+    <string name="inapprating_alert_negative">Nee</string>
+
+    <string name="inapprating_alert_followup_title">Audiomack-ondersteuning</string>
+
+    <string name="inapprating_alert_followup_message">Sorry dat je de app niet leuk vindt. Wil je contact opnemen met ondersteuning zodat we je kunnen helpen?</string>
+
+    <string name="inapprating_alert_followup_positive">JA</string>
+
+    <string name="inapprating_alert_followup_negative">Misschien later</string>
+
+    <string name="search_verified_account">GEVERIFIEERDE ACCOUNT</string>
+
+    <string name="search_verified_playlist">GEVERIFIEERDE PLAYLIST</string>
+
+    <string name="slideupmenu_music_added_by_template">Toegevoegd door %s</string>
+
+    <string name="slideupmenu_music_share_copylink">Kopieer link</string>
+
+    <string name="slideupmenu_music_share_twitter">Twitter</string>
+
+    <string name="slideupmenu_music_share_facebook">Facebook</string>
+
+    <string name="slideupmenu_music_share_text">Via tekst</string>
+
+    <string name="slideupmenu_music_share_more">Meer</string>
+
+    <string name="slideupmenu_music_cancel">Annuleren</string>
+
+    <string name="slideupmenu_music_add_to_downloads">Toevoegen aan downloads</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">Verwijderen uit downloads</string>
+
+    <string name="opensource_title">OPEN SOURCE BIBLIOTHEKEN</string>
+
+    <string name="opensource_subtitle">Bibliotheken die in deze app worden gebruikt</string>
+
+    <string name="opensource_subsubtitle">Op deze pagina worden naamsvermeldingen weergegeven voor software van derden die in de audiomack-app kan worden gebruikt.\nDank u!</string>
+
+    <string name="accessibility_comment">Geef commentaar</string>
+
+    <string name="accessibility_sort">Sorteren</string>
+
+    <string name="comments_write_prompt">Schrijf een openbare opmerking ...</string>
+
+    <string name="comments_removed_comment">Deze opmerking is verwijderd</string>
+
+    <string name="comments_comment_title">GEEF COMMENTAAR</string>
+
+    <string name="comments_header_title">OPMERKINGEN</string>
+
+    <string name="comments_reply">ANTWOORDEN</string>
+
+    <string name="comments_filter_top">Top Reacties</string>
+
+    <string name="comments_filter_newest">Nieuwste eerst</string>
+
+    <string name="comments_filter_oldest">Oudste eerst</string>
+
+    <string name="comments_delete_comment">Reactie verwijderen</string>
+
+    <string name="comments_flag_comment">Reactie markeren</string>
+
+    <string name="comments_share_comment">Reactie delen</string>
+
+    <string name="comments_delete_alert_title">Weet je zeker dat je deze opmerking wilt verwijderen?</string>
+
+    <string name="comments_delete_alert_confirm">OPMERKING WISSEN</string>
+
+    <string name="comments_flag_alert_title">Weet je het zeker?</string>
+
+    <string name="comments_flag_alert_subtitle">Meld alleen obscene of spam-inhoud.</string>
+
+    <string name="comments_flag_alert_confirm">RAPPORTEREN</string>
+
+    <string name="comments_alert_cancel">Annuleren</string>
+
+    <string name="comments_be_nice_title">Wees aardig.</string>
+
+    <string name="comments_be_nice_subtitle">Dit is jouw gemeenschap. Bezit het.</string>
+
+    <string name="comments_be_nice_bullet_1">Geen spam. Links werken hier niet.</string>
+
+    <string name="comments_be_nice_bullet_2">Reacties zijn niet bedoeld om je muziek te pushen.</string>
+
+    <string name="comments_be_nice_bullet_3">Als je racistisch, vrouwenhater, aanstootgevend of een eikel bent, verlies je de rechten om te reageren.</string>
+
+    <string name="comments_be_nice_continue">DOORGAAN</string>
+
+    <string name="comments_view_more_replies">BEKIJK %s MEER ANTWOORDEN</string>
+
+    <string name="comments_view_more_reply">BEKIJK NOG 1 ANTWOORD</string>
+
+    <string name="comments_expand">OPENKLAPPEN</string>
+
+    <string name="comments_minimize">MINIMALISEREN</string>
+
+    <string name="comments_commenting_on">Reageren op %s</string>
+
+    <string name="comments_placeholder_cta">WEES DE EERSTE OM TE REAGEREN</string>
+
+    <string name="artists_onboarding_title">Audiomack is voor\nhet ontdekken van nieuwe muziek.</string>
+
+    <string name="artists_onboarding_message">Naar welke van de onderstaande artiesten ben je\nin de stemming om naar te luisteren?</string>
+
+    <string name="artists_onboarding_message_highlighted">artiesten hieronder</string>
+
+    <string name="artists_onboarding_button">LUISTER NU</string>
+
+    <string name="artists_onboarding_footer">Breng me gewoon naar de meest populaire nummers</string>
+
+    <string name="artists_onboarding_playlist_play_all">Speel alles</string>
+
+    <string name="artists_onboarding_playlist_pause">Pauzeren</string>
+
+    <string name="artists_onboarding_playlist_shuffle">Shuffle</string>
+
+    <string name="artists_onboarding_select">SELECTEER EEN ARTIEST</string>
+
+    <string name="social_login_missing_email_title">Geef een geldig e-mailadres op om het aanmaken van een account te voltooien.</string>
+
+    <string name="social_login_missing_email_placeholder">E-mailadres</string>
+
+    <string name="social_login_missing_email_cta">Verzenden</string>
+
+    <string name="social_login_missing_email_cancel">Annuleren</string>
+
+    <string name="download_notification_title">Bezig met downloaden</string>
+
+    <string name="download_notification_message_template">en %s anderen</string>
+
+    <string name="player_extra_comments">Opmerkingen</string>
+
+    <string name="player_extra_info">Info</string>
+
+    <string name="player_extra_more_from_artist">Meer van Artiest</string>
+
+    <string name="player_extra_comments_count_plural">%s Opmerkingen</string>
+
+    <string name="player_extra_comments_count_singular">%s Opmerking</string>
+
+    <string name="player_extra_rankings">Ranglijsten</string>
+
+    <string name="player_extra_rankings_daily">Vandaag</string>
+
+    <string name="player_extra_rankings_weekly">Deze week</string>
+
+    <string name="player_extra_rankings_monthly">Deze maand</string>
+
+    <string name="player_extra_rankings_all">Altijd</string>
+
+    <string name="player_extra_more_from_artist_template">Meer van %s</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">BEZOEK PROFIEL</string>
+
+    <string name="player_extra_artist_followers_plural">%s Volgers</string>
+
+    <string name="player_extra_artist_followers_singular">%s Volger</string>
+
+    <string name="player_extra_offline_placeholder_title">Je bent offline</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">Controleer jouw internetstatus of probeer het hieronder opnieuw</string>
+
+    <string name="player_extra_offline_placeholder_cta">Opnieuw proberen</string>
+
+    <string name="filters_title_chart">FILTER HITLIJSTEN</string>
+
+    <string name="filters_section_genre">FILTER OP GENRE:</string>
+
+    <string name="filters_section_timeframe">FILTER OP TIJDSBESTEK:</string>
+
+    <string name="filters_section_timeframe_today">Vandaag</string>
+
+    <string name="filters_section_timeframe_week">Deze week</string>
+
+    <string name="filters_section_timeframe_month">Deze maand</string>
+
+    <string name="filters_section_timeframe_year">Dit jaar</string>
+
+    <string name="filters_section_timeframe_alltime">Altijd</string>
+
+    <string name="filters_section_view">BEKIJK OP:</string>
+
+    <string name="filters_section_view_list">Lijstweergave</string>
+
+    <string name="filters_section_view_tile">Tegelweergave</string>
+
+    <string name="filters_cta">FILTEREN</string>
+
+    <string name="chromecast_device_default_name">Onbekend Chromecast-apparaat</string>
+
+    <string name="airplay_devices">Airplay-apparaten</string>
+
+    <string name="cast_menu_disconnect">Verbinding met %s verbreken</string>
+
+    <string name="cast_unavailable">Kan Chromecast niet gebruiken</string>
+
+    <string name="notif_login_required">Inloggen vereist</string>
+
+    <string name="notif_login_favorite">Kan nummer niet toevoegen aan je favorieten</string>
+
+    <string name="notif_login_repost">Nummer kan niet Re-Up</string>
+
+    <string name="feat_x">%1$s feat. %2$s</string>
+
+    <string name="contact_title_text">Kun je je niet aanmelden?</string>
+
+    <string name="contact_subtitle_text">Vertel ons meer over het probleem en\nwe zullen zo snel mogelijk reageren.</string>
+
+    <string name="contact_what_title_text">Probeerde je in te loggen of je aan te melden?</string>
+
+    <string name="contact_how_title_text">Hoe probeerde je in te loggen / je aan te melden?</string>
+
+    <string name="contact_when_title_text">Wanneer heb je voor het laatst ingelogd?</string>
+
+    <string name="contact_email_title_text">Wat is het e-mailadres waarop je wilt dat wij contact met je opnemen?</string>
+
+    <string name="contact_can_title_text">Kun je ons nog meer vertellen over wat er gebeurde\ntoen je probeerde in te loggen of je aan te melden?</string>
+
+    <string name="contact_selection_what_login">Inloggen</string>
+
+    <string name="contact_selection_what_signup">Aanmelden</string>
+
+    <string name="contact_selection_how_google">Google</string>
+
+    <string name="contact_selection_how_twitter">Twitter</string>
+
+    <string name="contact_selection_how_facebook">Facebook</string>
+
+    <string name="contact_selection_how_email">E-mail</string>
+
+    <string name="contact_selection_when_today">Vandaag</string>
+
+    <string name="contact_selection_when_last_week">In de afgelopen week</string>
+
+    <string name="contact_selection_when_last_month">In de afgelopen maand</string>
+
+    <string name="contact_selection_when_dont_remember">Ik kan het me niet herinneren</string>
+
+    <string name="contact_selection_required">*Verplicht</string>
+
+    <string name="contact_selection_select">Selecteer alstublieft</string>
+
+    <string name="contact_selection_enter">Voeg hier tekst in</string>
+
+    <string name="contact_selection_send">STUREN</string>
+
+    <string name="contact_time_limit_error">Je ondersteuningsticket is ingediend. Wacht tot ons ondersteuningsteam antwoordt voordat je een nieuw ticket indient.</string>
+
+    <string name="contact_send_success">Je ondersteuningsticket is ingediend. Wacht tot ons ondersteuningsteam antwoordt.</string>
+
+    <string name="album_play">Album afspelen</string>
+
+    <string name="album_pause">Album pauzeren</string>
+
+    <string name="playlist_play">Speel playlist af</string>
+
+    <string name="playlist_pause">Pauzeer playlist</string>
+
+    <string name="slideupmenu_music_trophies">Trofeeën</string>
+
+    <string name="screenshot_now_playing">#NOWPLAYING</string>
+
+    <string name="screenshot_toast_title">Maak een screenshot van deze pagina en deel deze.</string>
+
+    <string name="screenshot_toast_subtitle">Swipe naar beneden om te sluiten.</string>
+
+    <string name="highlights_highlighted">Gemarkeerd</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">De rechthebbende heeft dit niet beschikbaar gemaakt in jouw regio.</string>
+
+    <string name="georestriction_alert_delete">Verwijderen</string>
+
+    <string name="settings_notifications">Kennisgevingen</string>
+
+    <string name="notifications_manager_new_song_album">Nieuwe meldingen voor nummers/albums</string>
+
+    <string name="notifications_manager_weekly_artist_reports">Wekelijkse artiestenrapporten</string>
+
+    <string name="notifications_manager_song_album_benchmarks">Benchmarks voor nummers/albums</string>
+
+    <string name="notifications_manager_everyone">IEDEREEN</string>
+
+    <string name="notifications_manager_artists">ARTIESTEN</string>
+
+    <string name="notifications_manager_title">MELDINGEN</string>
+
+    <string name="billing_issue_subscribed">FACTURERINGSPROBLEEM: UPDATE JOUW BETALINGSINFORMATIE OM PREMIUM TE BEHOUDEN</string>
+
+    <string name="billing_issue_unsubscribed">FACTURERINGSPROBLEEM: UPDATE JOUW BETALINGSINFORMATIE OM PREMIUM TE HERSTELLEN</string>
+
+    <string name="comments_count_template">%s Opmerkingen</string>
+
+    <string name="permissions_rationale_alert_instagram_message">Deze functie vereist dat Instagram alle benodigde rechten heeft. Schakel deze rechten in.</string>
+
+    <string name="premium_start_trial_ios">Start een gratis proefperiode van 7 dagen</string>
+
+    <string name="premium_price_template_ios">%s per maand</string>
+
+    <string name="comments_try_add_later">Probeer je opmerking later opnieuw toe te voegen</string>
+
+    <string name="comments_try_load_later">Probeer de opmerkingen later opnieuw te laden</string>
+
+    <string name="comments_try_later_connection">Probeer het later opnieuw als je een betere verbinding hebt</string>
+
+    <string name="please_try_again_later">Probeer het later opnieuw</string>
+
+    <string name="please_check_connection_try_again">Controleer je verbinding en probeer het opnieuw</string>
+
+    <string name="please_try_request_later">Probeer je verzoek later opnieuw</string>
+
+    <string name="please_login_again">Log alsjeblieft nogmaals in</string>
+
+    <string name="please_restart_app">Probeer de app opnieuw op te starten</string>
+
+    <string name="player_file_no_connection">Je hebt geen toegang tot internet</string>
+
+    <string name="please_check_connection_try_download_again">Controleer je verbinding en probeer deze download opnieuw</string>
+
+    <string name="home_tab_browse_experiment">Ontdek</string>
+
+    <string name="no_browser_installed">Deze actie kan niet worden ondernomen. Zorg ervoor dat er een browser op je apparaat is geïnstalleerd</string>
+
+    <string name="billing_issue_avoid_losing_premium">Werk je factuurgegevens bij om te voorkomen dat je premium kwijtraakt</string>
+
+    <string name="billing_issue_restore_premium">Jouw premium voordelen zijn verlopen. Werk je factuurgegevens bij om ze te herstellen.</string>
+
+    <string name="billing_issue_alert_header">Het lijkt erop dat er een probleem is met je betalingsmethode</string>
+
+    <string name="billing_issue_no_thanks">Nee, dank je wel</string>
+
+    <string name="billing_issue_update_info">Informatie bijwerken</string>
+
+    <string name="social_link_error_already_linked_title">Deze account is al gekoppeld aan een gebruiker op Audiomack</string>
+
+    <string name="social_link_error_already_linked_message_instagram">Probeer een andere Instagram-account te koppelen.</string>
+
+    <string name="social_link_error_already_linked_message_twitter">Probeer een andere Twitter-account te koppelen.</string>
+
+    <string name="trending_search_song">NUMMER</string>
+
+    <string name="trending_search_album">ALBUM</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">ACCOUNT</string>
+
+    <string name="login_apple_error_message">Inloggen met Apple is mislukt</string>
+
+    <string name="benchmark_image_description">Benchmarkafbeelding</string>
+
+    <string name="benchmark_trophies_title">Trofeeën</string>
+
+    <string name="benchmark_hide">VERBERGEN</string>
+
+    <string name="benchmark_now">NU</string>
+
+    <string name="benchmark_playing">AAN HET AFSPELEN</string>
+
+    <string name="benchmark_million">%d MILJOEN</string>
+
+    <string name="benchmark_billion">%d MILJARD</string>
+
+    <string name="benchmark_play">KEREN AFGESPEELD</string>
+
+    <string name="benchmark_favorite">FAVORIETEN</string>
+
+    <string name="benchmark_playlist">TOEVOEGINGEN AAN PLAYLIST</string>
+
+    <string name="benchmark_repost">RE-UP</string>
+
+    <string name="benchmark_verified">GEVERIFIEERD</string>
+
+    <string name="benchmark_artist">ARTIEST</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Messenger</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">Voor deze functie moet je zijn aangemeld bij Messenger</string>
+
+    <string name="notifications_verb_benchmark">druk gewoon op</string>
+
+    <string name="notifications_verb_benchmark_your_song">Jouw nummer</string>
+
+    <string name="notifications_verb_benchmark_your_album">Jouw album</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">Jouw playlist</string>
+
+    <string name="premium_download_toast">Activeer premium om vergrendelde nummers in willekeurige volgorde af te spelen.</string>
+
+    <string name="premium_download_downloaded">Gedownload</string>
+
+    <string name="premium_download_standard_message">gratis premium downloads resterend.</string>
+
+    <string name="premium_download_upgrade">UPGRADEN</string>
+
+    <string name="premium_download_reached_limit">Je hebt jouw gratis premium downloadlimiet bereikt.</string>
+
+    <string name="premium_download_large_header">Je downloadt premium content</string>
+
+    <string name="premium_download_large_subheader">Jouw gratis account wordt geleverd met %d Premium Downloads.</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d gratis premium</string>
+
+    <string name="premium_download_plain_remaining">resterende downloads.</string>
+
+    <string name="premium_download_upgrade_header">Upgrade nu naar premium en ontvang:</string>
+
+    <string name="premium_download_upgrade_first_point">Onbeperkte premium downloads</string>
+
+    <string name="premium_download_upgrade_second_point">Een advertentie-vrije ervaring</string>
+
+    <string name="premium_download_upgrade_third_point">Streamen van hoge kwaliteit</string>
+
+    <string name="premium_download_upgrade_fourth_point">Equalizer-regelaars</string>
+
+    <string name="premium_download_upgrade_fifth_point">en meer!</string>
+
+    <string name="premium_download_upgrade_button">Waardeer nu op</string>
+
+    <string name="premium_download_learn_more_left">Ontdek meer over</string>
+
+    <string name="premium_download_learn_more_right">premium inhoud.</string>
+
+    <string name="premium_download_large_header_second">Lees meer over premium downloads</string>
+
+    <string name="premium_download_replace_header">VERVANG DOWNLOADS</string>
+
+    <string name="premium_download_replace_single_subheader">Kies een nummer om te vervangen.</string>
+
+    <string name="premium_download_replace_multiple_subheader">Kies %d nummers om te vervangen.</string>
+
+    <string name="premium_download_replace_button">KIES %s (%d)</string>
+
+    <string name="premium_download_replace_button_selected">VERWIJDER (%d) &amp; DOWNLOAD</string>
+
+    <string name="premium_download_replace_button_text_one">EEN</string>
+
+    <string name="premium_download_replace_button_text_two">TWEE</string>
+
+    <string name="premium_download_replace_button_text_three">DRIE</string>
+
+    <string name="premium_download_replace_button_text_four">VIER</string>
+
+    <string name="premium_download_replace_button_text_five">VIJF</string>
+
+    <string name="premium_download_replace_button_text_six">ZES</string>
+
+    <string name="premium_download_replace_button_text_seven">ZEVEN</string>
+
+    <string name="premium_download_replace_button_text_eight">ACHT</string>
+
+    <string name="premium_download_replace_button_text_nine">NEGEN</string>
+
+    <string name="premium_download_replace_button_text_ten">TIEN</string>
+
+    <string name="premium_download_replace_button_text_eleven">ELF</string>
+
+    <string name="premium_download_replace_button_text_twelve">TWAALF</string>
+
+    <string name="premium_download_replace_button_text_thirteen">DERTIEN</string>
+
+    <string name="premium_download_replace_button_text_fourteen">VEERTIEN</string>
+
+    <string name="premium_download_replace_button_text_fifteen">VIJFTIEN</string>
+
+    <string name="premium_download_replace_button_text_sixteen">ZESTIEN</string>
+
+    <string name="premium_download_replace_button_text_seventeen">ZEVENTIEN</string>
+
+    <string name="premium_download_replace_button_text_eighteen">ACHTTIEN</string>
+
+    <string name="premium_download_replace_button_text_nineteen">NEGENTIEN</string>
+
+    <string name="premium_download_replace_button_text_twenty">TWINTIG</string>
+
+    <string name="premium_download_replace_full_album_button">SELECTEER (%d) OM TE DOWNLOADEN</string>
+
+    <string name="premium_download_alert_exceed_limit_title">Dit volledige album kan alleen in zijn geheel worden gedownload door Premium-gebruikers.</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">Je kunt nog steeds individuele nummers downloaden.</string>
+
+    <string name="premium_download_alert_upgrade">Upgraden naar Premium</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">Annuleren</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">Deze inhoud is hoger dan jouw premium downloadlimiet.</string>
+
+    <string name="offline_filter_button">FILTEREN</string>
+
+    <string name="offline_filter_files_description">Omdat deze nummers zijn gekoppeld aan je apparaat, kunnen ze niet worden gemarkeerd als favoriet, re-up, gemarkeerd, playlist of gedeeld.</string>
+
+    <string name="offline_filter_files_scan">Luister naar alle nummers die lokaal op je apparaat zijn opgeslagen in de app</string>
+
+    <string name="offline_filter_files_switch">Voeg lokale bestanden toe</string>
+
+    <string name="offline_filter_previous_downloads">BEKIJK VORIGE DOWNLOADS</string>
+
+    <string name="offline_filter_section_type">FILTER OP TYPE:</string>
+
+    <string name="offline_filter_section_order">FILTER OP VOLGORDE:</string>
+
+    <string name="offline_filter_section_files">LOKALE BESTANDEN:</string>
+
+    <string name="offline_filter_title">FILTER OFFLINE</string>
+
+    <string name="signup_error_min_age">Je moet minimaal 13 jaar oud zijn om deze app te gebruiken</string>
+
+    <string name="report_content">Inhoud melden</string>
+
+    <string name="report_content_done">Inhoud is gemeld</string>
+
+    <string name="block_user">Blokkeer gebruiker</string>
+
+    <string name="block_user_done">Meldings-/blokkeerverzoek ingediend</string>
+
+    <string name="confirm_report_done">Jouw meldings-/blokkeerverzoek wordt de komende 24 uur afgedwongen</string>
+
+    <string name="confirm_report_alert_title">Beschrijf het probleem</string>
+
+    <string name="confirm_report_report_alert_message">Selecteer de beste beschrijving voor de oorzaak van deze melding/blokkade</string>
+
+    <string name="confirm_report_alert_submit">VERZENDEN</string>
+
+    <string name="confirm_report_alert_option_violent">Dit is gewelddadige / pornografische visuele of audio-inhoud</string>
+
+    <string name="confirm_report_alert_option_broken">Deze inhoud wordt niet gestreamd of gedownload</string>
+
+    <string name="confirm_report_alert_option_misleading">Deze inhoud is misleidend of verkeerd gelabeld</string>
+
+    <string name="confirm_report_alert_option_spam">Dit account houdt zich bezig met spam of intimidatie</string>
+
+    <string name="confirm_report_alert_option_infringement">Ik denk dat dit een inbreuk op het auteursrecht is</string>
+
+    <string name="confirm_bis_report_alert_title">Weet je zeker dat je dit blokkade- / meldingsbericht wilt indienen?</string>
+
+    <string name="confirm_bis_report_alert_yes">JA</string>
+
+    <string name="confirm_bis_report_alert_cancel">NEE, DAT WIL IK NIET</string>
+
+    <string name="benchmark_tastemaker">SMAAKMAKER</string>
+
+    <string name="benchmark_authenticated">GEAUTORISEERD</string>
+
+    <string name="download_restore_backup_fail">Kan downloads van vorig apparaat niet herstellen</string>
+
+    <string name="download_restore_backup_success">Downloads van vorig apparaat succesvol hersteld</string>
+
+    <string name="download_restore_prompt">Wil je%d downloads van je vorige apparaat herstellen?</string>
+
+    <string name="download_restore_prompt_yes">JA</string>
+
+    <string name="download_restore_prompt_no">Nee</string>
+
+    <string name="download_restore_no_wifi_prompt">Het downloaden begint zodra je verbinding hebt met wifi</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">OK</string>
+
+    <string name="in_app_update_ios_title">Update beschikbaar</string>
+
+    <string name="in_app_update_ios_message">Er is een nieuwe versie van Audiomack beschikbaar. Update nu.</string>
+
+    <string name="in_app_update_ios_option_update">Bijwerken</string>
+
+    <string name="in_app_update_ios_option_next_time">De volgende keer</string>
+
+    <string name="in_app_update_downloaded_title">Er is zojuist een update voor deze app gedownload</string>
+
+    <string name="in_app_update_downloaded_restart">HERSTARTEN</string>
+
+    <string name="in_app_update_downloaded_cancel">Annuleren</string>
+
+    <string name="in_app_update_download_started">Het downloaden van de app-update is begonnen</string>
+
+    <string name="comments_view_all">Bekijk alle reacties</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">Selecteer een trofee en maak vervolgens een screenshot om te delen</string>
+
+    <string name="search_authenticated_account">GEAUTHENTISEERD ACCOUNT</string>
+
+    <string name="search_tastemaker_account">SMAAKMAKER-ACCOUNT</string>
+
+    <string name="playlists_filter_pill_favorited">ALS FAVORIET AANGEMERKT</string>
+
+    <string name="offline_remove_title">MULTISELECT VERWIJDEREN OFFLINE</string>
+
+    <string name="offline_remove_button">VERWIJDEREN UIT OFFLINE</string>
+
+    <string name="download_delete_slide">Verwijderen</string>
+
+    <string name="options_play_next_list">Als volgende afspelen</string>
+
+    <string name="slideupmenu_music_share_instagram">Instagram Stories</string>
+
+    <string name="notifications_playlists_bundle_verb">zijn toegevoegd aan</string>
+
+    <string name="notifications_playlists_bundle_suffix">jij volgt</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d playlists</string>
+
+    <string name="notifications_playlists_new_songs">%d nieuwe nummers</string>
+
+    <string name="audio_ad_now_playing_info_title">Audio-advertentie</string>
+
+    <string name="audio_ad_advertisement">ADVERTENTIE:</string>
+
+    <string name="audio_ad_support_artists">Advertenties ondersteunen artiesten en makers op Audiomack.</string>
+
+    <string name="audio_ad_upgrade_premium">Upgrade naar premium om alle advertenties te verwijderen</string>
+
+    <string name="audio_ad_now_playing_info_artist">Je content begint over %d seconden...</string>
+
+    <string name="downloadmessage_button_premium_downloads">Ga naar Offline Muziek</string>
+
+    <string name="benchmark_next_milestone">Volgende: %s</string>
+
+    <string name="benchmark_on_audiomack">OP AUDIOMACK</string>
+
+    <string name="settings_sleep_timer">Slaaptimer</string>
+
+    <string name="sleep_timer_alert_title">Hoe lang wil je dat er muziek speelt?</string>
+
+    <string name="sleep_timer_alert_button">STEL TIMER IN</string>
+
+    <string name="sleep_timer_alert_hours">uren</string>
+
+    <string name="sleep_timer_alert_hour">uur</string>
+
+    <string name="sleep_timer_alert_minutes">min</string>
+
+    <string name="browse_tab_world">WERELD</string>
+
+    <string name="premium_2019_sleep_timer">Slaaptimer</string>
+
+    <string name="premium_2019_sleep_timer_desc">Stel een timer in om je audio te stoppen, zodat je kunt slapen zonder de app de hele nacht te gebruiken</string>
+
+    <string name="signup_gender_birthday_information_header">Voltooi je profiel</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">Raadpleeg onze Servicevoorwaarden en ons Privacybeleid voor meer informatie</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">Jouw reactie op</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">heeft zijn</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">%d e stem.</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">%de stem.</string>
+
+    <string name="premium_download_large_subheader_second_song">Upgrade of verwijder een premium download om dit nummer te downloaden</string>
+
+    <string name="notifications_playlists_bundle_verb_single">werd toegevoegd aan</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d nummer</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_single">%d nieuw nummer</string>
+
+    <string name="audio_ad_notif_title">ADVERTENTIE:</string>
+
+    <string name="playlists_filter_my">Mijn Playlists</string>
+
+    <string name="playlists_filter_favorited">ALS FAVORIET AANGEMERKT</string>
+
+    <string name="playlists_filter_offline">ALLEEN OFFLINE</string>
+
+    <string name="filters_section_type">FILTER OP TYPE:</string>
+
+    <string name="musicinfo_runtime_title">Looptijd:</string>
+
+    <string name="musicinfo_runtime_value">%s min, %d nummers</string>
+
+    <string name="premium_2019_advanced">Geavanceerde functies</string>
+
+    <string name="premium_2019_start_trial">Start je gratis proefperiode van 7 dagen</string>
+
+    <string name="favorites_filter_title">FILTER FAVORIETEN</string>
+
+    <string name="accessibility_multiselect">Multi-selectie</string>
+
+    <string name="accessibility_premium_download">Premium download</string>
+
+    <string name="search_playlist_total_songs">Totaal aantal nummers:</string>
+
+    <string name="restore_downloads_prompt_title_plural">Wil je %d downloads van uw vorige apparaat herstellen?</string>
+
+    <string name="restore_downloads_prompt_title_singular">Wil je de download van %d van uw vorige apparaat herstellen?</string>
+
+    <string name="restore_downloads_dialog_positive">HERSTEL ALLE DOWNLOADS</string>
+
+    <string name="restore_downloads_dialog_negative">Selecteer downloads om te herstellen</string>
+
+    <string name="restore_downloads_error">Kan downloads niet herstellen</string>
+
+    <string name="restore_downloads_started">Downloads herstellen</string>
+
+    <string name="restore_downloads_queued">Het downloaden begint zodra je verbinding hebt met wifi</string>
+
+    <string name="premium_2019_premiumdownloads">Onbeperkt aantal downloads</string>
+
+    <string name="premium_2019_premiumdownloads_desc">Onbeperkte downloads van alles op Audiomack</string>
+
+    <string name="premium_only_downloads_alert_title">Deze download is premium.</string>
+
+    <string name="premium_only_downloads_alert_subtitle">Er zijn miljoenen gratis downloads\n&#13;op audiomack, maar de artiest heeft\n&#13;deze download alleen beschikbaar\n&#13;gemaakt voor premium-abonnees.</string>
+
+    <string name="premium_only_downloads_alert_yes">UPGRADEN</string>
+
+    <string name="premium_only_downloads_alert_no">Annuleren</string>
+
+    <string name="notifications_manager_play_milestones">Speel mijlpalen</string>
+
+    <string name="notifications_manager_upvote_milestones">Mijlpalen omhoog stemmen</string>
+
+    <string name="notifications_manager_comment_replies">Reacties op commentaar</string>
+
+    <string name="local_player_granted_alert_title">Speel lokale bestanden</string>
+
+    <string name="local_player_granted_alert_message">Je hebt %d muziekbestanden lokaal opgeslagen op je apparaat. Wil je toegang krijgen tot deze nummers van Audiomack?\n\nOpmerking: omdat lokale bestanden alleen op uw apparaat staan, kunnen ze niet worden gedeeld, opnieuw toegevoegd, aan favorieten toegevoegd, gemarkeerd of aan playlists worden toegevoegd.</string>
+
+    <string name="local_player_granted_alert_positive">TOEVOEGEN</string>
+
+    <string name="local_player_granted_alert_negative">Annuleren</string>
+
+    <string name="local_player_ungranted_alert_title">Speel lokale bestanden</string>
+
+    <string name="local_player_ungranted_alert_message">Zijn er muziekbestanden op uw telefoon opgeslagen? Je kunt ze nu op Audiomack beluisteren, net als je streaming muziek. Tik hieronder op \"Toevoegen\" om te beginnen!\n\nOpmerking: omdat lokale bestanden alleen op je apparaat staan, kunnen ze niet worden gedeeld, opnieuw toegevoegd, aan favorieten toegevoegd, gemarkeerd of aan playlists worden toegevoegd.</string>
+
+    <string name="local_player_declined_alert_title">Voeg lokale bestanden toe</string>
+
+    <string name="local_player_declined_alert_message">Luister naar alle audiobestanden die op je apparaat zijn opgeslagen in Audiomack</string>
+
+    <string name="local_player_declined_alert_positive">TOEVOEGEN</string>
+
+    <string name="queue_clear_all">Wis alles</string>
+
+    <string name="queue_clear_upcoming">Wis aanstaande</string>
+
+    <string name="queue_save_playlist">Opslaan in playlist</string>
+
+    <string name="premium_only_downloads_stream_alert_title">Dit is een premium-download</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">Upgrade uw account om alle inhoud van de app beschikbaar te maken voor offline luisteren.</string>
+
+    <string name="articles_noresults_placeholder">Geen artikelen gevonden.</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s min, %d nummers</string>
+
+    <string name="premium_limited_reached_limit_alert_title">Je hebt niet genoeg premium downloads beschikbaar</string>
+
+    <string name="premium_limited_reached_limit_alert_message">Upgrade naar premium voor onbeperkte downloads of vervang oude downloads om ruimte te maken.</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">START EEN GRATIS PROEF VAN PREMIUM</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">Vervangen en Downloaden</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">Lees meer over premium inhoud.</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">premium inhoud.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">Je hebt geen premium downloads meer.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">Upgrade naar premium of vervang %d van uw premium downloads om te spelen.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">Upgraden naar Premium</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">VERVANG EN ONTGRENDEL</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">Ik zou het in plaats daarvan willen streamen.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">stream het in plaats daarvan.</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">Verwijderen van offline</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">Je hebt geen premium downloads meer.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">Upgrade naar premium of vervang %d van uw premium downloads om te downloaden.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">Upgraden naar Premium</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">VERVANG EN ONTGRENDEL</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">Ik zou het in plaats daarvan willen streamen.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">stream het in plaats daarvan.</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">Verwijderen van offline</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">Deze download ontgrendelen?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">Je kunt %d van je resterende premiumdownloads gebruiken om deze te ontgrendelen.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">Upgraden naar Premium</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">ONTGRENDELEN</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">Ik zou het in plaats daarvan willen streamen.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">stream het in plaats daarvan.</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">Verwijderen van offline</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">Abonneren om te ontgrendelen.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">Er zijn miljoenen gratis downloads op Audiomack, maar deze download is alleen toegankelijk voor premiumgebruikers.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">Upgraden naar Premium</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">Ik zou het in plaats daarvan willen streamen.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">stream het in plaats daarvan.</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">Verwijderen van offline</string>
+
+    <string name="restore_downloads_dialog_select">Selecteer downloads om te herstellen</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">herstellen</string>
+
+    <string name="search_recommendations">AANBEVOLEN VOOR U</string>
+
+    <string name="settings_premium_status">Premium-status</string>
+
+    <string name="settings_premium_status_no_override">Geen opheffing</string>
+
+    <string name="settings_premium_status_free">Gratis</string>
+
+    <string name="settings_premium_status_premium">Premium</string>
+
+    <string name="settings_premium_status_free_billing_issue">Gratis bij factureringsprobleem</string>
+
+    <string name="settings_premium_status_premium_billing_issue">Premium met factureringsprobleem</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_singular">%d nieuw nummer</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">is toegevoegd aan</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d nummers</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d playlist</string>
+
+    <string name="premium_limited_download_unlock_toast">%s ontgrendeld</string>
+
+    <string name="notifications_follow_alert_title">Een melding ontvangen&#13;\nwanneer deze artiest nieuwe&#13;\nmuziek uitbrengt?</string>
+
+    <string name="notifications_follow_alert_positive">VERLEEN PUSH TOESTEMMINGEN</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">Verwijderen van offline</string>
+
+    <string name="email_verification_toast_success">Bedankt voor het verifiëren van uw e-mail!</string>
+
+    <string name="email_verification_toast_failure">E-mailverificatie mislukt</string>
+
+    <string name="sleep_timer_stop_today">Het afspelen stopt om %s</string>
+
+    <string name="sleep_timer_stop_tomorrow">Het afspelen wordt morgen gestopt om %s</string>
+
+    <string name="sleep_timer_triggered">Slaaptimer afgelopen</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">Een melding ontvangen wanneer deze artiest nieuwe muziek uitbrengt?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">VERLEEN PUSH TOESTEMMINGEN</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">Annuleren</string>
+
+    <string name="notifications_manager_push_off_title">Push-meldingen zijn uitgeschakeld.</string>
+
+    <string name="notifications_manager_push_off_message_ios">Om dit in te schakelen, ga je naar:\niPhone-instellingen &gt; Meldingen &gt; Audiomack</string>
+
+    <string name="notifications_manager_push_off_message_android">Ga om in te schakelen naar:&#13;\nApparaatinstellingen&gt; Apps en meldingen&gt; Audiomack&gt; Meldingen</string>
+
+    <string name="sleep_timer_notification_button">GAAN</string>
+
+    <string name="sleep_timer_notification_title">Ontgrendel de Premium Sleep Timer</string>
+
+    <string name="sleep_timer_notification_subtitle">Stel het in de instellingen in, zodat je kunt wegdommelen zonder de app de hele nacht te laten draaien</string>
+
+    <string name="sleep_timer_notification_premium_title">Je hebt de slaaptimer ontgrendeld</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">Stel het in de instellingen in om je audio te stoppen nadat je in slaap bent gevallen</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack gebruikt het lokale netwerk om Cast-apparaten op uw wifi-netwerk te ontdekken.</string>
+
+    <string name="notifications_manager_verified_playlist">Geverifieerde playlist voegt toe</string>
+
+    <string name="world_articles_not_found">Geen artikelen gevonden.</string>
+
+    <string name="world_article_detail_not_found">Geen artikel gevonden.</string>
+
+    <string name="accessibility_world_logo">Wereldlogo</string>
+
+    <string name="splash_message_single">Om de beste ervaring te bieden, vragen we je om de volgende toestemmingen in te schakelen:</string>
+
+    <string name="splash_location_message_new">Toon populaire muziek in je regio, populaire hitlijsten en lokale zoekopdrachten</string>
+
+    <string name="accessibility_logo">Audiomack pictogram</string>
+
+    <string name="widget_gallery_title">Druk op spelen</string>
+
+    <string name="widget_gallery_subtitle">Luister naar je nieuwste favoriete opgeslagen nummers</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">Deze track is alleen voor premium</string>
+
+    <string name="premium_only_streaming_alert_message">Ontvang Audiomack premium om elk nummer op het platform te streamen, plus onbeperkte downloads en meer!</string>
+
+    <string name="premium_only_streaming_alert_premium">Neem premium</string>
+
+    <string name="premium_only_streaming_alert_cancel">Annuleren</string>
+
+    <string name="toast_play_album_deleted_tracks_header">Niet al deze nummers worden gedownload</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">Om gegevens op te slaan, worden alleen offline nummers in de wachtrij geplaatst</string>
+
+    <string name="feed_suggested_accounts">Voorgestelde accounts</string>
+
+    <string name="feed_suggested_accounts_view_all">Bekijk alles</string>
+
+    <string name="feed_new_music_description">Nieuwe muziek van mensen die je volgt, wordt hier weergegeven.</string>
+
+    <string name="feed_follow_suggested_description">Je kunt beginnen door enkele van de hierboven voorgestelde artiesten te volgen.</string>
+
+    <string name="feed_social_feed">Sociale feed</string>
+
+    <string name="NSPhotoLibraryUsageDescription">We hebben toegang tot je fotobibliotheek nodig om een afbeelding te kiezen voor gebruik op je profiel.</string>
+
+    <string name="NSCameraUsageDescription">We hebben toegang tot de camera nodig om een foto te maken voor gebruik op je profiel.</string>
+
+    <string name="settings_change_password">Wachtwoord wijzigen</string>
+
+    <string name="update_password_success">Wachtwoord met succes bijgewerkt!</string>
+
+    <string name="update_password_title">WACHTWOORD VERNIEUWEN</string>
+
+    <string name="update_password_current">Huidig wachtwoord</string>
+
+    <string name="update_password_new">Nieuw wachtwoord</string>
+
+    <string name="update_password_confirm">Bevestig wachtwoord</string>
+
+    <string name="update_password_forgot">Je wachtwoord vergeten?</string>
+
+    <string name="update_password_save">VERNIEUW WACHTWOORD</string>
+
+    <string name="reset_password_invalid_token_title">Fout met link voor opnieuw instellen van wachtwoord</string>
+
+    <string name="reset_password_invalid_token_message">Er is een fout opgetreden bij het valideren van de link voor het opnieuw instellen van het wachtwoord. Dit is waarschijnlijk gebeurd omdat de link is verlopen. Probeer opnieuw het formulier wachtwoord vergeten te gebruiken om een nieuwe link te genereren.</string>
+
+    <string name="reset_password_title">WACHTWOORD RESETTEN</string>
+
+    <string name="reset_password_subtitle">VOER EEN NIEUW WACHTWOORD IN</string>
+
+    <string name="reset_password_new">Nieuw wachtwoord</string>
+
+    <string name="reset_password_confirm">Bevestig wachtwoord</string>
+
+    <string name="reset_password_reset">RESET WACHTWOORD</string>
+
+    <string name="reset_password_success">Wachtwoord met succes gereset!</string>
+
+    <string name="word_article_webview_updating_error">Sommige services worden bijgewerkt, probeer het opnieuw</string>
+
+    <string name="local_file">Lokaal bestand</string>
+
+    <string name="local_file_selection_apply">Wijzigingen opslaan</string>
+
+    <string name="local_file_selection_applied">Bestandsselectie opgeslagen</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack heeft opslagmachtigingen nodig om toegang te krijgen tot je lokale media</string>
+
+    <string name="local_file_selection_empty">Geen lokale media gevonden</string>
+
+    <string name="offline_filter_files_select">Selecteer bestanden</string>
+
+    <string name="options_hide_track">Nummer verbergen</string>
+
+    <string name="options_hide_album">Album verbergen</string>
+
+    <string name="uploads_filter_popular">MEEST POPULAIR</string>
+
+    <string name="uploads_filter_recent">MEEST RECENT</string>
+
+</resources>

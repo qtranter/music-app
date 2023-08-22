@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/alert_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            app:customletterspacing="-0.42"
+            tools:text="This will This will add 42 songs in this playlist to your offline library. " />
+
+        <LinearLayout
+            android:id="@+id/layoutBulletPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:orientation="vertical" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="22dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            app:customletterspacing="-0.53"
+            tools:text="You may want to check you're on wifi before downloading." />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonPositive"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/popup_rounded_button"
+            android:fontFamily="@font/opensans_bold"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:customletterspacing="-0.72"
+            tools:text="OK" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white"
+        app:layout_constraintBottom_toTopOf="@id/layoutMain"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

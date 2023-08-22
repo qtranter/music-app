@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audiomack.views.SwipeNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nowPlayingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbarFadeDuration="1000"
+    android:scrollbarThumbVertical="@drawable/scrollbar_thumb_now_playing"
+    android:scrollbars="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/nowPlayingScrollContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/ad_height">
+
+        <FrameLayout
+            android:id="@+id/nowPlayingPlayer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/black_alpha30" />
+
+        <ImageButton
+            android:id="@+id/nowPlayingShuffleBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/now_playing_margin_horizontal"
+            android:background="@drawable/bg_btn_player_settings"
+            android:minHeight="50dp"
+            android:contentDescription="@string/accessibility_player_shuffle"
+            app:layout_constraintEnd_toStartOf="@id/nowPlayingEqBtn"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nowPlayingPlayer"
+            app:srcCompat="@drawable/ic_shuffle" />
+
+        <ImageButton
+            android:id="@+id/nowPlayingEqBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/now_playing_margin_horizontal"
+            android:layout_marginEnd="@dimen/now_playing_margin_horizontal"
+            android:background="@drawable/bg_btn_player_settings"
+            app:layout_constraintBottom_toBottomOf="@id/nowPlayingShuffleBtn"
+            app:layout_constraintEnd_toStartOf="@id/nowPlayingRepeatBtn"
+            app:layout_constraintStart_toEndOf="@id/nowPlayingShuffleBtn"
+            app:layout_constraintTop_toTopOf="@id/nowPlayingShuffleBtn"
+            app:srcCompat="@drawable/ic_eq" />
+
+        <ImageButton
+            android:id="@+id/nowPlayingRepeatBtn"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/now_playing_margin_horizontal"
+            android:background="@drawable/bg_btn_player_settings"
+            android:contentDescription="@string/accessibility_player_repeat"
+            app:layout_constraintBottom_toBottomOf="@id/nowPlayingShuffleBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/nowPlayingEqBtn"
+            app:layout_constraintTop_toTopOf="@id/nowPlayingShuffleBtn"
+            app:srcCompat="@drawable/ic_repeat" />
+
+        <FrameLayout
+            android:id="@+id/nowPlayingUploader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nowPlayingShuffleBtn" />
+
+        <FrameLayout
+            android:id="@+id/nowPlayingBottomTabContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:elevation="16dp"
+            android:paddingTop="@dimen/now_playing_margin_horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nowPlayingUploader">
+
+            <RadioGroup
+                android:id="@+id/nowPlayingBottomTabs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="@dimen/now_playing_margin_horizontal"
+                android:layout_marginEnd="@dimen/now_playing_margin_horizontal"
+                android:background="@drawable/player_segment_background"
+                android:orientation="horizontal">
+
+                <com.audiomack.views.AMCustomFontRadioButton
+                    android:id="@+id/nowPlayingTabComments"
+                    style="@style/now_playing_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/tab_player_bottom_left"
+                    android:text="@string/player_extra_comments" />
+
+                <com.audiomack.views.AMCustomFontRadioButton
+                    android:id="@+id/nowPlayingTabInfo"
+                    style="@style/now_playing_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@drawable/tab_player_bottom"
+                    android:text="@string/player_extra_info" />
+
+                <com.audiomack.views.AMCustomFontRadioButton
+                    android:id="@+id/nowPlayingTabMore"
+                    style="@style/now_playing_tab"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:background="@drawable/tab_player_bottom_right"
+                    android:text="@string/player_extra_more_from_artist" />
+            </RadioGroup>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/nowPlayingBottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nowPlayingBottomTabContainer" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.audiomack.views.SwipeNestedScrollView>

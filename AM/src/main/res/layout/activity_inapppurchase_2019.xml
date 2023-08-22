@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UnusedAttribute">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        android:clipToPadding="false">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageViewBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                tools:src="@drawable/premium_2019_header" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="150dp">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:contentDescription="@string/app_name"
+                        app:srcCompat="@drawable/ic_login_logo" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/opensans_bold"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="0.9"
+                        android:text="@string/premium_2019_title"
+                        android:textColor="#ffffff"
+                        android:textSize="24sp"
+                        app:customletterspacing="-0.46" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvSubtitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="@string/premium_2019_subtitle"
+                        android:textColor="#CACACA"
+                        android:textSize="16sp"
+                        app:customletterspacing="-0.44" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureAdFree"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/premium_2019_ads"
+                        android:text="@string/premium_2019_adfree" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureAdFreeDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_adfree_desc" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureUnlimitedDownloads"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/ic_premium_2019_unlimited_downloads"
+                        android:text="@string/premium_2019_premiumdownloads" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureUnlimitedDownloadsDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_premiumdownloads_desc" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeaturePlaylist"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/ic_premium_2019_playlist"
+                        android:text="@string/premium_2019_playlist" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeaturePlaylistDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_playlist_desc" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureHiFi"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/premium_2019_hifi"
+                        android:drawablePadding="10dp"
+                        android:text="@string/premium_2019_hifi" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureHiFiDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_hifi_desc" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureSleepTimer"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/ic_premium_2019_sleep_timer"
+                        android:text="@string/premium_2019_sleep_timer" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureSleepTimerDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_sleep_timer_desc" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureEqualizer"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/ic_premium_2019_eq"
+                        android:text="@string/premium_2019_equalizer" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureEqualizerDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_equalizer_desc" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureTrial"
+                        style="@style/InAppPurchaseListTitle"
+                        android:drawableTop="@drawable/ic_premium_2019_trial"
+                        android:text="@string/premium_2019_trial" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFeatureTrialDesc"
+                        style="@style/InAppPurchaseListSubtitle"
+                        android:text="@string/premium_2019_trial_desc" />
+
+                    <com.audiomack.views.AMCustomFontButton
+                        android:id="@+id/buttonRestore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@null"
+                        android:contentDescription="@string/premium_restore"
+                        android:fontFamily="@font/opensans_bold"
+                        android:gravity="center"
+                        android:text="@string/premium_restore"
+                        android:textAllCaps="false"
+                        android:textColor="@color/orange"
+                        android:textSize="13sp"
+                        app:customletterspacing="-0.2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:orientation="vertical">
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvToc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="@string/premium_toc"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:customletterspacing="-0.56" />
+
+                    <com.audiomack.views.AMCustomFontTextView
+                        android:id="@+id/tvFooter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/gray_text"
+                        android:textSize="14sp"
+                        app:customletterspacing="-0.54"
+                        tools:text="@string/premium_desc_template" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/premium_2019_footer" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonUpgrade"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/upgrade_button"
+            android:fontFamily="@font/opensans_bold"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/premium_start_trial"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            app:customletterspacing="-0.53" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="34dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            app:customletterspacing="-0.2"
+            tools:text="@string/premium_price_template" />
+
+    </FrameLayout>
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="end|top"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_close"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white" />
+
+</merge>

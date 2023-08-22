@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/alert_background"
+        android:clickable="true"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="36dp"
+            android:contentDescription="@string/settings_sleep_timer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_sleep_timer" />
+
+        <cn.carbswang.android.numberpickerview.library.NumberPickerView
+            android:id="@+id/pickerHour"
+            style="@style/SleepTimerNumberPickerStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toStartOf="@id/pickerMin"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTitle" />
+
+        <cn.carbswang.android.numberpickerview.library.NumberPickerView
+            android:id="@+id/pickerMin"
+            style="@style/SleepTimerNumberPickerStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/pickerHour"
+            app:layout_constraintTop_toTopOf="@id/pickerHour" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@color/alert_bg"
+            app:layout_constraintEnd_toEndOf="@id/pickerMin"
+            app:layout_constraintStart_toStartOf="@id/pickerHour"
+            app:layout_constraintTop_toTopOf="@id/pickerHour" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:background="@drawable/gradient_picker_bottom"
+            app:layout_constraintBottom_toBottomOf="@id/pickerHour"
+            app:layout_constraintEnd_toEndOf="@id/pickerMin"
+            app:layout_constraintStart_toStartOf="@id/pickerHour" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:text="@string/sleep_timer_alert_title"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            app:customletterspacing="-0.42"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonPositive"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/popup_rounded_button"
+            android:fontFamily="@font/opensans_bold"
+            android:paddingStart="72dp"
+            android:paddingEnd="72dp"
+            android:text="@string/sleep_timer_alert_button"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            app:customletterspacing="-0.72"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pickerHour" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="4dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:scaleType="centerInside"
+        android:src="@drawable/close_white"
+        app:layout_constraintBottom_toTopOf="@id/layoutMain"
+        app:layout_constraintEnd_toEndOf="@id/layoutMain"
+        app:layout_constraintStart_toEndOf="@id/layoutMain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

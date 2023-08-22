@@ -1,0 +1,72 @@
+apply plugin: 'jacoco'
+
+jacoco {
+    toolVersion = "0.8.4"
+    reportsDir = file("$buildDir/reports")
+}
+
+android {
+    testOptions {
+        unitTests.all {
+            jacoco {
+                includeNoLocationClasses = true
+            }
+        }
+    }
+}
+
+task jacocoTestReport(type: JacocoReport, dependsOn: "testProdDebugUnitTest") {
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports for Debug build"
+
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+
+    def excludes = [
+            '**/R.class',
+            '**/R$*.class',
+            '**/BuildConfig.*',
+            '**/Manifest*.*',
+            'android/**/*.*',
+            '**/*Activity**',
+            '**/*Fragment**',
+            '**/*ViewHolder**',
+            '**/*ViewModelFactory**',
+            '**/com/audiomack/MainApplication**',
+            '**/com/audiomack/adapters/**',
+            '**/com/audiomack/common/PremiumStateViewHelper.kt',
+            '**/com/audiomack/data/database/ArtistDAOImpl.kt',
+            '**/com/audiomack/data/database/MusicDAOImpl.kt',
+            '**/com/audiomack/data/inapprating/InAppRatingEngine.kt',
+            '**/com/audiomack/data/inapprating/InAppRatingPreferences.kt',
+            '**/com/audiomack/data/onesignal/OneSignalRepository.kt',
+            '**/com/audiomack/data/screenshot/**',
+            '**/com/audiomack/network/**',
+            '**/com/audiomack/playback/cast/**',
+            '**/com/audiomack/playback/MusicService.kt',
+            '**/com/audiomack/playback/MusicServiceUseCase.kt',
+            '**/com/audiomack/rx/**',
+            '**/com/audiomack/ui/webviewauth/**',
+            '**/com/audiomack/utils/**',
+            '**/com/audiomack/views/**',
+            '**/danikula/**/*.*',
+            '**/mopub/**/*.*',
+            'androidTest/**/*.*'
+    ]
+    classDirectories.from = fileTree(
+            dir: "$buildDir/intermediates/classes/prodDebug",
+            excludes: excludes
+    ) + fileTree(
+            dir: "$buildDir/tmp/kotlin-classes/prodDebug",
+            excludes: excludes
+    )
+
+    sourceDirectories.from = files([
+            android.sourceSets.main.java.srcDirs,
+            "src/main/kotlin"
+    ])
+
+    executionData.from = files("$buildDir/jacoco/testProdDebugUnitTest.exec")
+}

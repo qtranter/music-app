@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_color"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/accessibility_song_image"
+            android:scaleType="centerCrop"
+            tools:src="#ff0000" />
+
+        <com.audiomack.views.AMNowPlayingImageView
+            android:id="@+id/imageViewPlaying"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_alpha50"
+            android:scaleType="center"
+            app:amnpi_style="orange"
+            tools:src="@drawable/playlist_track_playing" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:layout_marginStart="60dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_marginEnd="84dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_bold"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            app:customletterspacing="-0.62"
+            tools:text="Song Title" />
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/opensans_regular"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            app:customletterspacing="-0.5"
+            tools:text="Artist Name" />
+
+    </LinearLayout>
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonKebab"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="36dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:layout_marginEnd="48dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_actions"
+        android:padding="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="0dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_list_kebab" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:scaleType="centerInside"
+        android:src="@drawable/queue_reorder" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#202020" />
+
+</FrameLayout>

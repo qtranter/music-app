@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.audiomack.views.AMViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/tabLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="63dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <ImageButton
+                android:id="@+id/buttonAllCategories"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@string/accessibility_playlists_all_categories"
+                android:minHeight="0dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/playlists_all_categories" />
+
+        </FrameLayout>
+
+        <com.audiomack.views.AMCustomTabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:clipToPadding="false"
+            app:tabIndicatorColor="@color/orange"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/tablayout_selected_textcolor"
+            app:tabTextAppearance="@style/TabLayoutTextAppearance"
+            app:tabTextColor="@color/tablayout_unselected_textcolor" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/viewPlaceholder"
+        layout="@layout/view_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <com.audiomack.views.ProgressLogoView
+        android:id="@+id/animationView"
+        style="@style/ProgressLogoView" />
+
+</FrameLayout>

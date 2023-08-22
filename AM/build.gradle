@@ -1,0 +1,439 @@
+buildscript {
+    repositories {
+        google()
+        maven { url 'https://tapjoy.bintray.com/maven' }
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven {
+            credentials  {
+                username = SECRET_WITHOUT_QUOTES("AM_GUARDSQUARE_USER")
+                password = SECRET_WITHOUT_QUOTES("AM_GUARDSQUARE_PASSWORD")
+            }
+            url "https://maven.guardsquare.com"
+            content {
+                includeGroupByRegex "com\\.guardsquare.*"
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+    }
+
+    dependencies {
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.4.1'
+        classpath "com.guardsquare:dexguard-gradle-plugin:1.0.6"
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'embrace-swazzler'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.android.gms.oss-licenses-plugin'
+apply from: 'jacoco.gradle'
+apply from: 'ktlint.gradle'
+apply plugin: 'dexguard'
+
+repositories {
+    google()
+    mavenCentral()
+    maven { url 'https://comscore.bintray.com/Analytics' }
+    maven { url 'https://zendesk.jfrog.io/zendesk/repo' }
+    maven { url "https://storage.googleapis.com/snap-kit-build/maven" }
+    maven { url 'https://adcolony.bintray.com/AdColony' }
+    maven { url 'https://dl.bintray.com/ironsource-mobile/android-sdk'}
+    maven { url "https://fyber.bintray.com/marketplace" }
+    flatDir dirs: 'libs'
+}
+
+android {
+
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.audiomack"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        kotlinOptions {
+            jvmTarget = JavaVersion.VERSION_1_8
+        }
+
+        buildConfigField "boolean", "TEST_ADS", "false"
+
+        buildConfigField "String", "AM_WS_URL_DEV", SECRET("AM_WS_URL_DEV")
+        buildConfigField "String", "AM_CONSUMER_KEY", SECRET("AM_CONSUMER_KEY")
+        buildConfigField "String", "AM_CONSUMER_SECRET", SECRET("AM_CONSUMER_SECRET")
+        buildConfigField "String", "AM_TWITTER_CONSUMER_KEY", SECRET("AM_TWITTER_CONSUMER_KEY")
+        buildConfigField "String", "AM_TWITTER_CONSUMER_SECRET", SECRET("AM_TWITTER_CONSUMER_SECRET")
+        buildConfigField "String", "AM_PREFERENCES_SECRET", SECRET("AM_PREFERENCES_SECRET")
+        buildConfigField "String", "AM_COMSCORE_ID", SECRET("AM_COMSCORE_ID")
+        buildConfigField "String", "AM_MOPUB_BANNER_ID", SECRET("AM_MOPUB_BANNER_ID")
+        buildConfigField "String", "AM_MOPUB_NATIVEAD_ID", SECRET("AM_MOPUB_NATIVEAD_ID")
+        buildConfigField "String", "AM_MOPUB_300x250_ID", SECRET("AM_MOPUB_300x250_ID")
+        buildConfigField "String", "AM_MOPUB_INTERSTITIAL_ID", SECRET("AM_MOPUB_INTERSTITIAL_ID")
+        buildConfigField "String", "AM_MOPUB_SOUND_ON_INTERSTITIAL_ID", SECRET("AM_MOPUB_SOUND_ON_INTERSTITIAL_ID")
+        buildConfigField "String", "AM_COMPLEX_BANNER_ID", SECRET("AM_COMPLEX_BANNER_ID")
+        buildConfigField "String", "AM_COMPLEX_300x250_ID", SECRET("AM_COMPLEX_300x250_ID")
+        buildConfigField "String", "AM_OGURY_INTERSTITIAL_ID", SECRET("AM_OGURY_INTERSTITIAL_ID")
+        buildConfigField "String", "AM_OGURY_APP_ID", SECRET("AM_OGURY_APP_ID")
+        buildConfigField "String", "AM_MIXPANEL_TOKEN", SECRET("AM_MIXPANEL_TOKEN")
+        buildConfigField "String", "AM_FIREBASE_SENDER_ID", SECRET("AM_FIREBASE_SENDER_ID")
+        buildConfigField "String", "AM_ZENDESK_URL", SECRET("AM_ZENDESK_URL")
+        buildConfigField "String", "AM_ZENDESK_APP_ID", SECRET("AM_ZENDESK_APP_ID")
+        buildConfigField "String", "AM_ZENDESK_CLIENT_ID", SECRET("AM_ZENDESK_CLIENT_ID")
+        buildConfigField "String", "AM_APPS_FLYER_KEY", SECRET("AM_APPS_FLYER_KEY")
+        buildConfigField "String", "AM_REVENUE_CAT_KEY", SECRET("AM_REVENUE_CAT_KEY")
+        buildConfigField "String", "AM_REVENUE_CAT_ENTITLEMENT", SECRET("AM_REVENUE_CAT_ENTITLEMENT")
+        buildConfigField "String", "AM_GOOGLE_ID", SECRET("AM_GOOGLE_ID")
+        buildConfigField "String", "AM_CHROMECAST_RECEIVER_APP_ID", SECRET("AM_CHROMECAST_RECEIVER_APP_ID")
+        buildConfigField "String", "AM_APS_KEY", SECRET("AM_APS_KEY")
+        buildConfigField "String", "AM_APS_BANNER_SLOT", SECRET("AM_APS_BANNER_SLOT")
+        buildConfigField "String", "AM_APS_300x250_SLOT", SECRET("AM_APS_300x250_SLOT")
+        buildConfigField "String", "AM_APS_INTERSTITIAL_SLOT", SECRET("AM_APS_INTERSTITIAL_SLOT")
+        buildConfigField "String", "AM_SNAPCHAT_CLIENT_ID", SECRET("AM_SNAPCHAT_CLIENT_ID")
+        buildConfigField "String", "AM_TAPJOY_SDK_KEY", SECRET("AM_TAPJOY_SDK_KEY")
+        buildConfigField "String", "AM_ADCOLONY_APP_ID", SECRET("AM_ADCOLONY_APP_ID")
+        buildConfigField "String", "AM_ADCOLONY_INTERSTITIAL_ZONE_ID", SECRET("AM_ADCOLONY_INTERSTITIAL_ZONE_ID")
+        buildConfigField "String", "AM_ADCOLONY_INTERSTITIAL_SS_ZONE_ID", SECRET("AM_ADCOLONY_INTERSTITIAL_SS_ZONE_ID")
+        buildConfigField "String", "AM_ADCOLONY_BANNER_ZONE_ID", SECRET("AM_ADCOLONY_BANNER_ZONE_ID")
+        buildConfigField "String", "AM_VERIZON_SITE_ID", SECRET("AM_VERIZON_SITE_ID")
+        buildConfigField "String", "AM_ADSWIZZ_SERVER", SECRET("AM_ADSWIZZ_SERVER")
+        buildConfigField "String", "AM_ADSWIZZ_ZONE_ID_PREROLL", SECRET("AM_ADSWIZZ_ZONE_ID_PREROLL")
+        buildConfigField "String", "AM_ADSWIZZ_ZONE_ID_MIDROLL", SECRET("AM_ADSWIZZ_ZONE_ID_MIDROLL")
+        buildConfigField "String", "AM_ADSWIZZ_ZONE_ID_DISPLAY", SECRET("AM_ADSWIZZ_ZONE_ID_DISPLAY")
+        buildConfigField "String", "AM_FYBER_APP_ID", SECRET("AM_FYBER_APP_ID")
+        buildConfigField "String", "AM_GHOST_KEY", SECRET("AM_GHOST_KEY")
+        buildConfigField "String", "AM_GHOST_URL", SECRET("AM_GHOST_URL")
+    }
+    signingConfigs {
+        debug {
+            def keystore = rootProject.file(".signing/debug.keystore")
+            if (keystore.exists()) {
+                storeFile keystore
+            }
+        }
+    }
+    buildTypes {
+        release {
+            // These settings have to be disabled for DexGuard to work correctly.
+            minifyEnabled false
+            multiDexEnabled false
+            shrinkResources false
+
+            //Other parameters
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            pseudoLocalesEnabled false
+            zipAlignEnabled true
+            buildConfigField "boolean", "AUDIOMACK_DEBUG", "false"
+            resValue "bool", "debug", "false"
+        }
+        debug {
+            buildConfigField "boolean", "AUDIOMACK_DEBUG", "true"
+            buildConfigField "String", "AM_CHROMECAST_RECEIVER_APP_ID", SECRET("AM_CHROMECAST_RECEIVER_APP_ID_DEV")
+            resValue "bool", "debug", "true"
+            ext.disableSwazzling = true
+        }
+        adTest {
+            initWith(debug)
+            buildConfigField "boolean", "TEST_ADS", "true"
+            buildConfigField "String", "AM_MOPUB_BANNER_ID", SECRET("AM_MOPUB_BANNER_TEST_ID")
+            buildConfigField "String", "AM_MOPUB_NATIVEAD_ID", SECRET("AM_MOPUB_NATIVEAD_TEST_ID")
+            buildConfigField "String", "AM_MOPUB_300x250_ID", SECRET("AM_MOPUB_300x250_TEST_ID")
+            buildConfigField "String", "AM_MOPUB_INTERSTITIAL_ID", SECRET("AM_MOPUB_INTERSTITIAL_TEST_ID")
+            buildConfigField "String", "AM_MOPUB_SOUND_ON_INTERSTITIAL_ID", SECRET("AM_MOPUB_INTERSTITIAL_TEST_ID")
+        }
+
+    }
+    lintOptions {
+        checkReleaseBuilds true
+        abortOnError false
+        error("VisibleForTests")
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    testOptions {
+        unitTests{
+            returnDefaultValues = true
+        }
+    }
+    androidExtensions {
+        experimental = true
+    }
+    flavorDimensions "default"
+    productFlavors {
+        qa {
+            buildConfigField "String", "AM_WS_URL_LIVE", SECRET("AM_WS_URL_DEV")
+            buildConfigField "String", "AM_MIXPANEL_TOKEN", SECRET("AM_MIXPANEL_TOKEN_DEV")
+            buildConfigField "String", "AM_REVENUE_CAT_KEY", SECRET("AM_REVENUE_CAT_KEY_DEV")
+            buildConfigField "String", "AM_REVENUE_CAT_ENTITLEMENT", SECRET("AM_REVENUE_CAT_ENTITLEMENT")
+            buildConfigField "String", "AM_APPLE_SIGNIN_CLIENT_ID", SECRET("AM_APPLE_SIGNIN_CLIENT_ID_DEV")
+            buildConfigField "String", "AM_APPLE_SIGNIN_REDIRECT_URL", SECRET("AM_APPLE_SIGNIN_REDIRECT_URL_DEV")
+            buildConfigField "String", "AM_INSTAGRAM_APP_ID", SECRET("AM_INSTAGRAM_APP_ID_DEV")
+            buildConfigField "String", "AM_INSTAGRAM_REDIRECT_URL", SECRET("AM_INSTAGRAM_REDIRECT_URL_DEV")
+
+            manifestPlaceholders = [
+                    FACEBOOK_APP_ID                : SECRET_WITHOUT_QUOTES("AM_FACEBOOK_APP_ID_DEV"),
+                    onesignal_app_id               : SECRET_WITHOUT_QUOTES("AM_ONESIGNAL_APP_ID_DEV"),
+                    onesignal_google_project_number: 'REMOTE',
+                    APPLOVIN_SDK_KEY               : SECRET_WITHOUT_QUOTES("AM_APPLOVIN_SDK_KEY"),
+                    AM_SNAPCHAT_CLIENT_ID          : SECRET_WITHOUT_QUOTES("AM_SNAPCHAT_CLIENT_ID"),
+                    ADSWIZZ_INSTALLATION_ID        : SECRET_WITHOUT_QUOTES("AM_ADSWIZZ_INSTALLATION_ID"),
+                    ADSWIZZ_PLAYER_ID              : SECRET_WITHOUT_QUOTES("AM_ADSWIZZ_PLAYER_ID")
+            ]
+        }
+        prod {
+            buildConfigField "String", "AM_WS_URL_LIVE", SECRET("AM_WS_URL_LIVE")
+            buildConfigField "String", "AM_MIXPANEL_TOKEN", SECRET("AM_MIXPANEL_TOKEN")
+            buildConfigField "String", "AM_REVENUE_CAT_KEY", SECRET("AM_REVENUE_CAT_KEY")
+            buildConfigField "String", "AM_REVENUE_CAT_ENTITLEMENT", SECRET("AM_REVENUE_CAT_ENTITLEMENT")
+            buildConfigField "String", "AM_APPLE_SIGNIN_CLIENT_ID", SECRET("AM_APPLE_SIGNIN_CLIENT_ID")
+            buildConfigField "String", "AM_APPLE_SIGNIN_REDIRECT_URL", SECRET("AM_APPLE_SIGNIN_REDIRECT_URL")
+            buildConfigField "String", "AM_INSTAGRAM_APP_ID", SECRET("AM_INSTAGRAM_APP_ID")
+            buildConfigField "String", "AM_INSTAGRAM_REDIRECT_URL", SECRET("AM_INSTAGRAM_REDIRECT_URL")
+
+            manifestPlaceholders = [
+                    FACEBOOK_APP_ID                : SECRET_WITHOUT_QUOTES("AM_FACEBOOK_APP_ID"),
+                    onesignal_app_id               : SECRET_WITHOUT_QUOTES("AM_ONESIGNAL_APP_ID"),
+                    onesignal_google_project_number: 'REMOTE',
+                    APPLOVIN_SDK_KEY               : SECRET_WITHOUT_QUOTES("AM_APPLOVIN_SDK_KEY"),
+                    AM_SNAPCHAT_CLIENT_ID          : SECRET_WITHOUT_QUOTES("AM_SNAPCHAT_CLIENT_ID"),
+                    ADSWIZZ_INSTALLATION_ID        : SECRET_WITHOUT_QUOTES("AM_ADSWIZZ_INSTALLATION_ID"),
+                    ADSWIZZ_PLAYER_ID              : SECRET_WITHOUT_QUOTES("AM_ADSWIZZ_PLAYER_ID")
+            ]
+        }
+    }
+    packagingOptions {
+        pickFirst 'google/protobuf/**'
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+}
+
+dexguard {
+    version = "9.0.6"
+    license = "../dexguard-license.txt"
+    configurations {
+        release {
+            defaultConfiguration 'dexguard-release.pro'
+            configuration 'dexguard-rules.pro'
+            configuration 'proguard-rules.pro'
+            consumerRuleFilter 'com.appsflyer:af-android-sdk'
+        }
+    }
+    // Ignore broken consumer dexguard rules for AppsFlyer
+    // -keepresourcefiles com/appsflyer/internal/a-,com/appsflyer/internal/b- <-- this will be added to our dexguard rules for the moment
+    // -keepresources <-- this is an invalid syntax for Dexguard v9, will add the proper syntax to our dexguard rules
+}
+
+dependencies {
+    implementation project(':modules:onesignal')
+
+    implementation "androidx.core:core-ktx:1.3.2"
+    implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$rootProject.lifecycleVersion"
+    implementation "androidx.appcompat:appcompat:1.2.0-beta01"
+    implementation "com.google.android.material:material:1.3.0-alpha04"
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.viewpager2:viewpager2:1.0.0-rc01'
+    implementation "androidx.media:media:1.2.1"
+    implementation "androidx.activity:activity-ktx:1.2.0-rc01"
+    implementation "androidx.fragment:fragment-ktx:1.3.0-rc01"
+    implementation "androidx.paging:paging-runtime:$rootProject.pagingVersion"
+    implementation "androidx.paging:paging-rxjava2:$rootProject.pagingVersion"
+    implementation "androidx.work:work-runtime:$rootProject.workVersion"
+    implementation "androidx.work:work-runtime-ktx:$rootProject.workVersion"
+    implementation "androidx.work:work-rxjava2:$rootProject.workVersion"
+    implementation "androidx.startup:startup-runtime:$rootProject.startupVersion"
+
+    // Google services
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation "com.google.android.gms:play-services-analytics:17.0.0"
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    implementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
+    implementation 'com.google.android.play:core:1.9.0'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-analytics:18.0.1'
+    implementation 'com.google.firebase:firebase-config:20.0.2'
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
+
+    // Chromecast
+    implementation 'androidx.mediarouter:mediarouter:1.2.0'
+    implementation 'com.google.android.gms:play-services-cast-framework:19.0.0'
+
+    // Exoplayer
+    implementation "com.google.android.exoplayer:exoplayer:$rootProject.exoPlayerVersion"
+    implementation "com.google.android.exoplayer:extension-cast:$rootProject.exoPlayerVersion"
+    implementation "com.google.android.exoplayer:extension-mediasession:$rootProject.exoPlayerVersion"
+
+    implementation "com.snapchat.kit.sdk:creative:1.4.0"
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation "com.facebook.android:facebook-login:$rootProject.facebookVersion"
+    implementation "com.facebook.android:facebook-share:$rootProject.facebookVersion"
+    implementation 'com.github.matteinn:activeandroid:3.2.4'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.pwittchen:reactivenetwork-rx2:3.0.8'
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxJavaVersion"
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'org.ocpsoft.prettytime:prettytime:4.0.5.Final'
+    implementation "com.squareup.okhttp3:okhttp:$rootProject.okHttpVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.okHttpVersion"
+    implementation "com.squareup.okio:okio:$rootProject.okioVersion"
+    implementation "com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-moshi:$rootProject.retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofitVersion"
+    implementation 'se.akerfeldt:okhttp-signpost:1.1.0'
+    implementation 'oauth.signpost:signpost-core:1.2.1.2'
+    implementation 'jp.wasabeef:blurry:3.0.0'
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+    implementation 'com.comscore:android-analytics:6.6.0'
+    implementation('io.branch.sdk.android:library:4.3.2')
+    implementation('com.twitter.sdk.android:twitter:3.3.0@aar') {
+        transitive = true
+    }
+
+    // Mopub
+    implementation ("com.mopub:mopub-sdk:$rootProject.mopubVersion@aar") {
+        transitive = true
+    }
+
+    // Ogury through Mopub
+    implementation name: 'ogury-sdk-4.7.6', ext: 'aar'
+    implementation name: 'ogury-mediation-mopub-5.0.1', ext: 'aar'
+
+    // Admob through Mopub
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+    implementation 'com.mopub.mediation:admob:19.4.0.1'
+
+    // Facebook Audience Network through Mopub
+    implementation('com.facebook.android:audience-network-sdk:6.2.0') {
+        exclude group: 'com.google.android.gms'
+    }
+    implementation 'com.mopub.mediation:facebookaudiencenetwork:6.2.0.2'
+
+    // Verizon SDK through Mopub
+    implementation 'com.verizon.ads:android-vas-standard-edition:1.8.0'
+    implementation 'com.mopub.mediation:verizon:1.8.0.2'
+
+    // AppLovin through Mopub
+    implementation 'com.applovin:applovin-sdk:9.14.10'
+    implementation 'com.mopub.mediation:applovin:9.14.10.0'
+
+    // AdColony through Mopub
+    implementation 'com.adcolony:sdk:4.3.0'
+    implementation 'com.mopub.mediation:adcolony:4.3.0.0'
+
+    // IronSource through Mopub
+    implementation 'com.ironsource.sdk:mediationsdk:7.0.3.1'
+    implementation 'com.mopub.mediation:ironsource:7.0.3.1.0'
+
+    // Fyber through Mopub
+    implementation "com.fyber.vamp:mopub-custom-events-5.13:$rootProject.fyberVersion"
+    implementation "com.fyber.vamp:core-sdk:$rootProject.fyberVersion"
+    implementation "com.fyber.vamp:mraid-kit:$rootProject.fyberVersion"
+    implementation "com.fyber.vamp:video-kit:$rootProject.fyberVersion"
+
+    // Unity through Mopub
+    implementation name: 'unity-ads-3.5.0', ext: 'aar'
+    implementation 'com.mopub.mediation:unityads:3.5.0.0'
+
+    implementation 'com.github.matteinn:cropiwa:6753f21a1a'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    implementation group: 'com.zendesk', name: 'support', version: '5.0.2'
+    implementation "com.mixpanel.android:mixpanel-android:$rootProject.mixpanelVersion"
+    implementation 'jp.wasabeef:picasso-transformations:2.2.1'
+
+    implementation 'com.revenuecat.purchases:purchases:3.5.1'
+
+    implementation 'com.google.android.gms:play-services-basement:17.4.0'
+
+    // TapJoy via Mopub
+    implementation 'com.tapjoy:tapjoy-android-sdk:12.6.1@aar'
+    implementation 'com.mopub.mediation:tapjoy:12.6.1.0'
+
+    // Amazon Publisher Services
+    implementation 'com.amazon.android:aps-sdk:8.4.0@aar'
+
+    // AppsFlyer and Mixpanel
+    implementation 'com.appsflyer:af-android-sdk:5.3.0'
+    implementation 'com.appsflyer:adrevenue:5.1.0'
+    implementation 'com.android.installreferrer:installreferrer:1.1.1'
+
+    debugImplementation "com.facebook.stetho:stetho:$rootProject.stethoVersion"
+    debugImplementation "com.facebook.stetho:stetho-okhttp3:$rootProject.stethoVersion"
+    adTestImplementation "com.facebook.stetho:stetho:$rootProject.stethoVersion"
+    adTestImplementation "com.facebook.stetho:stetho-okhttp3:$rootProject.stethoVersion"
+
+    implementation 'com.airbnb.android:lottie:3.6.0'
+
+    implementation 'com.android.support:design:28.0.0'
+
+    implementation 'cn.carbswang.android:NumberPickerView:1.2.0'
+
+    implementation "com.xwray:groupie:$rootProject.groupieVersion"
+    implementation "com.xwray:groupie-kotlin-android-extensions:$rootProject.groupieVersion"
+
+    // Crashlytics
+    implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
+
+    // Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$rootProject.kotlinVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:$rootProject.coroutinesVersion"
+
+    implementation "com.adswizz:adswizz-sdk:7.1.4"
+
+    adTestImplementation "com.squareup.leakcanary:leakcanary-android:$rootProject.leakCanaryVersion"
+
+    // Testing dependencies
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$rootProject.espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$rootProject.espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestImplementation "org.mockito:mockito-android:$rootProject.mockitoVersion"
+    androidTestImplementation "androidx.test.ext:junit:$rootProject.junitVersion"
+
+    testImplementation 'androidx.arch.core:core-testing:2.1.0'
+    testImplementation "org.mockito:mockito-inline:$rootProject.mockitoVersion"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$rootProject.mockitoKotlinVersion"
+    testImplementation "androidx.test.ext:junit:$rootProject.junitVersion"
+    testImplementation "org.robolectric:robolectric:$rootProject.roboelectricVersion"
+}
+
+// START: Hack for Dexguard v9 and OSS plugin. Reference: DGD-2964
+tasks.register("shrinkJson") {
+    doLast {
+        String path = "${project.buildDir}/generated/third_party_licenses/dependencies.json"
+        File jsonFile = new File(path)
+        def pattern = ~/.*?\{(\r\n|\r|\n).*(\r\n|\r|\n).*(\r\n|\r|\n).*(\r\n|\r|\n).*?"name":\s.+\d".*?(\r\n|\r|\n).*?\},/
+
+        String content = jsonFile.getText()
+        content = content.replaceAll(pattern, "")
+        jsonFile.setText(content)
+    }
+    dependsOn getDependencies
+}
+generateLicenses.dependsOn(shrinkJson)
+// END
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user added CAs while debuggable only -->
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+    <!-- Needed by facebook audience network https://developers.facebook.com/docs/audience-network/android-network-security-config -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <!-- We need to enable this for <= 5.0 because it doesn't support or has trouble with https sni -->
+        <domain includeSubdomains="true">music.audiomack.com</domain>
+        <domain includeSubdomains="true">assets.audiomack.com</domain>
+    </domain-config>
+</network-security-config>

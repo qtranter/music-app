@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivPost"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@string/accessibility_world_logo"
+        app:layout_constraintDimensionRatio="16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@color/orange" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTagName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0d0d0d"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:paddingStart="10dp"
+        android:fontFamily="@font/opensans_bold"
+        android:textColor="@color/orange"
+        android:textSize="10sp"
+        android:textAllCaps="true"
+        android:gravity="start"
+        app:layout_constraintBottom_toBottomOf="@id/ivPost"
+        app:layout_constraintStart_toStartOf="@id/tvPostTitle"
+        app:layout_constraintEnd_toEndOf="@id/tvPostTitle"
+        tools:text="INTERVIEW"/>
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvPostTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#0d0d0d"
+        android:ellipsize="end"
+        android:fontFamily="@font/opensans_bold"
+        android:maxLines="2"
+        android:paddingStart="10dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:customletterspacing="-0.55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivPost"
+        tools:text="Title Post Title Post Title Post Title" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvPostDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="25dp"
+        android:background="#0d0d0d"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="32dp"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="#cacaca"
+        android:textSize="14sp"
+        app:customletterspacing="-0.44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPostTitle"
+        tools:text="post description post description post description post description post description post description" />
+</androidx.constraintlayout.widget.ConstraintLayout>

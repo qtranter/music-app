@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="SpUsage"
+    android:paddingBottom="1dp">
+
+    <FrameLayout
+        android:id="@+id/headerHighlights"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvHighlighted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:fontFamily="@font/opensans_extrabold"
+            app:customletterspacing="-0.6"
+            android:text="@string/uploads_header_highlighted"
+            android:drawableLeft="@drawable/uploads_highlighted"
+            android:drawablePadding="8dp"/>
+
+        <ImageButton
+            android:id="@+id/buttonEdit"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/highlighted_edit"
+            android:background="@null"
+            android:layout_gravity="right"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/placeholderLayout"
+        android:layout_width="0dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#222222"
+        app:layout_constraintTop_toBottomOf="@id/headerHighlights"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:gravity="center"
+            android:textColor="#CACACA"
+            android:textSize="13dp"
+            android:fontFamily="@font/opensans_regular"
+            app:customletterspacing="-0.28"
+            android:text="@string/uploads_highlighted_message" />
+
+        <ImageButton
+            android:id="@+id/buttonClose"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="top|right|end"
+            android:src="@drawable/highlighted_close"
+            android:background="@null"/>
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:paddingLeft="11dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/row_highlighted_grid"
+        app:layout_constraintTop_toBottomOf="@id/placeholderLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvRecent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        android:fontFamily="@font/opensans_extrabold"
+        app:customletterspacing="-0.6"
+        android:text="@string/uploads_header_recent"
+        android:drawableLeft="@drawable/uploads_recent"
+        android:drawablePadding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recyclerView"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.audiomack"
+    android:installLocation="auto">
+
+    <!-- API layer, Downloader and all ads/analytics SDKs -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- Music Player, Downloader, Push -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <!-- Ad providers location awareness -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- MediaStore access -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:remove="android:maxSdkVersion" />
+
+    <!-- InAppBilling -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!-- Take picture -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+
+    <!-- Mixpanel GCM implementation -->
+    <permission android:name="com.audiomack.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.audiomack.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- AdsWizz requires min API 23 -->
+    <uses-sdk tools:overrideLibrary="com.adswizz.sdk" />
+
+    <!-- Unwanted AdsWizz permissions -->
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_CONTACTS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_CALENDAR"
+        tools:node="remove" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MainApplication"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:resizeableActivity="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:fullBackupContent="@xml/backup_rules"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        tools:replace="android:fullBackupContent">
+
+        <receiver android:name=".ui.widget.AudiomackWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/audiomack_widget_info" />
+        </receiver>
+
+
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="ca8f4d65a2592a587224ce81642034243ca5e083"/>
+
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_gbkLpNvFF9SblzVxOXpmfponsEhcA1oT" />
+
+        <meta-data android:name="AA_DB_NAME" android:value="Audiomack.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="44" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.audiomack.model.AMResultItem, com.audiomack.model.AMArtist, com.audiomack.model.AMBookmarkItem, com.audiomack.model.AMBookmarkStatus, com.audiomack.model.AMPlaylistTracks, com.audiomack.model.LocalMediaExclusion" />
+
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-3858157454086512~8984853183"/>
+
+        <!-- Firebase Messaging Push -->
+        <service android:name=".push.AMFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notification_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/black" />
+
+        <!-- Music service -->
+        <service
+            android:name=".playback.MusicService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="mediaPlayback"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Download service -->
+        <service android:name=".download.DownloadService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+
+        <!-- Snapkit SDK -->
+        <meta-data android:name="com.snapchat.kit.sdk.clientId" android:value="${AM_SNAPCHAT_CLIENT_ID}" />
+
+        <!-- Facebook SDK -->
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider${FACEBOOK_APP_ID}"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true" />
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/facebook_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <!-- Facebook Audience Network: interstitials -->
+        <activity android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <!-- AppLovin: interstitials -->
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="${APPLOVIN_SDK_KEY}" />
+
+        <activity
+            android:name="com.applovin.adview.AppLovinInterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            tools:replace="android:configChanges" />
+
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_MUSIC" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="audiomackapp" android:host="open" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <meta-data android:name="io.branch.sdk.auto_link_keys" android:value="album,song,playlist,artist,suggested_follows,playlists,artist_downloads,artist_favorites,artist_playlists,artist_followers,artist_following,support" />
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+        </activity>
+        <activity android:name=".ui.home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="uiMode">
+            <intent-filter>
+                <data android:scheme="audiomack" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="audiomack.app.link" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="http" android:host="audiomack.com" android:pathPattern=".*" />
+                <data android:scheme="https" android:host="audiomack.com" android:pathPattern=".*" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="content"/>
+                <data android:mimeType="audio/*" />
+                <data android:mimeType="application/ogg"/>
+                <data android:mimeType="application/x-ogg"/>
+                <data android:mimeType="application/itunes"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.authentication.AuthenticationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".ui.premium.InAppPurchaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.defaultgenre.DefaultGenreActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.editaccount.EditAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.playlist.reorder.ReorderPlaylistActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.playlist.add.AddToPlaylistsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".ui.playlist.edit.EditPlaylistActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".ui.removedcontent.RemovedContentActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.settings.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.help.HelpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.highlights.EditHighlightsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.search.filters.SearchFiltersActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.logviewer.LogViewerActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.screenshot.ScreenshotActivity"
+            android:theme="@style/ScreenshotActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".ui.authentication.contact.ContactSupportActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".ui.notifications.preferences.NotificationsPreferencesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.report.ReportContentActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".ui.authentication.changepw.ChangePasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.authentication.resetpw.ResetPasswordActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Just for tests -->
+        <activity android:name=".ui.base.TestActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <provider
+            android:name="com.activeandroid.content.ContentProvider"
+            android:authorities="com.audiomack"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- MoPub -->
+        <activity android:name="com.mopub.mobileads.MoPubActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.mobileads.MraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.mobileads.RewardedMraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.common.MoPubBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.common.privacy.ConsentDialogActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"/>
+            
+        <!-- AppsFlyer -->
+        <!-- https://support.appsflyer.com/hc/en-us/articles/207032126-AppsFlyer-SDK-Integration-Android -->
+        <receiver android:name="com.appsflyer.SingleInstallBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- TapJoy -->
+        <activity
+            android:name="com.tapjoy.TJAdUnitActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.TJContentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:hardwareAccelerated="true" />
+
+        <!-- Mixpanel -->
+        <meta-data android:name="com.mixpanel.android.MPConfig.DisableGestureBindingUI" android:value="true" />
+		<meta-data android:name="com.mixpanel.android.MPConfig.DisableEmulatorBindingUI" android:value="true" />
+        <meta-data android:name="com.mixpanel.android.MPConfig.FlushInterval" android:value="120000" />
+        <activity
+            android:name="com.mixpanel.android.takeoverinapp.TakeoverInAppActivity"
+            android:theme="@style/com_mixpanel_android_TakeoverInAppActivityTheme"/>
+
+        <!-- Google Cast -->
+        <meta-data
+            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+            android:value="com.audiomack.playback.cast.CastOptionsProvider" />
+
+        <!-- Zendesk, needed to enforce the theme -->
+        <activity
+            android:name="zendesk.support.guide.HelpCenterActivity"
+            android:theme="@style/ZendeskDarkTheme" />
+        <activity
+            android:name="zendesk.support.guide.ViewArticleActivity"
+            android:theme="@style/ZendeskDarkTheme" />
+        <activity
+            android:name="zendesk.support.request.RequestActivity"
+            android:theme="@style/ZendeskDarkTheme" />
+        <activity
+            android:name="zendesk.support.requestlist.RequestListActivity"
+            android:theme="@style/ZendeskDarkTheme" />
+
+        <!-- Open source libraries -->
+        <activity
+            android:name="com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+            android:theme="@style/OpenSourceTheme"/>
+        <activity
+            android:name="com.google.android.gms.oss.licenses.OssLicensesActivity"
+            android:theme="@style/OpenSourceTheme"/>
+
+        <!-- AdsWizz -->
+        <meta-data
+            android:name="com.adswizz.core.installationId"
+            android:value="${ADSWIZZ_INSTALLATION_ID}" />
+        <meta-data
+            android:name="com.adswizz.core.playerId"
+            android:value="${ADSWIZZ_PLAYER_ID}" />
+
+        <!-- App Startup -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data android:name="com.audiomack.startup.OneSignalInitializer"
+                tools:node="remove" />
+        </provider>
+
+        <meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE" />
+
+    </application>
+
+    <!-- Facebook express login https://developers.facebook.com/docs/facebook-login/android -->
+    <queries>
+        <package android:name="com.facebook.katana" />
+    </queries>
+
+</manifest>

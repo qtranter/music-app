@@ -1,0 +1,1 @@
+ALTER TABLE items ADD COLUMN album_track_downloaded_as_single boolean;

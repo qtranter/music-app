@@ -1,0 +1,123 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    // Define versions in a single place
+    ext {
+        // App version
+        versionCode = 200
+        versionName = "5.11.0"
+
+        // Sdk and tools
+        compileSdkVersion = 29
+        minSdkVersion = 21
+        targetSdkVersion = 29
+        buildToolsVersion = "29.0.3"
+
+        // App dependencies
+        espressoVersion = '3.3.0'
+        gradleVersion = '4.0.0'
+        junitVersion = '1.1.2'
+
+        kotlinVersion = '1.4.21'
+        coroutinesVersion = '1.4.1'
+        ktxVersion = '1.0.0'
+
+        ktlintVersion = '0.36.0'
+        mockitoVersion = '3.7.7'
+        mockitoKotlinVersion = '2.2.0'
+        roboelectricVersion = '4.5'
+        stethoVersion = '1.5.1'
+        exoPlayerVersion = '2.11.0'
+        leakCanaryVersion = '2.6'
+        facebookVersion = '8.1.0'
+        okHttpVersion = '4.9.0'
+        okioVersion = '2.9.0'
+        retrofitVersion = '2.9.0'
+        mixpanelVersion = '5.8.6'
+        mopubVersion = "5.14.0"
+        fyberVersion = "7.7.2"
+        embraceVersion = '4.6.3'
+        onesignalVersion = "3.15.6"
+        onesignalPluginVersion = "0.12.10"
+        rxJavaVersion = "2.2.20"
+        groupieVersion = "2.8.1"
+
+        // AndroidX
+        lifecycleVersion = '2.2.0'
+        workVersion = "2.4.0"
+        startupVersion = '1.0.0'
+        pagingVersion = '3.0.0-alpha04'
+    }
+
+    repositories {
+        google()
+        jcenter()
+        maven {   // For the DexGuard Gradle plugin jar.
+            credentials  {
+                username = "dev@audiomack.com"
+                password = "42Z}(#m{}Xpq39=4>@)*"
+            }
+            url "https://maven.guardsquare.com"
+            content {
+                includeGroupByRegex "com\\.guardsquare.*"
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:${gradleVersion}"
+        classpath 'com.google.gms:google-services:4.3.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath 'com.android.tools.build:bundletool:1.4.0'
+        classpath 'com.google.android.gms:oss-licenses-plugin:0.10.2'
+        classpath "embrace-io:embrace-swazzler:$embraceVersion"
+    }
+}
+
+plugins {
+    id "com.diffplug.spotless" version "5.9.0"
+}
+
+apply from: "./secrets.gradle"
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven {
+            url "https://raw.githubusercontent.com/adswizz/ad-sdk-android/master/releases"
+            credentials(HttpHeaderCredentials) {
+                name = "Authorization"
+                value = "Bearer " + SECRET_WITHOUT_QUOTES("AM_ADSWIZZ_TOKEN")
+            }
+            authentication {
+                header(HttpHeaderAuthentication)
+            }
+        }
+        maven {
+            credentials  {
+                username = SECRET_WITHOUT_QUOTES("AM_GUARDSQUARE_USER")
+                password = SECRET_WITHOUT_QUOTES("AM_GUARDSQUARE_PASSWORD")
+            }
+            url "https://maven.guardsquare.com"
+            content {
+                includeGroupByRegex "com\\.guardsquare.*"
+            }
+            authentication {
+                basic(BasicAuthentication)
+            }
+        }
+    }
+}
+
+spotless {
+    kotlin {
+        target "src/**/*.kt"
+        ktlint(ktlintVersion)
+    }
+}

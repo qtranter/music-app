@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_alpha80"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvCommentingOn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:drawablePadding="5dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center_vertical"
+        android:minHeight="30dp"
+        android:paddingStart="15dp"
+        android:paddingTop="7dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="7dp"
+        android:textColor="@color/gray_text"
+        android:textSize="12sp"
+        app:customletterspacing="-0.48"
+        app:drawableLeftCompat="@drawable/ic_player_commenting"
+        app:layout_constraintBottom_toTopOf="@id/layoutAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Commenting on Be Honest" />
+
+    <LinearLayout
+        android:id="@+id/layoutAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#181818"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewUserProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_placeholder" />
+
+        <com.audiomack.views.AMCustomFontEditText
+            android:id="@+id/edtComment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:clickable="false"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center_vertical"
+            android:hint="@string/comments_write_prompt"
+            android:maxLines="5"
+            android:paddingBottom="30dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/placeholder_gray"
+            android:textSize="14sp"
+            app:customletterspacing="-0.56" />
+
+        <com.audiomack.views.AMImageButton
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@null"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ic_comment_send" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

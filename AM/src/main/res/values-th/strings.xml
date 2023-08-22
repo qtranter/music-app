@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name" translatable="false">Audio\u00ADmack</string>
+
+    <string name="splash_tryagain">ลองอีกครั้ง</string>
+
+    <string name="splash_offline">เนื่องจากไม่มีการเชื่อมต่ออินเทอร์เน็ตจึงเล่นได้เฉพาะเพลงที่ดาวน์โหลดแล้วเท่านั้น</string>
+
+    <string name="splash_gotodownloads">ไปที่เพลงออฟไลน์</string>
+
+    <string name="splash_message">เปิดใช้งานการอนุญาตต่อไปนี้เพื่อประสบการณ์การใช้งานที่ดีที่สุด:</string>
+
+    <string name="splash_storage">การเข้าถึงไฟล์</string>
+
+    <string name="splash_storage_message">ทำให้คุณดาวน์โหลดเพลงและอัลบัมได้</string>
+
+    <string name="splash_location">ตำแหน่ง</string>
+
+    <string name="splash_location_message">เปิดใช้งาน Audiomack เพื่อแสดงเพลงยอดนิยมในพื้นที่รอบตัว</string>
+
+    <string name="splash_notifications">การแจ้งเตือน</string>
+
+    <string name="splash_notifications_message">ช่วยทำให้คุณเข้าถึงข่าวสารของเพลงจะที่ปล่อยออกมาใหม่</string>
+
+    <string name="splash_ok">ตกลง ทำเลย!</string>
+
+    <string name="splash_later">ไว้คราวหน้าดีไหม?</string>
+
+    <string name="splash_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="splash_autologin_timeout_error_message">มีความขัดข้องในการเชื่อมต่อ โปรดตรวจสอบสัญญาณอินเทอร์เน็ตของคุณ</string>
+
+    <string name="splash_autologin_timeout_error_ok">ตกลง</string>
+
+    <string name="splash_autologin_fail_message">การเข้าสู่ระบบล้มเหลว</string>
+
+    <string name="splash_autologin_facebook_error_message">การรีเฟรช Facebook Token ล้มเหลว</string>
+
+    <string name="home_tab_feed">ฟีด</string>
+
+    <string name="home_tab_playlists">Playlists</string>
+
+    <string name="home_tab_search">ค้นหา</string>
+
+    <string name="home_tab_library">ห้องเพลงของฉัน</string>
+
+    <string name="signup_tos">คุณได้รับทราบและยินยอมในเงื่อนไขการให้บริการและนโยบายความเป็นส่วนตัวด้วยการสมัครสมาชิกแล้ว</string>
+
+    <string name="signup_tos_highlighted_tos">เงื่อนไขการให้บริการ</string>
+
+    <string name="signup_tos_highlighted_privacy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="signup_username">ใส่ชื่อผู้ใช้</string>
+
+    <string name="signup_email">ใส่อีเมลของคุณ</string>
+
+    <string name="signup_password">สร้างรหัสผ่าน</string>
+
+    <string name="signup_password_confirm">ยืนยันรหัสผ่าน</string>
+
+    <string name="signup_create">สร้างบัญชี</string>
+
+    <string name="signup_facebook">ลงทะเบียนด้วย Facebook</string>
+
+    <string name="signup_go_to_login">มีบัญชีอยู่แล้วใช่ไหม?</string>
+
+    <string name="signup_header">สร้างบัญชีฟรี</string>
+
+    <string name="signup_birthday_label">คุณเกิดวันที่เท่าไร?</string>
+
+    <string name="signup_gender_label">คุณคือเพศอะไร?</string>
+
+    <string name="signup_gender_male">ชาย</string>
+
+    <string name="signup_gender_female">หญิง</string>
+
+    <string name="signup_gender_other">ไม่ใช่ทั้งชายและหญิง</string>
+
+    <string name="signup_disclaimer">Audiomack ใช้ข้อมูลเหล่านี้เพื่อปรับปรุงประสบการณ์การใช้งานของคุณ ช่วยเหลือศิลปินให้เข้าใจผู้ฟังของพวกเขาและอีกมากมาย ข้อมูลของคุณจะไม่ถูกเปิดเผย</string>
+
+    <string name="signup_finish">เสร็จสิ้น</string>
+
+    <string name="signup_error_birthday">โปรดป้อนวันเกิดที่ถูกต้อง</string>
+
+    <string name="signup_error_gender">โปรดเลือกเพศ</string>
+
+    <string name="login_show_password">แสดงรหัสผ่าน</string>
+
+    <string name="login_error_timestamp">ไทม์สแตมป์หมดอายุ นาฬิกาในอุปกรณ์อาจมีข้อผิดพลาดเกิดขึ้น โปรดตรวจสอบวันที่และเวลาให้ถูกต้อง หากยังมีปัญหาเกิดขึ้นให้ส่งอีเมลมาที่ support\@audiomack.com</string>
+
+    <string name="login_error_1037">ไม่สามารถดึงรายละเอียดได้ โปรดตรวจสอบการตั้งค่าอีเมลในบัญชีแล้วลองอีกครั้ง</string>
+
+    <string name="login_header">ลงชื่อเข้าใช้ในบัญชีของคุณ</string>
+
+    <string name="login_email">อีเมล</string>
+
+    <string name="login_password">รหัสผ่าน</string>
+
+    <string name="login_forgot_password">ลืมรหัสผ่าน</string>
+
+    <string name="login_cta">เข้าสู่ระบบ</string>
+
+    <string name="login_facebook">เข้าสู่ระบบด้วย Facebook</string>
+
+    <string name="login_go_to_signup_hint">ยังไม่มีบัญชีใช่ไหม?</string>
+
+    <string name="login_go_to_signup">สร้างบัญชีฟรี</string>
+
+    <string name="login_facebook_error_message">การเข้าสู่ระบบด้วย Facebook ล้มเหลว</string>
+
+    <string name="login_facebook_error_button">ตกลง</string>
+
+    <string name="login_error_title">เกิดข้อผิดพลาดในการเข้าสู่ระบบ</string>
+
+    <string name="login_error_message_facebook">เกิดข้อผิดพลาดที่ Facebook</string>
+
+    <string name="login_tos">คุณได้รับทราบและยินยอมในเงื่อนไขการให้บริการและ\nนโยบายความเป็นส่วนตัวด้วยการลงชื่อเข้าใช้แล้ว</string>
+
+    <string name="login_tos_highlighted_tos">เงื่อนไขการให้บริการ</string>
+
+    <string name="login_tos_highlighted_privacy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="signup_error_title">เกิดข้อผิดพลาดในการลงทะเบียน</string>
+
+    <string name="authentication_validation_username_empty">ไม่มีชื่อผู้ใช้</string>
+
+    <string name="authentication_validation_email_empty">ไม่มีอีเมล</string>
+
+    <string name="authentication_validation_password_empty">ไม่มีรหัสผ่าน</string>
+
+    <string name="authentication_validation_password_mismatch">รหัสผ่านไม่ตรงกัน</string>
+
+    <string name="logout_alert_title">ออกจากระบบ</string>
+
+    <string name="logout_alert_message">ออกจากระบบ Audiomack?</string>
+
+    <string name="logout_alert_no">ยกเลิก</string>
+
+    <string name="logout_alert_yes">ตกลง</string>
+
+    <string name="forgot_password_alert_title">ลืมรหัสผ่าน</string>
+
+    <string name="forgot_password_alert_message">ใส่อีเมลของคุณแล้วเราจะส่งขั้นตอนการรีเซ็ตรหัสผ่าน</string>
+
+    <string name="forgot_password_alert_no">ยกเลิก</string>
+
+    <string name="forgot_password_alert_yes">ส่ง</string>
+
+    <string name="forgot_password_alert_hint">ที่อยู่อีเมล</string>
+
+    <string name="forgot_password_success">ขอบคุณ ขั้นตอนการรีเซ็ตรหัสผ่านถูกส่งไปที่อีเมลของคุณแล้ว โปรดตรวจสอบ อาจอยู่ในอีเมลขยะ</string>
+
+    <string name="forgot_password_failure_template">%s หากพบปัญหาในการใช้งาน โปรดส่งอีเมลมาหาเราที่ support\@audiomack.com</string>
+
+    <string name="premium_start_trial">เริ่มทดลองใช้ฟรี 7 วัน</string>
+
+    <string name="premium_price_template">%s ต่อเดือนหลังจากทดลองใช้</string>
+
+    <string name="premium_toc">การเป็นสมาชิก Audiomack Premium\nข้อกำหนดและเงื่อนไขการใช้งาน</string>
+
+    <string name="premium_desc_template">Audiomack Premium เป็นการสมัครสมาชิกแบบเสียค่าบริการ  จะมีการเรียกชำระเงิน %s เป็นรายเดือนโดยอัตโนมัติผ่านทางบัญชี Google Play ในวันสุดท้ายของการทดลองใช้ฟรี  การต่ออายุสมาชิกจะเป็นไปโดยอัตโนมัติ หากไม่มีการยกเลิกหรือปิดใช้งานการต่ออายุภายในอย่างน้อย 24 ชั่วโมงในวันสุดท้ายก่อนสิ้นสุดระยะเวลา  คุณสามารถจัดการการเป็นสมาชิกได้ใน Google Play Store</string>
+
+    <string name="premium_desc_template_ios">หากคุณได้ทำการสมัครสมาชิก Audiomack (%s แบบรายเดือน) จะมีการเรียกชำระเงินผ่านบัญชี iTunes และสำหรับการต่ออายุสมาชิกจะมีการเรียกชำระเงินจากบัญชีของคุณภายใน 24 ชั่วโมงก่อนสิ้นสุดระยะเวลา หากคุณมีความประสงค์ที่จะยกเลิกการเรียกชำระเงินสำหรับ Audiomack Gold/Platinum และต้องการยกเลิกการเป็นสมาชิกแบบพรีเมียม โปรดยกเลิกภายใน 24 ชั่วโมงก่อนสิ้นสุดระยะเวลา หลังจากที่คุณได้ทำการสั่งซื้อผ่าน iTunes Store แล้ว คุณสามารถเข้าไปปิดใช้งานการต่ออายุอัตโนมัติได้ตลอดเวลาที่ส่วนของการตั้งค่า อัตราค่าบริการทั้งหมดที่แจ้งและในแอปสำหรับสมาชิกแบบ Gold/Platinum เป็นราคาดอลลาร์สหรัฐฯซึ่งอาจแตกต่างกันไปในแต่ละประเทศและอาจมีการเปลี่ยนแปลงในอนาคตโดยไม่จำเป็นต้องแจ้งให้ทราบล่วงหน้า ไม่สามารถยกเลิกการเป็นสมาชิกในระหว่างรอบบิลได้ คุณสามารถใช้ Audiomack ได้ฟรีโดยไม่ต้องสมัครสมาชิกและยังสามารถกลับมาใช้ Audiomack แบบที่มีโฆษณาได้ทุกเมื่อ เมื่อการเป็นสมาชิกสิ้นสุดลง</string>
+
+    <string name="premium_no_active_subscriptions">ไม่มีการสมัครสมาชิกที่ใช้งานอยู่</string>
+
+    <string name="premium_unable_restore">ไม่สามารถคืนค่าการซื้อครั้งก่อนได้</string>
+
+    <string name="premium_restore">คืนค่าการซื้อครั้งก่อน</string>
+
+    <string name="premium_and">และ</string>
+
+    <string name="premium_terms_of_service">เงื่อนไขการให้บริการ</string>
+
+    <string name="premium_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="premium_subscribing">คุณเข้าถึงคุณสมบัติต่างๆของ Audiomack ได้ด้วยการสมัครสมาชิก</string>
+
+    <string name="premium_2019_title">อัปเกรดเป็น\nAudiomack Premium</string>
+
+    <string name="premium_2019_subtitle">เริ่มทดลองใช้ฟรี 7 วันและรับสิทธิ์:</string>
+
+    <string name="premium_2019_adfree">ประสบการณ์ใช้งานแบบไร้โฆษณา</string>
+
+    <string name="premium_2019_adfree_desc">เล่นเพลงแบบไม่จำกัดโดยไม่มีแบนเนอร์หรือโฆษณามากวนใจ</string>
+
+    <string name="premium_2019_playlist">ดาวน์โหลด playlist เต็ม</string>
+
+    <string name="premium_2019_playlist_desc">เก็บเพลงทั้งหมดไว้ที่ playlist ในอุปกรณ์ของคุณเองด้วยการแตะเพียงครั้งเดียว</string>
+
+    <string name="premium_2019_hifi">สตรีมมิ่งด้วยคุณภาพสูง</string>
+
+    <string name="premium_2019_hifi_desc">มั่นใจได้ว่าคุณจะได้ฟังเพลงทุกเพลงจากไฟล์คุณภาพดีที่สุด</string>
+
+    <string name="premium_2019_airplay">เล่นในอุปกรณ์ด้วย Airplay</string>
+
+    <string name="premium_2019_airplay_desc">ต้องการเล่นเพลงในอุปกรณ์ที่รองรับ Airplay ไหม? สดส่งตรงจากผู้เล่น</string>
+
+    <string name="premium_2019_equalizer">ควบคุมอีควอไลเซอร์</string>
+
+    <string name="premium_2019_equalizer_desc">ปรับเสียงดนตรีให้เป็นแบบที่คุณชอบฟังด้วยตัวปรับแต่งเสียงเบสและเทรปเบิล</string>
+
+    <string name="premium_2019_trial">ทดลองใช้ฟรี 7 วัน</string>
+
+    <string name="premium_2019_trial_desc">ทดลองใช้ก่อนซื้อ - รับสิทธิ์ใช้ของด้านบนฟรีทั้งหมดเป็นเวลา 1 สัปดาห์หลังจากเริ่มใช้งาน</string>
+
+    <string name="defaultgenre_title">ตั้งแนวเพลงค่าเริ่มต้น</string>
+
+    <string name="notifications_title">การแจ้งเตือน</string>
+
+    <string name="notifications_verb_favorite">ที่ชื่นชอบ</string>
+
+    <string name="notifications_verb_repost">re-up</string>
+
+    <string name="notifications_verb_follow">ติดตามคุณ</string>
+
+    <string name="notifications_verb_playlist">ที่จัด playlist</string>
+
+    <string name="notifications_verb_added">ที่เพิ่ม</string>
+
+    <string name="notifications_verb_added_to_playlist">ใน playlist</string>
+
+    <string name="notifications_verb_comment">แสดงความคิดเห็นใน</string>
+
+    <string name="notifications_verb_comment_reply">ตอบกลับความเห็นของคุณ</string>
+
+    <string name="removedcontent_title">เนื้อหาถูกลบไปแล้ว</string>
+
+    <string name="removedcontent_message">เจ้าของลิขสิทธิ์หรือศิลปินได้ลบเพลงนี้ออกจาก Audiomack เรากำลังพยายามที่จะกู้คืนมาในเร็ววันนี้ ขอบคุณ</string>
+
+    <string name="removedcontent_ok">ตกลง</string>
+
+    <string name="removedcontent_header">เพลงออฟไลน์บางส่วนได้ถูกลบแล้ว เรียนรู้เพิ่มเติม</string>
+
+    <string name="removedcontent_header_highlighted">เพลงออฟไลน์บางส่วนได้ถูกลบแล้ว เรียนรู้เพิ่มเติม</string>
+
+    <string name="excludereups">ยกเว้นที่ re-up</string>
+
+    <string name="restoredownloads_title">คืนค่าการดาวน์โหลด</string>
+
+    <string name="restoredownloads_footer">คืนค่าการดาวน์โหลดครั้งก่อน</string>
+
+    <string name="playlist_info_failed">ไม่สามารถดึงรายละเอียด playlist ได้ โปรดลองใหม่อีกครั้งภายหลัง</string>
+
+    <string name="artist_info_failed">ไม่สามารถดึงข้อมูลศิลปินได้ โปรดลองใหม่อีกครั้งภายหลัง</string>
+
+    <string name="song_info_failed">ไม่สามารถดึงข้อมูลเพลงได้</string>
+
+    <string name="album_info_failed">ไม่สามารถดึงข้อมูลอัลบัมได้</string>
+
+    <string name="download_results_no_connection">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
+
+    <string name="download_failed_song">ไม่สามารถดาวน์โหลดเพลงได้</string>
+
+    <string name="download_failed_abum">ไม่สามารถดาวน์โหลดอัลบัมได้</string>
+
+    <string name="download_delete_list_failed">ไม่สามารถลบออกจากรายการดาวน์โหลดได้</string>
+
+    <string name="download_playlist_succeeded">เพิ่มเป็น playlist ออฟไลน์</string>
+
+    <string name="download_succeeded">ดาวน์โหลดเสร็จสมบูรณ์</string>
+
+    <string name="login_needed_message">โปรดเข้าสู่ระบบเพื่อใช้คุณสมบัตินี้</string>
+
+    <string name="login_needed_no">ยกเลิก</string>
+
+    <string name="login_needed_yes">เข้าสู่ระบบ</string>
+
+    <string name="playlist_song_singular">เพลง</string>
+
+    <string name="playlist_song_plural">เพลง</string>
+
+    <string name="playlist_sync">เพิ่มเพลงใหม่ในลิสออฟไลน์</string>
+
+    <string name="playlistreorder_title">เรียงใหม่ / ลบ</string>
+
+    <string name="playlistreorder_save">บันทึก</string>
+
+    <string name="addtoplaylist_title">เพิ่มใน playlist</string>
+
+    <string name="addtoplaylist_create">สร้าง playlist ใหม่</string>
+
+    <string name="addtoplaylist_create_hint">แตะเพื่อสร้าง playlist ใหม่</string>
+
+    <string name="addtoplaylist_addtoexisting">เพิ่มใน playlist ที่มีอยู่แล้ว</string>
+
+    <string name="addtoplaylist_playlist_cannot_be_edited">playlist นี้ไม่สามารถแก้ไขได้</string>
+
+    <string name="addtoplaylist_song_cannot_be_added">เพลงนี้ไม่สามารถเพิ่มใน playlist ได้</string>
+
+    <string name="addtoplaylist_song_added">เพิ่มใน playlist เรียบร้อยแล้ว</string>
+
+    <string name="addtoplaylist_song_added_failed">เพิ่มใน playlist ไม่ได้</string>
+
+    <string name="addtoplaylist_song_removed">ลบออกจาก playlist เรียบร้อยแล้ว</string>
+
+    <string name="addtoplaylist_song_removed_failed">ไม่สามารถลบออกจาก playlist ได้</string>
+
+    <string name="editplaylist_title">แก้ไขรายละเอียด playlist</string>
+
+    <string name="editplaylist_create_title">สร้าง playlist ใหม่</string>
+
+    <string name="editplaylist_hint">แตะที่ช่องเพื่อแก้ไข</string>
+
+    <string name="editplaylist_name">ชื่อ:</string>
+
+    <string name="editplaylist_name_hint">ใส่ชื่อ playlist</string>
+
+    <string name="editplaylist_genre">แนวเพลง:</string>
+
+    <string name="editplaylist_permissions">สิทธิ์:</string>
+
+    <string name="editplaylist_description">รายละเอียด:</string>
+
+    <string name="editplaylist_description_hint">ใส่รายละเอียด playlist</string>
+
+    <string name="editplaylist_delete">ลบ playlist</string>
+
+    <string name="editplaylist_save">บันทึก</string>
+
+    <string name="editplaylist_cancel">ยกเลิก</string>
+
+    <string name="playlist_delete_failed">การลบ playlist ล้มเหลว</string>
+
+    <string name="playlist_delete_succeeded_template">playlist \'%s\' ถูกลบแล้ว</string>
+
+    <string name="playlist_takendown_title">เจ้าของได้ลบเพลงนี้ออกจาก playlist</string>
+
+    <string name="playlist_takendown_message">คุณต้องการคัดลอกไปที่บัญชีของคุณไหม?</string>
+
+    <string name="playlist_takendown_yes">ใช่ คัดลอก playlist</string>
+
+    <string name="playlist_takendown_no">ไม่ต้องการ ลบ</string>
+
+    <string name="musicinfo_stats_today">วันนี้</string>
+
+    <string name="musicinfo_stats_week">สัปดาห์นี้</string>
+
+    <string name="musicinfo_stats_month">เดือนนี้</string>
+
+    <string name="musicinfo_stats_alltime">ตลอดเวลา</string>
+
+    <string name="musicinfo_lastupdated">อัปเดตล่าสุด:</string>
+
+    <string name="musicinfo_numberofsongs">จำนวนเพลง:</string>
+
+    <string name="musicinfo_playlistcreator">เจ้าของ playlist:</string>
+
+    <string name="musicinfo_album">อัลบัม:</string>
+
+    <string name="musicinfo_producer">โปรดิวเซอร์:</string>
+
+    <string name="musicinfo_addedon">วันที่วางจำหน่าย:</string>
+
+    <string name="musicinfo_genre">แนวเพลง:</string>
+
+    <string name="musicinfo_description">รายละเอียด:</string>
+
+    <string name="musicinfo_description_read_more">อ่านเพิ่มเติม</string>
+
+    <string name="musicinfo_total_plays">รวมการเล่นทั้งหมด:</string>
+
+    <string name="musicinfo_tags">แท็ก</string>
+
+    <string name="artist_followers">ผู้ติดตาม</string>
+
+    <string name="artist_following">กำลังติดตาม</string>
+
+    <string name="artist_plays">รวมการเล่นทั้งหมด</string>
+
+    <string name="queue_added">เพิ่มในคิว</string>
+
+    <string name="queue_unable_to_add_playlist">ไม่สามารถเพิ่ม playlist นี้ในคิวได้</string>
+
+    <string name="share_twitter">แชร์ใน Twitter</string>
+
+    <string name="share_contacts">แชร์กับผู้ติดต่อ</string>
+
+    <string name="share_app">แชร์ผ่านแอป</string>
+
+    <string name="share_copy_link">คัดลอกลิงก์</string>
+
+    <string name="share_link_copied">คัดลอกลิงก์ไปยังคลิปบอร์ด</string>
+
+    <string name="favorites_filter_allmusic">ทั้งหมด</string>
+
+    <string name="favorites_filter_songs">เพลง</string>
+
+    <string name="favorites_filter_albums">อัลบัม</string>
+
+    <string name="favorites_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_allmusic">ทั้งหมด</string>
+
+    <string name="offline_filter_songs">เพลง</string>
+
+    <string name="offline_filter_albums">อัลบัม</string>
+
+    <string name="offline_filter_playlists">Playlists</string>
+
+    <string name="offline_filter_notondevice">ไม่อยู่ในอุปกรณ์</string>
+
+    <string name="offline_sort_newest">ใหม่ที่สุด</string>
+
+    <string name="offline_sort_oldest">เก่าที่สุด</string>
+
+    <string name="offline_sort_alphabetically">A-Z</string>
+
+    <string name="library_loginsignup">เข้าสู่ระบบ / ลงทะเบียน</string>
+
+    <string name="search_hint">ค้นหา</string>
+
+    <string name="search_cancel">ยกเลิก</string>
+
+    <string name="search_global_placeholder">ค้นหาศิลปิน\nเพลงและอัลบัม</string>
+
+    <string name="search_trending">การค้นยอดนิยม</string>
+
+    <string name="search_recent">การค้นล่าสุด</string>
+
+    <string name="library_search_hint">ค้นหา</string>
+
+    <string name="library_search_cancel">ยกเลิก</string>
+
+    <string name="player_playingfrom">เล่นจาก</string>
+
+    <string name="player_goadfree">ลบโฆษณา - เริ่มทดลองใช้ฟรี 7 วัน</string>
+
+    <string name="player_closead">ปิดโฆษณา</string>
+
+    <string name="player_shuffle_on">สลับเพลง</string>
+
+    <string name="player_repeat_all">เล่นซ้ำทั้งหมด</string>
+
+    <string name="player_repeat_one">เล่นซ้ำเพลงเดียว</string>
+
+    <string name="player_file_error">เกิดข้อผิดพลาดขณะโหลดเพลง</string>
+
+    <string name="player_storage_error">ไม่สามารถเล่นไฟล์ที่ดาวน์โหลดได้</string>
+
+    <string name="player_playback_error">ไม่สามารถเล่นเพลงได้</string>
+
+    <string name="player_queue_error">เกิดข้อผิดพลาดขณะอัปเดตคิว</string>
+
+    <string name="player_file_error_download_again">ต้องดาวน์โหลดไฟล์นี้อีกครั้ง โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+
+    <string name="player_hifi">ไฮไฟ</string>
+
+    <string name="player_prev">ก่อน</string>
+
+    <string name="player_pause">หยุด</string>
+
+    <string name="player_play">เล่น</string>
+
+    <string name="player_next">ถัดไป</string>
+
+    <string name="player_close">ปิด</string>
+
+    <string name="player_fav">โปรดปราน</string>
+
+    <string name="player_unfav">ไม่โปรดปราน</string>
+
+    <string name="player_skip_forward">ข้ามไปข้างหน้า 30 วิ</string>
+
+    <string name="player_skip_back">ย้อนกลับหลัง 15 วิ</string>
+
+    <string name="editaccount_title">แก้ไขบัญชี</string>
+
+    <string name="editaccount_banner">แก้ไขภาพแบนเนอร์</string>
+
+    <string name="editaccount_hint">แตะที่ช่องเพื่อแก้ไข</string>
+
+    <string name="editaccount_name">ชื่อศิลปิน:</string>
+
+    <string name="editaccount_label">ค่าย:</string>
+
+    <string name="editaccount_hometown">ภูมิลำเนา:</string>
+
+    <string name="editaccount_website">เว็บไซต์:</string>
+
+    <string name="editaccount_bio">ประวัติ:</string>
+
+    <string name="editaccount_bio_counter_template">%s เหลือ ตัวอักษร</string>
+
+    <string name="editaccount_twitter">twitter:</string>
+
+    <string name="editaccount_instagram">Instagram:</string>
+
+    <string name="editaccount_facebook">Facebook:</string>
+
+    <string name="editaccount_youtube">Youtube:</string>
+
+    <string name="editaccount_error_banner">เกิดข้อผิดพลาดขณะบันทึกแบนเนอร์</string>
+
+    <string name="editaccount_save">บันทึก</string>
+
+    <string name="editaccount_cancel">ยกเลิก</string>
+
+    <string name="editaccount_slug">ส่วนของผู้ใช้:</string>
+
+    <string name="artistinfo_follow">ติดตาม</string>
+
+    <string name="artistinfo_unfollow">กำลังติดตาม</string>
+
+    <string name="artistinfo_website">เว็บไซต์:</string>
+
+    <string name="artistinfo_genre">แนวเพลง:</string>
+
+    <string name="artistinfo_label">ค่าย:</string>
+
+    <string name="artistinfo_hometown">ภูมิลำเนา:</string>
+
+    <string name="artistinfo_membersince">เป็นสมาชิกตั้งแต่:</string>
+
+    <string name="artistinfo_bio">ประวัติ:</string>
+
+    <string name="miniplayer_prev_song">แทร็กก่อนหน้า</string>
+
+    <string name="miniplayer_next_song">แทร็กต่อไป</string>
+
+    <string name="queue_title">คิวที่จัดไว้</string>
+
+    <string name="add_to_playlist_permissions_public">สาธารณะ - ทุกคนดูได้</string>
+
+    <string name="add_to_playlist_permissions_private">ส่วนตัว - คุณดูได้คนเดียวเท่านั้น</string>
+
+    <string name="add_to_playlist_error_no_name">โปรดใส่ชื่อ playlist</string>
+
+    <string name="add_to_playlist_error">การสร้าง playlist ล้มเหลว</string>
+
+    <string name="add_to_playlist_success_generic">สร้าง playlist เรียบร้อยแล้ว</string>
+
+    <string name="add_to_playlist_success">เพิ่ม \'%s\' ใน playlist แล้ว</string>
+
+    <string name="edit_playlist_tracks_reorder_error_last_track">คุณไม่สามารถลบแทร็กสุดท้ายใน playlist ได้</string>
+
+    <string name="edit_playlist_success">แก้ไข playlist \'%s\' แล้ว</string>
+
+    <string name="edit_playlist_error">การแก้ไข playlist ล้มเหลว</string>
+
+    <string name="edit_playlist_banner_error">ไม่สามารถบันทึกภาพแบนเนอร์ได้</string>
+
+    <string name="select_playlist_error">ไม่สามารถดึง playlist ของคุณได้</string>
+
+    <string name="select_playlist_nothing_selected">โปรดเลือก playlist</string>
+
+    <string name="select_playlist_success">เพิ่มเพลง \'%s\' ใน playlist แล้ว</string>
+
+    <string name="select_playlist_failure">ไม่สามารถเพิ่มเพลงได้</string>
+
+    <string name="player_account_followed">กำลังติดตาม %s</string>
+
+    <string name="player_account_unfollowed">เลิกติดตาม %s</string>
+
+    <string name="feature_not_available_offline_alert_message">มีความขัดข้องในการเชื่อมต่อ โปรดตรวจสอบสัญญาณอินเทอร์เน็ตแล้วลองอีกครั้ง</string>
+
+    <string name="feature_not_available_offline_alert_button">ตกลง</string>
+
+    <string name="toast_favorited_song">เพลงโปรด</string>
+
+    <string name="toast_favorited_song_error">ไม่สามารถเล่นเพลงโปรดได้</string>
+
+    <string name="toast_favorited_album">อัลบัมโปรด</string>
+
+    <string name="toast_favorited_album_error">ตั้งเป็นอัลบัมโปรดไม่ได้</string>
+
+    <string name="toast_favorited_playlist">playlist โปรด</string>
+
+    <string name="toast_favorited_playlist_error">ตั้งเป็น playlist โปรดไม่ได้</string>
+
+    <string name="toast_unfavorited_song">เพลงที่ไม่ชอบ</string>
+
+    <string name="toast_unfavorited_song_error">ตั้งเป็นเพลงที่ไม่ชอบไม่ได้</string>
+
+    <string name="toast_unfavorited_album">อัลบัมที่ไม่ชอบ</string>
+
+    <string name="toast_unfavorited_album_error">ตั้งเป็นอัลบัมที่ไม่ชอบไม่ได้</string>
+
+    <string name="toast_unfavorited_playlist">playlist ที่ไม่ชอบ</string>
+
+    <string name="toast_unfavorited_playlist_error">ตั้งเป็น playlist ที่ไม่ชอบไม่ได้</string>
+
+    <string name="toast_reposted_song">เพลงที่ re-up</string>
+
+    <string name="toast_reposted_song_error">ไม่สามารถ re-up ได้</string>
+
+    <string name="toast_reposted_album">re-up อัลบัมแล้ว</string>
+
+    <string name="toast_reposted_album_error">ไม่สามารถ re-up อัลบัมได้</string>
+
+    <string name="permissions_rationale_alert_camera_message">คุณสมบัตินี้จำเป็นต้องใช้สิทธิ์การเข้าถึงกล้องถ่ายรูป โปรดไปที่การตั้งค่าเพื่อเปิดให้อนุญาตในการใช้งานคุณสมบัตินี้</string>
+
+    <string name="permissions_rationale_alert_storage_message">คุณสมบัตินี้จำเป็นต้องใช้สิทธิ์การเข้าถึงที่เก็บข้อมูล โปรดไปที่การตั้งค่าเพื่อเปิดให้อนุญาตในการใช้งานคุณสมบัตินี้</string>
+
+    <string name="permissions_rationale_alert_cancel">ยกเลิก</string>
+
+    <string name="permissions_rationale_alert_settings">เปิดการตั้งค่า</string>
+
+    <string name="permissions_location_ios">เปิดใช้งาน Audiomack เพื่อแสดงเพลงยอดนิยมในพื้นที่รอบตัว</string>
+
+    <string name="shortcuts_offline_short">ออฟไลน์</string>
+
+    <string name="shortcuts_offline_long">ออฟไลน์</string>
+
+    <string name="shortcuts_offline_disabled">ออฟไลน์</string>
+
+    <string name="shortcuts_topsongs_short">เพลงฮิต</string>
+
+    <string name="shortcuts_topsongs_long">เพลงฮิต</string>
+
+    <string name="shortcuts_topsongs_disabled">เพลงฮิต</string>
+
+    <string name="shortcuts_favorites_short">รายการโปรด</string>
+
+    <string name="shortcuts_favorites_long">รายการโปรด</string>
+
+    <string name="shortcuts_favorites_disabled">รายการโปรด</string>
+
+    <string name="shortcuts_playlists_short">Playlists</string>
+
+    <string name="shortcuts_playlists_long">Playlists</string>
+
+    <string name="shortcuts_playlists_disabled">Playlists</string>
+
+    <string name="downloadmessage_title">เริ่มดาวน์โหลดแล้ว!</string>
+
+    <string name="downloadmessage_message">คุณสามารถเล่นเพลงที่อัปโหลดฟรีนี้ในแอปได้ที่เมนูออฟไลน์ในห้องเพลงของฉัน</string>
+
+    <string name="downloadmessage_button">ไปที่เพลงออฟไลน์</string>
+
+    <string name="download_completed_notification_title">การดาวน์โหลดเสร็จสิ้น</string>
+
+    <string name="download_completed_notification_message">แตะเพื่อดูเพลงออฟไลน์ของคุณ</string>
+
+    <string name="playlist_delete_download_title">สิ่งนี้จะลบ playlist ออกจากห้องเพลงออฟไลน์ของคุณ</string>
+
+    <string name="playlist_delete_download_title_highlighted">ลบ playlist นี้</string>
+
+    <string name="playlist_delete_download_message">อย่ากังวลไป เพลงในห้องเพลงออฟไลน์ไม่ได้ถูกลบไปด้วย</string>
+
+    <string name="playlist_delete_download_yes">ตกลง</string>
+
+    <string name="playlist_delete_download_cancel">ยกเลิก</string>
+
+    <string name="playlist_download_sync_title">สิ่งนี้จะเพิ่ม %s เพลงใน playlist นี้ที่ห้องเพลงออฟไลน์ของคุณ</string>
+
+    <string name="playlist_download_sync_title_highlighted">%s เพลง</string>
+
+    <string name="playlist_download_sync_message">คุณน่าจะต้องตรวจดูสัญญาณ WIFI ก่อนที่จะเริ่มดาวน์โหลด</string>
+
+    <string name="playlist_download_sync_yes">ตกลง</string>
+
+    <string name="playlist_download_sync_cancel">ยกเลิก</string>
+
+    <string name="playlist_download_error">ไม่สามารถดาวน์โหลด playlist ได้</string>
+
+    <string name="unsupported_crop_error">อุปกรณ์ของคุณไม่รองรับการตัดเพลง</string>
+
+    <string name="library_search_favorites_placeholder">ค้นหารายการโปรด...</string>
+
+    <string name="library_search_downloads_placeholder">ค้นหาเนื้อหาออฟไลน์...</string>
+
+    <string name="library_search_playlists_placeholder">ค้นหา playlist...</string>
+
+    <string name="library_search_uploads_placeholder">ค้นหาการอัปโหลด...</string>
+
+    <string name="library_search_noresults_placeholder">ไม่พบสิ่งที่ค้นหาในห้องเพลงของคุณ</string>
+
+    <string name="library_search_noresults_cta">ค้นหาทั้งหมดใน AUDIOMACK</string>
+
+    <string name="search_noresults_placeholder">ไม่พบสิ่งที่ค้นหา\nลองใช้การค้นหาอื่นๆ</string>
+
+    <string name="playlists_noresults_placeholder">ยังไม่มี playlist</string>
+
+    <string name="followers_my_noresults_placeholder">คุณไม่มีผู้ติดตาม</string>
+
+    <string name="followers_other_noresults_placeholder">%s ไม่มีผู้ติดตาม</string>
+
+    <string name="favorites_my_noresults_placeholder">คุณไม่มีรายการโปรด</string>
+
+    <string name="downloads_noresults_placeholder">คุณไม่มีการดาวน์โหลด</string>
+
+    <string name="downloads_noresults_highlighted_placeholder">คืนค่าการดาวน์โหลด</string>
+
+    <string name="downloads_loggedout_placeholder">เข้าสู่ระบบเพื่อคืนค่าการดาวน์โหลดครั้งก่อน</string>
+
+    <string name="downloads_loggedout_highlighted_placeholder">สร้างบัญชี</string>
+
+    <string name="favorites_my_loggedout_placeholder">คุณไม่มีรายการโปรด</string>
+
+    <string name="favorites_my_loggedout_highlighted_placeholder">สร้างบัญชี</string>
+
+    <string name="favorites_other_noresults_placeholder">%s ไม่มีรายการโปรด</string>
+
+    <string name="following_my_noresults_placeholder">คุณยังไม่ได้ติดตามใคร\nดูบัญชีผู้ที่น่าติดตาม</string>
+
+    <string name="following_my_noresults_highlighted_placeholder">ผู้ที่น่าติดตาม</string>
+
+    <string name="following_other_noresults_placeholder">%s ยังไม่ได้ติดตามใคร</string>
+
+    <string name="uploads_my_noresults_placeholder">คุณไม่มีการอัปโหลด\nไปที่ audiomack.com เพื่อเพิ่ม\nเพลงในบัญชีของคุณ</string>
+
+    <string name="uploads_my_noresults_highlighted_placeholder">ไปที่ AUDIOMACK.COM</string>
+
+    <string name="uploads_other_noresults_placeholder">%s ไม่มีการอัปโหลด</string>
+
+    <string name="playlists_my_noresults_placeholder">คุณยังไม่ได้สร้าง playlist</string>
+
+    <string name="playlists_my_loggedout_placeholder">คุณยังไม่ได้สร้าง playlist\nสร้างบัญชีและเริ่ม\nสร้าง playlist</string>
+
+    <string name="playlists_my_loggedout_highlighted_placeholder">สร้างบัญชี</string>
+
+    <string name="playlists_other_noresults_placeholder">%s ยังไม่ได้สร้าง playlist</string>
+
+    <string name="favoritedplaylists_my_noresults_placeholder">คุณไม่มี playlist ที่โปรดปราน</string>
+
+    <string name="favoritedplaylists_my_loggedout_placeholder">คุณไม่มี playlist ที่โปรดปราน\nสร้างบัญชีและเริ่ม\nสร้าง playlist</string>
+
+    <string name="favoritedplaylists_my_loggedout_highlighted_placeholder">สร้างบัญชี</string>
+
+    <string name="favoritedplaylists_other_loggedout_placeholder">%s ไม่มี playlist ที่โปรดปราน</string>
+
+    <string name="offlineplaylists_my_noresults_placeholder">คุณไม่มี playlist ออฟไลน์</string>
+
+    <string name="timeline_noresults_placeholder">ติดตามบัญชีเพื่อดูสิ่งที่พวกเขาอัปโหลดได้ที่นี่</string>
+
+    <string name="timeline_loggedout_placeholder">ฟีดว่างเปล่า\nสร้างบัญชีแล้วเริ่มติดตามคนอื่นๆ</string>
+
+    <string name="timeline_loggedout_highlighted_placeholder">สร้างบัญชี</string>
+
+    <string name="restoredownlods_noresults_placeholder">คุณไม่มีการจัดเก็บข้อมูลการดาวน์โหลดในอุปกรณ์อื่น</string>
+
+    <string name="notifications_noresults_placeholder">คุณไม่มีการแจ้งเตือน</string>
+
+    <string name="noconnection_placeholder">การเชื่อมต่อขัดข้อง</string>
+
+    <string name="noconnection_highlighted_placeholder">ลองอีกครั้ง</string>
+
+    <string name="user_name_placeholder">ผู้ใช้</string>
+
+    <string name="playlist_desc_more">ดูเพิ่มเติม</string>
+
+    <string name="tooltip_toast">ปัดซ้ายหรือขวาเพื่อ\nดูรายการเพลงเพิ่มหรือแตะ\nที่ลูกศรชี้ลงเพื่อ\nเปลี่ยนแนวเพลง</string>
+
+    <string name="tooltip_play">ปัดซ้ายเพื่อเล่นเพลงถัดไป แตะเพื่อเปิดการเล่นแบบเต็มจอ</string>
+
+    <string name="tooltip_playlists">สร้าง\nplaylist ของตัวเอง</string>
+
+    <string name="tooltip_player_queue">แตะที่นี่เพื่อดูรายการในคิวเพลงของคุณ</string>
+
+    <string name="tooltip_queue_add">แตะที่นี่เพื่อเพิ่มเพลงในคิวของ playlist</string>
+
+    <string name="tooltip_albums">ไปที่ออฟไลน์เพื่อ\nฟังเพลงฟรี</string>
+
+    <string name="tooltip_suggested_followers">ติดตามศิลปินคนโปรด / ผู้ทรงอิทธิพลในวงการเพลงไว้ เมื่อไรก็ตามที่พวกเขาอัปโหลดเพลงใหม่ คุณจะได้เห็นทันใดในหน้าฟีด</string>
+
+    <string name="tooltip_playlists_offline">เพิ่มเพลงลงใน\nplaylist แบบออฟไลน์</string>
+
+    <string name="tooltip_playlists_favorite">ถูกใจ\nplaylist นี้</string>
+
+    <string name="tooltip_player_scroll">เลื่อนลงเพื่อเปลี่ยนเพลงและดูความคิดเห็น ข้อมูลเพลงและเพลงอื่นๆจากศิลปินคนนี้</string>
+
+    <string name="tooltip_player_equalizer">ใช้อีควอไลเซอร์ปรับแต่งเสียงดนตรีในแบบของคุณ</string>
+
+    <string name="settings_title">การตั้งค่า</string>
+
+    <string name="settings_go_premium">ลบโฆษณา - เปลี่ยนเป็น Premium</string>
+
+    <string name="settings_cancel_subscription">ยกเลิกการเป็นสมาชิก</string>
+
+    <string name="settings_edit_account">แก้ไขบัญชี</string>
+
+    <string name="settings_view_your_profile">ดูโปรไฟล์ของคุณ</string>
+
+    <string name="settings_share_profile">แชร์โปรไฟล์</string>
+
+    <string name="settings_default_genre">ตั้งค่าแนวเพลงเริ่มต้น</string>
+
+    <string name="settings_permissions">การอนุญาต</string>
+
+    <string name="settings_support">สนับสนุน</string>
+
+    <string name="settings_debug_info">ส่งข้อมูลการแก้จุดบกพร่อง</string>
+
+    <string name="settings_share_app">แชร์แอปนี้</string>
+
+    <string name="settings_rate_app">ให้คะแนนแอปนี้</string>
+
+    <string name="settings_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="settings_dev_environment">ใช้ Dev Env *</string>
+
+    <string name="settings_track_ads">โฆษณาในแทร็ก</string>
+
+    <string name="settings_grant_premium">ให้สิทธิ์พรีเมียม</string>
+
+    <string name="settings_log_viewer">ตัวดูบันทึกกิจกรรม</string>
+
+    <string name="settings_logout">ออกจากระบบ</string>
+
+    <string name="settings_version_template">เวอร์ชั่น %s (%s)</string>
+
+    <string name="settings_opensource">เปิด Open Source</string>
+
+    <string name="settings_equalizer">อีควอไลเซอร์</string>
+
+    <string name="settings_upgrade_title">อัปเกรดเป็น Audiomack Premium</string>
+
+    <string name="settings_upgrade_subtitle">เริ่มทดลองใช้ฟรี 7 วันเพื่อลบโฆษณาและอื่นๆทั้งหมด</string>
+
+    <string name="settings_upgrade_cta">ทำไมต้องอัปเกรด?</string>
+
+    <string name="equalizer_title">อีควอไลเซอร์</string>
+
+    <string name="equalizer_enable">อีควอไลเซอร์</string>
+
+    <string name="equalizer_custom">ใช้พรีเซ็ตที่ตั้งเอง</string>
+
+    <string name="equalizer_acoustic">อะคูสติก</string>
+
+    <string name="equalizer_dance">แดนซ์</string>
+
+    <string name="equalizer_electronic">อิเล็กทรอนิกส์</string>
+
+    <string name="equalizer_flat">แฟลท</string>
+
+    <string name="equalizer_hiphop">ฮิปฮอป</string>
+
+    <string name="equalizer_loudness">ความก้อง</string>
+
+    <string name="equalizer_pop">ป๊อป</string>
+
+    <string name="equalizer_rnb">R&amp;B</string>
+
+    <string name="equalizer_rock">ร็อค</string>
+
+    <string name="equalizer_vocal_booster">โวคอล บูสเตอร์</string>
+
+    <string name="equalizer_save">บันทึก</string>
+
+    <string name="help_title">ช่วยเหลือ</string>
+
+    <string name="help_message">สร้างตั๋วหรือจัดการตั๋วที่มีอยู่ ดูที่ศูนย์การช่วยเหลือ</string>
+
+    <string name="help_knowledgebase">ฐานความรู้</string>
+
+    <string name="help_contact">ติดต่อเรา</string>
+
+    <string name="help_tickets_none">ตั๋วของฉัน</string>
+
+    <string name="help_tickets_template">ตั๋วของฉัน (%s ยังไม่อ่าน)</string>
+
+    <string name="help_alert_title">ทีมสนับสนุนได้ตอบรับคำขอของคุณแล้ว</string>
+
+    <string name="help_alert_yes">ดู</string>
+
+    <string name="help_alert_no">ยกเลิก</string>
+
+    <string name="artist_tab_uploads">อัปโหลด</string>
+
+    <string name="artist_tab_favorites">รายการโปรด</string>
+
+    <string name="artist_tab_playlists">PLAYLISTS</string>
+
+    <string name="artist_tab_followers">ผู้ติดตาม</string>
+
+    <string name="artist_tab_following">กำลังติดตาม</string>
+
+    <string name="library_tab_favorites">รายการโปรด</string>
+
+    <string name="library_tab_offline">ออฟไลน์</string>
+
+    <string name="library_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_tab_followers">ผู้ติดตาม</string>
+
+    <string name="library_tab_following">กำลังติดตาม</string>
+
+    <string name="library_tab_uploads">อัปโหลด</string>
+
+    <string name="feed_tab_timeline">ไทม์ไลน์</string>
+
+    <string name="feed_tab_suggestedfollows">ผู้ที่น่าติดตาม</string>
+
+    <string name="feed_tab_following">กำลังติดตาม</string>
+
+    <string name="browse_tab_trending">กำลังนิยม</string>
+
+    <string name="browse_tab_topsongs">เพลงยอดนิยม</string>
+
+    <string name="browse_tab_topalbums">อัลบัมยอดนิยม</string>
+
+    <string name="browse_tab_recentlyadded">เพิ่งเพิ่มเร็วๆนี้</string>
+
+    <string name="browse_filter_allgenres">ทั้งหมด</string>
+
+    <string name="search_tab_allmusic">ทั้งหมด</string>
+
+    <string name="search_tab_playlists">PLAYLISTS</string>
+
+    <string name="search_tab_songs">เพลง</string>
+
+    <string name="search_tab_albums">อัลบัม</string>
+
+    <string name="search_tab_accounts">บัญชี</string>
+
+    <string name="library_search_tab_favorites">รายการโปรด</string>
+
+    <string name="library_search_tab_offline">ออฟไลน์</string>
+
+    <string name="library_search_tab_playlists">PLAYLISTS</string>
+
+    <string name="library_search_tab_uploads">อัปโหลด</string>
+
+    <string name="cannot_refresh_token">ไม่สามารถเข้าถึงบัญชีของคุณได้</string>
+
+    <string name="failed_refresh_token_title">ไม่สามารถเชื่อมต่อกับ Audiomack ได้</string>
+
+    <string name="failed_refresh_token_message">ไม่สามารถเชื่อมต่อกับ Audiomack ได้ โปรดลองใหม่อีกครั้งภายหลัง</string>
+
+    <string name="failed_refresh_token_button">ตกลง</string>
+
+    <string name="generic_api_error">เกิดข้อผิดพลาด โปรดลองใหม่อีกครั้งภายหลัง</string>
+
+    <string name="generic_error_occurred">เกิดข้อผิดพลาด</string>
+
+    <string name="feat">Feat.</string>
+
+    <string name="feat_inline">feat.</string>
+
+    <string name="by">โดย</string>
+
+    <string name="ok">ตกลง</string>
+
+    <string name="imagepicker_message">เลือกภาพจาก</string>
+
+    <string name="imagepicker_camera">กล้อง</string>
+
+    <string name="imagepicker_gallery">คลังภาพ</string>
+
+    <string name="imagepicker_gallery_cancel">ยกเลิก</string>
+
+    <string name="options_play">เล่น</string>
+
+    <string name="options_download">ดาวน์โหลด</string>
+
+    <string name="options_favorite">โปรดปราน</string>
+
+    <string name="options_add_to_playlist">Playlist</string>
+
+    <string name="options_repost">re-up</string>
+
+    <string name="options_share">แชร์</string>
+
+    <string name="options_copy_link">คัดลอกลิงก์</string>
+
+    <string name="options_song_details">รายละเอียดเพลง</string>
+
+    <string name="options_album_details">รายละเอียดอัลบัม</string>
+
+    <string name="options_follow">ติดตาม</string>
+
+    <string name="options_unfollow">เลิกติดตาม</string>
+
+    <string name="options_artist_more">ดูเพิ่มจาก</string>
+
+    <string name="options_remove_from_queue">ลบออกจากคิว</string>
+
+    <string name="options_delete_download">ลบที่ดาวน์โหลด</string>
+
+    <string name="options_retry_download">ดาวน์โหลดอีกครั้ง</string>
+
+    <string name="options_play_next">เล่นเพลงถัดไป</string>
+
+    <string name="options_add_to_queue">เพิ่มในคิว</string>
+
+    <string name="options_music_more_info">ข้อมูลเพิ่มเติม</string>
+
+    <string name="options_delete_download_list">ลบจากรายการที่ดาวน์โหลด</string>
+
+    <string name="options_reorder_remove_tracks">เรียงลำดับใหม่ / ลบแทร็ก</string>
+
+    <string name="options_edit_playlist_details">แก้ไขรายละเอียด playlist</string>
+
+    <string name="options_delete_playlist">ลบ playlist</string>
+
+    <string name="options_add_to_playlist_short">Playlist</string>
+
+    <string name="options_comments">ความคิดเห็น</string>
+
+    <string name="options_edit">แก้ไข</string>
+
+    <string name="options_cancel">ยกเลิก</string>
+
+    <string name="ad_ad">โฆษณา</string>
+
+    <string name="premium_cannot_find_product">ไม่พบสินค้าที่ต้องการ</string>
+
+    <string name="premium_device_not_allowed">ไม่สามารถชำระเงินผ่านอุปกรณ์นี้ได้</string>
+
+    <string name="database_error_recreated">ขออภัย เกิดความขัดข้องในฐานข้อมูลของคุณ เนื่องจากมีการสร้างฐานข้อมูลใหม่จึงจะต้องมีการดาวน์โหลดเพลงออฟไลน์อีกครั้ง</string>
+
+    <string name="database_error_lowstorage">ขออภัย เนื้อที่จัดเก็บข้อมูลในอุปกรณ์ของคุณไม่เพียงพอ โปรดเพิ่มที่ว่างและลองอีกครั้ง</string>
+
+    <string name="accessibility_playlists_all_categories">ทุกประเภท</string>
+
+    <string name="accessibility_remove_ad">ลบโฆษณา</string>
+
+    <string name="accessibility_song_info">ข้อมูลเพลง</string>
+
+    <string name="accessibility_queue">คิว</string>
+
+    <string name="accessibility_miniplayer_pager">เลื่อนไปยังเครื่องเล่นแบบมินิ</string>
+
+    <string name="accessibility_download">ดาวน์โหลด</string>
+
+    <string name="accessibility_choose_genre">ตัวกรอง</string>
+
+    <string name="accessibility_choose_period">เลือกระยะเวลา</string>
+
+    <string name="accessibility_settings">การตั้งค่า</string>
+
+    <string name="accessibility_show_hide_password">แสดง/ซ่อนรหัสผ่าน</string>
+
+    <string name="accessibility_close">ปิด</string>
+
+    <string name="accessibility_back">ปิด</string>
+
+    <string name="accessibility_actions">การกระทำ</string>
+
+    <string name="accessibility_toggle_follow">ติดตาม/เลิกติดตาม</string>
+
+    <string name="accessibility_add_to_playlist">เพิ่มเพลงใน playlist</string>
+
+    <string name="accessibility_share">แชร์</string>
+
+    <string name="accessibility_player_seek">สครับเบอร์</string>
+
+    <string name="accessibility_player_prev">เพลงก่อนหน้า</string>
+
+    <string name="accessibility_player_next">เพลงถัดไป</string>
+
+    <string name="accessibility_player_play_pause">เล่น/หยุดชั่วคราว</string>
+
+    <string name="accessibility_player_repeat">สลับโหมดเล่นซ้ำ</string>
+
+    <string name="accessibility_player_hifi">HiFi</string>
+
+    <string name="accessibility_player_minimise">ย่อขนาดเครื่องเล่น</string>
+
+    <string name="accessibility_player_shuffle">สลับโหมดเปลี่ยนเพลง</string>
+
+    <string name="accessibility_artist_info">ข้อมูลศิลปิน</string>
+
+    <string name="accessibility_twitter">Twitter</string>
+
+    <string name="accessibility_facebook">Facebook</string>
+
+    <string name="accessibility_instagram">Instagram</string>
+
+    <string name="accessibility_youtube">Youtube</string>
+
+    <string name="accessibility_queue_create_playlist">สร้าง playlist จากคิว</string>
+
+    <string name="accessibility_miniplayer_scroll_back_to_top">เลื่อนไปด้านบน</string>
+
+    <string name="accessibility_song_image">หน้าปกเพลง</string>
+
+    <string name="accessibility_favorite">โปรดปราน</string>
+
+    <string name="accessibility_repost">re-up</string>
+
+    <string name="accessibility_edit">แก้ไข</string>
+
+    <string name="accessibility_ad">โฆษณา</string>
+
+    <string name="accessibility_toast_image">Toast image</string>
+
+    <string name="NSAppleMusicUsageDescription">คุณสมบัตินี้ต้องใช้คลังไฟล์สื่อ</string>
+
+    <string name="NSBluetoothPeripheralUsageDescription">Audiomack มีความต้องการแสดงข้อมูลกับอุปกรณ์บลูทูธที่อยู่รอบๆแม้ในขณะที่คุณไม่ได้ใช้งาน</string>
+
+    <string name="NSBluetoothAlwaysUsageDescription">Audiomack มีความต้องการแสดงข้อมูลกับอุปกรณ์บลูทูธที่อยู่รอบๆแม้ในขณะที่คุณไม่ได้ใช้งาน</string>
+
+    <string name="NSCalendarsUsageDescription">การใช้งานนี้จำเป็นต้องเข้าถึงปฏิทิน</string>
+
+    <string name="NSContactsUsageDescription">คุณสมบัตินี้จำเป็นต้องใช้รายชื่อผู้ติดต่อ</string>
+
+    <string name="NSLocationAlwaysAndWhenInUseUsageDescription">เปิดใช้งาน Audiomack เพื่อแสดงเพลงยอดนิยมในพื้นที่รอบตัว</string>
+
+    <string name="NSLocationAlwaysUsageDescription">เปิดใช้งาน Audiomack เพื่อแสดงเพลงยอดนิยมในพื้นที่รอบตัว</string>
+
+    <string name="NSLocationWhenInUseUsageDescription">เปิดใช้งาน Audiomack เพื่อแสดงเพลงยอดนิยมในพื้นที่รอบตัว</string>
+
+    <string name="NSMicrophoneUsageDescription">คุณสมบัตินี้จำเป็นต้องใช้ไมโครโฟน</string>
+
+    <string name="NSMotionUsageDescription">คุณสมบัตินี้จำเป็นต้องใช้การเคลื่อนไหว</string>
+
+    <string name="NSPhotoLibraryAddUsageDescription">คุณสมบัตินี้จำเป็นต้องใช้การบันทึกในคลังภาพ</string>
+
+    <string name="NSRemindersUsageDescription">การใช้งานนี้จะเพิ่มการแจ้งเตือน</string>
+
+    <string name="NSSpeechRecognitionUsageDescription">คุณสมบัตินี้จำเป็นต้องใช้การรู้จำการพูด</string>
+
+    <string name="positive_upsell_message">ลบโฆษณาด้วยการอัปเกรดเป็น AUDIOMACK PREMIUM</string>
+
+    <string name="highlights_add">ไฮไลต์</string>
+
+    <string name="highlights_remove">ลบออกจากไฮไลต์</string>
+
+    <string name="highlights_reached_limit_message">หากต้องการเพิ่มรายการอื่น คุณต้องลบไฮไลต์</string>
+
+    <string name="highlights_reached_limit_edit">แก้ไขไฮไลต์</string>
+
+    <string name="highlights_reached_limit_cancel">ยกเลิก</string>
+
+    <string name="highlights_edit_title">แก้ไขไฮไลต์</string>
+
+    <string name="highlights_edit_subtitle">คุณสามารถไฮไลต์แทร็ก,\nอัลบัมหรือ playlist ได้มากถึง 4 แบบในโปรไฟล์</string>
+
+    <string name="highlights_edit_save">บันทึก</string>
+
+    <string name="uploads_header_highlighted">ไฮไลต์</string>
+
+    <string name="uploads_header_recent">ที่เพิ่งอัปโหลด</string>
+
+    <string name="uploads_highlighted_message">แตะที่จุดสามจุดที่อยู่ใกล้กับเพลง อัลบัมหรือ playlist แล้วเลือก \"ไฮไลต์\" เพื่อปักหมุดไว้ด้านบนสุดในโปรไฟล์</string>
+
+    <string name="toast_highlight_error">ไม่สามารถตั้งเนื้อหานี้เป็นไฮไลต์ได้</string>
+
+    <string name="highlight_confirmation_title_template">%s เป็นไฮไลต์ในโปรไฟล์ของคุณตอนนี้</string>
+
+    <string name="highlight_confirmation_message">คุณสามารถไฮไลต์เพลงโปรด อัลบัมหรือ playlist ที่ชื่นชอบเพื่อให้ผู้ฟังเห็นในโปรไฟล์ของคุณได้มากถึง 4 แบบ</string>
+
+    <string name="highlight_confirmation_view">ดูโปรไฟล์</string>
+
+    <string name="highlight_confirmation_close">ทำต่อ</string>
+
+    <string name="song">เพลง</string>
+
+    <string name="album">อัลบัม</string>
+
+    <string name="artist">ศิลปิน</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="podcast">พอดแคสต์</string>
+
+    <string name="editplaylist_create_banner">เพิ่มภาพแบนเนอร์</string>
+
+    <string name="download_delete_confirmation_title">แน่ใจแล้วใช่ไหมว่าต้องการลบ %s ออกจากรายการที่ดาวน์โหลด?</string>
+
+    <string name="download_delete_confirmation_yes">ลบ</string>
+
+    <string name="download_delete_confirmation_no">ยกเลิก</string>
+
+    <string name="signup_email_placeholder">email\@domain.com</string>
+
+    <string name="signup_cta">ลงทะเบียน</string>
+
+    <string name="signup_cant_login">พบปัญหาในการเข้าสู่ระบบใช่ไหม? ติดต่อเรา</string>
+
+    <string name="signup_cant_login_highlighted">ติดต่อเรา</string>
+
+    <string name="signup_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+
+    <string name="signup_create_account_prompt">ไม่พบบัญชีที่ตรงกับอีเมลนี้ สร้างบัญชีใหม่ฟรี</string>
+
+    <string name="signup_create_account_prompt_highlighted">สร้างบัญชีใหม่ฟรี</string>
+
+    <string name="signup_audiomack_header">เข้าสู่ระบบ AUDIOMACK</string>
+
+    <string name="signup_continue">ทำต่อ</string>
+
+    <string name="signup_with_email_prompt">หรือลงทะเบียน/เข้าสู่ระบบด้วยอีเมล</string>
+
+    <string name="signup_troubles_alert_message">ใส่อีเมลเพื่อ\nรีเซ็ตรหัสผ่าน:</string>
+
+    <string name="signup_troubles_alert_footer">ยังเข้าสู่ระบบไม่ได้ใช่ไหม? ติดต่อเรา</string>
+
+    <string name="signup_troubles_alert_footer_highlighted">ติดต่อเรา</string>
+
+    <string name="login_twitter_error_message">การเข้าสู่ระบบด้วย Twitter ล้มเหลว</string>
+
+    <string name="login_google_error_message">การเข้าสู่ระบบด้วย Google ล้มเหลว</string>
+
+    <string name="disconnect_social_alert_title">แน่ใจแล้วใช่ไหมว่าต้องการยกเลิกการเชื่อมต่อกับบัญชีโซเชียล?</string>
+
+    <string name="disconnect_social_alert_yes">ยกเลิกการเชื่อมต่อ</string>
+
+    <string name="disconnect_social_alert_no">ยกเลิก</string>
+
+    <string name="connect_social_twitter">เชื่อมต่อกับบัญชี Twitter</string>
+
+    <string name="connect_social_facebook">เชื่อมต่อกับบัญชี Facebook</string>
+
+    <string name="connect_social_instagram">เชื่อมต่อกับบัญชี Instagram</string>
+
+    <string name="connect_social_youtube">เชื่อมต่อกับบัญชี youtube</string>
+
+    <string name="connect_social_popup_title_twitter">รายชื่อ Twitter ของคุณ</string>
+
+    <string name="connect_social_popup_title_instagram">รายชื่อ Instagram ของคุณ</string>
+
+    <string name="connect_social_popup_title_facebook">รายชื่อ Facebook ของคุณ</string>
+
+    <string name="connect_social_popup_title_youtube">รายชื่อ Youtube ของคุณ</string>
+
+    <string name="connect_social_popup_placeholder_twitter">ชื่อผู้ใช้</string>
+
+    <string name="connect_social_popup_placeholder_instagram">ชื่อผู้ใช้</string>
+
+    <string name="connect_social_popup_placeholder_facebook">URL</string>
+
+    <string name="connect_social_popup_placeholder_youtube">URL</string>
+
+    <string name="connect_social_popup_save">เพิ่ม</string>
+
+    <string name="connect_social_popup_clear">ล้าง</string>
+
+    <string name="connect_social_popup_cancel">ยกเลิก</string>
+
+    <string name="playlist_delete_title_template">ลบ playlist %s</string>
+
+    <string name="playlist_delete_no">ยกเลิก</string>
+
+    <string name="playlist_delete_yes">ลบ</string>
+
+    <string name="playlist_delete_message">แน่ใจแล้วใช่ไหม? การกระทำนี้ไม่สามารถยกเลิกได้</string>
+
+    <string name="search_related_title">ไม่พบเพลงที่ตรงกับเพลงนี้ %s</string>
+
+    <string name="search_related_subtitle">คุณอาจเพลิดเพลินไปกับศิลปินเหล่านี้ที่คล้ายกับคนที่คุณตามหา</string>
+
+    <string name="search_filter">ผลลัพท์การกรอง</string>
+
+    <string name="search_filter_sort">เรียงตาม</string>
+
+    <string name="search_filter_popular">นิยมสูงสุด</string>
+
+    <string name="search_filter_recent">ใหม่มากที่สุด</string>
+
+    <string name="search_filter_relevant">เกี่ยวข้องมากที่สุด</string>
+
+    <string name="search_filter_verified_only">รับรองแล้วเท่านั้น</string>
+
+    <string name="search_filter_genres">แนวเพลง</string>
+
+    <string name="search_filter_refine">ปรับปรุงการค้นหา</string>
+
+    <string name="inapprating_alert_title">ให้คะแนน Audiomack</string>
+
+    <string name="inapprating_alert_message">คุณคิดว่า Audiomack เป็นแอปที่เหมาะกับคะแนน 5 ดาวไหม?</string>
+
+    <string name="inapprating_alert_positive">ใช่</string>
+
+    <string name="inapprating_alert_negative">ไม่</string>
+
+    <string name="inapprating_alert_followup_title">สนับสนุน Audiomack</string>
+
+    <string name="inapprating_alert_followup_message">เรารู้สึกเสียใจที่คุณไม่สนุกกับแอปนี้ คุณต้องการให้เราติดต่อฝ่ายสนับสนุนให้ไหม?</string>
+
+    <string name="inapprating_alert_followup_positive">ใช่</string>
+
+    <string name="inapprating_alert_followup_negative">ไว้คราวหลัง</string>
+
+    <string name="search_verified_account">บัญชีที่รับรองแล้ว</string>
+
+    <string name="search_verified_playlist">playlist ที่รับรองแล้ว</string>
+
+    <string name="slideupmenu_music_added_by_template">เพิ่มโดย %s</string>
+
+    <string name="slideupmenu_music_share_copylink">คัดลอกลิงก์</string>
+
+    <string name="slideupmenu_music_share_twitter">Twitter</string>
+
+    <string name="slideupmenu_music_share_facebook">Facebook</string>
+
+    <string name="slideupmenu_music_share_text">ด้วยข้อความ</string>
+
+    <string name="slideupmenu_music_share_more">เพิ่มเติม</string>
+
+    <string name="slideupmenu_music_cancel">ยกเลิก</string>
+
+    <string name="slideupmenu_music_add_to_downloads">เพิ่มลงในรายการดาวน์โหลด</string>
+
+    <string name="slideupmenu_music_remove_from_downloads">ลบออกจากรายการดาวน์โหลด</string>
+
+    <string name="opensource_title">OPEN SOURCE LIBRARIES</string>
+
+    <string name="opensource_subtitle">ห้องสมุดที่ใช้ในแอปนี้</string>
+
+    <string name="opensource_subsubtitle">หน้านี้แสดงการแจ้งเตือนเมื่อพบโปรแกรมน่าสงสัยที่ใช้ในแอป Audiomack\nขอบคุณมาก!</string>
+
+    <string name="accessibility_comment">ความคิดเห็น</string>
+
+    <string name="accessibility_sort">ประเภท</string>
+
+    <string name="comments_write_prompt">เขียนความคิดเห็นแบบสาธารณะ...</string>
+
+    <string name="comments_removed_comment">ความคิดเห็นนี้ถูกลบแล้ว</string>
+
+    <string name="comments_comment_title">ความคิดเห็น</string>
+
+    <string name="comments_header_title">ความคิดเห็น</string>
+
+    <string name="comments_reply">ตอบกลับ</string>
+
+    <string name="comments_filter_top">ความคิดเห็นยอดนิยม</string>
+
+    <string name="comments_filter_newest">เรียงจากใหม่ที่สุด</string>
+
+    <string name="comments_filter_oldest">เรียงจากเก่าที่สุด</string>
+
+    <string name="comments_delete_comment">ลบความคิดเห็น</string>
+
+    <string name="comments_flag_comment">รายงานความคิดเห็น</string>
+
+    <string name="comments_share_comment">แชร์ความคิดเห็น</string>
+
+    <string name="comments_delete_alert_title">แน่ใจแล้วใช่ไหมว่าต้องการลบความคิดเห็นนี้?</string>
+
+    <string name="comments_delete_alert_confirm">ลบความคิดเห็น</string>
+
+    <string name="comments_flag_alert_title">แน่ใจใช่ไหม?</string>
+
+    <string name="comments_flag_alert_subtitle">รายงานเฉพาะเนื้อหาที่ไม่สุภาพหรือสแปม</string>
+
+    <string name="comments_flag_alert_confirm">รายงาน</string>
+
+    <string name="comments_alert_cancel">ยกเลิก</string>
+
+    <string name="comments_be_nice_title">จงทำดีเข้าไว้</string>
+
+    <string name="comments_be_nice_subtitle">นี่เป็นชุมชนของคุณ ควบคุมมันให้ได้</string>
+
+    <string name="comments_be_nice_bullet_1">ไม่พบสแปม ลิงก์นี้ใช้งานไม่ได้</string>
+
+    <string name="comments_be_nice_bullet_2">ความคิดเห็นเหล่านี้ไม่มีประโยชน์กับเพลงของคุณ</string>
+
+    <string name="comments_be_nice_bullet_3">หากคุณมีพฤติกรรมเหยียดเชื้อชาติ เพศ ก้าวร้าวหรือไร้สติ คุณจะต้องสูญเสียสิทธิ์ในการแสดงความคิดเห็น</string>
+
+    <string name="comments_be_nice_continue">ทำต่อ</string>
+
+    <string name="comments_view_more_replies">ดู %s การตอบกลับเพิ่มเติม</string>
+
+    <string name="comments_view_more_reply">ดู 1 การตอบกลับเพิ่มเติม</string>
+
+    <string name="comments_expand">ขยาย</string>
+
+    <string name="comments_minimize">ย่อ</string>
+
+    <string name="comments_commenting_on">แสดงความคิดเห็นใน%s</string>
+
+    <string name="comments_placeholder_cta">แสดงความคิดเห็นเป็นคนแรก</string>
+
+    <string name="artists_onboarding_title">Audiomack เกิดมาเพื่อ\nค้นหาเสียงดนตรีใหม่ๆ</string>
+
+    <string name="artists_onboarding_message">ตอนนี้คุณอยู่ในอารมณ์ที่จะฟังเพลงของศิลปินคนไหน?</string>
+
+    <string name="artists_onboarding_message_highlighted">ศิลปินด้านล่าง</string>
+
+    <string name="artists_onboarding_button">เปิดฟังตอนนี้</string>
+
+    <string name="artists_onboarding_footer">ช่วยส่งฉันไปหารายการเพลงยอดนิยม</string>
+
+    <string name="artists_onboarding_playlist_play_all">เล่นเพลงทั้งหมด</string>
+
+    <string name="artists_onboarding_playlist_pause">หยุด</string>
+
+    <string name="artists_onboarding_playlist_shuffle">เปลี่ยนเพลง</string>
+
+    <string name="artists_onboarding_select">เลือกศิลปิน</string>
+
+    <string name="social_login_missing_email_title">โปรดระบุอีเมลที่ใช้งานได้เพื่อสร้างบัญชีให้เสร็จสิ้น</string>
+
+    <string name="social_login_missing_email_placeholder">ที่อยู่อีเมล</string>
+
+    <string name="social_login_missing_email_cta">ส่ง</string>
+
+    <string name="social_login_missing_email_cancel">ยกเลิก</string>
+
+    <string name="download_notification_title">กำลังดาวน์โหลด</string>
+
+    <string name="download_notification_message_template">และอีก %s คน</string>
+
+    <string name="player_extra_comments">ความคิดเห็น</string>
+
+    <string name="player_extra_info">ข้อมูล</string>
+
+    <string name="player_extra_more_from_artist">ดูเพิ่มจากศิลปิน</string>
+
+    <string name="player_extra_comments_count_plural">%s ความคิดเห็น</string>
+
+    <string name="player_extra_comments_count_singular">ความคิดเห็น %s</string>
+
+    <string name="player_extra_rankings">การจัดอันดับ</string>
+
+    <string name="player_extra_rankings_daily">วันนี้</string>
+
+    <string name="player_extra_rankings_weekly">สัปดาห์นี้</string>
+
+    <string name="player_extra_rankings_monthly">เดือนนี้</string>
+
+    <string name="player_extra_rankings_all">ตลอดเวลา</string>
+
+    <string name="player_extra_more_from_artist_template">ดูเพิ่มจาก %s</string>
+
+    <string name="player_extra_more_from_artist_visit_profile">เยี่ยมชมโปรไฟล์</string>
+
+    <string name="player_extra_artist_followers_plural">%s ผู้ติดตาม</string>
+
+    <string name="player_extra_artist_followers_singular">%s ผู้ติดตาม</string>
+
+    <string name="player_extra_offline_placeholder_title">คุณออฟไลน์</string>
+
+    <string name="player_extra_offline_placeholder_subtitle">ตรวจสอบสัญญาณอินเทอร์เน็ตแล้วลองอีกครั้ง</string>
+
+    <string name="player_extra_offline_placeholder_cta">ลองอีกครั้ง</string>
+
+    <string name="filters_title_chart">ตารางตัวกรอง</string>
+
+    <string name="filters_section_genre">กรองตามแนวเพลง:</string>
+
+    <string name="filters_section_timeframe">กรองตามช่วงเวลา:</string>
+
+    <string name="filters_section_timeframe_today">วันนี้</string>
+
+    <string name="filters_section_timeframe_week">สัปดาห์นี้</string>
+
+    <string name="filters_section_timeframe_month">เดือนนี้</string>
+
+    <string name="filters_section_timeframe_year">ปีนี้</string>
+
+    <string name="filters_section_timeframe_alltime">ตลอดเวลา</string>
+
+    <string name="filters_section_view">ดูตาม:</string>
+
+    <string name="filters_section_view_list">มุมมองแบบรายการ</string>
+
+    <string name="filters_section_view_tile">มุมมองแบบตาราง</string>
+
+    <string name="filters_cta">ตัวกรอง</string>
+
+    <string name="chromecast_device_default_name">อุปกรณ์ Chromecast ที่ไม่มีข้อมูล</string>
+
+    <string name="airplay_devices">อุปกรณ์ Airplay</string>
+
+    <string name="cast_menu_disconnect">ยกเลิกการเชื่อมต่อจาก %s</string>
+
+    <string name="cast_unavailable">ไม่สามารถใช้ Chromecast ได้</string>
+
+    <string name="notif_login_required">ต้องเข้าสู่ระบบ</string>
+
+    <string name="notif_login_favorite">ไม่สามารถเพิ่มเพลงในรายการโปรดได้</string>
+
+    <string name="notif_login_repost">ไม่สามารถ re-up ได้</string>
+
+    <string name="feat_x">%1$s feat. %2$s</string>
+
+    <string name="contact_title_text">เข้าสู่ระบบไม่ได้ใช่ไหม?</string>
+
+    <string name="contact_subtitle_text">โปรดแจ้งปัญหาและข้อบกพร่อง\nแล้วเราจะตอบกลับโดยเร็วที่สุด</string>
+
+    <string name="contact_what_title_text">กำลังพยายามเข้าสู่ระบบหรือลงทะเบียนอยู่ใช่ไหม?</string>
+
+    <string name="contact_how_title_text">การเข้าสู่ระบบ / ลงทะเบียนเป็นอย่างไรบ้าง?</string>
+
+    <string name="contact_when_title_text">คุณเข้าสู่ระบบครั้งสุดท้ายเมื่อใด?</string>
+
+    <string name="contact_email_title_text">คุณต้องการรับการติดต่อกลับที่อีเมลใด?</string>
+
+    <string name="contact_can_title_text">คุณสามารถบอกเราถึงปัญหาที่เกิดขึ้น\nในระหว่างที่คุณเข้าสู่ระบบหรือลงทะเบียนได้ไหม?</string>
+
+    <string name="contact_selection_what_login">เข้าสู่ระบบ</string>
+
+    <string name="contact_selection_what_signup">ลงทะเบียน</string>
+
+    <string name="contact_selection_how_google">Google</string>
+
+    <string name="contact_selection_how_twitter">Twitter</string>
+
+    <string name="contact_selection_how_facebook">Facebook</string>
+
+    <string name="contact_selection_how_email">อีเมล</string>
+
+    <string name="contact_selection_when_today">วันนี้</string>
+
+    <string name="contact_selection_when_last_week">สัปดาห์ที่แล้ว</string>
+
+    <string name="contact_selection_when_last_month">เดือนที่แล้ว</string>
+
+    <string name="contact_selection_when_dont_remember">ฉันจำไม่ได้</string>
+
+    <string name="contact_selection_required">*จำเป็น</string>
+
+    <string name="contact_selection_select">โปรดเลือก</string>
+
+    <string name="contact_selection_enter">ใส่ข้อความที่นี่</string>
+
+    <string name="contact_selection_send">ส่ง</string>
+
+    <string name="contact_time_limit_error">ยื่นตั๋วสนับสนุนของคุณแล้ว ก่อนจะส่งตั๋วใบใหม่ โปรดรอฝ่ายสนับสนุนตอบกลับ</string>
+
+    <string name="contact_send_success">ยื่นตั๋วสนับสนุนของคุณแล้ว โปรดรอฝ่ายสนับสนุนตอบกลับ</string>
+
+    <string name="album_play">เล่นเพลงในอัลบัม</string>
+
+    <string name="album_pause">หยุดเล่นอัลบัม</string>
+
+    <string name="playlist_play">เล่นเพลงใน playlist</string>
+
+    <string name="playlist_pause">หยุดเล่น playlist</string>
+
+    <string name="slideupmenu_music_trophies">ถ้วยรางวัล</string>
+
+    <string name="screenshot_now_playing">#กำลังฟัง</string>
+
+    <string name="screenshot_toast_title">จับภาพหน้าจอนี้และแชร์</string>
+
+    <string name="screenshot_toast_subtitle">ปัดลงเพื่อปิด</string>
+
+    <string name="highlights_highlighted">ที่ไฮไลต์</string>
+
+    <string name="slideupmenu_music_share_snapchat">Snapchat</string>
+
+    <string name="georestriction_alert_message">เจ้าของลิขสิทธิ์ไม่อนุญาตให้ใช้เพลงในเขตของคุณ</string>
+
+    <string name="georestriction_alert_delete">ลบ</string>
+
+    <string name="settings_notifications">การแจ้งเตือน</string>
+
+    <string name="notifications_manager_new_song_album">การแจ้งเตือนเพลง/อัลบัมใหม่</string>
+
+    <string name="notifications_manager_weekly_artist_reports">รายงานศิลปินรายสัปดาห์</string>
+
+    <string name="notifications_manager_song_album_benchmarks">เกณฑ์การเปรียบเทียบเพลง/อัลบัม</string>
+
+    <string name="notifications_manager_everyone">ทุกคน</string>
+
+    <string name="notifications_manager_artists">ศิลปิน</string>
+
+    <string name="notifications_manager_title">การแจ้งเตือน</string>
+
+    <string name="billing_issue_subscribed">การเรียกชำระเงินขัดข้อง: อัปเดตข้อมูลการชำระเงินของคุณเพื่อคงสถานะพรีเมียม</string>
+
+    <string name="billing_issue_unsubscribed">การเรียกชำระเงินขัดข้อง: อัปเดตข้อมูลการชำระเงินของคุณเพื่อเรียกคืนสถานะพรีเมียม</string>
+
+    <string name="comments_count_template">%s ความคิดเห็น</string>
+
+    <string name="permissions_rationale_alert_instagram_message">คุณสมบัตินี้จำเป็นต้องให้อนุญาตที่จำเป็นทั้งหมดกับ Instagram  โปรดเปิดการให้อนุญาตเหล่านี้</string>
+
+    <string name="premium_start_trial_ios">เริ่มทดลองใช้ฟรี 7 วัน</string>
+
+    <string name="premium_price_template_ios">%s ต่อเดือน</string>
+
+    <string name="comments_try_add_later">โปรดลองเพิ่มความคิดเห็นอีกครั้งภายหลัง</string>
+
+    <string name="comments_try_load_later">โปรดลองโหลดความคิดเห็นอีกครั้งภายหลัง</string>
+
+    <string name="comments_try_later_connection">เมื่อคุณมีสัญญาณอินเทอร์เน็ตที่ดีขึ้น โปรดลองอีกครั้ง</string>
+
+    <string name="please_try_again_later">โปรดลองอีกครั้งภายหลัง</string>
+
+    <string name="please_check_connection_try_again">โปรดตรวจสอบสัญญาณอินเทอร์เน็ตแล้วลองอีกครั้ง</string>
+
+    <string name="please_try_request_later">โปรดลองส่งคำขออีกครั้งภายหลัง</string>
+
+    <string name="please_login_again">โปรดเข้าสู่ระบบอีกครั้ง</string>
+
+    <string name="please_restart_app">โปรดลองรีสตาร์ทแอป</string>
+
+    <string name="player_file_no_connection">คุณไม่ได้เชื่อมต่ออินเทอร์เน็ต</string>
+
+    <string name="please_check_connection_try_download_again">โปรดตรวจสอบสัญญาณอินเทอร์เน็ตแล้วลองดาวน์โหลดอีกครั้ง</string>
+
+    <string name="home_tab_browse_experiment">ค้นพบ</string>
+
+    <string name="no_browser_installed">การกระทำนี้ไม่สำเร็จ โปรดตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งบราวเซอร์ในอุปกรณ์</string>
+
+    <string name="billing_issue_avoid_losing_premium">โปรดอัปเดตข้อมูลการชำระเงินเพื่อคงสถานะพรีเมียม</string>
+
+    <string name="billing_issue_restore_premium">สิทธิ์สมาชิกแบบพรีเมียมหมดอายุแล้ว โปรดอัปเดตข้อมูลการชำระเงินเพื่อกู้สถานะพรีเมียมคืน</string>
+
+    <string name="billing_issue_alert_header">วิธีการชำระเงินของคุณมีความขัดข้อง</string>
+
+    <string name="billing_issue_no_thanks">ไม่เป็นไร ขอบคุณ</string>
+
+    <string name="billing_issue_update_info">อัปเดตข้อมูล</string>
+
+    <string name="social_link_error_already_linked_title">บัญชีนี้มีการเชื่อมโยงกับผู้ใช้ Audiomack แล้ว</string>
+
+    <string name="social_link_error_already_linked_message_instagram">ลองเชื่อมโยงกับบัญชี Instagram อื่น</string>
+
+    <string name="social_link_error_already_linked_message_twitter">ลองเชื่อมโยงกับบัญชี Twitter อื่น</string>
+
+    <string name="trending_search_song">เพลง</string>
+
+    <string name="trending_search_album">อัลบัม</string>
+
+    <string name="trending_search_playlist">PLAYLIST</string>
+
+    <string name="trending_search_account">บัญชี</string>
+
+    <string name="login_apple_error_message">การเข้าสู่ระบบด้วย Apple ล้มเหลว</string>
+
+    <string name="benchmark_image_description">รูปภาพเบนช์มาร์ค</string>
+
+    <string name="benchmark_trophies_title">ถ้วยรางวัล</string>
+
+    <string name="benchmark_hide">ซ่อน</string>
+
+    <string name="benchmark_now">ตอนนี้</string>
+
+    <string name="benchmark_playing">กำลังเล่น</string>
+
+    <string name="benchmark_million">%d ล้าน</string>
+
+    <string name="benchmark_billion">%d พันล้าน</string>
+
+    <string name="benchmark_play">เล่น</string>
+
+    <string name="benchmark_favorite">รายการโปรด</string>
+
+    <string name="benchmark_playlist">เพิ่ม playlist</string>
+
+    <string name="benchmark_repost">re-up</string>
+
+    <string name="benchmark_verified">รับรองแล้ว</string>
+
+    <string name="benchmark_artist">ศิลปิน</string>
+
+    <string name="share_whatsapp">WhatsApp</string>
+
+    <string name="share_messenger">Messenger</string>
+
+    <string name="share_wechat">WeChat</string>
+
+    <string name="share_messenger_login_error">คุณสมบัตินี้จำเป็นต้องเข้าสู่ระบบใน Messenger</string>
+
+    <string name="notifications_verb_benchmark">เพียงแค่กด</string>
+
+    <string name="notifications_verb_benchmark_your_song">เพลงของคุณ</string>
+
+    <string name="notifications_verb_benchmark_your_album">อัลบัมของคุณ</string>
+
+    <string name="notifications_verb_benchmark_your_playlist">playlist ของคุณ</string>
+
+    <string name="premium_download_toast">เปิดใช้งานแบบพรีเมียมเพื่อสลับไปฟังเพลงที่ล็อคอยู่</string>
+
+    <string name="premium_download_downloaded">ดาวน์โหลดแล้ว</string>
+
+    <string name="premium_download_standard_message">การดาวน์โหลดฟรีแบบพรีเมียมที่เหลืออยู่</string>
+
+    <string name="premium_download_upgrade">อัปเกรด</string>
+
+    <string name="premium_download_reached_limit">ดาวน์โหลดฟรีแบบพรีเมียมถึงขีดจำกัดแล้ว</string>
+
+    <string name="premium_download_large_header">คุณกำลังดาวน์โหลดเนื้อหาแบบพรีเมียม</string>
+
+    <string name="premium_download_large_subheader">บัญชีฟรีของคุณมาพร้อมกับ %d การดาวน์โหลดแบบพรีเมียม</string>
+
+    <string name="premium_download_highlighted_premium_count_message">%d พรีเมียมฟรี</string>
+
+    <string name="premium_download_plain_remaining">การดาวน์โหลดที่เหลืออยู่</string>
+
+    <string name="premium_download_upgrade_header">อัปเกรดเป็นพรีเมียมตอนนี้และรับ:</string>
+
+    <string name="premium_download_upgrade_first_point">ดาวน์โหลดแบบพรีเมียมแบบไร้ขีดจำกัด</string>
+
+    <string name="premium_download_upgrade_second_point">ประสบการณ์ใช้แอปแบบไร้โฆษณา</string>
+
+    <string name="premium_download_upgrade_third_point">สตรีมด้วยคุณภาพสูง</string>
+
+    <string name="premium_download_upgrade_fourth_point">ควบคุมอีควอไลเซอร์</string>
+
+    <string name="premium_download_upgrade_fifth_point">และอื่นๆอีกมากมาย!</string>
+
+    <string name="premium_download_upgrade_button">อัปเกรดเลย</string>
+
+    <string name="premium_download_learn_more_left">เรียนรู้เพิ่มเติมเกี่ยวกับ</string>
+
+    <string name="premium_download_learn_more_right">เนื้อหาแบบพรีเมียม</string>
+
+    <string name="premium_download_large_header_second">เรียนรู้เพิ่มเติมเกี่ยวกับการดาวน์โหลดแบบพรีเมียม</string>
+
+    <string name="premium_download_replace_header">แทนที่การดาวน์โหลด</string>
+
+    <string name="premium_download_replace_single_subheader">เลือกเพลงที่จะใช้แทนที่</string>
+
+    <string name="premium_download_replace_multiple_subheader">เลือก %d เพลงเพื่อแทนที่</string>
+
+    <string name="premium_download_replace_button">เลือก %s (%d)</string>
+
+    <string name="premium_download_replace_button_selected">ลบ (%d) และดาวน์โหลด</string>
+
+    <string name="premium_download_replace_button_text_one">1</string>
+
+    <string name="premium_download_replace_button_text_two">2</string>
+
+    <string name="premium_download_replace_button_text_three">3</string>
+
+    <string name="premium_download_replace_button_text_four">4</string>
+
+    <string name="premium_download_replace_button_text_five">5</string>
+
+    <string name="premium_download_replace_button_text_six">6</string>
+
+    <string name="premium_download_replace_button_text_seven">7</string>
+
+    <string name="premium_download_replace_button_text_eight">8</string>
+
+    <string name="premium_download_replace_button_text_nine">9</string>
+
+    <string name="premium_download_replace_button_text_ten">10</string>
+
+    <string name="premium_download_replace_button_text_eleven">11</string>
+
+    <string name="premium_download_replace_button_text_twelve">12</string>
+
+    <string name="premium_download_replace_button_text_thirteen">13</string>
+
+    <string name="premium_download_replace_button_text_fourteen">14</string>
+
+    <string name="premium_download_replace_button_text_fifteen">15</string>
+
+    <string name="premium_download_replace_button_text_sixteen">16</string>
+
+    <string name="premium_download_replace_button_text_seventeen">17</string>
+
+    <string name="premium_download_replace_button_text_eighteen">18</string>
+
+    <string name="premium_download_replace_button_text_nineteen">19</string>
+
+    <string name="premium_download_replace_button_text_twenty">20</string>
+
+    <string name="premium_download_replace_full_album_button">เลือก (%d) เพื่อดาวน์โหลด</string>
+
+    <string name="premium_download_alert_exceed_limit_title">ผู้ใช้งานแบบพรีเมียมเท่านั้นที่สามารถดาวน์โหลดเพลงนี้แบบเต็มอัลบัมได้</string>
+
+    <string name="premium_download_alert_exceed_limit_subtitle">คุณยังคงดาวน์โหลดแยกแต่ละเพลงได้</string>
+
+    <string name="premium_download_alert_upgrade">อัปเกรดเป็นพรีเมียม</string>
+
+    <string name="premium_download_alert_exceed_limit_cancel">ยกเลิก</string>
+
+    <string name="premium_download_alert_frozen_download_play_message">เนื้อหานี้เกินขีดจำกัดการดาวน์โหลดแบบพรีเมียมของคุณ</string>
+
+    <string name="offline_filter_button">ตัวกรอง</string>
+
+    <string name="offline_filter_files_description">ไม่สามารถเพิ่มเพลงเหล่านี้ในรายการโปรด re-up ไฮไลต์ playlist หรือแชร์ได้เนื่องจากมีการเชื่อมโยงกับอุปกรณ์ของคุณ</string>
+
+    <string name="offline_filter_files_scan">ฟังเพลงที่บันทึกในเครื่องบนแอป</string>
+
+    <string name="offline_filter_files_switch">รวมไฟล์ในเครื่อง</string>
+
+    <string name="offline_filter_previous_downloads">ดูรายการดาวน์โหลดก่อนหน้า</string>
+
+    <string name="offline_filter_section_type">กรองตามประเภท:</string>
+
+    <string name="offline_filter_section_order">กรองตามลำดับ:</string>
+
+    <string name="offline_filter_section_files">ไฟล์ในเครื่อง:</string>
+
+    <string name="offline_filter_title">ตัวกรองออฟไลน์</string>
+
+    <string name="signup_error_min_age">คุณต้องมีอายุไม่ต่ำกว่า 13 ปีจึงจะสามารถใช้แอปนี้ได้</string>
+
+    <string name="report_content">รายงานเนื้อหา</string>
+
+    <string name="report_content_done">รายงานเนื้อหาแล้ว</string>
+
+    <string name="block_user">บล็อคผู้ใช้</string>
+
+    <string name="block_user_done">ส่งคำขอการรายงาน/บล็อคแล้ว</string>
+
+    <string name="confirm_report_done">คำขอการรายงาน/บล็อคจะมีผลในอีก 24 ชั่วโมงข้างหน้า</string>
+
+    <string name="confirm_report_alert_title">โปรดระบุรายละเอียดของปัญหา</string>
+
+    <string name="confirm_report_report_alert_message">เลือกคำอธิบายสาเหตุของการรายงาน/บล็อค</string>
+
+    <string name="confirm_report_alert_submit">ส่ง</string>
+
+    <string name="confirm_report_alert_option_violent">สิ่งนี้คือเนื้อหาภาพหรือเสียงที่มีความรุนแรง / อนาจาร</string>
+
+    <string name="confirm_report_alert_option_broken">ไม่มีการสตรีมหรือดาวน์โหลดเนื้อหานี้</string>
+
+    <string name="confirm_report_alert_option_misleading">เนื้อหานี้เป็นการหลอกลวงหรือผิดประเภท</string>
+
+    <string name="confirm_report_alert_option_spam">บัญชีนี้เข้าข่ายเป็นสแปมหรือคุกคามผู้อื่น</string>
+
+    <string name="confirm_report_alert_option_infringement">ฉันมั่นใจว่าสิ่งนี้เป็นการละเมิดลิขสิทธิ์</string>
+
+    <string name="confirm_bis_report_alert_title">แน่ใจแล้วใช่ไหมว่าต้องการส่งการแจ้งการบล็อค/รายงานนี้?</string>
+
+    <string name="confirm_bis_report_alert_yes">ใช่</string>
+
+    <string name="confirm_bis_report_alert_cancel">ไม่ต้องการ</string>
+
+    <string name="benchmark_tastemaker">TASTEMAKER</string>
+
+    <string name="benchmark_authenticated">AUTHED</string>
+
+    <string name="download_restore_backup_fail">ไม่สามารถคืนค่ารายการดาวน์โหลดจากอุปกรณ์ที่แล้วได้</string>
+
+    <string name="download_restore_backup_success">คืนค่ารายการดาวน์โหลดจากอุปกรณ์ที่แล้วได้เรียบร้อยแล้ว</string>
+
+    <string name="download_restore_prompt">ต้องการคืนค่าการดาวน์โหลด %d รายการจากอุปกรณ์ที่แล้วไหม?</string>
+
+    <string name="download_restore_prompt_yes">ใช่</string>
+
+    <string name="download_restore_prompt_no">ไม่</string>
+
+    <string name="download_restore_no_wifi_prompt">การดาวน์โหลดจะเริ่มขึ้นต่อเมื่อมีการเชื่อมต่อ WiFi</string>
+
+    <string name="download_restore_no_wifi_prompt_ok">ตกลง</string>
+
+    <string name="in_app_update_ios_title">มีการอัปเดตใหม่</string>
+
+    <string name="in_app_update_ios_message">Audiomack เวอร์ชั่นใหม่พร้อมใช้งานแล้ว โปรดอัปเดตตอนนี้</string>
+
+    <string name="in_app_update_ios_option_update">อัปเดต</string>
+
+    <string name="in_app_update_ios_option_next_time">ไว้คราวหน้า</string>
+
+    <string name="in_app_update_downloaded_title">เพิ่งมีการดาวน์โหลดอัปเดตแอปนี้ไปไม่นาน</string>
+
+    <string name="in_app_update_downloaded_restart">รีสตาร์ท</string>
+
+    <string name="in_app_update_downloaded_cancel">ยกเลิก</string>
+
+    <string name="in_app_update_download_started">เริ่มดาวน์โหลดการอัปเดตแล้ว</string>
+
+    <string name="comments_view_all">ดูความคิดเห็นทั้งหมด</string>
+
+    <string name="settings_override_premium" translatable="false">Override Premium Status</string>
+
+    <string name="benchmark_trophies_subtitle_new">เลือกถ้วยรางวัลแล้วแชร์ภาพหน้าจอ</string>
+
+    <string name="search_authenticated_account">บัญชีที่รับรองแล้ว</string>
+
+    <string name="search_tastemaker_account">บัญชี TASTEMAKER</string>
+
+    <string name="playlists_filter_pill_favorited">ที่ชื่นชอบ</string>
+
+    <string name="offline_remove_title">เลือกลบออฟไลน์หลายรายการ</string>
+
+    <string name="offline_remove_button">ลบออกจากออฟไลน์</string>
+
+    <string name="download_delete_slide">ลบ</string>
+
+    <string name="options_play_next_list">เล่นเพลงถัดไป</string>
+
+    <string name="slideupmenu_music_share_instagram">อินสตาแกรม สตอรี่</string>
+
+    <string name="notifications_playlists_bundle_verb">เพิ่มไปยัง</string>
+
+    <string name="notifications_playlists_bundle_suffix">คุณติดตาม</string>
+
+    <string name="notifications_playlists_bundle_number_playlist">%d playlists</string>
+
+    <string name="notifications_playlists_new_songs">%d เพลงใหม่</string>
+
+    <string name="audio_ad_now_playing_info_title">โฆษณาเสียง</string>
+
+    <string name="audio_ad_advertisement">โฆษณา:</string>
+
+    <string name="audio_ad_support_artists">โฆษณาเหล่านี้จะช่วยสนับสนุนศิลปินและเหล่าผู้สร้างใน Audiomack</string>
+
+    <string name="audio_ad_upgrade_premium">อัปเกรดเป็นพรีเมียมเพื่อลบโฆษณาทั้งหมด</string>
+
+    <string name="audio_ad_now_playing_info_artist">เนื้อหาจะเริ่มในอีก %d วินาที...</string>
+
+    <string name="downloadmessage_button_premium_downloads">ไปที่เพลงออฟไลน์</string>
+
+    <string name="benchmark_next_milestone">ถัดไป: %s</string>
+
+    <string name="benchmark_on_audiomack">ใน AUDIOMACK</string>
+
+    <string name="settings_sleep_timer">ตัวตั้งเวลาหยุด</string>
+
+    <string name="sleep_timer_alert_title">คุณต้องการให้เล่นเพลงนานเท่าใด?</string>
+
+    <string name="sleep_timer_alert_button">ตัวตั้งเวลา</string>
+
+    <string name="sleep_timer_alert_hours">ชั่วโมง</string>
+
+    <string name="sleep_timer_alert_hour">ชั่วโมง</string>
+
+    <string name="sleep_timer_alert_minutes">นาที</string>
+
+    <string name="browse_tab_world">ทั่วโลก</string>
+
+    <string name="premium_2019_sleep_timer">ตัวตั้งเวลาหยุด</string>
+
+    <string name="premium_2019_sleep_timer_desc">ตั้งเวลาหยุดเล่นเพลงเพื่อที่คุณจะได้หลับพักผ่อนอย่างไร้กังวลเรื่องแอปพลิเคชันในยามค่ำคืน</string>
+
+    <string name="signup_gender_birthday_information_header">ทำโปรไฟล์ให้เสร็จสมบูรณ์</string>
+
+    <string name="signup_gender_birthday_complete_information_tos">หากต้องการข้อมูลเพิ่มเติม โปรดดูที่เงื่อนไขการให้บริการและนโยบายความเป็นส่วนตัว</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_prefix">ความคิดเห็นของคุณใน</string>
+
+    <string name="notifications_verb_benchmark_comment_upvote_verb">ได้รับแล้ว</string>
+
+    <string name="notifications_verb_benchmark_comment_multiple_upvote_suffix">อัพโวทที่ %d</string>
+
+    <string name="notifications_verb_benchmark_comment_one_upvote_suffix">อัพโวทที่ %d</string>
+
+    <string name="premium_download_large_subheader_second_song">อัปเกรดหรือลบการดาวน์โหลดแบบพรีเมียมเพื่อดาวน์โหลดเพลงนี้</string>
+
+    <string name="notifications_playlists_bundle_verb_single">เพิ่มไปยัง</string>
+
+    <string name="notifications_playlists_bundle_number_song_single">%d เพลง</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_single">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_single">เพลงใหม่ %d เพลง</string>
+
+    <string name="audio_ad_notif_title">โฆษณา</string>
+
+    <string name="playlists_filter_my">playlist ของฉัน</string>
+
+    <string name="playlists_filter_favorited">ที่ชื่นชอบ</string>
+
+    <string name="playlists_filter_offline">ออฟไลน์เท่านั้น</string>
+
+    <string name="filters_section_type">กรองตามประเภท:</string>
+
+    <string name="musicinfo_runtime_title">ความยาว:</string>
+
+    <string name="musicinfo_runtime_value">%s นาที %d แทร็ก</string>
+
+    <string name="premium_2019_advanced">คุณสมบัติขั้นสูง</string>
+
+    <string name="premium_2019_start_trial">เริ่มทดลองใช้ฟรี 7 วัน</string>
+
+    <string name="favorites_filter_title">ตัวกรองรายการโปรด</string>
+
+    <string name="accessibility_multiselect">เลือกหลายรายการ</string>
+
+    <string name="accessibility_premium_download">การดาวน์โหลดแบบพรีเมียม</string>
+
+    <string name="search_playlist_total_songs">รวมเพลงทั้งหมด:</string>
+
+    <string name="restore_downloads_prompt_title_plural">ต้องการคืนค่าการดาวน์โหลด %d รายการจากอุปกรณ์ที่แล้วไหม?</string>
+
+    <string name="restore_downloads_prompt_title_singular">ต้องการคืนค่าการดาวน์โหลด %d รายการจากอุปกรณ์ที่แล้วไหม?</string>
+
+    <string name="restore_downloads_dialog_positive">คืนค่าการดาวน์โหลดทุกรายการ</string>
+
+    <string name="restore_downloads_dialog_negative">เลือกการดาวน์โหลดเพื่อคืนค่า</string>
+
+    <string name="restore_downloads_error">ไม่สามารถคืนค่าการดาวน์โหลดได้</string>
+
+    <string name="restore_downloads_started">กำลังคืนค่าการดาวน์โหลด</string>
+
+    <string name="restore_downloads_queued">การดาวน์โหลดจะเริ่มขึ้นต่อเมื่อมีการเชื่อมต่อ WiFi</string>
+
+    <string name="premium_2019_premiumdownloads">การดาวน์โหลดแบบไร้ขีดจำกัด</string>
+
+    <string name="premium_2019_premiumdownloads_desc">ดาวน์โหลดทุกอย่างบน Audiomack แบบไม่มีอะไรมากั้น</string>
+
+    <string name="premium_only_downloads_alert_title">นี่คือการดาวน์โหลดแบบพรีเมียม</string>
+
+    <string name="premium_only_downloads_alert_subtitle">บน Audiomack นั้นมีรายการดาวน์โหลดฟรี\nนับล้านรายการ ทว่าเหล่าศิลปินนั้น\nเปิดการดาวน์โหลดนี้ให้เฉพาะ\nสมาชิกแบบพรีเมียมเท่านั้น</string>
+
+    <string name="premium_only_downloads_alert_yes">อัปเกรด</string>
+
+    <string name="premium_only_downloads_alert_no">ยกเลิก</string>
+
+    <string name="notifications_manager_play_milestones">ไมล์สโตนการเล่น</string>
+
+    <string name="notifications_manager_upvote_milestones">ไมล์สโตนการ Upvote</string>
+
+    <string name="notifications_manager_comment_replies">การตอบกลับความคิดเห็น</string>
+
+    <string name="local_player_granted_alert_title">เล่นเพลงในเครื่อง</string>
+
+    <string name="local_player_granted_alert_message">คุณมีไฟล์เพลงที่เก็บไว้ในเครื่อง %d ไฟล์ ต้องการเข้าถึงเพลงเหล่านี้ด้วย Audiomack ไหม?\n\nหมายเหตุ: ไฟล์ในเครื่องจะไม่สามารถเพิ่มเป็นรายการโปรด แชร์ re-up ไฮไลต์ หรือเพิ่มใน playlist ได้</string>
+
+    <string name="local_player_granted_alert_positive">เพิ่ม</string>
+
+    <string name="local_player_granted_alert_negative">ยกเลิก</string>
+
+    <string name="local_player_ungranted_alert_title">เล่นเพลงในเครื่อง</string>
+
+    <string name="local_player_ungranted_alert_message">มีเพลงที่เก็บไว้ในเครื่องเหรอ? ตอนนี้คุณฟังเพลงพวกนั้นบน Audiomack ได้แบบไม่ต่างอะไรกับการสตรีมเพลง แตะที่ \"เพิ่ม\" ด้านล่างเพื่อเริ่ม!\n\nหมายเหตุ: ไฟล์ในเครื่องจะไม่สามารถเพิ่มเป็นรายการโปรด แชร์ re-up ไฮไลต์ หรือเพิ่มใน playlist ได้</string>
+
+    <string name="local_player_declined_alert_title">เพิ่มไฟล์จากในเครื่อง</string>
+
+    <string name="local_player_declined_alert_message">ฟังเพลงทุกไฟล์ที่เก็บอยู่ในเครื่องบนแอป Audiomack</string>
+
+    <string name="local_player_declined_alert_positive">เพิ่ม</string>
+
+    <string name="queue_clear_all">ล้างทั้งหมด</string>
+
+    <string name="queue_clear_upcoming">ล้างรายการที่กำลังมา</string>
+
+    <string name="queue_save_playlist">บันทึกใน Playlist</string>
+
+    <string name="premium_only_downloads_stream_alert_title">รายการนี้สำหรับการดาวน์โหลดแบบพรีเมียมเท่านั้น</string>
+
+    <string name="premium_only_downloads_stream_alert_subtitle">อัปเกรดบัญชีเพื่อทำให้เนื้อหาในแอปใช้สำหรับฟังแบบออฟไลน์ได้</string>
+
+    <string name="articles_noresults_placeholder">ไม่พบบทความ</string>
+
+    <string name="musicinfo_runtime_playlist_value">%s นาที %d เพลง</string>
+
+    <string name="premium_limited_reached_limit_alert_title">คุณมีการดาวน์โหลดแบบพรีเมียมไม่พอ</string>
+
+    <string name="premium_limited_reached_limit_alert_message">อัปเกรดเป็นพรีเมียมเพื่อการดาวน์โหลดแบบไม่จำกัดหรือแทนที่รายการเก่า</string>
+
+    <string name="premium_limited_reached_limit_alert_ugprade">เริ่มทดลองใช้แบบพรีเมียมฟรี</string>
+
+    <string name="premium_limited_reached_limit_alert_replace">แทนที่และดาวน์โหลด</string>
+
+    <string name="premium_limited_reached_limit_alert_learn">เรียนรู้เพิ่มเติมเกี่ยวกับเนื้อหาแบบพรีเมียม</string>
+
+    <string name="premium_limited_reached_limit_alert_learn_highlighted">เนื้อหาแบบพรีเมียม</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_title">คุณไม่มีการดาวน์โหลดแบบพรีเมียม</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_message">อัปเกรดเป็นพรีเมียมหรือแทนที่ด้วยการดาวน์โหลดแบบพรีเมียม %d รายการเพื่อเล่น</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_ugprade">อัปเกรดเป็นพรีเมียม</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_replace">แทนที่และปลดล็อก</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream">ฉันต้องการสตรีมแทน</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_stream_highlighted">สตรีมแทน</string>
+
+    <string name="premium_limited_play_frozen_offline_alert_delete">ลบออกจากออฟไลน์</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_title">คุณไม่มีการดาวน์โหลดแบบพรีเมียม</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_message">อัปเกรดเป็นพรีเมียมหรือแทนที่ด้วยการดาวน์โหลดแบบพรีเมียม %d รายการเพื่อดาวน์โหลด</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_ugprade">อัปเกรดเป็นพรีเมียม</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_replace">แทนที่และปลดล็อก</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream">ฉันต้องการสตรีมแทน</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_stream_highlighted">สตรีมแทน</string>
+
+    <string name="premium_limited_download_frozen_offline_alert_delete">ลบออกจากออฟไลน์</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_title">ปลดล็อกการดาวน์โหลดนี้ไหม?</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_message">คุณสามารถใช้การดาวน์โหลดแบบพรีเมียมที่เหลือ %d รายการเพื่อปลดล็อกได้</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_ugprade">อัปเกรดเป็นพรีเมียม</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_replace">ปลดล็อก</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream">ฉันต้องการสตรีมแทน</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_stream_highlighted">สตรีมแทน</string>
+
+    <string name="premium_limited_play_frozen_offline_available_unfreezes_alert_delete">ลบออกจากออฟไลน์</string>
+
+    <string name="premium_only_play_frozen_offline_alert_title">สมัครสมาชิกเพื่อปลดล็อก</string>
+
+    <string name="premium_only_play_frozen_offline_alert_message">บน Audiomack มีรายการดาวน์โหลดฟรีนับล้านแต่การดาวน์โหลดนี้มีเพียงผู้ใช้แบบพรีเมียมเท่านั้นที่จะเข้าถึงได้</string>
+
+    <string name="premium_only_play_frozen_offline_alert_ugprade">อัปเกรดเป็นพรีเมียม</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream">ฉันต้องการสตรีมแทน</string>
+
+    <string name="premium_only_play_frozen_offline_alert_stream_highlighted">สตรีมแทน</string>
+
+    <string name="premium_only_play_frozen_offline_alert_delete">ลบออกจากออฟไลน์</string>
+
+    <string name="restore_downloads_dialog_select">เลือกการดาวน์โหลดเพื่อคืนค่า</string>
+
+    <string name="restore_downloads_dialog_select_highlighted">คืนค่า</string>
+
+    <string name="search_recommendations">เพื่อคุณ</string>
+
+    <string name="settings_premium_status">สถานะพรีเมียม</string>
+
+    <string name="settings_premium_status_no_override">ไม่พบการลบล้าง</string>
+
+    <string name="settings_premium_status_free">ฟรี</string>
+
+    <string name="settings_premium_status_premium">พรีเมียม</string>
+
+    <string name="settings_premium_status_free_billing_issue">ฟรีพร้อมใบเสร็จ</string>
+
+    <string name="settings_premium_status_premium_billing_issue">พรีเมียมพร้อมใบเสร็จ</string>
+
+    <string name="notifications_playlists_bundle_number_playlist_singular">%d playlist</string>
+
+    <string name="notifications_playlists_new_songs_singular">เพลงใหม่ %d เพลง</string>
+
+    <string name="notifications_playlists_bundle_verb_singular">เพิ่มไปยัง</string>
+
+    <string name="notifications_playlists_bundle_number_song_plural">%d เพลง</string>
+
+    <string name="notifications_playlists_bundle_number_singular">%d playlist</string>
+
+    <string name="premium_limited_download_unlock_toast">ปลดล็อก %s แล้ว</string>
+
+    <string name="notifications_follow_alert_title">แจ้งเตือนเมื่อ\nศิลปินคนนี้\nปล่อยเพลงใหม่?</string>
+
+    <string name="notifications_follow_alert_positive">ให้สิทธิ์การเตือน</string>
+
+    <string name="premium_download_alert_exceed_limit_delete">ลบออกจากออฟไลน์</string>
+
+    <string name="email_verification_toast_success">ขอบคุณที่ยืนยันอีเมล</string>
+
+    <string name="email_verification_toast_failure">การยืนยันอีเมลล้มเหลว</string>
+
+    <string name="sleep_timer_stop_today">การเล่นจะหยุดลงตอน %s</string>
+
+    <string name="sleep_timer_stop_tomorrow">การเล่นจะหยุดลงพรุ่งนี้ตอน %s</string>
+
+    <string name="sleep_timer_triggered">ตัวตั้งเวลาหยุดทำงานเสร็จสิ้น</string>
+
+    <string name="follow_artist_push_notification_permission_alert_title">รับการเตือนเมื่อศิลปินคนนี้ปล่อยเพลงใหม่?</string>
+
+    <string name="follow_artist_push_notification_permission_alert_grant">ให้สิทธิ์การเตือน</string>
+
+    <string name="follow_artist_push_notification_permission_alert_cancel">ยกเลิก</string>
+
+    <string name="notifications_manager_push_off_title">ไม่มีการเปิดใช้งานการแจ้งเตือน</string>
+
+    <string name="notifications_manager_push_off_message_ios">เปิดใช้งาน ไปที่:\nการตั้งค่า iPhone &gt; การแจ้งเตือน &gt; Audiomack</string>
+
+    <string name="notifications_manager_push_off_message_android">เปิดใช้งาน ไปที่:\nการตั้งค่าอุปกรณ์ &gt; แอปและการแจ้งเตือน &gt; Audiomack &gt; การแจ้งเตือน</string>
+
+    <string name="sleep_timer_notification_button">ไป</string>
+
+    <string name="sleep_timer_notification_title">ปลดล็อกตัวตั้งเวลาหยุดแบบพรีเมียม</string>
+
+    <string name="sleep_timer_notification_subtitle">ตั้งค่าหยุดเล่นเพลงเพื่อที่จะได้หลับพักผ่อนอย่างไร้กังวลเรื่องแอปในยามค่ำคืนได้ในการตั้งค่า</string>
+
+    <string name="sleep_timer_notification_premium_title">คุณปลดล็อกตัวตั้งเวลาหยุดแล้ว</string>
+
+    <string name="sleep_timer_notification_premium_subtitle">ตั้งหยุดเล่นเพลงหลังจากที่คุณเผลอหลับได้ในการตั้งค่า</string>
+
+    <string name="NSLocalNetworkUsageDescription">Audiomack ใช้เครือข่ายภายในในการค้นหาอุปกรณ์ที่รองรับแคสในวง WiFi ของคุณ</string>
+
+    <string name="notifications_manager_verified_playlist">เพิ่ม Playlist ที่รับรองแล้ว</string>
+
+    <string name="world_articles_not_found">ไม่พบบทความ</string>
+
+    <string name="world_article_detail_not_found">ไม่พบบทความ</string>
+
+    <string name="accessibility_world_logo">โลโก้โลก</string>
+
+    <string name="splash_message_single">เปิดใช้งานการอนุญาตต่อไปนี้เพื่อประสบการณ์การใช้งานที่ดีที่สุด:</string>
+
+    <string name="splash_location_message_new">แสดงเพลงฮิต ชาร์ตเพลงยอดนิยมและเพลงที่ถูกค้นหาในพื้นที่ใกล้เคียง</string>
+
+    <string name="accessibility_logo">ไอคอน Audiomack</string>
+
+    <string name="widget_gallery_title">กดที่ เล่น</string>
+
+    <string name="widget_gallery_subtitle">ฟังเพลงโปรดเพลงล่าสุดที่บันทึกไว้</string>
+
+    <string name="widget_placeholder_title">Audiomack</string>
+
+    <string name="premium_only_streaming_alert_title">แทร็กนี้สำหรับพรีเมียมเท่านั้น</string>
+
+    <string name="premium_only_streaming_alert_message">เปลี่ยนไปใช้ Audiomack พรีเมียมเพื่อสตรีมแทร็กโดยตรงบนแอปพร้อมดาวน์โหลดแบบไร้ขีดจำกัดและอื่นๆอีกมากมาย!</string>
+
+    <string name="premium_only_streaming_alert_premium">เปลี่ยนเป็นพรีเมียม</string>
+
+    <string name="premium_only_streaming_alert_cancel">ยกเลิก</string>
+
+    <string name="toast_play_album_deleted_tracks_header">เพลงเหล่านี้ไม่ได้รับการดาวน์โหลดทุกเพลง</string>
+
+    <string name="toast_play_album_deleted_tracks_subheader">ในการบันทึกข้อมูลจะมีเพียงแทร็กออฟไลน์เท่านั้นที่อยู่ในคิว</string>
+
+    <string name="feed_suggested_accounts">บัญชีที่แนะนำ</string>
+
+    <string name="feed_suggested_accounts_view_all">ดูทั้งหมด</string>
+
+    <string name="feed_new_music_description">เพลงใหม่จากคนที่คุณติดตามจะแสดงที่นี่</string>
+
+    <string name="feed_follow_suggested_description">คุณเริ่มได้โดยการติดตามจากรายชื่อศิลปินที่แนะนำด้านบน</string>
+
+    <string name="feed_social_feed">ฟีด</string>
+
+    <string name="NSPhotoLibraryUsageDescription">แอปจำเป็นต้องเข้าถึงคลังภาพเพื่อใช้ในการเลือกรูปภาพที่จะใช้เป็นภาพโพรไฟล์</string>
+
+    <string name="NSCameraUsageDescription">แอปจำเป็นต้องเข้าถึงกล้องเพื่อใช้ในการถ่ายภาพที่จะใช้เป็นภาพโพร์ไฟล์</string>
+
+    <string name="settings_change_password">เปลี่ยนรหัสผ่าน</string>
+
+    <string name="update_password_success">อัปเดตรหัสผ่านเรียบร้อยแล้ว</string>
+
+    <string name="update_password_title">อัปเดตรหัสผ่าน</string>
+
+    <string name="update_password_current">รหัสผ่านปัจจุบัน</string>
+
+    <string name="update_password_new">รหัสผ่านใหม่</string>
+
+    <string name="update_password_confirm">ยืนยันรหัสผ่าน</string>
+
+    <string name="update_password_forgot">ลืมรหัสผ่าน?</string>
+
+    <string name="update_password_save">อัปเดตรหัสผ่าน</string>
+
+    <string name="reset_password_invalid_token_title">ลิงค์รีเซ็ตรหัสผ่านขัดข้อง</string>
+
+    <string name="reset_password_invalid_token_message">เกิดความผิดพลาดในการตรวจสอบความถูกต้องในลิงค์รีเซ็ตรหัสผ่าน อาจเกิดจากลิงค์หมดอายุ โปรดกลับไปที่ส่วน ลืมรหัสผ่านเพื่อเข้าลิงค์ใหม่อีกครั้ง</string>
+
+    <string name="reset_password_title">ตั้งรหัสผ่านใหม่</string>
+
+    <string name="reset_password_subtitle">ป้อนรหัสผ่านใหม่</string>
+
+    <string name="reset_password_new">รหัสผ่านใหม่</string>
+
+    <string name="reset_password_confirm">ยืนยันรหัสผ่าน</string>
+
+    <string name="reset_password_reset">ตั้งรหัสผ่านใหม่</string>
+
+    <string name="reset_password_success">ตั้งรหัสผ่านใหม่เรียบร้อยแล้ว!</string>
+
+    <string name="word_article_webview_updating_error">กำลังอัปเดตการบริการบางส่วน โปรดลองอีกครั้ง</string>
+
+    <string name="local_file">ไฟล์ในเครื่อง</string>
+
+    <string name="local_file_selection_apply">บันทึกการเปลี่ยนแปลง</string>
+
+    <string name="local_file_selection_applied">บันทึกไฟล์ที่เลือกแล้ว</string>
+
+    <string name="local_file_selection_permissions_rationale">Audiomack จำเป็นต้องเข้าถึงพื้นที่จัดเก็บข้อมูลเพื่อเข้าถึงไฟล์สื่อในเครื่อง</string>
+
+    <string name="local_file_selection_empty">ไม่พบไฟล์สื่อในเครื่อง</string>
+
+    <string name="offline_filter_files_select">เลือกไฟล์</string>
+
+    <string name="options_hide_track">ซ่อนแทร็ก</string>
+
+    <string name="options_hide_album">ซ่อนอัลบัม</string>
+
+    <string name="uploads_filter_popular">นิยมสูงสุด</string>
+
+    <string name="uploads_filter_recent">ใหม่มากที่สุด</string>
+
+</resources>

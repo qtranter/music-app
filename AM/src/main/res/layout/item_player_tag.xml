@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.audiomack.views.AMCustomFontTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvTag"
+    android:layout_width="wrap_content"
+    android:layout_height="28dp"
+    android:fontFamily="@font/opensans_bold"
+    android:background="@drawable/bg_player_tag"
+    android:gravity="center"
+    tools:text="#HELLO"
+    android:layout_margin="4dp"
+    android:textColor="@android:color/white"
+    android:textSize="13sp"
+    app:customletterspacing="-0.6"
+    tools:ignore="SpUsage" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/audiomack_widget"
+    android:initialLayout="@layout/audiomack_widget"
+    android:minWidth="240dp"
+    android:minResizeWidth="180dp"
+    android:maxHeight="40dp"
+    android:minHeight="40dp"
+    android:previewImage="@drawable/widget_preview_image"
+    android:resizeMode="horizontal"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen">
+</appwidget-provider>
+

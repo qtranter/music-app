@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="topLeftRadius" format="dimension" />
+        <attr name="topRightRadius" format="dimension" />
+        <attr name="bottomLeftRadius" format="dimension" />
+        <attr name="bottomRightRadius" format="dimension" />           
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="round_background" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="fixedAspectRatio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="com.nexage.android.NexageAdView">
+        <attr name="refreshInterval" format="integer" />
+        <attr name="position" format="string"/>
+        <attr name="animation" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomFont">
+        <attr name="customletterspacing" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="AMCircularProgressView">
+        <attr name="amcpv_progress" format="float" />
+        <attr name="amcpv_maxProgress" format="float" />
+        <attr name="amcpv_animDuration" format="integer" />
+        <attr name="amcpv_animSwoopDuration" format="integer" />
+        <attr name="amcpv_animSyncDuration" format="integer" />
+        <attr name="amcpv_color" format="color"/>
+        <attr name="amcpv_thickness" format="dimension"/>
+        <attr name="amcpv_indeterminate" format="boolean" />
+        <attr name="amcpv_animAutostart" format="boolean" />
+        <attr name="amcpv_animSteps" format="integer" />
+        <attr name="amcpv_startAngle" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="AMNowPlayingImageView">
+        <attr name="amnpi_style">
+            <enum name="orange" value="0"/>
+            <enum name="white" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SongActionButton">
+        <attr name="type" format="enum">
+            <enum name="favorite" value="0" />
+            <enum name="addToPlaylist" value="1" />
+            <enum name="rePost" value="2" />
+            <enum name="download" value="3" />
+            <enum name="share" value="4" />
+            <enum name="edit" value="5" />
+        </attr>
+        <attr name="showCaption" format="boolean" />
+    </declare-styleable>
+</resources>

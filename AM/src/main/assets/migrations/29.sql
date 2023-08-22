@@ -1,0 +1,2 @@
+ALTER TABLE artists ADD COLUMN youtube TEXT;
+ALTER TABLE artists ADD COLUMN playsCount INTEGER;

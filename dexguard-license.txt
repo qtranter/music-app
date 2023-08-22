@@ -1,0 +1,10 @@
+# DexGuard license file
+licensee              = Audiomack
+contact               =  
+contactEmail          = dev@audiomack.com
+product               = DexGuard
+version               = 7.*,8.*,9.*
+package               = com.audiomack
+expiryDate            = 2021-05-01
+maintenanceExpiryDate = 2021-05-01
+key                   = 215abe9b11efbf4a66e28714be15408cd224ad8158100884c5231ee998cb18d0e446c46b947c03ad194ad14ba6f22cf4d1e46907a69f0be7bf20620a477e3fed

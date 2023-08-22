@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <com.audiomack.views.AMRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <LinearLayout
+        android:id="@+id/upperLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="55dp">
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvPlaylistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:customletterspacing="-0.5"
+            tools:text="Playlist Title\nOn 2 lines" />
+
+        <LinearLayout
+            android:id="@+id/viewUploader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:orientation="horizontal">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvUploadedBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_regular"
+                android:maxLines="1"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                app:customletterspacing="-0.43"
+                tools:text="By -" />
+
+            <ImageView
+                android:id="@+id/imageViewUploadedByVerified"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ic_verified" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <View
+                android:id="@+id/leftView"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@drawable/artists_onboarding_playlist_button_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonPlayAll"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:background="@null"
+                android:drawableStart="@drawable/artists_onboarding_playlist_play"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:text="@string/artists_onboarding_playlist_play_all"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                app:customletterspacing="-0.63"
+                app:layout_constraintBottom_toBottomOf="@id/leftView"
+                app:layout_constraintEnd_toEndOf="@id/leftView"
+                app:layout_constraintStart_toStartOf="@id/leftView"
+                app:layout_constraintTop_toTopOf="@id/leftView" />
+
+            <View
+                android:id="@+id/rightView"
+                android:layout_width="152dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:background="@drawable/artists_onboarding_playlist_button_bg"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonShuffle"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:background="@null"
+                android:drawableStart="@drawable/artists_onboarding_playlist_shuffle"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_bold"
+                android:maxLines="1"
+                android:padding="0dp"
+                android:text="@string/artists_onboarding_playlist_shuffle"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                app:customletterspacing="-0.63"
+                app:layout_constraintBottom_toBottomOf="@id/rightView"
+                app:layout_constraintEnd_toEndOf="@id/rightView"
+                app:layout_constraintStart_toStartOf="@id/rightView"
+                app:layout_constraintTop_toTopOf="@id/rightView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/shadowImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/album_shadow"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#222222"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <LinearLayout
+            android:id="@+id/leftContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal">
+
+            <com.audiomack.views.AMImageButton
+                android:id="@+id/buttonBack"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@string/accessibility_back"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_back_button" />
+
+        </LinearLayout>
+
+        <com.audiomack.views.AMCustomFontTextView
+            android:id="@+id/tvPlaylistNameTop"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="90dp"
+            android:layout_marginEnd="90dp"
+            android:alpha="0"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:customletterspacing="-0.5"
+            tools:text="Taylor Wise" />
+
+        <LinearLayout
+            android:id="@+id/rightContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal">
+
+            <com.audiomack.ui.player.full.view.SongActionButton
+                android:id="@+id/actionFavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:minWidth="@dimen/album_buttons_size"
+                app:showCaption="false"
+                app:type="favorite" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        app:civ_border_color="#2B2B2B"
+        app:civ_border_width="1dp"
+        tools:src="#ff0000" />
+
+    <ImageView
+        android:id="@+id/avatarVerifiedImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="53dp"
+        android:scaleType="centerInside"
+        tools:srcCompat="@drawable/ic_tastemaker" />
+
+</FrameLayout>

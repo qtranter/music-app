@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.audiomack.views.AMViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1C1C1C"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/navbar_height"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp">
+
+            <LinearLayout
+                android:id="@+id/leftContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal">
+
+                <com.audiomack.views.AMImageButton
+                    android:id="@+id/leftButton"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_back_button" />
+
+            </LinearLayout>
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvTopTitle"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginEnd="70dp"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                app:customletterspacing="-0.44"
+                tools:text="Taylor Wise" />
+
+            <LinearLayout
+                android:id="@+id/rightContainer"
+                android:layout_width="30dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="12dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <com.audiomack.views.AMCustomFontEditText
+                android:id="@+id/etSearch"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/search_background"
+                android:drawableStart="@drawable/search_left_icon"
+                android:drawablePadding="7dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:hint="@string/library_search_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="text|textNoSuggestions|textVisiblePassword"
+                android:paddingStart="9dp"
+                android:paddingEnd="36dp"
+                android:textColor="#ffffff"
+                android:textColorHint="#999999"
+                android:textSize="13sp"
+                app:customletterspacing="-0.43" />
+
+            <com.audiomack.views.AMImageButton
+                android:id="@+id/buttonClearSearch"
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="-36dp"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/search_clear" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonCancel"
+                android:layout_width="wrap_content"
+                android:minWidth="77dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:fontFamily="@font/opensans_regular"
+                android:text="@string/library_search_cancel"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                app:customletterspacing="-0.44" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/tabLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="bottom"
+                android:background="#2B2B2B" />
+
+            <com.audiomack.views.AMCustomTabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:clipToPadding="false"
+                app:tabIndicatorColor="@color/orange"
+                app:tabIndicatorHeight="3dp"
+                app:tabMode="scrollable"
+                app:tabPaddingBottom="10dp"
+                app:tabSelectedTextColor="@color/tablayout_dark_selected_textcolor"
+                app:tabTextAppearance="@style/TabLayoutDarkTextAppearance"
+                app:tabTextColor="@color/tablayout_dark_unselected_textcolor" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

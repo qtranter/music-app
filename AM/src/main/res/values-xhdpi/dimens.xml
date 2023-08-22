@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_action_size">64dp</dimen>
+
+    <dimen name="album_buttons_size">48dp</dimen>
+    <dimen name="album_buttons_spacing">0dp</dimen>
+    <dimen name="album_buttons_container_padding">8dp</dimen>
+
+    <dimen name="player_btn_play_size">72dp</dimen>
+    <dimen name="player_text_meta_large">20sp</dimen>
+    <dimen name="player_text_meta_small">15sp</dimen>
+    <dimen name="player_art_padding_top">8dp</dimen>
+    <dimen name="song_action_button_margin">16dp</dimen>
+</resources>

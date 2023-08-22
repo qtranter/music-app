@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="64dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tv_new_music_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_feed_empty_timeline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tv_new_music_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/tv_follow_suggest_desc"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/feed_new_music_description"
+        android:fontFamily="@font/opensans_bold"
+        app:customletterspacing="-0.5"
+        android:lineSpacingMultiplier="1.33" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tv_follow_suggest_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_new_music_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#CACACA"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/feed_follow_suggested_description"
+        android:fontFamily="@font/opensans_regular"
+        app:customletterspacing="-0.47"
+        android:lineSpacingMultiplier="1.33"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

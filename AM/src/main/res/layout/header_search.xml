@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/opensans_extrabold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        app:customletterspacing="-0.6"
+        tools:text="MOST POPULAR" />
+
+    <ImageButton
+        android:id="@+id/buttonFilters"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/search_filter" />
+
+</FrameLayout>

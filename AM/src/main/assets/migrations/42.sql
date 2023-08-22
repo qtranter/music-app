@@ -1,0 +1,2 @@
+ALTER TABLE artists ADD COLUMN birthday TEXT;
+ALTER TABLE artists ADD COLUMN gender TEXT;

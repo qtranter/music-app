@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/audioAdContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6000000"
+    android:clickable="true"
+    android:padding="24dp"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <ImageView
+        android:id="@+id/audioAdLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/ic_logo_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/audioAdDefaultCompanionBg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="@drawable/bg_border_gray"
+        app:layout_constraintBottom_toBottomOf="@id/audioAdLogo"
+        app:layout_constraintLeft_toLeftOf="@id/audioAdLogo"
+        app:layout_constraintRight_toRightOf="@id/audioAdLogo"
+        app:layout_constraintTop_toTopOf="@id/audioAdLogo"
+        app:srcCompat="@drawable/bg_audio_ad_companion"
+        tools:ignore="UnusedAttribute" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdDefaultCompanionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/premium_2019_title"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        app:customletterspacing="-0.58"
+        app:layout_constraintEnd_toEndOf="@id/audioAdDefaultCompanionBg"
+        app:layout_constraintStart_toStartOf="@id/audioAdDefaultCompanionBg"
+        app:layout_constraintTop_toTopOf="@id/audioAdDefaultCompanionBg" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdDefaultCompanionLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="start|center_vertical"
+        android:includeFontPadding="false"
+        android:minHeight="28dp"
+        android:text="@string/premium_2019_adfree"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.34"
+        app:drawableStartCompat="@drawable/ic_premium_ads_small"
+        app:layout_constraintBottom_toTopOf="@id/audioAdDefaultCompanionLine2"
+        app:layout_constraintStart_toStartOf="@id/audioAdDefaultCompanionTitle"
+        app:layout_constraintTop_toBottomOf="@id/audioAdDefaultCompanionTitle"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdDefaultCompanionLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="start|center_vertical"
+        android:includeFontPadding="false"
+        android:minHeight="28dp"
+        android:text="@string/premium_2019_playlist"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.34"
+        app:drawableStartCompat="@drawable/ic_premium_playlists_small"
+        app:layout_constraintBottom_toTopOf="@id/audioAdDefaultCompanionLine3"
+        app:layout_constraintStart_toStartOf="@id/audioAdDefaultCompanionLine1"
+        app:layout_constraintTop_toBottomOf="@id/audioAdDefaultCompanionLine1" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdDefaultCompanionLine3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="start|center_vertical"
+        android:includeFontPadding="false"
+        android:minHeight="28dp"
+        android:text="@string/premium_2019_advanced"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.34"
+        app:drawableStartCompat="@drawable/ic_premium_other_small"
+        app:layout_constraintBottom_toTopOf="@id/audioAdDefaultCompanionBtn"
+        app:layout_constraintStart_toStartOf="@id/audioAdDefaultCompanionLine1"
+        app:layout_constraintTop_toBottomOf="@id/audioAdDefaultCompanionLine2" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/audioAdDefaultCompanionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/bg_btn_premium_ad"
+        android:fontFamily="@font/opensans_bold"
+        android:minHeight="32dp"
+        android:text="@string/premium_2019_start_trial"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.72"
+        app:layout_constraintBottom_toBottomOf="@id/audioAdDefaultCompanionBg"
+        app:layout_constraintEnd_toEndOf="@id/audioAdDefaultCompanionBg"
+        app:layout_constraintStart_toStartOf="@id/audioAdDefaultCompanionBg" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/audioAdDefaultCompanion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="audioAdDefaultCompanionBg,audioAdDefaultCompanionTitle,audioAdDefaultCompanionLine1,audioAdDefaultCompanionLine2,audioAdDefaultCompanionLine3,audioAdDefaultCompanionBtn" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdDisclosure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/audio_ad_advertisement"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
+        app:customletterspacing="-0.39"
+        app:layout_constraintBottom_toTopOf="@id/audioAdCountdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.39"
+        app:layout_constraintBottom_toTopOf="@id/audioAdLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/audio_ad_now_playing_info_artist" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/audioAdUpsell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/audio_ad_support_artists"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/audioAdLogo" />
+
+    <com.ad.core.companion.AdCompanionView
+        android:id="@+id/audioAdCompanionView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/audioAdLogo"
+        app:layout_constraintLeft_toLeftOf="@id/audioAdLogo"
+        app:layout_constraintRight_toRightOf="@id/audioAdLogo"
+        app:layout_constraintTop_toTopOf="@id/audioAdLogo"
+        tools:background="@color/transparent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

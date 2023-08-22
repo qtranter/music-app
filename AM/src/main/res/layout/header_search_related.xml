@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvHeaderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        app:customletterspacing="-0.6"
+        tools:text="We don\'t have music matching Nirvana" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvHeaderSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:gravity="center"
+        android:textColor="#CACACA"
+        android:textSize="13sp"
+        app:customletterspacing="-0.5"
+        tools:text="Here are some similar artists you might enjoy." />
+
+</LinearLayout>

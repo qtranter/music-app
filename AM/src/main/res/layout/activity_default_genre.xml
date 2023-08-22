@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:ignore="HardcodedText,RtlSymmetry">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="#1C1C1C"
+        android:fontFamily="@font/opensans_extrabold"
+        android:gravity="center"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp"
+        android:text="@string/defaultgenre_title"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:customletterspacing="-0.89"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.audiomack.views.AMImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="40dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="5dp"
+        android:background="@null"
+        android:contentDescription="@string/accessibility_back"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_button" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTopTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvAll"
+                style="@style/DefaultGenreTextView"
+                android:layout_marginTop="10dp"
+                android:text="All Genres" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvRnb"
+                style="@style/DefaultGenreTextView"
+                android:text="R&amp;B" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvReggae"
+                style="@style/DefaultGenreTextView"
+                android:text="Reggae" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvAfrobeats"
+                style="@style/DefaultGenreTextView"
+                android:text="Afrobeats" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvInstrumentals"
+                style="@style/DefaultGenreTextView"
+                android:text="Instrumentals" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvHipHopRap"
+                style="@style/DefaultGenreTextView"
+                android:text="Hip-Hop / Rap" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvElectronic"
+                style="@style/DefaultGenreTextView"
+                android:text="Electronic" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvLatin"
+                style="@style/DefaultGenreTextView"
+                android:text="Latin" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvPop"
+                style="@style/DefaultGenreTextView"
+                android:text="Pop" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvPodcast"
+                style="@style/DefaultGenreTextView"
+                android:layout_marginBottom="15dp"
+                android:text="Podcast" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

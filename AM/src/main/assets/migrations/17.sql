@@ -1,0 +1,1 @@
+ALTER TABLE bookmarked_items ADD COLUMN amp boolean DEFAULT FALSE;

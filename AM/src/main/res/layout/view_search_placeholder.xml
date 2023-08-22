@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="50dp"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp"
+            tools:src="#777777" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="43dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/library_search_badge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:orientation="vertical">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="center"
+                android:textColor="#CACACA"
+                android:textSize="16sp"
+                app:customletterspacing="-0.53"
+                tools:text="@string/library_search_noresults_placeholder" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/cta"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/popup_rounded_button"
+                android:fontFamily="@font/opensans_bold"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:gravity="center"
+                android:text="@string/library_search_noresults_cta"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                app:customletterspacing="-0.72" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="SpUsage">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#202020" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical|start"
+            android:layout_marginEnd="8dp"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#202020"
+            tools:src="@color/black" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:id="@+id/tvUploader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/opensans_bold"
+                app:customletterspacing="-0.39"
+                tools:text="ZaytovenBeatz" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:id="@+id/tvFollowers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:gravity="center"
+                    android:ellipsize="end"
+                    android:textSize="13sp"
+                    android:textColor="@color/orange"
+                    android:fontFamily="@font/opensans_semibold"
+                    app:customletterspacing="-0.51"
+                    tools:text="12,332" />
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:ellipsize="end"
+                    android:textSize="13sp"
+                    android:textColor="@color/gray_text"
+                    android:text="@string/artist_followers"
+                    app:customletterspacing="-0.59"
+                    android:fontFamily="@font/opensans_regular" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.audiomack.views.AMCustomFontButton
+            android:id="@+id/buttonFollow"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            tools:text="@string/artistinfo_follow"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/opensans_bold"
+            android:background="@drawable/profile_header_follow_bg"
+            app:customletterspacing="-0.67"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:paddingRight="15dp"
+            android:paddingEnd="15dp"
+            style="?android:attr/borderlessButtonStyle" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#202020" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_bold"
+        android:text="@string/musicinfo_tags"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        app:customletterspacing="-0.54" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/recyclerViewTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_player_tag"
+        tools:itemCount="4" />
+
+    <View
+        android:id="@+id/tagsSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#202020" />
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="UnusedAttribute">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="9dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_login_logo" />
+
+            <com.audiomack.views.AMCustomFontTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/opensans_extrabold"
+                android:gravity="center_horizontal"
+                android:text="@string/login_header"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                app:customletterspacing="-0.65" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginBottom="@dimen/fields_vertical_margin">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:labelFor="@id/etEmailLayout"
+                    android:text="@string/login_email"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    app:customletterspacing="-0.65" />
+
+                <com.audiomack.views.AMEmailAutocompleteEditTextLayout
+                    android:id="@+id/etEmailLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="13dp"
+                    android:autofillHints="emailAddress"
+                    android:background="@null"
+                    android:importantForAutofill="yesExcludeDescendants" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:background="#4Cffffff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+
+                <com.audiomack.views.AMCustomFontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/opensans_bold"
+                    android:labelFor="@id/etPassword"
+                    android:text="@string/login_password"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    app:customletterspacing="-0.65" />
+
+                <com.audiomack.views.AMCustomFontEditText
+                    android:id="@+id/etPassword"
+                    style="@style/LoginSignupEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="-8dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="30dp"
+                    android:autofillHints="password"
+                    android:fontFamily="@font/opensans_regular"
+                    android:inputType="textPassword" />
+
+                <ImageButton
+                    android:id="@+id/buttonShowPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginTop="6dp"
+                    android:background="#00000000"
+                    android:contentDescription="@string/accessibility_show_hide_password"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_password_show" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="bottom"
+                    android:background="#4Cffffff" />
+            </FrameLayout>
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonForgotPassword"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="6dp"
+                android:background="@null"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="end|center_vertical"
+                android:padding="6dp"
+                android:text="@string/login_forgot_password"
+                android:textAllCaps="false"
+                android:textColor="@color/orange"
+                android:textSize="12sp"
+                app:customletterspacing="-0.46" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonLogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/splash_rounded_button"
+                android:contentDescription="@string/login_cta"
+                android:fontFamily="@font/opensans_bold"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/login_cta"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                app:customletterspacing="-0.72" />
+
+            <com.audiomack.views.AMCustomFontButton
+                android:id="@+id/buttonTOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:contentDescription="@string/login_tos"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/login_tos"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:customletterspacing="-0.46" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvCantLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="@string/signup_cant_login"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:customletterspacing="-0.54" />
+
+</LinearLayout>

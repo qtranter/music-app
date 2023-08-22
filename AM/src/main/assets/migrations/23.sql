@@ -1,0 +1,1 @@
+ALTER TABLE bookmarked_items ADD COLUMN uploader_followed BOOLEAN;

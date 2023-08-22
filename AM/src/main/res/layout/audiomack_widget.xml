@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baseFrame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/widget_margin">
+
+    <ProgressBar
+        android:id="@+id/progressView2"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:backgroundTint="@color/audiowave_grey"
+        android:elevation="1dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressBackgroundTint="@color/transparent"
+        android:progressTint="@color/orange"
+        android:visibility="visible"
+        tools:progress="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/profile_bg"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/song_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/accessibility_song_image"
+            android:src="@drawable/default_song_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/song_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="8dp"
+                android:ellipsize="marquee"
+                android:enabled="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="start"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/left_arrow"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/accessibility_player_prev"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/player_prev_gray" />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false">
+
+                    <ImageView
+                        android:id="@+id/play"
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center_vertical"
+                        android:adjustViewBounds="false"
+                        android:contentDescription="@string/accessibility_player_play_pause"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/album_play_gray"
+                        android:tag="play"
+                        android:visibility="visible" />
+
+                    <ProgressBar
+                        android:id="@+id/indeterminateBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="1dp"
+                        android:elevation="2dp"
+                        android:indeterminate="true"
+                        android:indeterminateDrawable="@drawable/widget_loading_circle"
+                        android:scaleType="centerInside"
+                        android:visibility="invisible"
+                        tools:visibility="invisible" />
+
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/right_arrow"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/accessibility_player_next"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/player_next_gray" />
+
+                <ImageView
+                    android:id="@+id/heart"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/accessibility_favorite"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ic_heart_empty_gray" />
+
+                <ImageView
+                    android:id="@+id/reup"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/accessibility_repost"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/player_reup_off_gray" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

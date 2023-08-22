@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="50dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        tools:srcCompat="@drawable/ic_empty_feed" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/opensans_semibold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        app:customletterspacing="-0.41"
+        tools:text="Lorem Ipsum Dolor\nLorem Ipsum Dolor\nLorem Ipsum Dolor" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/cta"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/popup_rounded_button"
+        android:fontFamily="@font/opensans_bold"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        app:customletterspacing="-0.72"
+        tools:text="LOREM IPSUM DOLOR" />
+
+</LinearLayout>

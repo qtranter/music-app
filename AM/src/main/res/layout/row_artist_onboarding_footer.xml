@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="91dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvFooter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/artists_onboarding_footer"
+        android:textColor="@color/orange"
+        android:textSize="13sp"
+        app:customletterspacing="-0.5" />
+
+</FrameLayout>

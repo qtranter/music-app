@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="194dp"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:scaleType="centerCrop"
+        app:civ_border_color="#1Affffff"
+        app:civ_border_width="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@color/toolbar_bg" />
+
+    <ImageView
+        android:id="@+id/imageViewBadge"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="@id/imageView"
+        tools:srcCompat="@drawable/ic_verified"
+        tools:visibility="visible" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvArtist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/opensans_bold"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        app:customletterspacing="-0.5"
+        app:layout_constraintEnd_toEndOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        tools:text="Lexley Adesanya" />
+
+    <com.audiomack.views.AMCustomFontTextView
+        android:id="@+id/tvFollowers"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/opensans_regular"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.60"
+        android:maxLines="1"
+        android:textColor="#CACACA"
+        android:textSize="10sp"
+        app:customletterspacing="-0.45"
+        app:layout_constraintEnd_toEndOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/tvArtist"
+        tools:ignore="SmallSp"
+        tools:text="2095 Followers" />
+
+    <com.audiomack.views.AMCustomFontButton
+        android:id="@+id/buttonFollow"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/profile_header_follow_bg"
+        android:contentDescription="@string/options_follow"
+        android:fontFamily="@font/opensans_bold"
+        android:maxLines="1"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/artistinfo_follow"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        app:customletterspacing="-0.67"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
