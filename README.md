@@ -1,4 +1,4 @@
-# Audiomack
+# MusicApp
 
 ![Build Status](https://app.bitrise.io/app/a7c71d187e4fda61/status.svg?token=7oMETppjsU5o3mqsn7QQkA&branch=development) [![codecov](https://codecov.io/gh/audiomack/audiomack-android/branch/development/graph/badge.svg?token=UktL09wA18)](https://codecov.io/gh/audiomack/audiomack-android)
 
